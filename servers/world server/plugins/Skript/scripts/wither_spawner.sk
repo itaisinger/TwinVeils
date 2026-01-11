@@ -1,0 +1,158 @@
+options:
+    safe_radius: 15
+    wither_start: 00:00
+    wither_end: 23:50
+
+# --- 1. Setup Data ---
+on load:
+    delete {regions::*}
+    delete {safe_spots::*}
+    delete {wither::*} 
+    
+    # --- FILL THESE IN (Replaced blanks with 0) ---
+    # Format: "MinX, MaxX, MinZ, MaxZ"
+    set {regions::0} to "0,100,0,100"
+    set {regions::1} to "0,100,100,200"
+    set {regions::2} to "100,200,0,100"
+
+    # Safe Spots (I put 0, 0 as default. CHANGE THESE)
+    set {safe_spots::0} to location(0, 100, 0, world "world") 
+    set {safe_spots::1} to location(100, 100, 100, world "world")
+    
+    set {wither_system_active} to true
+    set {wither_debug_active} to true
+
+# --- 2. Manual Toggle Command ---
+command /witherstorm_debug <text>:
+    permission: op
+    trigger:
+        if arg-1 is "true":
+            set {wither_debug_active} to true
+            send "&a&l[Wither Storm] debug ENABLED."
+        else if arg-1 is "false":
+            set {wither_debug_active} to false
+            loop {wither::*}:
+                teleport loop-value to location(0, -500, 0, world "world")
+            delete {wither::*}
+            send "&c&l[Wither Storm] debug DISABLED and cleared."
+        else:
+            send "&eUsage: /witherstorm_debug <true/false>"
+
+# --- 2. Manual Toggle Command ---
+command /witherstorm <text>:
+    permission: op
+    trigger:
+        if arg-1 is "true":
+            set {wither_system_active} to true
+            send "&a&l[Wither Storm] System ENABLED."
+        else if arg-1 is "false":
+            set {wither_system_active} to false
+            loop {wither::*}:
+                teleport loop-value to location(0, -500, 0, world "world")
+            delete {wither::*}
+            send "&c&l[Wither Storm] System DISABLED and cleared."
+        else:
+            send "&eUsage: /witherstorm <true/false>"
+
+# --- 3. Wither Spawn Function ---
+function spawn_wither(p: player, id: text):
+    spawn wither at {_p}
+    set {_w} to last spawned wither
+    add "storm" to scoreboard tags of {_w}
+    add "region_%{_id}%" to scoreboard tags of {_w}
+    set {wither::%{_id}%} to {_w} 
+    send "&c&lSTORM INCOMING..." to {_p}
+
+# --- 4. Main Loop ---
+every 1 second:
+    
+    if {wither_debug_active} is on:
+        broadcast ""
+    
+    if {wither_system_active} is not true:
+        broadcast "witherstorm inactive"
+        stop
+        
+    set {_time} to time of world "world"
+    if {wither_debug_active} is on:
+        broadcast "time: %{_time}%"
+
+    # Check Time Window
+    if {_time} is between {@wither_start} and {@wither_end}:
+        if {wither_debug_active} is on:
+            broadcast "its wither time!"
+        
+        loop {regions::*}:
+            set {_regID} to loop-index
+            set {_coords::*} to loop-value split at ","
+            set {_xMin} to {_coords::1} parsed as number
+            set {_xMax} to {_coords::2} parsed as number
+            set {_zMin} to {_coords::3} parsed as number
+            set {_zMax} to {_coords::4} parsed as number
+
+            # Check if Wither is alive/valid
+            set {_witherExists} to false
+            if {wither::%{_regID}%} is set:
+                if {wither::%{_regID}%} is alive:
+                    set {_witherExists} to true
+                else:
+                    delete {wither::%{_regID}%}
+
+            # Check Players
+            set {_playerInRegion} to 0
+            set {_targetPlayer} to -1
+            loop all players:
+                set {_px} to x-coord of loop-player
+                set {_pz} to z-coord of loop-player
+
+                if {wither_debug_active} is on:
+                    broadcast "checking for player %loop-player% is in within region: %{_regID}%.."
+                    # broadcast "checking for player %loop-player% is in within region: %{_xMin}%,%{_xMax}% and %{_zMin}%,%{_zMax}%.."
+
+                if {_px} is between {_xMin} and {_xMax}:
+                    if {_pz} is between {_zMin} and {_zMax}:
+                        # add 1 to {_playerInRegion}
+                        
+                        if {wither_debug_active} is on:
+                            broadcast "player %loop-player% is in region %{_regID}%!"
+                        
+                        # Check Safety
+                        set {_isSafe} to false
+                        loop {safe_spots::*}:
+                            set {_spot} to loop-value-3
+                            set y-coord of {_spot} to y-coord of loop-player
+                            set {_x} to x-coord of {_spot}
+                            set {_z} to z-coord of {_spot}
+
+                            if {wither_debug_active} is on:
+                                broadcast "checking for save spot: %{_x}%,%{_z}%"
+                            if distance between loop-player and {_spot} <= {@safe_radius}:
+                                set {_isSafe} to true
+                                if {wither_debug_active} is on:
+                                    # broadcast "player %loop-player% is safe withing enclosure!"
+                                    broadcast "player %loop-player% is safe withing enclosure %loop-index-1%!"
+                        #end of safe spots loop
+                        if {_isSafe} is false:
+                            add 1 to {_playerInRegion}
+                            set {_targetPlayer} to loop-player
+            #end of player loop                            
+            if {wither_debug_active} is on:
+                broadcast "number of players in zone %loop-index-1%: %{_playerInRegion}%"
+
+            if {_playerInRegion} > 0:
+                if {_witherExists} is false:
+                    spawn_wither({_targetPlayer}, {_regID})
+                    set {_witherExists} to true 
+                    if {wither_debug_active} is on:
+                        broadcast "spawning wither at %loop-index-1%"
+            # Despawn if Region Empty
+            if {_playerInRegion} is 0:
+                if {_witherExists} is true:
+                    teleport {wither::%{_regID}%} to location(0, -500, 0, world "world")
+                    delete {wither::%{_regID}%}
+
+    # Night Time Cleanup
+    else:
+        loop {wither::*}:
+            teleport loop-value to location(0, -500, 0, world "world")
+        delete {wither::*}
