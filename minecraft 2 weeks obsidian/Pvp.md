@@ -1,0 +1,1 @@
+there may be insensitives to engage in pvp, but it will be far from the normal way to engage.

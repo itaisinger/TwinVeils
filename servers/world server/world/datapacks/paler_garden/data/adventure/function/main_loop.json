@@ -1,0 +1,11 @@
+# 1. Create the timer objective if it doesn't exist
+scoreboard objectives add ghast_timer dummy
+
+# 2. Add 1 to the timer
+scoreboard players add global ghast_timer 1
+
+# 3. Every 400 ticks (20 seconds), try to spawn a Ghast
+execute if score global ghast_timer matches 400.. run function adventure:spawn_ghast
+
+# 4. Reset the timer if it hit the limit
+execute if score global ghast_timer matches 400.. run scoreboard players set global ghast_timer 0

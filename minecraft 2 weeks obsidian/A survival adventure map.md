@@ -1,0 +1,1 @@
+maze runner is a survival adventure map, meaning that the players will need to use Minecraft’s survival gameplay and mechanics in a non-vanilla environment, navigating the hand crafted map and learning the new features and challenges presented.

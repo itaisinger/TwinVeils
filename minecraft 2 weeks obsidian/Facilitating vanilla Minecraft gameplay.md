@@ -1,0 +1,1 @@
+the map may present new challenges, but overcoming them will always or at least usually be as you would in a vanilla minecraft server. The players will be in survival mode and not adventure, farming will be insensitivized, mining will be needed etc.

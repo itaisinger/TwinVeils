@@ -1,0 +1,45 @@
+on chat:
+    # 1. Stop the message from going to global chat
+    cancel event
+
+    # 2. Check for Friends Chat Team
+    if player has permission "team.friendsChat":
+        # Send formatted message to players with the same permission
+        send "%player%: %message%" to all players where [input has permission "team.friendsChat"]
+        # Log it to console so admins can see
+        send "%player%: %message%" to console
+
+    # 3. Check for Uni Chat Team
+    else if player has permission "team.uniChat":
+        send "%player%: %message%" to all players where [input has permission "team.uniChat"]
+        send "%player%: %message%" to console
+
+    # 4. Fallback for admins/spectators (optional)
+    else:
+        if player is op:
+            send "&7&f%player%: &7%message%" to all players
+        else:
+            send "&cYou are not in a team chat! Please select a team." to player
+
+# -----------------------------------------------------------------------
+# ISOLATED DEATH MESSAGES
+# -----------------------------------------------------------------------
+on death of player:
+    # 1. Capture the original text (e.g. "Player was shot by Skeleton")
+    set {_msg} to death message
+    
+    # 2. Cancel the global broadcast immediately
+    set death message to ""
+
+    # 3. Send the captured message ONLY to the correct team
+    if {_msg} is set:
+        
+        # Friends Team Logic
+        if victim has permission "team.friendsChat":
+            send "&e%{_msg}%" to all players where [input has permission "team.friendsChat"]
+            send "[Death] %{_msg}% (Friends)" to console
+
+        # Uni Team Logic
+        else if victim has permission "team.uniChat":
+            send "&e%{_msg}%" to all players where [input has permission "team.uniChat"]
+            send "[Death] %{_msg}% (Uni)" to console

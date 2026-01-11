@@ -1,0 +1,1 @@
+the adventure map will tell a mystery story via world building and environmental storytelling, but it is not the main focus of the experience, and will be limited to a handful of interactions.

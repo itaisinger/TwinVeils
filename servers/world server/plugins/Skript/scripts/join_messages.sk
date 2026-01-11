@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------
+# ISOLATED JOIN & QUIT MESSAGES
+# -----------------------------------------------------------------------
+
+# 1. HANDLE QUIT MESSAGES
+on quit:
+    # Disable the default yellow text for everyone
+    set quit message to ""
+
+    # Send custom message only to Friends Team
+    if player has permission "team.friendsChat":
+        send "&e%player% left the game" to all players where [input has permission "team.friendsChat"]
+        # Log to console so you still see it
+        send "[Quit] %player% (Friends) left" to console
+
+    # Send custom message only to Uni Team
+    else if player has permission "team.uniChat":
+        send "&e%player% left the game" to all players where [input has permission "team.uniChat"]
+        send "[Quit] %player% (Uni) left" to console
+
+# 2. HANDLE JOIN MESSAGES (Recommended to keep consistency)
+on join:
+    # Disable global join text
+    set join message to ""
+
+    # Send custom message only to Friends Team
+    if player has permission "team.friendsChat":
+        send "&e%player% joined the game" to all players where [input has permission "team.friendsChat"]
+        send "[Join] %player% (Friends) joined" to console
+
+    # Send custom message only to Uni Team
+    else if player has permission "team.uniChat":
+        send "&e%player% joined the game" to all players where [input has permission "team.uniChat"]
+        send "[Join] %player% (Uni) joined" to console

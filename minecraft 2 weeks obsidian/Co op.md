@@ -1,0 +1,1 @@
+it will be a co-op experience, meaning team work shall be rewarded, even if just in the vanilla minecraft way.

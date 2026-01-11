@@ -1,0 +1,40 @@
+# -----------------------------------------------------------------------
+# SERVER LIST ISOLATION (Safe Version)
+# -----------------------------------------------------------------------
+
+# 1. RECORDING THE TEAM
+on join:
+    if player has permission "team.friendsChat":
+        set {ip_team::%ip of player%} to "team.friendsChat"
+    else if player has permission "team.uniChat":
+        set {ip_team::%ip of player%} to "team.uniChat"
+
+# 2. FAKING THE PING
+on server list ping:
+    
+    # Grab the IP
+    set {_pinger_ip} to ip
+
+    # If we know this IP's team:
+    if {ip_team::%{_pinger_ip}%} is set:
+        
+        # Get team permission
+        set {_team_perm} to {ip_team::%{_pinger_ip}%}
+        
+        # Calculate Team Count
+        set {_team_count} to size of players where [input has permission {_team_perm}]
+        
+        # CHANGE THE NUMBER (This works natively!)
+        set online player count to {_team_count}
+        
+        # HIDE HOVER LIST TRICK
+        # Instead of resetting the sample (which caused the error), 
+        # we change the "Version" text. This often disables the hover list 
+        # or makes it look like the server is a custom version.
+        set version string to "&7??? Online"
+
+    else:
+        # UNKNOWN PLAYERS
+        set online player count to 0
+        set motd to "&7Connecting..."
+        set version string to "&7Unknown"

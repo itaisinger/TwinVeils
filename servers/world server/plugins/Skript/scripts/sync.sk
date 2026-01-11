@@ -1,0 +1,17 @@
+# -----------------------------------------------------------------------
+# TEAM SYNC BRIDGE
+# -----------------------------------------------------------------------
+on join:
+    wait 1 second
+
+    # If the player is in LP Group "friends" (which has this permission)
+    if player has permission "team.friendsChat":
+        # Force join the Vanilla Team "friendsChat"
+        execute console command "team join friendsChat %player%"
+        send "[Sync] %player% -> Team friendsChat" to console
+
+    # If the player is in LP Group "uni" (which has this permission)
+    else if player has permission "team.uniChat":
+        # Force join the Vanilla Team "uniChat"
+        execute console command "team join uniChat %player%"
+        send "[Sync] %player% -> Team uniChat" to console

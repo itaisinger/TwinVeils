@@ -1,0 +1,8 @@
+# Iterate over every player in the Pale Garden
+execute as @a at @s if biome ~ ~ ~ minecraft:pale_garden run tag @s add in_pale_garden
+
+# For players in the garden, check if there are less than 2 ghasts nearby
+execute as @a[tag=in_pale_garden] at @s unless entity @e[type=ghast,distance=..50,limit=2] run summon ghast ~ ~25 ~ {PersistenceRequired:0b}
+
+# Clean up tags
+tag @a remove in_pale_garden
