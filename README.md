@@ -1,3 +1,3 @@
 # MinecraftMazeRunner
 a co op adventure map
-[night.png]
+![Night screenshot](night.png)
