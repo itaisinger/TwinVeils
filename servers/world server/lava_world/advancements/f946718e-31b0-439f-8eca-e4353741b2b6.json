@@ -1,0 +1,15 @@
+{
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-01-12 04:22:04 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-01-12 04:22:03 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
+}
