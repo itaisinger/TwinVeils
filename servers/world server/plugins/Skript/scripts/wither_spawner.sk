@@ -160,6 +160,10 @@ every 1 second:
                                     set {_isSafe} to true
                                     if {wither_debug_active} is true:
                                         broadcast "DEBUG: %loop-player% is SAFE near spot %loop-index-1%"
+                                if world of loop-player is "world_nether":
+                                    set {_isSafe} to true
+                                    if {wither_debug_active} is true:
+                                        broadcast "DEBUG: %loop-player% is SAFE in the nether!"
 
                             if {_isSafe} is false:
                                 add 1 to {_playerInRegion}

@@ -1,141 +1,634 @@
-[23:26:28] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-adhoc.Administrator.jdk21u; OpenLogic OpenLogic-OpenJDK) on Windows 11 10.0 (amd64)
-[23:26:28] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[23:26:29] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[23:26:30] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[23:26:30] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[18:06:33] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-adhoc.Administrator.jdk21u; OpenLogic OpenLogic-OpenJDK) on Windows 11 10.0 (amd64)
+[18:06:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[18:06:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:06:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[18:06:39] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[23:26:30] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[18:06:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - BuildPaste (1.11.1), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), WorldEdit (7.4.0-rc-01+f3ecb26c6)
-[23:26:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[23:26:40] [ServerMain/INFO]: Loaded 1470 recipes
-[23:26:40] [ServerMain/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: adventure:main_loop (from file/paler_garden)
-[23:26:40] [ServerMain/INFO]: Loaded 1584 advancements
-[23:26:40] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[23:26:40] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 470.9ms
-[23:26:40] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[23:26:40] [Server thread/INFO]: Loading properties
-[23:26:40] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[23:26:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[23:26:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:26:41] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:26:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
-[23:26:42] [Server thread/INFO]: Default game type: SURVIVAL
-[23:26:42] [Server thread/INFO]: Generating keypair
-[23:26:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:26:42] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[23:26:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[23:26:42] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[23:26:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[23:26:43] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[23:26:43] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0-rc-01+f3ecb26c6
-[23:26:44] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3965aa97]
-[23:26:44] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[23:26:44] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[23:26:44] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[23:26:44] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[23:26:44] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[23:26:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:26:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[23:26:45] [Server thread/INFO]:         __    
-[23:26:45] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[23:26:45] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[23:26:45] [Server thread/INFO]: 
-[23:26:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[23:26:46] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[23:26:46] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[23:26:46] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1608ms)
-[23:26:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0-rc-01+f3ecb26c6
-[23:26:46] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[23:26:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[23:26:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
-[23:26:47] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[23:26:47] [Server thread/INFO]: Preparing level "world"
-[23:26:48] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[23:26:48] [Server thread/INFO]: Preparing spawn area: 100%
-[23:26:48] [Server thread/INFO]: Prepared spawn area in 2 ms
-[23:26:48] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[23:26:48] [Server thread/INFO]: Prepared spawn area in 0 ms
-[23:26:48] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[23:26:48] [Server thread/INFO]: Prepared spawn area in 1 ms
-[23:26:48] [Server thread/INFO]: Done preparing level "world" (1.018s)
-[23:26:48] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[23:26:49] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[23:26:51] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[23:26:51] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[23:26:52] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[23:26:52] [Server thread/INFO]: [TAB] Enabled in 704ms
-[23:26:52] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[23:26:52] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[23:26:53] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[23:26:53] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[23:26:53] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1449ms
-[23:26:53] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[23:26:53] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[23:26:53] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[23:26:53] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[23:26:53] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[23:26:53] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[23:26:53] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[23:26:53] [Server thread/INFO]: [SkBee]  - 56 events
-[23:26:53] [Server thread/INFO]: [SkBee]  - 71 effects
-[23:26:53] [Server thread/INFO]: [SkBee]  - 240 expressions
-[23:26:53] [Server thread/INFO]: [SkBee]  - 27 conditions
-[23:26:53] [Server thread/INFO]: [SkBee]  - 32 sections
-[23:26:53] [Server thread/INFO]: [SkBee]  - 11 properties
-[23:26:53] [Server thread/INFO]: [SkBee] Checking for update...
-[23:26:54] [Server thread/INFO]: [SkBee] Plugin is up to date!
-[23:26:54] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.61 seconds
-[23:26:54] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[23:26:54] [Server thread/INFO]: [spark] Starting background profiler...
-[23:26:54] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[23:26:54] [Server thread/INFO]: Running delayed init tasks
-[23:26:54] [Server thread/INFO]: [Skript] Loading variables...
-[23:26:54] [Server thread/INFO]: [Skript] Loaded 1 variables in 0.0 seconds
-[23:26:55] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[23:26:55] [Server thread/INFO]: [Skript] Loaded 5 scripts with a total of 14 structures in 0.75 seconds
-[23:26:55] [Server thread/INFO]: [Skript] Finished loading.
-[23:26:55] [Server thread/INFO]: Done (27.648s)! For help, type "help"
-[23:26:55] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 4 build(s) behind ***
-[23:26:55] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[23:27:16] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[23:27:16] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[23:27:23] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[23:27:23] [Server thread/INFO]: trololol72[/127.0.0.1:62119] logged in with entity id 1 at ([world_nether]0.5, 197.00986796110607, 0.5)
-[23:27:24] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[23:27:24] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[23:27:32] [Server thread/INFO]: trololol72 issued server command: /witherstorm false
-[23:27:32] [Server thread/INFO]: The particle was not visible for anybody
-[23:27:32] [Server thread/INFO]: The particle was not visible for anybody
-[23:27:49] [Server thread/INFO]: trololol72 issued server command: /tp 0 60 0
-[23:27:49] [Server thread/INFO]: [trololol72: Teleported trololol72 to 0.500000, 60.000000, 0.500000]
-[23:27:59] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
-[23:28:00] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[23:28:49] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ minecraft:obsidian
-[23:28:49] [Server thread/INFO]: [trololol72: Changed the block at 0, 121, -1]
-[23:29:49] [Server thread/INFO]: trololol72 issued server command: /kill
-[23:29:49] [Server thread/INFO]: [Death] trololol72 was killed (Friends)
-[23:29:49] [Server thread/INFO]: [trololol72: Killed trololol72]
-[23:30:11] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[23:30:11] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[18:06:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[18:06:56] [ServerMain/INFO]: Loaded 1470 recipes
+[18:06:56] [ServerMain/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: adventure:main_loop (from file/paler_garden)
+[18:06:56] [ServerMain/INFO]: Loaded 1584 advancements
+[18:06:56] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[18:06:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 867.7ms
+[18:06:58] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[18:06:58] [Server thread/INFO]: Loading properties
+[18:06:58] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[18:06:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:06:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:06:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:06:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[18:07:00] [Server thread/INFO]: Default game type: SURVIVAL
+[18:07:00] [Server thread/INFO]: Generating keypair
+[18:07:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:07:00] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:07:00] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:07:01] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[18:07:03] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:07:03] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[18:07:03] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0-rc-01+f3ecb26c6
+[18:07:04] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@35db8d61]
+[18:07:04] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[18:07:04] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[18:07:04] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[18:07:04] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[18:07:05] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[18:07:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:07:05] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[18:07:06] [Server thread/INFO]:         __    
+[18:07:06] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[18:07:06] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:07:06] [Server thread/INFO]: 
+[18:07:06] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:07:07] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:07:07] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:07:07] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2432ms)
+[18:07:07] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0-rc-01+f3ecb26c6
+[18:07:07] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:07:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:07:08] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
+[18:07:09] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[18:07:09] [Server thread/INFO]: Preparing level "world"
+[18:07:10] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[18:07:10] [Server thread/INFO]: Preparing spawn area: 100%
+[18:07:10] [Server thread/INFO]: Prepared spawn area in 2 ms
+[18:07:10] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[18:07:10] [Server thread/INFO]: Prepared spawn area in 2 ms
+[18:07:10] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[18:07:10] [Server thread/INFO]: Prepared spawn area in 1 ms
+[18:07:10] [Server thread/INFO]: Done preparing level "world" (1.596s)
+[18:07:10] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[18:07:11] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[18:07:14] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[18:07:14] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[18:07:15] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[18:07:15] [Server thread/INFO]: [TAB] Enabled in 936ms
+[18:07:15] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[18:07:15] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[18:07:16] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[18:07:16] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[18:07:16] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1778ms
+[18:07:16] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[18:07:16] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[18:07:16] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[18:07:16] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[18:07:16] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[18:07:16] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[18:07:17] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[18:07:17] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[18:07:17] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[18:07:17] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[18:07:17] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[18:07:17] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[18:07:17] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[18:07:17] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[18:07:17] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[18:07:17] [Server thread/INFO]: [SkBee]  - 56 events
+[18:07:17] [Server thread/INFO]: [SkBee]  - 71 effects
+[18:07:17] [Server thread/INFO]: [SkBee]  - 240 expressions
+[18:07:17] [Server thread/INFO]: [SkBee]  - 27 conditions
+[18:07:17] [Server thread/INFO]: [SkBee]  - 32 sections
+[18:07:17] [Server thread/INFO]: [SkBee]  - 11 properties
+[18:07:17] [Server thread/INFO]: [SkBee] Checking for update...
+[18:07:17] [Server thread/INFO]: [SkBee] Plugin is up to date!
+[18:07:17] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.81 seconds
+[18:07:17] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[18:07:17] [Server thread/INFO]: [spark] Starting background profiler...
+[18:07:17] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:07:18] [Server thread/INFO]: Running delayed init tasks
+[18:07:18] [Server thread/INFO]: [Skript] Loading variables...
+[18:07:18] [Server thread/INFO]: [Skript] Loaded 1 variables in 0.0 seconds
+[18:07:19] [Server thread/INFO]: [Skript] Line 163: (wither_spawner.sk)
+[18:07:19] [Server thread/INFO]:     There's no player in a periodical event
+[18:07:19] [Server thread/INFO]:     Line: if world of player is "world_nether":
+[18:07:19] [Server thread/INFO]:  
+[18:07:19] [Server thread/INFO]: [Skript] Loaded 5 scripts with a total of 14 structures in 1.65 seconds
+[18:07:19] [Server thread/INFO]: [Skript] Finished loading.
+[18:07:19] [Server thread/INFO]: Done (48.820s)! For help, type "help"
+[18:07:20] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 4 build(s) behind ***
+[18:07:20] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[18:07:29] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[18:07:29] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[18:07:31] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[18:07:31] [Server thread/INFO]: trololol72[/127.0.0.1:53244] logged in with entity id 1 at ([world]-5.8127925540999374, 122.60753435360664, -1.9711673119551583)
+[18:07:32] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[18:07:32] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[18:07:41] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:07:41] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:07:51] [Server thread/INFO]: The particle was not visible for anybody
+[18:07:51] [Server thread/INFO]: The particle was not visible for anybody
+[18:07:59] [Server thread/INFO]: trololol72 issued server command: /witherstorm_debug true
+[18:08:00] [Server thread/INFO]: 
+[18:08:00] [Server thread/INFO]: time: 13:45
+[18:08:01] [Server thread/INFO]: 
+[18:08:01] [Server thread/INFO]: time: 13:46
+[18:08:02] [Server thread/INFO]: 
+[18:08:02] [Server thread/INFO]: time: 13:47
+[18:08:03] [Server thread/INFO]: 
+[18:08:03] [Server thread/INFO]: time: 13:48
+[18:08:04] [Server thread/INFO]: 
+[18:08:04] [Server thread/INFO]: time: 13:49
+[18:08:05] [Server thread/INFO]: 
+[18:08:05] [Server thread/INFO]: time: 13:51
+[18:08:06] [Server thread/INFO]: 
+[18:08:06] [Server thread/INFO]: time: 13:52
+[18:08:06] [Server thread/INFO]: spawning wither at 0
+[18:08:07] [Server thread/INFO]: 
+[18:08:07] [Server thread/INFO]: time: 13:53
+[18:08:08] [Server thread/INFO]: 
+[18:08:08] [Server thread/INFO]: time: 13:54
+[18:08:09] [Server thread/INFO]: 
+[18:08:09] [Server thread/INFO]: time: 13:55
+[18:08:09] [Server thread/INFO]: The particle was not visible for anybody
+[18:08:09] [Server thread/INFO]: The particle was not visible for anybody
+[18:08:09] [Server thread/INFO]: killed wither 0
+[18:08:10] [Server thread/INFO]: 
+[18:08:10] [Server thread/INFO]: time: 13:57
+[18:08:11] [Server thread/INFO]: 
+[18:08:11] [Server thread/INFO]: time: 13:58
+[18:08:12] [Server thread/INFO]: 
+[18:08:12] [Server thread/INFO]: time: 13:59
+[18:08:13] [Server thread/INFO]: 
+[18:08:13] [Server thread/INFO]: time: 14:00
+[18:08:13] [Server thread/INFO]: spawning wither at 0
+[18:08:14] [Server thread/INFO]: 
+[18:08:14] [Server thread/INFO]: time: 14:01
+[18:08:15] [Server thread/INFO]: 
+[18:08:15] [Server thread/INFO]: time: 14:03
+[18:08:15] [Server thread/INFO]: The particle was not visible for anybody
+[18:08:15] [Server thread/INFO]: The particle was not visible for anybody
+[18:08:15] [Server thread/INFO]: killed wither 0
+[18:08:16] [Server thread/INFO]: 
+[18:08:16] [Server thread/INFO]: time: 14:04
+[18:08:17] [Server thread/INFO]: 
+[18:08:17] [Server thread/INFO]: time: 14:05
+[18:08:18] [Server thread/INFO]: 
+[18:08:18] [Server thread/INFO]: time: 14:06
+[18:08:19] [Server thread/INFO]: 
+[18:08:19] [Server thread/INFO]: time: 14:07
+[18:08:20] [Server thread/INFO]: 
+[18:08:20] [Server thread/INFO]: time: 14:09
+[18:08:21] [Server thread/INFO]: 
+[18:08:21] [Server thread/INFO]: time: 14:10
+[18:08:22] [Server thread/INFO]: 
+[18:08:22] [Server thread/INFO]: time: 14:11
+[18:08:23] [Server thread/INFO]: 
+[18:08:23] [Server thread/INFO]: time: 14:12
+[18:08:24] [Server thread/INFO]: 
+[18:08:24] [Server thread/INFO]: time: 14:13
+[18:08:25] [Server thread/INFO]: 
+[18:08:25] [Server thread/INFO]: time: 14:15
+[18:08:26] [Server thread/INFO]: 
+[18:08:26] [Server thread/INFO]: time: 14:16
+[18:08:27] [Server thread/INFO]: 
+[18:08:27] [Server thread/INFO]: time: 14:17
+[18:08:28] [Server thread/INFO]: 
+[18:08:28] [Server thread/INFO]: time: 14:18
+[18:08:29] [Server thread/INFO]: 
+[18:08:29] [Server thread/INFO]: time: 14:19
+[18:08:30] [Server thread/INFO]: 
+[18:08:30] [Server thread/INFO]: time: 14:21
+[18:08:31] [Server thread/INFO]: 
+[18:08:31] [Server thread/INFO]: time: 14:22
+[18:08:32] [Server thread/INFO]: 
+[18:08:32] [Server thread/INFO]: time: 14:23
+[18:08:33] [Server thread/INFO]: 
+[18:08:33] [Server thread/INFO]: time: 14:24
+[18:08:34] [Server thread/INFO]: 
+[18:08:34] [Server thread/INFO]: time: 14:25
+[18:08:35] [Server thread/INFO]: 
+[18:08:35] [Server thread/INFO]: time: 14:27
+[18:08:36] [Server thread/INFO]: 
+[18:08:36] [Server thread/INFO]: time: 14:28
+[18:08:37] [Server thread/INFO]: 
+[18:08:37] [Server thread/INFO]: time: 14:29
+[18:08:38] [Server thread/INFO]: 
+[18:08:38] [Server thread/INFO]: time: 14:30
+[18:08:39] [Server thread/INFO]: 
+[18:08:39] [Server thread/INFO]: time: 14:31
+[18:08:40] [Server thread/INFO]: 
+[18:08:40] [Server thread/INFO]: time: 14:33
+[18:08:41] [Server thread/INFO]: 
+[18:08:41] [Server thread/INFO]: time: 14:34
+[18:08:42] [Server thread/INFO]: 
+[18:08:42] [Server thread/INFO]: time: 14:35
+[18:08:43] [Server thread/INFO]: 
+[18:08:43] [Server thread/INFO]: time: 14:36
+[18:08:44] [Server thread/INFO]: 
+[18:08:44] [Server thread/INFO]: time: 14:37
+[18:08:45] [Server thread/INFO]: 
+[18:08:45] [Server thread/INFO]: time: 14:39
+[18:08:46] [Server thread/INFO]: 
+[18:08:46] [Server thread/INFO]: time: 14:40
+[18:08:47] [Server thread/INFO]: 
+[18:08:47] [Server thread/INFO]: time: 14:41
+[18:08:48] [Server thread/INFO]: 
+[18:08:48] [Server thread/INFO]: time: 14:42
+[18:08:49] [Server thread/INFO]: 
+[18:08:49] [Server thread/INFO]: time: 14:43
+[18:08:49] [Server thread/INFO]: spawning wither at 0
+[18:08:50] [Server thread/INFO]: 
+[18:08:50] [Server thread/INFO]: time: 14:45
+[18:08:50] [Server thread/INFO]: The particle was not visible for anybody
+[18:08:50] [Server thread/INFO]: The particle was not visible for anybody
+[18:08:50] [Server thread/INFO]: killed wither 0
+[18:08:51] [Server thread/INFO]: 
+[18:08:51] [Server thread/INFO]: time: 14:46
+[18:08:52] [Server thread/INFO]: 
+[18:08:52] [Server thread/INFO]: time: 14:47
+[18:08:53] [Server thread/INFO]: 
+[18:08:53] [Server thread/INFO]: time: 14:48
+[18:08:54] [Server thread/INFO]: 
+[18:08:54] [Server thread/INFO]: time: 14:49
+[18:08:55] [Server thread/INFO]: 
+[18:08:55] [Server thread/INFO]: time: 14:51
+[18:08:55] [Server thread/INFO]: DEBUG: trololol72 is SAFE near spot 0
+[18:08:56] [Server thread/INFO]: 
+[18:08:56] [Server thread/INFO]: time: 14:52
+[18:08:56] [Server thread/INFO]: DEBUG: trololol72 is SAFE near spot 0
+[18:08:57] [Server thread/INFO]: 
+[18:08:57] [Server thread/INFO]: time: 14:53
+[18:08:57] [Server thread/INFO]: DEBUG: trololol72 is SAFE near spot 0
+[18:08:58] [Server thread/INFO]: 
+[18:08:58] [Server thread/INFO]: time: 14:54
+[18:08:58] [Server thread/INFO]: DEBUG: trololol72 is SAFE near spot 0
+[18:08:59] [Server thread/INFO]: 
+[18:08:59] [Server thread/INFO]: time: 14:55
+[18:08:59] [Server thread/INFO]: DEBUG: trololol72 is SAFE near spot 0
+[18:09:00] [Server thread/INFO]: 
+[18:09:00] [Server thread/INFO]: time: 14:57
+[18:09:00] [Server thread/INFO]: DEBUG: trololol72 is SAFE near spot 0
+[18:09:01] [Server thread/INFO]: 
+[18:09:01] [Server thread/INFO]: time: 14:58
+[18:09:01] [Server thread/INFO]: DEBUG: trololol72 is SAFE near spot 0
+[18:09:02] [Server thread/INFO]: 
+[18:09:02] [Server thread/INFO]: time: 14:59
+[18:09:03] [Server thread/INFO]: 
+[18:09:03] [Server thread/INFO]: time: 15:00
+[18:09:04] [Server thread/INFO]: 
+[18:09:04] [Server thread/INFO]: time: 15:01
+[18:09:05] [Server thread/INFO]: 
+[18:09:05] [Server thread/INFO]: time: 15:03
+[18:09:06] [Server thread/INFO]: 
+[18:09:06] [Server thread/INFO]: time: 15:04
+[18:09:07] [Server thread/INFO]: 
+[18:09:07] [Server thread/INFO]: time: 15:05
+[18:09:08] [Server thread/INFO]: 
+[18:09:08] [Server thread/INFO]: time: 15:06
+[18:09:09] [Server thread/INFO]: 
+[18:09:09] [Server thread/INFO]: time: 15:07
+[18:09:10] [Server thread/INFO]: 
+[18:09:10] [Server thread/INFO]: time: 15:09
+[18:09:11] [Server thread/INFO]: 
+[18:09:11] [Server thread/INFO]: time: 15:10
+[18:09:12] [Server thread/INFO]: 
+[18:09:12] [Server thread/INFO]: time: 15:11
+[18:09:13] [Server thread/INFO]: 
+[18:09:13] [Server thread/INFO]: time: 15:12
+[18:09:14] [Server thread/INFO]: 
+[18:09:14] [Server thread/INFO]: time: 15:13
+[18:09:15] [Server thread/INFO]: 
+[18:09:15] [Server thread/INFO]: time: 15:15
+[18:09:16] [Server thread/INFO]: 
+[18:09:16] [Server thread/INFO]: time: 15:16
+[18:09:17] [Server thread/INFO]: 
+[18:09:17] [Server thread/INFO]: time: 15:17
+[18:09:17] [Server thread/INFO]: spawning wither at 0
+[18:09:18] [Server thread/INFO]: 
+[18:09:18] [Server thread/INFO]: time: 15:18
+[18:09:19] [Server thread/INFO]: 
+[18:09:19] [Server thread/INFO]: time: 15:19
+[18:09:20] [Server thread/INFO]: 
+[18:09:20] [Server thread/INFO]: time: 15:21
+[18:09:21] [Server thread/INFO]: 
+[18:09:21] [Server thread/INFO]: time: 15:22
+[18:09:22] [Server thread/INFO]: 
+[18:09:22] [Server thread/INFO]: time: 15:23
+[18:09:23] [Server thread/INFO]: 
+[18:09:23] [Server thread/INFO]: time: 15:24
+[18:09:24] [Server thread/INFO]: 
+[18:09:24] [Server thread/INFO]: time: 15:25
+[18:09:25] [Server thread/INFO]: 
+[18:09:25] [Server thread/INFO]: time: 15:27
+[18:09:26] [Server thread/INFO]: 
+[18:09:26] [Server thread/INFO]: time: 15:28
+[18:09:27] [Server thread/INFO]: 
+[18:09:27] [Server thread/INFO]: time: 15:29
+[18:09:28] [Server thread/INFO]: 
+[18:09:28] [Server thread/INFO]: time: 15:30
+[18:09:29] [Server thread/INFO]: 
+[18:09:29] [Server thread/INFO]: time: 15:31
+[18:09:30] [Server thread/INFO]: 
+[18:09:30] [Server thread/INFO]: time: 15:33
+[18:09:31] [Server thread/INFO]: 
+[18:09:31] [Server thread/INFO]: time: 15:34
+[18:09:31] [Server thread/INFO]: The particle was not visible for anybody
+[18:09:31] [Server thread/INFO]: The particle was not visible for anybody
+[18:09:31] [Server thread/INFO]: killed wither 0
+[18:09:32] [Server thread/INFO]: 
+[18:09:32] [Server thread/INFO]: time: 15:35
+[18:09:33] [Server thread/INFO]: 
+[18:09:33] [Server thread/INFO]: time: 15:36
+[18:09:34] [Server thread/INFO]: 
+[18:09:34] [Server thread/INFO]: time: 15:37
+[18:09:35] [Server thread/INFO]: 
+[18:09:35] [Server thread/INFO]: time: 15:39
+[18:09:36] [Server thread/INFO]: 
+[18:09:36] [Server thread/INFO]: time: 15:40
+[18:09:37] [Server thread/INFO]: 
+[18:09:37] [Server thread/INFO]: time: 15:41
+[18:09:38] [Server thread/INFO]: 
+[18:09:38] [Server thread/INFO]: time: 15:42
+[18:09:39] [Server thread/INFO]: 
+[18:09:39] [Server thread/INFO]: time: 15:43
+[18:09:40] [Server thread/INFO]: 
+[18:09:40] [Server thread/INFO]: time: 15:45
+[18:09:41] [Server thread/INFO]: 
+[18:09:41] [Server thread/INFO]: time: 15:46
+[18:09:42] [Server thread/INFO]: 
+[18:09:42] [Server thread/INFO]: time: 15:47
+[18:09:43] [Server thread/INFO]: 
+[18:09:43] [Server thread/INFO]: time: 15:48
+[18:09:44] [Server thread/INFO]: 
+[18:09:44] [Server thread/INFO]: time: 15:49
+[18:09:45] [Server thread/INFO]: 
+[18:09:45] [Server thread/INFO]: time: 15:51
+[18:09:46] [Server thread/INFO]: 
+[18:09:46] [Server thread/INFO]: time: 15:52
+[18:09:47] [Server thread/INFO]: 
+[18:09:47] [Server thread/INFO]: time: 15:53
+[18:09:47] [Server thread/INFO]: spawning wither at 0
+[18:09:48] [Server thread/INFO]: 
+[18:09:48] [Server thread/INFO]: time: 15:54
+[18:09:49] [Server thread/INFO]: 
+[18:09:49] [Server thread/INFO]: time: 15:55
+[18:09:49] [Server thread/INFO]: The particle was not visible for anybody
+[18:09:49] [Server thread/INFO]: The particle was not visible for anybody
+[18:09:49] [Server thread/INFO]: killed wither 0
+[18:09:50] [Server thread/INFO]: 
+[18:09:50] [Server thread/INFO]: time: 15:57
+[18:09:51] [Server thread/INFO]: 
+[18:09:51] [Server thread/INFO]: time: 15:58
+[18:09:52] [Server thread/INFO]: 
+[18:09:52] [Server thread/INFO]: time: 15:59
+[18:09:52] [Server thread/INFO]: spawning wither at 0
+[18:09:53] [Server thread/INFO]: 
+[18:09:53] [Server thread/INFO]: time: 16:00
+[18:09:54] [Server thread/INFO]: 
+[18:09:54] [Server thread/INFO]: time: 16:01
+[18:09:54] [Server thread/INFO]: The particle was not visible for anybody
+[18:09:54] [Server thread/INFO]: The particle was not visible for anybody
+[18:09:54] [Server thread/INFO]: killed wither 0
+[18:09:55] [Server thread/INFO]: 
+[18:09:55] [Server thread/INFO]: time: 16:03
+[18:09:56] [Server thread/INFO]: 
+[18:09:56] [Server thread/INFO]: time: 16:04
+[18:09:57] [Server thread/INFO]: 
+[18:09:57] [Server thread/INFO]: time: 16:05
+[18:09:58] [Server thread/INFO]: 
+[18:09:58] [Server thread/INFO]: time: 16:06
+[18:09:58] [Server thread/INFO]: spawning wither at 0
+[18:09:59] [Server thread/INFO]: 
+[18:09:59] [Server thread/INFO]: time: 16:07
+[18:10:00] [Server thread/INFO]: 
+[18:10:00] [Server thread/INFO]: time: 16:09
+[18:10:00] [Server thread/INFO]: The particle was not visible for anybody
+[18:10:00] [Server thread/INFO]: The particle was not visible for anybody
+[18:10:00] [Server thread/INFO]: killed wither 0
+[18:10:01] [Server thread/INFO]: 
+[18:10:01] [Server thread/INFO]: time: 16:10
+[18:10:02] [Server thread/INFO]: 
+[18:10:02] [Server thread/INFO]: time: 16:11
+[18:10:03] [Server thread/INFO]: 
+[18:10:03] [Server thread/INFO]: time: 16:12
+[18:10:04] [Server thread/INFO]: 
+[18:10:04] [Server thread/INFO]: time: 16:13
+[18:10:04] [Server thread/INFO]: spawning wither at 0
+[18:10:05] [Server thread/INFO]: 
+[18:10:05] [Server thread/INFO]: time: 16:15
+[18:10:05] [Server thread/INFO]: The particle was not visible for anybody
+[18:10:05] [Server thread/INFO]: The particle was not visible for anybody
+[18:10:05] [Server thread/INFO]: killed wither 0
+[18:10:06] [Server thread/INFO]: 
+[18:10:06] [Server thread/INFO]: time: 16:16
+[18:10:07] [Server thread/INFO]: 
+[18:10:07] [Server thread/INFO]: time: 16:17
+[18:10:08] [Server thread/INFO]: 
+[18:10:08] [Server thread/INFO]: time: 16:18
+[18:10:09] [Server thread/INFO]: 
+[18:10:09] [Server thread/INFO]: time: 16:19
+[18:10:10] [Server thread/INFO]: 
+[18:10:10] [Server thread/INFO]: time: 16:21
+[18:10:11] [Server thread/INFO]: 
+[18:10:11] [Server thread/INFO]: time: 16:22
+[18:10:12] [Server thread/INFO]: 
+[18:10:12] [Server thread/INFO]: time: 16:23
+[18:10:13] [Server thread/INFO]: 
+[18:10:13] [Server thread/INFO]: time: 16:24
+[18:10:14] [Server thread/INFO]: 
+[18:10:14] [Server thread/INFO]: time: 16:25
+[18:10:15] [Server thread/INFO]: 
+[18:10:15] [Server thread/INFO]: time: 16:27
+[18:10:16] [Server thread/INFO]: 
+[18:10:16] [Server thread/INFO]: time: 16:28
+[18:10:17] [Server thread/INFO]: 
+[18:10:17] [Server thread/INFO]: time: 16:29
+[18:10:18] [Server thread/INFO]: 
+[18:10:18] [Server thread/INFO]: time: 16:30
+[18:10:19] [Server thread/INFO]: 
+[18:10:19] [Server thread/INFO]: time: 16:31
+[18:10:20] [Server thread/INFO]: 
+[18:10:20] [Server thread/INFO]: time: 16:33
+[18:10:21] [Server thread/INFO]: 
+[18:10:21] [Server thread/INFO]: time: 16:34
+[18:10:22] [Server thread/INFO]: 
+[18:10:22] [Server thread/INFO]: time: 16:35
+[18:10:23] [Server thread/INFO]: 
+[18:10:23] [Server thread/INFO]: time: 16:36
+[18:10:24] [Server thread/INFO]: 
+[18:10:24] [Server thread/INFO]: time: 16:37
+[18:10:25] [Server thread/INFO]: 
+[18:10:25] [Server thread/INFO]: time: 16:39
+[18:10:26] [Server thread/INFO]: 
+[18:10:26] [Server thread/INFO]: time: 16:40
+[18:10:27] [Server thread/INFO]: 
+[18:10:27] [Server thread/INFO]: time: 16:41
+[18:10:28] [Server thread/INFO]: 
+[18:10:28] [Server thread/INFO]: time: 16:42
+[18:10:29] [Server thread/INFO]: 
+[18:10:29] [Server thread/INFO]: time: 16:43
+[18:10:30] [Server thread/INFO]: 
+[18:10:30] [Server thread/INFO]: time: 16:45
+[18:10:31] [Server thread/INFO]: 
+[18:10:31] [Server thread/INFO]: time: 16:46
+[18:10:32] [Server thread/INFO]: 
+[18:10:32] [Server thread/INFO]: time: 16:47
+[18:10:33] [Server thread/INFO]: 
+[18:10:33] [Server thread/INFO]: time: 16:48
+[18:10:34] [Server thread/INFO]: 
+[18:10:34] [Server thread/INFO]: time: 16:49
+[18:10:35] [Server thread/INFO]: 
+[18:10:35] [Server thread/INFO]: time: 16:51
+[18:10:36] [Server thread/INFO]: 
+[18:10:36] [Server thread/INFO]: time: 16:52
+[18:10:37] [Server thread/INFO]: 
+[18:10:37] [Server thread/INFO]: time: 16:53
+[18:10:38] [Server thread/INFO]: 
+[18:10:38] [Server thread/INFO]: time: 16:54
+[18:10:39] [Server thread/INFO]: 
+[18:10:39] [Server thread/INFO]: time: 16:55
+[18:10:40] [Server thread/INFO]: 
+[18:10:40] [Server thread/INFO]: time: 16:57
+[18:10:41] [Server thread/INFO]: 
+[18:10:41] [Server thread/INFO]: time: 16:58
+[18:10:42] [Server thread/INFO]: 
+[18:10:42] [Server thread/INFO]: time: 16:59
+[18:10:43] [Server thread/INFO]: 
+[18:10:43] [Server thread/INFO]: time: 17:00
+[18:10:44] [Server thread/INFO]: 
+[18:10:44] [Server thread/INFO]: time: 17:01
+[18:10:45] [Server thread/INFO]: 
+[18:10:45] [Server thread/INFO]: time: 17:03
+[18:10:46] [Server thread/INFO]: 
+[18:10:46] [Server thread/INFO]: time: 17:04
+[18:10:47] [Server thread/INFO]: 
+[18:10:47] [Server thread/INFO]: time: 17:05
+[18:10:48] [Server thread/INFO]: 
+[18:10:48] [Server thread/INFO]: time: 17:06
+[18:10:49] [Server thread/INFO]: 
+[18:10:49] [Server thread/INFO]: time: 17:07
+[18:10:50] [Server thread/INFO]: 
+[18:10:50] [Server thread/INFO]: time: 17:09
+[18:10:51] [Server thread/INFO]: 
+[18:10:51] [Server thread/INFO]: time: 17:10
+[18:10:52] [Server thread/INFO]: 
+[18:10:52] [Server thread/INFO]: time: 17:11
+[18:10:53] [Server thread/INFO]: 
+[18:10:53] [Server thread/INFO]: time: 17:12
+[18:10:54] [Server thread/INFO]: 
+[18:10:54] [Server thread/INFO]: time: 17:13
+[18:10:55] [Server thread/INFO]: 
+[18:10:55] [Server thread/INFO]: time: 17:15
+[18:10:56] [Server thread/INFO]: 
+[18:10:56] [Server thread/INFO]: time: 17:16
+[18:10:57] [Server thread/INFO]: 
+[18:10:57] [Server thread/INFO]: time: 17:17
+[18:10:58] [Server thread/INFO]: 
+[18:10:58] [Server thread/INFO]: time: 17:18
+[18:10:59] [Server thread/INFO]: 
+[18:10:59] [Server thread/INFO]: time: 17:19
+[18:11:00] [Server thread/INFO]: 
+[18:11:00] [Server thread/INFO]: time: 17:21
+[18:11:01] [Server thread/INFO]: 
+[18:11:01] [Server thread/INFO]: time: 17:22
+[18:11:02] [Server thread/INFO]: 
+[18:11:02] [Server thread/INFO]: time: 17:23
+[18:11:03] [Server thread/INFO]: 
+[18:11:03] [Server thread/INFO]: time: 17:24
+[18:11:04] [Server thread/INFO]: 
+[18:11:04] [Server thread/INFO]: time: 17:25
+[18:11:05] [Server thread/INFO]: 
+[18:11:05] [Server thread/INFO]: time: 17:27
+[18:11:06] [Server thread/INFO]: 
+[18:11:06] [Server thread/INFO]: time: 17:28
+[18:11:07] [Server thread/INFO]: 
+[18:11:07] [Server thread/INFO]: time: 17:29
+[18:11:08] [Server thread/INFO]: [Skript] Reloading wither_spawner.sk...
+[18:11:08] [Server thread/INFO]: Line 164: (wither_spawner.sk)
+[18:11:08] [Server thread/INFO]:     Can't understand this condition/effect: set{_isSafe} to true
+[18:11:08] [Server thread/INFO]:     Line: set{_isSafe} to true
+[18:11:08] [Server thread/INFO]:  
+[18:11:08] [Server thread/INFO]:     Encountered 1 error while reloading wither_spawner.sk! (260ms)
+[18:11:19] [Server thread/INFO]: [Skript] Reloading wither_spawner.sk...
+[18:11:19] [Server thread/INFO]: Successfully reloaded wither_spawner.sk. (159ms)
+[18:11:28] [Server thread/INFO]: trololol72 issued server command: /witherstorm_debug true
+[18:11:29] [Server thread/INFO]: 
+[18:11:29] [Server thread/INFO]: time: 17:55
+[18:11:30] [Server thread/INFO]: 
+[18:11:30] [Server thread/INFO]: time: 17:57
+[18:11:31] [Server thread/INFO]: 
+[18:11:31] [Server thread/INFO]: time: 17:58
+[18:11:32] [Server thread/INFO]: 
+[18:11:32] [Server thread/INFO]: time: 17:59
+[18:11:33] [Server thread/INFO]: 
+[18:11:33] [Server thread/INFO]: time: 18:00
+[18:11:34] [Server thread/INFO]: 
+[18:11:34] [Server thread/INFO]: time: 18:01
+[18:11:34] [Server thread/INFO]: DEBUG: trololol72 is SAFE in the nether!
+[18:11:34] [Server thread/INFO]: DEBUG: trololol72 is SAFE in the nether!
+[18:11:35] [Server thread/INFO]: 
+[18:11:35] [Server thread/INFO]: time: 18:03
+[18:11:35] [Server thread/INFO]: DEBUG: trololol72 is SAFE in the nether!
+[18:11:35] [Server thread/INFO]: DEBUG: trololol72 is SAFE in the nether!
+[18:11:36] [Server thread/INFO]: 
+[18:11:36] [Server thread/INFO]: time: 18:04
+[18:11:36] [Server thread/INFO]: DEBUG: trololol72 is SAFE in the nether!
+[18:11:36] [Server thread/INFO]: DEBUG: trololol72 is SAFE in the nether!
+[18:11:37] [Server thread/INFO]: 
+[18:11:37] [Server thread/INFO]: time: 18:05
+[18:11:38] [Server thread/INFO]: 
+[18:11:38] [Server thread/INFO]: time: 18:06
+[18:11:38] [Server thread/INFO]: DEBUG: trololol72 is SAFE in the nether!
+[18:11:38] [Server thread/INFO]: DEBUG: trololol72 is SAFE in the nether!
+[18:11:39] [Server thread/INFO]: 
+[18:11:39] [Server thread/INFO]: time: 18:07
+[18:11:39] [Server thread/INFO]: DEBUG: trololol72 is SAFE in the nether!
+[18:11:39] [Server thread/INFO]: DEBUG: trololol72 is SAFE in the nether!
+[18:11:40] [Server thread/INFO]: 
+[18:11:40] [Server thread/INFO]: time: 18:09
+[18:11:41] [Server thread/INFO]: 
+[18:11:41] [Server thread/INFO]: time: 18:10
+[18:11:42] [Server thread/INFO]: 
+[18:11:42] [Server thread/INFO]: time: 18:11
+[18:11:43] [Server thread/INFO]: 
+[18:11:43] [Server thread/INFO]: time: 18:12
+[18:11:44] [Server thread/INFO]: 
+[18:11:44] [Server thread/INFO]: time: 18:13
+[18:11:45] [Server thread/INFO]: 
+[18:11:45] [Server thread/INFO]: time: 18:15
+[18:11:45] [Server thread/INFO]: DEBUG: trololol72 is SAFE near spot 0
+[18:11:46] [Server thread/INFO]: 
+[18:11:46] [Server thread/INFO]: time: 18:16
+[18:11:46] [Server thread/INFO]: spawning wither at 0
+[18:11:47] [Server thread/INFO]: 
+[18:11:47] [Server thread/INFO]: time: 18:17
+[18:11:48] [Server thread/INFO]: 
+[18:11:48] [Server thread/INFO]: time: 18:18
+[18:11:49] [Server thread/INFO]: 
+[18:11:49] [Server thread/INFO]: time: 18:19
+[18:11:50] [Server thread/INFO]: 
+[18:11:50] [Server thread/INFO]: time: 18:21
+[18:11:50] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:11:50] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:11:50] [Server thread/INFO]: killed wither 0
+[18:11:51] [Server thread/INFO]: 
+[18:11:51] [Server thread/INFO]: time: 18:22
+[18:11:52] [Server thread/INFO]: 
+[18:11:52] [Server thread/INFO]: time: 18:23
+[18:11:53] [Server thread/INFO]: 
+[18:11:53] [Server thread/INFO]: time: 18:24
+[18:11:54] [Server thread/INFO]: 
+[18:11:54] [Server thread/INFO]: time: 18:25
+[18:11:54] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[18:11:54] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[18:11:55] [Server thread/INFO]: 
+[18:11:55] [Server thread/INFO]: time: 18:27
+[18:11:56] [Server thread/INFO]: 
+[18:11:56] [Server thread/INFO]: time: 18:28
+[18:11:56] [Server thread/INFO]: [Skript] Reloading wither_spawner.sk...
+[18:11:56] [Server thread/INFO]: Successfully reloaded wither_spawner.sk. (98ms)
