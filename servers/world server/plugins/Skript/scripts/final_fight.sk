@@ -1,0 +1,6 @@
+command /play_final_fight_ost:
+    permission: op
+    trigger:
+        stop all sounds for all players
+        broadcast "playing final fight ost"
+        play sound "minecraft:broken_memory" in record category with volume 1000 to all players

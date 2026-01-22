@@ -1,4 +1,3 @@
-# 1. Import the PacketEvents classes (The Translator)
 import:
     com.github.retrooper.packetevents.PacketEvents
     com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerChangeGameState
@@ -9,16 +8,25 @@ command /rollcredits <player>:
     trigger:
         set {_p} to arg-1
         
-        # 2. Reset the "Seen Credits" tag (Mandatory!)
-        make console execute command "execute as %{_p}% run data remove entity @s seenCredits"
+        broadcast "&e[Debug] Cleaning Client State..."
         
-        # 3. Create the Packet
-        # Reason.WIN_GAME tells the client "The game is over"
-        # 1.0 tells the client "Show the credits screen" (0.0 would respawn immediately)
+        # 1. Force NBT Clean (Using SkBee, bypassing vanilla limit)
+        delete tag "seenCredits" of nbt of {_p}
+        
+        # 2. THE FIX: Dimension Switch
+        # This forces the client to "Respawn/Reload" the world, resetting the Win State.
+        # We teleport them to the End (or Nether) for 1 tick, then back.
+        set {_old_loc} to location of {_p}
+        
+        # Teleport away (Forces 'Downloading Terrain')
+        teleport {_p} to location(0, 100, 0, world "world_the_end")
+        wait 2 ticks
+        
+        # Teleport back
+        teleport {_p} to {_old_loc}
+        wait 5 ticks
+        
+        # 3. Send the Packet
+        broadcast "&a[Debug] Sending Credits..."
         set {_packet} to new WrapperPlayServerChangeGameState(Reason.WIN_GAME, 1.0)
-        
-        # 4. Send the Packet
-        # We ask the PacketEvents API manager to send it to the Bukkit player
         PacketEvents.getAPI().getPlayerManager().sendPacket({_p}, {_packet})
-        
-        broadcast "&aSent credits packet to %{_p}%"

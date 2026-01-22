@@ -7,5 +7,13 @@
         "stream": true
       }
     ]
+  },
+  
+  "broken_memory": {
+    "sounds": [
+      "custom/broken_memory"
+    ]
   }
+  
 }
+
