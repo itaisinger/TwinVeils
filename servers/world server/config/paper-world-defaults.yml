@@ -290,7 +290,7 @@ max-growth-height:
 misc:
   allow-remote-ender-dragon-respawning: false
   alternate-current-update-order: HORIZONTAL_FIRST_OUTWARD
-  disable-end-credits: true
+  disable-end-credits: false
   disable-relative-projectile-velocity: false
   disable-sprint-interruption-on-attack: false
   legacy-ender-pearl-behavior: false

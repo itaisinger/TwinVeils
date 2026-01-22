@@ -1,26 +1,24 @@
-# 1. The Command to trigger credits
+# 1. Import the PacketEvents classes (The Translator)
+import:
+    com.github.retrooper.packetevents.PacketEvents
+    com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerChangeGameState
+    com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerChangeGameState$Reason
+
 command /rollcredits <player>:
     permission: op
     trigger:
         set {_p} to arg-1
-        set {credits_pending::%{_p}%} to true
-        # Teleport to your hidden box (Ensure an END PORTAL BLOCK is at exactly 1000, 20, 1000)
-        teleport {_p} to location(1000, 20, 1000, world "world_the_end")
-
-# 2. The Event Handler (Changed to Teleport)
-on teleport:
-    broadcast "entering credits functions"
-    # Check if they are actually leaving the End
-    if player's world is "world_the_end":
         
-        # Scenario A: Authorized via command
-        if {credits_pending::%player%} is set:
-            broadcast "playing credits"
-            delete {credits_pending::%player%}
-            stop # Allow the event to finish (plays credits)
-            
-        # Scenario B: Normal interaction
-        else:
-            broadcast "canceling credits"
-            cancel event
-            teleport player to location(0, 100, 0, world "world")
+        # 2. Reset the "Seen Credits" tag (Mandatory!)
+        make console execute command "execute as %{_p}% run data remove entity @s seenCredits"
+        
+        # 3. Create the Packet
+        # Reason.WIN_GAME tells the client "The game is over"
+        # 1.0 tells the client "Show the credits screen" (0.0 would respawn immediately)
+        set {_packet} to new WrapperPlayServerChangeGameState(Reason.WIN_GAME, 1.0)
+        
+        # 4. Send the Packet
+        # We ask the PacketEvents API manager to send it to the Bukkit player
+        PacketEvents.getAPI().getPlayerManager().sendPacket({_p}, {_packet})
+        
+        broadcast "&aSent credits packet to %{_p}%"
