@@ -1,0 +1,26 @@
+# 1. The Command to trigger credits
+command /rollcredits <player>:
+    permission: op
+    trigger:
+        set {_p} to arg-1
+        set {credits_pending::%{_p}%} to true
+        # Teleport to your hidden box (Ensure an END PORTAL BLOCK is at exactly 1000, 20, 1000)
+        teleport {_p} to location(1000, 20, 1000, world "world_the_end")
+
+# 2. The Event Handler (Changed to Teleport)
+on teleport:
+    broadcast "entering credits functions"
+    # Check if they are actually leaving the End
+    if player's world is "world_the_end":
+        
+        # Scenario A: Authorized via command
+        if {credits_pending::%player%} is set:
+            broadcast "playing credits"
+            delete {credits_pending::%player%}
+            stop # Allow the event to finish (plays credits)
+            
+        # Scenario B: Normal interaction
+        else:
+            broadcast "canceling credits"
+            cancel event
+            teleport player to location(0, 100, 0, world "world")

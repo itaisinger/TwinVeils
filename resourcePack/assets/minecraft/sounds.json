@@ -1,0 +1,11 @@
+{
+  "music.credits": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/broken_clocks",
+        "stream": true
+      }
+    ]
+  }
+}
