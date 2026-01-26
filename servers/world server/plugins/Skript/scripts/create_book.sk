@@ -1,0 +1,23 @@
+command /give_book <text>:
+    trigger:
+        if arg-1 is "dawn":
+            morning_passage(player)
+        if arg-1 is "lost_traveler":
+            lost_traveler(player)
+
+function morning_passage(p: player):
+    set {_book} to a written book named "Passage of Dawn"
+    set author of {_book} to "Khazamir"
+    # Paste your long text below
+    set page 1 of {_book} to "O heat;%nl%%nl%Morning star, lord of the sun;%nl%%nl%%nl%&4&lRa.%nl%%nl%"
+    set page 2 of {_book} to "Let thy light shine upon thy servants once more;%nl%A thousand rays, pure force of enlightenment;%nl%%nl%Keep us within thy sake; devour the remnants of the night;%nl%A pillar of fire, shining bright since dawn of earth;"
+    set page 3 of {_book} to "Show us the way, light the path forward;%nl%%nl%And when thy path is to the ground, back to the place of birth;%nl%%nl%As the sun sinks under at the edge of day, too shall we;%nl%%nl%From below we came, and thus shall we at last return;"
+    set page 4 of {_book} to "&4O heat, hear us;&r%nl%For we scream with lungs aflame;%nl%%nl%&4O heat, save us;&r%nl%For we weak to nights of terror;%nl%%nl%&4O heat, love us;&r%nl%For Aten is a harsh, and a cruel, and a cold mistress;%nl%And the heat gives us power to keep on."
+    give {_book} to {_p}
+
+function lost_traveler(p: player):
+    set {_book} to a written book named "My final pilgrimage"
+    set author of {_book} to "Narith"
+    set page 1 of {_book} to "O heat,%nl%Too far from thy path I've ridden%nl%%nl%The journey is weary and vengeful, why shan't thee show me thy pillar of flame?%nl%%nl%The curse of the traveler is upon me, and Diya al-Sahra is nowhere in sight"
+    set page 2 of {_book} to "O heat, hear me, for I scream with lungs aflame,%nl%%nl%O heat, save me, for I weak to a night of terror,%nl%%nl%O heat, love me, cause I fear thy love is the last for me"
+    give {_book} to {_p}
