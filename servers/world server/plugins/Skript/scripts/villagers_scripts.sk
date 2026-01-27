@@ -1,0 +1,19 @@
+command /spawnmerchant:
+    permission: op
+    description: Spawns a villager with custom trades
+    trigger:
+        # Spawn the villager
+        spawn villager at location of player
+        set {_v} to last spawned villager
+        
+        # Set villager properties
+        set ai of {_v} to false
+        set name of {_v} to "&6&lMaster Trader"
+        
+        # Build the complete NBT for all trades
+        set {_nbt} to "{VillagerData:{profession:""minecraft:librarian"",type:""minecraft:desert"",level:2},Offers:{Recipes:[{maxUses:999,buy:{id:""minecraft:emerald"",Count:5},sell:{id:""minecraft:diamond"",Count:1}},{maxUses:5,buy:{id:""minecraft:diamond_sword"",Count:1},buyB:{id:""minecraft:gold_ingot"",Count:10},sell:{id:""minecraft:netherite_ingot"",Count:1}},{maxUses:999,buy:{id:""minecraft:diamond"",Count:64},sell:{id:""minecraft:bow"",Count:1,tag:{Enchantments:[{id:""minecraft:power"",lvl:5s}],display:{Name:'{""text"":""Overpowered Bow"",""color"":""red""}'}}}}]}}"
+        
+        # Apply NBT to villager
+        set nbt of {_v} to nbt compound from {_nbt}
+        
+        send "&aMerchant spawned with 3 custom trades!"

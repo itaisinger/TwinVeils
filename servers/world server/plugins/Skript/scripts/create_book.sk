@@ -4,6 +4,8 @@ command /give_book <text>:
             morning_passage(player)
         if arg-1 is "lost_traveler":
             lost_traveler(player)
+        if arg-1 is "ra_birth":
+            ra_birth(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -20,4 +22,31 @@ function lost_traveler(p: player):
     set author of {_book} to "Narith"
     set page 1 of {_book} to "O heat,%nl%Too far from thy path I've ridden%nl%%nl%The journey is weary and vengeful, why shan't thee show me thy pillar of flame?%nl%%nl%The curse of the traveler is upon me, and Diya al-Sahra is nowhere in sight"
     set page 2 of {_book} to "O heat, hear me, for I scream with lungs aflame,%nl%%nl%O heat, save me, for I weak to a night of terror,%nl%%nl%O heat, love me, cause I fear thy love is the last for me"
+    give {_book} to {_p}
+
+function ra_birth(p: player):
+    set {_book} to a written book named "Flame of Creation"
+    set author of {_book} to "Khazamir"
+
+    set {_p1} to ""
+    add "Here hatched the sun;" to {_p1}
+    add "%nl%A magnificent sight to behold -"  to {_p1}
+
+    add "%nl%%nl%   The marvel of       creation;" to {_p1}
+    add "%nl%%nl%Here &5life&r created &4life&r," to {_p1}
+    add "%nl%       The first &oother;"  to {_p1}
+
+    set {_p2} to ""
+    add "&4O heat,&r the sea burns at your welcome," to {_p2}
+    add "%nl%The world yet years for your lust;" to {_p2}
+    add "%nl%%nl%&4O heat&r, breath fire upon these walls of night," to {_p2}
+    add "%nl%Set fire to the dark, consume what was lost to time;" to {_p2}
+
+    set {_p3} to ""
+    add "%nl%%nl%%nl%&4O heat&r, burn it all down;%nl%%nl%For from darkness the world was born,%nl%%nl%But light is stronger." to {_p3}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+
     give {_book} to {_p}

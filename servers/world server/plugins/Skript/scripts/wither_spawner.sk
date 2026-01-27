@@ -55,7 +55,7 @@ function spawn_wither(p: player, id: text):
     set {_spawnLoc} to location 10 meters in front of {_p}
     strike lightning at {_spawnLoc}
     add 1 to y-coord of {_spawnLoc}
-
+    
     # 2. Spawn
     spawn wither at {_spawnLoc}
     set {_w} to last spawned wither
@@ -67,10 +67,28 @@ function spawn_wither(p: player, id: text):
     add "storm" to scoreboard tags of {_w}
     add "region_%{_id}%" to scoreboard tags of {_w}
     set {wither::%{_id}%} to {_w} 
+
+    #visuals
+    set display name of {_w} to "&4Ra"
     
     send "&c&lSTORM INCOMING..." to {_p}
     if {wither_debug_active} is true:
         broadcast "spawning wither at %{_id}%" # FIXED: added underscore
+
+    # Particle Halo
+    while {_w} is alive:
+        set {_loc} to location of {_w}
+        add 3.5 to y-coord of {_loc}
+        
+        # Extract coordinates for the command
+        set {_x} to x-coord of {_loc}
+        set {_y} to y-coord of {_loc}
+        set {_z} to z-coord of {_loc}
+        
+        # Syntax: particle <name> <x> <y> <z> <dx> <dy> <dz> <speed> <count>
+        execute console command "particle flame %{_x}% %{_y}% %{_z}% 0.3 0.3 0.3 0.01 10"
+        
+        wait 4 ticks
 
 function despawn_wither(id: text):
     # 1. Get entity
