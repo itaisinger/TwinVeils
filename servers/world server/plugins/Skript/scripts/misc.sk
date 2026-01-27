@@ -1,3 +1,31 @@
 command /get_trader_head:
     trigger:
         execute console command "give %player% minecraft:player_head[minecraft:custom_name={text:""Narith's head"",italic:false},minecraft:lore=[{text:""Custom Head ID: 62275"",color:""gray"",italic:false},{text:""www.minecraft-heads.com"",color:""blue"",italic:false}],profile={properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRlNTUwOTc5ZWJmOTk1MGJiZjU3MTVlZDc3OTYyNmEzY2VjNzZhYzkxMGI0YmRkYjVkNzU4MWZhY2FmZWY2NyJ9fX0=""}]}] 1"
+
+on shoot:
+    if name of shooter is "sniper":
+        broadcast "pow"
+        set velocity of projectile to (velocity of projectile * 3)
+
+command /spawnrider:
+    trigger:
+        # 1. Mount (Hoglin)
+        spawn hoglin at player
+        set {_mount} to last spawned hoglin
+        
+        # NBT: Immunity + Persistence
+        add nbt compound from "{IsImmuneToZombification:1b, PersistenceRequired:1b}" to nbt of {_mount}
+        # Effect: Fire Resistance (Infinite)
+        apply fire resistance without particles to {_mount} for 99999 days
+
+        # 2. Rider (Brute)
+        spawn piglin brute at player
+        set {_rider} to last spawned piglin brute
+        
+        # NBT: Immunity + Persistence + Axe
+        add nbt compound from "{IsImmuneToZombification:1b, PersistenceRequired:1b, HandItems:[{id:""minecraft:golden_axe"",Count:1b},{}]}" to nbt of {_rider}
+        # Effect: Fire Resistance (Infinite)
+        apply fire resistance without particles to {_rider} for 99999 days
+
+        # 3. Ride
+        make {_rider} ride {_mount}

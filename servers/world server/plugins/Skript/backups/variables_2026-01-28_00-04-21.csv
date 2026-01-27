@@ -1,0 +1,7 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.12.2
+
+ip_team::127.0.0.1, string, 80107465616D2E667269656E647343686174
+

@@ -1,1564 +1,261 @@
-[21:21:09] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-adhoc.Administrator.jdk21u; OpenLogic OpenLogic-OpenJDK) on Windows 11 10.0 (amd64)
-[21:21:09] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[21:21:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:21:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
-[21:21:12] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - SkBee (3.15.0)
-[21:21:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
- - BuildPaste (1.11.1), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), WorldEdit (7.4.0-rc-01+f3ecb26c6), packetevents (2.11.1), skript-reflect (2.6.1)
-[21:21:20] [ServerMain/WARN]: resource-pack-id missing, using default of 1b6b67fb-64c0-33bf-bd74-91372d2503aa
-[21:21:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[21:21:24] [ServerMain/INFO]: Loaded 1470 recipes
-[21:21:24] [ServerMain/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: adventure:main_loop (from file/paler_garden)
-[21:21:24] [ServerMain/INFO]: Loaded 1584 advancements
-[21:21:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[21:21:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 676.1ms
-[21:21:24] [ServerMain/WARN]: resource-pack-id missing, using default of 1b6b67fb-64c0-33bf-bd74-91372d2503aa
-[21:21:25] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[21:21:25] [Server thread/INFO]: Loading properties
-[21:21:25] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[21:21:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:21:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:21:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:21:26] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
-[21:21:27] [Server thread/INFO]: Default game type: SURVIVAL
-[21:21:27] [Server thread/INFO]: Generating keypair
-[21:21:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:21:27] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:21:27] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:21:28] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[21:21:28] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:21:28] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[21:21:28] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[21:21:28] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[21:21:29] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0-rc-01+f3ecb26c6
-[21:21:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4bce6961]
-[21:21:31] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[21:21:31] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[21:21:31] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[21:21:31] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[21:21:33] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[21:21:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:21:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[21:21:33] [Server thread/INFO]:         __    
-[21:21:33] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[21:21:33] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[21:21:33] [Server thread/INFO]: 
-[21:21:34] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:21:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:21:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:21:35] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1948ms)
-[21:21:35] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[21:21:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0-rc-01+f3ecb26c6
-[21:21:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:21:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:21:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
-[21:21:35] [Server thread/INFO]: Preparing level "world"
-[21:21:37] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[21:21:37] [Server thread/INFO]: Preparing spawn area: 100%
-[21:21:37] [Server thread/INFO]: Prepared spawn area in 4 ms
-[21:21:37] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[21:21:37] [Server thread/INFO]: Prepared spawn area in 1 ms
-[21:21:37] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[21:21:37] [Server thread/INFO]: Prepared spawn area in 1 ms
-[21:21:37] [Server thread/INFO]: Done preparing level "world" (1.247s)
-[21:21:37] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[21:21:38] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[21:21:41] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[21:21:41] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[21:21:41] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[21:21:42] [Server thread/INFO]: [TAB] Enabled in 683ms
-[21:21:42] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[21:21:42] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[21:21:42] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[21:21:42] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1499ms
-[21:21:42] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[21:21:42] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[21:21:42] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[21:21:43] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[21:21:43] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[21:21:43] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[21:21:43] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[21:21:43] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[21:21:43] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[21:21:43] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[21:21:43] [Server thread/INFO]: [SkBee]  - 56 events
-[21:21:43] [Server thread/INFO]: [SkBee]  - 71 effects
-[21:21:43] [Server thread/INFO]: [SkBee]  - 240 expressions
-[21:21:43] [Server thread/INFO]: [SkBee]  - 27 conditions
-[21:21:43] [Server thread/INFO]: [SkBee]  - 32 sections
-[21:21:43] [Server thread/INFO]: [SkBee]  - 11 properties
-[21:21:43] [Server thread/INFO]: [SkBee] Checking for update...
-[21:21:44] [Server thread/INFO]: [SkBee] Plugin is up to date!
-[21:21:44] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.90 seconds
-[21:21:44] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[21:21:44] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[21:21:44] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[21:21:44] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[21:21:44] [Server thread/INFO]: [spark] Starting background profiler...
-[21:21:44] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[21:21:44] [Server thread/INFO]: Running delayed init tasks
-[21:21:44] [Server thread/INFO]: [Skript] Loading variables...
-[21:21:44] [Server thread/INFO]: [Skript] Loaded 1 variables in 0.0 seconds
-[21:21:45] [Server thread/INFO]: [Skript] Line 17: (villagers_scripts.sk)
-[21:21:45] [Server thread/INFO]:     an nbt compound can't be set to anything
-[21:21:45] [Server thread/INFO]:     Line: set nbt of {_v} to nbt compound from {_nbt}
-[21:21:45] [Server thread/INFO]:  
-[21:21:46] [Server thread/INFO]: [Skript] Loaded 10 scripts with a total of 23 structures in 1.38 seconds
-[21:21:46] [Server thread/INFO]: [Skript] Finished loading.
-[21:21:46] [Server thread/INFO]: Done (38.880s)! For help, type "help"
-[21:21:46] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 11 build(s) behind ***
-[21:21:46] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[21:22:09] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[21:22:09] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[21:22:24] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[21:22:25] [Server thread/INFO]: trololol72[/[0:0:0:0:0:0:0:1]:64563] logged in with entity id 1 at ([world]1262.3750703425733, 75.23837073013298, -1317.7908705114303)
-[21:22:27] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[21:22:27] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[21:22:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f20b7531-4d7d-4849-b495-1851e196bf72, mapped to Bat['Bat'/66, uuid='f20b7531-4d7d-4849-b495-1851e196bf72', l='ServerLevel[world]', x=1218.43, y=4.15, z=-1458.94, cpos=[76, -92], tl=0, v=true], can't add Bat['Bat'/90, uuid='f20b7531-4d7d-4849-b495-1851e196bf72', l='ServerLevel[world]', x=1215.30, y=7.38, z=-1456.60, cpos=[75, -92], tl=0, v=false]
-[21:22:38] [Server thread/INFO]: trololol72 issued server command: /effect give trololol72 hunger
-[21:22:38] [Server thread/INFO]: [trololol72: Applied effect Hunger to trololol72]
-[21:30:58] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
-[21:30:58] [Server thread/INFO]: Line 101: (traveler_curse.sk)
-[21:30:58] [Server thread/INFO]:     Can't understand this condition/effect: apply hunger 1 loop-player for 30 seconds
-[21:30:58] [Server thread/INFO]:     Line: apply hunger 1 loop-player for 30 seconds
-[21:30:58] [Server thread/INFO]:  
-[21:30:58] [Server thread/INFO]:     Encountered 1 error while reloading traveler_curse.sk! (150ms)
-[21:31:08] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
-[21:31:08] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (195ms)
-[21:31:16] [Server thread/INFO]: trololol72 issued server command: /tp 0 ~ 0
-[21:31:16] [Server thread/INFO]: [trololol72: Teleported trololol72 to 0.500000, 72.294102, 0.500000]
-[21:31:21] [Server thread/INFO]: trololol72 issued server command: /time set day
-[21:31:21] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[21:31:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:26] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:27] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:28] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:29] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:30] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:31] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:32] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:33] [Server thread/INFO]: trololol72 issued server command: /difficulty easy
-[21:31:33] [Server thread/INFO]: [trololol72: The difficulty has been set to Easy]
-[21:31:33] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:40] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:40] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:40] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:40] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:40] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:41] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:41] [Server thread/INFO]: trololol72 issued server command: /gamerule command_block_output false
-[21:31:41] [Server thread/INFO]: [trololol72: Gamerule command_block_output is now set to: false]
-[21:31:41] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:41] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:41] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:41] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:42] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:42] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:42] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:42] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:42] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:43] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:43] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:43] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:43] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:43] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:44] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:44] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:44] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:44] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:44] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:45] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:45] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:45] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:45] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:45] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:46] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:46] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:46] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:46] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:46] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:47] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:47] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:47] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:47] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:47] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:48] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:48] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:48] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:48] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:48] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:49] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:49] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:49] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:49] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:49] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:50] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:50] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:50] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:50] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:50] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:51] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:51] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:51] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:51] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:31:51] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:53] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:53] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:53] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:53] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:53] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:54] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:54] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:54] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:54] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:54] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:55] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:55] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:55] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:55] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:55] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:56] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:56] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:56] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:56] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:56] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:57] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:57] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:57] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:57] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:57] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:58] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:58] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:58] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:58] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:58] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:59] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:59] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:59] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:59] [Server thread/INFO]: The particle was not visible for anybody
-[21:31:59] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:00] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:00] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:00] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:00] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:00] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:16] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:16] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:16] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:16] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:16] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:17] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:17] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:17] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:17] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:17] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:18] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:18] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:18] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:18] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:18] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:19] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:19] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:19] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:19] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:19] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:20] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:20] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:20] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:20] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:20] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:21] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:21] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:21] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:21] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:21] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:22] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:22] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:22] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:22] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:22] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:23] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:23] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:23] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:23] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:23] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:24] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:24] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:24] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:24] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:24] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:30] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:30] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:30] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:30] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:30] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:31] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:31] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:31] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:31] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:31] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:32] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:32] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:32] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:32] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:32] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:33] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:33] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:33] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:33] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:33] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:37] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:37] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:37] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:37] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:37] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:38] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:38] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:38] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:38] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:38] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:40] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:40] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:40] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:40] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:40] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:41] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:41] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:41] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:41] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:41] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:42] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:42] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:42] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:42] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:42] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:43] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:43] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:43] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:43] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:43] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:44] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:44] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:44] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:44] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:44] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:45] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:45] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:45] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:45] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:45] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:46] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:46] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:46] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:46] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:46] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:47] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:47] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:47] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:47] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:47] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:48] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:48] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:48] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:48] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:48] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:49] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:49] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:49] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:49] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:49] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:50] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:50] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:50] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:50] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:50] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:51] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:51] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:51] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:51] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:51] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:53] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:53] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:53] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:53] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:53] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:54] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:54] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:54] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:54] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:54] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:55] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:55] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:55] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:55] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:55] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:56] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:56] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:56] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:56] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:56] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:57] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:57] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:57] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:57] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:57] [Server thread/INFO]: trololol72 issued server command: /gamerule minecraft:send_command_feedback false
-[21:32:57] [Server thread/INFO]: [trololol72: Gamerule send_command_feedback is now set to: false]
-[21:32:57] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:58] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:58] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:58] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:58] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:58] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:59] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:59] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:59] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:59] [Server thread/INFO]: The particle was not visible for anybody
-[21:32:59] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:00] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:00] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:00] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:00] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:00] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:16] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:16] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:16] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:17] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:17] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:17] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:18] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:18] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:18] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:18] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:18] [Server thread/INFO]: The particle was not visible for anybody
-[21:33:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:26] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:26] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:26] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:26] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:26] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:27] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:27] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:27] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:27] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:27] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:28] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:28] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:28] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:28] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:28] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:29] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:29] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:29] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:29] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:29] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:30] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:30] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:30] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:30] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:30] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:31] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:31] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:31] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:31] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:31] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:32] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:32] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:32] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:32] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:32] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:33] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:33] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:33] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:33] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:33] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:40] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:40] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:40] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:40] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:40] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:41] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:41] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:41] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:41] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:41] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:42] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:42] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:42] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:42] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:42] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:43] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:43] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:43] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:43] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:43] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:44] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:44] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:44] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:44] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:44] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:45] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:45] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:45] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:45] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:45] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:46] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:46] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:46] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:46] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:46] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:47] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:47] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:47] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:47] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:47] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:48] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:48] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:48] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:48] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:48] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:49] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:49] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:49] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:49] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:49] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:50] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:50] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:50] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:50] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:50] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:51] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:51] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:51] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:51] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:51] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:52] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:52] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:52] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:52] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:52] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:53] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:53] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:53] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:53] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:53] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:54] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:54] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:54] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:54] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:54] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:55] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:55] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:55] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:55] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:55] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:56] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:56] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:56] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:56] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:56] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:57] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:57] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:57] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:57] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:57] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:58] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:58] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:58] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:58] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:58] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:59] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:59] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:59] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
-[21:33:59] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (135ms)
-[21:33:59] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:59] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:59] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:33:59] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:01] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:02] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:02] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:02] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:02] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:02] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:02] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:03] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:03] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:03] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:03] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:03] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:03] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:04] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:04] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:04] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:04] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:04] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:04] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:05] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:05] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:05] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:05] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:05] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:05] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:06] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:06] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:06] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:06] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:06] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:06] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:07] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:07] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:07] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:07] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:07] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:08] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:08] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:08] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:08] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:08] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:08] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:09] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:09] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:09] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:09] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:09] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:09] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:10] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:10] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:10] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:10] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:10] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:11] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:11] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:11] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:11] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:11] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:11] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:12] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:12] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:12] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:12] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:12] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:12] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:13] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:13] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:13] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:13] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:13] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:13] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:14] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:14] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:14] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:14] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:14] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:14] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:15] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:15] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:15] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:15] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:15] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:15] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:16] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:16] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:16] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:20] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:20] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:20] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:21] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:21] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:21] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:21] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:21] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:22] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:22] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:22] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:22] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:22] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:23] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:23] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:23] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:23] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:23] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:24] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:24] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:24] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:24] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:24] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:26] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:26] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:26] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:26] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:26] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:27] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:27] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:27] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:27] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:27] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:28] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:28] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:28] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:28] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:28] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:29] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:29] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:29] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:29] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:29] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:30] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:30] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:30] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:30] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:30] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:30] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:30] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:30] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:30] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:30] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:31] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:31] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:31] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:31] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:31] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:31] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:31] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:31] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:31] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:31] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:32] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:32] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:32] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:32] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:32] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:32] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:32] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:32] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:32] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:32] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:33] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:33] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:33] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:33] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:33] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:33] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:33] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:33] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:33] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:33] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:34] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:35] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:36] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:37] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:37] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:37] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:37] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:37] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:37] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:38] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:38] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:38] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:38] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:38] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:38] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:39] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:39] [Server thread/INFO]: Named entity WitherBoss['Ra'/889, uuid='8846c1c8-8aa1-4ee9-8788-76af45543c75', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=800, v=true] died: Ra was killed
-[21:34:39] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:40] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:40] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:40] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:40] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:40] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:41] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:41] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:41] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:41] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:41] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:42] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:42] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:42] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:42] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:42] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:43] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:43] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:43] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:43] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:43] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:44] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:44] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:44] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:44] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:44] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:45] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:45] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:45] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:45] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:45] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:46] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:46] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:46] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:46] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:46] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:47] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:47] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:47] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:47] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:47] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:48] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:48] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:48] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:48] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:48] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:49] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:49] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:49] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:49] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:49] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:50] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:50] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:50] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:50] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:50] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:51] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:51] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:51] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:51] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:51] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:52] [Server thread/INFO]: The particle was not visible for anybody
-[21:34:52] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=wither]
-[21:34:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/617, uuid='c44ff38f-5701-4f09-aedb-a4234e04bbbd', l='ServerLevel[world]', x=10.50, y=74.95, z=61.24, cpos=[0, 3], tl=3979, v=true] died: Ra was killed
-[21:34:52] [Server thread/INFO]: [trololol72: Killed Ra]
-[21:34:55] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:56] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:56] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:56] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:56] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:56] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:57] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:57] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:57] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:57] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:57] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:58] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:58] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:58] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:58] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:58] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:59] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:59] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:59] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:59] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:34:59] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:00] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:01] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:02] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:02] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:02] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:02] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:02] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:03] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:03] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:03] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:03] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:03] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:04] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:04] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:04] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:04] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:04] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:05] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:05] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:05] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:05] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:05] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:06] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:06] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:06] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:06] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:06] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:07] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:07] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:07] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:07] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:07] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:08] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:08] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:08] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:08] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:08] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:09] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:09] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:09] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:09] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:09] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:10] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:10] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:10] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:10] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:10] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:11] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:11] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:11] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:11] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:11] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:12] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:12] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:12] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:12] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:12] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:13] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:13] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:13] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:13] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:13] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:14] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:14] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:14] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:14] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:14] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:15] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:15] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:15] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:15] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:15] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:16] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:17] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:18] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:19] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:20] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:21] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:22] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:23] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:24] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:24] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:25] [Server thread/INFO]: Displaying particle minecraft:flame
-[21:35:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:25] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:26] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:27] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:28] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:29] [Server thread/INFO]: trololol72 issued server command: /witherstorm false
-[21:35:29] [Server thread/INFO]: Named entity WitherBoss['Ra'/1017, uuid='896bd5ab-7cbd-43ef-bc91-8c9fe559f7b6', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=675, v=true] died: Ra was killed
-[21:35:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:29] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:41] [Server thread/INFO]: trololol72 issued server command: /gamemode survival
-[21:35:41] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[21:36:05] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
-[21:36:05] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (170ms)
-[21:36:55] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
-[21:36:55] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (148ms)
-[21:37:49] [Server thread/INFO]: trololol72 issued server command: /summon zombie ~ ~ ~
-[21:37:49] [Server thread/INFO]: [trololol72: Summoned new Zombie]
-[21:38:10] [Server thread/INFO]: trololol72 issued server command: /give trololol72 dirt 64
-[21:38:10] [Server thread/INFO]: [trololol72: Gave 64 [Dirt] to trololol72]
-[21:39:31] [Server thread/INFO]: trololol72 issued server command: /give trololol72 minecraft:milk_bucket
-[21:39:31] [Server thread/INFO]: [trololol72: Gave 1 [Milk Bucket] to trololol72]
-[21:40:15] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
-[21:40:15] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:42:01] [Server thread/INFO]: trololol72 issued server command: /playsound block.note_block.hat
-[21:42:01] [Server thread/INFO]: [trololol72: Played sound minecraft:block.note_block.hat to trololol72]
-[21:42:04] [Server thread/INFO]: trololol72 issued server command: /playsound block.note_block.hat
-[21:42:04] [Server thread/INFO]: [trololol72: Played sound minecraft:block.note_block.hat to trololol72]
-[21:43:03] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[21:43:03] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[00:00:15] [Server thread/INFO]: trololol72 issued server command: //replacenear 8 sand sandstone
+[00:02:48] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:02:49] [Server thread/INFO]: Successfully reloaded misc.sk. (518ms)
+[00:03:13] [Server thread/INFO]: trololol72 issued server command: /data merge block ^ ^ ^ {CustomName:'"sniper"'}
+[00:03:19] [Server thread/INFO]: trololol72 issued server command: /data merge block ^ ^ ^ {CustomName:'"sniper"'}
+[00:05:31] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:05:31] [Server thread/INFO]: Successfully reloaded misc.sk. (126ms)
+[00:06:47] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:06:47] [Server thread/INFO]: Successfully reloaded misc.sk. (60ms)
+[00:10:07] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:10:07] [Server thread/INFO]: Line 8: (misc.sk)
+[00:10:07] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 4 spaces
+[00:10:07] [Server thread/INFO]:     Line: if shooter is a dispenser:
+[00:10:07] [Server thread/INFO]:  
+[00:10:07] [Server thread/INFO]: Line 10: (misc.sk)
+[00:10:07] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
+[00:10:07] [Server thread/INFO]:     Line: broadcast "pow"
+[00:10:07] [Server thread/INFO]:  
+[00:10:07] [Server thread/INFO]: Line 11: (misc.sk)
+[00:10:07] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
+[00:10:07] [Server thread/INFO]:     Line: if name of shooter is "sniper":
+[00:10:07] [Server thread/INFO]:  
+[00:10:07] [Server thread/INFO]: Line 15: (misc.sk)
+[00:10:07] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 12 spaces
+[00:10:07] [Server thread/INFO]:     Line: set velocity of projectile to (velocity of projectile * 3)
+[00:10:07] [Server thread/INFO]:  
+[00:10:07] [Server thread/INFO]:     Encountered 4 errors while reloading misc.sk! (169ms)
+[00:10:27] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:10:27] [Server thread/INFO]: Line 8: (misc.sk)
+[00:10:27] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 4 spaces
+[00:10:27] [Server thread/INFO]:     Line: if shooter is a dispenser:
+[00:10:27] [Server thread/INFO]:  
+[00:10:27] [Server thread/INFO]: Line 10: (misc.sk)
+[00:10:27] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
+[00:10:27] [Server thread/INFO]:     Line: broadcast "pow"
+[00:10:27] [Server thread/INFO]:  
+[00:10:27] [Server thread/INFO]: Line 11: (misc.sk)
+[00:10:27] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
+[00:10:27] [Server thread/INFO]:     Line: if name of shooter is "sniper":
+[00:10:27] [Server thread/INFO]:  
+[00:10:27] [Server thread/INFO]: Line 15: (misc.sk)
+[00:10:27] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 12 spaces
+[00:10:27] [Server thread/INFO]:     Line: set velocity of projectile to (velocity of projectile * 3)
+[00:10:27] [Server thread/INFO]:  
+[00:10:27] [Server thread/INFO]:     Encountered 4 errors while reloading misc.sk! (50ms)
+[00:10:38] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:10:38] [Server thread/INFO]: Successfully reloaded misc.sk. (68ms)
+[00:11:05] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:11:05] [Server thread/INFO]: Line 8: (misc.sk)
+[00:11:05] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 4 spaces
+[00:11:05] [Server thread/INFO]:     Line: if shooter is a dispenser:
+[00:11:05] [Server thread/INFO]:  
+[00:11:05] [Server thread/INFO]: Line 9: (misc.sk)
+[00:11:05] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
+[00:11:05] [Server thread/INFO]:     Line: broadcast "pow"
+[00:11:05] [Server thread/INFO]:  
+[00:11:05] [Server thread/INFO]: Line 10: (misc.sk)
+[00:11:05] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
+[00:11:05] [Server thread/INFO]:     Line: if name of shooter is "sniper":
+[00:11:05] [Server thread/INFO]:  
+[00:11:05] [Server thread/INFO]: Line 14: (misc.sk)
+[00:11:05] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 12 spaces
+[00:11:05] [Server thread/INFO]:     Line: set velocity of projectile to (velocity of projectile * 3)
+[00:11:05] [Server thread/INFO]:  
+[00:11:05] [Server thread/INFO]:     Encountered 4 errors while reloading misc.sk! (86ms)
+[00:11:26] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:11:26] [Server thread/INFO]: Line 8: (misc.sk)
+[00:11:26] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 4 spaces
+[00:11:26] [Server thread/INFO]:     Line: if shooter is a dispenser:
+[00:11:26] [Server thread/INFO]:  
+[00:11:26] [Server thread/INFO]: Line 9: (misc.sk)
+[00:11:26] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
+[00:11:26] [Server thread/INFO]:     Line: broadcast "pow"
+[00:11:26] [Server thread/INFO]:  
+[00:11:26] [Server thread/INFO]: Line 10: (misc.sk)
+[00:11:26] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
+[00:11:26] [Server thread/INFO]:     Line: if name of shooter is "sniper":
+[00:11:26] [Server thread/INFO]:  
+[00:11:26] [Server thread/INFO]: Line 11: (misc.sk)
+[00:11:26] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 12 spaces
+[00:11:26] [Server thread/INFO]:     Line: set velocity of projectile to (velocity of projectile * 3)
+[00:11:26] [Server thread/INFO]:  
+[00:11:26] [Server thread/INFO]:     Encountered 4 errors while reloading misc.sk! (64ms)
+[00:11:47] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:11:47] [Server thread/INFO]: Successfully reloaded misc.sk. (91ms)
+[00:12:43] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:12:43] [Server thread/INFO]: Successfully reloaded misc.sk. (81ms)
+[00:13:15] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:13:16] [Server thread/INFO]: Successfully reloaded misc.sk. (46ms)
+[00:14:08] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:14:08] [Server thread/INFO]: Successfully reloaded misc.sk. (106ms)
+[00:19:12] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=zombie]
+[00:21:05] [Server thread/INFO]: trololol72 issued server command: //wand
+[00:21:45] [Server thread/INFO]: trololol72 issued server command: //set air
+[00:22:00] [Server thread/INFO]: trololol72 issued server command: //set air
+[00:22:46] [Server thread/INFO]: trololol72 issued server command: /spawnpoint
+[00:22:46] [Server thread/INFO]: [trololol72: Set spawn point to 1293, 52, -976 [0.0, 0.0] in minecraft:overworld for trololol72]
+[00:22:50] [Server thread/INFO]: trololol72 issued server command: /kill @e
+[00:22:50] [Server thread/INFO]: [Death] trololol72 was killed (Friends)
+[00:22:50] [Server thread/INFO]: [trololol72: Killed 96 entities]
+[00:26:00] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[00:26:00] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[00:27:07] [User Authenticator #2/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[00:27:11] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[00:27:11] [Server thread/INFO]: trololol72[/[0:0:0:0:0:0:0:1]:61038] logged in with entity id 7570 at ([world]1293.4858702297522, 52.0, -977.8016773251804)
+[00:27:12] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[00:27:12] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[00:30:40] [Server thread/INFO]: trololol72 issued server command: /difficulty
+[00:30:44] [Server thread/INFO]: trololol72 issued server command: /difficulty easy
+[00:30:44] [Server thread/INFO]: [trololol72: The difficulty has been set to Easy]
+[00:31:39] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=zombie]
+[00:31:39] [Server thread/INFO]: [trololol72: Killed 9 entities]
+[00:31:42] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=zombie]
+[00:31:42] [Server thread/INFO]: [trololol72: Killed 2 entities]
+[00:31:45] [Server thread/INFO]: trololol72 issued server command: /kill @e
+[00:31:46] [Server thread/INFO]: [Death] trololol72 was killed (Friends)
+[00:31:46] [Server thread/INFO]: [trololol72: Killed 212 entities]
+[00:37:24] [Server thread/INFO]: trololol72 issued server command: //wand
+[00:43:19] [Server thread/INFO]: trololol72 issued server command: /summon hoglin ~ ~ ~ {IsImmuneToZombification:1b, Passengers:[{id:"piglin_brute",IsImmuneToZombification:1b}]}
+[00:43:19] [Server thread/INFO]: [trololol72: Summoned new Hoglin]
+[00:43:45] [Server thread/INFO]: trololol72 issued server command: /gamemode survival
+[00:43:45] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[00:45:14] [Server thread/INFO]: trololol72 issued server command: /summon hoglin ~ ~ ~ {IsImmuneToZombification:1b, Passengers:[{id:"piglin_brute",IsImmuneToZombification:1b, HandItems:[{id:"minecraft:golden_axe",Count:1b},{}]}]}
+[00:45:14] [Server thread/INFO]: [trololol72: Summoned new Hoglin]
+[00:45:24] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
+[00:45:24] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:45:54] [Server thread/INFO]: trololol72 issued server command: /summon hoglin ~ ~ ~ {IsImmuneToZombification:1b, Passengers:[{id:"piglin_brute",IsImmuneToZombification:1b, HandItems:[{id:"minecraft:golden_axe",Count:1b},{}]}]}
+[00:45:54] [Server thread/INFO]: [trololol72: Summoned new Hoglin]
+[00:46:55] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:46:55] [Server thread/INFO]: Successfully reloaded misc.sk. (103ms)
+[00:47:06] [Server thread/INFO]: trololol72 issued server command: /spawnrider
+[00:48:45] [Server thread/INFO]: trololol72 issued server command: //set smooth_red_sandstone
+[00:48:59] [Server thread/INFO]: trololol72 issued server command: //set smooth_red_sandstone
+[00:49:04] [Server thread/INFO]: trololol72 issued server command: /spawnrider
+[00:49:48] [Server thread/INFO]: trololol72 issued server command: /gamemode survival
+[00:49:48] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[00:50:05] [Server thread/INFO]: trololol72 issued server command: /give trololol72 minecraft:golden_apple 4
+[00:50:05] [Server thread/INFO]: [trololol72: Gave 4 [Golden Apple] to trololol72]
+[00:50:54] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
+[00:50:54] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:53:56] [Server thread/INFO]: [Skript] Reloading misc.sk...
+[00:53:56] [Server thread/INFO]: Successfully reloaded misc.sk. (66ms)
+[00:54:03] [Server thread/INFO]: trololol72 issued server command: /spawnrider
+[00:54:21] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
+[00:54:26] [Server thread/INFO]: trololol72 issued server command: /gamemode survival
+[00:54:26] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[00:54:51] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
+[00:54:51] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:54:58] [Server thread/INFO]: trololol72 issued server command: /spawnrider
+[00:55:16] [Server thread/INFO]: trololol72 issued server command: /spawnrider
+[00:55:45] [Server thread/INFO]: trololol72 issued server command: /spawnrider
+[00:59:44] [Server thread/INFO]: trololol72 issued server command: /effect give trololol72 minecraft:night_vision infinite
+[00:59:44] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
+[01:00:15] [Server thread/INFO]: trololol72 issued server command: /tp ~-30 ~-10 ~
+[01:00:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1252.700000, 46.000000, -971.353707]
+[01:00:32] [Server thread/INFO]: trololol72 issued server command: /tp ~30 ~10 ~
+[01:00:32] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1282.700000, 56.000000, -971.353707]
+[01:00:42] [Server thread/INFO]: trololol72 issued server command: //set air
+[01:01:17] [Server thread/INFO]: trololol72 issued server command: /tp ~30 ~10 ~
+[01:01:17] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1312.700000, 66.000000, -984.700000]
+[01:01:48] [Server thread/INFO]: trololol72 issued server command: /tp ~-30 ~-10 ~
+[01:01:48] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1252.680706, 46.000000, -984.700000]
+[01:01:56] [Server thread/INFO]: trololol72 issued server command: //set air
+[01:03:17] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:03:21] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:03:24] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:03:27] [Server thread/INFO]: trololol72 issued server command: //undo
+[01:03:32] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:03:36] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:03:39] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:03:41] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:03:44] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:03:57] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:04:01] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:04:27] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:04:36] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:04:41] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:05:04] [Server thread/INFO]: trololol72 issued server command: //set lava
+[01:05:12] [Server thread/INFO]: trololol72 issued server command: //undo
+[01:05:58] [Server thread/INFO]: trololol72 issued server command: //set lava
+[01:06:22] [Server thread/INFO]: trololol72 issued server command: //undo
+[01:06:32] [Server thread/INFO]: trololol72 issued server command: //set lava
+[01:06:46] [Server thread/INFO]: trololol72 issued server command: //set sandstone
+[01:06:50] [Server thread/INFO]: trololol72 issued server command: //set sandstone
+[01:07:07] [Server thread/INFO]: trololol72 issued server command: //set air
+[01:07:24] [Server thread/INFO]: trololol72 issued server command: //set smooth_basalt
+[01:07:30] [Server thread/INFO]: trololol72 issued server command: //set smooth_sandstone
+[01:07:38] [Server thread/INFO]: trololol72 issued server command: //undo 2
+[01:07:52] [Server thread/INFO]: trololol72 issued server command: //set smooth_sandstone
+[01:08:12] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:08:18] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:08:21] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:08:28] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:08:42] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:08:47] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:09:05] [Server thread/INFO]: trololol72 issued server command: //set smooth_sandstone_slab
+[01:10:35] [Server thread/INFO]: trololol72 issued server command: //brush sphere 70%sandstone,30%smooth_sandstone 4
+[01:10:41] [Server thread/INFO]: trololol72 issued server command: /mask sandstone
+[01:11:11] [Server thread/INFO]: trololol72 issued server command: /mask smooth_sandstone
+[01:11:27] [Server thread/INFO]: trololol72 issued server command: //brush
+[01:11:34] [Server thread/INFO]: trololol72 issued server command: //wand
+[01:12:14] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ minecraft:chiseled_sandstone
+[01:12:14] [Server thread/INFO]: [trololol72: Changed the block at 1279, 49, -978]
+[01:12:34] [Server thread/INFO]: trololol72 issued server command: //replacenear lava water
+[01:12:40] [Server thread/INFO]: trololol72 issued server command: //replacenear 20 lava water
+[01:16:46] [Server thread/INFO]: trololol72 issued server command: /spawnrider
+[01:17:38] [Server thread/INFO]: trololol72 issued server command: //set 80%sandstone,20%smooth_sandstone
+[01:18:49] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:19:11] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:19:29] [Server thread/INFO]: trololol72 issued server command: //set 80%sandstone,20%smooth_sandstone
+[01:22:01] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 water lava
+[01:22:05] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 water lava
+[01:22:13] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 obsidian lava
+[01:22:29] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 obsidian lava
+[01:22:52] [Server thread/INFO]: trololol72 issued server command: //set sandstone
+[01:25:07] [Server thread/INFO]: trololol72 issued server command: /kill @e[name=Heru]
+[01:25:07] [Server thread/INFO]: Named entity PiglinBrute['Heru'/10717, uuid='6e18438a-2cbf-4a21-b215-5f9f03d47e34', l='ServerLevel[world]', x=1292.89, y=52.00, z=-978.48, cpos=[80, -62], tl=35243, v=true] died: Heru was killed
+[01:25:07] [Server thread/INFO]: [trololol72: Killed Heru]
+[01:26:44] [Server thread/INFO]: trololol72 issued server command: /effect clear trololol72
+[01:26:44] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
+[01:28:01] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:28:23] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:28:27] [Server thread/INFO]: trololol72 issued server command: /undo
+[01:28:37] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:29:50] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:30:04] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:30:54] [Server thread/INFO]: trololol72 issued server command: //wand
+[01:31:09] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:31:25] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
+[01:32:15] [Server thread/INFO]: trololol72 issued server command: //copy
+[01:32:32] [Server thread/INFO]: trololol72 issued server command: //copy
+[01:32:40] [Server thread/INFO]: trololol72 issued server command: //paste
+[01:33:19] [Server thread/INFO]: trololol72 issued server command: //brush sphere 70%smooth_sandstone,30%sandstone 5
+[01:33:29] [Server thread/INFO]: trololol72 issued server command: /mask sandstone,smooth_sandstone
+[01:33:47] [Server thread/INFO]: trololol72 issued server command: //brush sphere 30%smooth_sandstone,70%sandstone 5
+[01:33:59] [Server thread/INFO]: trololol72 issued server command: //brush sphere 50%smooth_sandstone,50%sandstone 5
+[01:51:04] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 water air
+[01:51:09] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 obsidian air
+[01:51:15] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 cobblestone air
+[01:51:22] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 stone air
+[01:51:31] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 stone air
+[01:51:34] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 cobblestone air
+[01:51:43] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 lava air
+[01:51:49] [Server thread/INFO]: trololol72 issued server command: //undo
+[01:51:56] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:51:58] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:52:04] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 obsidian air
+[01:52:15] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 obsidian,cobblestone,stone,water air
+[01:52:29] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:52:35] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 obsidian,cobblestone,stone,water,stone air
+[01:53:52] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:53:54] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:54:06] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:54:19] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:54:32] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:54:34] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:54:36] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:54:39] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:54:54] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
+[01:57:06] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[01:57:06] [Server thread/INFO]: [Quit] trololol72 (Friends) left
