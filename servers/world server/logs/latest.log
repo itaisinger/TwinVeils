@@ -1,261 +1,608 @@
-[00:00:15] [Server thread/INFO]: trololol72 issued server command: //replacenear 8 sand sandstone
-[00:02:48] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:02:49] [Server thread/INFO]: Successfully reloaded misc.sk. (518ms)
-[00:03:13] [Server thread/INFO]: trololol72 issued server command: /data merge block ^ ^ ^ {CustomName:'"sniper"'}
-[00:03:19] [Server thread/INFO]: trololol72 issued server command: /data merge block ^ ^ ^ {CustomName:'"sniper"'}
-[00:05:31] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:05:31] [Server thread/INFO]: Successfully reloaded misc.sk. (126ms)
-[00:06:47] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:06:47] [Server thread/INFO]: Successfully reloaded misc.sk. (60ms)
-[00:10:07] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:10:07] [Server thread/INFO]: Line 8: (misc.sk)
-[00:10:07] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 4 spaces
-[00:10:07] [Server thread/INFO]:     Line: if shooter is a dispenser:
-[00:10:07] [Server thread/INFO]:  
-[00:10:07] [Server thread/INFO]: Line 10: (misc.sk)
-[00:10:07] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
-[00:10:07] [Server thread/INFO]:     Line: broadcast "pow"
-[00:10:07] [Server thread/INFO]:  
-[00:10:07] [Server thread/INFO]: Line 11: (misc.sk)
-[00:10:07] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
-[00:10:07] [Server thread/INFO]:     Line: if name of shooter is "sniper":
-[00:10:07] [Server thread/INFO]:  
-[00:10:07] [Server thread/INFO]: Line 15: (misc.sk)
-[00:10:07] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 12 spaces
-[00:10:07] [Server thread/INFO]:     Line: set velocity of projectile to (velocity of projectile * 3)
-[00:10:07] [Server thread/INFO]:  
-[00:10:07] [Server thread/INFO]:     Encountered 4 errors while reloading misc.sk! (169ms)
-[00:10:27] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:10:27] [Server thread/INFO]: Line 8: (misc.sk)
-[00:10:27] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 4 spaces
-[00:10:27] [Server thread/INFO]:     Line: if shooter is a dispenser:
-[00:10:27] [Server thread/INFO]:  
-[00:10:27] [Server thread/INFO]: Line 10: (misc.sk)
-[00:10:27] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
-[00:10:27] [Server thread/INFO]:     Line: broadcast "pow"
-[00:10:27] [Server thread/INFO]:  
-[00:10:27] [Server thread/INFO]: Line 11: (misc.sk)
-[00:10:27] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
-[00:10:27] [Server thread/INFO]:     Line: if name of shooter is "sniper":
-[00:10:27] [Server thread/INFO]:  
-[00:10:27] [Server thread/INFO]: Line 15: (misc.sk)
-[00:10:27] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 12 spaces
-[00:10:27] [Server thread/INFO]:     Line: set velocity of projectile to (velocity of projectile * 3)
-[00:10:27] [Server thread/INFO]:  
-[00:10:27] [Server thread/INFO]:     Encountered 4 errors while reloading misc.sk! (50ms)
-[00:10:38] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:10:38] [Server thread/INFO]: Successfully reloaded misc.sk. (68ms)
-[00:11:05] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:11:05] [Server thread/INFO]: Line 8: (misc.sk)
-[00:11:05] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 4 spaces
-[00:11:05] [Server thread/INFO]:     Line: if shooter is a dispenser:
-[00:11:05] [Server thread/INFO]:  
-[00:11:05] [Server thread/INFO]: Line 9: (misc.sk)
-[00:11:05] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
-[00:11:05] [Server thread/INFO]:     Line: broadcast "pow"
-[00:11:05] [Server thread/INFO]:  
-[00:11:05] [Server thread/INFO]: Line 10: (misc.sk)
-[00:11:05] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
-[00:11:05] [Server thread/INFO]:     Line: if name of shooter is "sniper":
-[00:11:05] [Server thread/INFO]:  
-[00:11:05] [Server thread/INFO]: Line 14: (misc.sk)
-[00:11:05] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 12 spaces
-[00:11:05] [Server thread/INFO]:     Line: set velocity of projectile to (velocity of projectile * 3)
-[00:11:05] [Server thread/INFO]:  
-[00:11:05] [Server thread/INFO]:     Encountered 4 errors while reloading misc.sk! (86ms)
-[00:11:26] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:11:26] [Server thread/INFO]: Line 8: (misc.sk)
-[00:11:26] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 4 spaces
-[00:11:26] [Server thread/INFO]:     Line: if shooter is a dispenser:
-[00:11:26] [Server thread/INFO]:  
-[00:11:26] [Server thread/INFO]: Line 9: (misc.sk)
-[00:11:26] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
-[00:11:26] [Server thread/INFO]:     Line: broadcast "pow"
-[00:11:26] [Server thread/INFO]:  
-[00:11:26] [Server thread/INFO]: Line 10: (misc.sk)
-[00:11:26] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 8 spaces
-[00:11:26] [Server thread/INFO]:     Line: if name of shooter is "sniper":
-[00:11:26] [Server thread/INFO]:  
-[00:11:26] [Server thread/INFO]: Line 11: (misc.sk)
-[00:11:26] [Server thread/INFO]:     indentation error: expected 2 tabs, but found 12 spaces
-[00:11:26] [Server thread/INFO]:     Line: set velocity of projectile to (velocity of projectile * 3)
-[00:11:26] [Server thread/INFO]:  
-[00:11:26] [Server thread/INFO]:     Encountered 4 errors while reloading misc.sk! (64ms)
-[00:11:47] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:11:47] [Server thread/INFO]: Successfully reloaded misc.sk. (91ms)
-[00:12:43] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:12:43] [Server thread/INFO]: Successfully reloaded misc.sk. (81ms)
-[00:13:15] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:13:16] [Server thread/INFO]: Successfully reloaded misc.sk. (46ms)
-[00:14:08] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:14:08] [Server thread/INFO]: Successfully reloaded misc.sk. (106ms)
-[00:19:12] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=zombie]
-[00:21:05] [Server thread/INFO]: trololol72 issued server command: //wand
-[00:21:45] [Server thread/INFO]: trololol72 issued server command: //set air
-[00:22:00] [Server thread/INFO]: trololol72 issued server command: //set air
-[00:22:46] [Server thread/INFO]: trololol72 issued server command: /spawnpoint
-[00:22:46] [Server thread/INFO]: [trololol72: Set spawn point to 1293, 52, -976 [0.0, 0.0] in minecraft:overworld for trololol72]
-[00:22:50] [Server thread/INFO]: trololol72 issued server command: /kill @e
-[00:22:50] [Server thread/INFO]: [Death] trololol72 was killed (Friends)
-[00:22:50] [Server thread/INFO]: [trololol72: Killed 96 entities]
-[00:26:00] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[00:26:00] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[00:27:07] [User Authenticator #2/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[00:27:11] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[00:27:11] [Server thread/INFO]: trololol72[/[0:0:0:0:0:0:0:1]:61038] logged in with entity id 7570 at ([world]1293.4858702297522, 52.0, -977.8016773251804)
-[00:27:12] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[00:27:12] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[00:30:40] [Server thread/INFO]: trololol72 issued server command: /difficulty
-[00:30:44] [Server thread/INFO]: trololol72 issued server command: /difficulty easy
-[00:30:44] [Server thread/INFO]: [trololol72: The difficulty has been set to Easy]
-[00:31:39] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=zombie]
-[00:31:39] [Server thread/INFO]: [trololol72: Killed 9 entities]
-[00:31:42] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=zombie]
-[00:31:42] [Server thread/INFO]: [trololol72: Killed 2 entities]
-[00:31:45] [Server thread/INFO]: trololol72 issued server command: /kill @e
-[00:31:46] [Server thread/INFO]: [Death] trololol72 was killed (Friends)
-[00:31:46] [Server thread/INFO]: [trololol72: Killed 212 entities]
-[00:37:24] [Server thread/INFO]: trololol72 issued server command: //wand
-[00:43:19] [Server thread/INFO]: trololol72 issued server command: /summon hoglin ~ ~ ~ {IsImmuneToZombification:1b, Passengers:[{id:"piglin_brute",IsImmuneToZombification:1b}]}
-[00:43:19] [Server thread/INFO]: [trololol72: Summoned new Hoglin]
-[00:43:45] [Server thread/INFO]: trololol72 issued server command: /gamemode survival
-[00:43:45] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[00:45:14] [Server thread/INFO]: trololol72 issued server command: /summon hoglin ~ ~ ~ {IsImmuneToZombification:1b, Passengers:[{id:"piglin_brute",IsImmuneToZombification:1b, HandItems:[{id:"minecraft:golden_axe",Count:1b},{}]}]}
-[00:45:14] [Server thread/INFO]: [trololol72: Summoned new Hoglin]
-[00:45:24] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
-[00:45:24] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:45:54] [Server thread/INFO]: trololol72 issued server command: /summon hoglin ~ ~ ~ {IsImmuneToZombification:1b, Passengers:[{id:"piglin_brute",IsImmuneToZombification:1b, HandItems:[{id:"minecraft:golden_axe",Count:1b},{}]}]}
-[00:45:54] [Server thread/INFO]: [trololol72: Summoned new Hoglin]
-[00:46:55] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:46:55] [Server thread/INFO]: Successfully reloaded misc.sk. (103ms)
-[00:47:06] [Server thread/INFO]: trololol72 issued server command: /spawnrider
-[00:48:45] [Server thread/INFO]: trololol72 issued server command: //set smooth_red_sandstone
-[00:48:59] [Server thread/INFO]: trololol72 issued server command: //set smooth_red_sandstone
-[00:49:04] [Server thread/INFO]: trololol72 issued server command: /spawnrider
-[00:49:48] [Server thread/INFO]: trololol72 issued server command: /gamemode survival
-[00:49:48] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[00:50:05] [Server thread/INFO]: trololol72 issued server command: /give trololol72 minecraft:golden_apple 4
-[00:50:05] [Server thread/INFO]: [trololol72: Gave 4 [Golden Apple] to trololol72]
-[00:50:54] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
-[00:50:54] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:53:56] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[00:53:56] [Server thread/INFO]: Successfully reloaded misc.sk. (66ms)
-[00:54:03] [Server thread/INFO]: trololol72 issued server command: /spawnrider
-[00:54:21] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
-[00:54:26] [Server thread/INFO]: trololol72 issued server command: /gamemode survival
-[00:54:26] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[00:54:51] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
-[00:54:51] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:54:58] [Server thread/INFO]: trololol72 issued server command: /spawnrider
-[00:55:16] [Server thread/INFO]: trololol72 issued server command: /spawnrider
-[00:55:45] [Server thread/INFO]: trololol72 issued server command: /spawnrider
-[00:59:44] [Server thread/INFO]: trololol72 issued server command: /effect give trololol72 minecraft:night_vision infinite
-[00:59:44] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
-[01:00:15] [Server thread/INFO]: trololol72 issued server command: /tp ~-30 ~-10 ~
-[01:00:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1252.700000, 46.000000, -971.353707]
-[01:00:32] [Server thread/INFO]: trololol72 issued server command: /tp ~30 ~10 ~
-[01:00:32] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1282.700000, 56.000000, -971.353707]
-[01:00:42] [Server thread/INFO]: trololol72 issued server command: //set air
-[01:01:17] [Server thread/INFO]: trololol72 issued server command: /tp ~30 ~10 ~
-[01:01:17] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1312.700000, 66.000000, -984.700000]
-[01:01:48] [Server thread/INFO]: trololol72 issued server command: /tp ~-30 ~-10 ~
-[01:01:48] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1252.680706, 46.000000, -984.700000]
-[01:01:56] [Server thread/INFO]: trololol72 issued server command: //set air
-[01:03:17] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:03:21] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:03:24] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:03:27] [Server thread/INFO]: trololol72 issued server command: //undo
-[01:03:32] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:03:36] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:03:39] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:03:41] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:03:44] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:03:57] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:04:01] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:04:27] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:04:36] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:04:41] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:05:04] [Server thread/INFO]: trololol72 issued server command: //set lava
-[01:05:12] [Server thread/INFO]: trololol72 issued server command: //undo
-[01:05:58] [Server thread/INFO]: trololol72 issued server command: //set lava
-[01:06:22] [Server thread/INFO]: trololol72 issued server command: //undo
-[01:06:32] [Server thread/INFO]: trololol72 issued server command: //set lava
-[01:06:46] [Server thread/INFO]: trololol72 issued server command: //set sandstone
-[01:06:50] [Server thread/INFO]: trololol72 issued server command: //set sandstone
-[01:07:07] [Server thread/INFO]: trololol72 issued server command: //set air
-[01:07:24] [Server thread/INFO]: trololol72 issued server command: //set smooth_basalt
-[01:07:30] [Server thread/INFO]: trololol72 issued server command: //set smooth_sandstone
-[01:07:38] [Server thread/INFO]: trololol72 issued server command: //undo 2
-[01:07:52] [Server thread/INFO]: trololol72 issued server command: //set smooth_sandstone
-[01:08:12] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:08:18] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:08:21] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:08:28] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:08:42] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:08:47] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:09:05] [Server thread/INFO]: trololol72 issued server command: //set smooth_sandstone_slab
-[01:10:35] [Server thread/INFO]: trololol72 issued server command: //brush sphere 70%sandstone,30%smooth_sandstone 4
-[01:10:41] [Server thread/INFO]: trololol72 issued server command: /mask sandstone
-[01:11:11] [Server thread/INFO]: trololol72 issued server command: /mask smooth_sandstone
-[01:11:27] [Server thread/INFO]: trololol72 issued server command: //brush
-[01:11:34] [Server thread/INFO]: trololol72 issued server command: //wand
-[01:12:14] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ minecraft:chiseled_sandstone
-[01:12:14] [Server thread/INFO]: [trololol72: Changed the block at 1279, 49, -978]
-[01:12:34] [Server thread/INFO]: trololol72 issued server command: //replacenear lava water
-[01:12:40] [Server thread/INFO]: trololol72 issued server command: //replacenear 20 lava water
-[01:16:46] [Server thread/INFO]: trololol72 issued server command: /spawnrider
-[01:17:38] [Server thread/INFO]: trololol72 issued server command: //set 80%sandstone,20%smooth_sandstone
-[01:18:49] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:19:11] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:19:29] [Server thread/INFO]: trololol72 issued server command: //set 80%sandstone,20%smooth_sandstone
-[01:22:01] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 water lava
-[01:22:05] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 water lava
-[01:22:13] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 obsidian lava
-[01:22:29] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 obsidian lava
-[01:22:52] [Server thread/INFO]: trololol72 issued server command: //set sandstone
-[01:25:07] [Server thread/INFO]: trololol72 issued server command: /kill @e[name=Heru]
-[01:25:07] [Server thread/INFO]: Named entity PiglinBrute['Heru'/10717, uuid='6e18438a-2cbf-4a21-b215-5f9f03d47e34', l='ServerLevel[world]', x=1292.89, y=52.00, z=-978.48, cpos=[80, -62], tl=35243, v=true] died: Heru was killed
-[01:25:07] [Server thread/INFO]: [trololol72: Killed Heru]
-[01:26:44] [Server thread/INFO]: trololol72 issued server command: /effect clear trololol72
-[01:26:44] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
-[01:28:01] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:28:23] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:28:27] [Server thread/INFO]: trololol72 issued server command: /undo
-[01:28:37] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:29:50] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:30:04] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:30:54] [Server thread/INFO]: trololol72 issued server command: //wand
-[01:31:09] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:31:25] [Server thread/INFO]: trololol72 issued server command: //set chiseled_sandstone
-[01:32:15] [Server thread/INFO]: trololol72 issued server command: //copy
-[01:32:32] [Server thread/INFO]: trololol72 issued server command: //copy
-[01:32:40] [Server thread/INFO]: trololol72 issued server command: //paste
-[01:33:19] [Server thread/INFO]: trololol72 issued server command: //brush sphere 70%smooth_sandstone,30%sandstone 5
-[01:33:29] [Server thread/INFO]: trololol72 issued server command: /mask sandstone,smooth_sandstone
-[01:33:47] [Server thread/INFO]: trololol72 issued server command: //brush sphere 30%smooth_sandstone,70%sandstone 5
-[01:33:59] [Server thread/INFO]: trololol72 issued server command: //brush sphere 50%smooth_sandstone,50%sandstone 5
-[01:51:04] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 water air
-[01:51:09] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 obsidian air
-[01:51:15] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 cobblestone air
-[01:51:22] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 stone air
-[01:51:31] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 stone air
-[01:51:34] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 cobblestone air
-[01:51:43] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 lava air
-[01:51:49] [Server thread/INFO]: trololol72 issued server command: //undo
-[01:51:56] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:51:58] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:52:04] [Server thread/INFO]: trololol72 issued server command: //replacenear 10 obsidian air
-[01:52:15] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 obsidian,cobblestone,stone,water air
-[01:52:29] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:52:35] [Server thread/INFO]: trololol72 issued server command: //replacenear 15 obsidian,cobblestone,stone,water,stone air
-[01:53:52] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:53:54] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:54:06] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:54:19] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:54:32] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:54:34] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:54:36] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:54:39] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:54:54] [Server thread/INFO]: trololol72 issued server command: //replacenear 2 lava air
-[01:57:06] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[01:57:06] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[01:58:00] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-adhoc.Administrator.jdk21u; OpenLogic OpenLogic-OpenJDK) on Windows 11 10.0 (amd64)
+[01:58:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[01:58:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:58:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[01:58:03] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - SkBee (3.15.0)
+[01:58:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - BuildPaste (1.11.1), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), WorldEdit (7.4.0-rc-01+f3ecb26c6), packetevents (2.11.1), skript-reflect (2.6.1)
+[01:58:10] [ServerMain/WARN]: resource-pack-id missing, using default of b4b6cc40-2c31-34a8-9326-dec96b35b59f
+[01:58:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[01:58:13] [ServerMain/INFO]: Loaded 1470 recipes
+[01:58:13] [ServerMain/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: adventure:main_loop (from file/paler_garden)
+[01:58:13] [ServerMain/INFO]: Loaded 1584 advancements
+[01:58:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[01:58:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 475.8ms
+[01:58:13] [ServerMain/WARN]: resource-pack-id missing, using default of b4b6cc40-2c31-34a8-9326-dec96b35b59f
+[01:58:13] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[01:58:13] [Server thread/INFO]: Loading properties
+[01:58:14] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[01:58:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:58:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:58:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:58:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[01:58:15] [Server thread/INFO]: Default game type: SURVIVAL
+[01:58:15] [Server thread/INFO]: Generating keypair
+[01:58:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:58:15] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[01:58:15] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[01:58:16] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[01:58:16] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:58:16] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[01:58:16] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[01:58:16] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[01:58:17] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0-rc-01+f3ecb26c6
+[01:58:18] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@32b7fff8]
+[01:58:18] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[01:58:18] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[01:58:18] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[01:58:18] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[01:58:19] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[01:58:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:58:19] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[01:58:20] [Server thread/INFO]:         __    
+[01:58:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[01:58:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:58:20] [Server thread/INFO]: 
+[01:58:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:58:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:58:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:58:21] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1734ms)
+[01:58:21] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[01:58:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0-rc-01+f3ecb26c6
+[01:58:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:58:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:58:22] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
+[01:58:22] [Server thread/INFO]: Preparing level "world"
+[01:58:23] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[01:58:23] [Server thread/INFO]: Preparing spawn area: 100%
+[01:58:23] [Server thread/INFO]: Prepared spawn area in 3 ms
+[01:58:23] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[01:58:23] [Server thread/INFO]: Preparing spawn area: 100%
+[01:58:23] [Server thread/INFO]: Prepared spawn area in 1 ms
+[01:58:23] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[01:58:23] [Server thread/INFO]: Prepared spawn area in 2 ms
+[01:58:23] [Server thread/INFO]: Done preparing level "world" (1.078s)
+[01:58:23] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[01:58:24] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[01:58:26] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[01:58:26] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[01:58:27] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[01:58:27] [Server thread/INFO]: [TAB] Enabled in 798ms
+[01:58:27] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[01:58:28] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[01:58:28] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[01:58:28] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1444ms
+[01:58:28] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[01:58:28] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[01:58:28] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[01:58:28] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[01:58:28] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[01:58:28] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[01:58:28] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[01:58:28] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[01:58:28] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[01:58:28] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[01:58:28] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[01:58:28] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[01:58:28] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[01:58:28] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[01:58:28] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[01:58:28] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[01:58:29] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[01:58:29] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[01:58:29] [Server thread/INFO]: [SkBee]  - 56 events
+[01:58:29] [Server thread/INFO]: [SkBee]  - 71 effects
+[01:58:29] [Server thread/INFO]: [SkBee]  - 240 expressions
+[01:58:29] [Server thread/INFO]: [SkBee]  - 27 conditions
+[01:58:29] [Server thread/INFO]: [SkBee]  - 32 sections
+[01:58:29] [Server thread/INFO]: [SkBee]  - 11 properties
+[01:58:29] [Server thread/INFO]: [SkBee] Checking for update...
+[01:58:29] [Server thread/INFO]: [SkBee] Plugin is up to date!
+[01:58:29] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.71 seconds
+[01:58:29] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[01:58:29] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[01:58:29] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[01:58:30] [Server thread/INFO]: [spark] Starting background profiler...
+[01:58:30] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[01:58:30] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[01:58:30] [Server thread/INFO]: Running delayed init tasks
+[01:58:30] [Server thread/INFO]: [Skript] Loading variables...
+[01:58:30] [Server thread/INFO]: [Skript] Loaded 1 variables in 0.0 seconds
+[01:58:31] [Server thread/INFO]: [Skript] Line 17: (villagers_scripts.sk)
+[01:58:31] [Server thread/INFO]:     an nbt compound can't be set to anything
+[01:58:31] [Server thread/INFO]:     Line: set nbt of {_v} to nbt compound from {_nbt}
+[01:58:31] [Server thread/INFO]:  
+[01:58:31] [Server thread/INFO]: [Skript] Loaded 11 scripts with a total of 29 structures in 1.57 seconds
+[01:58:31] [Server thread/INFO]: [Skript] Finished loading.
+[01:58:31] [Server thread/INFO]: Done (32.370s)! For help, type "help"
+[01:58:32] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 11 build(s) behind ***
+[01:58:32] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[02:00:23] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[02:00:23] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[02:00:38] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[02:00:38] [Server thread/INFO]: trololol72[/[0:0:0:0:0:0:0:1]:55964] logged in with entity id 1 at ([world]2.919907895987771, 88.60177483187418, 8.010740966003981)
+[02:00:39] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[02:00:39] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[02:00:43] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:44] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:44] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:44] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:44] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:44] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:44] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:45] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:45] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:45] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:45] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:45] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:46] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:46] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:46] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:46] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:46] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:47] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:47] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:47] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:47] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:47] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:48] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:48] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:48] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:48] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:48] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:49] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:49] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:49] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:49] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:49] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:50] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:50] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:50] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:50] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:50] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:51] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:51] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:51] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:51] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:51] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:52] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:52] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:52] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:52] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:52] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:53] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:53] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:53] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:53] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:53] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:54] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:54] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:54] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:54] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:54] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:55] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:55] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:55] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:55] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:55] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:56] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:56] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:56] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:56] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:56] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:57] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:57] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:57] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:57] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:57] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:58] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:58] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
+[02:00:58] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:00:58] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:59] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:59] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:59] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:59] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:00:59] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:00] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:00] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:00] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:00] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:00] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:01] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:01] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:01] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:01] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:01] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:02] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:02] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:02] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:02] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:02] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:03] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:03] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:03] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:03] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:03] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:04] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:04] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[02:01:04] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[02:01:04] [Server thread/INFO]: Named entity WitherBoss['Ra'/20, uuid='a4a4fb88-bb30-4436-94c4-8167b0aa0cc5', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=400, v=true] died: Ra was killed
+[02:01:11] [Server thread/INFO]: trololol72 issued server command: /effect clear
+[02:01:11] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
+[02:01:14] [Server thread/INFO]: trololol72 issued server command: /time set day
+[02:01:14] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[02:01:16] [Server thread/INFO]: trololol72 issued server command: /weather clear
+[02:01:16] [Server thread/INFO]: [trololol72: Set the weather to clear]
+[02:01:20] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:20] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:20] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:20] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:21] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:21] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:21] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:21] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:21] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:22] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:22] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:22] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:22] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:22] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:23] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:23] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:23] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:23] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:23] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:24] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:24] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:24] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:24] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:24] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:25] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:25] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:25] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:25] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:25] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:26] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:26] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:26] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:26] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:26] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:27] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:27] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:27] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:27] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:27] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:28] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:28] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:28] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:28] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:28] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:29] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:29] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:29] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:29] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:29] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:30] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:30] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:30] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:30] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:30] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:31] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:31] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:31] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:31] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:31] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:32] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:32] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:32] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:32] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:32] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:33] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:33] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:33] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:33] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:33] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:34] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:34] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:34] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:34] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:34] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:35] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:35] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:35] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:35] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:35] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:36] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:36] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:36] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:36] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:36] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:37] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:37] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:37] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:37] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:37] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:38] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:38] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:38] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:38] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:38] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:39] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:39] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:39] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:39] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:39] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:40] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:40] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:40] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:40] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:40] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:41] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:41] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:41] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:41] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:41] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:42] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:42] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:42] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:42] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:42] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:43] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:43] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:43] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:43] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:43] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:44] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:44] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:44] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:44] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:44] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:45] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:45] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:45] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:45] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:45] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:46] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:46] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:46] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:46] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:46] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:47] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:47] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:47] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:47] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:47] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:48] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:48] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:48] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:48] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:48] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:49] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:49] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:49] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:49] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:49] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:50] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:50] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:50] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:50] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:50] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:51] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:51] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:51] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:51] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:51] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:52] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:52] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:52] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:52] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:52] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:53] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:53] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:53] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:53] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:53] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:54] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:54] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:54] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:54] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:54] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:55] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:55] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:55] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:55] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:55] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:56] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:56] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:56] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:56] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:56] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:57] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:57] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:57] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:57] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:57] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:58] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:58] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:58] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:58] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:58] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:59] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:59] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:59] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:59] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:01:59] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:00] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:00] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:00] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:00] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:00] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:01] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:01] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:01] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:01] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:01] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:02] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:02] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:02] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:02] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:02] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:03] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:03] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:03] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:03] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:03] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:04] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:04] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:04] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:04] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:04] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:05] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:05] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:05] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:05] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:05] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:06] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:06] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:06] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:06] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:06] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:07] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:07] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:07] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:07] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:07] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:08] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:08] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:08] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:08] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:08] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:09] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:09] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:09] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:09] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:09] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:10] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:10] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:10] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:10] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:10] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:11] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:11] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:11] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:11] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:11] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:12] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:12] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:12] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:12] [Server thread/INFO]: [Skript] Reloading wither_spawner.sk...
+[02:02:12] [Server thread/INFO]: Successfully reloaded wither_spawner.sk. (363ms)
+[02:02:12] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:13] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:13] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:13] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:13] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:13] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:13] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:14] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:14] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:14] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:14] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:14] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:15] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:15] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:15] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:15] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:15] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:16] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:16] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:16] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:16] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:16] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:17] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:17] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:17] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:17] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:17] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:18] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:18] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:18] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:18] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:18] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:19] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:19] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:19] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:19] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[02:02:19] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[02:02:19] [Server thread/INFO]: Named entity WitherBoss['Ra'/261, uuid='40bea2b8-84c0-4840-bd65-db0c09d1eb62', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=120, v=true] died: Ra was killed
+[02:02:19] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:19] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:20] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:20] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:20] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:20] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:20] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:21] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:21] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:21] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:21] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:21] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:22] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:22] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:22] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:22] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:22] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:23] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:23] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:23] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:23] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:23] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:24] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:24] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:24] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:24] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:24] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:25] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:25] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:25] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:25] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:25] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:26] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:26] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:26] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:26] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:26] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:27] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:27] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:27] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:27] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:27] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:28] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:28] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:28] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:28] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:28] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:29] [Server thread/INFO]: Displaying particle minecraft:flame
+[02:02:29] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=wither]
+[02:02:29] [Server thread/INFO]: Named entity WitherBoss['Ra'/174, uuid='1f9f2064-483c-4d57-ae6e-dd73b9667153', l='ServerLevel[world]', x=22.64, y=74.00, z=26.70, cpos=[1, 1], tl=1377, v=true] died: Ra was killed
+[02:02:29] [Server thread/INFO]: [trololol72: Killed Ra]
+[02:03:14] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[02:03:14] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[02:03:14] [Server thread/INFO]: The particle was not visible for anybody
+[02:03:14] [Server thread/INFO]: The particle was not visible for anybody
+[02:03:14] [Server thread/INFO]: Named entity WitherBoss['Ra'/304, uuid='fe29bc75-0b9e-4391-b62a-28ff970fc0df', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=860, v=true] died: Ra was killed
