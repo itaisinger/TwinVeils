@@ -6,6 +6,8 @@ command /give_book <text>:
             lost_traveler(player)
         if arg-1 is "ra_birth":
             ra_birth(player)
+        if arg-1 is "khazamir":
+            khazamir_story(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -48,5 +50,61 @@ function ra_birth(p: player):
     set page 1 of {_book} to {_p1}
     set page 2 of {_book} to {_p2}
     set page 3 of {_book} to {_p3}
+
+    give {_book} to {_p}
+
+
+function khazamir_story(p: player):
+    set {_book} to a written book named "The Tale of Khazamir the Blind"
+    set author of {_book} to "Jawfar"
+
+    set {_p1} to ""
+    add "O heat,%nl%hear thy story of long ago;" to {_p1}
+    add "%nl%%nl%A story from before the rebirth of the world;" to {_p1}
+    add "%nl%%nl%The story of &lKhazamir the Blind" to {_p1}
+
+    set {_p2} to ""
+    add "In the town of Siba’ara which was lost to time;" to {_p2}
+    add "%nl%Zafirah was a wife of a mine worker;" to {_p2}
+    add "%nl%%nl%Living under the land, Khazamir’s mother was ignorant to the sun’s bliss;" to {_p2}
+    add "%nl%And thus, light didn’t reach her womb, and her firstborne child was blind;" to {_p2}
+
+    set {_p3} to ""
+    add "Disabled, Khazamir was unable to work his bread;" to {_p3}
+    add "%nl%He was a liability and an outcast;" to {_p3}
+    
+    set {_p4} to ""
+    add "When calamity fall upon Sahra, and the world was torn to pieces;" to {_p4}
+    add "%nl%%nl%Fire surged from beneath the earth;" to {_p4}
+    add "%nl%Mountains rose as if coming to life;" to {_p4}
+    add "%nl%%nl%The morning star was restless in choosing a leader." to {_p4}
+    
+    set {_p5} to ""
+    add "Astonished, light had befelled Khazamir’s eyes;" to {_p5}
+    add "%nl%%nl%A miracle, a favor bestowed from the sun god himself;" to {_p5}
+    add "%nl%%nl%The heat has chosen him to lead the newly broken Sahra." to {_p5}
+
+    set {_p6} to ""
+    add "Formerly blind, the walls of night didn’t scare him;" to {_p6}
+    add "%nl%%nl%Formerly weak, his lust for power was undermined with lust for affection;" to {_p6}
+    add "%nl%%nl%Formerly ignorant, his faith was ever powerful, unveiled to a miracle;" to {_p6}
+
+    set {_p7} to ""
+    add "Khazamir has led Sahra gallantry to prosperity;" to {_p7}
+    add "%nl%%nl%He was the torch in the dark, he was the heat’s pillar of flame;" to {_p7}
+    add "%nl%%nl%130 years he ruled the desert, before the sun has claimed him back;" to {_p7}
+    
+    set {_p8} to ""
+    add "Once blind, from his tomb he will eternally overlook the beautiful sea;" to {_p8}
+    add "%nl%%nl%%nl%And be washed by the waves, and the all encompassing sun;" to {_p8}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p5}
+    set page 6 of {_book} to {_p6}
+    set page 7 of {_book} to {_p7}
+    set page 8 of {_book} to {_p8}
 
     give {_book} to {_p}
