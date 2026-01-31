@@ -224,3 +224,27 @@ command /generate_hearts <number> <number>:
                                 execute console command "setblock %{_xW}% %{_y}% %{_z}% minecraft:pale_oak_log[axis=y]"
 
         send "&a&lSuccess! &fGenerated &e%{_count}% &fCreaking Hearts."
+
+
+command /replacedebris <number>:
+    permission: op
+    trigger:
+        set {_radius} to arg-1
+        set {_count} to 0
+        
+        send "&eScanning radius %{_radius}% for Ancient Debris..."
+        
+        loop blocks in radius {_radius} around player:
+            if loop-block is ancient debris:
+                add 1 to {_count}
+                
+                # 80% Chance -> Stone
+                if chance of 80%:
+                    set loop-block to stone
+                
+                # Remaining 20% -> Stone (as requested)
+                else:
+                    set loop-block to copper_ore 
+                    # Tip: Change 'stone' above to 'netherrack' or 'air' if you wanted a mix!
+
+        send "&aReplaced %{_count}% Ancient Debris blocks!"
