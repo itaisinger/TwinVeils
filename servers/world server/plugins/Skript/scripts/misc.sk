@@ -146,11 +146,13 @@ command /bonemeal_area <number>:
         loop blocks in radius arg-1 around player:
             # Check for saplings, crops, or fungus (using text check for safety with new blocks)
             set {_type} to "%type of loop-block%"
-            if {_type} contains "sapling" or "crop" or "stem" or "fungus" or "mushroom":
+            if {_type} contains "sapling" or "crop" or "stem" or "fungus" or "mushroom" or "grass" or "pale moss block":
                 
-                # Apply Bone Meal
-                apply bone meal to loop-block
-                add 1 to {_count}
+                set {_r} to random integer between 1 and 25 
+                if {_r} is 2:
+                    # Apply Bone Meal
+                    apply bone meal to loop-block
+                    add 1 to {_count}
                 
                 # specific fix for the 2x2 Pale Oaks if they are stubborn:
                 if {_type} contains "pale_oak":
