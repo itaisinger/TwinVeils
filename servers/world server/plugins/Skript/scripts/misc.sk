@@ -99,3 +99,61 @@ command /spreadinventory <number>:
                             remove {_stack} from player's inventory
 
         send "&aInventory spread (batches of 1-7) into %size of {_chests::*}% chests!"
+
+
+command /force2x2 <number>:
+    permission: op
+    trigger:
+        set {_count} to 0
+        set {_radius} to arg-1
+        
+        loop blocks in radius {_radius} around player:
+            # We convert the block to text to search for ANY mention of "pale" and "sapling"
+            set {_name} to "%loop-block%"
+            
+            if {_name} contains "pale" and "sapling":
+                
+                # Double check we aren't merging existing 2x2s
+                if block east of loop-block is not loop-block:
+                    if block south of loop-block is not loop-block:
+                        
+                        # Get Coordinates for the 3 new spots
+                        set {_loc} to location of loop-block
+                        
+                        # Calculate East (X+1)
+                        set {_x1} to x-coord of {_loc} + 1
+                        set {_y} to y-coord of {_loc}
+                        set {_z} to z-coord of {_loc}
+                        execute console command "setblock %{_x1}% %{_y}% %{_z}% minecraft:pale_oak_sapling"
+                        
+                        # Calculate South (Z+1)
+                        set {_x} to x-coord of {_loc}
+                        set {_z1} to z-coord of {_loc} + 1
+                        execute console command "setblock %{_x}% %{_y}% %{_z1}% minecraft:pale_oak_sapling"
+                        
+                        # Calculate South-East (X+1, Z+1)
+                        execute console command "setblock %{_x1}% %{_y}% %{_z1}% minecraft:pale_oak_sapling"
+                        
+                        add 1 to {_count}
+        
+        send "&aForced 2x2 generation on %{_count}% saplings!"
+
+
+command /bonemeal_area <number>:
+    permission: op
+    trigger:
+        set {_count} to 0
+        loop blocks in radius arg-1 around player:
+            # Check for saplings, crops, or fungus (using text check for safety with new blocks)
+            set {_type} to "%type of loop-block%"
+            if {_type} contains "sapling" or "crop" or "stem" or "fungus" or "mushroom":
+                
+                # Apply Bone Meal
+                apply bone meal to loop-block
+                add 1 to {_count}
+                
+                # specific fix for the 2x2 Pale Oaks if they are stubborn:
+                if {_type} contains "pale_oak":
+                    apply bone meal to loop-block
+        
+        send "&aApplied bone meal to %{_count}% plants!"
