@@ -48,4 +48,54 @@ command /respawn_riders:
         make player execute "spawnrider Heru"
         make player execute "spawnrider Hathor"
 
+command /spreadinventory <number>:
+    permission: op
+    trigger:
+        # 1. Find chests
+        set {_chests::*} to blocks in radius arg-1 around player where [input is a chest]
+        if size of {_chests::*} is 0:
+            send "&cNo chests found in radius!"
+            stop
             
+        # 2. Loop inventory
+        loop all items in player's inventory:
+            if loop-item is not air:
+                
+                # We loop enough times to cover the stack.
+                # The 'if loop-item is air' check stops us early if we finish the stack in batches.
+                loop (item amount of loop-item) times:
+                    if loop-item is air:
+                        stop loop
+                    
+                    # 3. Determine Batch Size (1 to 7)
+                    set {_batch} to random integer between 1 and 10
+                    
+                    # Don't take more than we have left
+                    if {_batch} > item amount of loop-item:
+                        set {_batch} to item amount of loop-item
+                    
+                    set {_stack} to {_batch} of loop-item
+                    
+                    # 4. Pick Chest and Slot
+                    set {_target} to random element out of {_chests::*}
+                    set {_placed} to false
+                    
+                    set {_maxSlots} to amount of slots of inventory of {_target}
+                    remove 1 from {_maxSlots}
+                    
+                    # Try random slots
+                    loop 10 times:
+                        if {_placed} is false:
+                            set {_slot} to random integer between 0 and {_maxSlots}
+                            if slot {_slot} of inventory of {_target} is air:
+                                set slot {_slot} of inventory of {_target} to {_stack}
+                                remove {_stack} from player's inventory
+                                set {_placed} to true
+                    
+                    # Fallback (If random slot didn't work, just add it)
+                    if {_placed} is false:
+                        if inventory of {_target} can hold {_stack}:
+                            add {_stack} to {_target}'s inventory
+                            remove {_stack} from player's inventory
+
+        send "&aInventory spread (batches of 1-7) into %size of {_chests::*}% chests!"
