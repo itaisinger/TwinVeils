@@ -159,3 +159,61 @@ command /bonemeal_area <number>:
                     apply bone meal to loop-block
         
         send "&aApplied bone meal to %{_count}% plants!"
+
+
+
+command /generate_hearts <number> <number>:
+    description: Usage: /generate_hearts <radius> <chance_percent>
+    permission: op
+    trigger:
+        set {_radius} to arg-1
+        set {_chance} to arg-2
+        set {_count} to 0
+        
+        send "&eScanning for Pale Oak trees in radius %{_radius}%..."
+        
+        loop blocks in radius {_radius} around player:
+            
+            # 1. Identify Pale Oak Logs
+            set {_id} to "%type of loop-block%"
+            if {_id} contains "pale_oak_log":
+                
+                # 2. Check Vertical Alignment (Top Trunk)
+                if block above loop-block is loop-block:
+                    if block below loop-block is loop-block:
+                        
+                        # 3. Chance Check (FIXED)
+                        if random integer between 1 and 100 <= {_chance}:
+                            
+                            # 4. Generate Heart
+                            set {_x} to x-coord of loop-block
+                            set {_y} to y-coord of loop-block
+                            set {_z} to z-coord of loop-block
+                            
+                            execute console command "setblock %{_x}% %{_y}% %{_z}% minecraft:creaking_heart[axis=y]"
+                            add 1 to {_count}
+                            
+                            # 5. COVER THE HEART (Lore Requirement)
+                            # We check if the neighbor is Air or any type of Leaves using text
+                            
+                            # North
+                            if "%type of block north of loop-block%" contains "air" or "leaves":
+                                set {_zN} to {_z} - 1
+                                execute console command "setblock %{_x}% %{_y}% %{_zN}% minecraft:pale_oak_log[axis=y]"
+
+                            # South
+                            if "%type of block south of loop-block%" contains "air" or "leaves":
+                                set {_zS} to {_z} + 1
+                                execute console command "setblock %{_x}% %{_y}% %{_zS}% minecraft:pale_oak_log[axis=y]"
+
+                            # East
+                            if "%type of block east of loop-block%" contains "air" or "leaves":
+                                set {_xE} to {_x} + 1
+                                execute console command "setblock %{_xE}% %{_y}% %{_z}% minecraft:pale_oak_log[axis=y]"
+
+                            # West
+                            if "%type of block west of loop-block%" contains "air" or "leaves":
+                                set {_xW} to {_x} - 1
+                                execute console command "setblock %{_xW}% %{_y}% %{_z}% minecraft:pale_oak_log[axis=y]"
+
+        send "&a&lSuccess! &fGenerated &e%{_count}% &fCreaking Hearts."
