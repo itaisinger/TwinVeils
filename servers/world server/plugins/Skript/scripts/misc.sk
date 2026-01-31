@@ -68,7 +68,7 @@ command /spreadinventory <number>:
                         stop loop
                     
                     # 3. Determine Batch Size (1 to 7)
-                    set {_batch} to random integer between 1 and 10
+                    set {_batch} to random integer between 1 and 5
                     
                     # Don't take more than we have left
                     if {_batch} > item amount of loop-item:
