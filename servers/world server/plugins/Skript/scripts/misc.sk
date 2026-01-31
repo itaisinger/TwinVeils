@@ -174,18 +174,21 @@ command /generate_hearts <number> <number>:
         
         loop blocks in radius {_radius} around player:
             
-            # 1. Identify Pale Oak Logs
-            set {_id} to "%type of loop-block%"
-            if {_id} contains "pale_oak_log":
+            # 1. Get the name of the current block
+            set {_currentName} to "%type of loop-block%"
+            
+            # 2. Check if it is a Pale Oak Log
+            if {_currentName} contains "pale_oak_log":
                 
-                # 2. Check Vertical Alignment (Top Trunk)
-                if block above loop-block is loop-block:
-                    if block below loop-block is loop-block:
+                # 3. Check Vertical Alignment (Top Trunk)
+                # FIX: We check the NAMES of the blocks above/below, not the blocks themselves.
+                if "%type of block above loop-block%" contains "pale_oak_log":
+                    if "%type of block below loop-block%" contains "pale_oak_log":
                         
-                        # 3. Chance Check (FIXED)
+                        # 4. Chance Check
                         if random integer between 1 and 100 <= {_chance}:
                             
-                            # 4. Generate Heart
+                            # 5. Generate Heart
                             set {_x} to x-coord of loop-block
                             set {_y} to y-coord of loop-block
                             set {_z} to z-coord of loop-block
@@ -193,26 +196,30 @@ command /generate_hearts <number> <number>:
                             execute console command "setblock %{_x}% %{_y}% %{_z}% minecraft:creaking_heart[axis=y]"
                             add 1 to {_count}
                             
-                            # 5. COVER THE HEART (Lore Requirement)
-                            # We check if the neighbor is Air or any type of Leaves using text
+                            # 6. COVER THE HEART
+                            # We check if neighbors are Air or Leaves, and cover them with logs if so.
                             
                             # North
-                            if "%type of block north of loop-block%" contains "air" or "leaves":
+                            set {_nName} to "%type of block north of loop-block%"
+                            if {_nName} contains "air" or "leaves":
                                 set {_zN} to {_z} - 1
                                 execute console command "setblock %{_x}% %{_y}% %{_zN}% minecraft:pale_oak_log[axis=y]"
 
                             # South
-                            if "%type of block south of loop-block%" contains "air" or "leaves":
+                            set {_sName} to "%type of block south of loop-block%"
+                            if {_sName} contains "air" or "leaves":
                                 set {_zS} to {_z} + 1
                                 execute console command "setblock %{_x}% %{_y}% %{_zS}% minecraft:pale_oak_log[axis=y]"
 
                             # East
-                            if "%type of block east of loop-block%" contains "air" or "leaves":
+                            set {_eName} to "%type of block east of loop-block%"
+                            if {_eName} contains "air" or "leaves":
                                 set {_xE} to {_x} + 1
                                 execute console command "setblock %{_xE}% %{_y}% %{_z}% minecraft:pale_oak_log[axis=y]"
 
                             # West
-                            if "%type of block west of loop-block%" contains "air" or "leaves":
+                            set {_wName} to "%type of block west of loop-block%"
+                            if {_wName} contains "air" or "leaves":
                                 set {_xW} to {_x} - 1
                                 execute console command "setblock %{_xW}% %{_y}% %{_z}% minecraft:pale_oak_log[axis=y]"
 
