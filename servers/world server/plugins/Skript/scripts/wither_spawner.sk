@@ -18,7 +18,8 @@ on load:
     set {safe_spots::0} to location(0, 100, 0, world "world") 
     set {safe_spots::1} to location(100, 100, 100, world "world")
     
-    set {wither_system_active} to true
+    if {wither_system_active} is not set:
+        set {wither_system_active} to true
     set {wither_debug_active} to false
 
 # --- 2. Manual Toggle Commands ---

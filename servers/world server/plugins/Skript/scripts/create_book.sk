@@ -1,4 +1,5 @@
 command /give_book <text>:
+    permission: op
     trigger:
         if arg-1 is "dawn":
             morning_passage(player)

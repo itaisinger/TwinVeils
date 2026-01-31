@@ -18,7 +18,8 @@ on load:
     set {safe_spots::0} to location(0, 100, 0, world "world") 
     set {safe_spots::1} to location(100, 100, 100, world "world")
     
-    set {curse_active} to true
+    if {curse_active} is not set:
+        set {curse_active} to true
     set {traveler_debug_active} to false
 
 

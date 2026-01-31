@@ -7,7 +7,8 @@ on shoot:
         broadcast "pow"
         set velocity of projectile to (velocity of projectile * 3)
 
-command /spawnrider:
+command /spawnrider <text>:
+    permission: op
     trigger:
         # 1. Mount (Hoglin)
         spawn hoglin at player
@@ -21,11 +22,30 @@ command /spawnrider:
         # 2. Rider (Brute)
         spawn piglin brute at player
         set {_rider} to last spawned piglin brute
+        set name of {_rider} to arg-1
         
         # NBT: Immunity + Persistence + Axe
-        add nbt compound from "{IsImmuneToZombification:1b, PersistenceRequired:1b, HandItems:[{id:""minecraft:golden_axe"",Count:1b},{}]}" to nbt of {_rider}
+        if arg-1 is "Hathor":
+            set tool of {_rider} to golden spear
+        else:
+            set tool of {_rider} to golden axe
+
+
+        add nbt compound from "{IsImmuneToZombification:1b, PersistenceRequired:1b}" to nbt of {_rider}
         # Effect: Fire Resistance (Infinite)
         apply fire resistance without particles to {_rider} for 99999 days
 
         # 3. Ride
         make {_rider} ride {_mount}
+
+command /respawn_riders:
+    permission: op
+    trigger:
+        make player execute "kill @e[name=Heru]"
+        make player execute "kill @e[name=Haru]"
+        make player execute "kill @e[name=Hathor]"
+        make player execute "kill @e[type=hoglin]"
+        make player execute "spawnrider Heru"
+        make player execute "spawnrider Hathor"
+
+            
