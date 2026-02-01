@@ -227,6 +227,7 @@ command /generate_hearts <number> <number>:
 
 
 command /replacedebris <number>:
+
     permission: op
     trigger:
         set {_radius} to arg-1
@@ -248,3 +249,14 @@ command /replacedebris <number>:
                     # Tip: Change 'stone' above to 'netherrack' or 'air' if you wanted a mix!
 
         send "&aReplaced %{_count}% Ancient Debris blocks!"
+
+command /countnear <entity type> <number>:
+    permission: op
+    trigger:
+        set {_type} to arg-1
+        set {_radius} to arg-2
+        
+        # Count entities
+        set {_count} to size of (entities of type {_type} in radius {_radius} around player)
+        
+        broadcast "&aFound &e%{_count}% &a%{_type}%s within &e%{_radius}% &ablocks."
