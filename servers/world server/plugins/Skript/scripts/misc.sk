@@ -260,3 +260,8 @@ command /countnear <entity type> <number>:
         set {_count} to size of (entities of type {_type} in radius {_radius} around player)
         
         broadcast "&aFound &e%{_count}% &a%{_type}%s within &e%{_radius}% &ablocks."
+
+command /damageitem <integer>:
+    permission: op
+    trigger:
+        damage player's tool by arg-1

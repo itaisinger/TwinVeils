@@ -1,0 +1,73 @@
+on inventory click:
+    # Check if the menu open is a Brewing Stand
+    if type of top inventory of player is brewing stand inventory:
+        set {_stand} to top inventory of player
+        set {_update_fuel} to false
+
+        # --- SCENARIO 1: SHIFT-CLICKING resin clump (From Bag -> Stand) ---
+        if click type is left mouse button with shift:
+            if event-slot is resin clump:
+                # Ensure we clicked our own bag (bottom), not the stand
+                if clicked inventory is player's inventory:
+                    cancel event
+                    
+                    # Try to move item to Slot 4 of the Stand
+                    if slot 4 of {_stand} is air:
+                        set slot 4 of {_stand} to event-slot
+                        set event-slot to air
+                        set {_update_fuel} to true
+                    
+                    else if slot 4 of {_stand} is resin clump:
+                        if item amount of slot 4 of {_stand} < 64:
+                            set {_add} to item amount of event-slot
+                            if item amount of slot 4 of {_stand} + {_add} > 64:
+                                set {_add} to 64 - item amount of slot 4 of {_stand}
+                            
+                            add {_add} to item amount of slot 4 of {_stand}
+                            subtract {_add} from item amount of event-slot
+                            set {_update_fuel} to true
+
+        # --- SCENARIO 2: DIRECTLY CLICKING THE FUEL SLOT (Slot 4) ---
+        else if index of event-slot is 4:
+            if clicked inventory is {_stand}:
+                if cursor slot of player is resin clump:
+                    cancel event
+                    set {_update_fuel} to true
+                    
+                    # Right Click (Drop 1)
+                    if click type is right mouse button:
+                        if slot 4 of {_stand} is air:
+                            set slot 4 of {_stand} to 1 of cursor slot of player
+                            subtract 1 from item amount of cursor slot of player
+                        else if slot 4 of {_stand} is resin clump:
+                            if item amount of slot 4 of {_stand} < 64:
+                                add 1 to item amount of slot 4 of {_stand}
+                                subtract 1 from item amount of cursor slot of player
+                    
+                    # Left Click (Place All)
+                    else:
+                        if slot 4 of {_stand} is air:
+                            set slot 4 of {_stand} to cursor slot of player
+                            set cursor slot of player to air
+                        else if slot 4 of {_stand} is resin clump:
+                            if item amount of slot 4 of {_stand} < 64:
+                                add item amount of cursor slot of player to item amount of slot 4 of {_stand}
+                                set cursor slot of player to air
+
+        # --- LOGIC: UPDATE FUEL NBT ---
+        if {_update_fuel} is true:
+            wait 1 tick
+            set {_loc} to location of holder of {_stand}
+            set {_block} to block at {_loc}
+            
+            # Use SkBee NBT
+            set {_nbt} to nbt compound of {_block}
+            set {_fuel} to byte tag "Fuel" of {_nbt}
+            
+            if {_fuel} is not set:
+                set {_fuel} to 0
+            
+            if {_fuel} <= 0:
+                if slot 4 of {_stand} is resin clump:
+                    subtract 1 from item amount of slot 4 of {_stand}
+                    set byte tag "Fuel" of nbt of {_block} to 20
