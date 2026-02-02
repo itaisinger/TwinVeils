@@ -11,6 +11,12 @@ command /give_book <text>:
             khazamir_story(player)
         if arg-1 is "gibrish":
             gibrish(player)
+        if arg-1 is "genesis 1":
+            noctugenesis_1(player)
+        if arg-1 is "genesis 2":
+            noctugenesis_2(player)
+        if arg-1 is "genesis 2 gibrish":
+            noctugenesis_2_gibberish(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -27,6 +33,97 @@ function lost_traveler(p: player):
     set author of {_book} to "Narith"
     set page 1 of {_book} to "O heat,%nl%Too far from thy path I've ridden%nl%%nl%The journey is weary and vengeful, why shan't thee show me thy pillar of flame?%nl%%nl%The curse of the traveler is upon me, and Diya al-Sahra is nowhere in sight"
     set page 2 of {_book} to "O heat, hear me, for I scream with lungs aflame,%nl%%nl%O heat, save me, for I weak to a night of terror,%nl%%nl%O heat, love me, cause I fear thy love is the last for me"
+    give {_book} to {_p}
+
+function noctugenesis_1(p: player):
+    set {_book} to a written book named "Noctugenesis I"
+    set author of {_book} to "Historian"
+
+    set {_p1} to ""
+    add "Once there was only the Night;" to {_p1}
+    add "%nl%The Night was eternal; it was everywhere and nowhere;" to {_p1}
+    add "%nl%%nl%The Night was the moon; It was the darkness beyond;" to {_p1}
+    add "%nl%The Night was cold, and dark, and alive;" to {_p1}
+    add "%nl%%nl%And the Night was named &5&lKhonsu&r." to {_p1}
+
+    set {_p2} to ""
+    add "Once the Night was lonely;" to {_p2}
+    add "%nl%Thus he created land; forests, and mountains and deserts;" to {_p2}
+    add "%nl%%nl%Thus he created sea; endless blue, sky upon earth;" to {_p2}
+    add "%nl%Thus he created life; Birds and fish and the first men." to {_p2}
+    add "%nl%%nl%And the Night was satisfied." to {_p2}
+
+    set {_p3} to ""
+    add "But life was lonely;" to {_p3}
+    add "%nl%The Night lived time as he pleases;" to {_p3}
+    add "%nl%%nl%While life lived through time as men do;" to {_p3}
+    add "%nl%%nl%Thus the Night envisioned the Sun." to {_p3}
+
+    set {_p4} to ""
+    add "A warm heat, one that'll keep life company;" to {_p4}
+    add "%nl%%nl%One that'll hear life’s calls;" to {_p4}
+    add "%nl%One that'll keep life warm;" to {_p4}
+    add "%nl%One that'll keep life safe;" to {_p4}
+    add "%nl%%nl%One that'll love life with all its might." to {_p4}
+    
+    set {_p45} to ""
+    add "%nl%%nl%%nl%%nl%%nl%%nl%And the heat’s name was &4&lRa&r." to {_p45}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p45}
+    set page 6 of {_book} to {_p5}
+
+    give {_book} to {_p}
+
+function noctugenesis_2(p: player):
+    set {_book} to a written book named "Noctugenesis II"
+    set author of {_book} to "Historian"
+
+    set {_p0} to ""
+    add "And loved life it did;" to {_p0}
+    add "%nl%%nl%It roamed the lands and engulfed it fully;" to {_p0}
+    add "%nl%%nl%It ruled life as a father to a child;" to {_p0}
+    add "%nl%%nl%And it grew envious of the Night’s might;" to {_p0}
+
+    set {_p1} to ""
+    add "Fierce with hubris, the heat sought more;" to {_p1}
+    add "%nl%%nl%Dissatisfied with sharing life’s reign," to {_p1}
+    add "%nl%%nl%It sought to be crowned sole ruler;" to {_p1}
+    add "%nl%%nl%To rule not just the sea and the land, but the sky too;" to {_p1}
+
+    set {_p2} to ""
+    add "Thus the Night brought calamity upon the earth;" to {_p2}
+    add "%nl%Mountains clashed, moving about as though living;" to {_p2}
+    add "%nl%%nl%The seas roared, waves rising higher than the sky;" to {_p2}
+    add "%nl%%nl%Lava surged from the ground, seas of deadly hallow;" to {_p2}
+
+    set {_p3} to ""
+    add "Giant, titanous, endless, enormous walls of Night emerged;" to {_p3}
+    add "%nl%Marking impenetrable borders between the newly divided earth;" to {_p3}
+    add "%nl%%nl%Each land, a separated world of its own;" to {_p3}
+    add "%nl%%nl%With its own forest, its own sea, its own life and its own sun;" to {_p3}
+
+    set {_p4} to ""
+    add "Thus the Night brought punishment upon the sun;" to {_p4}
+    add "%nl%%nl%For desiring to rule all life, life was now separated;" to {_p4}
+    add "%nl%Each life its own land, its own part of the sun;" to {_p4}
+    add "%nl%%nl%A part of the sun trapped within the divide;" to {_p4}
+
+    set {_p5} to ""
+    add "And the sun was wrath;" to {_p5}
+    add "%nl%%nl%And the sun was vengeance;" to {_p5}
+    add "%nl%%nl%And the sun was hate." to {_p5}
+
+    set page 1 of {_book} to {_p0}
+    set page 2 of {_book} to {_p1}
+    set page 3 of {_book} to {_p2}
+    set page 4 of {_book} to {_p3}
+    set page 5 of {_book} to {_p4}
+    set page 6 of {_book} to {_p5}
+
     give {_book} to {_p}
 
 function ra_birth(p: player):
@@ -121,4 +218,52 @@ function gibrish(p: player):
     set page 2 of {_book} to "Lë†  †|·|ÿ  l·|·|·|·|·†  §|·|·|·|\|·ë  ·|·|·|·|·ø|\|  †|·|ÿ  §ë¦·|·/·|·|\|†§  ø|\|·c·ë  |·|·|ø·¦·ë;%nl%Ã  †|·|ø·|·|·§·|·|·|\|·d  ¦·|·|·|·ÿ§,  |·|·|·|·|·¦·ë  ƒø¦·c·ë  øƒ  ë|\|l·|·|·g|·|†ë|\||·|·ë|\|†;%nl%%nl%Këë·|·  ·|·|·§  \/\/·|·|·|·|·|·|·|\|  †|·|ÿ  §·|·|·kë;  dë·|·ø·|·|·¦  †|·|ë  ¦ë|\|·|·|\|·|·|\|†§  øƒ  †|·|ë  |\|·|·g|·|†;%nl%Ã  |·|·|·|·ll·|·|·¦  øƒ  ƒ·|·¦·ë,  §|·|·|·|\|·|·|\|·g  b¦·|·g|·|†  §·|·|\|c·ë  d·|·\/\/·|\|  øƒ  ë·|·¦·|·|·|;"
     set page 3 of {_book} to "S|·|ø\/\/  ·|·|·§  †|·|ë  \/\/·|·|·ÿ,  l·|·|·|·|·†  †|·|ë  |·|·|·†|·|  ƒø¦·\/\/·|·|·|·d;%nl%%nl%Ã|\|d  \/\/|·|ë|\|  †|·|ÿ  |·|·|·†|·|  ·|·§  †ø  †|·|ë  g¦ø·|·|\|d,  b·|·ck  †ø  †|·|ë  |·|·l·|·c·ë  øƒ  b·|·¦·|·|·|;%nl%%nl%Ã§  †|·|ë  §·|·|·|\|  §·|·|\|k§  ·|·|\|dë¦  ·|·†  †|·|ë  ëdgë  øƒ  d·|·|·ÿ,  †øø  §|·|·|·ll  \/\/ë;%nl%%nl%F¦ø|·|  bëlø\/\/  \/\/ë  c·|·|·|·ë,  ·|·|\|d  †|·|·|·§  §|·|·|·ll  \/\/ë  ·|·†  l·|·§†  ¦ë†·|·¦|\|;"
     set page 4 of {_book} to "&4Ø  |·|·ë·|·†,  |·|·ë·|·¦  ·|·|·§;&r%nl%Fø¦  \/\/ë  §c¦ë·|·|·|  \/\/·|·|·|·|  l·|·|\|g§  ·|·fl·|·|·|·ë;%nl%%nl%&4Ø  |·|·ë·|·†,  §·|·|·|·ë  ·|·|·§;&r%nl%Fø¦  \/\/ë  \/\/ë·|·k  †ø  |\|·|·g|·|†§  øƒ  †ë¦¦ø¦;%nl%%nl%&4Ø  |·|·ë·|·†,  lø·|·ë  ·|·|·§;&r%nl%Fø¦  Ã†ë|\|  ·|·§  ·|·  |·|·|·¦§|·|,  ·|·|\|d  ·|·  c¦·|·ë·l,  ·|·|\|d  ·|·  cøl·d  |·|·|·§†¦ë§§;%nl%Ã|\|d  †|·|ë  |·|·ë·|·†  g·|·|·ë§  ·|·|·§  |·|·ø\/\/ë¦  †ø  këë·|·  ø|\|."
+    give {_book} to {_p}
+
+function noctugenesis_2_gibberish(p: player):
+    set {_book} to a written book named "|\|øc†·|·gë|\|ë§·|·§  I  I"
+    set author of {_book} to "|·|·|·§†ø¦·|··|\|"
+
+    set {_p1} to ""
+    add "Ã|\|d  lø\/ëd  l·|·ƒë  ·|·†  d·|·d;" to {_p1}
+    add "%nl%%nl%·|·†  ¦ø·|·|·|ëd  †|·|ë  l·|·|\|d§  ·|·|\|d  ë|\|g·|·lƒëd  ·|·†  ƒ·|·llÿ;" to {_p1}
+    add "%nl%%nl%·|·†  ¦·|·lëd  l·|·ƒë  ·|·§  ·|·  ƒ·|·†|·|ë¦  †ø  ·|·  c|·|·|·ld;" to {_p1}
+    add "%nl%%nl%Ã|\|d  ·|·†  g¦ë\/\/  ë|\|b·|·ø·|·§  øƒ  †|·|ë  &5|\|·|·g|·|†&r’§  |·|·|·|·g|·|†;" to {_p1}
+
+    set {_p2} to ""
+    add "F·|·ë¦cë  \/\/·|·†|·|  |·|·|·b¦·|·§,  †|·|ë  &4|·|·ë·|·†&r  §ø·|·g|·|†  |·|·|ø¦ë;" to {_p2}
+    add "%nl%%nl%D·|·§§·|·†·|·§ƒ·|·ëd  \/\/·|·†|·|  §|·|·|·¦·|·|\|g  l·|·ƒë’§  ¦ë·|·g|\|," to {_p2}
+    add "%nl%%nl%·|·†  §ø·|·g|·|†  †ø  bë  c¦ø\/\/|\|ëd  §ølë  ¦·|·lë¦;" to {_p2}
+    add "%nl%%nl%Tø  ¦·|·lë  |\|ø†  j·|·§†  †|·|ë  §ë·|·  ·|·|\|d  †|·|ë  l·|·|\|d,  b·|·†  †|·|ë  § kÿ  †øø;" to {_p2}
+
+    set {_p3} to ""
+    add "T|·|·|·§  †|·|ë  &5|\|·|·g|·|†&r  b¦ø·|·g|·|†  c·|·l·|·|·|·|·†ÿ  ·|·|·ø|\|  †|·|ë  ë·|·¦†|·|;" to {_p3}
+    add "%nl%Mø·|·|\|†·|··|·|\|§  cl·|·§|·|ëd,  |·|·|ø\/·|·|\|g  ·|·bø·|·†  ·|·§  †|·|ø·|·g|·|  l·|·\/·|·|\|g;" to {_p3}
+    add "%nl%%nl%T|·|ë  §ë·|·§  ¦ø·|·¦ëd,  \/\/·|·\/ë§  ¦·|·§·|·|\|g |·|·|·g|·|ë¦  †|·|·|·|\|  †|·|ë  § kÿ;" to {_p3}
+    add "%nl%%nl%L· |·\/·|·  §·|·¦gëd  ƒ¦ø|·|·|  †|·|ë  g¦ø·|·|\|d,  §ë·|·§  øƒ  dë·|·dlÿ  |·|·|llø\/\/;" to {_p3}
+
+    set {_p4} to ""
+    add "G·|··|·|\|†,  †·|·†·|·|\|ø·|·§,  ë|\|dlë§§,  ë|\|ø¦|·|·|ø·|·§  \/\/·|·ll§  øƒ  &5|\|·|·g|·|†&r  ë|·|·|ë¦gëd;" to {_p4}
+    add "%nl%M·|·¦k·|·|\|g  ·|·|·|·|·ë|\|ë†¦·|·blë  bø¦dë¦§  bë†\/\/ëë|\|  †|·|ë  |\|ë\/\/lÿ  d·|·\/·|·dëd  ë·|·¦†|·|;" to {_p4}
+    add "%nl%%nl%E·|·c|·|  l·|·|\|d,  ·|·  §ë·|··|·¦·|·†ëd  \/\/ø¦ld  øƒ  ·|·†§  ø\/\/|\|;" to {_p4}
+    add "%nl%%nl%W·|·†|·|  ·|·†§  ø\/\/|\|  ƒø¦ë§†,  ·|·†§  ø\/\/|\|  §ë·|·,  ·|·†§  ø\/\/|\|  l·|·ƒë  ·|·|\|d  ·|·†§  ø\/\/|\|  §·|·|\|;" to {_p4}
+
+    set {_p5} to ""
+    add "T|·|·|·§  †|·|ë  &5|\|·|·g|·|†&r  b¦ø·|·g|·|†  |·|·|·|\|·|·§|·|·|·|ë|\|†  ·|·|·ø|\|  †|·|ë  &4§·|·|\|&r;" to {_p5}
+    add "%nl%%nl%Fø¦  dë§·|·¦·|·|\|g  †ø  ¦·|·lë  ·|·ll  l·|·ƒë,  l·|·ƒë  \/\/·|·§  |\|ø\/\/  §ë·|··|·¦·|·†ëd;" to {_p5}
+    add "%nl%E·|·c|·|  l·|·ƒë  ·|·†§  ø\/\/|\|  l·|·|\|d,  ·|·†§  ø\/\/|\|  |·|·|·¦†  øƒ  †|·|ë  &4§·|·|\|&r;" to {_p5}
+    add "%nl%%nl%Ã  |·|·|·¦†  øƒ  †|·|ë  &4§·|·|\|&r  †¦·|·|·|·ëd  \/\/·|·†|·|·|\|  †|·|ë  d·|·\/·|·dë;" to {_p5}
+
+    set {_p6} to ""
+    add "Ã|\|d  †|·|ë  &4§·|·|\|&r  \/\/·|·§  \/\/¦·|·†|·|;" to {_p6}
+    add "%nl%%nl%Ã|\|d  †|·|ë  &4§·|·|\|&r  \/\/·|·§  \/ë|\|gë·|·|\|cë;" to {_p6}
+    add "%nl%%nl%Ã|\|d  †|·|ë  &4§·|·|\|&r  \/\/·|·§  &4&l|·|·|·†ë&r." to {_p6}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p5}
+    set page 6 of {_book} to {_p6}
+
     give {_book} to {_p}
