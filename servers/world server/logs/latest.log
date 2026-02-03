@@ -1,247 +1,1522 @@
-[16:05:59] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-adhoc.Administrator.jdk21u; OpenLogic OpenLogic-OpenJDK) on Windows 11 10.0 (amd64)
-[16:05:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[16:06:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:06:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
-[16:06:03] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - SkBee (3.15.0)
-[16:06:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
- - BuildPaste (1.11.1), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), WorldEdit (7.4.0-rc-01+f3ecb26c6), packetevents (2.11.1), skript-reflect (2.6.1)
-[16:06:10] [ServerMain/WARN]: resource-pack-id missing, using default of 5b66ceb2-be8e-3668-8c8b-7bb06e8ffada
-[16:06:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[16:06:12] [ServerMain/INFO]: Loaded 1470 recipes
-[16:06:13] [ServerMain/INFO]: Loaded 1584 advancements
-[16:06:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[16:06:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 434.3ms
-[16:06:13] [ServerMain/WARN]: resource-pack-id missing, using default of 5b66ceb2-be8e-3668-8c8b-7bb06e8ffada
-[16:06:13] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[16:06:13] [Server thread/INFO]: Loading properties
-[16:06:13] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[16:06:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:06:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:06:14] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:06:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
-[16:06:16] [Server thread/INFO]: Default game type: SURVIVAL
-[16:06:16] [Server thread/INFO]: Generating keypair
-[16:06:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:06:16] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[16:06:16] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[16:06:17] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[16:06:19] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:06:19] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[16:06:19] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[16:06:20] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[16:06:21] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0-rc-01+f3ecb26c6
-[16:06:22] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@69e326c]
-[16:06:22] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[16:06:22] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[16:06:22] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[16:06:22] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[16:06:25] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[16:06:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:06:25] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[16:06:26] [Server thread/INFO]:         __    
-[16:06:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[16:06:26] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:06:26] [Server thread/INFO]: 
-[16:06:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:06:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:06:28] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:06:28] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3111ms)
-[16:06:28] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[16:06:28] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0-rc-01+f3ecb26c6
-[16:06:28] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:06:28] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:06:30] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
-[16:06:30] [Server thread/INFO]: Preparing level "world"
-[16:06:32] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[16:06:32] [Server thread/INFO]: Preparing spawn area: 100%
-[16:06:32] [Server thread/INFO]: Prepared spawn area in 16 ms
-[16:06:32] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[16:06:32] [Server thread/INFO]: Preparing spawn area: 100%
-[16:06:32] [Server thread/INFO]: Prepared spawn area in 9 ms
-[16:06:32] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[16:06:32] [Server thread/INFO]: Prepared spawn area in 14 ms
-[16:06:32] [Server thread/INFO]: Done preparing level "world" (1.741s)
-[16:06:32] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[16:06:33] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[16:06:36] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[16:06:36] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[16:06:37] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[16:06:37] [Server thread/INFO]: [TAB] Enabled in 1105ms
-[16:06:37] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[16:06:37] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[16:06:37] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[16:06:38] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[16:06:38] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[16:06:38] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[16:06:38] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[16:06:38] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[16:06:38] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 2718ms
-[16:06:38] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[16:06:38] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[16:06:38] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[16:06:38] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[16:06:38] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[16:06:38] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[16:06:38] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[16:06:38] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[16:06:38] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[16:06:38] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[16:06:38] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[16:06:39] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[16:06:39] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[16:06:39] [Server thread/INFO]: [SkBee]  - 56 events
-[16:06:39] [Server thread/INFO]: [SkBee]  - 71 effects
-[16:06:39] [Server thread/INFO]: [SkBee]  - 240 expressions
-[16:06:39] [Server thread/INFO]: [SkBee]  - 27 conditions
-[16:06:39] [Server thread/INFO]: [SkBee]  - 32 sections
-[16:06:39] [Server thread/INFO]: [SkBee]  - 11 properties
-[16:06:39] [Server thread/INFO]: [SkBee] Update checker disabled!
-[16:06:39] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.95 seconds
-[16:06:39] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[16:06:39] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[16:06:39] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[16:06:39] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[16:06:40] [Server thread/INFO]: [spark] Starting background profiler...
-[16:06:40] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[16:06:40] [Server thread/INFO]: Running delayed init tasks
-[16:06:40] [Server thread/INFO]: [Skript] Loading variables...
-[16:06:40] [Server thread/INFO]: [Skript] Loaded 11 variables in 0.0 seconds
-[16:06:44] [Server thread/INFO]: [Skript] Line 17: (villagers_scripts.sk)
-[16:06:44] [Server thread/INFO]:     an nbt compound can't be set to anything
-[16:06:44] [Server thread/INFO]:     Line: set nbt of {_v} to nbt compound from {_nbt}
-[16:06:44] [Server thread/INFO]:  
-[16:06:46] [Server thread/INFO]: [Skript] Loaded 12 scripts with a total of 40 structures in 6.35 seconds
-[16:06:46] [Server thread/INFO]: [Skript] Finished loading.
-[16:06:46] [Server thread/INFO]: Done (48.684s)! For help, type "help"
-[16:06:47] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 12 build(s) behind ***
-[16:06:47] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[16:08:24] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[16:08:25] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[16:08:38] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[16:08:38] [Server thread/INFO]: trololol72[/[0:0:0:0:0:0:0:1]:55131] logged in with entity id 1 at ([world]229.27474495386392, 131.0625, 803.1129660397165)
-[16:08:39] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[16:08:39] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[16:10:23] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:10:23] [Server thread/INFO]: Successfully reloaded create_book.sk. (171ms)
-[16:10:34] [Server thread/INFO]: trololol72 issued server command: /give_book genesis
-[16:10:47] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 1
-[16:11:56] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:11:56] [Server thread/INFO]: Successfully reloaded create_book.sk. (127ms)
-[16:12:01] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 1
-[16:13:21] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:13:21] [Server thread/INFO]: Successfully reloaded create_book.sk. (112ms)
-[16:13:25] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 1
-[16:13:41] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:13:41] [Server thread/INFO]: Successfully reloaded create_book.sk. (212ms)
-[16:13:44] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 1
-[16:14:54] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:14:55] [Server thread/INFO]: Successfully reloaded create_book.sk. (126ms)
-[16:14:58] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 1
-[16:18:25] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:18:25] [Server thread/INFO]: Successfully reloaded create_book.sk. (140ms)
-[16:18:29] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 1
-[16:19:58] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:19:58] [Server thread/INFO]: Successfully reloaded create_book.sk. (116ms)
-[16:20:02] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 1
-[16:21:58] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:21:58] [Server thread/INFO]: Successfully reloaded create_book.sk. (198ms)
-[16:22:02] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 1
-[16:22:27] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 2
-[16:22:58] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:22:58] [Server thread/INFO]: Successfully reloaded create_book.sk. (122ms)
-[16:23:02] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 2
-[16:23:33] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:23:33] [Server thread/INFO]: Successfully reloaded create_book.sk. (187ms)
-[16:23:37] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 2
-[16:25:12] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:25:12] [Server thread/INFO]: Successfully reloaded create_book.sk. (138ms)
-[16:25:17] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 2
-[16:29:06] [Server thread/INFO]: trololol72 issued server command: /time set day
-[16:29:06] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[16:49:49] [Server thread/INFO]: trololol72 issued server command: /time set night
-[16:49:49] [Server thread/INFO]: [trololol72: Set the time to 13000]
-[16:53:25] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:53:26] [Server thread/INFO]: Successfully reloaded create_book.sk. (665ms)
-[16:53:33] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 2 gibrish
-[16:56:30] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:56:30] [Server thread/INFO]: Successfully reloaded create_book.sk. (369ms)
-[16:56:35] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 2 gibrish
-[16:57:12] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:57:13] [Server thread/INFO]: Successfully reloaded create_book.sk. (196ms)
-[16:57:17] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 2 gibrish
-[16:57:44] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:57:45] [Server thread/INFO]: Successfully reloaded create_book.sk. (340ms)
-[16:57:48] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 2 gibrish
-[16:58:14] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:58:14] [Server thread/INFO]: Successfully reloaded create_book.sk. (145ms)
-[16:58:20] [Server thread/INFO]: trololol72 issued server command: /give_book genesis 2 gibrish
-[16:59:08] [Server thread/INFO]: trololol72 issued server command: /time set night
-[16:59:08] [Server thread/INFO]: [trololol72: Set the time to 13000]
-[17:04:02] [Server thread/INFO]: trololol72 issued server command: /time set day
-[17:04:02] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[17:04:21] [Server thread/INFO]: trololol72 issued server command: /brush sphere air 3
-[17:04:27] [Server thread/INFO]: trololol72 issued server command: /mask pale_oak_log
-[17:06:40] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[17:06:40] [Server thread/INFO]: trololol72 lost connection: Server is restarting
-[17:06:40] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[17:06:41] [Server thread/INFO]: Stopping server
-[17:06:41] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[17:06:41] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[17:06:41] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[17:06:41] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[17:06:41] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[17:06:41] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[17:06:41] [Server thread/INFO]: [TAB] Disabled in 1ms
-[17:06:41] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.0-rc-01+f3ecb26c6
-[17:06:41] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[17:06:41] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[17:06:41] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[17:06:41] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[17:06:41] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[17:06:41] [Server thread/INFO]: [LuckPerms] Closing storage...
-[17:06:41] [Server thread/INFO]: [LuckPerms] Goodbye!
-[17:06:41] [Server thread/INFO]: Saving players
-[17:06:41] [Server thread/INFO]: Saving worlds
-[17:06:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:06:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:06:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:06:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Saved 323 block chunks, 327 entity chunks, 0 poi chunks in world 'world' in 0.56s
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[17:06:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[17:06:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[17:06:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[17:06:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:06:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:06:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:06:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:06:42] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[17:06:42] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[17:06:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[17:06:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[01:16:18] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[01:16:18] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[01:18:17] [Server thread/INFO]: trololol72 (/[0:0:0:0:0:0:0:1]:50851) lost connection: Disconnected
+[01:20:09] [User Authenticator #1/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[01:20:15] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[01:20:15] [Server thread/INFO]: trololol72[/[0:0:0:0:0:0:0:1]:55428] logged in with entity id 839 at ([world]221.59368979514812, 124.9908121020513, 797.7961954994983)
+[01:20:16] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[01:20:16] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[01:20:32] [Server thread/INFO]: trololol72 issued server command: /countnear witch 40
+[01:20:32] [Server thread/INFO]: Found 0 adult witchs within 40 blocks.
+[01:22:03] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:22:03] [Server thread/INFO]: Line 19: (witch.sk)
+[01:22:03] [Server thread/INFO]:     Can't understand this condition/effect: set persistence of {_w} to true
+[01:22:03] [Server thread/INFO]:     Line: set persistence of {_w} to true
+[01:22:03] [Server thread/INFO]:  
+[01:22:04] [Server thread/INFO]: Line 23: (witch.sk)
+[01:22:04] [Server thread/INFO]:     Can't understand this condition/effect: debug = true
+[01:22:04] [Server thread/INFO]:     Line: debug = true
+[01:22:04] [Server thread/INFO]:  
+[01:22:04] [Server thread/INFO]: Line 27: (witch.sk)
+[01:22:04] [Server thread/INFO]:     undefined option {@hut_2}
+[01:22:04] [Server thread/INFO]:     Line: set {_huts::2} to {@hut_2}
+[01:22:04] [Server thread/INFO]:  
+[01:22:04] [Server thread/INFO]: Line 28: (witch.sk)
+[01:22:04] [Server thread/INFO]:     undefined option {@hut_3}
+[01:22:04] [Server thread/INFO]:     Line: set {_huts::3} to {@hut_3}
+[01:22:04] [Server thread/INFO]:  
+[01:22:04] [Server thread/INFO]: Line 29: (witch.sk)
+[01:22:04] [Server thread/INFO]:     undefined option {@hut_4}
+[01:22:04] [Server thread/INFO]:     Line: set {_huts::4} to {@hut_4}
+[01:22:04] [Server thread/INFO]:  
+[01:22:04] [Server thread/INFO]: Line 30: (witch.sk)
+[01:22:04] [Server thread/INFO]:     Can't understand this condition/effect: if(debug) broadcast "loop"
+[01:22:04] [Server thread/INFO]:     Line: if(debug) broadcast "loop"
+[01:22:04] [Server thread/INFO]:  
+[01:22:04] [Server thread/INFO]:     Encountered 6 errors while reloading witch.sk! (367ms)
+[01:22:27] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:22:27] [Server thread/INFO]: Line 19: (witch.sk)
+[01:22:27] [Server thread/INFO]:     Can't understand this condition/effect: set persistence of {_w} to true
+[01:22:27] [Server thread/INFO]:     Line: set persistence of {_w} to true
+[01:22:27] [Server thread/INFO]:  
+[01:22:27] [Server thread/INFO]: Line 23: (witch.sk)
+[01:22:27] [Server thread/INFO]:     Can't understand this condition/effect: debug = true
+[01:22:27] [Server thread/INFO]:     Line: debug = true
+[01:22:27] [Server thread/INFO]:  
+[01:22:27] [Server thread/INFO]: Line 27: (witch.sk)
+[01:22:27] [Server thread/INFO]:     undefined option {@hut_2}
+[01:22:27] [Server thread/INFO]:     Line: set {_huts::2} to {@hut_2}
+[01:22:27] [Server thread/INFO]:  
+[01:22:27] [Server thread/INFO]: Line 28: (witch.sk)
+[01:22:27] [Server thread/INFO]:     undefined option {@hut_3}
+[01:22:27] [Server thread/INFO]:     Line: set {_huts::3} to {@hut_3}
+[01:22:27] [Server thread/INFO]:  
+[01:22:27] [Server thread/INFO]: Line 29: (witch.sk)
+[01:22:27] [Server thread/INFO]:     undefined option {@hut_4}
+[01:22:27] [Server thread/INFO]:     Line: set {_huts::4} to {@hut_4}
+[01:22:27] [Server thread/INFO]:  
+[01:22:27] [Server thread/INFO]: Line 30: (witch.sk)
+[01:22:27] [Server thread/INFO]:     Can't understand this condition: 'debug'
+[01:22:27] [Server thread/INFO]:     Line: if debug:
+[01:22:27] [Server thread/INFO]:  
+[01:22:27] [Server thread/INFO]:     Encountered 6 errors while reloading witch.sk! (301ms)
+[01:22:37] [Server thread/INFO]: trololol72 issued server command: /countnear witch 40
+[01:22:37] [Server thread/INFO]: Found 1 adult witchs within 40 blocks.
+[01:24:00] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:24:00] [Server thread/INFO]: Line 22: (witch.sk)
+[01:24:00] [Server thread/INFO]:     Can't understand this condition/effect: set remove when far away of {_w} to false
+[01:24:00] [Server thread/INFO]:     Line: set remove when far away of {_w} to false
+[01:24:00] [Server thread/INFO]:  
+[01:24:00] [Server thread/INFO]:     Encountered 1 error while reloading witch.sk! (202ms)
+[01:26:06] [Server thread/INFO]: trololol72 issued server command: /countnear witch 40
+[01:26:06] [Server thread/INFO]: Found 0 adult witchs within 40 blocks.
+[01:26:40] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:26:40] [Server thread/INFO]: Successfully reloaded witch.sk. (198ms)
+[01:28:11] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:28:11] [Server thread/INFO]: Successfully reloaded witch.sk. (180ms)
+[01:28:30] [Server thread/INFO]: trololol72 issued server command: /witchdebug true
+[01:28:31] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:28:31] [Server thread/INFO]: [Debug] Checking Hut 2: Alive
+[01:28:31] [Server thread/INFO]: [Debug] Checking Hut 3: Alive
+[01:28:31] [Server thread/INFO]: [Debug] Checking Hut 4: Alive
+[01:28:36] [Server thread/INFO]: trololol72 issued server command: /countnear witch 40
+[01:28:36] [Server thread/INFO]: Found 0 adult witchs within 40 blocks.
+[01:28:36] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:28:36] [Server thread/INFO]: [Debug] Checking Hut 2: Alive
+[01:28:36] [Server thread/INFO]: [Debug] Checking Hut 3: Alive
+[01:28:36] [Server thread/INFO]: [Debug] Checking Hut 4: Alive
+[01:28:41] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:28:41] [Server thread/INFO]: [Debug] Checking Hut 2: Alive
+[01:28:41] [Server thread/INFO]: [Debug] Checking Hut 3: Alive
+[01:28:41] [Server thread/INFO]: [Debug] Checking Hut 4: Alive
+[01:28:46] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:28:46] [Server thread/INFO]: [Debug] Checking Hut 2: Alive
+[01:28:46] [Server thread/INFO]: [Debug] Checking Hut 3: Alive
+[01:28:46] [Server thread/INFO]: [Debug] Checking Hut 4: Alive
+[01:28:51] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:28:51] [Server thread/INFO]: [Debug] Checking Hut 2: Alive
+[01:28:51] [Server thread/INFO]: [Debug] Checking Hut 3: Alive
+[01:28:51] [Server thread/INFO]: [Debug] Checking Hut 4: Alive
+[01:28:56] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:28:56] [Server thread/INFO]: [Debug] Checking Hut 2: Alive
+[01:28:56] [Server thread/INFO]: [Debug] Checking Hut 3: Alive
+[01:28:56] [Server thread/INFO]: [Debug] Checking Hut 4: Alive
+[01:29:01] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:29:01] [Server thread/INFO]: [Debug] Checking Hut 2: Alive
+[01:29:01] [Server thread/INFO]: [Debug] Checking Hut 3: Alive
+[01:29:01] [Server thread/INFO]: [Debug] Checking Hut 4: Alive
+[01:29:06] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:29:06] [Server thread/INFO]: [Debug] Checking Hut 2: Alive
+[01:29:06] [Server thread/INFO]: [Debug] Checking Hut 3: Alive
+[01:29:06] [Server thread/INFO]: [Debug] Checking Hut 4: Alive
+[01:29:07] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:29:07] [Server thread/INFO]: Successfully reloaded witch.sk. (180ms)
+[01:29:12] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:29:17] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:29:22] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:29:27] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:29:32] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:29:37] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:29:42] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:29:47] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:29:52] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:29:57] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:30:02] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:30:07] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:30:12] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:30:17] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:30:22] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:30:22] [Server thread/INFO]: Successfully reloaded witch.sk. (220ms)
+[01:30:27] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:30:27] [Server thread/INFO]: trololol72 issued server command: /countnear witch 40
+[01:30:27] [Server thread/INFO]: Found 0 adult witchs within 40 blocks.
+[01:30:32] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:30:37] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:30:42] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:30:47] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:30:52] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:30:57] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:02] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:07] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:12] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:17] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:22] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:27] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:32] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:37] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:42] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:47] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:52] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:31:57] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:32:02] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:32:04] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:32:05] [Server thread/INFO]: Line 60: (witch.sk)
+[01:32:05] [Server thread/INFO]:     Can't understand this condition/effect: broadcast place of {_w}
+[01:32:05] [Server thread/INFO]:     Line: broadcast place of {_w}
+[01:32:05] [Server thread/INFO]:  
+[01:32:05] [Server thread/INFO]:     Encountered 1 error while reloading witch.sk! (279ms)
+[01:32:09] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:32:14] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:32:14] [Server thread/INFO]: Successfully reloaded witch.sk. (222ms)
+[01:32:18] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:32:19] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:32:24] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:32:24] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:32:28] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:32:29] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:32:34] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:32:34] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:32:39] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:32:39] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:32:44] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:32:44] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:32:47] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:32:48] [Server thread/INFO]: Successfully reloaded witch.sk. (252ms)
+[01:32:52] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:32:52] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:32:52] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:32:57] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:32:57] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:32:57] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:02] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:02] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:02] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:07] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:07] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:07] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:12] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:12] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:12] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:17] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:17] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:17] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:22] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:22] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:22] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:27] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:27] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:27] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:32] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:32] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:32] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:37] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:37] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:37] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:42] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:42] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:42] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:47] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:47] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:47] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:52] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:52] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:52] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:33:57] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:33:57] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:33:57] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:02] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:02] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:02] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:07] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:07] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:07] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:12] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:12] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:12] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:17] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:17] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:17] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:22] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:22] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:22] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:27] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:27] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:27] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:32] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:32] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:32] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:37] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:37] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:37] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:42] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:42] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:42] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:47] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:47] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:47] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:52] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:52] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:52] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:34:57] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:34:57] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:34:57] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:35:02] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:35:02] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:35:02] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:35:07] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:35:07] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:35:07] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:35:12] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:35:12] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:35:12] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:35:17] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:35:17] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:35:17] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:35:22] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:35:22] [Server thread/INFO]: Successfully reloaded witch.sk. (131ms)
+[01:35:27] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:35:27] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:35:27] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:35:32] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:35:32] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:35:32] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:35:37] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:35:37] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:35:37] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:35:42] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:35:42] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:35:42] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:35:47] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:35:47] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:35:47] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:35:52] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:35:52] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:35:52] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:35:57] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:35:57] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:35:57] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:02] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:36:02] [Server thread/INFO]: Successfully reloaded witch.sk. (118ms)
+[01:36:07] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:36:07] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:36:07] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:07] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:36:12] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:36:12] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:36:12] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:12] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:36:16] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:36:16] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:36:17] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:17] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:36:22] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:36:22] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:36:22] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:22] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:36:26] [Server thread/INFO]: trololol72 issued server command: /countnear witch 40
+[01:36:26] [Server thread/INFO]: Found 0 adult witchs within 40 blocks.
+[01:36:26] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:36:27] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:36:27] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:27] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:36:31] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:36:31] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:36:31] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:31] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:36:36] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:36:36] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:36:37] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:37] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:36:42] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:36:42] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:36:42] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:42] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:36:47] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:36:47] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:36:47] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:47] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:36:52] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:36:52] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:36:52] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:52] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:36:57] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:36:57] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:36:57] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:36:57] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:02] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:02] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:02] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:02] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:06] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:06] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:07] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:07] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:11] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:11] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:11] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:12] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:16] [Server thread/INFO]: trololol72 issued server command: /countnear witch 200
+[01:37:16] [Server thread/INFO]: Found 0 adult witchs within 200 blocks.
+[01:37:16] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:16] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:16] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:17] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:19] [Server thread/INFO]: trololol72 issued server command: /countnear witch 2000
+[01:37:19] [Server thread/INFO]: Found 0 adult witchs within 2000 blocks.
+[01:37:22] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:22] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:22] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:22] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:27] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:27] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:27] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:27] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:32] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:32] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:32] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:32] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:36] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:36] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:37] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:37] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:42] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:42] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:42] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:42] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:46] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:47] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:47] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:47] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:52] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:52] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:52] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:52] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:37:57] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:37:57] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:37:57] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:37:57] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:38:01] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:38:01] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:38:02] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:38:02] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:38:06] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:38:06] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:38:06] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:38:07] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:38:11] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:38:11] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:38:11] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:38:12] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:38:13] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:38:14] [Server thread/INFO]: Line 11: (witch.sk)
+[01:38:14] [Server thread/INFO]:     Can't compare 'hut_1' with a location
+[01:38:14] [Server thread/INFO]:     Line: hut_1 = location(230, 124, 803, world "world")
+[01:38:14] [Server thread/INFO]:  
+[01:38:14] [Server thread/INFO]:     Encountered 1 error while reloading witch.sk! (287ms)
+[01:38:24] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:38:24] [Server thread/INFO]: Line 11: (witch.sk)
+[01:38:24] [Server thread/INFO]:     Can't understand this condition/effect: set hut_1 to location(230, 124, 803, world "world")
+[01:38:24] [Server thread/INFO]:     Line: set hut_1 to location(230, 124, 803, world "world")
+[01:38:24] [Server thread/INFO]:  
+[01:38:24] [Server thread/INFO]:     Encountered 1 error while reloading witch.sk! (167ms)
+[01:38:36] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:38:36] [Server thread/INFO]: Successfully reloaded witch.sk. (137ms)
+[01:38:41] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:38:41] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:38:41] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:38:41] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:38:46] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:38:46] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:38:46] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:38:46] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:38:51] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:38:51] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:38:51] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:38:51] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:38:56] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:38:56] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:38:56] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:38:56] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:01] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:01] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:01] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:01] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:06] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:06] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:06] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:06] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:11] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:11] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:11] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:11] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:16] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:16] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:16] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:16] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:21] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:21] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:21] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:21] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:26] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:26] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:26] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:26] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:31] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:31] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:31] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:31] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:36] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:36] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:36] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:36] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:41] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:41] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:41] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:41] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:46] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:46] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:46] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:46] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:51] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:51] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:51] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:51] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:39:56] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:39:56] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:39:56] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:39:56] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:01] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:01] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:01] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:40:01] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:06] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:06] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:06] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:40:06] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:11] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:11] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:11] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:40:11] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:16] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:16] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:16] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:40:16] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:21] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:21] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:21] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:40:21] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:26] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:26] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:26] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:40:26] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:31] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:31] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:31] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:40:31] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:36] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:36] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:36] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:40:36] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:41] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:41] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:41] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:40:41] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:46] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:46] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:46] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting.
+[01:40:46] [Server thread/INFO]: tp witch to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:49] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:40:49] [Server thread/INFO]: Successfully reloaded witch.sk. (115ms)
+[01:40:54] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:54] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:54] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from <none> to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:40:59] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:40:59] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:40:59] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from <none> to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:41:04] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:41:04] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:41:04] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from <none> to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:41:09] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:41:09] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:41:09] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from <none> to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:41:14] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:41:14] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:41:14] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from <none> to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:41:17] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:41:17] [Server thread/INFO]: Line 77: (witch.sk)
+[01:41:17] [Server thread/INFO]:     Can't understand this condition/effect: set from to location of {_w}
+[01:41:17] [Server thread/INFO]:     Line: set from to location of {_w}
+[01:41:17] [Server thread/INFO]:  
+[01:41:17] [Server thread/INFO]:     Encountered 1 error while reloading witch.sk! (161ms)
+[01:41:22] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:41:22] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:41:22] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from <none> to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:41:27] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:41:27] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:41:27] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from <none> to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:41:32] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:41:32] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:41:32] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from <none> to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:41:36] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:41:37] [Server thread/INFO]: Successfully reloaded witch.sk. (89ms)
+[01:41:41] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:41:41] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:41:41] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world' to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:41:47] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:41:47] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:41:47] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world' to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:41:51] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:41:51] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:41:51] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world' to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:41:57] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:41:57] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:41:57] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world' to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:42:01] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:42:01] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:42:01] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world' to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:42:07] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:42:07] [Server thread/INFO]: x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world'
+[01:42:07] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from x: 100, y: 64, z: 100, yaw: 0, pitch: 0 in 'world' to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:42:07] [Server thread/INFO]: trololol72 issued server command: /tp 100 65 100
+[01:42:07] [Server thread/INFO]: [trololol72: Teleported trololol72 to 100.500000, 65.000000, 100.500000]
+[01:42:12] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:42:12] [Server thread/INFO]: x: 97.8, y: 62.55, z: 97.8, yaw: 0, pitch: 0 in 'world'
+[01:42:12] [Server thread/INFO]: [Debug] Witch 1 wandered too far! Teleporting from x: 97.8, y: 62.55, z: 97.8, yaw: 0, pitch: 0 in 'world' to x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:42:13] [Server thread/INFO]: trololol72 issued server command: /time set day
+[01:42:13] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[01:42:17] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:42:17] [Server thread/INFO]: x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:42:22] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:42:22] [Server thread/INFO]: x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:42:22] [Server thread/INFO]: [Debug] Spawning new witch for Hut 1
+[01:42:27] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:42:27] [Server thread/INFO]: x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:42:27] [Server thread/INFO]: [Debug] Spawning new witch for Hut 1
+[01:42:32] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:42:32] [Server thread/INFO]: x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:42:32] [Server thread/INFO]: [Debug] Spawning new witch for Hut 1
+[01:42:37] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:42:37] [Server thread/INFO]: x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:42:39] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[01:42:39] [Server thread/INFO]: Named entity Witch['Witch of Hut 1'/3314, uuid='f929962d-6017-41ff-9303-14046aec935f', l='ServerLevel[world]', x=101.51, y=62.46, z=94.19, cpos=[6, 5], tl=617, v=true] died: Witch of Hut 1 was slain by trololol72
+[01:42:42] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:42:47] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:42:49] [Server thread/INFO]: trololol72 issued server command: /tp 200 124 803
+[01:42:49] [Server thread/INFO]: [trololol72: Teleported trololol72 to 200.500000, 124.000000, 803.500000]
+[01:42:52] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:42:57] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:02] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:07] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:12] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:15] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=witch]
+[01:43:15] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[01:43:15] [Server thread/INFO]: Named entity Witch['Witch of Hut 1'/3535, uuid='38ebead3-2fce-45fd-86da-d9ab709cc72e', l='ServerLevel[world]', x=231.28, y=128.50, z=800.30, cpos=[14, 50], tl=522, v=true] died: Witch of Hut 1 was killed
+[01:43:15] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[01:43:15] [Server thread/INFO]: Named entity Witch['Witch of Hut 1'/3590, uuid='a20ec1b5-233c-4a20-8ab6-199d9178910b', l='ServerLevel[world]', x=231.30, y=128.05, z=800.93, cpos=[14, 50], tl=522, v=true] died: Witch of Hut 1 was killed
+[01:43:15] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[01:43:15] [Server thread/INFO]: Named entity Witch['Witch of Hut 1'/3589, uuid='2d45ae1f-ad26-4798-a4a6-cbd9fd19bd85', l='ServerLevel[world]', x=230.50, y=124.00, z=804.29, cpos=[14, 50], tl=522, v=true] died: Witch of Hut 1 was killed
+[01:43:15] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[01:43:15] [Server thread/INFO]: Named entity Witch['Witch of Hut 1'/3588, uuid='0858aea6-39f2-40e3-8433-058cef2e0fb7', l='ServerLevel[world]', x=232.03, y=127.92, z=800.30, cpos=[14, 50], tl=522, v=true] died: Witch of Hut 1 was killed
+[01:43:15] [Server thread/INFO]: [trololol72: Killed 5 entities]
+[01:43:17] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:22] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:27] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:32] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:37] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:42] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:47] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:52] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:43:57] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:44:02] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:44:07] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:44:12] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:44:17] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:44:22] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:44:22] [Server thread/INFO]: Line 99: (witch.sk)
+[01:44:22] [Server thread/INFO]:     indentation error: expected 0 spaces, but found 4 spaces
+[01:44:22] [Server thread/INFO]:     Line: permission: op
+[01:44:22] [Server thread/INFO]:  
+[01:44:22] [Server thread/INFO]: Line 100: (witch.sk)
+[01:44:22] [Server thread/INFO]:     indentation error: expected 0 spaces, but found 4 spaces
+[01:44:22] [Server thread/INFO]:     Line: trigger:
+[01:44:22] [Server thread/INFO]:  
+[01:44:22] [Server thread/INFO]: Line 101: (witch.sk)
+[01:44:22] [Server thread/INFO]:     indentation error: expected 0 spaces, but found 8 spaces
+[01:44:22] [Server thread/INFO]:     Line: set {witch_hut::%{arg-1}%::cleared} to false
+[01:44:22] [Server thread/INFO]:  
+[01:44:22] [Server thread/INFO]: Line 98: (witch.sk)
+[01:44:22] [Server thread/INFO]:     Can't understand this structure: command /reset_witch <number>
+[01:44:22] [Server thread/INFO]:     Line: command /reset_witch <number>
+[01:44:22] [Server thread/INFO]:  
+[01:44:22] [Server thread/INFO]:     Encountered 4 errors while reloading witch.sk! (117ms)
+[01:44:27] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:44:32] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:44:36] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:44:41] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:44:47] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:44:52] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:44:57] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:02] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:07] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:11] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:17] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:20] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:45:20] [Server thread/INFO]: Successfully reloaded witch.sk. (79ms)
+[01:45:25] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:26] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[01:45:30] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:35] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:40] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:45] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:50] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:55] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:45:59] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[01:46:00] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:46:04] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[01:46:05] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:46:10] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:46:15] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:46:20] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:46:25] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:46:30] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:46:35] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:46:40] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:46:45] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:46:50] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:46:55] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:00] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:05] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:10] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:15] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:20] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:25] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:30] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:35] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:40] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:43] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:47:43] [Server thread/INFO]: Successfully reloaded witch.sk. (93ms)
+[01:47:46] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[01:47:46] [Server thread/INFO]: [WitchHuts] Hut <none> has been reset!
+[01:47:48] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:53] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:59] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:47:59] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:47:59] [Server thread/INFO]: Successfully reloaded witch.sk. (88ms)
+[01:48:03] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[01:48:03] [Server thread/INFO]: [WitchHuts] Hut <none> has been reset!
+[01:48:04] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:48:09] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:48:14] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:48:19] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:48:24] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:48:29] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:48:34] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:48:39] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:48:44] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:48:49] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:48:54] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:48:59] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:04] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:09] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:14] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:19] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:24] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:29] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:34] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[01:49:34] [Server thread/INFO]: [WitchHuts] Hut <none> has been reset!
+[01:49:34] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:39] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:44] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:49] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:54] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:49:59] [Server thread/INFO]: [Debug] Checking Hut 1: Cleared
+[01:50:02] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:50:02] [Server thread/INFO]: Successfully reloaded witch.sk. (96ms)
+[01:50:06] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[01:50:06] [Server thread/INFO]: 1 has been reset!
+[01:50:06] [Server thread/INFO]: [WitchHuts] Hut 1 has been reset!
+[01:50:07] [Server thread/INFO]: [Debug] Checking Hut 1: Missing
+[01:50:07] [Server thread/INFO]: [Debug] Spawning new witch for Hut 1
+[01:50:12] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:50:12] [Server thread/INFO]: x: 230, y: 124, z: 803, yaw: 0, pitch: 0 in 'world'
+[01:50:17] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:50:17] [Server thread/INFO]: x: 229.71, y: 124, z: 805.25, yaw: 38.88, pitch: 0 in 'world'
+[01:50:22] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:50:22] [Server thread/INFO]: x: 232.54, y: 127, z: 801.65, yaw: 172.23, pitch: 0 in 'world'
+[01:50:27] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:50:27] [Server thread/INFO]: x: 232.52, y: 127, z: 800.69, yaw: 97.61, pitch: 0 in 'world'
+[01:50:32] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:50:32] [Server thread/INFO]: x: 228.52, y: 124, z: 803.97, yaw: 1.92, pitch: 0 in 'world'
+[01:50:37] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:50:37] [Server thread/INFO]: x: 228.87, y: 124, z: 804.99, yaw: -29.2, pitch: 0 in 'world'
+[01:50:42] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:50:42] [Server thread/INFO]: x: 229.29, y: 124, z: 804.77, yaw: 231.31, pitch: -29.78 in 'world'
+[01:50:47] [Server thread/INFO]: [Debug] Checking Hut 1: Alive
+[01:50:47] [Server thread/INFO]: x: 232.65, y: 126, z: 802.7, yaw: 183.56, pitch: -33.76 in 'world'
+[01:50:52] [Server thread/INFO]: trololol72 issued server command: /witchdebug false
+[01:52:48] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:52:48] [Server thread/INFO]: Line 80: (witch.sk)
+[01:52:48] [Server thread/INFO]:     Can't understand this condition/effect: play 20 enderman teleport at location of {_w}
+[01:52:48] [Server thread/INFO]:     Line: play 20 enderman teleport at location of {_w}
+[01:52:48] [Server thread/INFO]:  
+[01:52:48] [Server thread/INFO]: Line 81: (witch.sk)
+[01:52:48] [Server thread/INFO]:     Can't understand this condition/effect: play 20 enderman teleport at location of {_loc}
+[01:52:48] [Server thread/INFO]:     Line: play 20 enderman teleport at location of {_loc}
+[01:52:48] [Server thread/INFO]:  
+[01:52:48] [Server thread/INFO]:     Encountered 2 errors while reloading witch.sk! (135ms)
+[01:54:01] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:54:01] [Server thread/INFO]: Successfully reloaded witch.sk. (117ms)
+[01:55:30] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[01:55:30] [Server thread/INFO]: Successfully reloaded witch.sk. (247ms)
+[02:01:14] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:01:14] [Server thread/INFO]: Successfully reloaded witch.sk. (187ms)
+[02:02:11] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[02:02:11] [Server thread/INFO]: Named entity Witch['Witch of Hut 1'/4441, uuid='83968357-bc0b-49dc-be08-b01e22c35f40', l='ServerLevel[world]', x=231.47, y=124.00, z=801.10, cpos=[14, 50], tl=14473, v=true] died: Witch of Hut 1 was slain by trololol72
+[02:02:15] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[02:02:15] [Server thread/INFO]: 1 has been reset!
+[02:02:15] [Server thread/INFO]: [WitchHuts] Hut 1 has been reset!
+[02:06:31] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:06:31] [Server thread/INFO]: Successfully reloaded witch.sk. (78ms)
+[02:08:06] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:06] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:11] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:11] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:16] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:16] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:21] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:21] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:26] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:26] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:31] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:31] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:34] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:08:34] [Server thread/INFO]: Line 39: (witch.sk)
+[02:08:34] [Server thread/INFO]:     Can't understand this condition/effect: set attribute "generic.max_health" of {_w} to 50
+[02:08:34] [Server thread/INFO]:     Line: set attribute "generic.max_health" of {_w} to 50
+[02:08:34] [Server thread/INFO]:  
+[02:08:34] [Server thread/INFO]: Line 43: (witch.sk)
+[02:08:34] [Server thread/INFO]:     Can't understand this condition/effect: set attribute "generic.armor" of {_w} to 10
+[02:08:34] [Server thread/INFO]:     Line: set attribute "generic.armor" of {_w} to 10
+[02:08:34] [Server thread/INFO]:  
+[02:08:34] [Server thread/INFO]:     Encountered 2 errors while reloading witch.sk! (153ms)
+[02:08:39] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:39] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:49] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:49] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:08:50] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:08:50] [Server thread/INFO]: Line 39: (witch.sk)
+[02:08:50] [Server thread/INFO]:     Can't understand this condition/effect: set attribute "generic.max_health" of {_w} to 50
+[02:08:50] [Server thread/INFO]:     Line: set attribute "generic.max_health" of {_w} to 50
+[02:08:50] [Server thread/INFO]:  
+[02:08:50] [Server thread/INFO]:     Encountered 1 error while reloading witch.sk! (104ms)
+[02:09:15] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:09:15] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:09:45] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:09:45] [Server thread/INFO]: Line 39: (witch.sk)
+[02:09:45] [Server thread/INFO]:     Can't understand this condition/effect: set attribute "generic.max_health" of {_w} to 50
+[02:09:45] [Server thread/INFO]:     Line: set attribute "generic.max_health" of {_w} to 50
+[02:09:45] [Server thread/INFO]:  
+[02:09:45] [Server thread/INFO]:     Encountered 1 error while reloading witch.sk! (143ms)
+[02:10:27] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:10:27] [Server thread/INFO]: Successfully reloaded witch.sk. (96ms)
+[02:10:45] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[02:10:48] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[02:10:48] [Server thread/INFO]: 1 has been reset!
+[02:10:48] [Server thread/INFO]: [WitchHuts] Hut 1 has been reset!
+[02:10:53] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'attribute 8358ea28-c33a-4f7e-bf10-20f5da0c2cac minecraft:generic.max_health base set 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(attribute)
+[02:10:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:10:53] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:10:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:10:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:10:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:10:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:10:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:10:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.Delay.lambda$walk$0(Delay.java:94)
+[02:10:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:10:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:10:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:10:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:10:53] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:10:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:10:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:10:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:10:53] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:10:53] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Can't find element 'minecraft:generic.max_health' of type 'minecraft:attribute' at position 75: ...max_health<--[HERE]
+[02:10:57] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[02:10:57] [Server thread/INFO]: Named entity Witch['Boss Witch (Hut 1)'/6586, uuid='8358ea28-c33a-4f7e-bf10-20f5da0c2cac', l='ServerLevel[world]', x=231.70, y=124.00, z=801.30, cpos=[14, 50], tl=93, v=true] died: Boss Witch (Hut 1) was slain by trololol72
+[02:11:21] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[02:11:21] [Server thread/INFO]: 1 has been reset!
+[02:11:21] [Server thread/INFO]: [WitchHuts] Hut 1 has been reset!
+[02:11:22] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'attribute 27e82eb8-a4ea-45b4-b3a6-0aedd639776f minecraft:generic.max_health base set 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(attribute)
+[02:11:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:11:22] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:11:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:11:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:11:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:11:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:11:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:11:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.Delay.lambda$walk$0(Delay.java:94)
+[02:11:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:11:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:11:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:11:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:11:22] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:11:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:11:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:11:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:11:22] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:11:22] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Can't find element 'minecraft:generic.max_health' of type 'minecraft:attribute' at position 75: ...max_health<--[HERE]
+[02:11:27] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[02:11:27] [Server thread/INFO]: Named entity Witch['Boss Witch (Hut 1)'/6645, uuid='27e82eb8-a4ea-45b4-b3a6-0aedd639776f', l='ServerLevel[world]', x=228.83, y=124.00, z=800.59, cpos=[14, 50], tl=88, v=true] died: Boss Witch (Hut 1) was slain by trololol72
+[02:11:33] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:11:33] [Server thread/INFO]: Successfully reloaded witch.sk. (92ms)
+[02:11:37] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[02:11:37] [Server thread/INFO]: 1 has been reset!
+[02:11:37] [Server thread/INFO]: [WitchHuts] Hut 1 has been reset!
+[02:11:41] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[02:11:41] [Server thread/INFO]: Named entity Witch['Boss Witch (Hut 1)'/6686, uuid='aab894cf-3c3a-467f-96e2-d2bce53ab30a', l='ServerLevel[world]', x=228.30, y=124.00, z=799.86, cpos=[14, 49], tl=71, v=true] died: Boss Witch (Hut 1) was slain by trololol72
+[02:11:57] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:11:57] [Server thread/INFO]: Successfully reloaded witch.sk. (91ms)
+[02:12:01] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[02:12:01] [Server thread/INFO]: 1 has been reset!
+[02:12:01] [Server thread/INFO]: [WitchHuts] Hut 1 has been reset!
+[02:12:02] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'attribute de734ca6-d27c-437b-a123-bec739fe193b minecraft:generic.max_health base set 200' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(attribute)
+[02:12:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:12:02] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:12:02] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:12:02] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:12:02] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:12:02] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:12:02] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:12:02] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.Delay.lambda$walk$0(Delay.java:94)
+[02:12:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:12:02] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:12:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:12:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:12:02] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:12:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:12:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:12:02] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:12:02] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:12:02] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Can't find element 'minecraft:generic.max_health' of type 'minecraft:attribute' at position 75: ...max_health<--[HERE]
+[02:12:08] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[02:12:08] [Server thread/INFO]: Named entity Witch['Boss Witch (Hut 1)'/6739, uuid='de734ca6-d27c-437b-a123-bec739fe193b', l='ServerLevel[world]', x=231.65, y=128.00, z=800.30, cpos=[14, 50], tl=123, v=true] died: Boss Witch (Hut 1) was slain by trololol72
+[02:13:59] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:13:59] [Server thread/INFO]: Line 112: (witch.sk)
+[02:13:59] [Server thread/INFO]:     Can't understand this condition/effect: heal {_w} 35
+[02:13:59] [Server thread/INFO]:     Line: heal {_w} 35
+[02:13:59] [Server thread/INFO]:  
+[02:13:59] [Server thread/INFO]:     Encountered 1 error while reloading witch.sk! (74ms)
+[02:14:50] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:14:50] [Server thread/INFO]: Successfully reloaded witch.sk. (132ms)
+[02:15:22] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:15:22] [Server thread/INFO]: Successfully reloaded witch.sk. (66ms)
+[02:15:26] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[02:15:26] [Server thread/INFO]: 1 has been reset!
+[02:15:26] [Server thread/INFO]: [WitchHuts] Hut 1 has been reset!
+[02:15:58] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[02:16:38] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:16:38] [Server thread/INFO]: Successfully reloaded witch.sk. (74ms)
+[02:16:41] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[02:16:41] [Server thread/INFO]: 1 has been reset!
+[02:16:41] [Server thread/INFO]: [WitchHuts] Hut 1 has been reset!
+[02:17:07] [Server thread/INFO]: The Witch of Hut 1 has been defeated!
+[02:17:16] [Server thread/INFO]: trololol72 issued server command: /reset_witch 1
+[02:17:16] [Server thread/INFO]: 1 has been reset!
+[02:17:16] [Server thread/INFO]: [WitchHuts] Hut 1 has been reset!
+[02:17:48] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 218.34 <none> 798.32 0.3 0.3 0.3 0.01 30' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:17:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:17:48] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:17:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:17:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:17:48] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:17:48] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 23: ...al 218.34 <--[HERE]
+[02:17:48] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.3 0.3 0.3 0.01 30' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:17:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:17:48] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:17:48] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:17:48] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:17:48] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:17:48] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:17:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:17:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:17:48] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:17:48] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:17:48] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:17:59] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:17:59] [Server thread/INFO]: Successfully reloaded witch.sk. (94ms)
+[02:18:09] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 224.7 <none> 808.4 0.3 0.3 0.3 0.01 30' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:18:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:18:09] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:18:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:18:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:18:09] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:18:09] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 22: ...tal 224.7 <--[HERE]
+[02:18:09] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.3 0.3 0.3 0.01 30' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:18:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:18:09] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:18:09] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:18:09] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:18:09] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:18:09] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:18:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:18:09] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:18:09] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:18:09] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:18:09] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:20:24] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 224.51 <none> 808.03 0.3 0.3 0.3 0.01 30' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:20:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:20:24] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:20:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:20:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:20:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:20:24] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 23: ...al 224.51 <--[HERE]
+[02:20:24] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.3 0.3 0.3 0.01 30' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:20:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:20:24] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:20:24] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:20:24] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:20:24] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:20:24] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:20:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:20:24] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:20:24] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:20:24] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:20:24] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:21:56] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:21:56] [Server thread/INFO]: Successfully reloaded witch.sk. (107ms)
+[02:22:17] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:22:17] [Server thread/INFO]: Successfully reloaded witch.sk. (101ms)
+[02:22:22] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:22:22] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:22:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:22:22] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:22:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:22:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:22:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:22:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:22:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:22:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:22:22] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:22:22] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:22:22] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:22:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:22:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:22:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:22:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:22:22] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:22:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:22:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:22:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:22:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:22:22] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:22:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:22:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:22:22] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:22:22] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:22:22] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:22:27] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:22:27] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:22:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:22:27] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:22:27] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:22:27] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:22:27] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:22:27] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:22:27] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:22:27] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:22:27] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:22:27] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:22:27] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:22:27] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:22:27] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:22:27] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:22:27] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:22:27] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:22:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:22:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:22:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:22:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:22:27] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:22:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:22:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:22:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:22:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:22:27] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:22:32] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:22:32] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:22:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:22:32] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:22:32] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:22:32] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:22:32] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:22:32] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:22:32] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:22:32] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:22:32] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:22:32] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:22:32] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:22:32] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:22:32] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:22:32] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:22:32] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:22:32] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:22:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:22:32] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:22:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:22:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:22:32] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:22:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:22:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:22:32] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:22:32] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:22:32] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:23:21] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:23:21] [Server thread/INFO]: Successfully reloaded witch.sk. (80ms)
+[02:23:46] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:23:46] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:23:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:23:46] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:23:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:23:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:23:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:23:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:23:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:23:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:23:46] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:23:46] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:23:46] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:23:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:23:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:23:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:23:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:23:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:23:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:23:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:23:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:23:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:23:46] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:23:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:23:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:23:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:23:46] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:23:46] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:23:55] [Server thread/INFO]: trololol72 issued server command: /gamemode spectator
+[02:23:56] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[02:24:16] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:24:16] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:24:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:24:16] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:24:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:24:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:24:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:24:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:24:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:24:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:24:16] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:24:16] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:24:16] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:24:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:24:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:24:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:24:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:24:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:24:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:24:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:24:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:24:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:24:16] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:24:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:24:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:24:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:24:16] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:24:16] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:24:41] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:24:41] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:24:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:24:41] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:24:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:24:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:24:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:24:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:24:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:24:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:24:41] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:24:41] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:24:41] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:24:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:24:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:24:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:24:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:24:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:24:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:24:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:24:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:24:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:24:41] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:24:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:24:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:24:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:24:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:24:41] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:24:46] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:24:46] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:24:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:24:46] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:24:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:24:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:24:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:24:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:24:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:24:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:24:46] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:24:46] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:24:46] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:24:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:24:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:24:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:24:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:24:46] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:24:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:24:46] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:24:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:24:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:24:46] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:24:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:24:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:24:46] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:24:46] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:24:46] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:25:11] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:25:11] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:25:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:25:11] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:25:11] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:25:11] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:25:11] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:25:11] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:25:11] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:25:11] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:25:11] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:25:11] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:25:11] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:25:11] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:25:11] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:25:11] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:25:11] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:25:11] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:25:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:25:11] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:25:11] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:25:11] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:25:11] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:25:11] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:25:11] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:25:11] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:25:11] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:25:11] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:25:14] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
+[02:25:14] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:25:41] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:25:41] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:25:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:25:41] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:25:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:25:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:25:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:25:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:25:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:25:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:25:41] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:25:41] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:25:41] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:25:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:25:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:25:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:25:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:25:41] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:25:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:25:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:25:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:25:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:25:41] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:25:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:25:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:25:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:25:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:25:41] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:26:06] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:26:06] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:26:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:26:06] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:26:06] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:26:06] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:26:06] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:26:06] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:26:06] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:26:06] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:26:06] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:26:06] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:26:06] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:26:06] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:26:06] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:26:06] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:26:06] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:26:06] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:26:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:26:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:26:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:26:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:26:06] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:26:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:26:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:26:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:26:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:26:06] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:26:36] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:26:36] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:26:36] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:26:36] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:26:36] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:26:36] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:26:36] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:26:36] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:26:36] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:26:36] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:26:36] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:26:36] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:26:36] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:26:36] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:26:36] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:26:36] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:26:36] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:26:36] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:26:36] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:26:36] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:26:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:26:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:26:36] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:26:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:26:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:26:36] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:26:36] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:26:36] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:27:16] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:27:16] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:27:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:27:16] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:27:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:27:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:27:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:27:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:27:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:27:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:27:16] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:27:16] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:27:16] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:27:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:27:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:27:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:27:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:27:16] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:27:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:27:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:27:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:27:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:27:16] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:27:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:27:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:27:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:27:16] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:27:16] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:27:26] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:27:26] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:27:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:27:26] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:27:26] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:27:26] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:27:26] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:27:26] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:27:26] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:27:26] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:27:26] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:27:26] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:27:26] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:27:26] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:27:26] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:27:26] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:27:26] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:27:26] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:27:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:27:26] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:27:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:27:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:27:26] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:27:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:27:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:27:26] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:27:26] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:27:26] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:27:31] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:27:31] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'particle portal 230 <none> 803 0.4 0.4 0.4 0.01 100' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(particle)
+[02:27:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:27:31] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:27:31] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:27:31] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:27:31] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:27:31] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:27:31] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:27:31] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.lambda$walk$0(EffTeleport.java:161)
+[02:27:31] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:757)
+[02:27:31] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+[02:27:31] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)
+[02:27:31] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffTeleport.walk(EffTeleport.java:140)
+[02:27:31] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:27:31] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:27:31] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.execute(EvtPeriodical.java:103)
+[02:27:31] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.events.EvtPeriodical.lambda$postLoad$0(EvtPeriodical.java:62)
+[02:27:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[02:27:31] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[02:27:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1763)
+[02:27:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618)
+[02:27:31] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:427)
+[02:27:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1674)
+[02:27:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342)
+[02:27:31] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:27:31] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[02:27:31] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected double at position 20: ...ortal 230 <--[HERE]
+[02:27:34] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[02:27:35] [Server thread/INFO]: Successfully reloaded witch.sk. (107ms)
+[02:27:47] [Server thread/INFO]: trololol72 issued server command: /gamemode spectator
+[02:27:47] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[02:28:09] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:28:09] [Server thread/INFO]: Displaying particle minecraft:portal
+[02:28:18] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
+[02:28:18] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:28:33] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[02:28:34] [Server thread/INFO]: trololol72 lost connection: Server is restarting
+[02:28:34] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[02:28:34] [Server thread/INFO]: Stopping server
+[02:28:34] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[02:28:34] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[02:28:34] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[02:28:34] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[02:28:34] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[02:28:34] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[02:28:34] [Server thread/INFO]: [TAB] Disabled in 1ms
+[02:28:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.0-rc-01+f3ecb26c6
+[02:28:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:28:34] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[02:28:34] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[02:28:34] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[02:28:34] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[02:28:34] [Server thread/INFO]: [LuckPerms] Closing storage...
+[02:28:34] [Server thread/INFO]: [LuckPerms] Goodbye!
+[02:28:34] [Server thread/INFO]: Saving players
+[02:28:34] [Server thread/INFO]: Saving worlds
+[02:28:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:28:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:28:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:28:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:28:34] [Server thread/INFO]: [ChunkHolderManager] Saved 14 block chunks, 145 entity chunks, 0 poi chunks in world 'world' in 0.10s
+[02:28:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[02:28:34] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[02:28:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[02:28:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[02:28:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[02:28:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:28:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:28:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:28:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:28:35] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[02:28:35] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[02:28:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[02:28:35] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

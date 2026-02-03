@@ -1,0 +1,145 @@
+options:
+    # --- CONFIGURATION ---
+    # hut_1: location(230, 124, 803, world "world")
+    # hut_2: location(500, 64, 500, world "world")
+    # hut_3: location(-200, 64, 300, world "world")
+    # hut_4: location(0, 70, -400, world "world")
+    
+    leash_radius: 3
+
+on load:
+    set {hut_1} to location(230, 124, 803, world "world")
+
+
+# --- DEBUG COMMAND ---
+command /witchdebug <boolean>:
+    permission: op
+    trigger:
+        set {witch_debug} to arg-1
+        send "&e[WitchHuts] Debug set to: &f%{witch_debug}%"
+
+function spawnHutWitch(loc: location, id: text):
+    # 1. Load chunk safely
+    load chunk at {_loc}
+    wait 1 tick
+    
+    if {witch_debug} is true:
+        broadcast "&e[Debug] &fSpawning Buffed Witch for &6Hut %{_id}%"
+        
+    spawn witch at {_loc}
+    set {_w} to last spawned witch
+    
+    set {hut_witch_entity::%{_id}%} to {_w}
+    add "hut_witch" to scoreboard tags of {_w}
+    add "hut_id_%{_id}%" to scoreboard tags of {_w}
+    
+    # --- BUFFS START HERE ---
+    
+    set {_uuid} to uuid of {_w}
+    
+    # 1. Health: Use Skript's native syntax (Works instantly)
+    set max health of {_w} to 50
+    set health of {_w} to 50
+    
+    # --- BUFFS END ---
+
+    # NBT Persistence
+    set byte tag "PersistenceRequired" of nbt of {_w} to 1
+
+every 5 seconds:
+    delete {_huts::*}
+    set {_huts::1} to {hut_1}
+    # set {_huts::2} to {@hut_2}
+    # set {_huts::3} to {@hut_3}
+    # set {_huts::4} to {@hut_4}
+    
+    loop {_huts::*}:
+        set {_id} to loop-index
+        set {_loc} to loop-value
+        
+        # DEBUG: Detecting status
+        if {witch_debug} is true:
+            set {_status} to "&aAlive"
+            if {witch_hut::%{_id}%::cleared} is set:
+                set {_status} to "&cCleared"
+            else if {hut_witch_entity::%{_id}%} is not set:
+                set {_status} to "&7Missing"
+            broadcast "&e[Debug] &fChecking Hut %{_id}%: %{_status}%"
+
+        # 1. Check if cleared
+        if {witch_hut::%{_id}%::cleared} is not set:
+            
+            set {_w} to {hut_witch_entity::%{_id}%}
+            if {witch_debug} is true:
+                broadcast location of {_w}
+            
+            # 2. Check if witch needs spawning
+            if {_w} is not set:
+                spawnHutWitch({_loc}, {_id})
+            else if {_w} is dead:
+                spawnHutWitch({_loc}, {_id})
+                
+            # 3. Leash logic (Pull her back if she wanders)
+            else:
+                if distance between {_w} and {_loc} > {@leash_radius}:
+                    if {witch_debug} is true:
+                        broadcast "&e[Debug] &6Witch %{_id}% &fwandered! TP-ing..."
+                    
+                    # play 20 portal at location of {_w}
+                    play sound "entity.enderman.teleport" at {_w}
+                    
+                    set {_x} to x-coord of {_w}
+                    set {_y} to y-coord of {_w}
+                    set {_z} to z-coord of {_w}
+                    
+                    # Syntax: particle <name> <x> <y> <z> <dx> <dy> <dz> <speed> <count>
+                    execute console command "particle portal %{_x}% %{_y}% %{_z}% 0.4 0.4 0.4 0.02 50"
+
+                    teleport {_w} to {_loc}
+                    
+                    set {_x} to x-coord of {_loc}
+                    set {_y} to y-coord of {_loc}
+                    set {_z} to z-coord of {_loc}
+                    
+                    # Syntax: particle <name> <x> <y> <z> <dx> <dy> <dz> <speed> <count>
+                    execute console command "particle portal %{_x}% %{_y}% %{_z}% 0.4 0.4 0.4 0.02 50"
+
+                    # play 20 portal at location of {_w}
+                    play sound "entity.enderman.teleport" at {_loc}
+                    heal {_w} by 35
+
+on death of witch:
+    if scoreboard tags of victim contains "hut_witch":
+        loop scoreboard tags of victim:
+            if loop-value starts with "hut_id_":
+                set {_tag} to loop-value
+                set {_data::*} to {_tag} split at "_"
+                set {_id} to {_data::3}
+                
+                # Mark as cleared
+                set {witch_hut::%{_id}%::cleared} to true
+                delete {hut_witch_entity::%{_id}%}
+                if {witch_debug} is true:
+                    broadcast "&aThe Witch of Hut %{_id}% has been defeated!"
+
+command /reset_witch <text>:
+    permission: op
+    trigger:
+        # 1. Capture the argument safely
+        set {_id} to arg-1
+        if {witch_debug} is true:
+            broadcast "%{_id}% has been reset!"
+        
+        # 2. Safety Check
+        if {_id} is not set:
+            send "&cUsage: /reset_witch <id> (Example: /reset_witch 1)"
+            stop
+
+        # 3. Reset the Logic
+        delete {witch_hut::%{_id}%::cleared}
+        
+        # # 4. Kill the old witch if she exists (to force a respawn)
+        # if {hut_witch_entity::%{_id}%} is set:
+        #     kill {hut_witch_entity::%{_id}%}
+        #     delete {hut_witch_entity::%{_id}%}
+            
