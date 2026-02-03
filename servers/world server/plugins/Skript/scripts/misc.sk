@@ -261,7 +261,7 @@ command /countnear <entity type> <number>:
         
         broadcast "&aFound &e%{_count}% &a%{_type}%s within &e%{_radius}% &ablocks."
 
-command /damageitem <integer>:
+command /breaktool <integer>:
     permission: op
     trigger:
         damage player's tool by arg-1
