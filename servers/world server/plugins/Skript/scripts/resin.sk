@@ -1,0 +1,17 @@
+on item spawn:
+    if event-item is resin clump:
+        wait 1 tick
+        # Use "item" instead of "item stack" to be safe, though both often work
+        set item of event-entity to emerald
+
+command /fixchests <number>:
+    permission: op
+    trigger:
+        loop all blocks in radius arg-1 around player:
+            if inventory of loop-block is set:
+                loop all items in inventory of loop-block:
+                    if loop-item is resin clump:
+                        set {_amount} to item amount of loop-item
+                        broadcast "fixing %{_amount}% resin"
+                        set loop-item to {_amount} of emerald
+        send "&aReplaced resin clumps with emeralds in radius %arg-1%."

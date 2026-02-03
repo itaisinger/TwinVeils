@@ -4,9 +4,9 @@ on inventory click:
         set {_stand} to top inventory of player
         set {_update_fuel} to false
 
-        # --- SCENARIO 1: SHIFT-CLICKING resin clump (From Bag -> Stand) ---
+        # --- SCENARIO 1: SHIFT-CLICKING emerald (From Bag -> Stand) ---
         if click type is left mouse button with shift:
-            if event-slot is resin clump:
+            if event-slot is emerald:
                 # Ensure we clicked our own bag (bottom), not the stand
                 if clicked inventory is player's inventory:
                     cancel event
@@ -17,7 +17,7 @@ on inventory click:
                         set event-slot to air
                         set {_update_fuel} to true
                     
-                    else if slot 4 of {_stand} is resin clump:
+                    else if slot 4 of {_stand} is emerald:
                         if item amount of slot 4 of {_stand} < 64:
                             set {_add} to item amount of event-slot
                             if item amount of slot 4 of {_stand} + {_add} > 64:
@@ -30,7 +30,7 @@ on inventory click:
         # --- SCENARIO 2: DIRECTLY CLICKING THE FUEL SLOT (Slot 4) ---
         else if index of event-slot is 4:
             if clicked inventory is {_stand}:
-                if cursor slot of player is resin clump:
+                if cursor slot of player is emerald:
                     cancel event
                     set {_update_fuel} to true
                     
@@ -39,7 +39,7 @@ on inventory click:
                         if slot 4 of {_stand} is air:
                             set slot 4 of {_stand} to 1 of cursor slot of player
                             subtract 1 from item amount of cursor slot of player
-                        else if slot 4 of {_stand} is resin clump:
+                        else if slot 4 of {_stand} is emerald:
                             if item amount of slot 4 of {_stand} < 64:
                                 add 1 to item amount of slot 4 of {_stand}
                                 subtract 1 from item amount of cursor slot of player
@@ -49,7 +49,7 @@ on inventory click:
                         if slot 4 of {_stand} is air:
                             set slot 4 of {_stand} to cursor slot of player
                             set cursor slot of player to air
-                        else if slot 4 of {_stand} is resin clump:
+                        else if slot 4 of {_stand} is emerald:
                             if item amount of slot 4 of {_stand} < 64:
                                 add item amount of cursor slot of player to item amount of slot 4 of {_stand}
                                 set cursor slot of player to air
@@ -68,6 +68,6 @@ on inventory click:
                 set {_fuel} to 0
             
             if {_fuel} <= 0:
-                if slot 4 of {_stand} is resin clump:
+                if slot 4 of {_stand} is emerald:
                     subtract 1 from item amount of slot 4 of {_stand}
                     set byte tag "Fuel" of nbt of {_block} to 20

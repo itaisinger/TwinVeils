@@ -1,4 +1,8 @@
 {
   "effect.minecraft.hunger": "Curse of the Traveler",
-  "item.minecraft.blaze_powder": "Ember of Ra"
+  "item.minecraft.blaze_powder": "Ember of Ra",
+  "block.minecraft.deepslate_emerald_ore": "Deepslate Resin Ore",
+  "block.minecraft.emerald_block": "Block of Resin",
+  "block.minecraft.emerald_ore": "Resin Ore",
+  "item.minecraft.emerald": "Resin Clump"
 }
