@@ -1,4 +1,5 @@
 command /get_trader_head:
+    permission: op
     trigger:
         execute console command "give %player% minecraft:player_head[minecraft:custom_name={text:""Narith's head"",italic:false},minecraft:lore=[{text:""Custom Head ID: 62275"",color:""gray"",italic:false},{text:""www.minecraft-heads.com"",color:""blue"",italic:false}],profile={properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRlNTUwOTc5ZWJmOTk1MGJiZjU3MTVlZDc3OTYyNmEzY2VjNzZhYzkxMGI0YmRkYjVkNzU4MWZhY2FmZWY2NyJ9fX0=""}]}] 1"
 
