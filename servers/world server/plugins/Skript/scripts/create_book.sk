@@ -3,6 +3,8 @@ command /give_book <text>:
     trigger:
         if arg-1 is "dawn":
             morning_passage(player)
+        if arg-1 is "dawn sea":
+            morning_passage_sea(player)
         if arg-1 is "lost_traveler":
             lost_traveler(player)
         if arg-1 is "ra_birth":
@@ -26,6 +28,16 @@ function morning_passage(p: player):
     set page 2 of {_book} to "Let thy light shine upon thy servants once more;%nl%A thousand rays, pure force of enlightenment;%nl%%nl%Keep us within thy sake; devour the remnants of the night;%nl%A pillar of fire, shining bright since dawn of earth;"
     set page 3 of {_book} to "Show us the way, light the path forward;%nl%%nl%And when thy path is to the ground, back to the place of birth;%nl%%nl%As the sun sinks under at the edge of day, too shall we;%nl%%nl%From below we came, and thus shall we at last return;"
     set page 4 of {_book} to "&4O heat, hear us;&r%nl%For we scream with lungs aflame;%nl%%nl%&4O heat, save us;&r%nl%For we weak to nights of terror;%nl%%nl%&4O heat, love us;&r%nl%For Aten is a harsh, and a cruel, and a cold mistress;%nl%And the heat gives us power to keep on."
+    give {_book} to {_p}
+
+function morning_passage_sea(p: player):
+    set {_book} to a written book named "Passage of Dawn"
+    set author of {_book} to "Khazamir of Sahra"
+    # Paste your long text below
+    set page 1 of {_book} to "O sea;%nl%%nl%Tidal wave, lord of the sun;%nl%%nl%%nl%&4&lRa.%nl%%nl%"
+    set page 2 of {_book} to "Let thy light shine upon thy servants once more;%nl%A thousand rays, pure force of enlightenment;%nl%%nl%Keep us within thy sake; devour the remnants of the night;%nl%A pillar of fire, shining bright since dawn of earth;"
+    set page 3 of {_book} to "Show us the way, light the way back ashore;%nl%%nl%And when thy path is to the depths, back to the place of birth;%nl%%nl%As the sun sinks under behind the waves, too shall we;%nl%%nl%From below we came, and thus shall we at last return;"
+    set page 4 of {_book} to "&4O sea, hear our calls;&r%nl%For our screams are drowned by the endless depths;%nl%%nl%But the Sun give us power to rise back up."
     give {_book} to {_p}
 
 function lost_traveler(p: player):
@@ -83,7 +95,7 @@ function noctugenesis_2(p: player):
     set author of {_book} to "Historian"
 
     set {_p0} to ""
-    add "And loved life it did;" to {_p0}
+    add "And loved life the Sun did;" to {_p0}
     add "%nl%%nl%It roamed the lands and engulfed it fully;" to {_p0}
     add "%nl%%nl%It ruled life as a father to a child;" to {_p0}
     add "%nl%%nl%And it grew envious of the Night’s might;" to {_p0}
