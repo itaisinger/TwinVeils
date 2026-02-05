@@ -1,3 +1,10 @@
+#   heads locations:
+#   240,-840: right head, sekhmet
+#   170, -1200: left head, Bastet
+#
+#
+
+
 on load:
     # 1. Debug Toggle (Default to false if not set)
     if {ocean_debug} is not set:
@@ -49,7 +56,7 @@ on place of player head:
 
     if {puzzle::done} is true:
         stop
-        
+
     # 1. Define locations
     set {_x} to floor(x-coord of location of event-block)
     set {_y} to floor(y-coord of location of event-block)
