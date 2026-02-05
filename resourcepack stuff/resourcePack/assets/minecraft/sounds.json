@@ -13,7 +13,18 @@
     "sounds": [
       "custom/broken_memory"
     ]
+  },
+  "oceanhead.place": {
+    "sounds": [
+      "custom/oceanhead_place"
+    ]
+  },
+  "oceanhead.done": {
+    "sounds": [
+      "custom/oceanhead_done"
+    ]
   }
+  
   
 }
 

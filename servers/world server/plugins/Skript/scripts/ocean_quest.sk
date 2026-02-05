@@ -1,58 +1,78 @@
-# 1. Command to give the special block with a custom NBT tag "PuzzleKey"
-
-
 on load:
-    set {loc1} to location(-347, 75, -696, "world")
-    set {loc2} to location(-348, 75, -696, "world")
-    set {loc3} to location(-349, 75, -696, "world")
+    # 1. Debug Toggle (Default to false if not set)
+    if {ocean_debug} is not set:
+        set {ocean_debug} to false
+
+    # 2. Set Locations ONLY if they are missing (Persist across reloads)
+    set {loc1} to location(-348, 75, -697, "world")
+    set {loc2} to location(-349, 75, -697, "world")
+    set {loc3} to location(-350, 75, -697, "world")
+
+    set {locs::*} to {loc1}, {loc2} and {loc3}
+
+    if {puzzle::placed} is not set:
+        loop {locs::*}:
+            set {puzzle::placed::%loop-index%} to false
+
+    if {puzzle::done} is not set:
+        set {puzzle::done} to false
+    
+    set {done_loc} to location(-349,72,-699, "world")
+
 
 # 2. Check when placed
 on break of player head:
     # Get the raw data of the block
     set {_nbt} to "%full nbt of event-block%"
-    # broadcast {_nbt}
 
-    # if {_nbt} contains "eyJ0ZeyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1MWE2NDg1MjZmNWFhYWY2N2UxYTNkOWNiNjk1ZDM5MTBhNzk5NWIwNjgxZWFhMmUxYThiNDM5ZTkzMTgxZiJ9fX0Xh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1MWE2NDg1MjZmNWFhYWY2N2UxYTNkOWNiNjk1ZDM5MTBhNzk5NWIwNjgxZWFhMmUxYThiNDM5ZTkzMTgxZiJ9fX0":
     if {_nbt} contains "sunhead:1b":
-        # broadcast "hi"
         cancel drops
+        set {puzzle::placed::1} to false
         spawn_head(location of event-block, 1)
 
     # Check for Head 2 (Mandjet)
     else if {_nbt} contains "sunhead:2b":
         cancel drops
+        set {puzzle::placed::2} to false
         spawn_head(location of event-block, 2)
-
 
     # Check for Head 3 (Sekhmet)
     else if {_nbt} contains "sunhead:3b":
         cancel drops
+        set {puzzle::placed::3} to false
         spawn_head(location of event-block, 3)
 
 
 # 2. HANDLING THE PUZZLE PLACEMENT (Optimized)
 on place of player head:
     # 1. Define locations
-    set {_loc1} to {loc1}
-    set {_loc2} to {loc2}
-    set {_loc3} to {loc3}
-
+    set {_x} to floor(x-coord of location of event-block)
+    set {_y} to floor(y-coord of location of event-block)
+    set {_z} to floor(z-coord of location of event-block)
+    set {_placed_loc} to location({_x}, {_y}, {_z}, world "world")
+    
     # 2. Check if placed in a valid spot
-    if location of event-block is {_loc1} or {_loc2} or {_loc3}:
+    if {locs::*} contains {_placed_loc}:
         
-        # FIX: Check the raw text of the NBT for your tag.
-        # This works on all versions and avoids the "no nbt compound" error.
-        if full nbt of player's tool contains "PuzzleKey":
-            send "&aCorrect key placed!" to player
-            set {puzzle::placed::%location of event-block%} to true
-            
-            # Check for win condition
-            if {puzzle::placed::%{_loc1}%} and {puzzle::placed::%{_loc2}%} and {puzzle::placed::%{_loc3}%} are set:
-                broadcast "&6&lPUZZLE SOLVED!"
-        
-        else:
-            cancel event
-            send "&cThat is not the correct Key!" to player
+        set {_nbt} to "%full nbt of event-block%"
+        # Check the tool's NBT directly
+        if "%full nbt of player's tool%" does not contain "sunhead":
+            stop
+
+        loop {locs::*}:
+            if {_placed_loc} is loop-value:
+                if {_nbt} contains "sunhead:%loop-index%b":
+                    set {puzzle::placed::%loop-index%} to true
+                    if {ocean_debug} is true:
+                        broadcast "placed key %loop-index%"
+                    set {_pitch} to random number between 0.8 and 1.2
+                    play sound "minecraft:oceanhead.place" with pitch {_pitch} at {_placed_loc} 
+
+        # Check for win condition
+                if {puzzle::placed::1} and {puzzle::placed::2} and {puzzle::placed::3} are true:
+                    if {ocean_debug} is true:
+                        broadcast "&6&lPUZZLE SOLVED!"
+                    complete_quest()
 
 function give_head(p:player, i:integer):
     if {_i} is 1:
@@ -80,15 +100,49 @@ function spawn_head(loc:location, i:integer):
         execute console command "/summon item %{_x}% %{_y}% %{_z}% {Motion:[%{_vx}%,%{_vy}%,%{_vz}%],Item:{id:""minecraft:player_head"",count:1,components:{""minecraft:custom_name"":{""text"":""Sekhmet"",""color"":""blue"",""bold"":true},""minecraft:lore"":[{""text"":""Right head of the Sun"",""color"":""gray""}],""minecraft:profile"":{properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU0MjFmODM1ODljYTUxYzBiYjYxNDI4ZGQxMjNhNjIwZmY5NDhhMGE2M2ZmZGQ1YzNlZDVmNDE1NWFjZTYwOCJ9fX0=""}]},""minecraft:custom_data"":{sunhead:3b}}}}"
 
 
+
+#
+function complete_quest():
+    # if {puzzle::done} is true:
+    #     stop
+    if {ocean_debug} is true:
+        broadcast "completing quest"
+    set {puzzle::done} to true
+
+    set weather in world "world" to thunder
+    play sound "minecraft:oceanhead.done" at {done_loc}
+
+    wait 8 seconds
+
+    strike lightning at {done_loc}
+    wait 15 ticks
+    strike lightning at {done_loc}
+
+
+#commands
+command /ocean_debug <boolean>:
+    permission: op
+    trigger:
+        if arg-1 is true:
+            set {ocean_debug} to true
+            send "&a[OceanQuest] Debug Mode ENABLED"
+        else:
+            set {ocean_debug} to false
+            send "&c[OceanQuest] Debug Mode DISABLED"
+
 command /give_ocean_heads <integer>:
     permission: op
     trigger:
         give_head(player,arg-1)
 
-# function give_head(_p:player,_i:integer):
-#         if {_i} is 1:
-#             execute console command "/give %{_p}% minecraft:player_head[minecraft:custom_name={text:""Bastet"",color:""blue"",underlined:false,bold:true,italic:false},minecraft:lore=[{text:""Left head of the Sun"",color:""gray"",italic:false}],profile={properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1MWE2NDg1MjZmNWFhYWY2N2UxYTNkOWNiNjk1ZDM5MTBhNzk5NWIwNjgxZWFhMmUxYThiNDM5ZTkzMTgxZiJ9fX0=""}]},minecraft:custom_data={sunhead:1b}] 1"
-#         else if {_i} is 2:
-#             execute console command "/give %{_p}% minecraft:player_head[minecraft:custom_name={text:""Mandjet"",color:""blue"",underlined:false,bold:true,italic:false},minecraft:lore=[{text:""Middle head of the sun"",color:""gray"",italic:false}],profile={properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI1ZjU0ZDNkODRkYzQ0OGQ0MWU4NjFjODVmZmNhNmVkNTUyYjA4ZjdmNjhjYjc1NmE4MzgzYjc1MDUxNzQ2ZSJ9fX0=""}]},minecraft:custom_data={sunhead:2b}] 1"
-#         else if {_i} is 3:
-#             execute console command "/give %{_p}% minecraft:player_head[minecraft:custom_name={text:""Sekhmet"",color:""blue"",underlined:false,bold:true,italic:false},minecraft:lore=[{text:""Right head of the Sun"",color:""gray"",italic:false}],profile={properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU0MjFmODM1ODljYTUxYzBiYjYxNDI4ZGQxMjNhNjIwZmY5NDhhMGE2M2ZmZGQ1YzNlZDVmNDE1NWFjZTYwOCJ9fX0=""}]},minecraft:custom_data={sunhead:3b}] 1"
+command /ocean_status:
+    permission: op
+    trigger:
+        broadcast "ocean status:"
+        loop {puzzle::placed::*}:
+            broadcast "head %loop-index%: %loop-value%"
+command /reset_puzzle_data:
+    permission: op
+    trigger:
+        delete {puzzle::placed::*}
+        broadcast "&c&lCLEARED all puzzle data!"
