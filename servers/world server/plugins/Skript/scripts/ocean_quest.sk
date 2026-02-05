@@ -10,24 +10,25 @@ on load:
 on break of player head:
     # Get the raw data of the block
     set {_nbt} to "%full nbt of event-block%"
-    # Check for Head 1 (Bastet)
-    broadcast {_nbt}
-    # I took this unique string from the command you pasted earlier
+    # broadcast {_nbt}
+
     # if {_nbt} contains "eyJ0ZeyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1MWE2NDg1MjZmNWFhYWY2N2UxYTNkOWNiNjk1ZDM5MTBhNzk5NWIwNjgxZWFhMmUxYThiNDM5ZTkzMTgxZiJ9fX0Xh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1MWE2NDg1MjZmNWFhYWY2N2UxYTNkOWNiNjk1ZDM5MTBhNzk5NWIwNjgxZWFhMmUxYThiNDM5ZTkzMTgxZiJ9fX0":
     if {_nbt} contains "sunhead:1b":
         # broadcast "hi"
         cancel drops
-        give_head(player, 1)
+        spawn_head(location of event-block, 1)
 
     # Check for Head 2 (Mandjet)
     else if {_nbt} contains "sunhead:2b":
         cancel drops
-        give_head(player, 2)
+        spawn_head(location of event-block, 2)
+
 
     # Check for Head 3 (Sekhmet)
     else if {_nbt} contains "sunhead:3b":
         cancel drops
-        give_head(player, 3)
+        spawn_head(location of event-block, 3)
+
 
 # 2. HANDLING THE PUZZLE PLACEMENT (Optimized)
 on place of player head:
@@ -60,6 +61,24 @@ function give_head(p:player, i:integer):
         execute console command "/give %{_p}% minecraft:player_head[minecraft:custom_name={text:""Mandjet"",color:""blue"",underlined:false,bold:true,italic:false},minecraft:lore=[{text:""Middle head of the sun"",color:""gray"",italic:false}],profile={properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI1ZjU0ZDNkODRkYzQ0OGQ0MWU4NjFjODVmZmNhNmVkNTUyYjA4ZjdmNjhjYjc1NmE4MzgzYjc1MDUxNzQ2ZSJ9fX0=""}]},minecraft:custom_data={sunhead:2b}] 1"
     else if {_i} is 3:
         execute console command "/give %{_p}% minecraft:player_head[minecraft:custom_name={text:""Sekhmet"",color:""blue"",underlined:false,bold:true,italic:false},minecraft:lore=[{text:""Right head of the Sun"",color:""gray"",italic:false}],profile={properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU0MjFmODM1ODljYTUxYzBiYjYxNDI4ZGQxMjNhNjIwZmY5NDhhMGE2M2ZmZGQ1YzNlZDVmNDE1NWFjZTYwOCJ9fX0=""}]},minecraft:custom_data={sunhead:3b}] 1"
+
+function spawn_head(loc:location, i:integer):
+    set {_x} to x-coord of {_loc}
+    set {_y} to y-coord of {_loc} - 0.5
+    set {_z} to z-coord of {_loc}
+
+    # 1. Generate Random Velocity
+    set {_vx} to random number between -0.07 and 0.07
+    set {_vy} to random number between 0.14 and 0.3
+    set {_vz} to random number between -0.07 and 0.07
+
+    if {_i} is 1:
+        execute console command "/summon item %{_x}% %{_y}% %{_z}% {Motion:[%{_vx}%,%{_vy}%,%{_vz}%],Item:{id:""minecraft:player_head"",count:1,components:{""minecraft:custom_name"":{""text"":""Bastet"",""color"":""blue"",""bold"":true},""minecraft:lore"":[{""text"":""Left head of the Sun"",""color"":""gray""}],""minecraft:profile"":{properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1MWE2NDg1MjZmNWFhYWY2N2UxYTNkOWNiNjk1ZDM5MTBhNzk5NWIwNjgxZWFhMmUxYThiNDM5ZTkzMTgxZiJ9fX0=""}]},""minecraft:custom_data"":{sunhead:1b}}}}"
+    else if {_i} is 2:
+        execute console command "/summon item %{_x}% %{_y}% %{_z}% {Motion:[%{_vx}%,%{_vy}%,%{_vz}%],Item:{id:""minecraft:player_head"",count:1,components:{""minecraft:custom_name"":{""text"":""Mandjet"",""color"":""blue"",""bold"":true},""minecraft:lore"":[{""text"":""Middle head of the Sun"",""color"":""gray""}],""minecraft:profile"":{properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDI1ZjU0ZDNkODRkYzQ0OGQ0MWU4NjFjODVmZmNhNmVkNTUyYjA4ZjdmNjhjYjc1NmE4MzgzYjc1MDUxNzQ2ZSJ9fX0=""}]},""minecraft:custom_data"":{sunhead:2b}}}}"
+    else if {_i} is 3:
+        execute console command "/summon item %{_x}% %{_y}% %{_z}% {Motion:[%{_vx}%,%{_vy}%,%{_vz}%],Item:{id:""minecraft:player_head"",count:1,components:{""minecraft:custom_name"":{""text"":""Sekhmet"",""color"":""blue"",""bold"":true},""minecraft:lore"":[{""text"":""Right head of the Sun"",""color"":""gray""}],""minecraft:profile"":{properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU0MjFmODM1ODljYTUxYzBiYjYxNDI4ZGQxMjNhNjIwZmY5NDhhMGE2M2ZmZGQ1YzNlZDVmNDE1NWFjZTYwOCJ9fX0=""}]},""minecraft:custom_data"":{sunhead:3b}}}}"
+
 
 command /give_ocean_heads <integer>:
     permission: op
