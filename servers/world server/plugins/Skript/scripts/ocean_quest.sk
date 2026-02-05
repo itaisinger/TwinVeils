@@ -10,7 +10,7 @@ on load:
 
     set {locs::*} to {loc1}, {loc2} and {loc3}
 
-    if {puzzle::placed} is not set:
+    if {puzzle::placed::*} is not set:
         loop {locs::*}:
             set {puzzle::placed::%loop-index%} to false
 
@@ -46,6 +46,10 @@ on break of player head:
 
 # 2. HANDLING THE PUZZLE PLACEMENT (Optimized)
 on place of player head:
+
+    if {puzzle::done} is true:
+        stop
+        
     # 1. Define locations
     set {_x} to floor(x-coord of location of event-block)
     set {_y} to floor(y-coord of location of event-block)
@@ -104,8 +108,8 @@ function spawn_head(loc:location, i:integer):
 
 #
 function complete_quest():
-    # if {puzzle::done} is true:
-    #     stop
+    if {puzzle::done} is true:
+        stop
     if {ocean_debug} is true:
         broadcast "completing quest"
     set {puzzle::done} to true
