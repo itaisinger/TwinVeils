@@ -18,6 +18,7 @@ on load:
         set {puzzle::done} to false
     
     set {done_loc} to location(-349,72,-699, "world")
+    set {base_loc} to location(-353, 71, -703, "world")
 
 
 # 2. Check when placed
@@ -114,10 +115,43 @@ function complete_quest():
 
     wait 8 seconds
 
+    set {_i} to 7
+    while {_i} > 0:
+        set {_xadd} to random number between -10 to 10
+        set {_zadd} to random number between -10 to 10
+        set {_strikeloc} to location(x-coord of {done_loc} + {_xadd}, y-coord of {done_loc}, z-coord of {done_loc} + {_zadd})
+        strike lightning at {_strikeloc}
+
+        set {_i} to {_i}-1
+        if {_i} is 5:
+            kill_torches()
+
+        set {_wait} to random integer between 5 to 20
+        wait {_wait}*1 ticks
+
+
     strike lightning at {done_loc}
-    wait 15 ticks
+    wait 10 ticks
     strike lightning at {done_loc}
 
+    #spawn chest
+    broadcast "chest"
+    set {_x} to x-coord of {done_loc} - 1
+    set {_y} to y-coord of {done_loc}
+    set {_z} to z-coord of {done_loc} - 1
+    play sound "minecraft:entity.elder_guardian.curse" at {done_loc}
+    draw 40 of glow_squid_ink at {_location} with offset vector(3.5, 3.5, 3.5) with extra 0
+    execute console command "/place template minecraft:ocean_chest %{_x}% %{_y}% %{_z}%"
+
+
+#
+function kill_torches():
+    if {ocean_debug} is true:
+        broadcast "killing torches"
+    set {_x} to x-coord of {base_loc}
+    set {_y} to y-coord of {base_loc}
+    set {_z} to z-coord of {base_loc}
+    execute console command "/place template minecraft:ocean_quest_ruin %{_x}% %{_y}% %{_z}%"
 
 #commands
 command /ocean_debug <boolean>:
@@ -145,4 +179,8 @@ command /reset_puzzle_data:
     permission: op
     trigger:
         delete {puzzle::placed::*}
+        set {_x} to x-coord of {base_loc}
+        set {_y} to y-coord of {base_loc}
+        set {_z} to z-coord of {base_loc}
+        execute console command "/place template minecraft:ocean_quest %{_x}% %{_y}% %{_z}%"
         broadcast "&c&lCLEARED all puzzle data!"
