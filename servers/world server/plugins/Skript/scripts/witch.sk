@@ -8,12 +8,6 @@ options:
     leash_radius: 40
 
 
-# --- DEBUG COMMAND ---
-command /witchdebug <boolean>:
-    permission: op
-    trigger:
-        set {witch_debug} to arg-1
-        send "&e[WitchHuts] Debug set to: &f%{witch_debug}%"
 
 function spawnHutWitch(loc: location, id: text):
     # 1. Load chunk safely
@@ -43,44 +37,93 @@ function spawnHutWitch(loc: location, id: text):
     # NBT Persistence
     set byte tag "PersistenceRequired" of nbt of {_w} to 1
 
-
     #cat
     spawn cat at {_loc}
     set {_c} to last spawned cat
     set string tag "variant" of nbt of {_c} to "minecraft:all_black" 
     set byte tag "PersistenceRequired" of nbt of {_c} to 1
 
-# Variable {witch_status_cache::*} stores the status so the command just reads it.
 
 on load:
-    delete {huts::*}
-    set {huts::1} to location(230, 124, 803, world "world")
-    set {huts::2} to location(105, 65, -1108, world "world")
+    broadcast "load"
+    # delete {huts::*}
+    if {huts::*} is not set:
+        set {huts::1} to location(230, 124, 803, world "world")
+        set {huts::2} to location(105, 65, -1108, world "world")
+
+    if {huts::alive::*} is not set:
+        if {witch_debug} is true:
+            broadcast "setting new witch status for all"
+        loop {huts::*}:
+            set {huts::alive::%loop-index%} to true
+
     set {fullhp} to 50
     set {tp_heal} to {fullhp}/3
+    
+#
+every 7 seconds:
+    loopp()
 
-every 5 seconds:
-    # 2. Logic loops the Master List
+command /witch_loop:
+    trigger:
+        loopp()
+
+function loopp():
+    if {witch_debug} is true:
+        broadcast "witch loop"
     loop {huts::*}:
         set {_id} to loop-index
         set {_loc} to loop-value
         set {_w} to {hut_witch_entity::%{_id}%}
 
-        if {witch_hut::%{_id}%::cleared} is not set:
+        # Ensure chunk is loaded so we can find entities
+        if {huts::alive::%{_id}%} is true:
             if chunk at {_loc} is loaded:
+                # --- Check if we need to recover ---
+                set {_need_recovery} to false
+                if {_w} is not set:
+                    set {_need_recovery} to true
+                else if {_w} is dead:
+                    if {witch_debug} is true:
+                        broadcast "witch %{_id}% seems dead."
+                    set {_need_recovery} to true
+
+                # --- RECOVERY LOOP ---
+                if {_need_recovery} is true:
+                    loop all entities in radius 60 of {_loc}:
+                        if loop-entity is a witch:
+                            if scoreboard tags of loop-entity contains "hut_id_%{_id}%":
+                                # Found her! Restore the link
+                                set {_w} to loop-entity
+                                set {hut_witch_entity::%{_id}%} to {_w}
+                                if {witch_debug} is true:
+                                    broadcast "&e[Debug] &fRecovered Witch for Hut %{_id}%. entity: %{_w}%"
+                                stop loop
+
+                # --- NOW DECIDE WHAT TO DO ---
+                # If still unset/dead AFTER recovery, she is truly gone. Respawn.
                 if {_w} is not set:
                     spawnHutWitch({_loc}, {_id})
+                
                 else if {_w} is dead:
                     spawnHutWitch({_loc}, {_id})
+
+                else if {witch_debug} is true:
+                    broadcast "witch %{_id}% is aight."
+                
+                # --- ALIVE? DO LEASH LOGIC ---
                 else if distance between {_w} and {_loc} > {@leash_radius}:
                     teleport {_w} to {_loc}
-                    heal {_w} by 50
+                    heal {_w} by {fullhp}/2.5
                 else if distance between {_w} and {_loc} > {@leash_radius}/3:
                     if health of {_w} < {fullhp}/2:
                         teleport {_w} to {_loc}
                         heal {_w} by {fullhp}/3
 
+            else if {witch_debug} is true:
+                broadcast "chunk of witch %{_id}% is not loaded."
 
+#
 on death of witch:
     if scoreboard tags of victim contains "hut_witch":
         loop scoreboard tags of victim:
@@ -89,15 +132,30 @@ on death of witch:
                 set {_data::*} to {_tag} split at "_"
                 set {_id} to {_data::3}
                 
-                # Mark as cleared
-                set {witch_hut::%{_id}%::cleared} to true
+                # Mark as dead
+                set {huts::alive::%{_id}%} to false
                 delete {hut_witch_entity::%{_id}%}
                 if {witch_debug} is true:
                     broadcast "&aThe Witch of Hut %{_id}% has been defeated"
 
+command /tpw <integer>:
+    permission: op
+    trigger:
+        broadcast "tp player to hut %arg-1%"
+        teleport player to {huts::%arg-1%}
 command /reset_witch <text>:
     permission: op
     trigger:
+
+        #reset all
+        if arg-1 is "all":
+            delete {huts::alive::*}
+            delete {huts::*}
+            if {witch_debug} is true:
+                broadcast "reseted all witches."
+            execute console command "sk reload %script%"
+            stop
+
         # 1. Capture the argument safely
         set {_id} to arg-1
         if {witch_debug} is true:
@@ -109,7 +167,7 @@ command /reset_witch <text>:
             stop
 
         # 3. Reset the Logic
-        delete {witch_hut::%{_id}%::cleared}
+        set {huts::alive::%{_id}%} to true
 
 command /witch_status:
     permission: op
@@ -121,8 +179,8 @@ command /witch_status:
             set {_w} to {hut_witch_entity::%{_id}%}
             
             # Check the live variables directly
-            if {witch_hut::%{_id}%::cleared} is set:
-                send "&eHut %{_id}%: Cleared"
+            if {huts::alive::%{_id}%} is false:
+                send "&eHut %{_id}%: marked dead."
             else if {_w} is set:
                 if {_w} is dead:
                     send "&eHut %{_id}%: &cDead (Respawning...)"
@@ -130,3 +188,12 @@ command /witch_status:
                     send "&eHut %{_id}%: &aAlive &7(%location of {_w}%)"
             else:
                 send "&eHut %{_id}%: &7Missing/Unloaded"
+
+            broadcast "Entity: %{_w}%"
+
+# --- DEBUG COMMAND ---
+command /witchdebug <boolean>:
+    permission: op
+    trigger:
+        set {witch_debug} to arg-1
+        send "&e[WitchHuts] Debug set to: &f%{witch_debug}%"
