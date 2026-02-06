@@ -19,6 +19,8 @@ command /give_book <text>:
             noctugenesis_2(player)
         if arg-1 is "genesis 2 gibrish":
             noctugenesis_2_gibberish(player)
+        if arg-1 contains "sea g":
+            sea_passage_gibberish(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -277,5 +279,32 @@ function noctugenesis_2_gibberish(p: player):
     set page 4 of {_book} to {_p4}
     set page 5 of {_book} to {_p5}
     set page 6 of {_book} to {_p6}
+
+    give {_book} to {_p}
+
+#
+function sea_passage_gibberish(p: player):
+    set {_book} to a written book named "P·|·§§|·|¦·gë  øƒ  T·|·dë§"
+    set author of {_book} to "K|·|¦·z·|·|\|·|·ï·|·"
+
+    # Real text:
+    # O Tide;
+    # Mirror of the Sun;
+    # Ra.
+    set page 1 of {_book} to "Ø  T·|·dë;%nl%%nl%M·|·¦¦ø¦  øƒ  †|·|ë  §·|·|\|;%nl%%nl%%nl%&3&lR·|·å.%nl%%nl%"
+
+    # Real text:
+    # Wash away the sins of the Night;
+    # Let the salt cleanse our wounds;
+    # As the Sun kisses the horizon,
+    # we drift towards salvation.
+    set page 2 of {_book} to "W·|·§|·|  ·|·\/\/·|·ÿ  †|·|ë  §·|·|\|§  øƒ  †|·|ë  |\|·|·g|·|†;%nl%Lë†  †|·|ë  §·|·l†  clë·|·|\|§ë  ø·|·¦  \/\/ø·|·|\|d§;%nl%%nl%Ã§  †|·|ë  §·|·|\|  k·|·§§ë§  †|·|ë  |·|ø¦·|·zø|\|,%nl%\/\/ë  d¦·|·ƒ†  †ø\/\/·|·¦d§  §·|·l\/·|·†·|·ø|\|."
+
+    # Real text:
+    # For the depths are dark,
+    # but thy surface reflects the light;
+    # O Sea, embrace us;
+    # For we belong to the waves.
+    set page 3 of {_book} to "Fø¦  †|·|ë  dë·|·†|·|§  ·|·¦ë  d·|·¦k,%nl%b·|·†  †|·|ÿ  §·|·¦ƒ·|·cë  ¦ëƒlëc†§  †|·|ë  l·|·g|·|†;%nl%%nl%&3Ø  Së·|·,  ë|·|b¦·|·cë  ·|·|·§;&r%nl%Fø¦  \/\/ë  bëlø|\|g  †ø  †|·|ë  \/\/·|·\/ë§."
 
     give {_book} to {_p}
