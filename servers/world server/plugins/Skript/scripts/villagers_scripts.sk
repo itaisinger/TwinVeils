@@ -1,19 +1,57 @@
-# command /spawnmerchant:
-#     permission: op
-#     description: Spawns a villager with custom trades
-#     trigger:
-#         # Spawn the villager
-#         spawn villager at location of player
-#         set {_v} to last spawned villager
-        
-#         # Set villager properties
-#         set ai of {_v} to false
-#         set name of {_v} to "&6&lMaster Trader"
-        
-#         # Build the complete NBT for all trades
-#         set {_nbt} to "{VillagerData:{profession:""minecraft:librarian"",type:""minecraft:desert"",level:2},Offers:{Recipes:[{maxUses:999,buy:{id:""minecraft:emerald"",Count:5},sell:{id:""minecraft:diamond"",Count:1}},{maxUses:5,buy:{id:""minecraft:diamond_sword"",Count:1},buyB:{id:""minecraft:gold_ingot"",Count:10},sell:{id:""minecraft:netherite_ingot"",Count:1}},{maxUses:999,buy:{id:""minecraft:diamond"",Count:64},sell:{id:""minecraft:bow"",Count:1,tag:{Enchantments:[{id:""minecraft:power"",lvl:5s}],display:{Name:'{""text"":""Overpowered Bow"",""color"":""red""}'}}}}]}}"
-        
-#         # Apply NBT to villager
-#         set nbt of {_v} to nbt compound from {_nbt}
-        
-#         send "&aMerchant spawned with 3 custom trades!"
+function spawn_villager_safe(loc: location):
+    # 1. Spawn the villager
+    spawn villager at {_loc}
+    set {_v} to last spawned villager
+
+    # 2. Set Stats (Level 2, Desert, etc.)
+    set max health of {_v} to (max health of {_v} * 2)
+    heal {_v}
+    add nbt compound from "{VillagerData:{profession:""minecraft:librarian"",level:2,type:""minecraft:desert""},PlayerCreated:0b}" to nbt of {_v}
+
+    # 3. WIPE TRADES (This fixes the '1 Emerald' price bug)
+    delete tag "Offers" of nbt of {_v}
+
+    # 4. Construct New Trades
+    set {_trades} to "{Recipes:["
+    
+    # Trade 1: 32 Emeralds -> 1 Totem
+    add "{buy:{id:""minecraft:emerald"",Count:32b},sell:{id:""minecraft:totem_of_undying"",Count:1b},maxUses:6,rewardExp:1b,priceMultiplier:0.0f}," to {_trades}
+    
+    # Trade 2: Diamond + Book -> Sharpness V
+    add "{buy:{id:""minecraft:diamond"",Count:1b},buyB:{id:""minecraft:book"",Count:1b},sell:{id:""minecraft:enchanted_book"",Count:1b,tag:{StoredEnchantments:[{id:""minecraft:sharpness"",lvl:5s}]}},maxUses:9999,rewardExp:1b,priceMultiplier:0.0f}" to {_trades}
+    
+    # FIX: Only close the List [ and the Recipe {
+    add "]}" to {_trades}
+
+    # 5. Apply to 'Offers' tag
+    add nbt compound from "{Offers:%{_trades}%}" to nbt of {_v}
+    
+    set name of {_v} to "&6Artifact Trader"
+    send "&aSpawned custom trader!" to console
+
+# IMPORTANT: Make sure your command calls the NEW function name:
+command /spawn_villager:
+    permission: op
+    trigger:
+        set {_x} to x-coord of player
+        set {_y} to y-coord of player
+        set {_z} to z-coord of player
+        execute console command "/summon villager %{_x}% %{_y}% %{_z}% {VillagerData:{level:2,profession:""minecraft:librarian"",type:""minecraft:desert""},Offers:{Recipes:[{maxUses:6,buy:{id:""minecraft:emerald"",count:32},sell:{id:""minecraft:totem_of_undying"",count:1}},{maxUses:40,buy:{id:""minecraft:paper"",count:16},sell:{id:""minecraft:emerald"",count:1}}]}}"
+        # spawn villager at location of player
+        set {_v} to last spawned villager
+
+        # 2. Set Stats (Level 2, Desert, etc.)
+        set max health of {_v} to (max health of {_v} * 2)
+
+
+function spawn_guard(loc: location):
+    # PlayerCreated:0b makes it patrol the village and not wander off
+    # I also gave it 200 HP (Double normal) just in case you want it tough
+    set {_nbt} to "{PlayerCreated:0b,Attributes:[{Name:""generic.max_health"",Base:200.0f}],Health:200.0f}"
+    
+    spawn iron golem at {_loc} with nbt nbt compound from {_nbt}
+
+command /spawn_golem:
+    permission: op
+    trigger:
+        spawn_guard(location of player)

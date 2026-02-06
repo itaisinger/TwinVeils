@@ -21,6 +21,8 @@ command /give_book <text>:
             noctugenesis_2_gibberish(player)
         if arg-1 contains "sea g":
             sea_passage_gibberish(player)
+        if arg-1 contains "lost sailor":
+            lost_sailor(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -306,5 +308,43 @@ function sea_passage_gibberish(p: player):
     # O Sea, embrace us;
     # For we belong to the waves.
     set page 3 of {_book} to "Fø¦  †|·|ë  dë·|·†|·|§  ·|·¦ë  d·|·¦k,%nl%b·|·†  †|·|ÿ  §·|·¦ƒ·|·cë  ¦ëƒlëc†§  †|·|ë  l·|·g|·|†;%nl%%nl%&3Ø  Së·|·,  ë|·|b¦·|·cë  ·|·|·§;&r%nl%Fø¦  \/\/ë  bëlø|\|g  †ø  †|·|ë  \/\/·|·\/ë§."
+
+    give {_book} to {_p}
+#
+function lost_sailor(p: player):
+    set {_book} to a written book named "Lost Note"
+    set author of {_book} to "Iaru of Per Mesket"
+
+    set {_p1} to ""
+    add "O sea;" to {_p1}
+    add "%nl%%nl%Breath wind in the sails of whoever finds this note;" to {_p1}
+    add "%nl%%nl%For my sails could bare no longer;" to {_p1}
+    add "%nl%%nl%They sunk back to thee, along with the remaining planks;" to {_p1}
+
+    set {_p2} to ""
+    add "Ironic," to {_p2}
+    add "%nl%That I may find my demise at lost of water, where the infinite sea spreads before me;" to {_p2}
+    add "%nl%%nl%O sea;" to {_p2}
+    add "%nl%Help whoever treads here after my time has come;" to {_p2}
+
+    set {_p3} to ""
+    add "Help them fulfil what I have envisioned;" to {_p3}
+    add "%nl%%nl%The prophecy of the three heads;" to {_p3}
+    add "%nl%%nl%At last, not a fever dream, but a vivid reality;" to {_p3}
+
+    set {_p4} to ""
+    add "Before my eyes, just north east of this estranged shores;" to {_p4}
+    add "%nl%%nl%Lay the first temple of grief;" to {_p4}
+    add "%nl%%nl%The tomb of &lSekhmet&r." to {_p4}
+
+    set {_p5} to ""
+    add "O sea, bless this lost traveler who comes after me;" to {_p5}
+    add "%nl%%nl%For my mission has bested me,%nl%but he might sail through in my stead;" to {_p5}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p5}
 
     give {_book} to {_p}
