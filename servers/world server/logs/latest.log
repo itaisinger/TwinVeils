@@ -1,548 +1,243 @@
-[15:37:19] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[15:37:19] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[15:37:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:37:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
-[15:37:20] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[19:20:07] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[19:20:07] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[19:20:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:20:10] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[19:20:10] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[15:37:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
- - BuildPaste (1.11.1), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), WorldEdit (7.4.0-rc-01+f3ecb26c6), packetevents (2.11.1), skript-reflect (2.6.1)
-[15:37:26] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
-[15:37:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[15:37:29] [ServerMain/INFO]: Loaded 1470 recipes
-[15:37:29] [ServerMain/INFO]: Loaded 1584 advancements
-[15:37:29] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:37:29] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 349.6ms
-[15:37:29] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
-[15:37:29] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[15:37:29] [Server thread/INFO]: Loading properties
-[15:37:30] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[15:37:30] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:37:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:37:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:37:30] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:37:31] [Server thread/INFO]: Default game type: SURVIVAL
-[15:37:31] [Server thread/INFO]: Generating keypair
-[15:37:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:37:31] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[15:37:31] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:37:31] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[15:37:31] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:37:31] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[15:37:31] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[15:37:31] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[15:37:32] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.4.0-rc-01+f3ecb26c6
-[15:37:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@b48a79d]
-[15:37:32] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[15:37:32] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[15:37:32] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[15:37:32] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[15:37:33] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[15:37:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:37:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[15:37:34] [Server thread/INFO]:         __    
-[15:37:34] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[15:37:34] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:37:34] [Server thread/INFO]: 
-[15:37:34] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:37:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:37:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:37:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1177ms)
-[15:37:34] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[15:37:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.4.0-rc-01+f3ecb26c6
-[15:37:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[15:37:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[15:37:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_11.PaperweightAdapter as the Bukkit adapter
-[15:37:35] [Server thread/INFO]: Preparing level "world"
-[15:37:36] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[15:37:36] [Server thread/INFO]: Preparing spawn area: 100%
-[15:37:36] [Server thread/INFO]: Prepared spawn area in 2 ms
-[15:37:36] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[15:37:36] [Server thread/INFO]: Prepared spawn area in 1 ms
-[15:37:36] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[15:37:36] [Server thread/INFO]: Prepared spawn area in 3 ms
-[15:37:36] [Server thread/INFO]: Done preparing level "world" (0.661s)
-[15:37:36] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[15:37:36] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[15:37:37] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[15:37:37] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[15:37:38] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[15:37:38] [Server thread/INFO]: [TAB] Enabled in 582ms
-[15:37:38] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[15:37:38] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[15:37:39] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[15:37:39] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[15:37:39] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[15:37:39] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[15:37:39] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[15:37:39] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[15:37:39] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[15:37:39] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[15:37:39] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[15:37:40] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[15:37:40] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[15:37:40] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[15:37:40] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 2225ms
-[15:37:40] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[15:37:40] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[15:37:40] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[15:37:40] [Server thread/INFO]: [SkBee]  - 56 events
-[15:37:40] [Server thread/INFO]: [SkBee]  - 71 effects
-[15:37:40] [Server thread/INFO]: [SkBee]  - 240 expressions
-[15:37:40] [Server thread/INFO]: [SkBee]  - 27 conditions
-[15:37:40] [Server thread/INFO]: [SkBee]  - 32 sections
-[15:37:40] [Server thread/INFO]: [SkBee]  - 11 properties
-[15:37:40] [Server thread/INFO]: [SkBee] Update checker disabled!
-[15:37:40] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.45 seconds
-[15:37:40] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[15:37:40] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[15:37:40] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[15:37:40] [Server thread/INFO]: [spark] Starting background profiler...
-[15:37:40] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[15:37:40] [Server thread/INFO]: Running delayed init tasks
-[15:37:40] [Server thread/INFO]: [Skript] Loading variables...
-[15:37:40] [Server thread/INFO]: [Skript] Loaded 34 variables in 0.3 seconds
-[15:37:40] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[15:37:43] [Server thread/INFO]: load
-[15:37:43] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[15:37:43] [Server thread/INFO]: [Skript] Loaded 15 scripts with a total of 70 structures in 2.82 seconds
-[15:37:43] [Server thread/INFO]: [Skript] Finished loading.
-[15:37:43] [Server thread/INFO]: Done (25.742s)! For help, type "help"
-[15:37:43] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 22 build(s) behind ***
-[15:37:43] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[15:37:50] [Server thread/INFO]: witch loop
-[15:37:50] [Server thread/INFO]: chunk of witch 1 is not loaded.
-[15:37:50] [Server thread/INFO]: chunk of witch 2 is not loaded.
-[15:37:57] [Server thread/INFO]: witch loop
-[15:37:57] [Server thread/INFO]: chunk of witch 1 is not loaded.
-[15:37:57] [Server thread/INFO]: chunk of witch 2 is not loaded.
-[15:38:04] [Server thread/INFO]: witch loop
-[15:38:04] [Server thread/INFO]: chunk of witch 1 is not loaded.
-[15:38:04] [Server thread/INFO]: chunk of witch 2 is not loaded.
-[15:38:08] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[15:38:08] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[15:38:11] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[15:38:12] [Server thread/INFO]: trololol72[/127.0.0.1:61577] logged in with entity id 1 at ([world]232.03288870451445, 127.5, 800.7618653629788)
-[15:38:12] [Server thread/INFO]: witch loop
-[15:38:12] [Server thread/INFO]: [Debug] Recovered Witch for Hut 1. entity: witch
-[15:38:12] [Server thread/INFO]: witch 1 is aight.
-[15:38:12] [Server thread/INFO]: chunk of witch 2 is not loaded.
-[15:38:12] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[15:38:12] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[15:38:18] [Server thread/INFO]: witch loop
-[15:38:18] [Server thread/INFO]: witch 1 is aight.
-[15:38:18] [Server thread/INFO]: chunk of witch 2 is not loaded.
-[15:38:25] [Server thread/INFO]: witch loop
-[15:38:25] [Server thread/INFO]: witch 1 is aight.
-[15:38:25] [Server thread/INFO]: chunk of witch 2 is not loaded.
-[15:38:27] [Server thread/INFO]: trololol72 issued server command: /witch_status
-[15:38:27] [Server thread/INFO]: Entity: witch
-[15:38:27] [Server thread/INFO]: Entity: <none>
-[15:38:32] [Server thread/INFO]: witch loop
-[15:38:32] [Server thread/INFO]: witch 1 is aight.
-[15:38:32] [Server thread/INFO]: chunk of witch 2 is not loaded.
-[15:38:39] [Server thread/INFO]: witch loop
-[15:38:39] [Server thread/INFO]: witch 1 is aight.
-[15:38:39] [Server thread/INFO]: chunk of witch 2 is not loaded.
-[15:38:46] [Server thread/INFO]: witch loop
-[15:38:46] [Server thread/INFO]: witch 1 is aight.
-[15:38:46] [Server thread/INFO]: chunk of witch 2 is not loaded.
-[15:38:53] [Server thread/INFO]: witch loop
-[15:38:53] [Server thread/INFO]: witch 1 is aight.
-[15:38:53] [Server thread/INFO]: chunk of witch 2 is not loaded.
-[15:38:54] [Server thread/INFO]: trololol72 issued server command: /tpw 2
-[15:38:54] [Server thread/INFO]: tp player to hut 2
-[15:39:00] [Server thread/INFO]: witch loop
-[15:39:00] [Server thread/INFO]: witch 1 is aight.
-[15:39:00] [Server thread/INFO]: [Debug] Recovered Witch for Hut 2. entity: witch
-[15:39:00] [Server thread/INFO]: witch 2 is aight.
-[15:39:07] [Server thread/INFO]: witch loop
-[15:39:07] [Server thread/INFO]: chunk of witch 1 is not loaded.
-[15:39:07] [Server thread/INFO]: witch 2 is aight.
-[15:39:14] [Server thread/INFO]: trololol72 issued server command: /witchdebug false
-[15:40:15] [Server thread/INFO]: trololol72 issued server command: /time set day
-[15:40:15] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[15:41:32] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=camel]
-[15:41:32] [Server thread/INFO]: [trololol72: Killed 9 entities]
-[15:41:48] [Server thread/INFO]: trololol72 issued server command: /tp -100 ~ -1000
-[15:41:48] [Server thread/INFO]: [trololol72: Teleported trololol72 to -99.500000, 86.443311, -999.500000]
-[15:50:19] [Server thread/INFO]: trololol72 issued server command: /breaktool 10
-[15:50:20] [Server thread/INFO]: trololol72 issued server command: /breaktool 10
-[15:50:22] [Server thread/INFO]: trololol72 issued server command: /breaktool 10
-[15:50:25] [Server thread/INFO]: trololol72 issued server command: /breaktool 40
-[15:50:27] [Server thread/INFO]: trololol72 issued server command: /breaktool 40
-[16:01:05] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:01:05] [Server thread/INFO]: Successfully reloaded create_book.sk. (392ms)
-[16:01:12] [Server thread/INFO]: trololol72 issued server command: /give_book lost sailor
-[16:01:54] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:01:54] [Server thread/INFO]: Successfully reloaded create_book.sk. (196ms)
-[16:02:00] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 10
-[16:02:30] [Server thread/INFO]: trololol72 issued server command: /give_book lost sailor
-[16:03:34] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:03:34] [Server thread/INFO]: Successfully reloaded create_book.sk. (173ms)
-[16:03:37] [Server thread/INFO]: trololol72 issued server command: /give_book lost sailor
-[16:03:54] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:03:54] [Server thread/INFO]: Successfully reloaded create_book.sk. (175ms)
-[16:03:57] [Server thread/INFO]: trololol72 issued server command: /give_book lost sailor
-[16:05:02] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:05:02] [Server thread/INFO]: Successfully reloaded create_book.sk. (137ms)
-[16:05:06] [Server thread/INFO]: trololol72 issued server command: /give_book lost sailor
-[16:05:41] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:05:41] [Server thread/INFO]: Successfully reloaded create_book.sk. (143ms)
-[16:05:44] [Server thread/INFO]: trololol72 issued server command: /give_book lost sailor
-[16:06:06] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:06:06] [Server thread/INFO]: Successfully reloaded create_book.sk. (135ms)
-[16:06:18] [Server thread/INFO]: trololol72 issued server command: /give_book lost sailor
-[16:06:46] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:06:46] [Server thread/INFO]: Successfully reloaded create_book.sk. (167ms)
-[16:06:51] [Server thread/INFO]: trololol72 issued server command: /give_book lost sailor
-[16:07:49] [Server thread/INFO]: [Skript] Reloading create_book.sk...
-[16:07:49] [Server thread/INFO]: Successfully reloaded create_book.sk. (145ms)
-[16:07:54] [Server thread/INFO]: trololol72 issued server command: /give_book lost sailor
-[16:09:07] [Server thread/INFO]: trololol72 issued server command: /time set night
-[16:09:07] [Server thread/INFO]: [trololol72: Set the time to 13000]
-[16:09:28] [Server thread/INFO]: trololol72 issued server command: /time set 2000s
-[16:09:28] [Server thread/INFO]: [trololol72: Set the time to 40000]
-[16:12:42] [Server thread/INFO]: trololol72 issued server command: /time set day
-[16:12:42] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[16:14:06] [Server thread/INFO]: trololol72 issued server command: //wand
-[16:14:37] [Server thread/INFO]: trololol72 issued server command: //brush sphere dirt_path 1
-[16:14:42] [Server thread/INFO]: trololol72 issued server command: /mask #solid
-[16:15:12] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[16:15:12] [Server thread/INFO]: [trololol72: Killed 23 entities]
-[16:15:36] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[16:15:36] [Server thread/INFO]: [trololol72: Killed 6 entities]
-[16:17:12] [Server thread/INFO]: Villager Villager['Villager'/3884, uuid='cb264297-e776-4eb5-ac10-23eff3952ab7', l='ServerLevel[world]', x=-436.70, y=62.52, z=-657.57, cpos=[-28, -42], tl=7825, v=true] died, message: 'Villager was slain by Drowned'
-[16:20:43] [Server thread/INFO]: trololol72 issued server command: /reset_puzzle_data
-[16:20:43] [Server thread/INFO]: CLEARED all puzzle data!
-[16:20:43] [Server thread/INFO]: Loaded template "minecraft:ocean_quest" at -353, 71, -703
-[16:20:53] [Server thread/INFO]: trololol72 issued server command: /gamerule send_command_feedback false
-[16:20:53] [Server thread/INFO]: [trololol72: Gamerule send_command_feedback is now set to: false]
-[16:20:57] [Server thread/INFO]: trololol72 issued server command: /ocean_debug false
-[16:21:08] [Server thread/INFO]: trololol72 issued server command: /give_ocean_heads 1
-[16:21:08] [Server thread/INFO]: Gave 1 [Bastet] to trololol72
-[16:21:10] [Server thread/INFO]: trololol72 issued server command: /give_ocean_heads 2
-[16:21:10] [Server thread/INFO]: Gave 1 [Mandjet] to trololol72
-[16:21:11] [Server thread/INFO]: trololol72 issued server command: /give_ocean_heads 3
-[16:21:11] [Server thread/INFO]: Gave 1 [Sekhmet] to trololol72
-[16:21:26] [Server thread/INFO]: Loaded template "minecraft:ocean_quest_ruin" at -353, 71, -703
-[16:21:30] [Server thread/INFO]: trololol72 issued server command: //brush extinguish 10
-[16:21:31] [Server thread/INFO]: Loaded template "minecraft:ocean_chest" at -353, 71, -703
-[16:21:33] [Server thread/INFO]: trololol72 issued server command: //brush extinguish 10
-[16:21:47] [Server thread/INFO]: trololol72 issued server command: /reset_puzzle_data
-[16:21:47] [Server thread/INFO]: CLEARED all puzzle data!
-[16:21:47] [Server thread/INFO]: Loaded template "minecraft:ocean_quest" at -353, 71, -703
-[16:21:52] [Server thread/INFO]: trololol72 issued server command: /weather clear
-[16:21:52] [Server thread/INFO]: [trololol72: Set the weather to clear]
-[16:24:07] [Server thread/INFO]: trololol72 issued server command: /countnear 50 villager
-[16:24:11] [Server thread/INFO]: trololol72 issued server command: /countnear villager 50
-[16:24:11] [Server thread/INFO]: Found 6 villagers within 50 blocks.
-[16:24:15] [Server thread/INFO]: trololol72 issued server command: /countnear villager 150
-[16:24:15] [Server thread/INFO]: Found 8 villagers within 150 blocks.
-[16:24:18] [Server thread/INFO]: trololol72 issued server command: /countnear villager 250
-[16:24:18] [Server thread/INFO]: Found 8 villagers within 250 blocks.
-[16:27:09] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=minecraft:iron_golem]
-[16:27:09] [Server thread/INFO]: [trololol72: Killed 3 entities]
-[16:27:17] [Server thread/INFO]: trololol72 issued server command: /summon iron_golem ~ ~ ~ {PlayerCreated:0b}
-[16:27:17] [Server thread/INFO]: [trololol72: Summoned new Iron Golem]
-[16:27:23] [Server thread/INFO]: trololol72 issued server command: /summon iron_golem ~ ~ ~ {PlayerCreated:0b}
-[16:27:23] [Server thread/INFO]: [trololol72: Summoned new Iron Golem]
-[16:28:07] [Server thread/INFO]: trololol72 issued server command: /tp 1000 ~20 -1000
-[16:28:07] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1000.500000, 89.000000, -999.500000]
-[16:28:29] [Server thread/INFO]: trololol72 issued server command: /summon iron_golem ~ ~ ~ {PlayerCreated:0b}
-[16:28:29] [Server thread/INFO]: [trololol72: Summoned new Iron Golem]
-[16:28:34] [Server thread/INFO]: trololol72 issued server command: /countnear villager 50
-[16:28:34] [Server thread/INFO]: Found 1 villagers within 50 blocks.
-[16:28:46] [Server thread/INFO]: trololol72 issued server command: /countnear villager 150
-[16:28:46] [Server thread/INFO]: Found 1 villagers within 150 blocks.
-[16:37:02] [Server thread/INFO]: [Skript] Can't find the script 'villager_scripts' in the scripts folder!
-[16:37:09] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[16:37:09] [Server thread/INFO]: Line 10: (villagers_scripts.sk)
-[16:37:09] [Server thread/INFO]:     "{PlayerCreated:0b}" can't be added to an nbt compound because the former is not an nbt compound
-[16:37:09] [Server thread/INFO]:     Line: add "{PlayerCreated:0b}" to nbt of {_v}
-[16:37:09] [Server thread/INFO]:  
-[16:37:09] [Server thread/INFO]:     Encountered 1 error while reloading villagers_scripts.sk! (42ms)
-[16:38:19] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[16:38:19] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (29ms)
-[16:38:46] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[16:38:46] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (27ms)
-[16:39:15] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[16:39:15] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (28ms)
-[16:39:20] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[16:39:56] [Server thread/INFO]: Villager Villager['Artifact Trader'/13979, uuid='4ba1873c-6abb-4426-bf7a-5dcd7df17a1a', l='ServerLevel[world]', x=1000.72, y=76.00, z=-1218.31, cpos=[62, -77], tl=726, v=true] died, message: 'Artifact Trader was slain by trololol72'
-[16:39:56] [Server thread/INFO]: Named entity Villager['Artifact Trader'/13979, uuid='4ba1873c-6abb-4426-bf7a-5dcd7df17a1a', l='ServerLevel[world]', x=1000.72, y=76.00, z=-1218.31, cpos=[62, -77], tl=726, v=true] died: Artifact Trader was slain by trololol72
-[16:43:11] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[16:43:11] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (22ms)
-[16:43:55] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[16:43:55] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (27ms)
-[16:44:13] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[16:48:55] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=4]
-[16:49:41] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[16:49:41] [Server thread/INFO]: Villager Villager['Librarian'/14448, uuid='72f84a0d-7998-4698-ae10-0eec623998a9', l='ServerLevel[world]', x=1004.70, y=76.88, z=-1213.78, cpos=[62, -76], tl=6546, v=true] died, message: 'Librarian was killed'
-[16:49:41] [Server thread/INFO]: [trololol72: Killed Librarian]
-[16:49:45] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[16:54:05] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[16:54:05] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (39ms)
-[16:54:08] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[16:54:08] [Server thread/INFO]: Villager Villager['Librarian'/14931, uuid='ce3d315f-644e-4e5b-90d1-1b9c26b27077', l='ServerLevel[world]', x=1004.29, y=76.88, z=-1213.64, cpos=[62, -76], tl=5257, v=true] died, message: 'Librarian was killed'
-[16:54:08] [Server thread/INFO]: [trololol72: Killed Librarian]
-[16:54:11] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[16:55:27] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[16:55:27] [Server thread/INFO]: Line 6: (villagers_scripts.sk)
-[16:55:27] [Server thread/INFO]:     Can't understand this condition/effect: add to {_nbt} "Offers:{Recipes:[{buy:{id:""minecraft:emerald"",Count:5b},sell:{id:""minecraft:totem_of_undying"",Count:1b},maxUses:9999,rewardExp:1b},{buy:{id:""minecraft:diamond"",Count:1b},buyB:{id:""minecraft:book"",Count:1b},sell:{id:""minecraft:enchanted_book"",Count:1b,tag:{StoredEnchantments:[{id:""minecraft:sharpness"",lvl:5s}]}},maxUses:9999,rewardExp:1b}]}}"
-[16:55:27] [Server thread/INFO]:     Line: add to {_nbt} "Offers:{Recipes:[{buy:{id:""minecraft:emerald"",Count:5b},sell:{id:""minecraft:totem_of_undying"",Count:1b},maxUses:9999,rewardExp:1b},{buy:{id:""minecraft:diamond"",Count:1b},buyB:{id:""minecraft:book"",Count:1b},sell:{id:""minecraft:enchanted_book"",Count:1b,tag:{StoredEnchantments:[{id:""minecraft:sharpness"",lvl:5s}]}},maxUses:9999,rewardExp:1b}]}}"
-[16:55:27] [Server thread/INFO]:  
-[16:55:27] [Server thread/INFO]:     Encountered 1 error while reloading villagers_scripts.sk! (46ms)
-[16:55:40] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[16:55:40] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (48ms)
-[16:56:11] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[16:56:11] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (39ms)
-[16:56:15] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[16:56:15] [Server thread/INFO]: Villager Villager['Librarian'/15323, uuid='709b1cab-d5e4-43df-9e46-d5980172669d', l='ServerLevel[world]', x=1004.68, y=76.88, z=-1215.27, cpos=[62, -76], tl=2482, v=true] died, message: 'Librarian was killed'
-[16:56:15] [Server thread/INFO]: [trololol72: Killed Librarian]
-[16:56:17] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:02:55] [Server thread/INFO]: trololol72 issued server command: /countnear villager 20
-[17:02:55] [Server thread/INFO]: Found 1 villagers within 20 blocks.
-[17:02:58] [Server thread/INFO]: trololol72 issued server command: /countnear villager 60
-[17:02:58] [Server thread/INFO]: Found 2 villagers within 60 blocks.
-[17:03:33] [Server thread/INFO]: trololol72 issued server command: /locate poi minecraft:librarian
-[17:03:33] [Server thread/INFO]: Locating element minecraft:librarian took 0 ms
-[17:03:40] [Server thread/INFO]: trololol72 issued server command: /gamerule send_command_feedback true
-[17:03:40] [Server thread/INFO]: [trololol72: Gamerule send_command_feedback is now set to: true]
-[17:03:41] [Server thread/INFO]: trololol72 issued server command: /locate poi minecraft:librarian
-[17:03:41] [Server thread/INFO]: Locating element minecraft:librarian took 0 ms
-[17:03:49] [Server thread/INFO]: trololol72 issued server command: /tp 1003 ~ -1214
-[17:03:49] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1003.500000, 100.612895, -1213.500000]
-[17:04:35] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:04:44] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[17:04:44] [Server thread/INFO]: Villager Villager['Librarian'/16459, uuid='4f5abb7d-06c1-4e4d-8ed9-e36b7213fbeb', l='ServerLevel[world]', x=1003.50, y=76.06, z=-1213.76, cpos=[62, -76], tl=166, v=true] died, message: 'Librarian was killed'
-[17:04:44] [Server thread/INFO]: [trololol72: Killed Librarian]
-[17:04:59] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:04:59] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (38ms)
-[17:05:06] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:05:52] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:05:52] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (46ms)
-[17:05:54] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:05:54] [Server thread/INFO]: {Health:40.0f,Attributes:[{Name:"generic.max_health",Base:40.0f}],VillagerData:{profession:"minecraft:librarian",level:1,type:"minecraft:desert"},PlayerCreated:0b,Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:10b},sell:{id:"minecraft:totem_of_undying",Count:1b},maxUses:6,rewardExp:1b},{buy:{id:"minecraft:diamond",Count:1b},buyB:{id:"minecraft:book",Count:1b},sell:{id:"minecraft:enchanted_book",Count:1b,tag:{StoredEnchantments:[{id:"minecraft:sharpness",lvl:5s}]}},maxUses:9999,rewardExp:1b}]}}
-[17:06:47] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[17:06:47] [Server thread/INFO]: Villager Villager['Librarian'/16506, uuid='294befaa-fa43-41a8-8914-c49260a1de9b', l='ServerLevel[world]', x=1004.68, y=76.13, z=-1214.13, cpos=[62, -76], tl=2021, v=true] died, message: 'Librarian was killed'
-[17:06:47] [Server thread/INFO]: Villager Villager['Villager'/16560, uuid='3c69a143-5bea-4104-835f-a04d7ca65439', l='ServerLevel[world]', x=1005.29, y=76.62, z=-1213.41, cpos=[62, -76], tl=1051, v=true] died, message: 'Villager was killed'
-[17:06:47] [Server thread/INFO]: [trololol72: Killed 2 entities]
-[17:06:51] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:06:51] [Server thread/INFO]: Line 27: (villagers_scripts.sk)
-[17:06:51] [Server thread/INFO]:     Functions cannot be used here (or there is a problem with your arguments).
-[17:06:51] [Server thread/INFO]:     Line: spawn_villager(location of player)
-[17:06:51] [Server thread/INFO]:  
-[17:06:51] [Server thread/INFO]:     Encountered 1 error while reloading villagers_scripts.sk! (36ms)
-[17:07:15] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:07:15] [Server thread/INFO]: Line 27: (villagers_scripts.sk)
-[17:07:15] [Server thread/INFO]:     Functions cannot be used here (or there is a problem with your arguments).
-[17:07:15] [Server thread/INFO]:     Line: spawn_villager(location of player)
-[17:07:15] [Server thread/INFO]:  
-[17:07:15] [Server thread/INFO]:     Encountered 1 error while reloading villagers_scripts.sk! (30ms)
-[17:07:35] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:07:35] [Server thread/INFO]: Line 27: (villagers_scripts.sk)
-[17:07:35] [Server thread/INFO]:     Functions cannot be used here (or there is a problem with your arguments).
-[17:07:35] [Server thread/INFO]:     Line: spawn_villager(location of player)
-[17:07:35] [Server thread/INFO]:  
-[17:07:35] [Server thread/INFO]:     Encountered 1 error while reloading villagers_scripts.sk! (34ms)
-[17:08:33] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:08:33] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (37ms)
-[17:08:37] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:09:15] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:09:15] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (38ms)
-[17:09:18] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[17:09:18] [Server thread/INFO]: Villager Villager['Librarian'/16799, uuid='e722ee3e-e598-460e-957e-a82543822931', l='ServerLevel[world]', x=1005.10, y=77.00, z=-1215.23, cpos=[62, -76], tl=832, v=true] died, message: 'Librarian was killed'
-[17:09:18] [Server thread/INFO]: [trololol72: Killed Librarian]
-[17:09:20] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:09:20] [Server thread/INFO]: {Health:40.0f,Attributes:[{Name:"generic.max_health",Base:40.0f}],VillagerData:{profession:"minecraft:librarian",level:2,type:"minecraft:desert"},PlayerCreated:0b,Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:32b},sell:{id:"minecraft:totem_of_undying",Count:1b},maxUses:6,rewardExp:1b},{buy:{id:"minecraft:diamond",Count:1b},buyB:{id:"minecraft:book",Count:1b},sell:{id:"minecraft:enchanted_book",Count:1b,tag:{StoredEnchantments:[{id:"minecraft:sharpness",lvl:5s}]}},maxUses:9999,rewardExp:1b}]}}
-[17:09:37] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[17:09:37] [Server thread/INFO]: Villager Villager['Librarian'/16855, uuid='6c3f257b-37dc-4424-9899-b098247fa30b', l='ServerLevel[world]', x=1004.92, y=77.00, z=-1214.96, cpos=[62, -76], tl=340, v=true] died, message: 'Librarian was killed'
-[17:09:37] [Server thread/INFO]: [trololol72: Killed Librarian]
-[17:10:17] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:10:17] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (35ms)
-[17:10:27] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:10:27] [Server thread/INFO]: {Health:40.0f,Attributes:[{Name:"generic.max_health",Base:40.0f}],VillagerData:{profession:"minecraft:librarian",level:2,type:"minecraft:desert"},PlayerCreated:0b,Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:32},sell:{id:"minecraft:totem_of_undying",Count:1b},maxUses:6,rewardExp:1b},{buy:{id:"minecraft:diamond",Count:1b},buyB:{id:"minecraft:book",Count:1b},sell:{id:"minecraft:enchanted_book",Count:1b,tag:{StoredEnchantments:[{id:"minecraft:sharpness",lvl:5s}]}},maxUses:9999,rewardExp:1b}]}}
-[17:12:32] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:12:32] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (44ms)
-[17:12:46] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:12:46] [Server thread/INFO]: [Skript]     [SkBee ERROR] Invalid NBT: '{Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:32b},sell:{id:"minecraft:totem_of_undying",Count:1b},maxUses:6,rewardExp:1b,priceMultiplier:0.0f},{buy:{id:"minecraft:diamond",Count:1b},buyB:{id:"minecraft:book",Count:1b},sell:{id:"minecraft:enchanted_book",Count:1b,tag:{StoredEnchantments:[{id:"minecraft:sharpness",lvl:5s}]}},maxUses:9999,rewardExp:1b,priceMultiplier:0.0f}]}}}'
-[17:12:46] [Server thread/INFO]: [Skript]     [SkBee ERROR] Message: MalformedNBT: Unexpected trailing data at position 383: ...r:0.0f}]}}<--[HERE]
-[17:12:56] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[17:12:56] [Server thread/INFO]: Villager Villager['Librarian'/16957, uuid='bc112ded-1f5f-44a8-b298-6629424ba94d', l='ServerLevel[world]', x=1000.75, y=76.00, z=-1214.37, cpos=[62, -76], tl=2979, v=true] died, message: 'Librarian was killed'
-[17:12:56] [Server thread/INFO]: [trololol72: Killed Librarian]
-[17:12:59] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[17:12:59] [Server thread/INFO]: Villager Villager['Artifact Trader'/17173, uuid='5f454c19-07ea-4e78-85e4-86be8ca2ac9f', l='ServerLevel[world]', x=1001.70, y=76.00, z=-1214.51, cpos=[62, -76], tl=246, v=true] died, message: 'Artifact Trader was killed'
-[17:12:59] [Server thread/INFO]: Named entity Villager['Artifact Trader'/17173, uuid='5f454c19-07ea-4e78-85e4-86be8ca2ac9f', l='ServerLevel[world]', x=1001.70, y=76.00, z=-1214.51, cpos=[62, -76], tl=246, v=true] died: Artifact Trader was killed
-[17:12:59] [Server thread/INFO]: [trololol72: Killed Artifact Trader]
-[17:15:12] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:15:12] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (42ms)
-[17:15:15] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[17:15:15] [Server thread/INFO]: Villager Villager['Librarian'/15501, uuid='af351cb4-790e-49f4-9247-486444270a35', l='ServerLevel[world]', x=1003.64, y=76.13, z=-1214.25, cpos=[62, -76], tl=22766, v=true] died, message: 'Librarian was killed'
-[17:15:15] [Server thread/INFO]: [trololol72: Killed Librarian]
-[17:15:20] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:15:20] [Server thread/INFO]: Spawned custom trader!
-[17:15:30] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[17:15:30] [Server thread/INFO]: Villager Villager['Artifact Trader'/17385, uuid='f60346f1-13bd-4862-998c-e500984a20a4', l='ServerLevel[world]', x=1003.63, y=76.06, z=-1214.24, cpos=[62, -76], tl=192, v=true] died, message: 'Artifact Trader was killed'
-[17:15:30] [Server thread/INFO]: Named entity Villager['Artifact Trader'/17385, uuid='f60346f1-13bd-4862-998c-e500984a20a4', l='ServerLevel[world]', x=1003.63, y=76.06, z=-1214.24, cpos=[62, -76], tl=192, v=true] died: Artifact Trader was killed
-[17:15:30] [Server thread/INFO]: [trololol72: Killed Artifact Trader]
-[17:19:55] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:19:55] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (39ms)
-[17:20:00] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:20:00] [Server thread/INFO]: Summoned new Librarian
-[17:20:13] [Server thread/INFO]: trololol72 issued server command: /time set day
-[17:20:13] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[17:20:19] [Server thread/INFO]: trololol72 issued server command: /weather clear
-[17:20:19] [Server thread/INFO]: [trololol72: Set the weather to clear]
-[17:20:33] [Server thread/INFO]: Villager Villager['Librarian'/12204, uuid='95e1a530-4f3f-4f8f-a54c-3bae88fdcf00', l='ServerLevel[world]', x=952.87, y=74.00, z=-1190.50, cpos=[59, -75], tl=62698, v=true] died, message: 'Librarian was slain by Zombie'
-[17:20:46] [Server thread/INFO]: trololol72 issued server command: /countnear villager 50
-[17:20:46] [Server thread/INFO]: Found 0 villagers within 50 blocks.
-[17:20:53] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:20:53] [Server thread/INFO]: Summoned new Librarian
-[17:21:02] [Server thread/INFO]: trololol72 issued server command: /countnear villager 50
-[17:21:02] [Server thread/INFO]: Found 0 villagers within 50 blocks.
-[17:21:16] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:21:16] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (39ms)
-[17:21:19] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:21:19] [Server thread/INFO]: Summoned new Librarian
-[17:21:52] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:21:52] [Server thread/INFO]: Line 36: (villagers_scripts.sk)
-[17:21:52] [Server thread/INFO]:     Can't understand this condition/effect: execute console command "/summon villager ~ ~1 ~ {VillagerData:{level:2,profession:"minecraft:farmer",type:"minecraft:desert"},Offers:{Recipes:[{maxUses:1,buy:{id:"minecraft:dirt",count:1},sell:{id:"minecraft:diamond",count:1}}]}}"
-[17:21:52] [Server thread/INFO]:     Line: execute console command "/summon villager ~ ~1 ~ {VillagerData:{level:2,profession:"minecraft:farmer",type:"minecraft:desert"},Offers:{Recipes:[{maxUses:1,buy:{id:"minecraft:dirt",count:1},sell:{id:"minecraft:diamond",count:1}}]}}"
-[17:21:52] [Server thread/INFO]:  
-[17:21:52] [Server thread/INFO]:     Encountered 1 error while reloading villagers_scripts.sk! (40ms)
-[17:22:12] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:22:12] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (38ms)
-[17:22:15] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:22:15] [Server thread/INFO]: Summoned new Farmer
-[17:23:02] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:23:02] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (42ms)
-[17:23:08] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:23:08] [Server thread/INFO]: Summoned new Farmer
-[17:24:50] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:24:50] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (38ms)
-[17:24:58] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:24:58] [Server thread/INFO]: Summoned new Librarian
-[17:25:42] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[17:25:42] [Server thread/INFO]: Villager Villager['Librarian'/18293, uuid='c2f559cc-d50f-408a-a672-8a9c5da43dcf', l='ServerLevel[world]', x=1001.11, y=76.00, z=-1214.27, cpos=[62, -76], tl=884, v=true] died, message: 'Librarian was killed'
-[17:25:42] [Server thread/INFO]: [trololol72: Killed Librarian]
-[17:27:24] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:27:24] [Server thread/INFO]: Summoned new Librarian
-[17:27:43] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[17:27:45] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=villager,distance=..4]
-[17:27:45] [Server thread/INFO]: Villager Villager['Librarian'/18555, uuid='dbc709d1-8e24-498a-9b2d-2de3aa872452', l='ServerLevel[world]', x=996.13, y=76.00, z=-1197.48, cpos=[62, -75], tl=416, v=true] died, message: 'Librarian was killed'
-[17:27:45] [Server thread/INFO]: [trololol72: Killed Librarian]
-[17:28:16] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:28:16] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (45ms)
-[17:28:21] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:28:21] [Server thread/INFO]: Summoned new Librarian
-[17:28:53] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:28:53] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (48ms)
-[17:28:57] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:28:58] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:28:59] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:28:59] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:29:00] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:30:19] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:30:19] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (68ms)
-[17:30:23] [Server thread/INFO]: trololol72 issued server command: /spawn_golem
-[17:30:30] [Server thread/INFO]: trololol72 issued server command: /spawn_golem
-[17:30:36] [Server thread/INFO]: trololol72 issued server command: /gamerule send_command_feedback false
-[17:30:36] [Server thread/INFO]: [trololol72: Gamerule send_command_feedback is now set to: false]
-[17:30:46] [Server thread/INFO]: trololol72 issued server command: /countnear villager 150
-[17:30:46] [Server thread/INFO]: Found 8 villagers within 150 blocks.
-[17:31:23] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:31:24] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:32:14] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:32:15] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:32:44] [Server thread/INFO]: trololol72 issued server command: /time set day
-[17:32:44] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[17:32:59] [Server thread/INFO]: trololol72 issued server command: /spawn_golem
-[17:33:03] [Server thread/INFO]: trololol72 issued server command: /countnear villager 150
-[17:33:03] [Server thread/INFO]: Found 4 villagers within 150 blocks.
-[17:33:06] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:33:08] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:33:33] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
-[17:33:33] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (63ms)
-[17:33:40] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:33:40] [Server thread/INFO]: Summoned new Librarian
-[17:33:50] [Server thread/INFO]: trololol72 issued server command: /countnear villager 150
-[17:33:50] [Server thread/INFO]: Found 7 villagers within 150 blocks.
-[17:33:59] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:33:59] [Server thread/INFO]: Summoned new Librarian
-[17:34:00] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:34:00] [Server thread/INFO]: Summoned new Librarian
-[17:34:00] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:34:00] [Server thread/INFO]: Summoned new Librarian
-[17:34:01] [Server thread/INFO]: trololol72 issued server command: /spawn_villager
-[17:34:01] [Server thread/INFO]: Summoned new Librarian
-[17:37:11] [Server thread/INFO]: trololol72 issued server command: /countnear villager 150
-[17:37:11] [Server thread/INFO]: Found 11 villagers within 150 blocks.
-[17:37:26] [Server thread/INFO]: trololol72 issued server command: /tpw 2
-[17:37:26] [Server thread/INFO]: tp player to hut 2
-[17:37:41] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[17:37:41] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[17:37:46] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[17:37:46] [Server thread/INFO]: Stopping server
-[17:37:46] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[17:37:46] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[17:37:46] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[17:37:46] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[17:37:46] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[17:37:46] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[17:37:46] [Server thread/INFO]: [TAB] Disabled in 1ms
-[17:37:46] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.4.0-rc-01+f3ecb26c6
-[17:37:46] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[17:37:46] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[17:37:46] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[17:37:46] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[17:37:46] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[17:37:46] [Server thread/INFO]: [LuckPerms] Closing storage...
-[17:37:47] [Server thread/INFO]: [LuckPerms] Goodbye!
-[17:37:47] [Server thread/INFO]: Saving players
-[17:37:47] [Server thread/INFO]: Saving worlds
-[17:37:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:37:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:37:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:37:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:37:54] [Server thread/INFO]: [ChunkHolderManager] Saved 1560 block chunks, 1707 entity chunks, 0 poi chunks in world 'world' in 6.95s
-[17:37:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[17:37:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[17:37:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[17:37:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[17:37:55] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[17:37:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:37:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:37:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:37:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:37:56] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[17:37:56] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[17:37:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[17:37:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[19:20:10] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - BuildPaste (1.11.1), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
+[19:20:14] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
+[19:20:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:20:18] [ServerMain/INFO]: Loaded 1470 recipes
+[19:20:18] [ServerMain/INFO]: Loaded 1584 advancements
+[19:20:18] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[19:20:18] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 392.4ms
+[19:20:18] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
+[19:20:18] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[19:20:18] [Server thread/INFO]: Loading properties
+[19:20:18] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[19:20:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:20:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:20:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:20:19] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[19:20:19] [Server thread/INFO]: Default game type: SURVIVAL
+[19:20:19] [Server thread/INFO]: Generating keypair
+[19:20:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:20:19] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:20:19] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:20:20] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[19:20:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:20:20] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[19:20:20] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[19:20:20] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[19:20:21] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[19:20:21] [Server thread/INFO]: Default configuration file written: worldedit-config.yml
+[19:20:22] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@19732bc5]
+[19:20:22] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[19:20:22] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[19:20:22] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[19:20:22] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[19:20:22] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[19:20:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:20:23] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[19:20:23] [Server thread/INFO]:         __    
+[19:20:23] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[19:20:23] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:20:23] [Server thread/INFO]: 
+[19:20:23] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:20:24] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:20:24] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:20:24] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1294ms)
+[19:20:24] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[19:20:24] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[19:20:24] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[19:20:24] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[19:20:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:20:24] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:20:25] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[19:20:25] [Server thread/INFO]: Preparing level "world"
+[19:20:26] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[19:20:26] [Server thread/INFO]: Preparing spawn area: 100%
+[19:20:26] [Server thread/INFO]: Prepared spawn area in 3 ms
+[19:20:26] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[19:20:26] [Server thread/INFO]: Prepared spawn area in 2 ms
+[19:20:26] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[19:20:26] [Server thread/INFO]: Prepared spawn area in 3 ms
+[19:20:26] [Server thread/INFO]: Done preparing level "world" (0.653s)
+[19:20:26] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[19:20:27] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[19:20:28] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[19:20:28] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[19:20:29] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[19:20:29] [Server thread/INFO]: [TAB] Enabled in 956ms
+[19:20:29] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[19:20:29] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[19:20:29] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[19:20:29] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1480ms
+[19:20:29] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[19:20:29] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[19:20:29] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[19:20:29] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[19:20:29] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[19:20:30] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[19:20:30] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[19:20:30] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[19:20:30] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[19:20:30] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[19:20:30] [Server thread/INFO]: [SkBee]  - 56 events
+[19:20:30] [Server thread/INFO]: [SkBee]  - 71 effects
+[19:20:30] [Server thread/INFO]: [SkBee]  - 240 expressions
+[19:20:30] [Server thread/INFO]: [SkBee]  - 27 conditions
+[19:20:30] [Server thread/INFO]: [SkBee]  - 32 sections
+[19:20:30] [Server thread/INFO]: [SkBee]  - 11 properties
+[19:20:30] [Server thread/INFO]: [SkBee] Update checker disabled!
+[19:20:30] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.04 seconds
+[19:20:30] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[19:20:30] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[19:20:30] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[19:20:30] [Server thread/INFO]: [spark] Starting background profiler...
+[19:20:30] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[19:20:30] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[19:20:30] [Server thread/INFO]: Running delayed init tasks
+[19:20:30] [Server thread/INFO]: [Skript] Loading variables...
+[19:20:30] [Server thread/INFO]: [Skript] Loaded 34 variables in 0.0 seconds
+[19:20:33] [Server thread/INFO]: load
+[19:20:33] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[19:20:33] [Server thread/INFO]: [Skript] Loaded 15 scripts with a total of 75 structures in 2.74 seconds
+[19:20:33] [Server thread/INFO]: [Skript] Finished loading.
+[19:20:33] [Server thread/INFO]: Done (26.961s)! For help, type "help"
+[19:20:33] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 22 build(s) behind ***
+[19:20:33] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[19:21:15] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[19:21:15] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[19:21:20] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[19:21:20] [Server thread/INFO]: trololol72[/127.0.0.1:63639] logged in with entity id 1 at ([world]92.7055941281562, 79.37355431229749, -1089.1525467568035)
+[19:21:21] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[19:21:21] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[19:21:38] [Server thread/INFO]: trololol72 issued server command: //wand
+[19:21:55] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[19:21:55] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[19:22:01] [Server thread/INFO]: trololol72 issued server command: //set air
+[19:22:17] [Server thread/INFO]: trololol72 issued server command: //undo 5
+[19:22:20] [Server thread/INFO]: trololol72 issued server command: //undo 5
+[19:22:25] [Server thread/INFO]: trololol72 issued server command: //set air
+[19:24:01] [Server thread/INFO]: trololol72 issued server command: /tp 512 ~ -512
+[19:24:01] [Server thread/INFO]: [trololol72: Teleported trololol72 to 512.500000, 92.646359, -511.500000]
+[19:24:21] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[19:24:27] [Server thread/INFO]: trololol72 issued server command: //pos1
+[19:24:31] [Server thread/INFO]: trololol72 issued server command: //pos1 3 3 3
+[19:24:38] [Server thread/INFO]: trololol72 issued server command: //pos1 3 3 3
+[19:24:49] [Server thread/INFO]: trololol72 issued server command: //1
+[19:24:54] [Server thread/INFO]: trololol72 issued server command: //1 3 3 3
+[19:25:08] [Server thread/INFO]: trololol72 issued server command: /tp ~ 320 ~
+[19:25:08] [Server thread/INFO]: [trololol72: Teleported trololol72 to 512.449805, 320.000000, -512.252498]
+[19:25:17] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ bedrock
+[19:25:18] [Server thread/INFO]: [trololol72: Changed the block at 512, 314, -513]
+[19:25:22] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ bedrock
+[19:25:27] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ bedrock
+[19:25:27] [Server thread/INFO]: [trololol72: Changed the block at 512, 318, -513]
+[19:25:32] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ bedrock
+[19:25:39] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ bedrock
+[19:25:41] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ bedrock
+[19:25:42] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ bedrock
+[19:25:42] [Server thread/INFO]: [trololol72: Changed the block at 512, 319, -513]
+[19:26:06] [Server thread/INFO]: trololol72 issued server command: /gamemode spectator
+[19:26:06] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[19:26:12] [Server thread/INFO]: trololol72 issued server command: /tp -512 0 -512
+[19:26:12] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, 0.000000, -511.500000]
+[19:26:32] [Server thread/INFO]: trololol72 issued server command: /time set day
+[19:26:32] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[19:26:47] [Server thread/INFO]: trololol72 issued server command: /pos2
+[19:26:57] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[19:26:59] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[19:27:27] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[19:27:27] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[19:27:32] [User Authenticator #1/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[19:27:34] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[19:27:34] [Server thread/INFO]: trololol72[/127.0.0.1:63684] logged in with entity id 1982 at ([world]-451.3789931966935, 110.95861316645752, -516.9131021034656)
+[19:27:35] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[19:27:35] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[19:27:46] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
+[19:27:46] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[19:28:11] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[19:28:44] [Server thread/INFO]: trololol72 issued server command: //undo
+[19:28:51] [Server thread/INFO]: trololol72 issued server command: //undo
+[19:29:59] [Server thread/INFO]: trololol72 issued server command: /tp 512 320 -1524
+[19:29:59] [Server thread/INFO]: [trololol72: Teleported trololol72 to 512.500000, 320.000000, -1523.500000]
+[19:30:09] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ bedrock
+[19:30:12] [Server thread/INFO]: trololol72 issued server command: /
+[19:30:15] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ bedrock
+[19:30:15] [Server thread/INFO]: [trololol72: Changed the block at 512, 318, -1524]
+[19:30:25] [Server thread/INFO]: trololol72 issued server command: /tp 512 319 -1524
+[19:30:25] [Server thread/INFO]: [trololol72: Teleported trololol72 to 512.500000, 319.000000, -1523.500000]
+[19:30:30] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ bedrock
+[19:30:30] [Server thread/INFO]: [trololol72: Changed the block at 512, 319, -1524]
+[19:32:10] [Server thread/INFO]: trololol72 issued server command: /tp 512 319 -1524
+[19:32:10] [Server thread/INFO]: [trololol72: Teleported trololol72 to 512.500000, 319.000000, -1523.500000]
+[19:32:30] [Server thread/INFO]: trololol72 issued server command: /tp 400 60 -900
+[19:32:30] [Server thread/INFO]: [trololol72: Teleported trololol72 to 400.500000, 60.000000, -899.500000]
+[19:32:41] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[19:32:41] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[19:32:49] [User Authenticator #2/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[19:32:50] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[19:32:50] [Server thread/INFO]: trololol72[/127.0.0.1:63723] logged in with entity id 5044 at ([world]402.12325393895253, 96.36933274118742, -898.7332668642399)
+[19:32:51] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[19:32:51] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[19:33:40] [Server thread/INFO]: trololol72 issued server command: /tp -512 -60 -1524
+[19:33:40] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -60.000000, -1523.500000]
+[19:33:51] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision infinite 1
+[19:33:51] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
+[19:33:59] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision infinite 1 true
+[19:33:59] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
+[19:34:35] [Server thread/INFO]: trololol72 issued server command: /tp 512 319 -1524
+[19:34:35] [Server thread/INFO]: [trololol72: Teleported trololol72 to 512.500000, 319.000000, -1523.500000]
+[19:34:59] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[19:35:03] [Server thread/INFO]: trololol72 issued server command: /weather clear
+[19:35:03] [Server thread/INFO]: [trololol72: Set the weather to clear]
+[19:36:17] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[19:36:17] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[19:36:21] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[19:36:21] [Server thread/INFO]: Stopping server
+[19:36:21] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[19:36:21] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[19:36:21] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[19:36:21] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[19:36:21] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[19:36:21] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[19:36:21] [Server thread/INFO]: [TAB] Disabled in 0ms
+[19:36:21] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[19:36:21] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:36:21] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[19:36:21] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[19:36:21] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[19:36:21] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[19:36:21] [Server thread/INFO]: [LuckPerms] Closing storage...
+[19:36:22] [Server thread/INFO]: [LuckPerms] Goodbye!
+[19:36:22] [Server thread/INFO]: Saving players
+[19:36:22] [Server thread/INFO]: Saving worlds
+[19:36:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:36:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:36:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:36:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:36:26] [spark-java-sampler-0-0/WARN]: [spark] Timed out waiting for world statistics
