@@ -1,0 +1,24 @@
+command /lavatool:
+    permission: op
+    trigger:
+        give player golden axe named "&6Lava Brush"
+
+on right click:
+    if player's tool is golden axe named "&6Lava Brush":
+        cancel event
+        set {_r} to random integer between 0 and 1
+        loop blocks in radius {_r} around targeted block:
+            set loop-block to lava
+        set targeted block to lava
+
+command /watertool:
+    permission: op
+    trigger:
+        give player diamond axe named "&6water Brush"
+
+on right click:
+    if player's tool is diamond axe named "&6water Brush":
+        cancel event
+        loop blocks in radius 1 around targeted block:
+            # if loop-block is water:
+            set loop-block to water
