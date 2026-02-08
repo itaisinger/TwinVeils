@@ -23,6 +23,8 @@ command /give_book <text>:
             sea_passage_gibberish(player)
         if arg-1 contains "lost sailor":
             lost_sailor(player)
+        if arg-1 is "3heads":
+            prophecy_three_heads(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -346,5 +348,62 @@ function lost_sailor(p: player):
     set page 3 of {_book} to {_p3}
     set page 4 of {_book} to {_p4}
     set page 5 of {_book} to {_p5}
+
+    give {_book} to {_p}
+#
+function prophecy_three_heads(p: player):
+    set {_book} to a written book named "Prophecy of the three heads"
+    set author of {_book} to "Qebeh-sen"
+
+    set {_p1} to ""
+    add "O sea, hear thy tale from long ago;" to {_p1}
+    add "%nl%%nl%O land, hear thy prophecy which has yet to come;" to {_p1}
+    add "%nl%%nl%O heat, hear thy promise of thy resurgence;" to {_p1}
+    add "%nl%%nl%Hear us, &4&lRa&r." to {_p1}
+
+    set {_p2} to ""
+    add "God of the sun, lord of the sea, father of earth;" to {_p2}
+    add "%nl%%nl%When the walls emerged and the sea surged;" to {_p2}
+    add "%nl%%nl%When the world was cut to pieces;" to {_p2}
+    add "%nl%%nl%When thy reign was snatched by the moon;" to {_p2}
+    add "%nl%%nl%All was victim to the long Night." to {_p2}
+
+    set {_p3} to ""
+    add "In the chaos, the Sun was torn;" to {_p3}
+    add "%nl%%nl%As life separated onto pieces, the heat tried to grab it all;" to {_p3}
+    add "%nl%%nl%In thy eternal, burning love of life;" to {_p3}
+
+    set {_p4} to ""
+    add "Thou was torn to three pieces;" to {_p4}
+    add "%nl%%nl%The three heads; the three eyes;" to {_p4}
+    add "%nl%%nl%The three kingdoms of thy reign;" to {_p4}
+
+    set {_p5} to ""
+    add "The Sun heads were cast afar;" to {_p5}
+    add "%nl%%nl%Spread across the ocean, they sunk to the sea bed;" to {_p5}
+    add "%nl%%nl%There they lay ever since the separation;" to {_p5}
+
+    set {_p6} to ""
+    add "When the heat’s heads would be reattached;" to {_p6}
+    add "%nl%%nl%When the Sun’s eyes will regrant great sight;" to {_p6}
+    add "%nl%%nl%When the land will reclaim thy stolen mind;" to {_p6}
+
+    set {_p7} to ""
+    add "Great power one will sure find,%nl%at Ra Kheper;" to {_p7}
+    add "%nl%%nl%A pact with thy own lord;" to {_p7}
+    add "%nl%%nl%A power to slay a &5&ldragon&r;" to {_p7}
+
+    set {_p8} to ""
+    add "Go then, sailor." to {_p8}
+    add "%nl%%nl%Make the Sun proud;" to {_p8}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p5}
+    set page 6 of {_book} to {_p6}
+    set page 7 of {_book} to {_p7}
+    set page 8 of {_book} to {_p8}
 
     give {_book} to {_p}
