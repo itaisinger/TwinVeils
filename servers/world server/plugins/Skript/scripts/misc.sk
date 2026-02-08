@@ -54,6 +54,7 @@ command /spreadinventory <number>:
     trigger:
         # 1. Find chests
         set {_chests::*} to blocks in radius arg-1 around player where [input is a chest]
+        add blocks in radius arg-1 around player where [input is a barrel] to {_chests::*} 
         if size of {_chests::*} is 0:
             send "&cNo chests found in radius!"
             stop
