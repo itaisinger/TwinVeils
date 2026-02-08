@@ -267,3 +267,21 @@ command /breaktool <integer>:
     permission: op
     trigger:
         damage player's tool by arg-1
+#
+command /give_banner:
+    permission: op
+    trigger:
+        set {_i} to white banner
+        set name of {_i} to "&6Ominous Banner"
+
+        # Set Rarity via Data Component (1.21.1 style)
+        set tag "minecraft:item_rarity" of nbt of {_i} to "uncommon"
+
+        # Hide Flags
+        add hide additional tooltip to item flags of {_i}
+
+        # Set Patterns correctly
+        set {_p::*} to rhombus cyan, stripe bottom light gray, stripe center gray, border light gray, stripe middle black, half horizontal light gray, circle light gray and border black
+        set banner patterns of {_i} to {_p::*}
+
+        give {_i} to player

@@ -1,0 +1,21 @@
+# EnderEyeControl Configuration
+
+# Messages
+messages:
+  prefix: '&8[&dEnderEye&8] &7'
+  target-set: '&aEnder Eye target set to &e%x%, %y%, %z% &ain world &e%world%&a.'
+  target-reset: '&aEnder Eye target reset for world &e%world%&a.'
+  reload: '&aConfiguration reloaded.'
+  usage: '&cUsage: /endereye <point <x> <y> <z> | reset | reload>'
+  no-permission: '&cYou do not have permission to use this command.'
+  only-players: '&cOnly players can use this command (or specify world).'
+  invalid-coords: '&cInvalid coordinates provided.'
+
+# Targets (Do not edit manually unless you know what you are doing)
+# Format:
+# targets:
+#   world_uid:
+#     x: 100
+#     y: 64
+#     z: -200
+targets: {}
