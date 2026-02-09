@@ -1,525 +1,355 @@
-[01:34:23] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[01:34:23] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[01:34:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:34:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[01:34:26] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[15:47:21] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[15:47:21] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[15:47:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:47:22] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[15:47:22] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[01:34:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[15:47:22] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[01:34:32] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
-[01:34:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:34:38] [ServerMain/INFO]: Loaded 1470 recipes
-[01:34:38] [ServerMain/INFO]: Loaded 1584 advancements
-[01:34:38] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:34:38] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 372.7ms
-[01:34:39] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
-[01:34:39] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[01:34:39] [Server thread/INFO]: Loading properties
-[01:34:39] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[01:34:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:34:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:34:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:34:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[01:34:40] [Server thread/INFO]: Default game type: SURVIVAL
-[01:34:40] [Server thread/INFO]: Generating keypair
-[01:34:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:34:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[01:34:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[01:34:40] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[01:34:41] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:34:41] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[01:34:41] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[01:34:41] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[01:34:42] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:34:43] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@23422662]
-[01:34:43] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[01:34:43] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[01:34:43] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[01:34:43] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[01:34:45] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[01:34:45] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[01:34:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:34:45] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[01:34:45] [Server thread/INFO]:         __    
-[01:34:45] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[01:34:45] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:34:45] [Server thread/INFO]: 
-[01:34:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:34:46] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:34:46] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:34:46] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1397ms)
-[01:34:46] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[01:34:46] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:34:46] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[01:34:46] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[01:34:46] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:34:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[01:34:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[01:34:48] [Server thread/INFO]: Preparing level "world"
-[01:34:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[01:34:49] [Server thread/INFO]: Preparing spawn area: 100%
-[01:34:49] [Server thread/INFO]: Prepared spawn area in 3 ms
-[01:34:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[01:34:49] [Server thread/INFO]: Prepared spawn area in 2 ms
-[01:34:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[01:34:49] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:34:49] [Server thread/INFO]: Done preparing level "world" (0.886s)
-[01:34:49] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[01:34:49] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[01:34:51] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[01:34:51] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[01:34:52] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[01:34:52] [Server thread/INFO]: [TAB] Enabled in 616ms
-[01:34:52] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[01:34:52] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[01:34:52] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[01:34:53] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1661ms
-[01:34:53] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[01:34:53] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[01:34:53] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[01:34:53] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[01:34:53] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[01:34:53] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[01:34:53] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[01:34:53] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[01:34:53] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[01:34:53] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[01:34:53] [Server thread/INFO]: [SkBee]  - 56 events
-[01:34:53] [Server thread/INFO]: [SkBee]  - 71 effects
-[01:34:53] [Server thread/INFO]: [SkBee]  - 240 expressions
-[01:34:53] [Server thread/INFO]: [SkBee]  - 27 conditions
-[01:34:53] [Server thread/INFO]: [SkBee]  - 32 sections
-[01:34:53] [Server thread/INFO]: [SkBee]  - 11 properties
-[01:34:53] [Server thread/INFO]: [SkBee] Update checker disabled!
-[01:34:53] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.48 seconds
-[01:34:53] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[01:34:53] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[01:34:53] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[01:34:53] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[01:34:53] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[01:34:54] [Server thread/INFO]: [spark] Starting background profiler...
-[01:34:54] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[01:34:54] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[01:34:54] [Server thread/INFO]: Running delayed init tasks
-[01:34:54] [Server thread/INFO]: [Skript] Loading variables...
-[01:34:54] [Server thread/INFO]: [Skript] Loaded 35 variables in 0.0 seconds
-[01:34:58] [Server thread/INFO]: load
-[01:34:58] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[01:34:58] [Server thread/INFO]: [Skript] Loaded 17 scripts with a total of 85 structures in 3.69 seconds
-[01:34:58] [Server thread/INFO]: [Skript] Finished loading.
-[01:34:58] [Server thread/INFO]: Done (37.228s)! For help, type "help"
-[01:34:58] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 23 build(s) behind ***
-[01:34:58] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[01:35:44] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[01:35:44] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[01:35:51] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[01:35:51] [Server thread/INFO]: trololol72[/127.0.0.1:53169] logged in with entity id 1 at ([world]1137.310906297241, 80.71821942387363, 325.91138637798286)
-[01:35:52] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[01:35:52] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[01:36:17] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 12772b0f-41c8-4d1f-b2b3-f57147e8605c, mapped to Rabbit['Rabbit'/717, uuid='12772b0f-41c8-4d1f-b2b3-f57147e8605c', l='ServerLevel[world]', x=1377.20, y=67.00, z=0.48, cpos=[86, 0], tl=0, v=false], can't add Rabbit['Rabbit'/722, uuid='12772b0f-41c8-4d1f-b2b3-f57147e8605c', l='ServerLevel[world]', x=1369.05, y=68.00, z=-5.07, cpos=[85, -1], tl=0, v=false]
-[01:36:19] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 26a5580f-2763-430c-b9e3-2d4ece171fc6, mapped to Wolf['Wolf'/692, uuid='26a5580f-2763-430c-b9e3-2d4ece171fc6', l='ServerLevel[world]', x=1276.50, y=63.00, z=-95.63, cpos=[79, -6], tl=0, v=true], can't add Wolf['Wolf'/766, uuid='26a5580f-2763-430c-b9e3-2d4ece171fc6', l='ServerLevel[world]', x=1292.80, y=63.00, z=-106.51, cpos=[80, -7], tl=0, v=false]
-[01:36:21] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 4a6ece38-fff2-4610-979e-f607ea9429a2, mapped to Wolf['Wolf'/765, uuid='4a6ece38-fff2-4610-979e-f607ea9429a2', l='ServerLevel[world]', x=1285.07, y=64.00, z=-103.93, cpos=[80, -7], tl=0, v=true], can't add Wolf['Wolf'/814, uuid='4a6ece38-fff2-4610-979e-f607ea9429a2', l='ServerLevel[world]', x=1293.27, y=64.00, z=-129.29, cpos=[80, -9], tl=0, v=false]
-[01:36:57] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 91931a31-7db5-4e7b-abdf-8ee5be921170, mapped to Pig['Pig'/1897, uuid='91931a31-7db5-4e7b-abdf-8ee5be921170', l='ServerLevel[world]', x=1207.27, y=68.00, z=-411.77, cpos=[75, -26], tl=0, v=true], can't add Pig['Pig'/1962, uuid='91931a31-7db5-4e7b-abdf-8ee5be921170', l='ServerLevel[world]', x=1206.00, y=67.00, z=-418.00, cpos=[75, -27], tl=0, v=false]
-[01:36:59] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 3ba5e933-5834-4634-898b-12ab3583a864, mapped to Pig['Pig'/2043, uuid='3ba5e933-5834-4634-898b-12ab3583a864', l='ServerLevel[world]', x=1216.90, y=72.00, z=-460.00, cpos=[76, -29], tl=0, v=true], can't add Pig['Pig'/2046, uuid='3ba5e933-5834-4634-898b-12ab3583a864', l='ServerLevel[world]', x=1211.12, y=71.00, z=-461.32, cpos=[75, -29], tl=0, v=false]
-[01:37:01] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: a4046016-7bca-4f87-bb63-83cf18ba63f5, mapped to Fox['Fox'/2119, uuid='a4046016-7bca-4f87-bb63-83cf18ba63f5', l='ServerLevel[world]', x=1175.00, y=72.00, z=-482.00, cpos=[73, -31], tl=0, v=true], can't add Fox['Fox'/2120, uuid='a4046016-7bca-4f87-bb63-83cf18ba63f5', l='ServerLevel[world]', x=1162.49, y=97.00, z=-492.42, cpos=[72, -31], tl=0, v=false]
-[01:37:17] [Server thread/INFO]: Villager Villager['Villager'/1379, uuid='cfee30a7-d600-428d-826c-42c0d7c22970', l='ServerLevel[world]', x=1369.50, y=100.56, z=-237.50, cpos=[85, -15], tl=181, v=true] died, message: 'Villager suffocated in a wall'
-[01:37:17] [Server thread/INFO]: Villager Villager['Villager'/1413, uuid='dc890757-a396-471b-9162-21552173abaf', l='ServerLevel[world]', x=1378.50, y=95.56, z=-246.50, cpos=[86, -16], tl=171, v=true] died, message: 'Villager suffocated in a wall'
-[01:37:17] [Server thread/INFO]: Villager Villager['Villager'/1412, uuid='9176b7b8-6665-4d75-a932-8584a23d3541', l='ServerLevel[world]', x=1369.50, y=100.56, z=-241.50, cpos=[85, -16], tl=181, v=true] died, message: 'Villager suffocated in a wall'
-[01:37:18] [Server thread/INFO]: Villager Villager['Villager'/1414, uuid='7150bdc8-5ce1-499d-869a-01cdbd0c29c9', l='ServerLevel[world]', x=1378.50, y=95.56, z=-250.50, cpos=[86, -16], tl=191, v=true] died, message: 'Villager suffocated in a wall'
-[01:37:19] [Server thread/INFO]: Villager Villager['Butcher'/1515, uuid='57103c52-d6fd-4da3-a02d-dcc7359ac276', l='ServerLevel[world]', x=1418.50, y=67.56, z=-273.50, cpos=[88, -18], tl=181, v=true] died, message: 'Butcher suffocated in a wall'
-[01:37:28] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision infinite 1 true
-[01:37:28] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
-[01:39:03] [Server thread/INFO]: Villager Villager['Villager'/1558, uuid='89fe3818-7eee-4cd9-a40a-6fbe1d6afe80', l='ServerLevel[world]', x=1386.23, y=71.00, z=-280.70, cpos=[86, -18], tl=2243, v=true] died, message: 'Villager was slain by Zombie'
-[01:40:36] [Server thread/INFO]: trololol72 issued server command: /spawn_golem
-[01:40:51] [Server thread/INFO]: trololol72 issued server command: /countnear villager 150
-[01:40:51] [Server thread/INFO]: Found 16 villagers within 150 blocks.
-[01:53:58] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 100
-[01:54:10] [Server thread/INFO]: Villager Villager['Farmer'/1643, uuid='a9a4f927-978e-4d64-b9be-80ce6479a827', l='ServerLevel[world]', x=1416.30, y=73.00, z=-327.30, cpos=[88, -21], tl=20164, v=true] died, message: 'Farmer was slain by Zombie'
-[01:54:47] [Server thread/INFO]: trololol72 issued server command: /breaktool 100
-[01:54:50] [Server thread/INFO]: trololol72 issued server command: /breaktool 200
-[01:54:53] [Server thread/INFO]: trololol72 issued server command: /breaktool 200
-[01:54:55] [Server thread/INFO]: trololol72 issued server command: /breaktool 200
-[01:54:58] [Server thread/INFO]: trololol72 issued server command: /breaktool 200
-[01:54:59] [Server thread/INFO]: trololol72 issued server command: /breaktool 200
-[01:55:06] [Server thread/INFO]: trololol72 issued server command: /breaktool 150
-[01:55:07] [Server thread/INFO]: trololol72 issued server command: /breaktool 150
-[01:55:10] [Server thread/INFO]: trololol72 issued server command: /breaktool 150
-[01:55:12] [Server thread/INFO]: trololol72 issued server command: /breaktool 180
-[01:55:18] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:19] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:21] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:22] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:22] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:23] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:25] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:26] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:27] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:27] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:28] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:31] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:31] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:32] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:33] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:55:52] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 150
-[01:56:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.11-88-8556cb4 (MC: 1.21.11) ---
-[01:56:02] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[01:56:02] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:56:02] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[01:56:02] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:56:02] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[01:56:02] [Paper Watchdog Thread/ERROR]: 	PID: 47 | Suspended: false | Native: false | State: RUNNABLE
-[01:56:02] [Paper Watchdog Thread/ERROR]: 	Stack:
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.check(CondCompare.java:323)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter.lambda$iterator$0(ExprFilter.java:87)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter$$Lambda/0x0000000028e4f048.apply(Unknown Source)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators$5.computeNext(Iterators.java:675)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:141)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:136)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators.addAll(Iterators.java:369)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Lists.newArrayList(Lists.java:151)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators.toArray(Iterators.java:353)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter.get(ExprFilter.java:107)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.effects.EffChange.execute(EffChange.java:302)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute2(ScriptCommand.java:352)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.lambda$execute$0(ScriptCommand.java:311)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand$$Lambda/0x0000000029721848.run(Unknown Source)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute(ScriptCommand.java:322)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.onCommand(ScriptCommand.java:257)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x0000000028e52e38.execute(Unknown Source)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:374)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:362)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x0000000029779320.run(Unknown Source)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1532)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00000000280a9f70.run(Unknown Source)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.runWith(Thread.java:1487)
-[01:56:02] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.run(Thread.java:1474)
-[01:56:02] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:56:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[01:56:02] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:56:24] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 150
-[01:56:34] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.11-88-8556cb4 (MC: 1.21.11) ---
-[01:56:34] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[01:56:34] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:56:34] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[01:56:34] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:56:34] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[01:56:34] [Paper Watchdog Thread/ERROR]: 	PID: 47 | Suspended: false | Native: false | State: RUNNABLE
-[01:56:34] [Paper Watchdog Thread/ERROR]: 	Stack:
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.aliases.ItemType.<init>(ItemType.java:215)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.DefaultComparators$8.compare(DefaultComparators.java:174)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.DefaultComparators$8.compare(DefaultComparators.java:171)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.comparator.Comparators.compare(Comparators.java:155)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.lambda$check$1(CondCompare.java:330)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare$$Lambda/0x0000000028e4cb08.test(Unknown Source)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:156)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleLiteral.check(SimpleLiteral.java:167)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.lambda$check$2(CondCompare.java:328)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare$$Lambda/0x0000000028e4c8a8.test(Unknown Source)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:156)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:144)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.check(CondCompare.java:327)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter.lambda$iterator$0(ExprFilter.java:87)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter$$Lambda/0x0000000028e4f048.apply(Unknown Source)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators$5.computeNext(Iterators.java:675)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:141)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:136)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators.addAll(Iterators.java:369)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Lists.newArrayList(Lists.java:151)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators.toArray(Iterators.java:353)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter.get(ExprFilter.java:107)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.effects.EffChange.execute(EffChange.java:302)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute2(ScriptCommand.java:352)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.lambda$execute$0(ScriptCommand.java:311)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand$$Lambda/0x0000000029721848.run(Unknown Source)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute(ScriptCommand.java:322)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.onCommand(ScriptCommand.java:257)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x0000000028e52e38.execute(Unknown Source)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:374)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:362)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x0000000029779320.run(Unknown Source)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1532)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00000000280a9f70.run(Unknown Source)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.runWith(Thread.java:1487)
-[01:56:34] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.run(Thread.java:1474)
-[01:56:34] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:56:34] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[01:56:34] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:58:00] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 150
-[01:58:10] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.11-88-8556cb4 (MC: 1.21.11) ---
-[01:58:10] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[01:58:10] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:58:10] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[01:58:10] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:58:10] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[01:58:10] [Paper Watchdog Thread/ERROR]: 	PID: 47 | Suspended: false | Native: false | State: RUNNABLE
-[01:58:10] [Paper Watchdog Thread/ERROR]: 	Stack:
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.util.coll.iterator.CheckedIterator.hasNext(CheckedIterator.java:32)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators$5.computeNext(Iterators.java:673)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:141)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:136)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators.addAll(Iterators.java:369)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Lists.newArrayList(Lists.java:151)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators.toArray(Iterators.java:353)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter.get(ExprFilter.java:107)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.effects.EffChange.execute(EffChange.java:302)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute2(ScriptCommand.java:352)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.lambda$execute$0(ScriptCommand.java:311)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand$$Lambda/0x0000000029721848.run(Unknown Source)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute(ScriptCommand.java:322)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.onCommand(ScriptCommand.java:257)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x0000000028e52e38.execute(Unknown Source)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:374)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:362)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x0000000029779320.run(Unknown Source)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1532)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00000000280a9f70.run(Unknown Source)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.runWith(Thread.java:1487)
-[01:58:10] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.run(Thread.java:1474)
-[01:58:10] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:58:10] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[01:58:10] [Paper Watchdog Thread/ERROR]: ------------------------------
-[01:58:39] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:58:40] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:58:42] [Server thread/INFO]: trololol72 issued server command: /breaktool 80
-[01:58:53] [Server thread/INFO]: trololol72 issued server command: /breaktool 20
-[01:58:55] [Server thread/INFO]: trololol72 issued server command: /breaktool 20
-[01:58:56] [Server thread/INFO]: trololol72 issued server command: /breaktool 20
-[01:58:58] [Server thread/INFO]: trololol72 issued server command: /breaktool 20
-[01:59:09] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 3
-[02:04:01] [Server thread/INFO]: trololol72 issued server command: /countnear villager 150
-[02:04:01] [Server thread/INFO]: Found 14 villagers within 150 blocks.
-[02:04:29] [Server thread/INFO]: trololol72 issued server command: //pos1
-[02:06:19] [Server thread/INFO]: trololol72 issued server command: /paste YFxaVG787IdzBfR92yza
-[02:06:25] [Server thread/INFO]: trololol72 issued server command: /undopaste
-[02:06:36] [Server thread/INFO]: trololol72 issued server command: /paste
-[02:06:41] [Server thread/INFO]: trololol72 issued server command: /undopaste
-[02:06:45] [Server thread/INFO]: trololol72 issued server command: /paste YFxaVG787IdzBfR92yza
-[02:11:43] [Server thread/INFO]: trololol72 issued server command: /breaktool 30
-[02:11:44] [Server thread/INFO]: trololol72 issued server command: /breaktool 30
-[02:11:45] [Server thread/INFO]: trololol72 issued server command: /breaktool 30
-[02:11:45] [Server thread/INFO]: trololol72 issued server command: /breaktool 30
-[02:11:46] [Server thread/INFO]: trololol72 issued server command: /breaktool 30
-[02:11:46] [Server thread/INFO]: trololol72 issued server command: /breaktool 30
-[02:12:52] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
-[02:14:35] [Server thread/INFO]: trololol72 issued server command: //wand
-[02:14:41] [Server thread/INFO]: Villager Villager['Villager'/3630, uuid='01f49677-fdfa-41fa-b1d6-9a319e6abc4d', l='ServerLevel[world]', x=1380.95, y=76.00, z=-265.23, cpos=[86, -17], tl=39598, v=true] died, message: 'Villager hit the ground too hard while trying to escape Zombie'
-[02:14:51] [Server thread/INFO]: trololol72 issued server command: //pos2
-[02:15:13] [Server thread/INFO]: trololol72 issued server command: //pos1
-[02:15:18] [Server thread/INFO]: trololol72 issued server command: //pos2
-[02:15:22] [Server thread/INFO]: trololol72 issued server command: //set diirt
-[02:15:24] [Server thread/INFO]: trololol72 issued server command: //set dirt
-[02:15:25] [AsyncNotifyKeyedQueue - 1/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
-[02:16:00] [Server thread/INFO]: trololol72 issued server command: //pos2
-[02:16:08] [Server thread/INFO]: trololol72 issued server command: //copy
-[02:16:27] [Server thread/INFO]: trololol72 issued server command: /time set day
-[02:16:27] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[02:16:31] [Server thread/INFO]: trololol72 issued server command: //paste
-[02:16:53] [Server thread/INFO]: trololol72 issued server command: //pos2
-[02:17:09] [Server thread/INFO]: trololol72 issued server command: //cut
-[02:17:22] [Server thread/INFO]: trololol72 issued server command: //paste
-[02:25:19] [Server thread/INFO]: trololol72 issued server command: /give @a minecraft:command_block
-[02:25:19] [Server thread/INFO]: [trololol72: Gave 1 [Command Block] to trololol72]
-[02:25:49] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[02:25:49] [Server thread/INFO]: [trololol72: Killed 294 entities]
-[02:27:00] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[02:27:00] [Server thread/INFO]: [trololol72: Killed 2 entities]
-[02:27:30] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[02:27:30] [Server thread/INFO]: [trololol72: Killed 2 entities]
-[02:27:53] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[02:27:53] [Server thread/INFO]: [trololol72: Killed 2 entities]
-[02:28:40] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[02:28:40] [Server thread/INFO]: [trololol72: Killed Player Head]
-[02:30:31] [Server thread/INFO]: trololol72 issued server command: /give @a minecraft:command_block
-[02:30:31] [Server thread/INFO]: [trololol72: Gave 1 [Command Block] to trololol72]
-[02:30:49] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[02:30:49] [Server thread/INFO]: [trololol72: Killed 2 entities]
-[02:33:22] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[02:33:22] [Server thread/INFO]: [trololol72: Killed 4 entities]
-[02:33:30] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[02:33:30] [Server thread/INFO]: [trololol72: Killed Player Head]
-[02:35:29] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[02:35:29] [Server thread/INFO]: [trololol72: Killed 4 entities]
-[02:35:35] [Server thread/INFO]: trololol72 issued server command: /gamemode survival
-[02:35:35] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[02:35:53] [Server thread/INFO]: trololol72 issued server command: /gamemode survival
-[02:36:05] [Server thread/INFO]: [Death] trololol72 was blown up by Creeper (Friends)
-[02:36:13] [Server thread/INFO]: [Death] trololol72 tried to swim in lava (Friends)
-[02:36:17] [Server thread/INFO]: [Death] trololol72 tried to swim in lava (Friends)
-[02:36:27] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
-[02:36:27] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[02:36:53] [Server thread/INFO]: trololol72 issued server command: /tp 1555 ~30 -370
-[02:36:53] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1555.500000, 13.358083, -369.500000]
-[02:36:55] [Server thread/INFO]: trololol72 issued server command: /tp 1555 ~30 -370
-[02:36:55] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1555.500000, 43.358083, -369.500000]
-[02:36:55] [Server thread/INFO]: trololol72 issued server command: /tp 1555 ~30 -370
-[02:36:55] [Server thread/INFO]: [trololol72: Teleported trololol72 to 1555.500000, 73.358083, -369.500000]
-[02:37:08] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
-[02:37:58] [Server thread/INFO]: trololol72 issued server command: //wand
-[02:38:19] [Server thread/INFO]: trololol72 issued server command: //pos2
-[02:38:32] [Server thread/INFO]: trololol72 issued server command: //copy
-[02:38:57] [Server thread/INFO]: trololol72 issued server command: //paste
-[02:39:20] [Server thread/INFO]: trololol72 issued server command: //undo
-[02:39:32] [Server thread/INFO]: trololol72 issued server command: //redo
-[02:39:38] [Server thread/INFO]: trololol72 issued server command: //undo
-[02:39:46] [Server thread/INFO]: trololol72 issued server command: //paste
-[02:46:54] [Server thread/INFO]: trololol72 issued server command: /breaktool 30
-[02:46:55] [Server thread/INFO]: trololol72 issued server command: /breaktool 30
-[02:46:56] [Server thread/INFO]: trololol72 issued server command: /breaktool 30
-[02:46:57] [Server thread/INFO]: trololol72 issued server command: /breaktool 30
-[02:46:57] [Server thread/INFO]: trololol72 issued server command: /breaktool 30
-[02:47:03] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
-[02:50:39] [Server thread/INFO]: Villager Villager['Villager'/12394, uuid='8f352a05-0714-4532-b5a2-1f27d6312600', l='ServerLevel[world]', x=1456.42, y=63.00, z=-269.43, cpos=[91, -17], tl=14822, v=true] died, message: 'Villager was slain by Zombie'
-[02:51:09] [Server thread/INFO]: trololol72 issued server command: /countnear villager 150
-[02:51:09] [Server thread/INFO]: Found 14 villagers within 150 blocks.
-[02:52:20] [Server thread/INFO]: Villager Villager['Villager'/12435, uuid='20a0503a-5b81-4bb3-8bfe-b725c7f184f3', l='ServerLevel[world]', x=1381.93, y=80.94, z=-288.94, cpos=[86, -19], tl=16699, v=true] died, message: 'Villager hit the ground too hard'
-[02:53:11] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[02:53:11] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[02:53:17] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[02:53:17] [Server thread/INFO]: Stopping server
-[02:53:17] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[02:53:17] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[02:53:17] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[02:53:17] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[02:53:17] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[02:53:17] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[02:53:17] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[02:53:17] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[02:53:17] [Server thread/INFO]: [TAB] Disabled in 0ms
-[02:53:17] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[02:53:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[02:53:17] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[02:53:17] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[02:53:17] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[02:53:17] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[02:53:17] [Server thread/INFO]: [LuckPerms] Closing storage...
-[02:53:17] [Server thread/INFO]: [LuckPerms] Goodbye!
-[02:53:17] [Server thread/INFO]: Saving players
-[02:53:17] [Server thread/INFO]: Saving worlds
-[02:53:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:53:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[02:53:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[02:53:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[02:53:19] [Server thread/INFO]: [ChunkHolderManager] Saved 128 block chunks, 870 entity chunks, 0 poi chunks in world 'world' in 1.35s
-[02:53:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[02:53:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[02:53:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[02:53:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[02:53:20] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[02:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:53:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:53:20] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[02:53:20] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[02:53:20] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[02:53:20] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[15:47:27] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
+[15:47:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:47:29] [ServerMain/INFO]: Loaded 1470 recipes
+[15:47:29] [ServerMain/INFO]: Loaded 1584 advancements
+[15:47:29] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:47:29] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 373.4ms
+[15:47:29] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
+[15:47:29] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[15:47:29] [Server thread/INFO]: Loading properties
+[15:47:29] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[15:47:29] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:47:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:47:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:47:30] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:47:30] [Server thread/INFO]: Default game type: SURVIVAL
+[15:47:30] [Server thread/INFO]: Generating keypair
+[15:47:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:47:30] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[15:47:30] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:47:31] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[15:47:31] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:47:31] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[15:47:31] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[15:47:31] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[15:47:31] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[15:47:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3a63ed32]
+[15:47:32] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[15:47:32] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[15:47:32] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[15:47:32] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[15:47:33] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[15:47:33] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[15:47:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:47:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[15:47:33] [Server thread/INFO]:         __    
+[15:47:33] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[15:47:33] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:47:33] [Server thread/INFO]: 
+[15:47:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:47:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:47:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:47:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 956ms)
+[15:47:34] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[15:47:34] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[15:47:34] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[15:47:34] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[15:47:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:47:34] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:47:34] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[15:47:35] [Server thread/INFO]: Preparing level "world"
+[15:47:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[15:47:35] [Server thread/INFO]: Prepared spawn area in 2 ms
+[15:47:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[15:47:35] [Server thread/INFO]: Prepared spawn area in 2 ms
+[15:47:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[15:47:35] [Server thread/INFO]: Prepared spawn area in 2 ms
+[15:47:35] [Server thread/INFO]: Done preparing level "world" (0.430s)
+[15:47:35] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[15:47:36] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[15:47:37] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[15:47:37] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[15:47:37] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[15:47:38] [Server thread/INFO]: [TAB] Enabled in 507ms
+[15:47:38] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[15:47:38] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[15:47:38] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[15:47:38] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[15:47:38] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[15:47:38] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[15:47:38] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[15:47:38] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[15:47:38] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[15:47:38] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[15:47:38] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1223ms
+[15:47:38] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[15:47:38] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[15:47:38] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[15:47:38] [Server thread/INFO]: [SkBee]  - 56 events
+[15:47:38] [Server thread/INFO]: [SkBee]  - 71 effects
+[15:47:38] [Server thread/INFO]: [SkBee]  - 240 expressions
+[15:47:38] [Server thread/INFO]: [SkBee]  - 27 conditions
+[15:47:38] [Server thread/INFO]: [SkBee]  - 32 sections
+[15:47:38] [Server thread/INFO]: [SkBee]  - 11 properties
+[15:47:38] [Server thread/INFO]: [SkBee] Update checker disabled!
+[15:47:38] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.78 seconds
+[15:47:38] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[15:47:38] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[15:47:38] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[15:47:38] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[15:47:38] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[15:47:39] [Server thread/INFO]: [spark] Starting background profiler...
+[15:47:39] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[15:47:39] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[15:47:39] [Server thread/INFO]: Running delayed init tasks
+[15:47:39] [Server thread/INFO]: [Skript] Loading variables...
+[15:47:39] [Server thread/INFO]: [Skript] Loaded 35 variables in 0.0 seconds
+[15:47:42] [Server thread/INFO]: load
+[15:47:42] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[15:47:42] [Server thread/INFO]: [Skript] Loaded 17 scripts with a total of 86 structures in 3.06 seconds
+[15:47:42] [Server thread/INFO]: [Skript] Finished loading.
+[15:47:42] [Server thread/INFO]: Done (21.699s)! For help, type "help"
+[15:47:42] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 23 build(s) behind ***
+[15:47:42] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[15:48:22] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[15:48:22] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[15:48:25] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[15:48:25] [Server thread/INFO]: trololol72[/127.0.0.1:64501] logged in with entity id 1 at ([world]1326.518188554132, 113.875, -233.30000001192093)
+[15:48:26] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[15:48:26] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[15:48:36] [Server thread/INFO]: trololol72 issued server command: /give_book dawn snow
+[15:49:00] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 150
+[15:49:10] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.11-88-8556cb4 (MC: 1.21.11) ---
+[15:49:10] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[15:49:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:49:10] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[15:49:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:49:10] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[15:49:10] [Paper Watchdog Thread/ERROR]: 	PID: 55 | Suspended: false | Native: false | State: RUNNABLE
+[15:49:10] [Paper Watchdog Thread/ERROR]: 	Stack:
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.util.HashMap.getNode(HashMap.java:579)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.util.HashMap.containsKey(HashMap.java:603)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.comparator.Comparators.getComparatorInfo(Comparators.java:189)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.comparator.Comparators.getComparator(Comparators.java:168)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.comparator.Comparators.compare(Comparators.java:150)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.lambda$check$1(CondCompare.java:330)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare$$Lambda/0x0000000007e5dd38.test(Unknown Source)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:156)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleLiteral.check(SimpleLiteral.java:167)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.lambda$check$2(CondCompare.java:328)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare$$Lambda/0x0000000007e5dad8.test(Unknown Source)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:156)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:144)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.check(CondCompare.java:327)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter.lambda$iterator$0(ExprFilter.java:87)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter$$Lambda/0x00000000086c8b68.apply(Unknown Source)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators$5.computeNext(Iterators.java:675)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:141)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:136)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators.addAll(Iterators.java:369)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Lists.newArrayList(Lists.java:151)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators.toArray(Iterators.java:353)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter.get(ExprFilter.java:107)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.effects.EffChange.execute(EffChange.java:302)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute2(ScriptCommand.java:352)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.lambda$execute$0(ScriptCommand.java:311)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand$$Lambda/0x00000000086c98e0.run(Unknown Source)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute(ScriptCommand.java:322)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.onCommand(ScriptCommand.java:257)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x0000000007e62360.execute(Unknown Source)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:374)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:362)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x0000000008755248.run(Unknown Source)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1532)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00000000070c1f70.run(Unknown Source)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.runWith(Thread.java:1487)
+[15:49:10] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.run(Thread.java:1474)
+[15:49:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:49:10] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[15:49:10] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:49:12] [Server thread/WARN]: trololol72 moved too quickly! 41.18476673679629,-29.9873614342726,-9.894300540352504
+[15:49:18] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 150
+[15:49:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.11-88-8556cb4 (MC: 1.21.11) ---
+[15:49:28] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[15:49:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:49:28] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[15:49:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:49:28] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[15:49:28] [Paper Watchdog Thread/ERROR]: 	PID: 55 | Suspended: false | Native: false | State: RUNNABLE
+[15:49:28] [Paper Watchdog Thread/ERROR]: 	Stack:
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.util.Collections$UnmodifiableCollection$1.next(Collections.java:1080)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.aliases.ItemType.isSimilar(ItemType.java:1105)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.DefaultComparators$11.compare(DefaultComparators.java:223)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.DefaultComparators$11.compare(DefaultComparators.java:210)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.comparator.Comparators.compare(Comparators.java:155)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.DefaultComparators$8.compare(DefaultComparators.java:174)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.DefaultComparators$8.compare(DefaultComparators.java:171)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.comparator.Comparators.compare(Comparators.java:155)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.lambda$check$1(CondCompare.java:330)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare$$Lambda/0x0000000007e5dd38.test(Unknown Source)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:156)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleLiteral.check(SimpleLiteral.java:167)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.lambda$check$2(CondCompare.java:328)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare$$Lambda/0x0000000007e5dad8.test(Unknown Source)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:156)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:144)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.check(CondCompare.java:327)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter.lambda$iterator$0(ExprFilter.java:87)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter$$Lambda/0x00000000086c8b68.apply(Unknown Source)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators$5.computeNext(Iterators.java:675)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:141)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:136)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators.addAll(Iterators.java:369)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Lists.newArrayList(Lists.java:151)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		com.google.common.collect.Iterators.toArray(Iterators.java:353)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.ExprFilter.get(ExprFilter.java:107)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.effects.EffChange.execute(EffChange.java:302)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute2(ScriptCommand.java:352)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.lambda$execute$0(ScriptCommand.java:311)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand$$Lambda/0x00000000086c98e0.run(Unknown Source)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute(ScriptCommand.java:322)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.onCommand(ScriptCommand.java:257)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x0000000007e62360.execute(Unknown Source)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:374)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:362)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x0000000008755248.run(Unknown Source)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1532)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00000000070c1f70.run(Unknown Source)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.runWith(Thread.java:1487)
+[15:49:28] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.run(Thread.java:1474)
+[15:49:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:49:28] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[15:49:28] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:49:31] [Server thread/INFO]: trololol72 issued server command: /give_book dawn snow
+[15:50:56] [Server thread/INFO]: trololol72 issued server command: /breaktool 40
+[15:51:02] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 1
+[15:51:05] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 1
+[15:51:26] [Server thread/INFO]: trololol72 issued server command: /countnear villager 150
+[15:51:26] [Server thread/INFO]: Found 15 villagers within 150 blocks.
+[15:51:44] [Server thread/INFO]: Villager Villager['Fletcher'/194, uuid='717e9df3-49b7-42c2-be66-ccb51ffcce9d', l='ServerLevel[world]', x=1355.55, y=99.80, z=-368.87, cpos=[84, -24], tl=3380, v=true] died, message: 'Fletcher was slain by Zombie'
+[15:51:51] [Server thread/INFO]: Villager Villager['Farmer'/191, uuid='43851899-49a8-4762-b0c3-0a00d60bd87f', l='ServerLevel[world]', x=1354.31, y=99.00, z=-371.01, cpos=[84, -24], tl=3540, v=true] died, message: 'Farmer was slain by Zombie Villager'
+[15:51:51] [Server thread/INFO]: Villager Villager['Leatherworker'/195, uuid='16afb4fb-106e-4e18-b390-ea4947c4adae', l='ServerLevel[world]', x=1354.64, y=103.17, z=-366.30, cpos=[84, -23], tl=3533, v=true] died, message: 'Leatherworker was burned to a crisp while fighting Zombie'
+[15:52:00] [Server thread/INFO]: Villager Villager['Leatherworker'/192, uuid='adaede00-cc7a-480d-8cc0-be493cc793ee', l='ServerLevel[world]', x=1355.70, y=103.00, z=-366.30, cpos=[84, -23], tl=3706, v=true] died, message: 'Leatherworker was slain by Zombie Villager'
+[15:52:09] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[15:52:09] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[15:52:12] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[15:52:12] [Server thread/INFO]: Stopping server
+[15:52:12] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[15:52:12] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[15:52:12] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[15:52:12] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[15:52:12] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[15:52:12] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[15:52:12] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[15:52:12] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[15:52:12] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:52:12] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[15:52:12] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:52:12] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[15:52:12] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[15:52:12] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[15:52:12] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:52:12] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:52:12] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:52:12] [Server thread/INFO]: Saving players
+[15:52:12] [Server thread/INFO]: Saving worlds
+[15:52:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:52:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:52:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:52:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:52:19] [Server thread/INFO]: [ChunkHolderManager] Saved 5523 block chunks, 5523 entity chunks, 1 poi chunks in world 'world' in 7.11s
+[15:52:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[15:52:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[15:52:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[15:52:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[15:52:20] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[15:52:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:52:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:52:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:52:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:52:20] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[15:52:20] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[15:52:20] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[15:52:20] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

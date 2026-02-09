@@ -25,6 +25,8 @@ command /give_book <text>:
             lost_sailor(player)
         if arg-1 is "3heads":
             prophecy_three_heads(player)
+        if arg-1 is "dawn snow":
+            morning_passage_snow(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -405,5 +407,44 @@ function prophecy_three_heads(p: player):
     set page 6 of {_book} to {_p6}
     set page 7 of {_book} to {_p7}
     set page 8 of {_book} to {_p8}
+
+    give {_book} to {_p}
+#
+function morning_passage_snow(p: player):
+    set {_book} to a written book named "Passage of Dawn"
+    set author of {_book} to "Khazamir of Sahra"
+
+    set {_p1} to ""
+    add "O heat;" to {_p1}
+    add "%nl%%nl%Morning star, lord of the sun;" to {_p1}
+    add "%nl%%nl%&4&lRa." to {_p1}
+
+    set {_p2} to ""
+    add "Let thy light shine upon thy servants once more;" to {_p2}
+    add "%nl%%nl%A thousand rays, pure force of enlightenment;" to {_p2}
+    add "%nl%%nl%Keep us within thy sake; devour the remnants of the night;" to {_p2}
+
+    set {_p3} to ""
+    add "A pillar of fire, shining bright since dawn of earth;" to {_p3}
+    add "%nl%%nl%Show us the way, light the path forward;" to {_p3}
+    add "%nl%%nl%Melt the endless downpour, unthaw our hearts;" to {_p3}
+
+    set {_p4} to ""
+    add "Raise the black stone and persuade our foes;" to {_p4}
+    add "%nl%%nl%Annihilate the forces of evil with your eternal sunshine;" to {_p4}
+    add "%nl%%nl%As the sun sinks under at the edge of day, too shall we;" to {_p4}
+    add "%nl%From below we came, and thus shall we at last return;" to {_p4}
+
+    set {_p5} to ""
+    add "O heat, hear us; for our screams are buried under the deep white;" to {_p5}
+    add "%nl%&4O heat, save us;&r for we weak to nights of terror;" to {_p5}
+    add "%nl%&4O heat, love us&r; for Aten is a harsh, and a cruel, and a cold mistress;" to {_p5}
+    add "%nl%And the heat gives us power to live on." to {_p5}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p5}
 
     give {_book} to {_p}
