@@ -328,8 +328,8 @@ command /fillstands <number>:
 
 function equip_stand_slot(e: entity, slot: text):
     # 1. 20% Chance to skip
-    if chance of 15%:
-        stop
+    # if chance of 10%:
+    #     stop
     
     # 2. Randomize Material (Leather or Iron)
     set {_mat} to random element out of "leather", "iron", "leader", "leader"
