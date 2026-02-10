@@ -37,3 +37,24 @@ command /spawn_spotter:
         
         # Optional: Prevent them from dropping the specialized gear on death
         # add spyglass to item drops of last spawned entity
+
+
+#misc functions
+command /pillager_loot:
+    permission: op
+    trigger:
+        send "&7Generated random pillager loot..."
+        
+        # Loop 4 to 8 times (simulating chest slots)
+        loop random integer between 4 and 8 times:
+            
+            # 15% Chance for Rare Loot
+            if chance of 15%:
+                set {_rare} to random element out of golden apple, experience bottle, crossbow, enchanted book, emerald, crossbow
+                give player 1 of {_rare}
+            
+            # 85% Chance for Common Resources
+            else:
+                set {_common} to random element out of arrow, dark oak log, string, tripwire hook, iron ingot, wheat, potato, carrot, arrow
+                # Give a random amount (1-8) of the common item
+                give player (random integer between 1 and 8) of {_common}
