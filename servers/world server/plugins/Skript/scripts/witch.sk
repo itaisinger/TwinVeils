@@ -45,11 +45,14 @@ function spawnHutWitch(loc: location, id: text):
 
 
 on load:
-    broadcast "load"
+    if {witch_debug} is true:
+        broadcast "witch load"
+        
     # delete {huts::*}
     if {huts::*} is not set:
         set {huts::1} to location(230, 124, 803, world "world")
         set {huts::2} to location(105, 65, -1108, world "world")
+        set {huts::3} to location(1097, 96, -239, world "world")
 
     if {huts::alive::*} is not set:
         if {witch_debug} is true:
