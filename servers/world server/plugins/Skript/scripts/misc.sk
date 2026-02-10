@@ -63,21 +63,32 @@ command /spreadinventory <number>:
         loop all items in player's inventory:
             if loop-item is not air:
                 
-                # We loop enough times to cover the stack.
-                # The 'if loop-item is air' check stops us early if we finish the stack in batches.
+                # Loop enough times to cover the stack
                 loop (item amount of loop-item) times:
-                    if loop-item is air:
+                    # Refresh check
+                    if item amount of loop-item <= 0:
                         stop loop
                     
-                    # 3. Determine Batch Size (1 to 7)
+                    # 3. Determine Batch Size (1 to 5)
                     set {_batch} to random integer between 1 and 5
                     
                     # Don't take more than we have left
                     if {_batch} > item amount of loop-item:
                         set {_batch} to item amount of loop-item
                     
+                    # Create the stack object
                     set {_stack} to {_batch} of loop-item
+                    set {_toRemove} to {_stack} # Store exact copy to remove from player later
                     
+                    # --- NEW: Damage Logic ---
+                    if max durability of {_stack} is set:
+                        if max durability of {_stack} > 1:
+                            set {_max} to max durability of {_stack}
+                            # Damage between 10% and 90%
+                            set {_dmg} to random integer between ({_max} * 0.1) and ({_max} * 0.9)
+                            damage {_stack} by {_dmg}
+                    # -------------------------
+
                     # 4. Pick Chest and Slot
                     set {_target} to random element out of {_chests::*}
                     set {_placed} to false
@@ -91,17 +102,16 @@ command /spreadinventory <number>:
                             set {_slot} to random integer between 0 and {_maxSlots}
                             if slot {_slot} of inventory of {_target} is air:
                                 set slot {_slot} of inventory of {_target} to {_stack}
-                                remove {_stack} from player's inventory
+                                remove {_toRemove} from player's inventory # Remove the UNDAMAGED version
                                 set {_placed} to true
                     
                     # Fallback (If random slot didn't work, just add it)
                     if {_placed} is false:
                         if inventory of {_target} can hold {_stack}:
                             add {_stack} to {_target}'s inventory
-                            remove {_stack} from player's inventory
+                            remove {_toRemove} from player's inventory # Remove the UNDAMAGED version
 
-        send "&aInventory spread (batches of 1-7) into %size of {_chests::*}% chests!"
-
+        send "&aInventory spread (batches of 1-5) into %size of {_chests::*}% chests with random damage!"
 
 command /force2x2 <number>:
     permission: op
@@ -268,3 +278,79 @@ command /breaktool <integer>:
     trigger:
         damage player's tool by arg-1
 #
+command /tpb <text>:
+    permission: op
+    trigger:
+        if {tpback::%arg-1%} is set:
+            teleport player to {tpback::%arg-1%}
+            broadcast "teleporting to " + {tpback::%arg-1%}
+        else:
+            set {tpback::%arg-1%} to location of player
+            broadcast "Set tpb location for '%arg-1%' to: %{tpback::%arg-1%}%"
+            
+
+command /tpb_set <text>:
+    permission: op
+    trigger:
+        broadcast "tpb set: " + arg-1
+        set {tpback::%arg-1%} to location of player
+        broadcast "Set tpb location for '%arg-1%' to: %{tpback::%arg-1%}%"
+
+command /tptool:
+    permission: op
+    trigger:
+        set {_item} to stone axe
+        set name of {_item} to "tp tool"
+        give {_item} to player
+
+on right click:
+    if player's tool is stone axe named "tp tool":
+        if player is op:
+            cancel event
+            set {_tar} to targeted block
+            set {_loc} to location(x-coord of {_tar}, y-coord of {_tar} + 1, z-coord of {_tar})
+            teleport player to {_loc}
+
+#Armor stands
+# Usage: /fillstands <radius>
+command /fillstands <number>:
+    permission: op
+    trigger:
+        set {_count} to 0
+        loop all armor stands in radius arg-1 of player:
+            add 1 to {_count}
+            equip_stand_slot(loop-entity, "helmet")
+            equip_stand_slot(loop-entity, "chestplate")
+            equip_stand_slot(loop-entity, "leggings")
+            equip_stand_slot(loop-entity, "boots")
+        
+        send "&aEquipped %{_count}% armor stands."
+
+function equip_stand_slot(e: entity, slot: text):
+    # 1. 20% Chance to skip
+    if chance of 15%:
+        stop
+    
+    # 2. Randomize Material (Leather or Iron)
+    set {_mat} to random element out of "leather", "iron", "leader", "leader"
+    set {_item} to ("%{_mat}% %{_slot}%" parsed as item)
+    
+    # 3. Damage it (Random damage between 20% and 80% of max durability)
+    set {_max} to max durability of {_item}
+    set {_damage} to random integer between ({_max} * 0.15) and ({_max} * 0.8)
+    damage {_item} by {_damage}
+    
+    # 4. 20% Chance to Enchant
+    if chance of 20%:
+        set {_ench} to random element out of unbreaking 1, protection 1, projectile protection 1
+        enchant {_item} with {_ench}
+        
+    # 5. Equip
+    if {_slot} is "helmet":
+        set helmet of {_e} to {_item}
+    else if {_slot} is "chestplate":
+        set chestplate of {_e} to {_item}
+    else if {_slot} is "leggings":
+        set leggings of {_e} to {_item}
+    else if {_slot} is "boots":
+        set boots of {_e} to {_item}
