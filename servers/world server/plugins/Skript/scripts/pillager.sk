@@ -1,3 +1,8 @@
+# 1. Global Config
+options:
+    check_interval: 7 seconds
+
+#spotter bhvr
 on target:
     entity is a pillager
     tool of entity is a goat horn
@@ -45,150 +50,12 @@ on target:
 
 
 
-#spawn spooter
-command /spawn_spotter:
-    permission: op
-    trigger:
-        spawn pillager at location of player
-        
-        # Equipment
-        set tool of last spawned entity to goat horn
-        set helmet of last spawned entity to chainmail helmet
-        
-        # Optional: Prevent them from dropping the specialized gear on death
-        # add spyglass to item drops of last spawned entity
 
-
-#misc functions
-command /give_pillager_loot:
-    permission: op
-    trigger:
-        send "&7Generated random pillager loot..."
-        
-        # Loop 4 to 8 times (simulating chest slots)
-        loop random integer between 4 and 8 times:
-            
-            # 15% Chance for Rare Loot
-            if chance of 15%:
-                set {_rare} to random element out of golden apple, experience bottle, crossbow, enchanted book, emerald, crossbow
-                give player 1 of {_rare}
-            
-            # 85% Chance for Common Resources
-            else:
-                set {_common} to random element out of arrow, dark oak log, string, tripwire hook, iron ingot, wheat, potato, carrot, arrow
-                # Give a random amount (1-8) of the common item
-                give player (random integer between 1 and 8) of {_common}
-# 1. Global Config
-options:
-    check_interval: 7 seconds
-
-# Debug Toggle
-command /camp_debug:
-    permission: op
-    trigger:
-        if {camp_debug} is not set:
-            set {camp_debug} to true
-            send "&a[Camp] Debug mode ENABLED."
-        else:
-            delete {camp_debug}
-            send "&c[Camp] Debug mode DISABLED."
-
-# Automatic Loop Toggle
-command /camp_auto:
-    permission: op
-    trigger:
-        if {camp_auto_loop} is not set:
-            set {camp_auto_loop} to true
-            send "&a[Camp] Automatic Loop ENABLED (Running every {@check_interval})."
-        else:
-            delete {camp_auto_loop}
-            send "&c[Camp] Automatic Loop DISABLED."
 
 function debug(msg: text):
     if {camp_debug} is set:
         broadcast "&7[Debug] %{_msg}%"
 
-# 2. Camp Management
-command /set_camp [<int>] [<int>] [<int>] [<int>] [<int>]:
-    permission: op
-    trigger:
-        if arg-5 is not set:
-            send "&c&lIncorrect Usage!"
-            send "&e/set_camp &b<Radius> <Pillagers> <Spotters> <Vindicators> <Ravagers>"
-            stop
-
-        add 1 to {camp_total_id}
-        set {_id} to {camp_total_id}
-        
-        if {camp_list::*} does not contain {_id}:
-            add {_id} to {camp_list::*}
-        
-        set {camps::%{_id}%::loc} to location of player
-        set {camps::%{_id}%::radius} to arg-1
-        
-        set {camps::%{_id}%::amount_pillager} to arg-2
-        set {camps::%{_id}%::amount_spotter} to arg-3
-        set {camps::%{_id}%::amount_vindicator} to arg-4
-        set {camps::%{_id}%::amount_ravager} to arg-5
-        
-        delete {camps::%{_id}%::is_populated}
-        
-        # Reset Live Counters (Since it's a new camp setup)
-        set {camps::%{_id}%::live_pillager} to 0
-        set {camps::%{_id}%::live_spotter} to 0
-        set {camps::%{_id}%::live_vindicator} to 0
-        set {camps::%{_id}%::live_ravager} to 0
-        delete {camps::%{_id}%::active_units::*}
-        
-        send "&aCamp #%{_id}% created."
-        send "&7Will spawn: %arg-2% Pillagers, %arg-3% Spotters, %arg-4% Vindicators, %arg-5% Ravagers."
-
-command /remove_camp <int>:
-    permission: op
-    trigger:
-        # Optimized Kill: Loop the list, not the world
-        loop {camps::%arg-1%::active_units::*}:
-            kill loop-value
-            
-        delete {camps::%arg-1%::*}
-        delete {camps::%arg-1%}
-        remove arg-1 from {camp_list::*}
-        
-        send "&cDeleted Camp #%arg-1%."
-
-command /reset_camp <int>:
-    permission: op
-    trigger:
-        loop {camps::%arg-1%::active_units::*}:
-            kill loop-value
-        
-        delete {camps::%arg-1%::active_units::*}
-        set {camps::%arg-1%::live_pillager} to 0
-        set {camps::%arg-1%::live_spotter} to 0
-        set {camps::%arg-1%::live_vindicator} to 0
-        set {camps::%arg-1%::live_ravager} to 0
-            
-        delete {camps::%arg-1%::is_populated}
-        send "&eCamp #%arg-1% reset. Will respawn on next loop."
-
-# --- Reinforcement Config ---
-
-command /set_main_base:
-    permission: op
-    trigger:
-        set {camp_main_base} to location of player
-        send "&a[Camp] Main Base set."
-
-command /set_reinforce_limit <int>:
-    permission: op
-    trigger:
-        set {camp_reinforce_limit} to arg-1
-        send "&a[Camp] Daily reinforcement limit set to %arg-1%."
-
-command /force_reinforce:
-    permission: op
-    trigger:
-        reinforce_camps()
 
 # 3. Event Listeners (The Efficient Tracking System)
 
@@ -313,6 +180,10 @@ function manage_camp(id: text):
 
 # 6. Reinforcement Logic
 function reinforce_camps():
+    if {reinforce_active} is false:
+        debug("Skipping reinforcements: reinforncement is not active.")
+        stop
+
     if {camp_main_base} is not set:
         debug("Skipping reinforcements: Main Base not set.")
         stop
@@ -398,7 +269,6 @@ function spawn_spotter(loc: location, id: text):
     add "camp_%{_id}%" to scoreboard tags of {_e}
     add "role_spotter" to scoreboard tags of {_e}
     add nbt compound from "{PersistenceRequired:1b}" to nbt of {_e}
-    set name of {_e} to "&6Spotter"
     set tool of {_e} to goat horn
     set helmet of {_e} to chainmail helmet
     
@@ -415,6 +285,7 @@ function spawn_vindicator(loc: location, id: text):
     # Register
     add {_e} to {camps::%{_id}%::active_units::*}
     add 1 to {camps::%{_id}%::live_vindicator}
+    # set name of {_e} to {_id}
 
 function spawn_ravager(loc: location, id: text):
     spawn ravager at {_loc}
@@ -438,46 +309,6 @@ function spawn_ravager(loc: location, id: text):
     add {_rider} to {camps::%{_id}%::active_units::*}
 
 # 8. Status Command (Instant Lookup)
-command /camp_status:
-    permission: op
-    trigger:
-        set {_total_camps} to size of {camp_list::*}
-        
-        send ""
-        send "&8&m----------------[&6 &lCamp Status &8&m]----------------"
-        send "&7Total Camps: &f%{_total_camps}%"
-        if {camp_auto_loop} is true:
-            send "&7Auto Loop: &aENABLED"
-        else:
-            send "&7Auto Loop: &cDISABLED"
-        send ""
-        
-        loop {camp_list::*}:
-            set {_id} to loop-value
-            set {_loc} to {camps::%{_id}%::loc}
-            
-            # Retrieve Variable Counts (Instant)
-            set {_alive_p} to {camps::%{_id}%::live_pillager}
-            set {_alive_s} to {camps::%{_id}%::live_spotter}
-            set {_alive_v} to {camps::%{_id}%::live_vindicator}
-            set {_alive_r} to {camps::%{_id}%::live_ravager}
-            
-            set {_max_p} to {camps::%{_id}%::amount_pillager}
-            set {_max_s} to {camps::%{_id}%::amount_spotter}
-            set {_max_v} to {camps::%{_id}%::amount_vindicator}
-            set {_max_r} to {camps::%{_id}%::amount_ravager}
-            
-            if {camps::%{_id}%::is_populated} is not set:
-                set {_status} to "&7WAITING"
-            else if ({_alive_p} + {_alive_s} + {_alive_v} + {_alive_r}) <= 0:
-                set {_status} to "&aCLEARED"
-            else:
-                set {_status} to "&cACTIVE"
-
-            send "&6&lID ##%{_id}% &7(%{_loc}%)"
-            send "  &fStatus: %{_status}%"
-            send "  &fP: &b%{_alive_p}%&7/%{_max_p}%  &fS: &b%{_alive_s}%&7/%{_max_s}%  &fV: &b%{_alive_v}%&7/%{_max_v}%  &fR: &b%{_alive_r}%&7/%{_max_r}%"
-            send "&8&m----------------------------------------"
 
 function get_smart_target(current: location, dest: location) :: location:
     set {_dist} to distance between {_current} and {_dest}
@@ -537,7 +368,228 @@ function spot_player(origin: location, target_loc: location):
                 show 5 angry villager at location of {_unit}
 
 ######
-command /pillager_spot:
+
+# methods
+
+######
+command /cap_spot:
     permission: op
     trigger:
         spot_player(location of player,location of player)
+#
+command /camp_status:
+    permission: op
+    trigger:
+        set {_total_camps} to size of {camp_list::*}
+        
+        send ""
+        send "&8&m----------------[&6 &lCamp Status &8&m]----------------"
+        send "&7Total Camps: &f%{_total_camps}%"
+        send "&7Camp ID: &f%{camp_total_id}%"
+        if {camp_auto_loop} is true:
+            send "&7Auto Loop: &aENABLED"
+        else:
+            send "&7Auto Loop: &cDISABLED"
+        send ""
+        
+        loop {camp_list::*}:
+            set {_id} to loop-value
+            set {_loc} to {camps::%{_id}%::loc}
+            
+            # Retrieve Variable Counts (Instant)
+            set {_alive_p} to {camps::%{_id}%::live_pillager}
+            set {_alive_s} to {camps::%{_id}%::live_spotter}
+            set {_alive_v} to {camps::%{_id}%::live_vindicator}
+            set {_alive_r} to {camps::%{_id}%::live_ravager}
+            
+            set {_max_p} to {camps::%{_id}%::amount_pillager}
+            set {_max_s} to {camps::%{_id}%::amount_spotter}
+            set {_max_v} to {camps::%{_id}%::amount_vindicator}
+            set {_max_r} to {camps::%{_id}%::amount_ravager}
+            
+            if {camps::%{_id}%::is_populated} is not set:
+                set {_status} to "&7WAITING"
+            else if ({_alive_p} + {_alive_s} + {_alive_v} + {_alive_r}) <= 0:
+                set {_status} to "&aCLEARED"
+            else:
+                set {_status} to "&cACTIVE"
+
+            send "&6&lID ##%{_id}% &7(%{_loc}%)"
+            send "  &fStatus: %{_status}%"
+            send "  &fP: &b%{_alive_p}%&7/%{_max_p}%  &fS: &b%{_alive_s}%&7/%{_max_s}%  &fV: &b%{_alive_v}%&7/%{_max_v}%  &fR: &b%{_alive_r}%&7/%{_max_r}%"
+            send "&8&m----------------------------------------"
+#
+command /camp_reinforce:
+    permission: op
+    trigger:
+        reinforce_camps()
+#
+command /give_pillager_loot:
+    permission: op
+    trigger:
+        send "&7Generated random pillager loot..."
+        
+        # Loop 4 to 8 times (simulating chest slots)
+        loop random integer between 4 and 8 times:
+            
+            # 15% Chance for Rare Loot
+            if chance of 15%:
+                set {_rare} to random element out of golden apple, experience bottle, crossbow, enchanted book, emerald, crossbow
+                give player 1 of {_rare}
+            
+            # 85% Chance for Common Resources
+            else:
+                set {_common} to random element out of arrow, dark oak log, string, tripwire hook, iron ingot, wheat, potato, carrot, arrow
+                # Give a random amount (1-8) of the common item
+                give player (random integer between 1 and 8) of {_common}
+
+
+# Debug Toggle
+command /camp_debug:
+    permission: op
+    trigger:
+        if {camp_debug} is not set:
+            set {camp_debug} to true
+            send "&a[Camp] Debug mode ENABLED."
+        else:
+            delete {camp_debug}
+            send "&c[Camp] Debug mode DISABLED."
+
+#
+command /camp_auto:
+    permission: op
+    trigger:
+        if {camp_auto_loop} is not set:
+            set {camp_auto_loop} to true
+            send "&a[Camp] Automatic Loop ENABLED (Running every {@check_interval})."
+        else:
+            delete {camp_auto_loop}
+            send "&c[Camp] Automatic Loop DISABLED."
+# 2. Camp Management
+command /camp_set [<int>] [<int>] [<int>] [<int>] [<int>]:
+    permission: op
+    trigger:
+        if arg-5 is not set:
+            send "&c&lIncorrect Usage!"
+            send "&e/set_camp &b<Radius> <Pillagers> <Spotters> <Vindicators> <Ravagers>"
+            stop
+
+        add 1 to {camp_total_id}
+        set {_id} to {camp_total_id}
+        
+        if {camp_list::*} does not contain {_id}:
+            add {_id} to {camp_list::*}
+        
+        set {camps::%{_id}%::loc} to location of player
+        set {camps::%{_id}%::radius} to arg-1
+        
+        set {camps::%{_id}%::amount_pillager} to arg-2
+        set {camps::%{_id}%::amount_spotter} to arg-3
+        set {camps::%{_id}%::amount_vindicator} to arg-4
+        set {camps::%{_id}%::amount_ravager} to arg-5
+        
+        delete {camps::%{_id}%::is_populated}
+        
+        # Reset Live Counters (Since it's a new camp setup)
+        set {camps::%{_id}%::live_pillager} to 0
+        set {camps::%{_id}%::live_spotter} to 0
+        set {camps::%{_id}%::live_vindicator} to 0
+        set {camps::%{_id}%::live_ravager} to 0
+        delete {camps::%{_id}%::active_units::*}
+        
+        send "&aCamp #%{_id}% created."
+        send "&7Will spawn: %arg-2% Pillagers, %arg-3% Spotters, %arg-4% Vindicators, %arg-5% Ravagers."
+
+command /camp_remove <int>:
+    permission: op
+    trigger:
+        # Optimized Kill: Loop the list, not the world
+        loop {camps::%arg-1%::active_units::*}:
+            kill loop-value
+            
+        delete {camps::%arg-1%::*}
+        delete {camps::%arg-1%}
+        remove arg-1 from {camp_list::*}
+        
+        send "&cDeleted Camp #%arg-1%."
+
+command /camp_reset <int>:
+    permission: op
+    trigger:
+        loop {camps::%arg-1%::active_units::*}:
+            kill loop-value
+        
+        delete {camps::%arg-1%::active_units::*}
+        set {camps::%arg-1%::live_pillager} to 0
+        set {camps::%arg-1%::live_spotter} to 0
+        set {camps::%arg-1%::live_vindicator} to 0
+        set {camps::%arg-1%::live_ravager} to 0
+            
+        delete {camps::%arg-1%::is_populated}
+        send "&eCamp #%arg-1% reset. Will respawn on next loop."
+#
+# --- Reinforcement Config ---
+command /set_main_base:
+    permission: op
+    trigger:
+        set {camp_main_base} to location of player
+        send "&a[Camp] Main Base set."
+
+command /set_reinforce_limit <int>:
+    permission: op
+    trigger:
+        set {camp_reinforce_limit} to arg-1
+        send "&a[Camp] Daily reinforcement limit set to %arg-1%."
+#
+command /camp_reset_id:
+    permission: op
+    trigger:
+        set {camp_total_id} to 0
+#
+command /camp_reinfornce_active <boolean>:
+    permission: op
+    trigger:
+        set {reinforce_active} to arg-1
+        debug("reinforce enabled: %arg-1%")
+#
+command /camp_detect <int>:
+    permission: op
+    trigger:
+        detect_troops(player, arg-1)
+
+function detect_troops(p: player, radius: number):
+    send "" to {_p}
+    send "&8&m--------[&6 Troop Detector &7(Rad: %{_radius}%) &8&m]--------" to {_p}
+    set {_count} to 0
+    
+    loop all entities in radius {_radius} of {_p}:
+        # Filter only our specific unit types
+        if loop-entity is pillager or vindicator or ravager:
+            
+            add 1 to {_count}
+            set {_id} to "&c&oUnknown/Vanilla"
+            set {_role} to "&7Grunt"
+            
+            # extract tags
+            set {_tags::*} to scoreboard tags of loop-entity
+            loop {_tags::*}:
+                # Find Camp ID
+                if loop-value-2 starts with "camp_":
+                    set {_data::*} to loop-value-2 split at "_"
+                    set {_id} to "&a#%{_data::2}%"
+                
+                # Find Role (Spotter/Rider)
+                if loop-value-2 is "role_spotter":
+                    set {_role} to "&6Spotter"
+                if loop-value-2 is "role_rider":
+                    set {_role} to "&eRider"
+
+            set {_dist} to distance between {_p} and loop-entity
+            send " &8- &f%loop-entity% &7(%{_role}%&7) &8| &7Camp: %{_id}% &8| &f%{_dist}%m away" to {_p}
+
+    if {_count} is 0:
+        send " &cNo troops found nearby." to {_p}
+    else:
+        send "" to {_p}
+        send " &7Found &f%{_count}% &7troops." to {_p}
+    send "&8&m----------------------------------------" to {_p}
