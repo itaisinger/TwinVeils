@@ -1,0 +1,39 @@
+on target:
+    entity is a pillager
+    tool of entity is a goat horn
+    
+    set {_lastUsed} to metadata value "lastHorn" of entity
+    
+    # Cooldown Check: Stop if NOT enough time has passed
+    if {_lastUsed} is set:
+        if difference between now and {_lastUsed} < 15 seconds:
+            stop
+
+    set metadata value "lastHorn" of entity to now
+    
+   # 1. Play Sound (Corrected Syntax)
+    set {_s} to random element out of "item.goat_horn.sound.0", "item.goat_horn.sound.1", "item.goat_horn.sound.2", "item.goat_horn.sound.3"
+    play sound {_s} with volume 5 and pitch 1 at location of entity
+
+    # 2. Visuals: Look up and swing
+    set {_loc} to location of entity
+    set pitch of {_loc} to -60 
+    teleport entity to {_loc}
+    make entity swing main hand
+
+    # 3. Particle Effect (Corrected for SkBee)
+    # draw 2 of squid_ink at location 0.5 meters above head of entity with offset vector(0.002, 0.1, 0.002)
+    draw 15 of dust using dustOption(black, 1) at location 0.5 meters above head of entity with offset vector(0.5, 0.5, 0.5)
+
+#spawn spooter
+command /spawn_spotter:
+    permission: op
+    trigger:
+        spawn pillager at location of player
+        
+        # Equipment
+        set tool of last spawned entity to goat horn
+        set helmet of last spawned entity to chainmail helmet
+        
+        # Optional: Prevent them from dropping the specialized gear on death
+        # add spyglass to item drops of last spawned entity
