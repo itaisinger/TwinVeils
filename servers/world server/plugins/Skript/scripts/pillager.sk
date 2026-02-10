@@ -40,7 +40,7 @@ command /spawn_spotter:
 
 
 #misc functions
-command /pillager_loot:
+command /give_pillager_loot:
     permission: op
     trigger:
         send "&7Generated random pillager loot..."
@@ -58,3 +58,222 @@ command /pillager_loot:
                 set {_common} to random element out of arrow, dark oak log, string, tripwire hook, iron ingot, wheat, potato, carrot, arrow
                 # Give a random amount (1-8) of the common item
                 give player (random integer between 1 and 8) of {_common}
+
+
+
+
+# 1. Global Config
+options:
+    check_interval: 5 seconds
+
+# Debug Toggle
+command /camp_debug:
+    permission: op
+    trigger:
+        if {camp_debug} is not set:
+            set {camp_debug} to true
+            send "&a[Camp] Debug mode ENABLED."
+        else:
+            delete {camp_debug}
+            send "&c[Camp] Debug mode DISABLED."
+
+# Automatic Loop Toggle
+command /camp_auto:
+    permission: op
+    trigger:
+        if {camp_auto_loop} is not set:
+            set {camp_auto_loop} to true
+            send "&a[Camp] Automatic Loop ENABLED (Running every {@check_interval})."
+        else:
+            delete {camp_auto_loop}
+            send "&c[Camp] Automatic Loop DISABLED."
+
+function debug(msg: text):
+    if {camp_debug} is set:
+        broadcast "&7[Debug] %{_msg}%"
+
+# 2. Camp Management
+command /set_camp [<int>] [<int>] [<int>] [<int>]:
+    permission: op
+    trigger:
+        if arg-4 is not set:
+            send "&c&lIncorrect Usage!"
+            send "&e/set_camp &b<Radius> <Pillagers> <Spotters> <Vindicators>"
+            stop
+
+        add 1 to {camp_total_id}
+        set {_id} to {camp_total_id}
+        
+        # Add to list for looping
+        if {camp_list::*} does not contain {_id}:
+            add {_id} to {camp_list::*}
+        
+        set {camps::%{_id}%::loc} to location of player
+        set {camps::%{_id}%::radius} to arg-1
+        
+        set {camps::%{_id}%::amount_pillager} to arg-2
+        set {camps::%{_id}%::amount_spotter} to arg-3
+        set {camps::%{_id}%::amount_vindicator} to arg-4
+        
+        delete {camps::%{_id}%::is_populated}
+        
+        send "&aCamp #%{_id}% created."
+        send "&7Will spawn: %arg-2% Pillagers, %arg-3% Spotters, %arg-4% Vindicators."
+
+command /remove_camp <int>:
+    permission: op
+    trigger:
+        set {_tag} to "camp_%arg-1%"
+        kill all entities where [input has scoreboard tag {_tag}]
+        
+        delete {camps::%arg-1%::*}
+        delete {camps::%arg-1%}
+        remove arg-1 from {camp_list::*}
+        
+        send "&cDeleted Camp #%arg-1%."
+
+command /reset_camp <int>:
+    permission: op
+    trigger:
+        set {_tag} to "camp_%arg-1%"
+        kill all entities where [input has scoreboard tag {_tag}]
+        delete {camps::%arg-1%::is_populated}
+        send "&eCamp #%arg-1% reset. Will respawn on next loop."
+
+# 3. The "Tick" Loop
+
+# Manual Trigger
+command /pillager_loop:
+    permission: op
+    trigger:
+        pillager_loop()
+
+# Automatic Timer (Now Toggleable)
+every {@check_interval}:
+    if {camp_auto_loop} is true:
+        pillager_loop()
+
+function pillager_loop():
+    if {camp_debug} is true:
+        broadcast "&8[Tick] Running pillager loop..."
+
+    loop {camp_list::*}:
+        set {_id} to loop-value
+        manage_camp("%{_id}%")
+
+# 4. Core Logic
+function manage_camp(id: text):
+    set {_loc} to {camps::%{_id}%::loc}
+    set {_rad} to {camps::%{_id}%::radius}
+    
+    # 1. Stop if chunk is unloaded
+    if chunk at {_loc} is not loaded:
+        if {camp_debug} is true:
+            broadcast "&8Camp %{_id}% chunk unloaded. Skipping."
+        stop
+
+    # 2. Check: Has this camp been populated yet?
+    if {camps::%{_id}%::is_populated} is not set:
+        
+        set {camps::%{_id}%::is_populated} to true
+        debug("Camp %{_id}%: Initializing population...")
+
+        loop {camps::%{_id}%::amount_spotter} times:
+            spawn_spotter({_loc}, {_id})
+        
+        loop {camps::%{_id}%::amount_vindicator} times:
+            spawn_vindicator({_loc}, {_id})
+            
+        loop {camps::%{_id}%::amount_pillager} times:
+            spawn_pillager({_loc}, {_id})
+            
+        stop
+
+    # 3. --- TETHER PHASE ---
+    set {_tag} to "camp_%{_id}%"
+    set {_entities::*} to all entities where [input has scoreboard tag {_tag}]
+    
+    loop {_entities::*}:
+        if distance between loop-value and {_loc} > {_rad}:
+            set path target of loop-value to {_loc}
+
+# 5. Spawning Functions
+function spawn_pillager(loc: location, id: text):
+    spawn pillager at {_loc}
+    set {_e} to last spawned entity
+    add "camp_%{_id}%" to scoreboard tags of {_e}
+    add nbt compound from "{PersistenceRequired:1b}" to nbt of {_e}
+    # Removed manual equip (Uses vanilla crossbow)
+    teleport {_e} to location 1 meter above {_e}
+
+function spawn_spotter(loc: location, id: text):
+    spawn pillager at {_loc}
+    set {_e} to last spawned entity
+    add "camp_%{_id}%" to scoreboard tags of {_e}
+    add "role_spotter" to scoreboard tags of {_e}
+    add nbt compound from "{PersistenceRequired:1b}" to nbt of {_e}
+    
+    # Spotter needs custom gear
+    set name of {_e} to "&6Spotter"
+    set tool of {_e} to goat horn
+    set helmet of {_e} to chainmail helmet
+
+function spawn_vindicator(loc: location, id: text):
+    spawn vindicator at {_loc}
+    set {_e} to last spawned entity
+    add "camp_%{_id}%" to scoreboard tags of {_e}
+    add nbt compound from "{PersistenceRequired:1b}" to nbt of {_e}
+    # Removed manual equip (Uses vanilla axe)
+
+# 6. Status Command
+command /camp_status:
+    permission: op
+    trigger:
+        set {_total_camps} to size of {camp_list::*}
+        
+        send ""
+        send "&8&m----------------[&6 &lCamp Status &8&m]----------------"
+        send "&7Total Camps: &f%{_total_camps}%"
+        if {camp_auto_loop} is true:
+            send "&7Auto Loop: &aENABLED"
+        else:
+            send "&7Auto Loop: &cDISABLED"
+        send ""
+        
+        loop {camp_list::*}:
+            set {_id} to loop-value
+            set {_loc} to {camps::%{_id}%::loc}
+            set {_rad} to {camps::%{_id}%::radius}
+            set {_populated} to {camps::%{_id}%::is_populated}
+            
+            set {_tag} to "camp_%{_id}%"
+            set {_alive_p} to 0
+            set {_alive_s} to 0
+            set {_alive_v} to 0
+            
+            set {_camp_entities::*} to all entities where [input has scoreboard tag {_tag}]
+            
+            loop {_camp_entities::*}:
+                if loop-value-2 is a vindicator:
+                    add 1 to {_alive_v}
+                else if loop-value-2 is a pillager:
+                    if loop-value-2 has scoreboard tag "role_spotter":
+                        add 1 to {_alive_s}
+                    else:
+                        add 1 to {_alive_p}
+
+            set {_max_p} to {camps::%{_id}%::amount_pillager}
+            set {_max_s} to {camps::%{_id}%::amount_spotter}
+            set {_max_v} to {camps::%{_id}%::amount_vindicator}
+            
+            if {_populated} is not set:
+                set {_status} to "&7WAITING"
+            else if ({_alive_p} + {_alive_s} + {_alive_v}) is 0:
+                set {_status} to "&aCLEARED"
+            else:
+                set {_status} to "&cACTIVE"
+
+            send "&6&lID ##%{_id}% &7(%{_loc}%)"
+            send "  &fStatus: %{_status}%"
+            send "  &fP: &b%{_alive_p}%&7/%{_max_p}%  &fS: &b%{_alive_s}%&7/%{_max_s}%  &fV: &b%{_alive_v}%&7/%{_max_v}%"
+            send "&8&m----------------------------------------"

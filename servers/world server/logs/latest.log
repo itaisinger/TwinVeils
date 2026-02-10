@@ -1,224 +1,708 @@
-[05:48:31] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[05:48:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[05:48:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[05:48:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[05:48:32] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[07:00:05] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[07:00:05] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[07:00:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:00:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[07:00:06] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[05:48:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[07:00:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[05:48:36] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
-[05:48:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[05:48:38] [ServerMain/INFO]: Loaded 1470 recipes
-[05:48:38] [ServerMain/INFO]: Loaded 1584 advancements
-[05:48:38] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[05:48:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 329.9ms
-[05:48:39] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
-[05:48:39] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[05:48:39] [Server thread/INFO]: Loading properties
-[05:48:39] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[05:48:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[05:48:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:48:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:48:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[05:48:40] [Server thread/INFO]: Default game type: SURVIVAL
-[05:48:40] [Server thread/INFO]: Generating keypair
-[05:48:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:48:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[05:48:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[05:48:40] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[05:48:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[05:48:40] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[05:48:40] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[05:48:40] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[05:48:40] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[05:48:41] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@25f057c3]
-[05:48:41] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[05:48:41] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[05:48:41] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[05:48:41] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[05:48:42] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[05:48:42] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[05:48:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:48:42] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[05:48:43] [Server thread/INFO]:         __    
-[05:48:43] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[05:48:43] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[05:48:43] [Server thread/INFO]: 
-[05:48:43] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[05:48:43] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[05:48:43] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[05:48:43] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 932ms)
-[05:48:43] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[05:48:43] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[05:48:43] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[05:48:43] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[05:48:43] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[05:48:43] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[05:48:44] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[05:48:44] [Server thread/INFO]: Preparing level "world"
-[05:48:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[05:48:45] [Server thread/INFO]: Preparing spawn area: 100%
-[05:48:45] [Server thread/INFO]: Prepared spawn area in 3 ms
-[05:48:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[05:48:45] [Server thread/INFO]: Prepared spawn area in 2 ms
-[05:48:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[05:48:45] [Server thread/INFO]: Prepared spawn area in 2 ms
-[05:48:45] [Server thread/INFO]: Done preparing level "world" (0.450s)
-[05:48:45] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[05:48:45] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[05:48:46] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[05:48:46] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[05:48:47] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[05:48:47] [Server thread/INFO]: [TAB] Enabled in 775ms
-[05:48:47] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[05:48:47] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[05:48:47] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[05:48:47] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[05:48:47] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[05:48:47] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[05:48:48] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[05:48:48] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1257ms
-[05:48:48] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[05:48:48] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[05:48:48] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[05:48:48] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[05:48:48] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[05:48:48] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[05:48:48] [Server thread/INFO]: [SkBee]  - 56 events
-[05:48:48] [Server thread/INFO]: [SkBee]  - 71 effects
-[05:48:48] [Server thread/INFO]: [SkBee]  - 240 expressions
-[05:48:48] [Server thread/INFO]: [SkBee]  - 27 conditions
-[05:48:48] [Server thread/INFO]: [SkBee]  - 32 sections
-[05:48:48] [Server thread/INFO]: [SkBee]  - 11 properties
-[05:48:48] [Server thread/INFO]: [SkBee] Update checker disabled!
-[05:48:48] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.73 seconds
-[05:48:48] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[05:48:48] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[05:48:48] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[05:48:48] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[05:48:48] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[05:48:48] [Server thread/INFO]: [spark] Starting background profiler...
-[05:48:48] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[05:48:48] [Server thread/INFO]: Running delayed init tasks
-[05:48:48] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[05:48:48] [Server thread/INFO]: [Skript] Loading variables...
-[05:48:48] [Server thread/INFO]: [Skript] Loaded 45 variables in 0.0 seconds
-[05:48:51] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[05:48:51] [Server thread/INFO]: [Skript] Loaded 18 scripts with a total of 94 structures in 3.12 seconds
-[05:48:51] [Server thread/INFO]: [Skript] Finished loading.
-[05:48:51] [Server thread/INFO]: Done (21.701s)! For help, type "help"
-[05:48:52] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 24 build(s) behind ***
-[05:48:52] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[05:49:11] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[05:49:11] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[05:49:14] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[05:49:14] [Server thread/INFO]: trololol72[/127.0.0.1:50659] logged in with entity id 1 at ([world]1038.769976623649, 119.77064444579416, -46.112049918344105)
-[05:49:15] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[05:49:15] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[05:49:48] [Server thread/INFO]: trololol72 issued server command: /time set day
-[05:49:48] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[05:50:33] [Server thread/INFO]: trololol72 issued server command: //brush forest cuboid spruce
-[05:50:36] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
-[05:50:41] [Server thread/INFO]: trololol72 issued server command: //undo
-[05:51:10] [Server thread/INFO]: trololol72 issued server command: /tpb b
-[05:51:21] [Server thread/INFO]: trololol72 issued server command: //wand
-[05:51:30] [Server thread/INFO]: trololol72 issued server command: //pos2
-[05:51:36] [Server thread/INFO]: trololol72 issued server command: //copy
-[05:51:44] [Server thread/INFO]: trololol72 issued server command: /tpb pillager camp
-[05:52:05] [Server thread/INFO]: trololol72 issued server command: /tpb pillager
-[05:52:05] [Server thread/INFO]: Set tpb location for 'pillager' to: x: 958.35, y: 154, z: 16.53, yaw: -57.6, pitch: 26.25 in 'world'
-[05:53:13] [Server thread/INFO]: trololol72 issued server command: //paste -a
-[05:54:14] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 3
-[05:54:58] [Server thread/INFO]: trololol72 issued server command: //paste -a
-[05:55:06] [Server thread/INFO]: trololol72 issued server command: //undo
-[05:55:21] [Server thread/INFO]: trololol72 issued server command: //paste -a -dirt
-[05:56:35] [Server thread/INFO]: trololol72 issued server command: /tpb b
-[05:57:03] [Server thread/INFO]: trololol72 issued server command: /place jigsaw minecraft:pillager_outpost/features
-[05:57:21] [Server thread/INFO]: trololol72 issued server command: /tpb pillager
-[05:57:33] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
-[05:57:36] [Server thread/INFO]: trololol72 issued server command: //paste -m !air,dirt
-[05:57:49] [Server thread/INFO]: trololol72 issued server command: //undo
-[05:58:08] [Server thread/INFO]: trololol72 issued server command: //paste -m !air,dirt,grass_block
-[05:59:37] [Server thread/INFO]: trololol72 issued server command: /time set day
-[05:59:37] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[05:59:52] [Server thread/INFO]: trololol72 issued server command: //paste -m !air,dirt,grass_block
-[06:03:32] [Server thread/INFO]: [Skript] Reloading pillager.sk...
-[06:03:32] [Server thread/INFO]: Successfully reloaded pillager.sk. (256ms)
-[06:03:52] [Server thread/INFO]: [Skript] Reloading pillager.sk...
-[06:03:52] [Server thread/INFO]: Successfully reloaded pillager.sk. (257ms)
-[06:03:59] [Server thread/INFO]: trololol72 issued server command: /pillager_loot
-[06:04:01] [Server thread/INFO]: trololol72 issued server command: /pillager_loot
-[06:04:05] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
-[06:05:12] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[06:05:12] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[06:05:16] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[06:05:17] [Server thread/INFO]: Stopping server
-[06:05:17] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[06:05:17] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[06:05:17] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[06:05:17] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[06:05:17] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[06:05:17] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[06:05:17] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[06:05:17] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[06:05:17] [Server thread/INFO]: [TAB] Disabled in 0ms
-[06:05:17] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[06:05:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[06:05:17] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[06:05:17] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[06:05:17] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[06:05:17] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[06:05:17] [Server thread/INFO]: [LuckPerms] Closing storage...
-[06:05:17] [Server thread/INFO]: [LuckPerms] Goodbye!
-[06:05:17] [Server thread/INFO]: Saving players
-[06:05:17] [Server thread/INFO]: Saving worlds
-[06:05:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:05:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[06:05:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[06:05:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[06:05:18] [Server thread/INFO]: [ChunkHolderManager] Saved 223 block chunks, 1148 entity chunks, 0 poi chunks in world 'world' in 1.41s
-[06:05:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[06:05:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[06:05:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[06:05:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[06:05:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[06:05:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:05:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:05:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:05:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06:05:19] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[06:05:19] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[06:05:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[06:05:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:00:10] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
+[07:00:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:00:12] [ServerMain/INFO]: Loaded 1470 recipes
+[07:00:12] [ServerMain/INFO]: Loaded 1584 advancements
+[07:00:12] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[07:00:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 329.5ms
+[07:00:13] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
+[07:00:13] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[07:00:13] [Server thread/INFO]: Loading properties
+[07:00:13] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[07:00:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:00:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:00:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:00:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[07:00:14] [Server thread/INFO]: Default game type: SURVIVAL
+[07:00:14] [Server thread/INFO]: Generating keypair
+[07:00:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:00:14] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[07:00:14] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[07:00:14] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[07:00:14] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:00:14] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[07:00:14] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[07:00:14] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[07:00:15] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[07:00:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1cd084c]
+[07:00:16] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[07:00:16] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[07:00:16] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[07:00:16] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[07:00:16] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[07:00:16] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[07:00:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:00:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[07:00:17] [Server thread/INFO]:         __    
+[07:00:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[07:00:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:00:17] [Server thread/INFO]: 
+[07:00:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:00:17] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:00:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:00:17] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 937ms)
+[07:00:17] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[07:00:17] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[07:00:17] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[07:00:17] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[07:00:18] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:00:18] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[07:00:18] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[07:00:18] [Server thread/INFO]: Preparing level "world"
+[07:00:19] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[07:00:19] [Server thread/INFO]: Preparing spawn area: 100%
+[07:00:19] [Server thread/INFO]: Prepared spawn area in 2 ms
+[07:00:19] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[07:00:19] [Server thread/INFO]: Prepared spawn area in 2 ms
+[07:00:19] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[07:00:19] [Server thread/INFO]: Prepared spawn area in 1 ms
+[07:00:19] [Server thread/INFO]: Done preparing level "world" (0.490s)
+[07:00:19] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[07:00:19] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[07:00:21] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[07:00:21] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[07:00:21] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[07:00:21] [Server thread/INFO]: [TAB] Enabled in 447ms
+[07:00:21] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[07:00:21] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[07:00:21] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[07:00:22] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[07:00:22] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[07:00:22] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[07:00:22] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[07:00:22] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1115ms
+[07:00:22] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[07:00:22] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[07:00:22] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[07:00:22] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[07:00:22] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[07:00:22] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[07:00:22] [Server thread/INFO]: [SkBee]  - 56 events
+[07:00:22] [Server thread/INFO]: [SkBee]  - 71 effects
+[07:00:22] [Server thread/INFO]: [SkBee]  - 240 expressions
+[07:00:22] [Server thread/INFO]: [SkBee]  - 27 conditions
+[07:00:22] [Server thread/INFO]: [SkBee]  - 32 sections
+[07:00:22] [Server thread/INFO]: [SkBee]  - 11 properties
+[07:00:22] [Server thread/INFO]: [SkBee] Update checker disabled!
+[07:00:22] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.74 seconds
+[07:00:22] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[07:00:22] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[07:00:22] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[07:00:22] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[07:00:22] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[07:00:22] [Server thread/INFO]: [spark] Starting background profiler...
+[07:00:22] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[07:00:22] [Server thread/INFO]: Running delayed init tasks
+[07:00:22] [Server thread/INFO]: [Skript] Loading variables...
+[07:00:22] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[07:00:22] [Server thread/INFO]: [Skript] Loaded 46 variables in 0.0 seconds
+[07:00:25] [Server thread/INFO]: [Skript] Line 43: (pillager.sk)
+[07:00:25] [Server thread/INFO]:     A command with the name /pillager_loot is already defined in misc.sk
+[07:00:25] [Server thread/INFO]:     Line: command /pillager_loot:
+[07:00:25] [Server thread/INFO]:  
+[07:00:26] [Server thread/INFO]: [Skript] Loaded 18 scripts with a total of 107 structures in 3.28 seconds
+[07:00:26] [Server thread/INFO]: [Skript] Finished loading.
+[07:00:26] [Server thread/INFO]: Done (21.382s)! For help, type "help"
+[07:00:26] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 24 build(s) behind ***
+[07:00:26] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[07:02:05] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:02:06] [Server thread/INFO]: Successfully reloaded pillager.sk. (237ms)
+[07:06:23] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:06:24] [Server thread/INFO]: Successfully reloaded pillager.sk. (262ms)
+[07:11:52] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:11:52] [Server thread/INFO]: Successfully reloaded pillager.sk. (241ms)
+[07:11:59] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[07:11:59] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[07:12:01] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[07:12:02] [Server thread/INFO]: trololol72[/127.0.0.1:50381] logged in with entity id 1 at ([world]959.1725929706346, 153.0, 20.10730138130894)
+[07:12:02] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[07:12:02] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[07:12:52] [Server thread/INFO]: trololol72 issued server command: /set_camp
+[07:13:23] [Server thread/INFO]: trololol72 issued server command: /gamerule reduced_debug_info false
+[07:13:23] [Server thread/INFO]: [trololol72: Gamerule reduced_debug_info is now set to: false]
+[07:13:44] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[07:13:47] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[07:13:54] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[07:13:56] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[07:13:59] [Server thread/INFO]: [trololol72: Set own game mode to Adventure Mode]
+[07:14:01] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[07:14:30] [Server thread/INFO]: trololol72 issued server command: /gamerule reduced_debug_info true
+[07:14:30] [Server thread/INFO]: [trololol72: Gamerule reduced_debug_info is now set to: true]
+[07:14:39] [Server thread/INFO]: trololol72 issued server command: /gamerule reduced_debug_info false
+[07:14:39] [Server thread/INFO]: [trololol72: Gamerule reduced_debug_info is now set to: false]
+[07:14:45] [Server thread/INFO]: trololol72 issued server command: /gamerule reduced_debug_info true
+[07:14:45] [Server thread/INFO]: [trololol72: Gamerule reduced_debug_info is now set to: true]
+[07:15:19] [Server thread/INFO]: trololol72 issued server command: /gamerule reduced_debug_info false
+[07:15:19] [Server thread/INFO]: [trololol72: Gamerule reduced_debug_info is now set to: false]
+[07:18:11] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:18:11] [Server thread/INFO]: Successfully reloaded pillager.sk. (512ms)
+[07:18:16] [Server thread/INFO]: trololol72 issued server command: /set_camp f
+[07:18:35] [Server thread/INFO]: trololol72 issued server command: /set_camp 4
+[07:19:20] [Server thread/INFO]: trololol72 issued server command: /set_camp 50 10 2 3
+[07:21:09] [Server thread/INFO]: trololol72 issued server command: /reset_camp 1
+[07:22:41] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:22:41] [Server thread/INFO]: Successfully reloaded pillager.sk. (263ms)
+[07:22:45] [Server thread/INFO]: trololol72 issued server command: /reset_camp 1
+[07:23:21] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:23:21] [Server thread/INFO]: Successfully reloaded pillager.sk. (268ms)
+[07:23:26] [Server thread/INFO]: trololol72 issued server command: /camp_debug
+[07:23:33] [Server thread/INFO]: trololol72 issued server command: /reset_camp 1
+[07:23:58] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:23:59] [Server thread/INFO]: Successfully reloaded pillager.sk. (234ms)
+[07:25:22] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:25:22] [Server thread/INFO]: Line 144: (pillager.sk)
+[07:25:22] [Server thread/INFO]:     indentation error: expected 8 spaces, but found 12 spaces
+[07:25:22] [Server thread/INFO]:     Line: set {_id} to loop-index
+[07:25:22] [Server thread/INFO]:  
+[07:25:22] [Server thread/INFO]: Line 145: (pillager.sk)
+[07:25:22] [Server thread/INFO]:     indentation error: expected 8 spaces, but found 12 spaces
+[07:25:22] [Server thread/INFO]:     Line: manage_camp({_id})
+[07:25:22] [Server thread/INFO]:  
+[07:25:22] [Server thread/INFO]: Line 143: (pillager.sk)
+[07:25:22] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[07:25:22] [Server thread/INFO]:     Line: loop {camps::*}:
+[07:25:22] [Server thread/INFO]:  
+[07:25:22] [Server thread/INFO]:     Encountered 2 errors while reloading pillager.sk! (245ms)
+[07:25:44] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:25:44] [Server thread/INFO]: Successfully reloaded pillager.sk. (172ms)
+[07:25:49] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:26:25] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:26:26] [Server thread/INFO]: Successfully reloaded pillager.sk. (235ms)
+[07:26:31] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:26:31] [Server thread/INFO]: Starting pillager main loop
+[07:28:46] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:28:47] [Server thread/INFO]: Line 236: (pillager.sk)
+[07:28:47] [Server thread/INFO]:     Can't understand this expression: 'size of (all pillagers where [input has scoreboard tag {_tag} and input does not have scoreboard tag "role_spotter"])'
+[07:28:47] [Server thread/INFO]:     Line: set {_alive_p} to size of (all pillagers where [input has scoreboard tag {_tag} and input does not have scoreboard tag "role_spotter"])
+[07:28:47] [Server thread/INFO]:  
+[07:28:47] [Server thread/INFO]: Line 237: (pillager.sk)
+[07:28:47] [Server thread/INFO]:     Can't understand this expression: 'size of (all pillagers where [input has scoreboard tag {_tag} and input has scoreboard tag "role_spotter"])'
+[07:28:47] [Server thread/INFO]:     Line: set {_alive_s} to size of (all pillagers where [input has scoreboard tag {_tag} and input has scoreboard tag "role_spotter"])
+[07:28:47] [Server thread/INFO]:  
+[07:28:47] [Server thread/INFO]:     Encountered 2 errors while reloading pillager.sk! (584ms)
+[07:30:35] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:30:35] [Server thread/INFO]: Successfully reloaded pillager.sk. (243ms)
+[07:30:39] [Server thread/INFO]: trololol72 issued server command: /camp_status
+[07:30:46] [Server thread/INFO]: trololol72 issued server command: /set_camp
+[07:30:57] [Server thread/INFO]: trololol72 issued server command: /set_camp 40 10 2 3
+[07:31:41] [Server thread/INFO]: trololol72 issued server command: /camp_status
+[07:44:35] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:44:36] [Server thread/INFO]: Line 165: (pillager.sk)
+[07:44:36] [Server thread/INFO]:     indentation error: expected 12 spaces, but found 13 spaces
+[07:44:36] [Server thread/INFO]:     Line: broadcast "&8Camp %{_id}% chunk unloaded. Skipping."
+[07:44:36] [Server thread/INFO]:  
+[07:44:36] [Server thread/INFO]: Line 164: (pillager.sk)
+[07:44:36] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[07:44:36] [Server thread/INFO]:     Line: if {camp_debug} is true:
+[07:44:36] [Server thread/INFO]:  
+[07:44:36] [Server thread/INFO]:     Encountered 1 error while reloading pillager.sk! (268ms)
+[07:44:49] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:44:49] [Server thread/INFO]: Successfully reloaded pillager.sk. (233ms)
+[07:44:57] [Server thread/INFO]: trololol72 issued server command: /camp_status
+[07:45:02] [Server thread/INFO]: trololol72 issued server command: /remove_camp 1
+[07:45:05] [Server thread/INFO]: trololol72 issued server command: /remove_camp 1
+[07:45:08] [Server thread/INFO]: trololol72 issued server command: /remove_camp 1
+[07:45:11] [Server thread/INFO]: trololol72 issued server command: /remove_camp 2
+[07:45:15] [Server thread/INFO]: trololol72 issued server command: /camp_status
+[07:45:21] [Server thread/INFO]: trololol72 issued server command: /set_camp 40
+[07:45:25] [Server thread/INFO]: trololol72 issued server command: /set_camp 40 15 2 3
+[07:45:34] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:45:34] [Server thread/INFO]: [Tick] Running pillager loop...
+[07:45:34] [Server thread/INFO]: [Debug] Camp 3: Initializing population...
+[07:46:38] [Server thread/INFO]: trololol72 issued server command: /tick rate 80
+[07:46:38] [Server thread/INFO]: [trololol72: Set the target tick rate to 80.0 per second]
+[07:46:49] [Server thread/INFO]: trololol72 issued server command: /weather clear
+[07:46:49] [Server thread/INFO]: [trololol72: Set the weather to clear]
+[07:46:59] [Server thread/INFO]: trololol72 issued server command: /tick rate 150
+[07:46:59] [Server thread/INFO]: [trololol72: Set the target tick rate to 150.0 per second]
+[07:47:33] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[07:47:39] [Server thread/INFO]: trololol72 issued server command: /time set day
+[07:47:39] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[07:49:42] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:49:42] [Server thread/INFO]: Successfully reloaded pillager.sk. (510ms)
+[07:50:15] [Server thread/INFO]: trololol72 issued server command: /countnear pillager 30
+[07:50:15] [Server thread/INFO]: Found 1 adult pillagers within 30 blocks.
+[07:50:47] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[07:50:47] [Server thread/INFO]: Successfully reloaded pillager.sk. (361ms)
+[07:51:15] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:51:15] [Server thread/INFO]: [Tick] Running pillager loop...
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:15] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:51:26] [Server thread/INFO]: [Tick] Running pillager loop...
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:26] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:51:34] [Server thread/INFO]: [Tick] Running pillager loop...
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:34] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:51:39] [Server thread/INFO]: [Tick] Running pillager loop...
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:39] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:51:42] [Server thread/INFO]: [Tick] Running pillager loop...
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:42] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:51:44] [Server thread/INFO]: [Tick] Running pillager loop...
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:44] [Server thread/INFO]: telling troop to go back to base
+[07:51:47] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:51:47] [Server thread/INFO]: [Tick] Running pillager loop...
+[07:51:47] [Server thread/INFO]: telling troop to go back to base
+[07:51:47] [Server thread/INFO]: telling troop to go back to base
+[07:51:47] [Server thread/INFO]: telling troop to go back to base
+[07:51:47] [Server thread/INFO]: telling troop to go back to base
+[07:51:47] [Server thread/INFO]: telling troop to go back to base
+[07:51:47] [Server thread/INFO]: telling troop to go back to base
+[07:51:47] [Server thread/INFO]: telling troop to go back to base
+[07:51:47] [Server thread/INFO]: telling troop to go back to base
+[07:51:47] [Server thread/INFO]: telling troop to go back to base
+[07:51:47] [Server thread/INFO]: telling troop to go back to base
+[07:51:47] [Server thread/INFO]: telling troop to go back to base
+[07:51:58] [Server thread/INFO]: trololol72 issued server command: /tick rate 20
+[07:51:58] [Server thread/INFO]: [trololol72: Set the target tick rate to 20.0 per second]
+[07:52:16] [Server thread/INFO]: trololol72 issued server command: /reset_camp 1
+[07:52:58] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=minecraft:vindicator]
+[07:52:58] [Server thread/INFO]: [trololol72: Killed 3 entities]
+[07:53:03] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=minecraft:pillager]
+[07:53:03] [Server thread/INFO]: Named entity Pillager['Spotter'/3965, uuid='762cf815-d56b-4de9-bb05-f51be80ec0a4', l='ServerLevel[world]', x=1067.59, y=111.00, z=-28.43, cpos=[66, -2], tl=48886, v=true] died: Spotter was killed
+[07:53:03] [Server thread/INFO]: Named entity Pillager['Spotter'/3966, uuid='251cb3d8-90cd-47f6-8877-711ff49ff454', l='ServerLevel[world]', x=1083.51, y=87.00, z=1.22, cpos=[67, 0], tl=48886, v=true] died: Spotter was killed
+[07:53:03] [Server thread/INFO]: [trololol72: Killed 17 entities]
+[07:53:12] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
+[07:53:12] [Server thread/INFO]: [trololol72: Killed 5 entities]
+[07:53:45] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[07:54:07] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=ravager]
+[07:54:07] [Server thread/INFO]: [trololol72: Killed Ravager]
+[07:54:57] [Server thread/INFO]: trololol72 issued server command: /set_camp 10 5 2 2
+[07:55:00] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:55:00] [Server thread/INFO]: [Tick] Running pillager loop...
+[07:55:00] [Server thread/INFO]: [Debug] Camp 4: Initializing population...
+[07:55:12] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=minecraft:pillager]
+[07:55:12] [Server thread/INFO]: Named entity Pillager['Spotter'/4743, uuid='f0fcde24-14a5-4daa-bda2-8a1d2430da57', l='ServerLevel[world]', x=1057.06, y=112.00, z=-25.29, cpos=[66, -2], tl=235, v=true] died: Spotter was killed
+[07:55:12] [Server thread/INFO]: Named entity Pillager['Spotter'/4742, uuid='662a3b32-6208-4266-a631-68f9b237154e', l='ServerLevel[world]', x=1052.78, y=112.00, z=-28.44, cpos=[65, -2], tl=235, v=true] died: Spotter was killed
+[07:55:12] [Server thread/INFO]: [trololol72: Killed 7 entities]
+[07:55:28] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[07:55:32] [Server thread/INFO]: [Death] trololol72 was slain by Vindicator (Friends)
+[07:55:40] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[07:55:51] [Server thread/INFO]: trololol72 issued server command: /tpb pillager
+[07:56:25] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[07:56:42] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[07:56:44] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[07:56:46] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[07:56:47] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[07:56:48] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[07:56:49] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[07:56:50] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[07:57:01] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=minecraft:vindicator]
+[07:57:01] [Server thread/INFO]: [trololol72: Killed Vindicator]
+[07:57:35] [Server thread/INFO]: trololol72 issued server command: /set_camp 10 0 0 2
+[07:57:42] [Server thread/INFO]: trololol72 issued server command: /reset_camp 1
+[07:57:46] [Server thread/INFO]: trololol72 issued server command: /pillager_loop
+[07:57:46] [Server thread/INFO]: [Tick] Running pillager loop...
+[07:57:46] [Server thread/INFO]: [Debug] Camp 5: Initializing population...
+[07:57:51] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[07:57:54] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[07:58:07] [Server thread/INFO]: trololol72 issued server command: /remove_camp 1
+[07:58:09] [Server thread/INFO]: trololol72 issued server command: /remove_camp 1
+[07:58:10] [Server thread/INFO]: trololol72 issued server command: /remove_camp 1
+[07:58:11] [Server thread/INFO]: trololol72 issued server command: /remove_camp 1
+[07:58:14] [Server thread/INFO]: trololol72 issued server command: /camp_status
+[07:58:22] [Server thread/INFO]: trololol72 issued server command: /remove_camp 3
+[07:58:25] [Server thread/INFO]: trololol72 issued server command: /remove_camp 4
+[07:58:27] [Server thread/INFO]: trololol72 issued server command: /remove_camp 5
+[07:58:30] [Server thread/INFO]: trololol72 issued server command: /camp_status
+[08:00:34] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[08:00:34] [Server thread/INFO]: Line 172: (pillager.sk)
+[08:00:34] [Server thread/INFO]:     indentation error: expected 12 spaces, but found 13 spaces
+[08:00:34] [Server thread/INFO]:     Line: broadcast "&8Camp %{_id}% chunk unloaded. Skipping."
+[08:00:34] [Server thread/INFO]:  
+[08:00:34] [Server thread/INFO]: Line 171: (pillager.sk)
+[08:00:34] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[08:00:34] [Server thread/INFO]:     Line: if {camp_debug} is true:
+[08:00:34] [Server thread/INFO]:  
+[08:00:34] [Server thread/INFO]: Line 280: (pillager.sk)
+[08:00:34] [Server thread/INFO]:     Unexpected entry 'permission: op'. Check that it's spelled correctly, and ensure that you have put all code into a trigger.
+[08:00:34] [Server thread/INFO]:     Line: permission: op
+[08:00:34] [Server thread/INFO]:  
+[08:00:34] [Server thread/INFO]:     Encountered 2 errors while reloading pillager.sk! (257ms)
+[08:00:56] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[08:00:56] [Server thread/INFO]: Line 172: (pillager.sk)
+[08:00:56] [Server thread/INFO]:     indentation error: expected 12 spaces, but found 13 spaces
+[08:00:56] [Server thread/INFO]:     Line: broadcast "&8Camp %{_id}% chunk unloaded. Skipping."
+[08:00:56] [Server thread/INFO]:  
+[08:00:56] [Server thread/INFO]: Line 171: (pillager.sk)
+[08:00:56] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[08:00:56] [Server thread/INFO]:     Line: if {camp_debug} is true:
+[08:00:56] [Server thread/INFO]:  
+[08:00:56] [Server thread/INFO]:     Encountered 1 error while reloading pillager.sk! (328ms)
+[08:01:09] [Server thread/INFO]: [Skript] Reloading pillager.sk...
+[08:01:09] [Server thread/INFO]: Successfully reloaded pillager.sk. (304ms)
+[08:01:14] [Server thread/INFO]: trololol72 issued server command: /camp_status
+[08:01:24] [Server thread/INFO]: trololol72 issued server command: /camp_auto
+[08:01:24] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:01:29] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:01:34] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:01:37] [Server thread/INFO]: trololol72 issued server command: /set_camp
+[08:01:39] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:01:44] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:01:46] [Server thread/INFO]: trololol72 issued server command: /set_camp 10 4 1 1
+[08:01:49] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:01:49] [Server thread/INFO]: [Debug] Camp 6: Initializing population...
+[08:01:54] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:01:59] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:00] [Server thread/INFO]: trololol72 issued server command: /tick rate 20
+[08:02:00] [Server thread/INFO]: [trololol72: Set the target tick rate to 20.0 per second]
+[08:02:03] [Server thread/INFO]: trololol72 issued server command: /tick rate 200
+[08:02:03] [Server thread/INFO]: [trololol72: Set the target tick rate to 200.0 per second]
+[08:02:03] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:04] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:04] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:05] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:05] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:06] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:06] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:07] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:07] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:08] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:08] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:09] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:09] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:10] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:10] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:11] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:11] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:12] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:12] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:13] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:13] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:14] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:14] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:15] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:15] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:16] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:16] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:17] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:17] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:18] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:18] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:19] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:19] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:20] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:20] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:21] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:21] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:22] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:22] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:23] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:23] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:24] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:24] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:25] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:25] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:26] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:26] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:27] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:27] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:28] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:28] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:29] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:29] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:30] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:30] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:31] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:31] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:32] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:32] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:33] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:33] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:34] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:34] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:35] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:35] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:36] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:36] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:37] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:37] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:38] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:38] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:39] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:39] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:40] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:40] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:41] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:41] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:42] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:42] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:43] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:43] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:44] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:44] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:45] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:45] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:46] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:46] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:47] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:47] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:48] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:48] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:49] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:49] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:50] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:50] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:51] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:51] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:52] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:52] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:53] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:53] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:54] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:54] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:55] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:55] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:56] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:56] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:57] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:57] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:58] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:58] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:59] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:02:59] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:00] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:00] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:01] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:01] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:02] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:02] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:03] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:03] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:04] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:05] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:05] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:06] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:06] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:07] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:07] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:08] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:08] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:09] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:09] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:10] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:10] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:11] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:11] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:12] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:12] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:13] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:13] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:14] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:14] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:15] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:15] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:16] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:16] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:17] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:17] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:18] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:18] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:19] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:19] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:20] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:20] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:21] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:21] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:22] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:22] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:23] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:23] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:24] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:24] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:25] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:25] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:26] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:26] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:27] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:27] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:28] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:28] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:29] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:29] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:30] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:30] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:31] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:31] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:32] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:32] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:33] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:33] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:33] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[08:03:33] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[08:03:34] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:34] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:35] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:35] [Server thread/INFO]: Camp 6 chunk unloaded. Skipping.
+[08:03:35] [Server thread/INFO]: [Tick] Running pillager loop...
+[08:03:35] [Server thread/INFO]: Camp 6 chunk unloaded. Skipping.
+[08:03:36] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[08:03:36] [Server thread/INFO]: Stopping server
+[08:03:36] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[08:03:36] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[08:03:36] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[08:03:36] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[08:03:36] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[08:03:36] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[08:03:36] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[08:03:36] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[08:03:36] [Server thread/INFO]: [TAB] Disabled in 0ms
+[08:03:36] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[08:03:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[08:03:36] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[08:03:36] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[08:03:36] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[08:03:36] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[08:03:36] [Server thread/INFO]: [LuckPerms] Closing storage...
+[08:03:36] [Server thread/INFO]: [LuckPerms] Goodbye!
+[08:03:36] [Server thread/INFO]: Saving players
+[08:03:36] [Server thread/INFO]: Saving worlds
+[08:03:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:03:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[08:03:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[08:03:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.62s
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[08:03:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[08:03:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[08:03:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[08:03:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:03:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:03:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:03:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:03:37] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[08:03:37] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[08:03:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[08:03:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
