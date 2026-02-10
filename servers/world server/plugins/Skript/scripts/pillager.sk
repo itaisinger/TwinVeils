@@ -22,8 +22,28 @@ on target:
     make entity swing main hand
 
     # 3. Particle Effect (Corrected for SkBee)
-    # draw 2 of squid_ink at location 0.5 meters above head of entity with offset vector(0.002, 0.1, 0.002)
     draw 15 of dust using dustOption(black, 1) at location 0.5 meters above head of entity with offset vector(0.5, 0.5, 0.5)
+    show mob spawner flames at location of entity
+    
+    # 3. Call the Horde
+    spot_player(location of entity, location of target)
+    
+    # 3. RETREAT LOGIC (Spotter runs back to camp)
+    set {_tags::*} to scoreboard tags of entity
+    loop {_tags::*}:
+        if loop-value starts with "camp_":
+            set {_data::*} to loop-value split at "_"
+            set {_camp_id} to {_data::2}
+            stop loop
+    
+    if {_camp_id} is set:
+        set {_camp_loc} to {camps::%{_camp_id}%::loc}
+        set path target of entity to {_camp_loc}
+        
+        debug("&e[Debug] Spotter from Camp %{_camp_id}% is retreating!")
+
+
+
 
 #spawn spooter
 command /spawn_spotter:
@@ -249,7 +269,8 @@ function manage_camp(id: text):
     
     loop {camps::%{_id}%::active_units::*}:
         set {_unit} to loop-value
-        
+        set {_u} to uuid of {_unit}
+
         if {_unit} is not set:
             remove loop-value from {camps::%{_id}%::active_units::*}
             continue
@@ -258,7 +279,14 @@ function manage_camp(id: text):
             continue
 
         set {_dist} to distance between {_unit} and {_loc}
-        
+
+        #ignore if called
+        if {unit_state::%{_u}%::last_called} is set:
+            if difference between now and {unit_state::%{_u}%::last_called} < 2 minutes:
+                continue # Skip tethering, let them hunt
+            else:
+                delete {unit_state::%{_u}%::last_called}
+
         # 1. STUCK FAILSAFE (The "Rubber Band")
         if {_dist} > 400:
             set {_warp_spot} to {_loc}
@@ -457,7 +485,7 @@ function get_smart_target(current: location, dest: location) :: location:
     # 1. If close enough, just go straight there (Vanilla AI handles < 32 blocks well)
     if {_dist} < 30:
         return {_dest}
-        
+    
     # 2. Vector Math: Calculate a point 20 blocks towards the destination
     set {_vector} to vector from {_current} to {_dest}
     set vector length of {_vector} to 20
@@ -470,3 +498,46 @@ function get_smart_target(current: location, dest: location) :: location:
     set {_target} to highest block at {_target}
     
     return {_target}
+
+#
+function spot_player(origin: location, target_loc: location):
+    # Config
+    set {_hear_distance} to 50
+    set {_aggro_duration} to 2 minutes
+
+    loop {camp_list::*}:
+        set {_camp_id} to loop-value-1
+        
+        loop {camps::%{_camp_id}%::active_units::*}:
+            set {_unit} to loop-value-2
+            set {_u} to uuid of {_unit}
+            
+            # Validation
+            if {_unit} is not set:
+                continue
+            if {_unit} is dead:
+                delete {unit_state::%{_u}%::last_called}
+                remove loop-value-2 from {camps::%{_camp_id}%::active_units::*}
+                continue
+            
+            #spotters ignore the call
+            if {_unit} has scoreboard tag "role_spotter":
+                continue
+
+            # Check Hearing Range
+            if distance between {_unit} and {_origin} < {_hear_distance}:
+                
+                # 1. Mark as "Called" (Disable Tether)
+                set {unit_state::%{_u}%::last_called} to now
+                
+                # 2. Pathfind directly to the target location
+                set path target of {_unit} to {_target_loc}
+                
+                # 3. Visuals
+                show 5 angry villager at location of {_unit}
+
+######
+command /pillager_spot:
+    permission: op
+    trigger:
+        spot_player(location of player,location of player)
