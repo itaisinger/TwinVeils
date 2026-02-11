@@ -45,6 +45,11 @@ command /trialsetup <text>:
             if {trial_debug_active} is true:
                 broadcast "{@debug_prefix} System Reset (State: false)."
 
+        else if arg-1 is "struc":
+            set {trial_quest::struc_loc} to location of target block
+            if {trial_debug_active} is true:
+                broadcast "{@debug_prefix} structure location set to %{trial_quest::struc_loc}%"
+
         # C. Set Slots (1-5)
         else:
             set {_id} to arg-1
