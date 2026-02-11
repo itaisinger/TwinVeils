@@ -27,6 +27,12 @@ command /give_book <text>:
             prophecy_three_heads(player)
         if arg-1 is "dawn snow":
             morning_passage_snow(player)
+        if arg-1 is "dusk":
+            dusk(player)
+        if arg-1 is "maat":
+            eschatology_book(player)
+        if arg-1 is "rumi":
+            ruminations_ii_book(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -57,7 +63,7 @@ function lost_traveler(p: player):
 
 function noctugenesis_1(p: player):
     set {_book} to a written book named "Noctugenesis I"
-    set author of {_book} to "Historian"
+    set author of {_book} to "Velena"
 
     set {_p1} to ""
     add "Once there was only the Night;" to {_p1}
@@ -100,7 +106,7 @@ function noctugenesis_1(p: player):
 
 function noctugenesis_2(p: player):
     set {_book} to a written book named "Noctugenesis II"
-    set author of {_book} to "Historian"
+    set author of {_book} to "Velena"
 
     set {_p0} to ""
     add "And loved life the Sun did;" to {_p0}
@@ -440,6 +446,148 @@ function morning_passage_snow(p: player):
     add "%nl%&4O heat, save us;&r for we weak to nights of terror;" to {_p5}
     add "%nl%&4O heat, love us&r; for Aten is a harsh, and a cruel, and a cold mistress;" to {_p5}
     add "%nl%And the heat gives us power to live on." to {_p5}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p5}
+
+    give {_book} to {_p}
+#
+function dusk(p: player):
+    set {_book} to a written book named "Passage of Night"
+    set author of {_book} to "Velena"
+
+    set {_p1} to ""
+    add "O Night;" to {_p1}
+    add "%nl%%nl%Wings of time, Lord of the Moon;" to {_p1}
+    add "%nl%%nl%&5&lKhonsu." to {_p1}
+
+    set {_p2} to ""
+    add "When the hour is nigh and sun has sunk;" to {_p2}
+    add "%nl%%nl%Engulf thy kin beneath wings of terrible dark;" to {_p2}
+    add "%nl%%nl%Lift us from depths, answer our prayers;" to {_p2}
+
+    set {_p3} to ""
+    add "When you ruled the void and all was complete;" to {_p3}
+    add "%nl%%nl%Why did thou breath life and the ember lit?" to {_p3}
+    add "%nl%%nl%When the godly Sun has turned sour;" to {_p3}
+    add "%nl%%nl%Why did thou strike thy kin with ungodly power?" to {_p3}
+
+    set {_p4} to ""
+    add "O Night, what sins are left to atone?" to {_p4}
+    add "%nl%%nl%For a hundred years have passed since light has shone;" to {_p4}
+
+    set {_p5} to ""
+    add "O Night;" to {_p5}
+    add "%nl%%nl%Spare us of calamities, reveal the face of a friend." to {_p5}
+    add "%nl%%nl%Grant us the power to travel beyond the End." to {_p5}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p5}
+
+    give {_book} to {_p}
+#
+function eschatology_book(p: player):
+    set {_book} to a written book named "Eschatology IV"
+    set author of {_book} to "Sigibert"
+    set {_c} to "<#012a39>"
+
+    set {_p1} to ""
+    add "&oWhat does thou see, when one dares peek beyond velvet curtains?" to {_p1}
+
+    set {_p2} to ""
+    add "Onto the long night;" to {_p2}
+    add "%nl%%nl%Onto fever dreams;" to {_p2}
+    add "%nl%%nl%Onto one’s nightmares;" to {_p2}
+
+    set {_p3} to ""
+    add "O Night, why thou crave to bring nightmares into moonlight?" to {_p3}
+    add "%nl%%nl%The Night is grim and chaseful;" to {_p3}
+    add "%nl%%nl%The Sun is burning and vengeful;" to {_p3}
+    add "%nl%%nl%Why thou seek more?" to {_p3}
+
+    set {_p4} to ""
+    add "%nl%%nl%%nl%%nl%%nl%%nl%%{_c}%&lAnother God." to {_p4}
+
+    set {_p5} to ""
+    add "A new revelation," to {_p5}
+    add "%nl%Another cosmos;" to {_p5}
+    add "%nl%Friend or foe?" to {_p5}
+    add "%nl%%nl%Laid from thy black egg of darkness;" to {_p5}
+    add "%nl%Will it bring calamity or harness?" to {_p5}
+
+    set {_p6} to ""
+    add "Will thy offspring bring order long lost?" to {_p6}
+    add "%nl%%nl%Or will it crush us with heaven's force?" to {_p6}
+
+    set {_p7} to ""
+    add "When the heart of the Sun sits on the lava bed;" to {_p7}
+    add "%nl%%nl%When the egg of the Night is shone nether red;" to {_p7}
+    add "%nl%%nl%When both Moon and Sun have bled;" to {_p7}
+    add "%nl%%nl%When the forces of nature are dead;" to {_p7}
+
+    set {_p8} to ""
+    add "%{_c}%&lO death;&r" to {_p8}
+    add "%nl%Bring order to the decaying kingdom of Aten;" to {_p8}
+    add "%nl%%nl%%{_c}%&lO death;&r" to {_p8}
+    add "%nl%Reveal truth of lies deep rooted;" to {_p8}
+    add "%nl%%nl%%{_c}%&lO death;&r" to {_p8}
+    add "%nl%Spare us of calamities unbeknown;" to {_p8}
+
+    set {_p9} to ""
+    add "For our life was riddled with your name from before we had our own;" to {_p9}
+    add "%nl%%nl%Ringing; Thumping; Shouting;" to {_p9}
+    add "%nl%%nl%%{_c}%&lMa’at." to {_p9}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p5}
+    set page 6 of {_book} to {_p6}
+    set page 7 of {_book} to {_p7}
+    set page 8 of {_book} to {_p8}
+    set page 9 of {_book} to {_p9}
+
+    give {_book} to {_p}
+#
+function ruminations_ii_book(p: player):
+    set {_book} to a written book named "Ruminations II"
+    set author of {_book} to "Sigibert"
+
+    # Page 1: The Intro
+    set {_p1} to ""
+    add "O Night," to {_p1}
+    add "%nl%%nl%Why thou left thy kin to rubble, while thou roams the endless night?" to {_p1}
+
+    # Page 2: The Long Sentence (Split for space)
+    set {_p2} to ""
+    add "Why thou deserted thy servants to a tomb of stone and gravel,%nl%%nl%while thy estranged stays by the side of his kin in the desert sun?" to {_p2}
+
+    # Page 3: The Severing
+    set {_p3} to ""
+    add "O Night," to {_p3}
+    add "%nl%%nl%Why did thou sever the world to pieces?" to {_p3}
+    add "%nl%%nl%For the sinner - the sun - is left to roam the different seas,%nl%%nl%but thy servants are left to a life of separated solitude?" to {_p3}
+
+    # Page 4: The Egg
+    set {_p4} to ""
+    add "O Night," to {_p4}
+    add "%nl%%nl%What will be of thy kin when thy time has come?" to {_p4}
+    add "%nl%%nl%&oWhen thy egg of darkness is shone nether red;&r" to {_p4}
+    add "%nl%%nl%What will hatch out of the shed?" to {_p4}
+
+    # Page 5: The Judgment
+    set {_p5} to ""
+    add "Will another set of wings spread and leave us once more?" to {_p5}
+    add "%nl%%nl%Or will the lord of truth keep us company?" to {_p5}
+    add "%nl%%nl%will it judge us to an eternity of slumber," to {_p5}
+    add "%nl%%nl%As thou has once did?" to {_p5}
 
     set page 1 of {_book} to {_p1}
     set page 2 of {_book} to {_p2}
