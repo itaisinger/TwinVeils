@@ -1,0 +1,146 @@
+options:
+    # --- CONFIGURATION ---
+    # The name must match the formatting in the give command:
+    # Gold (&6) + Bold (&l) + Underline (&n)
+    head_name: "&6&l&nOphanim Orb (red)"
+    
+    prefix: &6&lTrial Quest &8»
+    debug_prefix: &d&l[Trial-Debug] &f
+
+# --- 1. Variables & Initialization ---
+on load:
+    if {trial_debug_active} is not set:
+        set {trial_debug_active} to false
+    
+    if {trial_quest::completed} is not set:
+        set {trial_quest::completed} to false
+
+command /trial_debug <text>:
+    permission: op
+    trigger:
+        if arg-1 is "true":
+            set {trial_debug_active} to true
+            send "{@debug_prefix} Debug mode &aENABLED&f."
+        else if arg-1 is "false":
+            set {trial_debug_active} to false
+            send "{@debug_prefix} Debug mode &cDISABLED&f."
+        else:
+            send "{@prefix} &eUsage: /trial_debug <true/false>"
+
+# --- 2. Setup & Status Commands ---
+command /trialsetup <text>:
+    permission: op
+    trigger:
+        # A. Set Reward Chest
+        if arg-1 is "chest":
+            set {trial_quest::chest_loc} to location of target block
+            send "{@prefix} &fReward Chest location set."
+            if {trial_debug_active} is true:
+                broadcast "{@debug_prefix} Chest set to %location of target block%."
+        
+        # B. Reset Quest
+        else if arg-1 is "reset":
+            set {trial_quest::completed} to false
+            send "{@prefix} &cQuest reset. Players can trigger it again."
+            if {trial_debug_active} is true:
+                broadcast "{@debug_prefix} System Reset (State: false)."
+
+        # C. Set Slots (1-5)
+        else:
+            set {_id} to arg-1
+            set {trial_quest::slots::%{_id}%} to location of target block
+            send "{@prefix} &fHead Slot &e%{_id}% &fset."
+            if {trial_debug_active} is true:
+                broadcast "{@debug_prefix} Slot %{_id}% set to %location of target block%."
+
+command /trial_status:
+    permission: op
+    trigger:
+        send "{@prefix} &8&m------------------------"
+        send " &e&lSTATUS REPORT"
+        
+        # 1. Global Completion
+        if {trial_quest::completed} is true:
+            send " &7Quest State: &a&lCOMPLETED"
+        else:
+            send " &7Quest State: &fACTIVE (In Progress)"
+            
+        # 2. Reward Chest
+        if {trial_quest::chest_loc} is set:
+            send " &7Reward Chest: &f%{trial_quest::chest_loc}%"
+        else:
+            send " &7Reward Chest: &c&lNOT SET"
+            
+        send ""
+        send " &7Heads Check:"
+        
+        # 3. Loop 1 to 5 to show every slot
+        loop 5 times:
+            set {_i} to loop-value
+            set {_loc} to {trial_quest::slots::%{_i}%}
+            
+            if {_loc} is not set:
+                send "  &8[&c%{_i}%&8] &cLocation Not Set"
+            else:
+                # Check if physically filled with a head
+                if block at {_loc} is player head:
+                    set {_state} to "&a&lFILLED"
+                else:
+                    set {_state} to "&7EMPTY"
+                    
+                send "  &8[&e%{_i}%&8] %{_state}% &8(&7%{_loc}%&8)"
+                
+        send "{@prefix} &8&m------------------------"
+
+# --- 3. Main Gameplay Logic ---
+on place of player head:
+    if {trial_quest::completed} is true:
+        stop
+
+    loop {trial_quest::slots::*}:
+        if location of event-block is loop-value:
+            
+            if name of player's tool is {@head_name}:
+                send "{@prefix} &aOphanim Orb placed! &7(%loop-index%/5)" to player
+                
+                if {trial_debug_active} is true:
+                    broadcast "{@debug_prefix} Valid Head placed at slot %loop-index%."
+                
+                wait 2 ticks
+                check_trial_victory()
+            
+            else:
+                if {trial_debug_active} is true:
+                    broadcast "{@debug_prefix} Invalid Item Name: '%name of player's tool%'"
+                send "{@prefix} &cThis is not the correct Orb." to player
+
+function check_trial_victory():
+    set {_filled} to 0
+    
+    loop {trial_quest::slots::*}:
+        if block at loop-value is player head:
+            add 1 to {_filled}
+
+    if {trial_debug_active} is true:
+        broadcast "{@debug_prefix} Progress: %{_filled}% / 5"
+
+    if {_filled} >= 5:
+        set {trial_quest::completed} to true
+        broadcast "{@prefix} &eThe Ominous Ritual is complete!"
+        
+        set {_chest} to {trial_quest::chest_loc}
+        if {_chest} is set:
+            set block at {_chest} to chest
+            add 1 blaze powder to inventory of block at {_chest}
+            
+            play sound "ui.toast.challenge_complete" with volume 10 at {_chest}
+            strike lightning at {_chest}
+        else:
+            broadcast "{@prefix} &cError: Chest location not set!"
+
+# --- 4. Get the Custom Head ---
+command /give_trial_head:
+    permission: op
+    trigger:
+        # Exact command provided, with quotes escaped for Skript (" -> "")
+        execute console command "/give %player% minecraft:player_head[minecraft:custom_name={text:""Ophanim Orb (red)"",color:""gold"",underlined:true,bold:true,italic:false},minecraft:lore=[{text:""Custom Head ID: 122164"",color:""gray"",italic:false},{text:""www.minecraft-heads.com"",color:""blue"",italic:false}],profile={properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0=""}]}] 1"
