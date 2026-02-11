@@ -114,7 +114,7 @@ function spawn_head(loc:location, i:integer):
 
 
 #
-function complete_quest():
+function complete_trial_quest():
     if {puzzle::done} is true:
         stop
     if {ocean_debug} is true:

@@ -15,6 +15,11 @@ on load:
     if {trial_quest::completed} is not set:
         set {trial_quest::completed} to false
 
+function trial_debug(msg: text):
+    if {trial_debug_active} is false:
+        stop
+    broadcast "{@prefix} %{_msg}%"
+
 command /trial_debug <text>:
     permission: op
     trigger:
@@ -35,28 +40,24 @@ command /trialsetup <text>:
         if arg-1 is "chest":
             set {trial_quest::chest_loc} to location of target block
             send "{@prefix} &fReward Chest location set."
-            if {trial_debug_active} is true:
-                broadcast "{@debug_prefix} Chest set to %location of target block%."
+            trial_debug("{@debug_prefix} Chest set to %location of target block%.")
         
         # B. Reset Quest
         else if arg-1 is "reset":
             set {trial_quest::completed} to false
             send "{@prefix} &cQuest reset. Players can trigger it again."
-            if {trial_debug_active} is true:
-                broadcast "{@debug_prefix} System Reset (State: false)."
+            trial_debug("{@debug_prefix} System Reset (State: false).")
 
         else if arg-1 is "struc":
             set {trial_quest::struc_loc} to location of target block
-            if {trial_debug_active} is true:
-                broadcast "{@debug_prefix} structure location set to %{trial_quest::struc_loc}%"
+            trial_debug("{@debug_prefix} structure location set to %{trial_quest::struc_loc}%")
 
         # C. Set Slots (1-5)
         else:
             set {_id} to arg-1
             set {trial_quest::slots::%{_id}%} to location of target block
             send "{@prefix} &fHead Slot &e%{_id}% &fset."
-            if {trial_debug_active} is true:
-                broadcast "{@debug_prefix} Slot %{_id}% set to %location of target block%."
+            trial_debug("{@debug_prefix} Slot %{_id}% set to %location of target block%.")
 
 command /trial_status:
     permission: op
@@ -106,18 +107,14 @@ on place of player head:
         if location of event-block is loop-value:
             
             if name of player's tool is {@head_name}:
-                send "{@prefix} &aOphanim Orb placed! &7(%loop-index%/5)" to player
                 
-                if {trial_debug_active} is true:
-                    broadcast "{@debug_prefix} Valid Head placed at slot %loop-index%."
+                trial_debug("{@debug_prefix} Valid Head placed at slot %loop-index%.")
                 
                 wait 2 ticks
                 check_trial_victory()
             
             else:
-                if {trial_debug_active} is true:
-                    broadcast "{@debug_prefix} Invalid Item Name: '%name of player's tool%'"
-                send "{@prefix} &cThis is not the correct Orb." to player
+                trial_debug("{@debug_prefix} Invalid Item Name: '%name of player's tool%'")
 
 function check_trial_victory():
     set {_filled} to 0
@@ -126,22 +123,30 @@ function check_trial_victory():
         if block at loop-value is player head:
             add 1 to {_filled}
 
-    if {trial_debug_active} is true:
-        broadcast "{@debug_prefix} Progress: %{_filled}% / 5"
+    trial_debug("Progress: %{_filled}% / 5")
 
     if {_filled} >= 5:
-        set {trial_quest::completed} to true
-        broadcast "{@prefix} &eThe Ominous Ritual is complete!"
-        
-        set {_chest} to {trial_quest::chest_loc}
-        if {_chest} is set:
-            set block at {_chest} to chest
-            add 1 blaze powder to inventory of block at {_chest}
-            
-            play sound "ui.toast.challenge_complete" with volume 10 at {_chest}
-            strike lightning at {_chest}
-        else:
-            broadcast "{@prefix} &cError: Chest location not set!"
+        finish_quest()
+
+#
+
+function finish_quest():
+    trial_debug("finishing quest")
+    set {trial_quest::completed} to true
+    play sound "ui.toast.challenge_complete" with volume 10 at {_chest}
+    set {_x} to x-coord of {trial_quest::struc_loc}
+    set {_y} to y-coord of {trial_quest::struc_loc}
+    set {_z} to z-coord of {trial_quest::struc_loc}
+    execute console command "/place template minecraft:trial_chest %{_x}% %{_y}% %{_z}%"
+
+command /trial_reset:
+    permission: op
+    trigger:
+        set {trial_quest::completed} to false
+        set {_x} to x-coord of {trial_quest::struc_loc}
+        set {_y} to y-coord of {trial_quest::struc_loc}
+        set {_z} to z-coord of {trial_quest::struc_loc}
+        execute console command "/place template minecraft:trial_empty %{_x}% %{_y}% %{_z}%"
 
 # --- 4. Get the Custom Head ---
 command /give_trial_head:
