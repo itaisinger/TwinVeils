@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": "Whispers In The Hollow",
+  "length_in_seconds": 220.0,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.whispers_in_the_hollow"
+  }
+}

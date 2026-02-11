@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:random_boolean_selector",
+  "config": {
+    "feature_false": {
+      "feature": "minecraft:amethyst_pool_with_dripleaves",
+      "placement": []
+    },
+    "feature_true": {
+      "feature": "minecraft:amethyst_with_dripleaves",
+      "placement": []
+    }
+  }
+}

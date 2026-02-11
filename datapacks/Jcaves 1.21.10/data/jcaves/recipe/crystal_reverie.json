@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "111",
+    "101",
+    "111"
+  ],
+  "key": {
+    "0": [
+      "minecraft:music_disc_13"
+    ],
+    "1": [
+      "minecraft:amethyst_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:music_disc_13",
+    "components": {
+      "minecraft:jukebox_playable": "jcaves:crystal_reverie",
+      "minecraft:item_model": "amethyst_disc",
+      "minecraft:item_name": "Crystal Reverie",
+      "minecraft:rarity": "rare"
+    },
+    "count": 1
+  }
+}

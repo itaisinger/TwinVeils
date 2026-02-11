@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "111",
+    "101",
+    "111"
+  ],
+  "key": {
+    "0": [
+      "minecraft:music_disc_13"
+    ],
+    "1": [
+      "minecraft:blue_ice"
+    ]
+  },
+  "result": {
+    "id": "minecraft:music_disc_13",
+    "components": {
+      "minecraft:jukebox_playable": "jcaves:cold_winter_shape",
+      "minecraft:item_model": "cold_disc",
+      "minecraft:item_name": "Cold Winter Shape",
+      "minecraft:rarity": "rare"
+    },
+    "count": 1
+  }
+}

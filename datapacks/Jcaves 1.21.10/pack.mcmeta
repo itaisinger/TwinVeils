@@ -1,0 +1,9 @@
+   {
+       "pack": {
+           "pack_format": 71,
+           "description": "§4§lJean §fCaves",
+           "supported_formats": [71,81],
+           "min_format": 71,
+           "max_format": 99
+       }
+   }

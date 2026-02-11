@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "111",
+    "101",
+    "111"
+  ],
+  "key": {
+    "0": [
+      "minecraft:music_disc_13"
+    ],
+    "1": [
+      "minecraft:rooted_dirt"
+    ]
+  },
+  "result": {
+    "id": "minecraft:music_disc_13",
+    "components": {
+      "minecraft:jukebox_playable": "jcaves:whispers_in_the_hollow",
+      "minecraft:item_model": "dry_disc",
+      "minecraft:item_name": "Whispers In The Hollow",
+      "minecraft:rarity": "rare"
+    },
+    "count": 1
+  }
+}

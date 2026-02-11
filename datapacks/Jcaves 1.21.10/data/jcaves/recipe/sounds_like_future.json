@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "111",
+    "101",
+    "111"
+  ],
+  "key": {
+    "0": [
+      "minecraft:music_disc_13"
+    ],
+    "1": [
+      "minecraft:redstone_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:music_disc_13",
+    "components": {
+      "minecraft:jukebox_playable": "jcaves:sounds_like_future",
+      "minecraft:item_model": "red_disc",
+      "minecraft:item_name": "Sounds Like Future",
+      "minecraft:rarity": "rare"
+    },
+    "count": 1
+  }
+}

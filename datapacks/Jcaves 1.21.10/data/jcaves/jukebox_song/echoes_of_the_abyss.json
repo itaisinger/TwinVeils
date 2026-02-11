@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": "Echoes Of The Abyss",
+  "length_in_seconds": 144.0,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.echoes_of_the_abyss"
+  }
+}

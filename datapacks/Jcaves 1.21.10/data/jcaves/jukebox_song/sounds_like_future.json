@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": "Sounds Like Future",
+  "length_in_seconds": 195.0,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.sounds_like_future"
+  }
+}

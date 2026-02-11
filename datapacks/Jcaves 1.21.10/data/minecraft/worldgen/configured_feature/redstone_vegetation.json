@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:redstone_torch",
+            "Properties": {
+              "lit": "true"
+            }
+          },
+          "weight": 3
+        },  
+        {
+          "data": {
+            "Name": "minecraft:redstone_block",
+            "Properties": {
+              "lit": "true"
+            }
+          },
+          "weight": 4
+        },  
+        {
+          "data": {
+            "Name": "minecraft:cobblestone"
+          },
+          "weight": 4
+        },  
+        {
+          "data": {
+            "Name": "minecraft:mossy_cobblestone"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "Name": "minecraft:dead_fire_coral_fan",
+            "Properties": {
+              "waterlogged": "false"
+            }
+          },
+          "weight": 15
+        },       
+        {
+          "data": {
+            "Name": "minecraft:activator_rail",
+            "Properties": {
+              "powered": "true",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 4
+        },       
+        {
+          "data": {
+            "Name": "minecraft:rail",
+            "Properties": {
+              "shape": "east_west",
+              "waterlogged": "false"
+            }
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:redstone_wire",
+            "Properties": {
+              "power": "15"
+            }
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "minecraft:redstone_ore",
+            "Properties": {
+              "lit": "true"
+            }
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:air"
+          },
+          "weight": 20
+        }
+      ]
+    }
+  }
+}

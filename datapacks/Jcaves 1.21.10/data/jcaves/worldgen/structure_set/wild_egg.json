@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "jcaves:wild_egg",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 9,
+    "separation": 3,
+    "salt": 666420
+  }
+}

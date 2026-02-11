@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "jcaves:dry_cave_ruins",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 19,
+    "separation": 6,
+    "salt": 1173492
+  }
+}
