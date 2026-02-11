@@ -70,13 +70,14 @@ command /trial_status:
             send " &7Quest State: &a&lCOMPLETED"
         else:
             send " &7Quest State: &fACTIVE (In Progress)"
-            
+        
         # 2. Reward Chest
         if {trial_quest::chest_loc} is set:
             send " &7Reward Chest: &f%{trial_quest::chest_loc}%"
         else:
             send " &7Reward Chest: &c&lNOT SET"
-            
+        
+        send "struct location: %{trial_quest::struc_loc}%"
         send ""
         send " &7Heads Check:"
         
