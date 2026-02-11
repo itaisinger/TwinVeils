@@ -1,312 +1,354 @@
-[14:39:03] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[14:39:03] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[14:39:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:39:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[14:39:05] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[15:59:35] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[15:59:35] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[15:59:35] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:59:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[15:59:36] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[14:39:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[15:59:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[14:39:10] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
-[14:39:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[14:39:12] [ServerMain/INFO]: Loaded 1470 recipes
-[14:39:12] [ServerMain/INFO]: Loaded 1584 advancements
-[14:39:12] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[14:39:12] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 358.1ms
-[14:39:12] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
-[14:39:12] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[14:39:12] [Server thread/INFO]: Loading properties
-[14:39:13] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[14:39:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:39:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:39:13] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:39:13] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[14:39:13] [Server thread/INFO]: Default game type: SURVIVAL
-[14:39:13] [Server thread/INFO]: Generating keypair
-[14:39:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:39:14] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[14:39:14] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[14:39:14] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[14:39:14] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:39:14] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[14:39:14] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[14:39:14] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[14:39:14] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[14:39:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@99eb5e6]
-[14:39:16] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[14:39:16] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[14:39:16] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[14:39:16] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[14:39:16] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[14:39:16] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[14:39:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:39:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[14:39:17] [Server thread/INFO]:         __    
-[14:39:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[14:39:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[14:39:17] [Server thread/INFO]: 
-[14:39:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[14:39:17] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:39:17] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:39:18] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1022ms)
-[14:39:18] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[14:39:18] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[14:39:18] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[14:39:18] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[14:39:18] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[14:39:18] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[14:39:18] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[14:39:19] [Server thread/INFO]: Preparing level "world"
-[14:39:19] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[14:39:19] [Server thread/INFO]: Preparing spawn area: 100%
-[14:39:19] [Server thread/INFO]: Prepared spawn area in 3 ms
-[14:39:19] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[14:39:19] [Server thread/INFO]: Prepared spawn area in 2 ms
-[14:39:19] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[14:39:19] [Server thread/INFO]: Prepared spawn area in 2 ms
-[14:39:19] [Server thread/INFO]: Done preparing level "world" (0.461s)
-[14:39:19] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[14:39:20] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[14:39:21] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[14:39:21] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[14:39:22] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[14:39:22] [Server thread/INFO]: [TAB] Enabled in 565ms
-[14:39:22] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[14:39:22] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[14:39:22] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[14:39:22] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[14:39:22] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[14:39:22] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[14:39:22] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[14:39:22] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[14:39:22] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[14:39:23] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[14:39:23] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[14:39:23] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[14:39:23] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1577ms
-[14:39:23] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[14:39:23] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[14:39:23] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[14:39:23] [Server thread/INFO]: [SkBee]  - 56 events
-[14:39:23] [Server thread/INFO]: [SkBee]  - 71 effects
-[14:39:23] [Server thread/INFO]: [SkBee]  - 240 expressions
-[14:39:23] [Server thread/INFO]: [SkBee]  - 27 conditions
-[14:39:23] [Server thread/INFO]: [SkBee]  - 32 sections
-[14:39:23] [Server thread/INFO]: [SkBee]  - 11 properties
-[14:39:23] [Server thread/INFO]: [SkBee] Update checker disabled!
-[14:39:23] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.82 seconds
-[14:39:23] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[14:39:23] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[14:39:23] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[14:39:23] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[14:39:23] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[14:39:23] [Server thread/INFO]: [spark] Starting background profiler...
-[14:39:23] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[14:39:23] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[14:39:23] [Server thread/INFO]: Running delayed init tasks
-[14:39:23] [Server thread/INFO]: [Skript] Loading variables...
-[14:39:23] [Server thread/INFO]: [Skript] Loaded 197 variables in 0.0 seconds
-[14:39:27] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[14:39:27] [Server thread/INFO]: [Skript] Loaded 18 scripts with a total of 121 structures in 3.79 seconds
-[14:39:27] [Server thread/INFO]: [Skript] Finished loading.
-[14:39:27] [Server thread/INFO]: Done (24.699s)! For help, type "help"
-[14:39:27] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 25 build(s) behind ***
-[14:39:27] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[14:39:57] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[14:39:57] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[14:40:00] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[14:40:00] [Server thread/INFO]: trololol72[/127.0.0.1:52613] logged in with entity id 1 at ([world]-979.4652617187752, 62.875, 778.3000000119209)
-[14:40:01] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[14:40:01] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[14:40:30] [Server thread/INFO]: trololol72 issued server command: //brush sphere 76%stone,20%polished_andesite,1%deepslate,3%andesite 3
-[14:40:43] [Server thread/INFO]: trololol72 issued server command: //brush sphere 26%stone,20%polished_andesite,50%deepslate,3%andesite 3
-[14:40:53] [Server thread/INFO]: trololol72 issued server command: /mask !oak_wood,oak_fence,air,oak_planks,rail,torch
-[14:40:56] [Server thread/INFO]: trololol72 issued server command: /mask !oak_wood,oak_fence,air,oak_planks,rail,torch
-[14:41:11] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
-[14:41:49] [Server thread/INFO]: trololol72 issued server command: //paste
-[14:44:37] [Server thread/INFO]: trololol72 issued server command: /effect clear
-[14:44:37] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
-[14:49:49] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[14:50:22] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[14:52:11] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=minecraft:iron_golem]
-[14:52:11] [Server thread/INFO]: [trololol72: Killed 3 entities]
-[15:01:30] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:01:33] [Server thread/INFO]: trololol72 issued server command: /paste
-[15:01:38] [Server thread/INFO]: trololol72 issued server command: /undopaste
-[15:01:40] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:03:07] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:03:22] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:03:49] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:03:55] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:04:02] [Server thread/INFO]: trololol72 issued server command: //wand
-[15:04:23] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:04:27] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:09:47] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:09:52] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:10:39] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:10:48] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:11:11] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:11:14] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:11:24] [Server thread/INFO]: trololol72 issued server command: //undo
-[15:11:41] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:11:44] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:11:56] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:12:02] [Server thread/INFO]: trololol72 issued server command: //undo 3
-[15:12:27] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:12:30] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:13:09] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:13:13] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:13:48] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:13:55] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:15:51] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:16:16] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:16:23] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:16:56] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:17:43] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 3
-[15:19:27] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:19:33] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:19:46] [Server thread/INFO]: trololol72 issued server command: //wand
-[15:20:08] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:20:14] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:20:17] [Server thread/INFO]: trololol72 issued server command: //undo
-[15:20:29] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:20:32] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:25:12] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:25:16] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:27:17] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:27:25] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:28:00] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:28:12] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:28:55] [Server thread/INFO]: trololol72 issued server command: //brush sphere 80%deepslate,20%moss_block 3
-[15:29:00] [Server thread/INFO]: trololol72 issued server command: /mask deepslate
-[15:30:23] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:30:45] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision infinite 1 true
-[15:30:45] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
-[15:30:55] [Server thread/INFO]: trololol72 issued server command: //pos1
-[15:31:01] [Server thread/INFO]: trololol72 issued server command: //pos2
-[15:31:18] [Server thread/INFO]: trololol72 issued server command: /gmask air
-[15:31:26] [Server thread/INFO]: trololol72 issued server command: //set water
-[15:32:05] [Server thread/INFO]: trololol72 issued server command: /fill -1004 52 738 -1019 52 717 water replace water
-[15:32:17] [Server thread/INFO]: trololol72 issued server command: /fill -1004 53 738 -1019 50 717 water replace water
-[15:33:34] [Server thread/INFO]: trololol72 issued server command: /fill -996 24 717 -1003 23 730 air replace water
-[15:33:34] [Server thread/INFO]: [trololol72: Successfully filled 16 block(s)]
-[15:33:41] [Server thread/INFO]: trololol72 issued server command: /fill -996 24 717 -1003 23 730 water replace air
-[15:33:41] [Server thread/INFO]: [trololol72: Successfully filled 95 block(s)]
-[15:33:57] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:34:54] [Server thread/INFO]: trololol72 issued server command: /effect clear
-[15:34:54] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
-[15:35:13] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision infinite 1 true
-[15:35:13] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
-[15:35:28] [Server thread/INFO]: trololol72 issued server command: /effect clear
-[15:35:28] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
-[15:36:12] [Server thread/INFO]: trololol72 issued server command: /gamerule random_tick_speed 200
-[15:36:12] [Server thread/INFO]: [trololol72: Gamerule random_tick_speed is now set to: 200]
-[15:36:23] [Server thread/INFO]: trololol72 issued server command: /gamerule random_tick_speed 2000
-[15:36:23] [Server thread/INFO]: [trololol72: Gamerule random_tick_speed is now set to: 2000]
-[15:36:34] [Server thread/INFO]: trololol72 issued server command: /gamerule random_tick_speed 20
-[15:36:34] [Server thread/INFO]: [trololol72: Gamerule random_tick_speed is now set to: 20]
-[15:39:04] [Server thread/INFO]: trololol72 issued server command: //brush sphere farmland 2
-[15:39:26] [Server thread/INFO]: trololol72 issued server command: /mask !oak_wood,oak_fence,air,oak_planks,rail,torch
-[15:39:35] [Server thread/INFO]: trololol72 issued server command: /gmask
-[15:40:08] [Server thread/INFO]: trololol72 issued server command: /gamerule random_tick_speed 20
-[15:40:08] [Server thread/INFO]: [trololol72: Gamerule random_tick_speed is now set to: 20]
-[15:41:14] [Server thread/INFO]: trololol72 issued server command: //brush repl
-[15:41:20] [Server thread/INFO]: trololol72 issued server command: //brush repl farmland
-[15:42:09] [Server thread/INFO]: trololol72 issued server command: //brush sphere farmland 5
-[15:42:13] [Server thread/INFO]: trololol72 issued server command: /mask dirt
-[15:42:54] [Server thread/INFO]: trololol72 issued server command: /gamerule random_tick_speed 3
-[15:42:54] [Server thread/INFO]: [trololol72: Gamerule random_tick_speed is now set to: 3]
-[15:46:33] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:46:39] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:50:05] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:50:18] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:50:26] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:50:54] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:52:05] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:52:24] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:53:23] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:53:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:53:44] [Server thread/INFO]: trololol72 issued server command: //undo
-[15:53:47] [Server thread/INFO]: trololol72 issued server command: //undo
-[15:53:55] [Server thread/INFO]: trololol72 issued server command: //wand
-[15:54:10] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:54:14] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:54:22] [Server thread/INFO]: trololol72 issued server command: //undo
-[15:54:48] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:54:52] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:54:55] [Server thread/INFO]: trololol72 issued server command: //undo
-[15:55:04] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:55:28] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:55:32] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:56:36] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:56:42] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:57:42] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[15:57:42] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[15:58:57] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[15:58:57] [Server thread/INFO]: Stopping server
-[15:58:57] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[15:58:57] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[15:58:57] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[15:58:57] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[15:58:57] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[15:58:57] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[15:58:58] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[15:58:58] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[15:58:58] [Server thread/INFO]: [TAB] Disabled in 0ms
-[15:58:58] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[15:58:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[15:58:58] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[15:58:58] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[15:58:58] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[15:58:58] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[15:58:58] [Server thread/INFO]: [LuckPerms] Closing storage...
-[15:58:58] [Server thread/INFO]: [LuckPerms] Goodbye!
-[15:58:58] [Server thread/INFO]: Saving players
-[15:58:58] [Server thread/INFO]: Saving worlds
-[15:58:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.24s
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[15:58:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[15:58:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[15:58:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[15:58:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:58:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:58:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:58:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:58:58] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[15:58:58] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[15:58:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[15:58:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[15:59:41] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
+[15:59:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:59:43] [ServerMain/INFO]: Loaded 1470 recipes
+[15:59:43] [ServerMain/INFO]: Loaded 1584 advancements
+[15:59:43] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:59:43] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 366.9ms
+[15:59:43] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
+[15:59:43] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[15:59:43] [Server thread/INFO]: Loading properties
+[15:59:43] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[15:59:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:59:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:59:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:59:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[15:59:44] [Server thread/INFO]: Default game type: SURVIVAL
+[15:59:44] [Server thread/INFO]: Generating keypair
+[15:59:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:59:44] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[15:59:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:59:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[15:59:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:59:45] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[15:59:45] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[15:59:45] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[15:59:45] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[15:59:46] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2543728f]
+[15:59:46] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[15:59:46] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[15:59:46] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[15:59:46] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[15:59:47] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[15:59:47] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[15:59:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:59:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[15:59:47] [Server thread/INFO]:         __    
+[15:59:47] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[15:59:47] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:59:47] [Server thread/INFO]: 
+[15:59:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:59:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:59:48] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:59:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 965ms)
+[15:59:48] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[15:59:48] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[15:59:48] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[15:59:48] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[15:59:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:59:48] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:59:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[15:59:49] [Server thread/INFO]: Preparing level "world"
+[15:59:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[15:59:50] [Server thread/INFO]: Prepared spawn area in 2 ms
+[15:59:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[15:59:50] [Server thread/INFO]: Prepared spawn area in 2 ms
+[15:59:50] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[15:59:50] [Server thread/INFO]: Prepared spawn area in 2 ms
+[15:59:50] [Server thread/INFO]: Done preparing level "world" (0.444s)
+[15:59:50] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[15:59:50] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[15:59:51] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[15:59:51] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[15:59:52] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[15:59:52] [Server thread/INFO]: [TAB] Enabled in 496ms
+[15:59:52] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[15:59:52] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[15:59:52] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[15:59:52] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[15:59:52] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[15:59:52] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[15:59:52] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[15:59:52] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[15:59:52] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[15:59:52] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[15:59:52] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[15:59:52] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[15:59:53] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[15:59:53] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[15:59:53] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[15:59:53] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1352ms
+[15:59:53] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[15:59:53] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[15:59:53] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[15:59:53] [Server thread/INFO]: [SkBee]  - 56 events
+[15:59:53] [Server thread/INFO]: [SkBee]  - 71 effects
+[15:59:53] [Server thread/INFO]: [SkBee]  - 240 expressions
+[15:59:53] [Server thread/INFO]: [SkBee]  - 27 conditions
+[15:59:53] [Server thread/INFO]: [SkBee]  - 32 sections
+[15:59:53] [Server thread/INFO]: [SkBee]  - 11 properties
+[15:59:53] [Server thread/INFO]: [SkBee] Update checker disabled!
+[15:59:53] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.78 seconds
+[15:59:53] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[15:59:53] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[15:59:53] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[15:59:53] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[15:59:53] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[15:59:53] [Server thread/INFO]: [spark] Starting background profiler...
+[15:59:53] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[15:59:53] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[15:59:53] [Server thread/INFO]: Running delayed init tasks
+[15:59:53] [Server thread/INFO]: [Skript] Loading variables...
+[15:59:53] [Server thread/INFO]: [Skript] Loaded 197 variables in 0.0 seconds
+[15:59:57] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[15:59:57] [Server thread/INFO]: [Skript] Loaded 18 scripts with a total of 121 structures in 3.59 seconds
+[15:59:57] [Server thread/INFO]: [Skript] Finished loading.
+[15:59:57] [Server thread/INFO]: Done (22.917s)! For help, type "help"
+[15:59:57] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 25 build(s) behind ***
+[15:59:57] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[16:00:43] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[16:00:43] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[16:00:46] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[16:00:46] [Server thread/INFO]: trololol72[/127.0.0.1:53151] logged in with entity id 1 at ([world]-999.0445082593823, 62.0, 782.5136836667301)
+[16:00:47] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[16:00:47] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[16:00:51] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:01:06] [Server thread/INFO]: trololol72 issued server command: /tpb mineshaft village
+[16:01:06] [Server thread/INFO]: Set tpb location for 'mineshaft village' to: x: -991.21, y: 59.75, z: 770.21, yaw: -123.44, pitch: 5.1 in 'world'
+[16:01:08] [Server thread/INFO]: trololol72 issued server command: /tpb b
+[16:01:21] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:01:41] [Server thread/INFO]: trololol72 issued server command: //set air
+[16:01:41] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[16:01:52] [Server thread/INFO]: trololol72 issued server command: //pos2
+[16:01:55] [Server thread/INFO]: trololol72 issued server command: //set air
+[16:02:06] [Server thread/INFO]: trololol72 issued server command: //pos2
+[16:02:10] [Server thread/INFO]: trololol72 issued server command: //set dirt
+[16:02:32] [Server thread/INFO]: trololol72 issued server command: /paste SlYohd66v7FbiCtq99f9
+[16:02:51] [Server thread/INFO]: trololol72 issued server command: /paste hzVJd6CDCWmGVrk3SQ4E
+[16:03:10] [Server thread/INFO]: trololol72 issued server command: /paste AVsTtf6ULudZj3wEEHiG
+[16:03:24] [Server thread/INFO]: trololol72 issued server command: /paste kyxtbW1J36fxEQGlJKVF
+[16:03:44] [Server thread/INFO]: trololol72 issued server command: /paste cJFFEab18iTMonUvNh5u
+[16:04:17] [Server thread/INFO]: trololol72 issued server command: //copy
+[16:05:02] [Server thread/INFO]: trololol72 issued server command: //copy
+[16:05:08] [Server thread/INFO]: trololol72 issued server command: /tpb mineshaft village
+[16:05:11] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:05:24] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:05:28] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:05:31] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:05:37] [Server thread/INFO]: trololol72 issued server command: //paste
+[16:05:43] [Server thread/INFO]: trololol72 issued server command: //undo
+[16:05:54] [Server thread/INFO]: trololol72 issued server command: //rotate
+[16:06:28] [Server thread/INFO]: trololol72 issued server command: //rotate 0 90
+[16:06:32] [Server thread/INFO]: trololol72 issued server command: //paste
+[16:06:39] [Server thread/INFO]: trololol72 issued server command: //undo
+[16:06:41] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:06:44] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:07:01] [Server thread/INFO]: trololol72 issued server command: //rotate 0 -90
+[16:07:03] [Server thread/INFO]: trololol72 issued server command: //paste
+[16:07:08] [Server thread/INFO]: trololol72 issued server command: //undo
+[16:07:20] [Server thread/INFO]: trololol72 issued server command: //rotate 90 0
+[16:07:23] [Server thread/INFO]: trololol72 issued server command: //paste
+[16:07:38] [Server thread/INFO]: trololol72 issued server command: //undo
+[16:07:45] [Server thread/INFO]: trololol72 issued server command: //paste
+[16:11:12] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
+[16:11:13] [Server thread/INFO]: Line 62: (villagers_scripts.sk)
+[16:11:13] [Server thread/INFO]:     Can't understand this condition/effect: if chance of 70%: add (random integer between 1 and 3) of coal to {_gui}
+[16:11:13] [Server thread/INFO]:     Line: if chance of 70%: add (random integer between 1 and 3) of coal to {_gui}
+[16:11:13] [Server thread/INFO]:  
+[16:11:13] [Server thread/INFO]: Line 63: (villagers_scripts.sk)
+[16:11:13] [Server thread/INFO]:     Can't understand this condition/effect: if chance of 60%: add (random integer between 1 and 3) of iron ingot to {_gui}
+[16:11:13] [Server thread/INFO]:     Line: if chance of 60%: add (random integer between 1 and 3) of iron ingot to {_gui}
+[16:11:13] [Server thread/INFO]:  
+[16:11:13] [Server thread/INFO]: Line 64: (villagers_scripts.sk)
+[16:11:13] [Server thread/INFO]:     Can't understand this condition/effect: if chance of 50%: add (random integer between 2 and 5) of stick to {_gui}
+[16:11:13] [Server thread/INFO]:     Line: if chance of 50%: add (random integer between 2 and 5) of stick to {_gui}
+[16:11:13] [Server thread/INFO]:  
+[16:11:13] [Server thread/INFO]: Line 65: (villagers_scripts.sk)
+[16:11:13] [Server thread/INFO]:     Can't understand this condition/effect: if chance of 25%: add 1 iron pickaxe to {_gui}
+[16:11:13] [Server thread/INFO]:     Line: if chance of 25%: add 1 iron pickaxe to {_gui}
+[16:11:13] [Server thread/INFO]:  
+[16:11:13] [Server thread/INFO]: Line 66: (villagers_scripts.sk)
+[16:11:13] [Server thread/INFO]:     Can't understand this condition/effect: if chance of 5%: add 1 diamond to {_gui}
+[16:11:13] [Server thread/INFO]:     Line: if chance of 5%: add 1 diamond to {_gui}
+[16:11:13] [Server thread/INFO]:  
+[16:11:13] [Server thread/INFO]:     Encountered 5 errors while reloading villagers_scripts.sk! (309ms)
+[16:11:49] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
+[16:11:49] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (106ms)
+[16:12:04] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
+[16:12:04] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (122ms)
+[16:12:09] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
+[16:12:15] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
+[16:13:00] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
+[16:13:00] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (108ms)
+[16:13:05] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
+[16:13:07] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
+[16:13:09] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
+[16:13:27] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
+[16:13:55] [Server thread/INFO]: trololol72 issued server command: /tpb book
+[16:13:55] [Server thread/INFO]: Set tpb location for 'book' to: x: -970.26, y: 58, z: 767.39, yaw: 165.76, pitch: 7.95 in 'world'
+[16:13:57] [Server thread/INFO]: trololol72 issued server command: /tpb b
+[16:14:41] [Server thread/INFO]: trololol72 issued server command: /tpb lib
+[16:14:41] [Server thread/INFO]: Set tpb location for 'lib' to: x: 1674.51, y: 77, z: -485.51, yaw: 72.83, pitch: 21.45 in 'world'
+[16:14:45] [Server thread/INFO]: trololol72 issued server command: /tpb book
+[16:15:12] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:15:14] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:16:03] [Server thread/INFO]: trololol72 issued server command: //wand
+[16:16:09] [Server thread/INFO]: trololol72 issued server command: //set bookshelf
+[16:16:15] [Server thread/INFO]: trololol72 issued server command: //set bookshelf
+[16:16:19] [Server thread/INFO]: trololol72 issued server command: //set bookshelf
+[16:20:49] [Server thread/INFO]: trololol72 issued server command: //set oak_planks
+[16:21:08] [Server thread/INFO]: trololol72 issued server command: //set oak_planks
+[16:21:56] [Server thread/INFO]: trololol72 issued server command: /tpb lib
+[16:21:58] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:22:25] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:22:40] [Server thread/INFO]: trololol72 issued server command: //copy
+[16:22:46] [Server thread/INFO]: trololol72 issued server command: /tpb b
+[16:22:49] [Server thread/INFO]: trololol72 issued server command: /tpb book
+[16:22:56] [Server thread/INFO]: trololol72 issued server command: //paste
+[16:23:00] [Server thread/INFO]: trololol72 issued server command: /undopaste
+[16:23:11] [Server thread/INFO]: trololol72 issued server command: //undo
+[16:23:17] [Server thread/INFO]: trololol72 issued server command: //rotate 180 0
+[16:23:20] [Server thread/INFO]: trololol72 issued server command: //paste
+[16:23:56] [Server thread/INFO]: trololol72 issued server command: /tpb lib
+[16:23:57] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:24:05] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:24:06] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:24:09] [Server thread/INFO]: trololol72 issued server command: /tpb book
+[16:24:15] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:25:19] [Server thread/INFO]: trololol72 issued server command: //set cobblstone
+[16:27:05] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:27:17] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:27:35] [Server thread/INFO]: trololol72 issued server command: /tpb lib
+[16:27:37] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:27:46] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[16:28:08] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:28:11] [Server thread/INFO]: trololol72 issued server command: /paste cihbrlYzJCnwokos2zPR
+[16:28:53] [Server thread/INFO]: trololol72 issued server command: //copy
+[16:28:58] [Server thread/INFO]: trololol72 issued server command: /tpb book
+[16:28:59] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:29:38] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:29:54] [Server thread/INFO]: trololol72 issued server command: //paste
+[16:29:57] [Server thread/INFO]: trololol72 issued server command: //undo
+[16:30:02] [Server thread/INFO]: trololol72 issued server command: //rotate -90 0
+[16:30:04] [Server thread/INFO]: trololol72 issued server command: //paste
+[16:30:09] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:30:18] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:31:21] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:31:33] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:31:35] [Server thread/INFO]: trololol72 issued server command: //undo
+[16:32:05] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:32:10] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:32:19] [Server thread/INFO]: trololol72 issued server command: //paste
+[16:32:23] [Server thread/INFO]: trololol72 issued server command: //undo
+[16:32:32] [Server thread/INFO]: trololol72 issued server command: //rotate 180 0
+[16:32:36] [Server thread/INFO]: trololol72 issued server command: //paste
+[16:36:02] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
+[16:36:02] [Server thread/INFO]: Line 82: (villagers_scripts.sk)
+[16:36:02] [Server thread/INFO]:     '(random integer between 1 and 3) of raw beef' can't be added to a player because the former is neither an item type, an inventory nor an experience point
+[16:36:02] [Server thread/INFO]:     Line: give (random integer between 1 and 3) of raw beef to player
+[16:36:02] [Server thread/INFO]:  
+[16:36:02] [Server thread/INFO]: Line 85: (villagers_scripts.sk)
+[16:36:02] [Server thread/INFO]:     '(random integer between 1 and 3) of raw porkchop' can't be added to a player because the former is neither an item type, an inventory nor an experience point
+[16:36:02] [Server thread/INFO]:     Line: give (random integer between 1 and 3) of raw porkchop to player
+[16:36:02] [Server thread/INFO]:  
+[16:36:02] [Server thread/INFO]:     Encountered 2 errors while reloading villagers_scripts.sk! (339ms)
+[16:36:52] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
+[16:36:52] [Server thread/INFO]: Line 85: (villagers_scripts.sk)
+[16:36:52] [Server thread/INFO]:     '(random integer between 1 and 3) of pork' can't be added to an inventory because the former is neither an item type nor an inventory
+[16:36:52] [Server thread/INFO]:     Line: add (random integer between 1 and 3) of pork to player's inventory
+[16:36:52] [Server thread/INFO]:  
+[16:36:52] [Server thread/INFO]:     Encountered 1 error while reloading villagers_scripts.sk! (195ms)
+[16:38:21] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-969, y=59, z=790}
+[16:38:58] [Server thread/INFO]: [Skript] Reloading villagers_scripts.sk...
+[16:38:58] [Server thread/INFO]: Successfully reloaded villagers_scripts.sk. (177ms)
+[16:39:04] [Server thread/INFO]: trololol72 issued server command: /give_loot_fletcher
+[16:39:06] [Server thread/INFO]: trololol72 issued server command: /give_loot_fletcher
+[16:39:13] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 4
+[16:41:58] [Server thread/INFO]: trololol72 issued server command: //wand
+[16:42:11] [Server thread/INFO]: trololol72 issued server command: //set oak_planks
+[16:42:25] [Server thread/INFO]: trololol72 issued server command: //set cobblestone
+[16:42:30] [Server thread/INFO]: trololol72 issued server command: //set cobblestone
+[16:50:37] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
+[16:50:38] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
+[16:50:39] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
+[16:50:40] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
+[16:50:41] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
+[16:50:41] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
+[16:51:01] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
+[16:56:10] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:56:29] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:56:30] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[16:56:30] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[16:56:34] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[16:56:34] [Server thread/INFO]: Stopping server
+[16:56:34] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[16:56:34] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[16:56:34] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[16:56:34] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[16:56:34] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[16:56:34] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[16:56:34] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[16:56:34] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[16:56:34] [Server thread/INFO]: [TAB] Disabled in 1ms
+[16:56:34] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[16:56:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:56:34] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[16:56:34] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[16:56:34] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[16:56:34] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:56:34] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:56:35] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:56:35] [Server thread/INFO]: Saving players
+[16:56:35] [Server thread/INFO]: Saving worlds
+[16:56:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:56:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:56:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:56:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:56:36] [Server thread/INFO]: [ChunkHolderManager] Saved 148 block chunks, 1039 entity chunks, 4 poi chunks in world 'world' in 1.29s
+[16:56:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:56:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:56:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:56:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:56:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:56:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:56:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:56:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:56:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:56:37] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:56:37] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[16:56:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:56:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

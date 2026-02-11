@@ -55,3 +55,70 @@ command /spawn_golem:
     permission: op
     trigger:
         spawn_guard(location of player)
+#
+command /give_loot_smith:
+    permission: op
+    trigger:
+        if chance of 70%:
+            give (random integer between 1 and 3) of coal to player
+        
+        if chance of 60%:
+            give (random integer between 1 and 3) of iron ingot to player
+        
+        if chance of 50%:
+            give (random integer between 2 and 5) of stick to player
+        
+        if chance of 25%:
+            give 1 iron pickaxe to player
+        
+        if chance of 5%:
+            give 1 diamond to player
+            
+        send "&7Received Smith loot."
+
+command /give_loot_butcher:
+    trigger:
+        if chance of 70%:
+            add (random integer between 1 and 3) of beef to player's inventory
+            
+        # if chance of 60%:
+        #     add (random integer between 1 and 3) of pork to player's inventory
+            
+        if chance of 50%:
+            add (random integer between 2 and 5) of chicken to player's inventory
+            
+        if chance of 30%:
+            add (random integer between 1 and 3) of coal to player's inventory
+            
+        if chance of 25%:
+            add (random integer between 1 and 2) of cooked beef to player's inventory
+            
+        if chance of 5%:
+            add 1 rabbit stew to player's inventory
+            
+        send "&7Received Butcher loot."
+
+command /give_loot_fletcher:
+    trigger:
+        if chance of 70%:
+            add (random integer between 2 and 6) of stick to player's inventory
+
+        if chance of 60%:
+            add (random integer between 1 and 4) of feather to player's inventory
+
+        if chance of 50%:
+            add (random integer between 1 and 3) of flint to player's inventory
+
+        if chance of 40%:
+            add (random integer between 2 and 5) of arrow to player's inventory
+
+        if chance of 30%:
+            add (random integer between 1 and 3) of string to player's inventory
+
+        if chance of 20%:
+            add 1 bow to player's inventory
+
+        if chance of 5%:
+            add 1 crossbow to player's inventory
+
+        send "&7Received Fletcher loot."
