@@ -77,6 +77,7 @@ command /give_loot_smith:
         send "&7Received Smith loot."
 
 command /give_loot_butcher:
+    permission: op
     trigger:
         if chance of 70%:
             add (random integer between 1 and 3) of beef to player's inventory
@@ -99,6 +100,7 @@ command /give_loot_butcher:
         send "&7Received Butcher loot."
 
 command /give_loot_fletcher:
+    permission: op
     trigger:
         if chance of 70%:
             add (random integer between 2 and 6) of stick to player's inventory
@@ -122,3 +124,58 @@ command /give_loot_fletcher:
             add 1 crossbow to player's inventory
 
         send "&7Received Fletcher loot."
+#
+command /give_loot_leatherworker:
+    permission: op
+    trigger:
+        if chance of 70%:
+            add (random integer between 1 and 3) of leather to player's inventory
+
+        if chance of 60%:
+            add (random integer between 1 and 3) of rabbit hide to player's inventory
+
+        if chance of 40%:
+            add 1 leather helmet to player's inventory
+
+        if chance of 40%:
+            add 1 leather boots to player's inventory
+
+        if chance of 30%:
+            add 1 leather chestplate to player's inventory
+
+        if chance of 30%:
+            add 1 leather leggings to player's inventory
+
+        if chance of 5%:
+            add 1 saddle to player's inventory
+
+        send "&7Received Leatherworker loot."
+#
+command /give_loot_librarian:
+    permission: op
+    trigger:
+        if chance of 70%:
+            add (random integer between 2 and 6) of paper to player's inventory
+
+        if chance of 60%:
+            add (random integer between 1 and 3) of book to player's inventory
+
+        if chance of 50%:
+            add (random integer between 1 and 3) of ink sac to player's inventory
+
+        if chance of 40%:
+            add (random integer between 1 and 4) of glass to player's inventory
+
+        if chance of 30%:
+            add 1 bookshelf to player's inventory
+
+        if chance of 20%:
+            add 1 lantern to player's inventory
+
+        if chance of 10%:
+            add 1 compass to player's inventory
+
+        if chance of 5%:
+            add 1 name tag to player's inventory
+
+        send "&7Received Librarian loot."
