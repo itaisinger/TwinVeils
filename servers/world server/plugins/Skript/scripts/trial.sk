@@ -1,25 +1,27 @@
 options:
-    # --- CONFIGURATION ---
-    # The name must match the formatting in the give command:
-    # Gold (&6) + Bold (&l) + Underline (&n)
-    head_name: "&6&l&nOphanim Orb (red)"
-    
-    prefix: &6&lTrial Quest &8»
-    debug_prefix: &d&l[Trial-Debug] &f
+    prefix: &6Trial Quest &8»
+    debug_prefix: &d[Trial-Debug] &f
 
 # --- 1. Variables & Initialization ---
 on load:
     if {trial_debug_active} is not set:
         set {trial_debug_active} to false
-    
     if {trial_quest::completed} is not set:
         set {trial_quest::completed} to false
 
-function trial_debug(msg: text):
-    if {trial_debug_active} is false:
-        stop
-    broadcast "{@prefix} %{_msg}%"
+    delete {trial_quest::slots::*}
+    set {trial_quest::slots::1} to location(-784, 58, 984, "world")
+    set {trial_quest::slots::2} to location(-784, 58, 985, "world")
+    set {trial_quest::slots::3} to location(-784, 58, 986, "world")
+    set {trial_quest::slots::4} to location(-785, 58, 985, "world")
+    set {trial_quest::slots::5} to location(-783, 58, 985, "world")
+    
 
+function trial_debug(msg: text):
+    if {trial_debug_active} is true:
+        broadcast "{@prefix} %{_msg}%"
+
+# --- RESTORED COMMAND ---
 command /trial_debug <text>:
     permission: op
     trigger:
@@ -32,94 +34,84 @@ command /trial_debug <text>:
         else:
             send "{@prefix} &eUsage: /trial_debug <true/false>"
 
-# --- 2. Setup & Status Commands ---
+# --- 2. Setup & Admin Commands ---
 command /trialsetup <text>:
     permission: op
     trigger:
-        # A. Set Reward Chest
+        # Save clean Integer coordinates (Floor)
+        set {_loc} to location of target block
+        set {_x} to floor(x-coord of {_loc})
+        set {_y} to floor(y-coord of {_loc})
+        set {_z} to floor(z-coord of {_loc})
+        set {_clean_loc} to location({_x}, {_y}, {_z}, world of {_loc})
+
         if arg-1 is "chest":
-            set {trial_quest::chest_loc} to location of target block
-            send "{@prefix} &fReward Chest location set."
-            trial_debug("{@debug_prefix} Chest set to %location of target block%.")
-        
-        # B. Reset Quest
-        else if arg-1 is "reset":
-            set {trial_quest::completed} to false
-            send "{@prefix} &cQuest reset. Players can trigger it again."
-            trial_debug("{@debug_prefix} System Reset (State: false).")
+            set {trial_quest::chest_loc} to {_clean_loc}
+            send "{@prefix} &fReward Chest set to %{_clean_loc}%"
 
         else if arg-1 is "struc":
-            set {trial_quest::struc_loc} to location of target block
-            trial_debug("{@debug_prefix} structure location set to %{trial_quest::struc_loc}%")
+            set {trial_quest::struc_loc} to {_clean_loc}
+            send "{@prefix} &fStructure Origin set to %{_clean_loc}%"
 
-        # C. Set Slots (1-5)
+        else if arg-1 is "reset":
+            set {trial_quest::completed} to false
+            send "{@prefix} &cQuest reset."
+
         else:
             set {_id} to arg-1
-            set {trial_quest::slots::%{_id}%} to location of target block
+            set {trial_quest::slots::%{_id}%} to {_clean_loc}
             send "{@prefix} &fHead Slot &e%{_id}% &fset."
-            trial_debug("{@debug_prefix} Slot %{_id}% set to %location of target block%.")
 
 command /trial_status:
     permission: op
     trigger:
-        send "{@prefix} &8&m------------------------"
-        send " &e&lSTATUS REPORT"
+        send "{@prefix} &7Status Report:"
         
-        # 1. Global Completion
         if {trial_quest::completed} is true:
-            send " &7Quest State: &a&lCOMPLETED"
+            send " &7State: &a&lDONE"
         else:
-            send " &7Quest State: &fACTIVE (In Progress)"
-        
-        # 2. Reward Chest
-        if {trial_quest::chest_loc} is set:
-            send " &7Reward Chest: &f%{trial_quest::chest_loc}%"
-        else:
-            send " &7Reward Chest: &c&lNOT SET"
-        
-        send "struct location: %{trial_quest::struc_loc}%"
-        send ""
-        send " &7Heads Check:"
-        
-        # 3. Loop 1 to 5 to show every slot
-        loop 5 times:
-            set {_i} to loop-value
-            set {_loc} to {trial_quest::slots::%{_i}%}
+            send " &7State: &fACTIVE"
             
+        send " &7Struct: &b%{trial_quest::struc_loc} ? "&cNOT SET"%"
+        send " &7Chest:  &f%{trial_quest::chest_loc} ? "&cNOT SET"%"
+        
+        set {_slots} to ""
+        loop 5 times:
+            set {_loc} to {trial_quest::slots::%loop-value%}
             if {_loc} is not set:
-                send "  &8[&c%{_i}%&8] &cLocation Not Set"
+                set {_slots} to "%{_slots}% &c[?]"
+            else if block at {_loc} is player head:
+                set {_slots} to "%{_slots}% &a[✔]"
             else:
-                # Check if physically filled with a head
-                if block at {_loc} is player head:
-                    set {_state} to "&a&lFILLED"
-                else:
-                    set {_state} to "&7EMPTY"
-                    
-                send "  &8[&e%{_i}%&8] %{_state}% &8(&7%{_loc}%&8)"
-                
-        send "{@prefix} &8&m------------------------"
+                set {_slots} to "%{_slots}% &7[x]"
+        
+        send " &7Slots: %{_slots}%"
 
-# --- 3. Main Gameplay Logic ---
+# --- 3. Gameplay Logic ---
 on place of player head:
+    trial_debug("nbt: %nbt of player's tool%")
+    set {_loc} to location of target block
+    set {_x} to floor(x-coord of {_loc})
+    set {_y} to floor(y-coord of {_loc})
+    set {_z} to floor(z-coord of {_loc})
+    set {_clean_loc} to location({_x}, {_y}, {_z}, world of {_loc})
     if {trial_quest::completed} is true:
         stop
 
     loop {trial_quest::slots::*}:
-        if location of event-block is loop-value:
-            
-            if name of player's tool is {@head_name}:
-                
-                trial_debug("{@debug_prefix} Valid Head placed at slot %loop-index%.")
-                
+        if {_clean_loc} is loop-value:
+            # --- STRING-BASED NBT CHECK ---
+            # Checks if the full NBT string contains our unique ID.
+            if "%nbt of player's tool%" contains "trialhead":
+                trial_debug("Valid Head (String Match) placed at %loop-index%.")
                 wait 2 ticks
                 check_trial_victory()
-            
             else:
-                trial_debug("{@debug_prefix} Invalid Item Name: '%name of player's tool%'")
+                trial_debug("Invalid Head. NBT tag 'trialhead' missing.")
+                send "{@prefix} &cThis is not the correct Trial Core." to player
 
 function check_trial_victory():
     set {_filled} to 0
-    
     loop {trial_quest::slots::*}:
         if block at loop-value is player head:
             add 1 to {_filled}
@@ -129,29 +121,58 @@ function check_trial_victory():
     if {_filled} >= 5:
         finish_quest()
 
-#
-
 function finish_quest():
-    trial_debug("finishing quest")
+    trial_debug("Quest Complete. Spawning structure...")
     set {trial_quest::completed} to true
-    play sound "ui.toast.challenge_complete" with volume 10 at {_chest}
-    set {_x} to x-coord of {trial_quest::struc_loc}
-    set {_y} to y-coord of {trial_quest::struc_loc}
-    set {_z} to z-coord of {trial_quest::struc_loc}
-    execute console command "/place template minecraft:trial_chest %{_x}% %{_y}% %{_z}%"
+    
+    set {_loc} to {trial_quest::struc_loc}
+    if {_loc} is set:
+        play sound "ui.toast.challenge_complete" with volume 10 at {_loc}
+        
+        set {_x} to floor(x-coord of {_loc})
+        set {_y} to floor(y-coord of {_loc})
+        set {_z} to floor(z-coord of {_loc})
+        
+        execute console command "/place template minecraft:trial_chest %{_x}% %{_y}% %{_z}%"
+    else:
+        broadcast "{@prefix} &cError: Structure location not set!"
 
+# --- 4. Manual Reset & Give ---
 command /trial_reset:
     permission: op
     trigger:
         set {trial_quest::completed} to false
-        set {_x} to x-coord of {trial_quest::struc_loc}
-        set {_y} to y-coord of {trial_quest::struc_loc}
-        set {_z} to z-coord of {trial_quest::struc_loc}
-        execute console command "/place template minecraft:trial_empty %{_x}% %{_y}% %{_z}%"
+        set {_loc} to {trial_quest::struc_loc}
+        if {_loc} is set:
+            set {_x} to floor(x-coord of {_loc})
+            set {_y} to floor(y-coord of {_loc})
+            set {_z} to floor(z-coord of {_loc})
+            execute console command "/place template minecraft:trial_empty %{_x}% %{_y}% %{_z}%"
+        send "{@prefix} &eStructure reset to empty state."
+        wait 5 ticks
+        execute console command "/kill @e[type=item]"
+#
+on break of player head:
+    # Get the raw data of the block
+    set {_nbt} to "%full nbt of event-block%"
 
-# --- 4. Get the Custom Head ---
+    if {_nbt} contains "trialhead:1b":
+        cancel drops
+        spawn_trial_head(location of event-block)
+#
+function spawn_trial_head(loc:location):
+    set {_x} to x-coord of {_loc}
+    set {_y} to y-coord of {_loc} - 0.5
+    set {_z} to z-coord of {_loc}
+
+    # 1. Generate Random Velocity
+    set {_vx} to random number between -0.07 and 0.07
+    set {_vy} to random number between 0.14 and 0.3
+    set {_vz} to random number between -0.07 and 0.07
+
+    execute console command "/summon item %{_x}% %{_y}% %{_z}% {Motion:[%{_vx}%,%{_vy}%,%{_vz}%],Item:{id:""minecraft:player_head"",count:1,components:{""minecraft:custom_name"":{""text"":""Trial Core"",""color"":""gold""},""minecraft:profile"":{properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0=""}]},""minecraft:custom_data"":{trialhead:1b}}}}"
+    
 command /give_trial_head:
     permission: op
     trigger:
-        # Exact command provided, with quotes escaped for Skript (" -> "")
-        execute console command "/give %player% minecraft:player_head[minecraft:custom_name={text:""Ophanim Orb (red)"",color:""gold"",underlined:true,bold:true,italic:false},minecraft:lore=[{text:""Custom Head ID: 122164"",color:""gray"",italic:false},{text:""www.minecraft-heads.com"",color:""blue"",italic:false}],profile={properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0=""}]}] 1"
+        execute console command "/give %player% minecraft:player_head[minecraft:custom_data={trialhead:1b},minecraft:custom_name={text:""Trial Core"",color:""gold""},minecraft:profile={properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0=""}]}] 1"

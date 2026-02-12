@@ -1,196 +1,625 @@
-[01:52:22] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[01:52:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[01:52:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:52:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[01:52:23] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[01:58:35] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[01:58:35] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[01:58:35] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:58:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[01:58:36] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[01:52:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[01:58:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[01:52:27] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
-[01:52:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:52:29] [ServerMain/INFO]: Loaded 1470 recipes
-[01:52:29] [ServerMain/INFO]: Loaded 1584 advancements
-[01:52:29] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:52:29] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 325.7ms
-[01:52:29] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
-[01:52:29] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[01:52:29] [Server thread/INFO]: Loading properties
-[01:52:29] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[01:52:29] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:52:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:52:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:52:30] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[01:52:30] [Server thread/INFO]: Default game type: SURVIVAL
-[01:52:30] [Server thread/INFO]: Generating keypair
-[01:52:30] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:52:30] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[01:52:30] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[01:52:31] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[01:52:31] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:52:31] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[01:52:31] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[01:52:31] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[01:52:31] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:52:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5db0574b]
-[01:52:32] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[01:52:32] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[01:52:32] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[01:52:32] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[01:52:33] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[01:52:33] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[01:52:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:52:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[01:52:33] [Server thread/INFO]:         __    
-[01:52:33] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[01:52:33] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:52:33] [Server thread/INFO]: 
-[01:52:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:52:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:52:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:52:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 882ms)
-[01:52:34] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[01:52:34] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:52:34] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[01:52:34] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[01:52:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:52:34] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[01:52:34] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[01:52:35] [Server thread/INFO]: Preparing level "world"
-[01:52:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[01:52:35] [Server thread/INFO]: Preparing spawn area: 100%
-[01:52:35] [Server thread/INFO]: Prepared spawn area in 2 ms
-[01:52:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[01:52:35] [Server thread/INFO]: Prepared spawn area in 2 ms
-[01:52:35] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[01:52:35] [Server thread/INFO]: Prepared spawn area in 2 ms
-[01:52:35] [Server thread/INFO]: Done preparing level "world" (0.435s)
-[01:52:35] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[01:52:36] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[01:52:37] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[01:52:37] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[01:52:37] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[01:52:37] [Server thread/INFO]: [TAB] Enabled in 395ms
-[01:52:37] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[01:52:38] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[01:52:38] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[01:52:38] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[01:52:38] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[01:52:38] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[01:52:38] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[01:52:38] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[01:52:38] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[01:52:38] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[01:52:38] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[01:52:38] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[01:52:38] [Server thread/INFO]: [SkBee]  - 56 events
-[01:52:38] [Server thread/INFO]: [SkBee]  - 71 effects
-[01:52:38] [Server thread/INFO]: [SkBee]  - 240 expressions
-[01:52:38] [Server thread/INFO]: [SkBee]  - 27 conditions
-[01:52:38] [Server thread/INFO]: [SkBee]  - 32 sections
-[01:52:38] [Server thread/INFO]: [SkBee]  - 11 properties
-[01:52:38] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1307ms
-[01:52:38] [Server thread/INFO]: [SkBee] Update checker disabled!
-[01:52:38] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.74 seconds
-[01:52:38] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[01:52:38] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[01:52:38] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[01:52:38] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[01:52:38] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[01:52:38] [Server thread/INFO]: [spark] Starting background profiler...
-[01:52:38] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[01:52:39] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[01:52:39] [Server thread/INFO]: Running delayed init tasks
-[01:52:39] [Server thread/INFO]: [Skript] Loading variables...
-[01:52:39] [Server thread/INFO]: [Skript] Loaded 215 variables in 0.0 seconds
-[01:52:42] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[01:52:42] [Server thread/INFO]: [Skript] Loaded 19 scripts with a total of 140 structures in 3.7 seconds
-[01:52:42] [Server thread/INFO]: [Skript] Finished loading.
-[01:52:42] [Server thread/INFO]: Done (21.407s)! For help, type "help"
-[01:52:42] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 25 build(s) behind ***
-[01:52:42] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[01:53:56] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[01:53:56] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[01:54:01] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[01:54:01] [Server thread/INFO]: trololol72[/127.0.0.1:63283] logged in with entity id 1 at ([world]-783.5622918596638, 58.0, 993.638139203624)
-[01:54:02] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[01:54:02] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[01:56:23] [Server thread/INFO]: trololol72 issued server command: /trial_status
-[01:57:26] [Server thread/INFO]: [Skript] Reloading ocean_quest.sk...
-[01:57:27] [Server thread/INFO]: Successfully reloaded ocean_quest.sk. (142ms)
-[01:57:29] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[01:57:29] [Server thread/INFO]: Successfully reloaded trial.sk. (130ms)
-[01:57:34] [Server thread/INFO]: trololol72 issued server command: /trial_status
-[01:57:46] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[01:57:46] [Server thread/INFO]: trololol72 lost connection: Server is restarting
-[01:57:46] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[01:57:47] [Server thread/INFO]: Stopping server
-[01:57:47] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[01:57:47] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[01:57:47] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[01:57:47] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[01:57:47] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[01:57:47] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[01:57:47] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[01:57:47] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[01:57:47] [Server thread/INFO]: [TAB] Disabled in 0ms
-[01:57:47] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:57:47] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[01:57:47] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[01:57:47] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[01:57:47] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[01:57:47] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[01:57:47] [Server thread/INFO]: [LuckPerms] Closing storage...
-[01:57:47] [Server thread/INFO]: [LuckPerms] Goodbye!
-[01:57:47] [Server thread/INFO]: Saving players
-[01:57:47] [Server thread/INFO]: Saving worlds
-[01:57:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:57:47] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:57:47] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:57:47] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:57:55] [Server thread/INFO]: [ChunkHolderManager] Saved 5040 block chunks, 5040 entity chunks, 0 poi chunks in world 'world' in 8.47s
-[01:57:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[01:57:55] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[01:57:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[01:57:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[01:57:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[01:57:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:57:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:57:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:57:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:57:56] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[01:57:56] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[01:57:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[01:57:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[01:58:40] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
+[01:58:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[01:58:42] [ServerMain/INFO]: Loaded 1470 recipes
+[01:58:42] [ServerMain/INFO]: Loaded 1584 advancements
+[01:58:42] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[01:58:43] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 337.9ms
+[01:58:43] [ServerMain/WARN]: resource-pack-id missing, using default of c9d1e8e2-2355-3bfe-bd07-aa26d7a3e3f4
+[01:58:43] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[01:58:43] [Server thread/INFO]: Loading properties
+[01:58:43] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[01:58:43] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:58:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:58:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:58:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[01:58:44] [Server thread/INFO]: Default game type: SURVIVAL
+[01:58:44] [Server thread/INFO]: Generating keypair
+[01:58:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:58:44] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[01:58:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[01:58:44] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[01:58:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:58:45] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[01:58:45] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[01:58:45] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[01:58:45] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[01:58:46] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3af11f9d]
+[01:58:46] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[01:58:46] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[01:58:46] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[01:58:46] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[01:58:47] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[01:58:47] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[01:58:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:58:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[01:58:47] [Server thread/INFO]:         __    
+[01:58:47] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[01:58:47] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:58:47] [Server thread/INFO]: 
+[01:58:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:58:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:58:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:58:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 962ms)
+[01:58:48] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[01:58:48] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[01:58:48] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[01:58:48] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[01:58:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:58:48] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:58:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[01:58:49] [Server thread/INFO]: Preparing level "world"
+[01:58:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[01:58:49] [Server thread/INFO]: Preparing spawn area: 100%
+[01:58:49] [Server thread/INFO]: Prepared spawn area in 2 ms
+[01:58:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[01:58:49] [Server thread/INFO]: Prepared spawn area in 2 ms
+[01:58:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[01:58:49] [Server thread/INFO]: Prepared spawn area in 1 ms
+[01:58:49] [Server thread/INFO]: Done preparing level "world" (0.431s)
+[01:58:49] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[01:58:49] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[01:58:51] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[01:58:51] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[01:58:51] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[01:58:51] [Server thread/INFO]: [TAB] Enabled in 567ms
+[01:58:51] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[01:58:52] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[01:58:52] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[01:58:52] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[01:58:52] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[01:58:52] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[01:58:52] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[01:58:52] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[01:58:52] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[01:58:52] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[01:58:52] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1440ms
+[01:58:52] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[01:58:52] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[01:58:52] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[01:58:52] [Server thread/INFO]: [SkBee]  - 56 events
+[01:58:52] [Server thread/INFO]: [SkBee]  - 71 effects
+[01:58:52] [Server thread/INFO]: [SkBee]  - 240 expressions
+[01:58:52] [Server thread/INFO]: [SkBee]  - 27 conditions
+[01:58:52] [Server thread/INFO]: [SkBee]  - 32 sections
+[01:58:52] [Server thread/INFO]: [SkBee]  - 11 properties
+[01:58:52] [Server thread/INFO]: [SkBee] Update checker disabled!
+[01:58:52] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.76 seconds
+[01:58:52] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[01:58:52] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[01:58:52] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[01:58:52] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[01:58:52] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[01:58:52] [Server thread/INFO]: [spark] Starting background profiler...
+[01:58:52] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[01:58:53] [Server thread/INFO]: Running delayed init tasks
+[01:58:53] [Server thread/INFO]: [Skript] Loading variables...
+[01:58:53] [Server thread/INFO]: [Skript] Loaded 215 variables in 0.0 seconds
+[01:58:53] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[01:58:57] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[01:58:57] [Server thread/INFO]: [Skript] Loaded 19 scripts with a total of 140 structures in 4.06 seconds
+[01:58:57] [Server thread/INFO]: [Skript] Finished loading.
+[01:58:57] [Server thread/INFO]: Done (22.857s)! For help, type "help"
+[01:58:57] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 25 build(s) behind ***
+[01:58:57] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[01:59:02] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[01:59:02] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[01:59:06] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[01:59:06] [Server thread/INFO]: trololol72[/127.0.0.1:63365] logged in with entity id 1 at ([world]-783.8247790234473, 58.0, 992.2581565486602)
+[01:59:07] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[01:59:07] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[01:59:20] [Server thread/INFO]: trololol72 issued server command: /trial_debug
+[01:59:23] [Server thread/INFO]: trololol72 issued server command: /trial_debug true
+[02:00:22] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:00:22] [Server thread/INFO]: Successfully reloaded trial.sk. (163ms)
+[02:00:28] [Server thread/INFO]: trololol72 issued server command: /trial_debug truw
+[02:00:30] [Server thread/INFO]: trololol72 issued server command: /trial_debug true
+[02:00:59] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:01:00] [Server thread/INFO]: Successfully reloaded trial.sk. (161ms)
+[02:01:18] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:01:19] [Server thread/INFO]: Successfully reloaded trial.sk. (141ms)
+[02:01:43] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:01:43] [Server thread/INFO]: Successfully reloaded trial.sk. (140ms)
+[02:01:44] [Server thread/INFO]: placed head
+[02:01:52] [Server thread/INFO]: trololol72 issued server command: /trial_status
+[02:02:00] [Server thread/INFO]: trololol72 issued server command: /trial_reset
+[02:02:00] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'place template minecraft:trial_empty -791.5 56.5 977.5' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(place)
+[02:02:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:02:00] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:02:00] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:02:00] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:02:00] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:02:00] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:02:00] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:02:00] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:02:00] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute2(ScriptCommand.java:352)
+[02:02:00] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.lambda$execute$0(ScriptCommand.java:311)
+[02:02:00] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute(ScriptCommand.java:322)
+[02:02:00] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.onCommand(ScriptCommand.java:257)
+[02:02:00] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[02:02:00] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[02:02:00] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:374)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:362)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1532)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
+[02:02:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:02:00] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[02:02:00] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Invalid integer '-791.5' at position 37: ...ial_empty <--[HERE]
+[02:02:03] [Server thread/INFO]: placed head
+[02:02:03] [Server thread/INFO]: msg
+[02:02:03] [Server thread/INFO]: msg:
+[02:02:03] [Server thread/INFO]: Trial Quest » [Trial-Debug]  Valid Head placed at slot 5.
+[02:02:03] [Server thread/INFO]: msg:
+[02:02:03] [Server thread/INFO]: Trial Quest » Progress: 4 / 5
+[02:04:41] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:04:41] [Server thread/INFO]: Successfully reloaded trial.sk. (134ms)
+[02:04:53] [Server thread/INFO]: trololol72 issued server command: /trial_reset
+[02:04:53] [Server thread/WARN]: org.bukkit.command.CommandException: Unhandled exception executing 'place template minecraft:trial_empty -791.5 56.5 977.5' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(place)
+[02:04:53] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:952)
+[02:04:53] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1103)
+[02:04:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1730)
+[02:04:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.effects.EffCommand.execute(EffCommand.java:84)
+[02:04:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Effect.run(Effect.java:42)
+[02:04:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:40)
+[02:04:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[02:04:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[02:04:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute2(ScriptCommand.java:352)
+[02:04:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.lambda$execute$0(ScriptCommand.java:311)
+[02:04:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.execute(ScriptCommand.java:322)
+[02:04:53] [Server thread/WARN]: 	at Skript-2.12.2.jar//ch.njol.skript.command.ScriptCommand.onCommand(ScriptCommand.java:257)
+[02:04:53] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[02:04:53] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[02:04:53] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:469)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:374)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:362)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2374)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2347)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:177)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1532)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:188)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:151)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
+[02:04:53] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[02:04:53] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[02:04:53] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Invalid integer '-791.5' at position 37: ...ial_empty <--[HERE]
+[02:05:28] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:05:29] [Server thread/INFO]: Successfully reloaded trial.sk. (147ms)
+[02:05:31] [Server thread/INFO]: trololol72 issued server command: /trial_reset
+[02:05:31] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
+[02:05:37] [Server thread/INFO]: trololol72 issued server command: /trial_reset
+[02:05:37] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
+[02:05:56] [Server thread/INFO]: trololol72 issued server command: /trial_status
+[02:06:05] [Server thread/INFO]: trololol72 issued server command: /trial_debug true
+[02:06:13] [Server thread/INFO]: trololol72 issued server command: /trial_status
+[02:06:25] [Server thread/INFO]: trololol72 issued server command: /give_trial_head
+[02:06:25] [Server thread/INFO]: Gave 1 [Ophanim Orb (red)] to trololol72
+[02:06:34] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
+[02:06:34] [Server thread/INFO]: [trololol72: Killed 8 entities]
+[02:06:36] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
+[02:06:38] [Server thread/INFO]: trololol72 issued server command: /give_trial_head
+[02:06:38] [Server thread/INFO]: Gave 1 [Ophanim Orb (red)] to trololol72
+[02:06:41] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
+[02:06:41] [Server thread/INFO]: [trololol72: Killed Player Head]
+[02:12:00] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:12:00] [Server thread/INFO]: Line 84: (trial.sk)
+[02:12:00] [Server thread/INFO]:     There's no nbt compound in an on place event
+[02:12:00] [Server thread/INFO]:     Line: set {_tag} to tag "TrialQuestItem" of nbt of player's tool
+[02:12:00] [Server thread/INFO]:  
+[02:12:00] [Server thread/INFO]:     Encountered 1 error while reloading trial.sk! (162ms)
+[02:13:41] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:13:41] [Server thread/INFO]: Successfully reloaded trial.sk. (147ms)
+[02:13:51] [Server thread/INFO]: trololol72 issued server command: /trial_status
+[02:14:08] [Server thread/INFO]: trololol72 issued server command: /give_trial_head
+[02:14:08] [Server thread/INFO]: Gave 1 [Trial Core] to trololol72
+[02:14:15] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
+[02:14:15] [Server thread/INFO]: [trololol72: Killed 7 entities]
+[02:14:22] [Server thread/INFO]: trololol72 issued server command: /trial_status
+[02:16:59] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:16:59] [Server thread/INFO]: Successfully reloaded trial.sk. (147ms)
+[02:17:06] [Server thread/INFO]: trololol72 issued server command: /trial_debug true
+[02:18:06] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:18:06] [Server thread/INFO]: Successfully reloaded trial.sk. (151ms)
+[02:18:14] [Server thread/INFO]: trololol72 issued server command: /trial_debug true
+[02:18:31] [Server thread/INFO]: trololol72 issued server command: /trial_reset
+[02:18:31] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
+[02:18:41] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:18:41] [Server thread/INFO]: Successfully reloaded trial.sk. (117ms)
+[02:18:58] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:18:58] [Server thread/INFO]: Successfully reloaded trial.sk. (145ms)
+[02:19:25] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:19:26] [Server thread/INFO]: Successfully reloaded trial.sk. (158ms)
+[02:19:28] [Server thread/INFO]: Trial Quest » placed head..
+[02:19:39] [Server thread/INFO]: Trial Quest » placed head..
+[02:19:39] [Server thread/INFO]: Trial Quest » placed head..
+[02:19:40] [Server thread/INFO]: Trial Quest » placed head..
+[02:19:40] [Server thread/INFO]: Trial Quest » placed head..
+[02:19:48] [Server thread/INFO]: trololol72 issued server command: /trialsetup 1
+[02:19:52] [Server thread/INFO]: trololol72 issued server command: /trialsetup 2
+[02:19:55] [Server thread/INFO]: trololol72 issued server command: /trialsetup 3
+[02:19:59] [Server thread/INFO]: trololol72 issued server command: /trialsetup 4
+[02:20:03] [Server thread/INFO]: trololol72 issued server command: /trialsetup 5
+[02:20:07] [Server thread/INFO]: Trial Quest » placed head..
+[02:20:10] [Server thread/INFO]: Trial Quest » placed head..
+[02:21:42] [Server thread/INFO]: trololol72: tp -783.47 58.00 984.97
+[02:23:31] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:23:31] [Server thread/INFO]: Successfully reloaded trial.sk. (145ms)
+[02:23:35] [Server thread/INFO]: Trial Quest » placed head..
+[02:23:37] [Server thread/INFO]: Trial Quest » placed head..
+[02:23:38] [Server thread/INFO]: Trial Quest » placed head..
+[02:24:15] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:24:16] [Server thread/INFO]: Successfully reloaded trial.sk. (143ms)
+[02:24:21] [Server thread/INFO]: Trial Quest » placed head..
+[02:24:21] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:24:21] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:24:21] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:24:21] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:24:21] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:26:28] [Server thread/INFO]: Trial Quest » placed head..
+[02:26:28] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:26:28] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:26:28] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:26:28] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:26:28] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:26:48] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:26:48] [Server thread/INFO]: Successfully reloaded trial.sk. (146ms)
+[02:26:50] [Server thread/INFO]: Trial Quest » placed head..
+[02:26:50] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:26:50] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:26:50] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:26:50] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:26:50] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:34:57] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:34:57] [Server thread/INFO]: Successfully reloaded trial.sk. (143ms)
+[02:35:00] [Server thread/INFO]: Trial Quest » placed head..
+[02:35:00] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:00] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:00] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:00] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:00] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:35:02] [Server thread/INFO]: Trial Quest » placed head..
+[02:35:02] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:02] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:02] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:02] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:02] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:35:18] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:35:18] [Server thread/INFO]: Successfully reloaded trial.sk. (131ms)
+[02:35:22] [Server thread/INFO]: Trial Quest » placed head..
+[02:35:22] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:22] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:22] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:22] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:22] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:35:41] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:35:41] [Server thread/INFO]: Successfully reloaded trial.sk. (139ms)
+[02:35:44] [Server thread/INFO]: Trial Quest » placed head..
+[02:35:44] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 59, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:35:44] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 59, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:44] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 59, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:35:44] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 59, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:35:44] [Server thread/INFO]: Trial Quest » checking for slot x: -782, y: 59, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:36:00] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:36:00] [Server thread/INFO]: Successfully reloaded trial.sk. (159ms)
+[02:36:02] [Server thread/INFO]: Trial Quest » placed head..
+[02:36:02] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:36:02] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:36:02] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:36:02] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:36:02] [Server thread/INFO]: Trial Quest » checking for slot x: -782, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:36:48] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:36:48] [Server thread/INFO]: Successfully reloaded trial.sk. (138ms)
+[02:36:51] [Server thread/INFO]: Trial Quest » placed head at x: -783.5, y: 58.5, z: 985.5, yaw: 0, pitch: 0 in 'world'
+[02:36:51] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:36:51] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:36:51] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:36:51] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:36:51] [Server thread/INFO]: Trial Quest » checking for slot x: -782, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:36:56] [Server thread/INFO]: trololol72: afsdfasdfasdf
+[02:36:59] [Server thread/INFO]: Trial Quest » placed head at x: -784.5, y: 58.5, z: 985.5, yaw: 0, pitch: 0 in 'world'
+[02:36:59] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:36:59] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:36:59] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:36:59] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:36:59] [Server thread/INFO]: Trial Quest » checking for slot x: -782, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:38:02] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:38:02] [Server thread/INFO]: Line 97: (trial.sk)
+[02:38:02] [Server thread/INFO]:     Functions cannot be used here (or there is a problem with your arguments).
+[02:38:02] [Server thread/INFO]:     Line: trial_debug("placed head at %_clean_loc%")
+[02:38:02] [Server thread/INFO]:  
+[02:38:02] [Server thread/INFO]: Line 103: (trial.sk)
+[02:38:02] [Server thread/INFO]:     Can't understand this condition: '_clean_loc is loop-value'
+[02:38:02] [Server thread/INFO]:     Line: if _clean_loc is loop-value:
+[02:38:02] [Server thread/INFO]:  
+[02:38:02] [Server thread/INFO]:     Encountered 2 errors while reloading trial.sk! (114ms)
+[02:38:16] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:38:16] [Server thread/INFO]: Line 97: (trial.sk)
+[02:38:16] [Server thread/INFO]:     Functions cannot be used here (or there is a problem with your arguments).
+[02:38:16] [Server thread/INFO]:     Line: trial_debug("placed head at %_clean_loc%")
+[02:38:16] [Server thread/INFO]:  
+[02:38:16] [Server thread/INFO]:     Encountered 1 error while reloading trial.sk! (92ms)
+[02:38:26] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:38:27] [Server thread/INFO]: Successfully reloaded trial.sk. (83ms)
+[02:38:29] [Server thread/INFO]: Trial Quest » placed head at x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:38:29] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:38:29] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:38:29] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:38:29] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:38:29] [Server thread/INFO]: Trial Quest » checking for slot x: -782, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:39:11] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:39:11] [Server thread/INFO]: Successfully reloaded trial.sk. (82ms)
+[02:39:15] [Server thread/INFO]: Trial Quest » placed head at x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:39:15] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:39:15] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:39:15] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:39:15] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:39:15] [Server thread/INFO]: Trial Quest » in slot..
+[02:39:15] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 4.
+[02:39:15] [Server thread/INFO]: Trial Quest » Progress: 5 / 5
+[02:39:15] [Server thread/INFO]: Trial Quest » Quest Complete. Spawning structure...
+[02:39:15] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
+[02:39:15] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:39:38] [Server thread/INFO]: trololol72 issued server command: /trial_reset
+[02:39:39] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
+[02:39:49] [Server thread/INFO]: trololol72 issued server command: /tpb t
+[02:41:52] [Server thread/INFO]: trololol72 issued server command: /tpb trial chest
+[02:41:57] [Server thread/INFO]: Trial Quest » placed head at x: -784, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:41:57] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:41:57] [Server thread/INFO]: Trial Quest » in slot..
+[02:41:57] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 1.
+[02:41:58] [Server thread/INFO]: Trial Quest » Progress: 1 / 5
+[02:41:58] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:41:58] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:41:58] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:41:58] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:41:58] [Server thread/INFO]: Trial Quest » placed head at x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:41:58] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:41:58] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:41:58] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:41:58] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:41:58] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:41:58] [Server thread/INFO]: Trial Quest » in slot..
+[02:41:58] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 5.
+[02:41:58] [Server thread/INFO]: Trial Quest » Progress: 2 / 5
+[02:41:59] [Server thread/INFO]: Trial Quest » placed head at x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:41:59] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:41:59] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:41:59] [Server thread/INFO]: Trial Quest » in slot..
+[02:41:59] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 2.
+[02:41:59] [Server thread/INFO]: Trial Quest » Progress: 3 / 5
+[02:41:59] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:41:59] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:41:59] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:00] [Server thread/INFO]: Trial Quest » placed head at x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:00] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:42:00] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:00] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:42:00] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:00] [Server thread/INFO]: Trial Quest » in slot..
+[02:42:00] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 4.
+[02:42:00] [Server thread/INFO]: Trial Quest » Progress: 4 / 5
+[02:42:00] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:01] [Server thread/INFO]: Trial Quest » placed head at x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:42:01] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:42:01] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:01] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:42:01] [Server thread/INFO]: Trial Quest » in slot..
+[02:42:01] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 3.
+[02:42:01] [Server thread/INFO]: Trial Quest » Progress: 5 / 5
+[02:42:01] [Server thread/INFO]: Trial Quest » Quest Complete. Spawning structure...
+[02:42:01] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
+[02:42:01] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:01] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:03] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[02:42:11] [Server thread/INFO]: trololol72 issued server command: /trial_reset
+[02:42:11] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
+[02:42:21] [Server thread/INFO]: Trial Quest » placed head at x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:42:21] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:42:21] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:21] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:42:21] [Server thread/INFO]: Trial Quest » in slot..
+[02:42:21] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 3.
+[02:42:21] [Server thread/INFO]: Trial Quest » Progress: 1 / 5
+[02:42:21] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:21] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:22] [Server thread/INFO]: Trial Quest » placed head at x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:22] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 984, yaw: 0, pitch: 0 in 'world'
+[02:42:22] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:22] [Server thread/INFO]: Trial Quest » checking for slot x: -784, y: 58, z: 986, yaw: 0, pitch: 0 in 'world'
+[02:42:22] [Server thread/INFO]: Trial Quest » checking for slot x: -785, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:22] [Server thread/INFO]: Trial Quest » checking for slot x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:22] [Server thread/INFO]: Trial Quest » in slot..
+[02:42:22] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 5.
+[02:42:22] [Server thread/INFO]: Trial Quest » Progress: 2 / 5
+[02:42:38] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:42:38] [Server thread/INFO]: Successfully reloaded trial.sk. (316ms)
+[02:42:43] [Server thread/INFO]: Trial Quest » placed head at x: -783, y: 58, z: 985, yaw: 0, pitch: 0 in 'world'
+[02:42:43] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 5.
+[02:42:43] [Server thread/INFO]: Trial Quest » Progress: 1 / 5
+[02:42:55] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:42:55] [Server thread/INFO]: Successfully reloaded trial.sk. (154ms)
+[02:42:56] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 3.
+[02:42:56] [Server thread/INFO]: Trial Quest » Progress: 2 / 5
+[02:43:07] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[02:43:18] [Server thread/INFO]: Trial Quest » Invalid Head. NBT tag 'TrialQuestItem' missing.
+[02:44:06] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:44:06] [Server thread/INFO]: Successfully reloaded trial.sk. (188ms)
+[02:44:16] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:44:16] [Server thread/INFO]: Trial Quest » Invalid Head. NBT tag 'TrialQuestItem' missing.
+[02:46:02] [Server thread/INFO]: trololol72 issued server command: /give_ocean_heads 1
+[02:46:02] [Server thread/INFO]: Gave 1 [Bastet] to trololol72
+[02:46:08] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{sunhead:1b},"minecraft:custom_name":{bold:1b,color:"blue",italic:0b,text:"Bastet",underlined:0b},"minecraft:lore":[{color:"gray",italic:0b,text:"Left head of the Sun"}],"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1MWE2NDg1MjZmNWFhYWY2N2UxYTNkOWNiNjk1ZDM5MTBhNzk5NWIwNjgxZWFhMmUxYThiNDM5ZTkzMTgxZiJ9fX0="}]}}
+[02:46:11] [Server thread/INFO]: Summoned new Player Head
+[02:46:14] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{sunhead:1b},"minecraft:custom_name":{bold:1b,color:"blue",text:"Bastet"},"minecraft:lore":[{color:"gray",text:"Left head of the Sun"}],"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1MWE2NDg1MjZmNWFhYWY2N2UxYTNkOWNiNjk1ZDM5MTBhNzk5NWIwNjgxZWFhMmUxYThiNDM5ZTkzMTgxZiJ9fX0="}]}}
+[02:46:18] [Server thread/INFO]: Summoned new Player Head
+[02:46:20] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{TrialQuestItem:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:46:26] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:48:30] [Server thread/INFO]: trololol72 issued server command: /gamemode creative
+[02:48:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:50:02] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:50:02] [Server thread/INFO]: Successfully reloaded trial.sk. (143ms)
+[02:50:12] [Server thread/INFO]: trololol72 issued server command: /give_trial_head
+[02:50:12] [Server thread/INFO]: Gave 1 [Trial Core] to trololol72
+[02:50:22] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:50:23] [Server thread/INFO]: Summoned new Player Head
+[02:50:42] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:50:42] [Server thread/INFO]: Successfully reloaded trial.sk. (134ms)
+[02:50:46] [Server thread/INFO]: trololol72 issued server command: /give_trial_head
+[02:50:46] [Server thread/INFO]: Gave 1 [Trial Core] to trololol72
+[02:50:49] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:50:51] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[02:51:03] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
+[02:51:03] [Server thread/INFO]: [trololol72: Killed 8 entities]
+[02:51:09] [Server thread/INFO]: Summoned new Player Head
+[02:51:11] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:51:14] [Server thread/INFO]: Summoned new Player Head
+[02:51:17] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:51:17] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 1.
+[02:51:17] [Server thread/INFO]: Trial Quest » Progress: 3 / 5
+[02:51:19] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:51:19] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 4.
+[02:51:19] [Server thread/INFO]: Trial Quest » Progress: 4 / 5
+[02:51:22] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
+[02:51:24] [Server thread/INFO]: trololol72 issued server command: /give_trial_head
+[02:51:24] [Server thread/INFO]: Gave 1 [Trial Core] to trololol72
+[02:51:25] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:51:28] [Server thread/INFO]: Summoned new Player Head
+[02:51:30] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:51:30] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 4.
+[02:51:30] [Server thread/INFO]: Trial Quest » Progress: 5 / 5
+[02:51:30] [Server thread/INFO]: Trial Quest » Quest Complete. Spawning structure...
+[02:51:30] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
+[02:51:34] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:51:41] [Server thread/INFO]: trololol72 issued server command: /trial_reset
+[02:51:41] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
+[02:52:49] [Server thread/INFO]: [Skript] Reloading trial.sk...
+[02:52:49] [Server thread/INFO]: Successfully reloaded trial.sk. (123ms)
+[02:52:56] [Server thread/INFO]: trololol72 issued server command: /give_trial_head
+[02:52:56] [Server thread/INFO]: Gave 1 [Trial Core] to trololol72
+[02:52:58] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:52:58] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 1.
+[02:52:58] [Server thread/INFO]: Trial Quest » Progress: 1 / 5
+[02:52:59] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:52:59] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 2.
+[02:52:59] [Server thread/INFO]: Trial Quest » Progress: 2 / 5
+[02:52:59] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:52:59] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 4.
+[02:52:59] [Server thread/INFO]: Trial Quest » Progress: 3 / 5
+[02:53:00] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:53:00] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 5.
+[02:53:00] [Server thread/INFO]: Trial Quest » Progress: 4 / 5
+[02:53:00] [Server thread/INFO]: Trial Quest » nbt: {"minecraft:custom_data":{trialhead:1b},"minecraft:custom_name":{color:"gold",text:"Trial Core"},"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0="}]}}
+[02:53:00] [Server thread/INFO]: Trial Quest » Valid Head (String Match) placed at 3.
+[02:53:01] [Server thread/INFO]: Trial Quest » Progress: 5 / 5
+[02:53:01] [Server thread/INFO]: Trial Quest » Quest Complete. Spawning structure...
+[02:53:01] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
+[02:53:06] [Server thread/INFO]: trololol72 issued server command: /trial_reset
+[02:53:06] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
+[02:53:06] [Server thread/INFO]: Killed 36 entities
+[02:53:16] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[02:53:16] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[02:53:23] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[02:53:23] [Server thread/INFO]: Stopping server
+[02:53:23] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[02:53:23] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[02:53:23] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[02:53:23] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[02:53:23] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[02:53:23] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[02:53:23] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[02:53:23] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[02:53:23] [Server thread/INFO]: [TAB] Disabled in 0ms
+[02:53:23] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[02:53:23] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:53:23] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[02:53:23] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[02:53:23] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[02:53:23] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[02:53:23] [Server thread/INFO]: [LuckPerms] Closing storage...
+[02:53:23] [Server thread/INFO]: [LuckPerms] Goodbye!
+[02:53:23] [Server thread/INFO]: Saving players
+[02:53:23] [Server thread/INFO]: Saving worlds
+[02:53:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:53:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:53:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:53:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:53:24] [Server thread/INFO]: [ChunkHolderManager] Saved 47 block chunks, 720 entity chunks, 0 poi chunks in world 'world' in 0.85s
+[02:53:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[02:53:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[02:53:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:53:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:53:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:53:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:53:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[02:53:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[02:53:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[02:53:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:53:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:53:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:53:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:53:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[02:53:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[02:53:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[02:53:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:53:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:53:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:53:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:53:25] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[02:53:25] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[02:53:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[02:53:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
