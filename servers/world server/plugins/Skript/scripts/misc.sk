@@ -307,6 +307,49 @@ on right click:
             teleport player to {_loc}
 
 #Armor stands
+command /viewradius <number>:
+    permission: op
+    trigger:
+        set {_r} to arg-1
+        set {_center} to location of player
+        send "&eDisplaying radius of &b%{_r}% &eblocks for 10 seconds..."
+        
+        # Run 20 times (approx 10 seconds)
+        loop 20 times:
+            
+            set {_angle} to 0
+            loop 36 times:
+                add 10 to {_angle}
+                
+                # Calculate offsets
+                set {_cos} to cos({_angle}) * {_r}
+                set {_sin} to sin({_angle}) * {_r}
+                
+                # 1. Horizontal Ring (Red Flame)
+                set {_locH} to {_center}
+                add {_cos} to x-coord of {_locH}
+                add {_sin} to z-coord of {_locH}
+                
+                # FIXED SYNTAX: 'show 1 [particle] at [location]'
+                show 1 flame at {_locH}
+                
+                # 2. Vertical Ring 1 (White Sparks)
+                set {_locV1} to {_center}
+                add {_cos} to x-coord of {_locV1}
+                add {_sin} to y-coord of {_locV1}
+                
+                # FIXED SYNTAX
+                show 1 electric spark at {_locV1}
+                
+                # 3. Vertical Ring 2 (White Sparks)
+                set {_locV2} to {_center}
+                add {_cos} to z-coord of {_locV2}
+                add {_sin} to y-coord of {_locV2}
+                
+                # FIXED SYNTAX
+                show 1 electric spark at {_locV2}
+            
+            wait 10 ticks
 # Usage: /fillstands <radius>
 command /fillstands <number>:
     permission: op

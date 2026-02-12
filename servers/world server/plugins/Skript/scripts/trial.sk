@@ -176,3 +176,113 @@ command /give_trial_head:
     permission: op
     trigger:
         execute console command "/give %player% minecraft:player_head[minecraft:custom_data={trialhead:1b},minecraft:custom_name={text:""Trial Core"",color:""gold""},minecraft:profile={properties:[{name:""textures"",value:""eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0=""}]}] 1"
+
+
+options:
+    prefix: &b&lVault Manager &8»
+    
+    # How often to reset the vaults automatically
+    reset_interval: 24 hours
+
+# --- 1. Commands ---
+command /vault <text>:
+    permission: op
+    trigger:
+        # A. Add a Vault
+        if arg-1 is "add":
+            if target block is not a vault:
+                send "{@prefix} &cYou must look at a Vault block!"
+                stop
+            
+            set {_loc} to location of target block
+            if {vault_reset::list::*} contains {_loc}:
+                send "{@prefix} &cThis vault is already tracked."
+            else:
+                add {_loc} to {vault_reset::list::*}
+                send "{@prefix} &aVault added! &7It will now reset daily."
+                trial_debug("Vault added to tracker: %{_loc}%")
+                
+        # B. Remove a Vault
+        else if arg-1 is "remove":
+            set {_loc} to location of target block
+            if {vault_reset::list::*} contains {_loc}:
+                remove {_loc} from {vault_reset::list::*}
+                send "{@prefix} &eVault removed from auto-reset."
+                trial_debug("Vault removed from tracker: %{_loc}%")
+            else:
+                send "{@prefix} &cThis vault is not in the list."
+
+        # C. FORCE RESET (The command you asked for)
+        else if arg-1 is "resetall":
+            send "{@prefix} &eForcing reset of %size of {vault_reset::list::*}% vaults..."
+            trial_debug("Force reset triggered by %player%.")
+            reset_all_vaults()
+            
+        # D. List Status
+        else if arg-1 is "list":
+            send "{@prefix} &fTracked Vaults: &b%size of {vault_reset::list::*}%"
+
+        else:
+            send "{@prefix} &eUsage: /trial_vault <add|remove|resetall|list>"
+
+# --- 2. The Reset Logic ---
+function reset_all_vaults():
+    set {_count} to 0
+    trial_debug("Starting Scheduled Vault Reset...")
+    
+    loop {vault_reset::list::*}:
+        set {_loc} to loop-value
+        
+        # Check if it's physically still a vault block
+        if block at {_loc} is a vault:
+            
+            # --- THE MEMORY WIPE ---
+            # Deleting 'server_data' removes the list of players who have opened it.
+            delete tag "server_data" of nbt of block at {_loc}
+            
+            add 1 to {_count}
+            
+            # Visual Feedback & Debug
+            # play sequence "minecraft:trial_spawner_spawn_item" at {_loc}
+            trial_debug("Reset Vault at %{_loc}%")
+            
+        else:
+            # Cleanup invalid locations (e.g. if the vault was broken)
+            remove {_loc} from {vault_reset::list::*}
+            trial_debug("Removed invalid vault (Block missing) at %{_loc}%")
+    
+    broadcast "{@prefix} &a&lDaily Reset! &f%{_count}% Ominous Vaults have been replenished."
+    trial_debug("Reset Cycle Complete. Total Refreshed: %{_count}%")
+
+# --- 3. Auto-Timer ---
+every {@reset_interval}:
+    reset_all_vaults()
+
+command /vault_find <integer>:
+    permission: op
+    trigger:
+        send "&eStarting scan for Vaults in radius %arg-1%... (Expect lag)"
+        set {_count} to 0
+        set {_checks} to 0
+        
+        loop all blocks in radius arg-1 around player:
+            
+            # --- THE BATCH FIX ---
+            add 1 to {_checks}
+            
+            # Only wait once every 10,000 blocks
+            if {_checks} >= 10000:
+                set {_checks} to 0
+                wait 1 tick
+                send "tick"
+            # ---------------------
+
+            if loop-block is a vault:
+                set {_loc} to location of loop-block
+                
+                if {vault_reset::list::*} does not contain {_loc}:
+                    add {_loc} to {vault_reset::list::*}
+                    add 1 to {_count}
+                    send "&a[+] Added Vault at %{_loc}%"
+        
+        send "&aScan complete. Added %{_count}% new vaults to the tracker."
