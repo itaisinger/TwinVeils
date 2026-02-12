@@ -228,36 +228,40 @@ command /vault <text>:
 # --- 2. The Reset Logic ---
 function reset_all_vaults():
     set {_count} to 0
-    # The Loot Table path (Must match your Datapack's path)
-    set {_loot_table} to "minecraft:chests/trial_chambers/reward_ominous_unique"
+    
+    # 1. Define the Loot Tables
+    set {_table_ominous} to "minecraft:chests/trial_chambers/reward_ominous_unique"
+    set {_table_normal} to "minecraft:chests/trial_chambers/reward"
     
     loop {vault_reset::list::*}:
         set {_loc} to loop-value
         
+        # Verify it's still a vault
         if block at {_loc} is a vault:
             
-            # 1. Get Integers (Commands hate decimals)
+            # Get integer coordinates (Required for commands)
             set {_x} to floor(x-coord of {_loc})
             set {_y} to floor(y-coord of {_loc})
             set {_z} to floor(z-coord of {_loc})
             
-            # 2. CLEAR MEMORY
-            # Removes the list of players who opened it.
+            # --- STEP 1: WIPE MEMORY (Applies to ALL vaults) ---
             execute console command "data remove block %{_x}% %{_y}% %{_z}% server_data.rewarded_players"
             
-            # 3. FORCE LOOT TABLE (The Fix)
-            # Vaults keep this inside the 'config' tag, NOT at the root.
-            execute console command "data modify block %{_x}% %{_y}% %{_z}% config.loot_table set value ""%{_loot_table}%"""
+            # --- STEP 2: APPLY LOOT TABLE BASED ON TYPE ---
+            
+            # A. If it is OMINOUS [ominous=true] -> Apply YOUR Custom Table
+            execute console command "execute if block %{_x}% %{_y}% %{_z}% minecraft:vault[ominous=true] run data modify block %{_x}% %{_y}% %{_z}% config.loot_table set value ""%{_table_ominous}%"""
+            
+            # B. If it is NORMAL [ominous=false] -> Revert to Vanilla Normal Table
+            # (This fixes any normal vaults the previous script might have messed up)
+            execute console command "execute if block %{_x}% %{_y}% %{_z}% minecraft:vault[ominous=false] run data modify block %{_x}% %{_y}% %{_z}% config.loot_table set value ""%{_table_normal}%"""
             
             add 1 to {_count}
-            
-            # Visual Feedback
             
         else:
             remove {_loc} from {vault_reset::list::*}
     
-    broadcast "{@prefix} &a&lDaily Reset! &f%{_count}% Ominous Vaults have been replenished."
-
+    broadcast "{@prefix} &a&lDaily Reset! &f%{_count}% Vaults (Normal & Ominous) replenished."
 # --- 3. Auto-Timer ---
 every {@reset_interval}:
     reset_all_vaults()

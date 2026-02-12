@@ -64,7 +64,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "weight": 5,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_components",
