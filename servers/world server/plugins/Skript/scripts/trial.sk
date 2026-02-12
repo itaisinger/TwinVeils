@@ -103,6 +103,21 @@ on place of player head:
             # --- STRING-BASED NBT CHECK ---
             # Checks if the full NBT string contains our unique ID.
             if "%nbt of player's tool%" contains "trialhead":
+                #placed effect
+                #option - eye of ender place, Amethyst shimmer.
+                set {_pitch} to random number between 0.8 and 1.2
+                play sound "minecraft:block.amethyst_block.resonate" with pitch {_pitch} at {_clean_loc}
+                set {_pitch} to random number between 0.8 and 1.2
+                play sound "block.end_portal_frame.fill" with pitch {_pitch} at {_clean_loc}
+                set {_pitch} to random number between 0.8 and 1.2
+                play sound "block.amethyst_cluster.place" with pitch {_pitch} at {_clean_loc}
+                set block at block below {_clean_loc} to waxed exposed copper bulb[powered=true,lit=true]
+
+                #visual
+                draw 20 end_rod at location of target block with offset vector(0.5, 0.5, 0.5) with extra 0.02
+                # draw 4 glow at location of target block with offset vector(0.1, 0.0, 0.1) with extra 0.00
+                # draw 100 electric spark at {_clean_loc} with offset vector(1, 0.1, 1) with extra 0.05
+
                 trial_debug("Valid Head (String Match) placed at %loop-index%.")
                 wait 2 ticks
                 check_trial_victory()
@@ -115,7 +130,10 @@ function check_trial_victory():
     loop {trial_quest::slots::*}:
         if block at loop-value is player head:
             add 1 to {_filled}
-
+        else:
+            # set block at block below loop-value to dirt
+            set block at block below loop-value to waxed exposed copper bulb[powered=false,lit=false]
+            
     trial_debug("Progress: %{_filled}% / 5")
 
     if {_filled} >= 5:
@@ -159,6 +177,9 @@ on break of player head:
     if {_nbt} contains "trialhead:1b":
         cancel drops
         spawn_trial_head(location of event-block)
+    
+    wait 1 tick
+    check_trial_victory()
 #
 function spawn_trial_head(loc:location):
     set {_x} to x-coord of {_loc}
