@@ -15,7 +15,21 @@ on load:
     set {trial_quest::slots::3} to location(-784, 58, 986, "world")
     set {trial_quest::slots::4} to location(-785, 58, 985, "world")
     set {trial_quest::slots::5} to location(-783, 58, 985, "world")
-    
+#
+every 5 ticks:
+    if {trial_quest::completed} is true:
+        stop
+    if {trial_quest::chest_loc} is set:
+        set {_loc} to {trial_quest::chest_loc}
+        
+        # --- OPTIMIZATION ---
+        # Only run if a player is within 40 blocks
+        if size of (players in radius 40 of {_loc}) > 0:
+            
+            draw 80 portal at {_loc} with offset vector(5.5, 5.5, 5.5) with extra 0.05
+
+
+
 
 function trial_debug(msg: text):
     if {trial_debug_active} is true:
@@ -145,12 +159,32 @@ function finish_quest():
     
     set {_loc} to {trial_quest::struc_loc}
     if {_loc} is set:
-        play sound "ui.toast.challenge_complete" with volume 10 at {_loc}
+        set {_center_loc} to {trial_quest::chest_loc}
+        play sound "minecraft:trial_chest.startup" with volume 8 at {_loc}
         
+        loop 40 times:
+            
+            # A. The Suction (Purple particles flying INTO the center)
+            draw 5 portal at {_center_loc} with offset vector(1.5, 1.5, 1.5) with extra 0
+
+            # B. The Amethyst Cloud (Purple fog)
+            draw 2 dragon_breath at {_center_loc} with offset vector(0.3, 0.3, 0.3) with extra 0.02
+            
+            # C. The Magic Sparkles (White energy)
+            # draw 1 end_rod at {_center_loc} with offset vector(0.5, 0.5, 0.5) with extra 0.05
+            
+            # Optional: Increase pitch to simulate "about to blow"
+            if loop-number is 20:
+                play sound "minecraft:block.respawn_anchor.charge" with volume 0.2 with pitch 1.0 at {_center_loc}
+            if loop-number is 35:
+                play sound "minecraft:block.respawn_anchor.charge" with volume 0.2 with pitch 1.5 at {_center_loc}
+            
+            wait 2 ticks
+
+        play sound "minecraft:trial_chest.explosion" with volume 8 at {_loc}
         set {_x} to floor(x-coord of {_loc})
         set {_y} to floor(y-coord of {_loc})
         set {_z} to floor(z-coord of {_loc})
-        
         execute console command "/place template minecraft:trial_chest %{_x}% %{_y}% %{_z}%"
     else:
         broadcast "{@prefix} &cError: Structure location not set!"

@@ -23,6 +23,16 @@
     "sounds": [
       "custom/oceanhead_done"
     ]
+  },
+  "trial_chest.startup": {
+    "sounds": [
+      "custom/trial_startup"
+    ]
+  },
+  "trial_chest.explosion": {
+    "sounds": [
+      "custom/trial_exlosion"
+    ]
   }
   
   
