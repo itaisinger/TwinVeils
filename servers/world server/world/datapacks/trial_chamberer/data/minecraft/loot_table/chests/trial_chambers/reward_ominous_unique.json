@@ -1,0 +1,113 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "pool_common",
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 5,
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 4, "max": 10 } } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wind_charge",
+          "weight": 4,
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 8, "max": 12 } } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 3,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } },
+            { "function": "minecraft:set_potion", "id": "minecraft:strong_slowness" }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "functions": [ { "function": "minecraft:set_count", "count": { "min": 2, "max": 3 } } ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ominous_bottle",
+          "weight": 1,
+          "functions": [ { "function": "minecraft:set_ominous_bottle_amplifier", "amplifier": { "min": 2, "max": 4 } } ]
+        }
+      ]
+    },
+    {
+      "name": "pool_rare",
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:emerald_block", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:iron_block", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:crossbow", "weight": 4, "functions": [ { "function": "minecraft:enchant_with_levels", "levels": { "min": 5, "max": 20 } } ] },
+        { "type": "minecraft:item", "name": "minecraft:golden_apple", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:diamond_axe", "weight": 3, "functions": [ { "function": "minecraft:enchant_with_levels", "levels": { "min": 10, "max": 20 } } ] },
+        { "type": "minecraft:item", "name": "minecraft:diamond_chestplate", "weight": 3, "functions": [ { "function": "minecraft:enchant_with_levels", "levels": { "min": 10, "max": 20 } } ] },
+        { "type": "minecraft:item", "name": "minecraft:book", "weight": 2, "functions": [ { "function": "minecraft:enchant_randomly", "options": ["knockback", "punch", "smite", "looting", "multishot"] } ] },
+        { "type": "minecraft:item", "name": "minecraft:book", "weight": 2, "functions": [ { "function": "minecraft:enchant_randomly", "options": ["breach", "density"] } ] },
+        { "type": "minecraft:item", "name": "minecraft:book", "weight": 2, "functions": [ { "function": "minecraft:set_enchantments", "enchantments": { "minecraft:wind_burst": 1 } } ] },
+        { "type": "minecraft:item", "name": "minecraft:diamond_block", "weight": 1 },
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Trial Core\",\"color\":\"gold\"}",
+                "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0=" } ] },
+                "minecraft:custom_data": "{trialhead:1b}"
+              }
+            }
+          ]
+        },
+
+        { "type": "minecraft:empty", "weight": 7 }
+      ]
+    },
+    {
+      "name": "pool_unique",
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:enchanted_golden_apple", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:flow_armor_trim_smithing_template", "weight": 3 },
+        { "type": "minecraft:item", "name": "minecraft:flow_banner_pattern", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:music_disc_creator", "weight": 1 },
+        { "type": "minecraft:item", "name": "minecraft:heavy_core", "weight": 1 },
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Trial Core\",\"color\":\"gold\"}",
+                "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwMmE4YWVlMGVhNDcwMjNjYzBlYTk0ZjUwMTRhNGRiZjYxZmMyMTQ5NDZjZDgyNDM3MjUyNzBiMzFlMjlhZCJ9fX0=" } ] },
+                "minecraft:custom_data": "{trialhead:1b}"
+              }
+            }
+          ]
+        },
+        
+        { "type": "minecraft:empty", "weight": 4 }
+      ]
+    }
+  ]
+}

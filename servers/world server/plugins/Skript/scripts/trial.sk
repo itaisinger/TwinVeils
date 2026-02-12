@@ -228,31 +228,35 @@ command /vault <text>:
 # --- 2. The Reset Logic ---
 function reset_all_vaults():
     set {_count} to 0
-    trial_debug("Starting Scheduled Vault Reset...")
+    # The Loot Table path (Must match your Datapack's path)
+    set {_loot_table} to "minecraft:chests/trial_chambers/reward_ominous_unique"
     
     loop {vault_reset::list::*}:
         set {_loc} to loop-value
         
-        # Check if it's physically still a vault block
         if block at {_loc} is a vault:
             
-            # --- THE MEMORY WIPE ---
-            # Deleting 'server_data' removes the list of players who have opened it.
-            delete tag "server_data" of nbt of block at {_loc}
+            # 1. Get Integers (Commands hate decimals)
+            set {_x} to floor(x-coord of {_loc})
+            set {_y} to floor(y-coord of {_loc})
+            set {_z} to floor(z-coord of {_loc})
+            
+            # 2. CLEAR MEMORY
+            # Removes the list of players who opened it.
+            execute console command "data remove block %{_x}% %{_y}% %{_z}% server_data.rewarded_players"
+            
+            # 3. FORCE LOOT TABLE (The Fix)
+            # Vaults keep this inside the 'config' tag, NOT at the root.
+            execute console command "data modify block %{_x}% %{_y}% %{_z}% config.loot_table set value ""%{_loot_table}%"""
             
             add 1 to {_count}
             
-            # Visual Feedback & Debug
-            # play sequence "minecraft:trial_spawner_spawn_item" at {_loc}
-            trial_debug("Reset Vault at %{_loc}%")
+            # Visual Feedback
             
         else:
-            # Cleanup invalid locations (e.g. if the vault was broken)
             remove {_loc} from {vault_reset::list::*}
-            trial_debug("Removed invalid vault (Block missing) at %{_loc}%")
     
     broadcast "{@prefix} &a&lDaily Reset! &f%{_count}% Ominous Vaults have been replenished."
-    trial_debug("Reset Cycle Complete. Total Refreshed: %{_count}%")
 
 # --- 3. Auto-Timer ---
 every {@reset_interval}:
