@@ -288,7 +288,15 @@ command /tpb <text>:
             set {tpback::%arg-1%} to location of player
             broadcast "Set tpb location for '%arg-1%' to: %{tpback::%arg-1%}%"
             
-
+command /tpb_del <text>:
+    permission: op
+    trigger:
+        if {tpback::%arg-1%} is set:
+            delete {tpback::%arg-1%}
+            broadcast "tpb deleted: " + arg-1
+        else:
+            broadcast "tpb " + arg-1 + " not found."
+    
 command /tpb_set <text>:
     permission: op
     trigger:
