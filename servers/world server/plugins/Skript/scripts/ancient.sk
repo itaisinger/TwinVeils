@@ -1,0 +1,14 @@
+on load:
+    register new shapeless recipe for blaze powder using bedrock, bedrock, bedrock, bedrock, bedrock, bedrock, bedrock, bedrock, bedrock with id "maze:bedrock_to_blaze"
+
+on place of bedrock:
+    if gamemode of player is survival:
+        cancel event
+        play sound "minecraft:block.glass.break" with volume 1.5 with pitch 0.3 at location of event-block
+        play sound "minecraft:entity.ender_dragon.hurt" with volume 0.6 with pitch 0.9 at location of event-block
+        draw 40 dust particle using dustOption(black, 1) at location of event-block with offset vector(0.45, 0.45, 0.45) with extra 0.05
+        draw 40 block particle using bedrock at location of event-block with offset vector(0.3, 0.3, 0.3)
+
+on craft blaze powder:
+    play sound "minecraft:entity.blaze.hurt" with volume 1.5 with pitch 0.7 at location of event-player
+    play sound "minecraft:block.fire.extinguish" with volume 0.7 with pitch 0.8 at location of event-player
