@@ -596,3 +596,52 @@ function ruminations_ii_book(p: player):
     set page 5 of {_book} to {_p5}
 
     give {_book} to {_p}
+
+#
+command /update_eschatology <integer>:
+    permission: op
+    description: Replaces old Eschatology books in nearby containers with the held item.
+    usage: /update_eschatology <radius>
+    trigger:
+        # 1. Check if the player is holding a book
+        if player's tool is not a written book:
+            send "&cYou must be holding the new written book in your hand!" to player
+            stop
+            
+        set {_radius} to arg-1
+        send "&eScanning all containers within %{_radius}% blocks... This may take a moment." to player
+        
+        set {_blocks_scanned} to 0
+        set {_books_replaced} to 0
+        
+        # 2. Loop all blocks in the radius
+        loop all blocks in radius {_radius} around player:
+            
+            set {_b} to loop-block
+            
+            # Breathing frames
+            add 1 to {_blocks_scanned}
+            if mod({_blocks_scanned}, 5000) is 0:
+                wait 1 tick
+                send "tick"
+                
+            # 3. Check for container blocks
+            if {_b} is chest or barrel or trapped chest or hopper or dropper or dispenser:
+                set {_inv} to inventory of {_b}
+                
+                # 4. Hardcode 0 to 53 (Covers up to double chests. Smaller inventories safely return 'air' for higher numbers)
+                loop integers between 0 and 53:
+                    set {_slot} to loop-integer
+                    set {_item} to slot {_slot} of {_inv}
+                    
+                    # 5. Identify the old book
+                    if {_item} is not air:
+                        if uncolored name of {_item} is "Eschatology IV":
+                            
+                            # Replace it with an exact copy of what you are holding
+                            set slot {_slot} of {_inv} to player's tool
+                            add 1 to {_books_replaced}
+                            
+        # 6. Finish message
+        send "&aScan complete! Replaced &e%{_books_replaced}% &aold books." to player
+#
