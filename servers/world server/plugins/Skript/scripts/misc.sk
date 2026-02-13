@@ -317,6 +317,9 @@ on right click:
             cancel event
             set {_tar} to targeted block
             set {_loc} to location(x-coord of {_tar}, y-coord of {_tar} + 1, z-coord of {_tar})
+            add 1 to y-coordinate of {_loc}
+            set yaw of {_loc} to player's yaw
+            set pitch of {_loc} to player's pitch
             teleport player to {_loc}
 
 #Armor stands
