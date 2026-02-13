@@ -28,9 +28,6 @@ every 5 ticks:
             
             draw 80 portal at {_loc} with offset vector(5.5, 5.5, 5.5) with extra 0.05
 
-
-
-
 function trial_debug(msg: text):
     if {trial_debug_active} is true:
         broadcast "{@prefix} %{_msg}%"

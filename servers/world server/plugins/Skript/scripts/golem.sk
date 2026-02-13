@@ -1,6 +1,9 @@
 on load:
     cherry_debug("Reloading script, scanning for existing golems...")
     find_golem()
+    set {golem::state} to "none" 
+    set {golem::consume_items::*} to iron ingot, iron nugget, iron block, raw iron
+    set {golem::consume_tools::*} to iron spear, iron axe, iron sword, iron pickaxe, iron hoe, iron chestplate, iron helmet, iron leggings, iron boots, iron shovel
 #
 function cherry_debug(msg: text):
     if {cherry_debug_active} is true:
@@ -24,8 +27,8 @@ function find_golem():
             set {boss_golem} to loop-iron golem
             cherry_debug("golem found at %location of loop-iron golem%")
     
-    if {boss_golem} is not set:
-        cherry_debug("golem not found")
+    # if {boss_golem} is not set:
+        # cherry_debug("golem not found")
 
 #
 on death of iron golem:
@@ -43,13 +46,197 @@ on death of iron golem:
         delete {boss_golem}
         cherry_debug("Cherry Boss died.")
 
+options:
+    consume_range_max: 30
+    consume_range_min: 3
+
+#try to consume
+every 3 seconds:
+    if {golem::state} is "consume":
+        cherry_debug("already consuming, skipping check")
+        stop
+    cherry_debug("attempting to start consume. hp: %health of {boss_golem}% / %max health of {boss_golem}%")
+
+    if {boss_golem} is not set:
+        stop
+        
+    if health of {boss_golem} >= max health of {boss_golem}:
+        set {golem::state} to "none"
+        stop
+
+    #reset
+    set {golem::target} to "none"
+    delete {golem::consume_item}
+    delete {golem::consume_tool}
+
+    set {_min} to 5
+    set {_max} to 30
+
+    loop all players:
+        set {_d} to distance between {boss_golem} and loop-player
+        cherry_debug("- d: %{_d}%")
+        
+        if {_d} < {_min}:
+            cherry_debug("found melee target")
+            stop
+        
+        if {_d} <= {_max}:
+            loop items in inventory of loop-player:
+                if {golem::consume_tools::*} contains type of loop-item:
+                    set {golem::consume_tool} to type of loop-item
+                    cherry_debug("found consume target: %loop-item%")
+                    set {golem::target} to loop-player
+
+                else if {golem::consume_items::*} contains type of loop-item:
+                    set {golem::consume_item} to type of loop-item
+                    cherry_debug("found consume target: %loop-item%")
+                    set {golem::target} to loop-player
+    
+    if {golem::target} is not "none":
+        set {golem::state} to "consume"
+
+#state loop
+every 4 ticks:
+    #not set
+    if {boss_golem} is not set:
+        find_golem()
+        if {boss_golem} is not set:
+            # cherry_debug(" golem dead/not found.")
+            stop
+    #dead
+    if {boss_golem} is dead:
+        # cherry_debug("golem dead.")
+        stop
+    
+    #particles
+    cherry_particles() 
+
+    #go home
+    set {golem::wander_dis} to 25
+    set {golem::chase_dis} to 75
+    set {golem::tp_dis} to 200
+    
+    #top
+    if distance between {boss_golem} and {golem::home} > {golem::tp_dis}:
+        teleport {boss_golem} to {golem::home}
+        heal {boss_golem} by 200 hearts
+    #stop chase
+    if distance between {boss_golem} and {golem::home} > {golem::chase_dis}:
+        cherry_debug("returning home")
+        set path target of {boss_golem} to {golem::home}
+    #wander back
+    if distance between {boss_golem} and {golem::home} > {golem::wander_dis}:
+        if target of {boss_golem} is not set:
+            cherry_debug("returning home")
+            set path target of {boss_golem} to {golem::home}
+
+    #consume state
+    if {golem::state} is "consume":
+        cherry_debug("consume")
+        set {_d} to distance between {boss_golem} and {golem::target}
+        if {_d} > 35:
+            set {golem::state} to "none"
+            stop 
+        if health of {boss_golem} is max health of {boss_golem}:
+            set {golem::state} to "none"
+            stop
+
+        #consume
+        apply slowness 10 without particles to {boss_golem} for 1 second
+        # make {boss_golem} look at {golem::target}
+
+        #consume item
+        if {golem::consume_item} is set:
+            # Remove the dynamic item from the actual player
+            remove 1 of {golem::consume_item} from inventory of {golem::target}
+            heal {boss_golem} by 5 heart
+            heal_particles(1)
+            set {_p} to random number between 0.3 and 0.8
+            play sound "block.anvil.land" with volume 0.2 and pitch {_p} at {golem::target}
+            play sound "minecraft:entity.item.pickup" with volume 0.7 and pitch 1+{_p} at {golem::target}
+            consume_particles()
+
+            # If they ran out of the item, reset state
+            if {golem::target} does not have {golem::consume_item}:
+                set {golem::state} to "none"
+
+        #consume tool
+        else if {golem::consume_tool} is set:
+            # Loop the target's inventory to directly damage the physical item they hold
+            loop items in inventory of {golem::target}:
+                if type of loop-item is {golem::consume_tool}:
+                    damage loop-item by 10
+                    heal {boss_golem} by 5 hearts
+                    heal_particles(5)
+                    consume_particles()
+                    
+                    if damage of loop-item >= max durability of loop-item:
+                        remove loop-item from inventory of {golem::target}
+                        play sound "entity.item.break" with volume 1 and pitch 1 at {golem::target}
+                        set {golem::state} to "none"
+                    stop loop # Stop after damaging one tool
+        
+#
+function cherry_particles():
+    set {_loc} to location of {boss_golem}
+    add 2 to y-coord of {_loc}
+    set {_x} to x-coord of {_loc}
+    set {_y} to y-coord of {_loc}
+    set {_z} to z-coord of {_loc}
+    # Spawns orange dust particles (RGB: 1 0.5 0)
+    draw 4 dust particle using dustOption(pink, 1.5) at {_loc} with offset vector(0.5, 0.5, 0.5)
+#
+function heal_particles(amount: integer):
+    set {_loc} to location of {boss_golem}
+    add 1.5 to y-coord of {_loc}
+    set {_x} to x-coord of {_loc}
+    set {_y} to y-coord of {_loc}
+    set {_z} to z-coord of {_loc}
+    # Spawns orange dust particles (RGB: 1 0.5 0)
+    set {_a_mult} to random number between 1 and 2
+    set {_amount} to floor({_amount} * {_a_mult})
+    draw {_amount} happy_villager particle at {_loc} with offset vector(0.5, 0.7, 0.5)
+#
+function consume_particles():
+    set {_px} to x-coord of {golem::target}
+    set {_py} to y-coord of {golem::target} + 1
+    set {_pz} to z-coord of {golem::target}
+
+    set {_gx} to x-coord of {boss_golem}
+    set {_gy} to y-coord of {boss_golem} + 1.5
+    set {_gz} to z-coord of {boss_golem}
+
+    set {_amount} to random integer between 1 and 5
+    # Added duration:20 (1 second) to the particle data
+    execute console command "particle minecraft:trail{target:[%{_gx}%,%{_gy}%,%{_gz}%],color:[0.89,0.52,0.6],duration:20} %{_px}% %{_py}% %{_pz}% 0.1 0.1 0.1 0 %{_amount}%"#
+
+#
+function spawn_golem_boss():
+    if {golem::home} is not set:
+        broadcast "&cSet the home location first with /cherry_set_home!"
+        stop
+        
+    spawn 1 iron golem at {golem::home}
+    set {boss_golem} to last spawned iron golem
+    add "cherry_boss" to scoreboard tags of {boss_golem}
+    set display name of {boss_golem} to "&c&lIron Boss"
+    set max health of {boss_golem} to max health of {boss_golem} * 3
+    heal {boss_golem} by 200 hearts
+    apply potion of speed of tier 2 without particles to {boss_golem} for 999 days
+    set generic follow range attribute of {_boss} to 50
+    cherry_debug("Cherry Boss spawned at %{golem::home}% and tagged.")
 ###
 # methods
 ###
+command /cherry_tp:
+    permission: op
+    trigger:
+        if {boss_golem} is set:
+            teleport player to {boss_golem}
 command /cherry_set_home:
     permission: op
     trigger:
-        set {boss_golem_home} to player's location
+        set {golem::home} to player's location
         cherry_debug("Boss home set to %player's location%")
 #
 command /cherry_kill_boss:
@@ -57,19 +244,15 @@ command /cherry_kill_boss:
     trigger:
         kill_cherry_boss()
 #
+command /cherry_damage_boss <integer>:
+    permission: op
+    trigger:
+        damage {boss_golem} by arg-1
+#
 command /spawn_cherry_golem:
     permission: op
     trigger:
-        if {boss_golem_home} is not set:
-            send "&cSet the home location first with /cherry_set_home!" to player
-            stop
-            
-        spawn 1 iron golem at {boss_golem_home}
-        set {boss_golem} to last spawned iron golem
-        add "cherry_boss" to scoreboard tags of {boss_golem}
-        set display name of {boss_golem} to "&c&lIron Boss"
-        
-        cherry_debug("Cherry Boss spawned at %{boss_golem_home}% and tagged.")
+        spawn_golem_boss()
 #
 command /cherry_debug <text>:
     permission: op

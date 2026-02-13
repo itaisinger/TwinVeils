@@ -162,7 +162,7 @@ case-insensitive commands: false
 # When set to true, /test, /Test, and /TEST will all be equivalent.
 # This does not affect non-Skript commands.
 
-disable variable will not be saved warnings: false
+disable variable will not be saved warnings: true
 # Disables the "... i.e contents cannot be saved ..." warning when reloading and something in your scripts sets a variable(non local) to a value that is not serializable.
 # By Mirre.
 
