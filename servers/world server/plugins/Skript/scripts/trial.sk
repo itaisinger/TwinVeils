@@ -35,7 +35,7 @@ function trial_debug(msg: text):
     if {trial_debug_active} is true:
         broadcast "{@prefix} %{_msg}%"
 
-# --- RESTORED COMMAND ---
+#
 command /trial_debug <text>:
     permission: op
     trigger:
@@ -162,6 +162,7 @@ function finish_quest():
         set {_center_loc} to {trial_quest::chest_loc}
         play sound "minecraft:trial_chest.startup" with volume 8 at {_loc}
         
+        
         loop 40 times:
             
             # A. The Suction (Purple particles flying INTO the center)
@@ -186,6 +187,13 @@ function finish_quest():
         set {_y} to floor(y-coord of {_loc})
         set {_z} to floor(z-coord of {_loc})
         execute console command "/place template minecraft:trial_chest %{_x}% %{_y}% %{_z}%"
+
+        
+        draw 200 dust particle using dustOption(purple, 2.5) at {_center_loc} with offset vector(2.5, 2.5, 2.5)
+        # draw 1 explosion_emitter at {_center_loc} with offset vector(0.5, 0.5, 0.5) with extra 0.004
+        draw 50 poof at {_center_loc} with offset vector(1.5, 1.5, 1.5) with extra 0.004
+        draw 350 witch at {_center_loc} with offset vector(2, 2, 2) with extra 0.008
+
     else:
         broadcast "{@prefix} &cError: Structure location not set!"
 
