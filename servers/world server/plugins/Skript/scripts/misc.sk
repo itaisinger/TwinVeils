@@ -276,6 +276,11 @@ command /breaktool <integer>:
 command /tpb <text>:
     permission: op
     trigger:
+        if arg-1 is "list":
+            broadcast "tpb list:"
+            loop {tpback::*}:
+                broadcast "- %loop-index%"
+            stop
         if {tpback::%arg-1%} is set:
             teleport player to {tpback::%arg-1%}
             broadcast "teleporting to " + {tpback::%arg-1%}
