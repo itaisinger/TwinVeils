@@ -1,0 +1,84 @@
+on load:
+    cherry_debug("Reloading script, scanning for existing golems...")
+    find_golem()
+#
+function cherry_debug(msg: text):
+    if {cherry_debug_active} is true:
+        broadcast "[CHERRY] %{_msg}%"
+#
+function kill_cherry_boss():
+    if {boss_golem} is not set:
+        find_golem()
+
+    if {boss_golem} is set:
+        kill {boss_golem}
+        delete {boss_golem}
+        cherry_debug("Cherry Boss was killed and data cleared.")
+    else:
+        cherry_debug("Attempted to kill Cherry Boss, but none was found.")
+
+#
+function find_golem():
+    loop all iron golems:
+        if scoreboard tags of loop-iron golem contains "cherry_boss":
+            set {boss_golem} to loop-iron golem
+            cherry_debug("golem found at %location of loop-iron golem%")
+    
+    if {boss_golem} is not set:
+        cherry_debug("golem not found")
+
+#
+on death of iron golem:
+    if scoreboard tags of victim contains "cherry_boss":
+        clear drops
+        loop (random integer between 1 and 15) times:
+            add 1 of iron nugget to drops
+        loop (random integer between 1 and 10) times:
+            add 1 of iron ingot to drops
+        loop (random integer between 1 and 5) times:
+            add 1 of iron block to drops
+
+        add 1 poppy to drops
+        add 1 blaze powder to drops
+        delete {boss_golem}
+        cherry_debug("Cherry Boss died.")
+
+###
+# methods
+###
+command /cherry_set_home:
+    permission: op
+    trigger:
+        set {boss_golem_home} to player's location
+        cherry_debug("Boss home set to %player's location%")
+#
+command /cherry_kill_boss:
+    permission: op
+    trigger:
+        kill_cherry_boss()
+#
+command /spawn_cherry_golem:
+    permission: op
+    trigger:
+        if {boss_golem_home} is not set:
+            send "&cSet the home location first with /cherry_set_home!" to player
+            stop
+            
+        spawn 1 iron golem at {boss_golem_home}
+        set {boss_golem} to last spawned iron golem
+        add "cherry_boss" to scoreboard tags of {boss_golem}
+        set display name of {boss_golem} to "&c&lIron Boss"
+        
+        cherry_debug("Cherry Boss spawned at %{boss_golem_home}% and tagged.")
+#
+command /cherry_debug <text>:
+    permission: op
+    trigger:
+        if arg-1 is "true":
+            set {cherry_debug_active} to true
+            send "&a&l[Cherry Boss] Debug ENABLED."
+        else if arg-1 is "false":
+            set {cherry_debug_active} to false
+            send "&c&l[Cherry Boss] Debug DISABLED."
+        else:
+            send "&eUsage: /cherry_debug <true/false>"

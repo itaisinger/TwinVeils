@@ -1,224 +1,423 @@
-[17:02:10] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[17:02:10] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[17:02:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:02:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[17:02:12] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[20:53:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-adhoc.Administrator.jdk21u; OpenLogic OpenLogic-OpenJDK) on Windows 11 10.0 (amd64)
+[20:53:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[20:53:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:53:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[20:53:57] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[17:02:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[20:53:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[17:02:18] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[17:02:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:02:21] [ServerMain/INFO]: Loaded 1470 recipes
-[17:02:21] [ServerMain/INFO]: Loaded 1584 advancements
-[17:02:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[17:02:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 500.3ms
-[17:02:22] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[17:02:22] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[17:02:22] [Server thread/INFO]: Loading properties
-[17:02:22] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[17:02:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:02:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:02:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:02:23] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[17:02:23] [Server thread/INFO]: Default game type: SURVIVAL
-[17:02:23] [Server thread/INFO]: Generating keypair
-[17:02:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:02:23] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:02:23] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:02:24] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[17:02:24] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:02:24] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[17:02:24] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[17:02:24] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[17:02:24] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[17:02:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@346b5b]
-[17:02:26] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[17:02:26] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[17:02:26] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[17:02:26] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[17:02:27] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[17:02:27] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[17:02:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:02:27] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[17:02:27] [Server thread/INFO]:         __    
-[17:02:27] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[17:02:27] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:02:27] [Server thread/INFO]: 
-[17:02:27] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:02:28] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:02:28] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:02:28] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1475ms)
-[17:02:28] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[17:02:28] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[17:02:28] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[17:02:28] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[17:02:28] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:02:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:02:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[17:02:30] [Server thread/INFO]: Preparing level "world"
-[17:02:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[17:02:30] [Server thread/INFO]: Preparing spawn area: 100%
-[17:02:30] [Server thread/INFO]: Prepared spawn area in 4 ms
-[17:02:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[17:02:30] [Server thread/INFO]: Prepared spawn area in 2 ms
-[17:02:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[17:02:30] [Server thread/INFO]: Prepared spawn area in 2 ms
-[17:02:30] [Server thread/INFO]: Done preparing level "world" (0.577s)
-[17:02:30] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[17:02:31] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[17:02:32] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[17:02:32] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[17:02:33] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[17:02:33] [Server thread/INFO]: [TAB] Enabled in 916ms
-[17:02:33] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[17:02:33] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[17:02:34] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[17:02:34] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1749ms
-[17:02:34] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[17:02:34] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[17:02:34] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[17:02:34] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[17:02:34] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[17:02:34] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[17:02:34] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[17:02:34] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[17:02:34] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[17:02:34] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[17:02:34] [Server thread/INFO]: [SkBee]  - 56 events
-[17:02:34] [Server thread/INFO]: [SkBee]  - 71 effects
-[17:02:34] [Server thread/INFO]: [SkBee]  - 240 expressions
-[17:02:34] [Server thread/INFO]: [SkBee]  - 27 conditions
-[17:02:34] [Server thread/INFO]: [SkBee]  - 32 sections
-[17:02:34] [Server thread/INFO]: [SkBee]  - 11 properties
-[17:02:34] [Server thread/INFO]: [SkBee] Update checker disabled!
-[17:02:34] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.20 seconds
-[17:02:34] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[17:02:34] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[17:02:34] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[17:02:34] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[17:02:34] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[17:02:35] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[17:02:35] [Server thread/INFO]: [spark] Starting background profiler...
-[17:02:35] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[17:02:35] [Server thread/INFO]: Running delayed init tasks
-[17:02:35] [Server thread/INFO]: [Skript] Loading variables...
-[17:02:35] [Server thread/INFO]: [Skript] Loaded 269 variables in 0.0 seconds
-[17:02:40] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[17:02:40] [Server thread/INFO]: [Skript] Loaded 20 scripts with a total of 154 structures in 5.18 seconds
-[17:02:40] [Server thread/INFO]: [Skript] Finished loading.
-[17:02:40] [Server thread/INFO]: Done (31.617s)! For help, type "help"
-[17:02:41] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 25 build(s) behind ***
-[17:02:41] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[17:02:46] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[17:02:46] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[17:02:49] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[17:02:49] [Server thread/INFO]: trololol72[/127.0.0.1:50661] logged in with entity id 1 at ([world]-1159.5624611957373, 13.439896537409618, 1496.8164924158584)
-[17:02:50] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[17:02:50] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[17:02:55] [Server thread/INFO]: trololol72 issued server command: /tpb b
-[17:03:11] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[17:03:33] [Server thread/INFO]: trololol72 issued server command: //brush biome sphere cherry_grove 15
-[17:03:37] [Server thread/INFO]: trololol72 issued server command: //brush biome sphere cherry_grove
-[17:03:45] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
-[17:03:55] [Server thread/INFO]: trololol72 issued server command: //brush biome sphere cherry_grove5
-[17:03:57] [Server thread/INFO]: trololol72 issued server command: //brush biome sphere cherry_grove 5
-[17:04:24] [Server thread/INFO]: trololol72 issued server command: //brush forest sphere cherry 10
-[17:04:27] [Server thread/INFO]: trololol72 issued server command: //brush forest sphere cherry
-[17:06:53] [Server thread/INFO]: trololol72 issued server command: /tpb b
-[17:07:01] [Server thread/INFO]: trololol72 issued server command: /give_trial_head
-[17:07:01] [Server thread/INFO]: Gave 1 [Trial Core] to trololol72
-[17:07:40] [Server thread/INFO]: trololol72 issued server command: /tpb trial chest
-[17:07:45] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[17:07:45] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[17:07:45] [Server thread/INFO]: Killed 84 entities
-[17:07:52] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
-[17:08:10] [Server thread/INFO]: trololol72 issued server command: /tpb b
-[17:08:13] [Server thread/INFO]: trololol72 issued server command: /time set day
-[17:08:13] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[17:09:54] [Server thread/INFO]: trololol72 issued server command: /tptool
-[17:10:25] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[17:10:26] [Server thread/INFO]: Line 319: (misc.sk)
-[17:10:26] [Server thread/INFO]:     pitch of the location of adult player is not a world
-[17:10:26] [Server thread/INFO]:     Line: set {_loc} to location(x-coord of {_tar}, y-coord of {_tar} + 1, z-coord of {_tar}, pitch of location of player)
-[17:10:26] [Server thread/INFO]:  
-[17:10:26] [Server thread/INFO]:     Encountered 1 error while reloading misc.sk! (1111ms)
-[17:11:26] [Server thread/INFO]: trololol72 issued server command: //forestgen cherry 25
-[17:11:30] [Server thread/INFO]: trololol72 issued server command: //undo
-[17:11:42] [Server thread/INFO]: trololol72 issued server command: //forestgen cherry 25 2
-[17:11:48] [Server thread/INFO]: trololol72 issued server command: /forestgen cherry 25 2
-[17:11:58] [Server thread/INFO]: trololol72 issued server command: /forestgen 25 cherry 2
-[17:13:32] [Server thread/INFO]: [Skript] Reloading misc.sk...
-[17:13:33] [Server thread/INFO]: Successfully reloaded misc.sk. (848ms)
-[17:18:13] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[17:18:13] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[17:20:56] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[17:20:56] [Server thread/INFO]: Stopping server
-[17:20:56] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[17:20:56] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[17:20:56] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[17:20:56] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[17:20:56] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[17:20:56] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[17:20:56] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[17:20:56] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[17:20:56] [Server thread/INFO]: [TAB] Disabled in 1ms
-[17:20:56] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[17:20:56] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[17:20:56] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[17:20:56] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[17:20:56] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[17:20:56] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[17:20:56] [Server thread/INFO]: [LuckPerms] Closing storage...
-[17:20:56] [Server thread/INFO]: [LuckPerms] Goodbye!
-[17:20:56] [Server thread/INFO]: Saving players
-[17:20:56] [Server thread/INFO]: Saving worlds
-[17:20:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:20:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:20:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:20:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:20:57] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.39s
-[17:20:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[17:20:57] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[17:20:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[17:20:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[17:20:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[17:20:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:20:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:20:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:20:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:20:58] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[17:20:58] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[17:20:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[17:20:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[20:54:06] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[20:54:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:54:09] [ServerMain/INFO]: Loaded 1470 recipes
+[20:54:09] [ServerMain/INFO]: Loaded 1584 advancements
+[20:54:09] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:54:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 564.3ms
+[20:54:10] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[20:54:10] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[20:54:10] [Server thread/INFO]: Loading properties
+[20:54:10] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[20:54:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:54:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:54:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:54:12] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[20:54:12] [Server thread/INFO]: Default game type: SURVIVAL
+[20:54:12] [Server thread/INFO]: Generating keypair
+[20:54:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:54:12] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:54:12] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:54:13] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[20:54:15] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:54:16] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[20:54:16] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[20:54:16] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[20:54:16] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[20:54:18] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@61abed77]
+[20:54:18] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[20:54:18] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[20:54:18] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[20:54:18] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[20:54:19] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[20:54:19] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[20:54:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:54:19] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[20:54:20] [Server thread/INFO]:         __    
+[20:54:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[20:54:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:54:20] [Server thread/INFO]: 
+[20:54:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:54:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:54:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:54:21] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1931ms)
+[20:54:21] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[20:54:21] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[20:54:22] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[20:54:22] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[20:54:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:54:22] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:54:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[20:54:24] [Server thread/INFO]: Preparing level "world"
+[20:54:25] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[20:54:25] [Server thread/INFO]: Preparing spawn area: 100%
+[20:54:25] [Server thread/INFO]: Prepared spawn area in 3 ms
+[20:54:25] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[20:54:25] [Server thread/INFO]: Prepared spawn area in 0 ms
+[20:54:25] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[20:54:25] [Server thread/INFO]: Prepared spawn area in 1 ms
+[20:54:25] [Server thread/INFO]: Done preparing level "world" (1.208s)
+[20:54:25] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[20:54:26] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[20:54:28] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[20:54:28] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[20:54:30] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[20:54:30] [Server thread/INFO]: [TAB] Enabled in 1020ms
+[20:54:30] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[20:54:30] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[20:54:30] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[20:54:30] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1956ms
+[20:54:31] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[20:54:31] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[20:54:31] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[20:54:31] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[20:54:31] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[20:54:31] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[20:54:31] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[20:54:31] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[20:54:31] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[20:54:31] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[20:54:32] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[20:54:32] [Server thread/INFO]: [SkBee]  - 56 events
+[20:54:32] [Server thread/INFO]: [SkBee]  - 71 effects
+[20:54:32] [Server thread/INFO]: [SkBee]  - 240 expressions
+[20:54:32] [Server thread/INFO]: [SkBee]  - 27 conditions
+[20:54:32] [Server thread/INFO]: [SkBee]  - 32 sections
+[20:54:32] [Server thread/INFO]: [SkBee]  - 11 properties
+[20:54:32] [Server thread/INFO]: [SkBee] Update checker disabled!
+[20:54:32] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.46 seconds
+[20:54:32] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[20:54:32] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[20:54:32] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[20:54:32] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[20:54:32] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[20:54:32] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[20:54:32] [Server thread/INFO]: [spark] Starting background profiler...
+[20:54:32] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:54:32] [Server thread/INFO]: Running delayed init tasks
+[20:54:32] [Server thread/INFO]: [Skript] Loading variables...
+[20:54:32] [Server thread/INFO]: [Skript] Loaded 269 variables in 0.0 seconds
+[20:54:38] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[20:54:38] [Server thread/INFO]: [Skript] Loaded 20 scripts with a total of 154 structures in 6.22 seconds
+[20:54:38] [Server thread/INFO]: [Skript] Finished loading.
+[20:54:38] [Server thread/INFO]: Done (48.540s)! For help, type "help"
+[20:54:39] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 25 build(s) behind ***
+[20:54:39] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[20:55:41] [Server thread/INFO]: trololol72 (/[0:0:0:0:0:0:0:1]:63217) lost connection: Disconnected
+[20:58:01] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[20:58:01] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[20:58:18] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[20:58:18] [Server thread/INFO]: trololol72[/[0:0:0:0:0:0:0:1]:49677] logged in with entity id 1 at ([world]1769.0997603485737, 84.86933250861676, -211.69320200599)
+[20:58:21] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[20:58:21] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[20:58:35] [Server thread/INFO]: trololol72 issued server command: /time set day
+[20:58:35] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[20:59:16] [Server thread/INFO]: [Skript] Can't find the script 'golem' in the scripts folder!
+[20:59:24] [Server thread/INFO]: [Skript] Can't find the script 'golem.sk' in the scripts folder!
+[20:59:33] [Server thread/INFO]: [Skript] Reloading the config, aliases and all scripts...
+[20:59:33] [ForkJoinPool.commonPool-worker-2/INFO]: [Skript] Loaded 5684 aliases in 825ms
+[20:59:39] [ForkJoinPool.commonPool-worker-2/INFO]: Successfully reloaded the config, aliases and all scripts. (6222ms)
+[21:00:05] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:00:05] [Server thread/INFO]: Line 15: (golem.sk)
+[21:00:05] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:00:05] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:00:05] [Server thread/INFO]:  
+[21:00:05] [Server thread/INFO]: Successfully reloaded golem.sk. (27ms)
+[21:00:41] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:00:57] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:00:57] [Server thread/INFO]: Line 15: (golem.sk)
+[21:00:57] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:00:57] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:00:57] [Server thread/INFO]:  
+[21:00:57] [Server thread/INFO]: Successfully reloaded golem.sk. (47ms)
+[21:01:05] [Server thread/INFO]: trololol72 issued server command: /cherry_set_home
+[21:01:09] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:01:37] [Server thread/INFO]: trololol72 issued server command: /tpb ch
+[21:01:37] [Server thread/INFO]: Set tpb location for 'ch' to: x: 1840.82, y: 69, z: -126.81, yaw: -109.49, pitch: 10.45 in 'world'
+[21:01:42] [Server thread/INFO]: trololol72 issued server command: /tpb trial chest
+[21:01:51] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[21:01:58] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[21:01:59] [Server thread/INFO]: trololol72 issued server command: /tpb ch
+[21:19:04] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:19:05] [Server thread/INFO]: Line 31: (golem.sk)
+[21:19:05] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:19:05] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:19:05] [Server thread/INFO]:  
+[21:19:05] [Server thread/INFO]: Line 41: (golem.sk)
+[21:19:05] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:19:05] [Server thread/INFO]:     Line: set {boss_golem} to loop-iron golem
+[21:19:05] [Server thread/INFO]:  
+[21:19:05] [Server thread/INFO]: Successfully reloaded golem.sk. (219ms)
+[21:20:42] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:20:53] [Server thread/INFO]: trololol72 issued server command: /cherry_debug true
+[21:25:38] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:25:39] [Server thread/INFO]: Line 56: (golem.sk)
+[21:25:39] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:25:39] [Server thread/INFO]:     Line: set {boss_golem} to loop-iron golem
+[21:25:39] [Server thread/INFO]:  
+[21:25:39] [Server thread/INFO]: Line 31: (golem.sk)
+[21:25:39] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:25:39] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:25:39] [Server thread/INFO]:  
+[21:25:39] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[21:25:39] [Server thread/INFO]: [CHERRY] golem found at x: 1874.03, y: 69, z: -194.89, yaw: 265.13, pitch: 0 in 'world'
+[21:25:39] [Server thread/INFO]: [CHERRY] golem found at x: 1684.7, y: 64, z: -410.3, yaw: 0, pitch: 0 in 'world'
+[21:25:39] [Server thread/INFO]: [CHERRY] golem found at x: 1804.7, y: 64, z: -530.3, yaw: 0, pitch: 0 in 'world'
+[21:25:39] [Server thread/INFO]: [CHERRY] golem found at x: 1803.17, y: 64, z: -537.83, yaw: 135, pitch: 0 in 'world'
+[21:25:39] [Server thread/INFO]: [CHERRY] golem found at x: 1352.03, y: 114, z: -227.89, yaw: 169.81, pitch: 0 in 'world'
+[21:25:39] [Server thread/INFO]: [CHERRY] golem found at x: 1389.82, y: 74, z: -301.7, yaw: 135, pitch: 0 in 'world'
+[21:25:39] [Server thread/INFO]: [CHERRY] golem found at x: 1373.12, y: 99, z: -312, yaw: 89.3, pitch: 0 in 'world'
+[21:25:39] [Server thread/INFO]: [CHERRY] golem found at x: 2362.55, y: 117, z: 17.44, yaw: 0, pitch: 0 in 'world'
+[21:25:39] [Server thread/INFO]: [CHERRY] golem found at x: 1476.98, y: 64, z: 267.13, yaw: 293.31, pitch: 0 in 'world'
+[21:25:39] [Server thread/INFO]: [CHERRY] golem found at x: 1867.93, y: 65, z: -117.16, yaw: 356.82, pitch: 0 in 'world'
+[21:25:39] [Server thread/INFO]: Successfully reloaded golem.sk. (213ms)
+[21:26:33] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:26:33] [Server thread/INFO]: Line 56: (golem.sk)
+[21:26:33] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:26:33] [Server thread/INFO]:     Line: set {boss_golem} to loop-iron golem
+[21:26:33] [Server thread/INFO]:  
+[21:26:33] [Server thread/INFO]: Line 31: (golem.sk)
+[21:26:33] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:26:33] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:26:33] [Server thread/INFO]:  
+[21:26:33] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[21:26:33] [Server thread/INFO]: [CHERRY] golem found at x: 1864.16, y: 65, z: -99.15, yaw: 47.81, pitch: 0 in 'world'
+[21:26:33] [Server thread/INFO]: Successfully reloaded golem.sk. (315ms)
+[21:27:08] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:27:08] [Server thread/INFO]: Line 56: (golem.sk)
+[21:27:08] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:27:08] [Server thread/INFO]:     Line: set {boss_golem} to loop-iron golem
+[21:27:08] [Server thread/INFO]:  
+[21:27:08] [Server thread/INFO]: Line 31: (golem.sk)
+[21:27:08] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:27:08] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:27:08] [Server thread/INFO]:  
+[21:27:08] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[21:27:08] [Server thread/INFO]: [CHERRY] golem found at x: 1866.89, y: 65, z: -93.14, yaw: 355.01, pitch: 0 in 'world'
+[21:27:08] [Server thread/INFO]: Successfully reloaded golem.sk. (146ms)
+[21:33:56] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:33:56] [Server thread/INFO]: Line 24: (golem.sk)
+[21:33:56] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:33:56] [Server thread/INFO]:     Line: set {boss_golem} to loop-iron golem
+[21:33:56] [Server thread/INFO]:  
+[21:33:56] [Server thread/INFO]: Line 53: (golem.sk)
+[21:33:56] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:33:56] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:33:56] [Server thread/INFO]:  
+[21:33:56] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[21:33:56] [Server thread/INFO]: [CHERRY] golem found at x: 1857.15, y: 66, z: -73.14, yaw: 47.32, pitch: 0 in 'world'
+[21:33:56] [Server thread/INFO]: Successfully reloaded golem.sk. (132ms)
+[21:34:01] [Server thread/INFO]: trololol72 issued server command: /time set day
+[21:34:01] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[21:34:17] [Server thread/INFO]: trololol72 issued server command: /cherry_kill_boss
+[21:34:17] [Server thread/INFO]: Named entity IronGolem['Iron Boss'/4943, uuid='7e58518e-10cf-4703-93b3-568cc5202914', l='ServerLevel[world]', x=1857.99, y=66.00, z=-75.86, cpos=[116, -5], tl=16297, v=true] died: Iron Boss was killed
+[21:34:17] [Server thread/INFO]: [CHERRY] Cherry Boss was killed and data cleared.
+[21:34:47] [Server thread/INFO]: trololol72 issued server command: /time set 16000
+[21:34:47] [Server thread/INFO]: [trololol72: Set the time to 16000]
+[21:34:53] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:34:53] [Server thread/INFO]: [CHERRY] Cherry Boss spawned at x: 1845.39, y: 68, z: -124.99, yaw: -65.09, pitch: 9.1 in 'world' and tagged.
+[21:35:04] [Server thread/INFO]: trololol72 issued server command: /cherry_kill_boss
+[21:35:04] [Server thread/INFO]: Named entity IronGolem['Iron Boss'/6337, uuid='cedd9a85-ff86-4d75-9a70-610d45f43162', l='ServerLevel[world]', x=1842.73, y=68.00, z=-124.01, cpos=[115, -8], tl=204, v=true] died: Iron Boss was killed
+[21:35:04] [Server thread/INFO]: [CHERRY] Cherry Boss was killed and data cleared.
+[21:35:30] [Server thread/INFO]: trololol72 issued server command: /time set day
+[21:35:30] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[21:41:29] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:41:29] [Server thread/INFO]: Line 24: (golem.sk)
+[21:41:29] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:41:29] [Server thread/INFO]:     Line: set {boss_golem} to loop-iron golem
+[21:41:29] [Server thread/INFO]:  
+[21:41:29] [Server thread/INFO]: Line 63: (golem.sk)
+[21:41:29] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:41:29] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:41:29] [Server thread/INFO]:  
+[21:41:29] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[21:41:29] [Server thread/INFO]: [CHERRY] golem not found
+[21:41:29] [Server thread/INFO]: Successfully reloaded golem.sk. (95ms)
+[21:42:01] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:42:01] [Server thread/INFO]: [CHERRY] Cherry Boss spawned at x: 1845.39, y: 68, z: -124.99, yaw: -65.09, pitch: 9.1 in 'world' and tagged.
+[21:42:09] [Server thread/INFO]: trololol72 issued server command: /cherry_kill_boss
+[21:42:09] [Server thread/INFO]: [CHERRY] Cherry Boss died.
+[21:42:09] [Server thread/INFO]: Named entity IronGolem['Iron Boss'/7001, uuid='3f401700-2f99-41e6-92d6-e494e22b5b49', l='ServerLevel[world]', x=1845.39, y=68.00, z=-124.99, cpos=[115, -8], tl=158, v=true] died: Iron Boss was killed
+[21:42:09] [Server thread/INFO]: [CHERRY] Cherry Boss was killed and data cleared.
+[21:42:22] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:42:22] [Server thread/INFO]: [CHERRY] Cherry Boss spawned at x: 1845.39, y: 68, z: -124.99, yaw: -65.09, pitch: 9.1 in 'world' and tagged.
+[21:42:24] [Server thread/INFO]: trololol72 issued server command: /cherry_kill_boss
+[21:42:24] [Server thread/INFO]: [CHERRY] Cherry Boss died.
+[21:42:24] [Server thread/INFO]: Named entity IronGolem['Iron Boss'/7049, uuid='33dae87b-5719-4890-bce0-7a1db5ccbf07', l='ServerLevel[world]', x=1845.39, y=68.00, z=-124.99, cpos=[115, -8], tl=51, v=true] died: Iron Boss was killed
+[21:42:24] [Server thread/INFO]: [CHERRY] Cherry Boss was killed and data cleared.
+[21:42:39] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:42:39] [Server thread/INFO]: Line 24: (golem.sk)
+[21:42:39] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:42:39] [Server thread/INFO]:     Line: set {boss_golem} to loop-iron golem
+[21:42:39] [Server thread/INFO]:  
+[21:42:39] [Server thread/INFO]: Line 63: (golem.sk)
+[21:42:39] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:42:39] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:42:39] [Server thread/INFO]:  
+[21:42:39] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[21:42:39] [Server thread/INFO]: [CHERRY] golem not found
+[21:42:39] [Server thread/INFO]: Successfully reloaded golem.sk. (220ms)
+[21:42:44] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:42:44] [Server thread/INFO]: [CHERRY] Cherry Boss spawned at x: 1845.39, y: 68, z: -124.99, yaw: -65.09, pitch: 9.1 in 'world' and tagged.
+[21:42:45] [Server thread/INFO]: trololol72 issued server command: /cherry_kill_boss
+[21:42:45] [Server thread/INFO]: Named entity IronGolem['Iron Boss'/7083, uuid='1b4f7858-9f02-412a-a2f2-416141cf2f27', l='ServerLevel[world]', x=1845.39, y=68.00, z=-124.99, cpos=[115, -8], tl=33, v=true] died: Iron Boss was killed
+[21:42:45] [Server thread/INFO]: [CHERRY] Cherry Boss was killed and data cleared.
+[21:43:03] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:43:03] [Server thread/INFO]: Line 24: (golem.sk)
+[21:43:03] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:43:03] [Server thread/INFO]:     Line: set {boss_golem} to loop-iron golem
+[21:43:03] [Server thread/INFO]:  
+[21:43:03] [Server thread/INFO]: Line 65: (golem.sk)
+[21:43:03] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:43:03] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:43:03] [Server thread/INFO]:  
+[21:43:03] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[21:43:03] [Server thread/INFO]: [CHERRY] golem not found
+[21:43:03] [Server thread/INFO]: Successfully reloaded golem.sk. (106ms)
+[21:43:08] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:43:08] [Server thread/INFO]: [CHERRY] Cherry Boss spawned at x: 1845.39, y: 68, z: -124.99, yaw: -65.09, pitch: 9.1 in 'world' and tagged.
+[21:43:10] [Server thread/INFO]: trololol72 issued server command: /cherry_kill_boss
+[21:43:10] [Server thread/INFO]: [CHERRY] Cherry Boss died.
+[21:43:10] [Server thread/INFO]: Named entity IronGolem['Iron Boss'/7116, uuid='ca43c6f1-0777-43bc-975c-131ecf6d606f', l='ServerLevel[world]', x=1845.39, y=68.00, z=-124.99, cpos=[115, -8], tl=35, v=true] died: Iron Boss was killed
+[21:43:10] [Server thread/INFO]: [CHERRY] Cherry Boss was killed and data cleared.
+[21:44:38] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:44:38] [Server thread/INFO]: Line 24: (golem.sk)
+[21:44:38] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:44:38] [Server thread/INFO]:     Line: set {boss_golem} to loop-iron golem
+[21:44:38] [Server thread/INFO]:  
+[21:44:38] [Server thread/INFO]: Line 68: (golem.sk)
+[21:44:38] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:44:38] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:44:38] [Server thread/INFO]:  
+[21:44:39] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[21:44:39] [Server thread/INFO]: [CHERRY] golem not found
+[21:44:39] [Server thread/INFO]: Successfully reloaded golem.sk. (189ms)
+[21:44:45] [Server thread/INFO]: trololol72 issued server command: /time set day
+[21:44:45] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[21:44:47] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:44:47] [Server thread/INFO]: [CHERRY] Cherry Boss spawned at x: 1845.39, y: 68, z: -124.99, yaw: -65.09, pitch: 9.1 in 'world' and tagged.
+[21:44:53] [Server thread/INFO]: trololol72 issued server command: /cherry_kill_boss
+[21:44:53] [Server thread/INFO]: [CHERRY] Cherry Boss died.
+[21:44:53] [Server thread/INFO]: Named entity IronGolem['Iron Boss'/7268, uuid='2c0b0d95-4ef4-4e94-9c3c-7d45db900ead', l='ServerLevel[world]', x=1845.39, y=68.00, z=-124.99, cpos=[115, -8], tl=113, v=true] died: Iron Boss was killed
+[21:44:53] [Server thread/INFO]: [CHERRY] Cherry Boss was killed and data cleared.
+[21:45:01] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:45:01] [Server thread/INFO]: [CHERRY] Cherry Boss spawned at x: 1845.39, y: 68, z: -124.99, yaw: -65.09, pitch: 9.1 in 'world' and tagged.
+[21:45:03] [Server thread/INFO]: trololol72 issued server command: /cherry_kill_boss
+[21:45:03] [Server thread/INFO]: [CHERRY] Cherry Boss died.
+[21:45:03] [Server thread/INFO]: Named entity IronGolem['Iron Boss'/7309, uuid='6fedbe3f-fb66-433f-bd7a-15774a626d7d', l='ServerLevel[world]', x=1845.39, y=68.00, z=-124.99, cpos=[115, -8], tl=37, v=true] died: Iron Boss was killed
+[21:45:03] [Server thread/INFO]: [CHERRY] Cherry Boss was killed and data cleared.
+[21:45:17] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:45:17] [Server thread/INFO]: Line 24: (golem.sk)
+[21:45:17] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:45:17] [Server thread/INFO]:     Line: set {boss_golem} to loop-iron golem
+[21:45:17] [Server thread/INFO]:  
+[21:45:17] [Server thread/INFO]: Line 68: (golem.sk)
+[21:45:17] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:45:17] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:45:17] [Server thread/INFO]:  
+[21:45:17] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[21:45:17] [Server thread/INFO]: [CHERRY] golem not found
+[21:45:17] [Server thread/INFO]: Successfully reloaded golem.sk. (143ms)
+[21:45:22] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:45:22] [Server thread/INFO]: [CHERRY] Cherry Boss spawned at x: 1845.39, y: 68, z: -124.99, yaw: -65.09, pitch: 9.1 in 'world' and tagged.
+[21:45:24] [Server thread/INFO]: trololol72 issued server command: /cherry_kill_boss
+[21:45:24] [Server thread/INFO]: [CHERRY] Cherry Boss died.
+[21:45:24] [Server thread/INFO]: Named entity IronGolem['Iron Boss'/7363, uuid='b5c49df1-5daf-443f-851d-e71047bd2f53', l='ServerLevel[world]', x=1845.39, y=68.00, z=-124.99, cpos=[115, -8], tl=37, v=true] died: Iron Boss was killed
+[21:45:24] [Server thread/INFO]: [CHERRY] Cherry Boss was killed and data cleared.
+[21:45:46] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[21:45:46] [Server thread/INFO]: Line 24: (golem.sk)
+[21:45:46] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:45:46] [Server thread/INFO]:     Line: set {boss_golem} to loop-iron golem
+[21:45:46] [Server thread/INFO]:  
+[21:45:46] [Server thread/INFO]: Line 68: (golem.sk)
+[21:45:46] [Server thread/INFO]:     a living entity cannot be saved. That is, the contents of the variable {boss_golem} will be lost when the server stops.
+[21:45:46] [Server thread/INFO]:     Line: set {boss_golem} to last spawned iron golem
+[21:45:46] [Server thread/INFO]:  
+[21:45:46] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[21:45:46] [Server thread/INFO]: [CHERRY] golem not found
+[21:45:46] [Server thread/INFO]: Successfully reloaded golem.sk. (81ms)
+[21:45:51] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[21:45:51] [Server thread/INFO]: [CHERRY] Cherry Boss spawned at x: 1845.39, y: 68, z: -124.99, yaw: -65.09, pitch: 9.1 in 'world' and tagged.
+[21:45:54] [Server thread/INFO]: trololol72 issued server command: /cherry_kill_boss
+[21:45:54] [Server thread/INFO]: [CHERRY] Cherry Boss died.
+[21:45:54] [Server thread/INFO]: Named entity IronGolem['Iron Boss'/7425, uuid='873762e6-76b6-47fe-967d-927fab144c3c', l='ServerLevel[world]', x=1845.39, y=68.00, z=-124.99, cpos=[115, -8], tl=48, v=true] died: Iron Boss was killed
+[21:45:54] [Server thread/INFO]: [CHERRY] Cherry Boss was killed and data cleared.
+[21:46:04] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[21:46:04] [Server thread/INFO]: trololol72 lost connection: Server is restarting
+[21:46:04] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[21:46:05] [Server thread/INFO]: Stopping server
+[21:46:05] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[21:46:05] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[21:46:05] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[21:46:05] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[21:46:05] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[21:46:05] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[21:46:05] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[21:46:05] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[21:46:05] [Server thread/INFO]: [TAB] Disabled in 167ms
+[21:46:05] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[21:46:05] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:46:05] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[21:46:05] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[21:46:05] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[21:46:05] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:46:05] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:46:05] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:46:05] [Server thread/INFO]: Saving players
+[21:46:06] [Server thread/INFO]: Saving worlds
+[21:46:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Saved 412 block chunks, 774 entity chunks, 0 poi chunks in world 'world' in 0.37s
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[21:46:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[21:46:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[21:46:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[21:46:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:46:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:46:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:46:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:46:06] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[21:46:06] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[21:46:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[21:46:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
