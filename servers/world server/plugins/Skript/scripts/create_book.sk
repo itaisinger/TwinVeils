@@ -533,7 +533,7 @@ function eschatology_book(p: player):
 
     set {_p8} to ""
     add "%{_c}%&lO death;&r" to {_p8}
-    add "%nl%Bring order to the decaying kingdom of Aten;" to {_p8}
+    add "%nl%Bring us an era of rebirth; shed light to the caves;" to {_p8}
     add "%nl%%nl%%{_c}%&lO death;&r" to {_p8}
     add "%nl%Reveal truth of lies deep rooted;" to {_p8}
     add "%nl%%nl%%{_c}%&lO death;&r" to {_p8}

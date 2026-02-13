@@ -1,327 +1,50 @@
-[18:49:16] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[18:49:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[18:49:17] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:49:18] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[18:49:18] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - SkBee (3.15.0)
-[18:49:18] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[18:49:22] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[18:49:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[18:49:23] [ServerMain/INFO]: Loaded 1470 recipes
-[18:49:24] [ServerMain/INFO]: Loaded 1584 advancements
-[18:49:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[18:49:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 338.3ms
-[18:49:24] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[18:49:24] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[18:49:24] [Server thread/INFO]: Loading properties
-[18:49:24] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[18:49:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:49:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:49:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:49:25] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[18:49:25] [Server thread/INFO]: Default game type: SURVIVAL
-[18:49:25] [Server thread/INFO]: Generating keypair
-[18:49:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:49:25] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[18:49:25] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[18:49:25] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[18:49:25] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[18:49:25] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[18:49:25] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[18:49:26] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[18:49:26] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[18:49:27] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2961ac7]
-[18:49:27] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[18:49:27] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[18:49:27] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[18:49:27] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[18:49:27] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[18:49:27] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[18:49:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:49:27] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[18:49:28] [Server thread/INFO]:         __    
-[18:49:28] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[18:49:28] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[18:49:28] [Server thread/INFO]: 
-[18:49:28] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[18:49:28] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[18:49:28] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[18:49:28] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 915ms)
-[18:49:28] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[18:49:28] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[18:49:28] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[18:49:29] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[18:49:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[18:49:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[18:49:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[18:49:30] [Server thread/INFO]: Preparing level "world"
-[18:49:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[18:49:30] [Server thread/INFO]: Preparing spawn area: 100%
-[18:49:30] [Server thread/INFO]: Prepared spawn area in 3 ms
-[18:49:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[18:49:30] [Server thread/INFO]: Preparing spawn area: 100%
-[18:49:30] [Server thread/INFO]: Prepared spawn area in 2 ms
-[18:49:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[18:49:30] [Server thread/INFO]: Prepared spawn area in 1 ms
-[18:49:30] [Server thread/INFO]: Done preparing level "world" (0.575s)
-[18:49:30] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[18:49:31] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[18:49:32] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[18:49:32] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[18:49:33] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[18:49:33] [Server thread/INFO]: [TAB] Enabled in 501ms
-[18:49:33] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[18:49:33] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[18:49:33] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[18:49:33] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[18:49:33] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[18:49:33] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[18:49:33] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[18:49:33] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[18:49:33] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[18:49:33] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[18:49:33] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[18:49:34] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[18:49:34] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[18:49:34] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[18:49:34] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[18:49:34] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[18:49:34] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1417ms
-[18:49:34] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[18:49:34] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[18:49:34] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[18:49:34] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[18:49:34] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[18:49:34] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[18:49:34] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[18:49:34] [Server thread/INFO]: [SkBee]  - 56 events
-[18:49:34] [Server thread/INFO]: [SkBee]  - 71 effects
-[18:49:34] [Server thread/INFO]: [SkBee]  - 240 expressions
-[18:49:34] [Server thread/INFO]: [SkBee]  - 27 conditions
-[18:49:34] [Server thread/INFO]: [SkBee]  - 32 sections
-[18:49:34] [Server thread/INFO]: [SkBee]  - 11 properties
-[18:49:34] [Server thread/INFO]: [SkBee] Update checker disabled!
-[18:49:34] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.79 seconds
-[18:49:34] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[18:49:34] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[18:49:34] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[18:49:34] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[18:49:34] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[18:49:34] [Server thread/INFO]: [spark] Starting background profiler...
-[18:49:34] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[18:49:34] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[18:49:34] [Server thread/INFO]: Running delayed init tasks
-[18:49:34] [Server thread/INFO]: [Skript] Loading variables...
-[18:49:34] [Server thread/INFO]: [Skript] Loaded 251 variables in 0.0 seconds
-[18:49:38] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[18:49:38] [Server thread/INFO]: [Skript] Loaded 19 scripts with a total of 148 structures in 3.91 seconds
-[18:49:38] [Server thread/INFO]: [Skript] Finished loading.
-[18:49:38] [Server thread/INFO]: Done (22.547s)! For help, type "help"
-[18:49:38] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 25 build(s) behind ***
-[18:49:38] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[18:49:53] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[18:49:53] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[18:49:59] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[18:50:00] [Server thread/INFO]: trololol72[/127.0.0.1:50030] logged in with entity id 1 at ([world]-784.0377152898388, 57.1875, 988.4936634460339)
-[18:50:00] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[18:50:00] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[18:50:15] [Server thread/INFO]: Summoned new Player Head
-[18:50:27] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[18:50:54] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[18:50:54] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[18:50:54] [Server thread/INFO]: Killed 38 entities
-[18:53:00] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[18:53:00] [Server thread/INFO]: Line 150: (trial.sk)
-[18:53:00] [Server thread/INFO]:     There's no living entity in a function event
-[18:53:00] [Server thread/INFO]:     Line: draw 20 crimson_spore at location of target block with offset vector(1.5, 1.5, 1.5) with extra 0.02
-[18:53:00] [Server thread/INFO]:  
-[18:53:00] [Server thread/INFO]:     Encountered 1 error while reloading trial.sk! (576ms)
-[18:53:15] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[18:53:16] [Server thread/INFO]: Successfully reloaded trial.sk. (170ms)
-[18:53:25] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[18:53:39] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[18:53:40] [Server thread/INFO]: Successfully reloaded trial.sk. (170ms)
-[18:53:42] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[18:53:42] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[18:53:42] [Server thread/INFO]: Killed 30 entities
-[18:53:50] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[18:53:56] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[18:53:56] [Server thread/INFO]: Successfully reloaded trial.sk. (173ms)
-[18:53:58] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[18:53:58] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[18:53:59] [Server thread/INFO]: Killed 28 entities
-[18:54:05] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[18:55:42] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[18:55:42] [Server thread/INFO]: Successfully reloaded trial.sk. (155ms)
-[18:55:49] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[18:55:49] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[18:55:49] [Server thread/INFO]: Killed 32 entities
-[18:55:56] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[18:55:59] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[18:55:59] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[18:55:59] [Server thread/INFO]: Killed 28 entities
-[18:56:55] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[18:56:55] [Server thread/INFO]: Line 165: (trial.sk)
-[18:56:55] [Server thread/INFO]:     indentation error: expected 16 spaces, but found 17 spaces
-[18:56:55] [Server thread/INFO]:     Line: play sound "minecraft:block.respawn_anchor.charge" with volume 2 with pitch 1.5 at {_loc}
-[18:56:55] [Server thread/INFO]:  
-[18:56:55] [Server thread/INFO]: Line 164: (trial.sk)
-[18:56:55] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
-[18:56:55] [Server thread/INFO]:     Line: if loop-number is 35:
-[18:56:55] [Server thread/INFO]:  
-[18:56:55] [Server thread/INFO]:     Encountered 1 error while reloading trial.sk! (169ms)
-[18:57:11] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[18:57:11] [Server thread/INFO]: Successfully reloaded trial.sk. (163ms)
-[18:57:20] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[18:59:03] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[18:59:03] [Server thread/INFO]: Successfully reloaded trial.sk. (171ms)
-[18:59:06] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[18:59:06] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[18:59:06] [Server thread/INFO]: Killed 29 entities
-[18:59:15] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[18:59:56] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[18:59:56] [Server thread/INFO]: Successfully reloaded trial.sk. (165ms)
-[18:59:58] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[18:59:58] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[18:59:59] [Server thread/INFO]: Killed 31 entities
-[19:00:08] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[19:00:28] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:00:28] [Server thread/INFO]: Line 154: (trial.sk)
-[19:00:28] [Server thread/INFO]:     indentation error: expected 8 spaces, but found 12 spaces
-[19:00:28] [Server thread/INFO]:     Line: draw 50 crimson_spore at {_center_locc} with offset vector(1.5, 1.5, 1.5) with extra 0
-[19:00:28] [Server thread/INFO]:  
-[19:00:29] [Server thread/INFO]:     Encountered 1 error while reloading trial.sk! (165ms)
-[19:00:37] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:00:38] [Server thread/INFO]: Successfully reloaded trial.sk. (152ms)
-[19:00:40] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[19:00:40] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[19:00:40] [Server thread/INFO]: Killed 31 entities
-[19:00:43] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[19:00:54] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:00:54] [Server thread/INFO]: Successfully reloaded trial.sk. (149ms)
-[19:01:01] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[19:01:01] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[19:01:01] [Server thread/INFO]: Killed 29 entities
-[19:01:09] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[19:02:55] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:02:55] [Server thread/INFO]: Successfully reloaded trial.sk. (170ms)
-[19:02:57] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[19:02:57] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[19:02:57] [Server thread/INFO]: Killed 31 entities
-[19:03:02] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[19:03:32] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:03:32] [Server thread/INFO]: Successfully reloaded trial.sk. (219ms)
-[19:03:35] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[19:03:35] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[19:03:35] [Server thread/INFO]: Killed 27 entities
-[19:03:43] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[19:04:48] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:04:48] [Server thread/INFO]: Successfully reloaded trial.sk. (153ms)
-[19:04:59] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:04:59] [Server thread/INFO]: Successfully reloaded trial.sk. (158ms)
-[19:05:05] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:05:05] [Server thread/INFO]: Successfully reloaded trial.sk. (162ms)
-[19:05:08] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[19:05:08] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[19:05:08] [Server thread/INFO]: Killed 29 entities
-[19:05:17] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[19:05:23] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[19:05:23] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[19:05:23] [Server thread/INFO]: Killed 32 entities
-[19:07:21] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:07:21] [Server thread/INFO]: Successfully reloaded trial.sk. (153ms)
-[19:07:30] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:07:30] [Server thread/INFO]: Successfully reloaded trial.sk. (154ms)
-[19:08:02] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:08:02] [Server thread/INFO]: Successfully reloaded trial.sk. (163ms)
-[19:08:21] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:08:21] [Server thread/INFO]: Successfully reloaded trial.sk. (179ms)
-[19:08:44] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:08:44] [Server thread/INFO]: Successfully reloaded trial.sk. (164ms)
-[19:09:17] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:09:17] [Server thread/INFO]: Successfully reloaded trial.sk. (158ms)
-[19:09:30] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:09:30] [Server thread/INFO]: Successfully reloaded trial.sk. (164ms)
-[19:09:56] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:09:56] [Server thread/INFO]: Successfully reloaded trial.sk. (163ms)
-[19:10:17] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:10:17] [Server thread/INFO]: Successfully reloaded trial.sk. (166ms)
-[19:11:25] [Server thread/INFO]: Summoned new Player Head
-[19:11:26] [Server thread/INFO]: Summoned new Player Head
-[19:11:30] [Server thread/INFO]: Summoned new Player Head
-[19:11:37] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[19:11:40] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[19:11:40] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[19:11:40] [Server thread/INFO]: Killed 31 entities
-[19:12:11] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:12:11] [Server thread/INFO]: Successfully reloaded trial.sk. (179ms)
-[19:12:23] [Server thread/INFO]: Loaded template "minecraft:trial_chest" at -792, 56, 977
-[19:13:27] [Server thread/INFO]: [Skript] Reloading trial.sk...
-[19:13:27] [Server thread/INFO]: Successfully reloaded trial.sk. (175ms)
-[19:13:31] [Server thread/INFO]: trololol72 issued server command: /trial_reset
-[19:13:31] [Server thread/INFO]: Loaded template "minecraft:trial_empty" at -792, 56, 977
-[19:13:31] [Server thread/INFO]: Killed 32 entities
-[19:17:07] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[19:17:07] [Server thread/INFO]: trololol72 lost connection: Server is restarting
-[19:17:07] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[19:17:08] [Server thread/INFO]: Stopping server
-[19:17:08] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[19:17:08] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[19:17:08] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[19:17:08] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[19:17:08] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[19:17:08] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[19:17:08] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[19:17:08] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[19:17:08] [Server thread/INFO]: [TAB] Disabled in 2ms
-[19:17:08] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[19:17:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[19:17:08] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[19:17:08] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[19:17:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[19:17:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[19:17:08] [Server thread/INFO]: [LuckPerms] Closing storage...
-[19:17:08] [Server thread/INFO]: [LuckPerms] Goodbye!
-[19:17:08] [Server thread/INFO]: Saving players
-[19:17:08] [Server thread/INFO]: Saving worlds
-[19:17:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:17:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:17:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:17:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Saved 30 block chunks, 731 entity chunks, 0 poi chunks in world 'world' in 0.62s
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[19:17:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[19:17:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[19:17:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[19:17:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:17:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:17:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:17:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:17:09] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[19:17:09] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[19:17:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[19:17:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[02:29:47] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[02:29:48] [Server thread/INFO]: Stopping server
+[02:29:48] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[02:29:48] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[02:29:48] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[02:29:48] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[02:29:48] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[02:29:48] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[02:29:48] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[02:29:48] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[02:29:48] [Server thread/INFO]: [TAB] Disabled in 0ms
+[02:29:48] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[02:29:48] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:29:48] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[02:29:48] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[02:29:48] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[02:29:48] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[02:29:48] [Server thread/INFO]: [LuckPerms] Closing storage...
+[02:29:48] [Server thread/INFO]: [LuckPerms] Goodbye!
+[02:29:48] [Server thread/INFO]: Saving players
+[02:29:48] [Server thread/INFO]: Saving worlds
+[02:29:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[02:29:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[02:29:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[02:29:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[02:29:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:29:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:29:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:29:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:29:48] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[02:29:48] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[02:29:48] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[02:29:48] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
