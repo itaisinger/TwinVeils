@@ -45,17 +45,23 @@ on death of iron golem:
         add 1 blaze powder to drops
         delete {boss_golem}
         cherry_debug("Cherry Boss died.")
+        set {golem::is_calling} to false
 
 options:
     consume_range_max: 30
     consume_range_min: 3
 
 #try to consume
-every 3 seconds:
+every 3.5 seconds:
+    #call for help instead
+    if {golem::is_calling} is false:
+        if health of {boss_golem} <= (max health of {boss_golem})/2:
+            call_help()
+
     if {golem::state} is "consume":
         cherry_debug("already consuming, skipping check")
         stop
-    cherry_debug("attempting to start consume. hp: %health of {boss_golem}% / %max health of {boss_golem}%")
+    # cherry_debug("attempting to start consume. hp: %health of {boss_golem}% / %max health of {boss_golem}%")
 
     if {boss_golem} is not set:
         stop
@@ -71,6 +77,15 @@ every 3 seconds:
 
     set {_min} to 5
     set {_max} to 30
+
+    #cancel if busy with melee
+    set {_hasValidTarget} to false
+    set {_meleeTarget} to target of {boss_golem}
+    if {_meleeTarget} is set:
+        set {_d} to distance between {boss_golem} and {_meleeTarget}
+        if {_d} <= {_min}:
+            cherry_debug("- busy with melee, cancelling consume")
+            stop
 
     loop all players:
         set {_d} to distance between {boss_golem} and loop-player
@@ -97,7 +112,9 @@ every 3 seconds:
 
 #state loop
 every 4 ticks:
+    
     #not set
+    # cherry_debug("state loop: %{golem::state}%")
     if {boss_golem} is not set:
         find_golem()
         if {boss_golem} is not set:
@@ -124,6 +141,7 @@ every 4 ticks:
     if distance between {boss_golem} and {golem::home} > {golem::chase_dis}:
         cherry_debug("returning home")
         set path target of {boss_golem} to {golem::home}
+        wait 5 seconds
     #wander back
     if distance between {boss_golem} and {golem::home} > {golem::wander_dis}:
         if target of {boss_golem} is not set:
@@ -179,6 +197,7 @@ every 4 ticks:
                         remove loop-item from inventory of {golem::target}
                         play sound "entity.item.break" with volume 1 and pitch 1 at {golem::target}
                         set {golem::state} to "none"
+  
                     stop loop # Stop after damaging one tool
         
 #
@@ -218,6 +237,66 @@ function consume_particles():
     # execute console command "particle minecraft:trail{target:[%{_gx}%,%{_gy}%,%{_gz}%],color:[0.89,0.52,0.6],duration:%{_dur}%} %{_px}% %{_py}% %{_pz}% 0.1 0.1 0.1 0 %{_amount}%"#
 
 #
+function call_help():
+    play sound "minecraft:entity.iron_golem.death" with volume 1.5 and pitch 0.4 at {boss_golem}
+    apply slowness 10 without particles to {boss_golem} for 1 second
+    set velocity of {boss_golem} to vector(0, 0.5, 0)
+    wait 2 ticks
+    # 1. Spawn a tiny, short-lived 'target'
+    spawn silverfish at {boss_golem}
+    set {_target} to last spawned silverfish
+
+    # 2. Make it completely hidden and silent
+    apply invisibility 1 to {_target} for 1 second
+    apply slowness 10 to {_target} for 1 second
+
+    # 3. Force the golem to hit it (This triggers the arms)
+    make {boss_golem} attack {_target}
+
+    # 4. Clean up instantly
+    delete {_target}
+
+    #call
+    set {golem::is_calling} to true
+
+    #vfx
+    # 1. THE INITIAL BLAST
+    # A massive burst of white and a deep roar
+    play sound "entity.warden.roar" with volume 2 and pitch 0.5 at {boss_golem}
+    play sound "entity.generic.explode" with volume 1 and pitch 2 at {boss_golem}
+    draw 1 flash at {boss_golem} with extra 0
+
+    # 2. THE EXPANDING SONIC RING
+    # This creates a "calling" effect by sending particles outward
+    loop 5 times:
+        set {_extra} to loop-value * 0.2
+        # Expanding white sonic ring
+        draw 5 cloud at {boss_golem} with offset vector({_extra}, 0.5, {_extra}) with extra 0.1
+        
+        # The actual Shriek rings (Faster and faster)
+        draw 5 shriek at {boss_golem} with offset vector(0.1, 0.1, 0.1) with extra {_extra}
+        
+        # Optional: Small delay to show expansion
+        wait 1 tick
+
+#
+every 3 seconds:
+    if {golem::is_calling} is false:
+        stop
+
+    loop {cherry_golems::*}:
+        set {_minion} to loop-value
+        
+        # 1. Safety checks: Is it alive and not the boss itself?
+        if {_minion} is alive:
+            if {_minion} is not {boss_golem}:
+                if target of {_minion} is not set:
+                    if distance between {_minion} and {boss_golem} > 10:
+                        
+                        # 3. Use SkBee syntax to rally
+                        make {_minion} pathfind to {boss_golem} at speed 1.2
+                        _cherryDebug("Minion %{_minion}% is rallying to the boss.")
+#
 function spawn_golem_boss():
     if {golem::home} is not set:
         broadcast "&cSet the home location first with /cherry_set_home!"
@@ -231,6 +310,7 @@ function spawn_golem_boss():
     apply potion of speed of tier 2 without particles to {boss_golem} for 999 days
     set generic follow range attribute of {boss_golem} to 50
     cherry_debug("Cherry Boss spawned at %{golem::home}% and tagged.")
+    set {golem::is_calling} to false
 #
 
 
@@ -262,6 +342,12 @@ command /spawn_cherry_golem:
     permission: op
     trigger:
         spawn_golem_boss()
+#
+command /cherry_call:
+    permission: op
+    trigger:
+        if {boss_golem} is set:
+            call_help()
 #
 command /cherry_debug <text>:
     permission: op

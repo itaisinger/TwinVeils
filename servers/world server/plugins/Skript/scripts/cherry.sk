@@ -154,6 +154,9 @@ every 1 second:
 
 # 6. RETURN TO GROVE (The "Stroll" Mechanic)
 every 5 seconds:
+    _cherryDebug("call: %{golem::is_calling}%")
+    if {golem::is_calling} is true:
+        stop
     loop {cherry_golems::*}:
         set {_golem} to loop-value
         if {_golem} is alive:
@@ -164,7 +167,7 @@ every 5 seconds:
                 if biome at {_golem} is not cherry grove:
                     set {_closestDist} to 99999
                     set {_closestGrove} to null
-                    _cherryDebug("returning home")
+                    _cherryDebug("returning home!")
 
                     # 3. Find the nearest grove center mathematically
                     loop {grove_centers::*}:
@@ -176,7 +179,7 @@ every 5 seconds:
                             
                     # 4. Casually stroll back home
                     if {_closestGrove} is set:
-                        _cherryDebug("Golem wandering back to nearest grove.")
+                        _cherryDebug("Golem wandering back to nearest grove!")
                         make {_golem} pathfind to {_closestGrove} at speed 0.6
 
 
