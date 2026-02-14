@@ -43,7 +43,6 @@ on chunk load:
 
 # 3. THE SPAWNER
 every 2 seconds:
-    _cherryDebug("spawn loop")
     loop all players:
         set {_inGrove} to false
         loop {grove_centers::*}:
@@ -60,8 +59,6 @@ every 2 seconds:
                         add 1 to {_localCount}
                 else:
                     remove loop-value-2 from {cherry_golems::*}
-                    _cherryDebug("- A golem died. Removed from tracking list.")
-            _cherryDebug("- alive golems: %{_localCount}%")
 
             if {_localCount} < {@max_golems}:
                 set {_loc} to location of loop-player
@@ -69,9 +66,7 @@ every 2 seconds:
                 add random integer between -{@spawn_radius} and {@spawn_radius} to z-coord of {_loc}
                 
                 if distance between loop-player and {_loc} > {@min_distance}:
-                    _cherryDebug("- distance from player good")
                     if biome at {_loc} is cherry grove:
-                        _cherryDebug("- biome good")
                         set {_spawnLoc} to location of highest solid block at {_loc}
                         
                         if type of block at {_spawnLoc} is grass block or dirt:
@@ -83,6 +78,8 @@ every 2 seconds:
                                 
                                 add "cherry_golem" to scoreboard tags of {_golem} 
                                 add {_golem} to {cherry_golems::*}
+                                set generic follow range attribute of {boss_golem} to 50
+
                                 _cherryDebug("- Spawned new golem near %loop-player%")
 
 # 4. THE DESPAWNER
@@ -110,6 +107,79 @@ every 3 seconds:
                 delete {_golem}
                 remove {_golem} from {cherry_golems::*}
 
+# 5. AGGRESSION MANAGER
+every 1 second:
+    set {_aggroRange} to 18
+    loop {cherry_golems::*}:
+        set {_golem} to loop-value
+        
+        if {_golem} is alive:
+            set {_currentTarget} to target of {_golem}
+            set {_currentDist} to 9999
+            set {_hasValidTarget} to false
+            
+            # 1. Evaluate current target (Mob or Player)
+            if {_currentTarget} is set:
+                if {_currentTarget} is alive:
+                    set {_dist} to distance between {_golem} and {_currentTarget}
+                    if {_dist} <= {_aggroRange}*3:
+                        set {_currentDist} to {_dist}
+                        set {_hasValidTarget} to true
+                    else:
+                        # They escaped the 24-block radius, drop aggro
+                        _cherryDebug("lost targets")
+                        clear target of {_golem} 
+            
+            # 2. Find the absolute closest player
+            set {_closestPlayerDist} to {_aggroRange} # Max aggro range
+            set {_nearestPlayer} to null
+            
+            loop all players in world of {_golem}:
+                if loop-player's gamemode is survival or adventure:
+                    set {_pDist} to distance between {_golem} and loop-player
+                    if {_pDist} <= {_closestPlayerDist}:
+                        set {_closestPlayerDist} to {_pDist}
+                        set {_nearestPlayer} to loop-player
+            
+            # 3. Target Decision Logic
+            if {_nearestPlayer} is set:
+                if {_hasValidTarget} is true:
+                    # If the closest player isn't already the target, apply the half-distance rule
+                    if {_currentTarget} is not {_nearestPlayer}:
+                        if {_closestPlayerDist} <= ({_currentDist} / 2):
+                            set target of {_golem} to {_nearestPlayer}
+                else:
+                    # No current target, just lock onto the closest player
+                    set target of {_golem} to {_nearestPlayer}
+
+# 6. RETURN TO GROVE (The "Stroll" Mechanic)
+every 5 seconds:
+    loop {cherry_golems::*}:
+        set {_golem} to loop-value
+        if {_golem} is alive:
+            # 1. Ensure the golem isn't currently fighting anything
+            if target of {_golem} is not set:
+                
+                # 2. Check if it wandered outside the Cherry Grove
+                if biome at {_golem} is not cherry grove:
+                    set {_closestDist} to 99999
+                    set {_closestGrove} to null
+                    _cherryDebug("returning home")
+
+                    # 3. Find the nearest grove center mathematically
+                    loop {grove_centers::*}:
+                        # loop-value-2 handles the nested loop
+                        set {_dist} to distance between {_golem} and loop-value-2
+                        if {_dist} < {_closestDist}:
+                            set {_closestDist} to {_dist}
+                            set {_closestGrove} to loop-value-2
+                            
+                    # 4. Casually stroll back home
+                    if {_closestGrove} is set:
+                        _cherryDebug("Golem wandering back to nearest grove.")
+                        make {_golem} pathfind to {_closestGrove} at speed 0.6
+
+
 # --- COMMANDS ---
 
 command /cherrydebug:
@@ -126,7 +196,7 @@ command /cherrydebug:
 command /cherry_add <text>:
     permission: op
     description: Adds a Cherry Grove at your current location.
-    usage: &c/addcherrygrove <name>
+    usage: &c/cherry_add <name>
     trigger:
         set {grove_centers::%arg-1%} to location of player
         send "&d[Cherry Grove] &aAdded grove '&f%arg-1%&a' at your current location."
@@ -134,7 +204,7 @@ command /cherry_add <text>:
 command /cherry_remove <text>:
     permission: op
     description: Removes a saved Cherry Grove.
-    usage: &c/removecherrygrove <name>
+    usage: &c/cherry_remove <name>
     trigger:
         if {grove_centers::%arg-1%} is set:
             delete {grove_centers::%arg-1%}
@@ -148,7 +218,7 @@ command /cherry_list:
     trigger:
         send "&d--- Active Cherry Groves ---"
         if size of {grove_centers::*} is 0:
-            send "&7No groves currently set. Use /addcherrygrove <name>"
+            send "&7No groves currently set. Use /cherry_add <name>"
         else:
             loop {grove_centers::*}:
                 send "&d%loop-index%: &f%loop-value%"

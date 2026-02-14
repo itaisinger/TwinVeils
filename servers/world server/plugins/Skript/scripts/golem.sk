@@ -229,7 +229,7 @@ function spawn_golem_boss():
     set max health of {boss_golem} to max health of {boss_golem} * 3
     heal {boss_golem} by 200 hearts
     apply potion of speed of tier 2 without particles to {boss_golem} for 999 days
-    set generic follow range attribute of {_boss} to 50
+    set generic follow range attribute of {boss_golem} to 50
     cherry_debug("Cherry Boss spawned at %{golem::home}% and tagged.")
 #
 
