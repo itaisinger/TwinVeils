@@ -1,54 +1,3292 @@
-[00:03:15] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[00:03:17] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:04:23] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[00:04:23] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[00:04:28] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[00:04:29] [Server thread/INFO]: Stopping server
-[00:04:29] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[00:04:29] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[00:04:29] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[00:04:29] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[00:04:29] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[00:04:29] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[00:04:29] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[00:04:29] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[00:04:29] [Server thread/INFO]: [TAB] Disabled in 1ms
-[00:04:29] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[00:04:29] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[00:04:29] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[00:04:29] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[00:04:29] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[00:04:29] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[00:04:29] [Server thread/INFO]: [LuckPerms] Closing storage...
-[00:04:29] [Server thread/INFO]: [LuckPerms] Goodbye!
-[00:04:29] [Server thread/INFO]: Saving players
-[00:04:29] [Server thread/INFO]: Saving worlds
-[00:04:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:04:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:04:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:04:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Saved 39 block chunks, 611 entity chunks, 0 poi chunks in world 'world' in 0.68s
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[00:04:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[00:04:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[00:04:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[00:04:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:04:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:04:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:04:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:04:30] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[00:04:30] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[00:04:30] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[00:04:30] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[00:05:52] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[00:05:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[00:05:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[00:05:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[00:05:55] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - SkBee (3.15.0)
+[00:05:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
+[00:06:02] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[00:06:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:06:05] [ServerMain/INFO]: Loaded 1470 recipes
+[00:06:05] [ServerMain/INFO]: Loaded 1584 advancements
+[00:06:05] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[00:06:06] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 511.5ms
+[00:06:06] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[00:06:06] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[00:06:06] [Server thread/INFO]: Loading properties
+[00:06:06] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[00:06:06] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[00:06:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:06:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:06:07] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[00:06:07] [Server thread/INFO]: Default game type: SURVIVAL
+[00:06:07] [Server thread/INFO]: Generating keypair
+[00:06:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:06:07] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[00:06:07] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[00:06:08] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[00:06:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:06:09] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[00:06:09] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[00:06:09] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[00:06:10] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[00:06:11] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3856c2c4]
+[00:06:11] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[00:06:11] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[00:06:11] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[00:06:11] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[00:06:12] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[00:06:12] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[00:06:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:06:12] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[00:06:12] [Server thread/INFO]:         __    
+[00:06:12] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[00:06:12] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[00:06:12] [Server thread/INFO]: 
+[00:06:12] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:06:13] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:06:13] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:06:13] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1319ms)
+[00:06:13] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[00:06:13] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[00:06:13] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[00:06:13] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[00:06:13] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:06:13] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[00:06:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[00:06:15] [Server thread/INFO]: Preparing level "world"
+[00:06:15] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[00:06:15] [Server thread/INFO]: Preparing spawn area: 100%
+[00:06:15] [Server thread/INFO]: Prepared spawn area in 2 ms
+[00:06:15] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[00:06:15] [Server thread/INFO]: Preparing spawn area: 100%
+[00:06:15] [Server thread/INFO]: Prepared spawn area in 3 ms
+[00:06:15] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[00:06:15] [Server thread/INFO]: Prepared spawn area in 2 ms
+[00:06:15] [Server thread/INFO]: Done preparing level "world" (0.585s)
+[00:06:15] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[00:06:16] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[00:06:18] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[00:06:18] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[00:06:19] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[00:06:19] [Server thread/INFO]: [TAB] Enabled in 1132ms
+[00:06:19] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[00:06:19] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[00:06:19] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[00:06:20] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 2101ms
+[00:06:20] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[00:06:20] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[00:06:20] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[00:06:20] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[00:06:20] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[00:06:20] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[00:06:20] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[00:06:20] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[00:06:20] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[00:06:20] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[00:06:20] [Server thread/INFO]: [SkBee]  - 56 events
+[00:06:20] [Server thread/INFO]: [SkBee]  - 71 effects
+[00:06:20] [Server thread/INFO]: [SkBee]  - 240 expressions
+[00:06:20] [Server thread/INFO]: [SkBee]  - 27 conditions
+[00:06:20] [Server thread/INFO]: [SkBee]  - 32 sections
+[00:06:20] [Server thread/INFO]: [SkBee]  - 11 properties
+[00:06:20] [Server thread/INFO]: [SkBee] Update checker disabled!
+[00:06:20] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.17 seconds
+[00:06:20] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[00:06:20] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[00:06:20] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[00:06:20] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[00:06:20] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[00:06:20] [Server thread/INFO]: [spark] Starting background profiler...
+[00:06:20] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[00:06:20] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[00:06:20] [Server thread/INFO]: Running delayed init tasks
+[00:06:21] [Server thread/INFO]: [Skript] Loading variables...
+[00:06:21] [Server thread/INFO]: [Skript] Loaded 306 variables in 0.0 seconds
+[00:06:28] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[00:06:28] [Server thread/INFO]: [Skript] Loaded 23 scripts with a total of 195 structures in 6.84 seconds
+[00:06:28] [Server thread/INFO]: [Skript] Finished loading.
+[00:06:28] [Server thread/INFO]: Done (36.598s)! For help, type "help"
+[00:06:28] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 26 build(s) behind ***
+[00:06:28] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[00:07:36] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[00:07:36] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[00:07:41] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[00:07:41] [Server thread/INFO]: trololol72[/127.0.0.1:65239] logged in with entity id 1 at ([world]-1421.7506783852107, 180.74943543567628, 353.34681589070783)
+[00:07:42] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[00:07:42] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[00:08:35] [Server thread/INFO]: trololol72 issued server command: /cherry_add witch
+[00:09:31] [Server thread/INFO]: trololol72 issued server command: /witch_status
+[00:09:31] [Server thread/INFO]: Entity: <none>
+[00:09:31] [Server thread/INFO]: Entity: <none>
+[00:09:31] [Server thread/INFO]: Entity: <none>
+[00:09:31] [Server thread/INFO]: Entity: witch
+[00:09:37] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[00:10:27] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:11:04] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[00:11:20] [Server thread/INFO]: trololol72 issued server command: /witch_status
+[00:11:20] [Server thread/INFO]: Entity: <none>
+[00:11:20] [Server thread/INFO]: Entity: <none>
+[00:11:20] [Server thread/INFO]: Entity: <none>
+[00:11:20] [Server thread/INFO]: Entity: witch
+[00:14:23] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[00:14:23] [Server thread/INFO]: Line 190: (cherry.sk)
+[00:14:23] [Server thread/INFO]:     indentation error: expected 4 spaces, but found 8 spaces
+[00:14:23] [Server thread/INFO]:     Line: cancel event
+[00:14:23] [Server thread/INFO]:  
+[00:14:23] [Server thread/INFO]: Line 186: (cherry.sk)
+[00:14:23] [Server thread/INFO]:     Can't understand this structure: on attack iron golem
+[00:14:23] [Server thread/INFO]:     Line: on attack iron golem:
+[00:14:23] [Server thread/INFO]:  
+[00:14:24] [Server thread/INFO]:     Encountered 2 errors while reloading cherry.sk! (531ms)
+[00:15:28] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[00:15:29] [Server thread/INFO]: Successfully reloaded cherry.sk. (446ms)
+[00:15:39] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:16:01] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[00:16:02] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:16:03] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[00:16:15] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:17:16] [Server thread/INFO]: trololol72 issued server command: /countnear iron golem 100
+[00:17:16] [Server thread/INFO]: Found 5 adult iron golems within 100 blocks.
+[00:19:34] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[00:19:34] [Server thread/INFO]: Line 46: (cherry.sk)
+[00:19:34] [Server thread/INFO]:     Can't understand this condition: '25% chance'
+[00:19:34] [Server thread/INFO]:     Line: if 25% chance:
+[00:19:34] [Server thread/INFO]:  
+[00:19:35] [Server thread/INFO]:     Encountered 1 error while reloading cherry.sk! (420ms)
+[00:20:49] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[00:20:49] [Server thread/INFO]: Successfully reloaded cherry.sk. (356ms)
+[00:21:12] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[00:21:12] [Server thread/INFO]: Successfully reloaded cherry.sk. (348ms)
+[00:22:38] [Server thread/INFO]: trololol72 issued server command: /time set day
+[00:22:38] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[00:23:03] [Server thread/INFO]: trololol72 issued server command: /countnear armadillo 200
+[00:23:03] [Server thread/INFO]: Found 0 armadillos within 200 blocks.
+[00:23:06] [Server thread/INFO]: trololol72 issued server command: /countnear armadillo 2000
+[00:23:06] [Server thread/INFO]: Found 13 armadillos within 2000 blocks.
+[00:23:14] [Server thread/INFO]: trololol72 issued server command: /countnear armadillo 1000
+[00:23:14] [Server thread/INFO]: Found 16 armadillos within 1000 blocks.
+[00:23:40] [Server thread/INFO]: trololol72 issued server command: /tpb cherry
+[00:23:40] [Server thread/INFO]: Set tpb location for 'cherry' to: x: -959.03, y: 205.32, z: -50.19, yaw: 153.33, pitch: 46.41 in 'world'
+[00:23:47] [Server thread/INFO]: trololol72 issued server command: /tpb_del cherry
+[00:23:47] [Server thread/INFO]: tpb deleted: cherry
+[00:23:51] [Server thread/INFO]: trololol72 issued server command: /tpb list
+[00:23:51] [Server thread/INFO]: tpb list:
+[00:23:51] [Server thread/INFO]: - -1430 953
+[00:23:51] [Server thread/INFO]: - ancient 1
+[00:23:51] [Server thread/INFO]: - ancient 2
+[00:23:51] [Server thread/INFO]: - ancient 3
+[00:23:51] [Server thread/INFO]: - arg-1
+[00:23:51] [Server thread/INFO]: - b
+[00:23:51] [Server thread/INFO]: - bedrock chets 1-4
+[00:23:51] [Server thread/INFO]: - bedrock chets 1-3
+[00:23:51] [Server thread/INFO]: - bedrock chets 1-2
+[00:23:51] [Server thread/INFO]: - bedrock chets 1-1
+[00:23:51] [Server thread/INFO]: - bedrock chets 2-4
+[00:23:51] [Server thread/INFO]: - bedrock chets 2-3
+[00:23:51] [Server thread/INFO]: - bedrock chets 2-2
+[00:23:51] [Server thread/INFO]: - bedrock chets 2-1
+[00:23:51] [Server thread/INFO]: - bedrock chets 3-4
+[00:23:51] [Server thread/INFO]: - bedrock chets 3-3
+[00:23:51] [Server thread/INFO]: - bedrock chets 3-2
+[00:23:51] [Server thread/INFO]: - bedrock chets 3-1
+[00:23:51] [Server thread/INFO]: - book
+[00:23:51] [Server thread/INFO]: - c
+[00:23:51] [Server thread/INFO]: - ch
+[00:23:51] [Server thread/INFO]: - cherry golem
+[00:23:51] [Server thread/INFO]: - cherry witch
+[00:23:51] [Server thread/INFO]: - dead village 1
+[00:23:51] [Server thread/INFO]: - k
+[00:23:51] [Server thread/INFO]: - l
+[00:23:51] [Server thread/INFO]: - lib
+[00:23:51] [Server thread/INFO]: - list
+[00:23:51] [Server thread/INFO]: - lush
+[00:23:51] [Server thread/INFO]: - mine lib
+[00:23:51] [Server thread/INFO]: - mine village
+[00:23:51] [Server thread/INFO]: - mineshaft
+[00:23:51] [Server thread/INFO]: - mineshaft village
+[00:23:51] [Server thread/INFO]: - n
+[00:23:51] [Server thread/INFO]: - netherite village
+[00:23:51] [Server thread/INFO]: - p
+[00:23:51] [Server thread/INFO]: - pillager
+[00:23:51] [Server thread/INFO]: - pillager camp
+[00:23:51] [Server thread/INFO]: - pillger
+[00:23:51] [Server thread/INFO]: - r
+[00:23:51] [Server thread/INFO]: - t
+[00:23:51] [Server thread/INFO]: - trial
+[00:23:51] [Server thread/INFO]: - trial chest
+[00:23:59] [Server thread/INFO]: trololol72 issued server command: /tpb cherry golem
+[00:27:28] [Server thread/INFO]: trololol72 issued server command: /cherry_add 1
+[00:31:57] [Server thread/INFO]: trololol72 issued server command: /time set day
+[00:31:57] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[00:40:58] [Server thread/INFO]: trololol72 issued server command: /time set day
+[00:40:58] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[00:45:06] [Server thread/INFO]: trololol72 issued server command: /cherry_set_home
+[00:45:14] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[00:47:14] [Server thread/INFO]: trololol72 issued server command: /spawnpoint
+[00:47:14] [Server thread/INFO]: [trololol72: Set spawn point to -1105, 196, -426 [0.0, 0.0] in minecraft:overworld for trololol72]
+[00:47:29] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[00:48:42] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:48:49] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[00:49:31] [Server thread/INFO]: [Death] trololol72 was slain by Iron Golem (Friends)
+[00:49:38] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:50:08] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:50:15] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[00:50:23] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:50:36] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[00:50:43] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:50:43] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:50:50] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:50:54] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:50:57] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:50:57] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:01] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:01] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:15] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:22] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:32] [Server thread/INFO]: trololol72 issued server command: /time set day
+[00:51:32] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[00:51:46] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:46] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:46] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:50] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:50] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:53] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:57] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:51:57] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:04] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:04] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:07] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:14] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:18] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:18] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:18] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:21] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:21] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:25] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:25] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:52:28] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:54:59] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[00:55:00] [Server thread/INFO]: Line 92: (golem.sk)
+[00:55:00] [Server thread/INFO]:     Can't understand this condition/effect: if {_hp_prec} > 0.4
+[00:55:00] [Server thread/INFO]:     Line: if {_hp_prec} > 0.4
+[00:55:00] [Server thread/INFO]:  
+[00:55:00] [Server thread/INFO]:     Encountered 1 error while reloading golem.sk! (682ms)
+[00:55:06] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[00:55:06] [Server thread/INFO]: Line 92: (golem.sk)
+[00:55:06] [Server thread/INFO]:     Empty configuration section! You might want to indent one or more of the subsequent lines to make them belong to this section or remove the colon at the end of the line if you don't want this line to start a section.
+[00:55:06] [Server thread/INFO]:     Line: if {_hp_prec} > 0.4:
+[00:55:06] [Server thread/INFO]:  
+[00:55:06] [Server thread/INFO]: Successfully reloaded golem.sk. (635ms)
+[00:55:16] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[00:55:16] [Server thread/INFO]: Successfully reloaded golem.sk. (564ms)
+[00:55:29] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:55:39] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:12] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:13] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:14] [Server thread/INFO]: Displaying particle minecraft:trail
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:14] [Server thread/INFO]: The particle was not visible for anybody
+[00:56:55] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:58:25] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
+[00:58:28] [Server thread/INFO]: trololol72 issued server command: /weather clear
+[00:58:28] [Server thread/INFO]: [trololol72: Set the weather to clear]
+[00:58:54] [Server thread/INFO]: trololol72 issued server command: /cherry_debug true
+[00:58:54] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:54] [Server thread/INFO]: [CHERRY] 
+[00:58:54] [Server thread/INFO]: [CHERRY] found target, setting
+[00:58:54] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:54] [Server thread/INFO]: [CHERRY] 
+[00:58:54] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:54] [Server thread/INFO]: [CHERRY] 
+[00:58:55] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:55] [Server thread/INFO]: [CHERRY] 
+[00:58:55] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:55] [Server thread/INFO]: [CHERRY] 
+[00:58:55] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:55] [Server thread/INFO]: [CHERRY] 
+[00:58:55] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:55] [Server thread/INFO]: [CHERRY] 
+[00:58:55] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:55] [Server thread/INFO]: [CHERRY] 
+[00:58:56] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:56] [Server thread/INFO]: [CHERRY] 
+[00:58:56] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:56] [Server thread/INFO]: [CHERRY] 
+[00:58:56] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:56] [Server thread/INFO]: [CHERRY] 
+[00:58:56] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:56] [Server thread/INFO]: [CHERRY] 
+[00:58:56] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:56] [Server thread/INFO]: [CHERRY] 
+[00:58:57] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:57] [Server thread/INFO]: [CHERRY] 
+[00:58:57] [Server thread/INFO]: [CHERRY] found target, setting
+[00:58:57] [Server thread/INFO]: [CHERRY] - d: 10.46
+[00:58:57] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:57] [Server thread/INFO]: [CHERRY] 
+[00:58:57] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:57] [Server thread/INFO]: [CHERRY] 
+[00:58:57] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:57] [Server thread/INFO]: [CHERRY] 
+[00:58:57] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:57] [Server thread/INFO]: [CHERRY] 
+[00:58:58] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:58] [Server thread/INFO]: [CHERRY] 
+[00:58:58] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:58] [Server thread/INFO]: [CHERRY] 
+[00:58:58] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:58] [Server thread/INFO]: [CHERRY] 
+[00:58:58] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:58] [Server thread/INFO]: [CHERRY] 
+[00:58:58] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:58] [Server thread/INFO]: [CHERRY] 
+[00:58:59] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:59] [Server thread/INFO]: [CHERRY] 
+[00:58:59] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:59] [Server thread/INFO]: [CHERRY] 
+[00:58:59] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:59] [Server thread/INFO]: [CHERRY] 
+[00:58:59] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:59] [Server thread/INFO]: [CHERRY] 
+[00:58:59] [Server thread/INFO]: [CHERRY] found target, setting
+[00:58:59] [Server thread/INFO]: [CHERRY] target: <none>
+[00:58:59] [Server thread/INFO]: [CHERRY] 
+[00:59:00] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:00] [Server thread/INFO]: [CHERRY] 
+[00:59:00] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:00] [Server thread/INFO]: [CHERRY] 
+[00:59:00] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:00] [Server thread/INFO]: [CHERRY] 
+[00:59:00] [Server thread/INFO]: [CHERRY] - d: 11.48
+[00:59:00] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:00] [Server thread/INFO]: [CHERRY] 
+[00:59:00] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:00] [Server thread/INFO]: [CHERRY] 
+[00:59:01] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:01] [Server thread/INFO]: [CHERRY] 
+[00:59:01] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:01] [Server thread/INFO]: [CHERRY] 
+[00:59:01] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:01] [Server thread/INFO]: [CHERRY] 
+[00:59:01] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:01] [Server thread/INFO]: [CHERRY] 
+[00:59:01] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:01] [Server thread/INFO]: [CHERRY] 
+[00:59:02] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:02] [Server thread/INFO]: [CHERRY] 
+[00:59:02] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:02] [Server thread/INFO]: [CHERRY] 
+[00:59:02] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:02] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:02] [Server thread/INFO]: [CHERRY] 
+[00:59:02] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:02] [Server thread/INFO]: [CHERRY] 
+[00:59:02] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:02] [Server thread/INFO]: [CHERRY] 
+[00:59:03] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:03] [Server thread/INFO]: [CHERRY] 
+[00:59:03] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:03] [Server thread/INFO]: [CHERRY] 
+[00:59:03] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:03] [Server thread/INFO]: [CHERRY] 
+[00:59:03] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:03] [Server thread/INFO]: [CHERRY] 
+[00:59:03] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:03] [Server thread/INFO]: [CHERRY] 
+[00:59:04] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:04] [Server thread/INFO]: [CHERRY] 
+[00:59:04] [Server thread/INFO]: [CHERRY] - d: 18.2
+[00:59:04] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:04] [Server thread/INFO]: [CHERRY] 
+[00:59:04] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:04] [Server thread/INFO]: [CHERRY] 
+[00:59:04] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:04] [Server thread/INFO]: [CHERRY] 
+[00:59:04] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:04] [Server thread/INFO]: [CHERRY] 
+[00:59:04] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:05] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:05] [Server thread/INFO]: [CHERRY] 
+[00:59:05] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:05] [Server thread/INFO]: [CHERRY] 
+[00:59:05] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:05] [Server thread/INFO]: [CHERRY] 
+[00:59:05] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:05] [Server thread/INFO]: [CHERRY] 
+[00:59:05] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:05] [Server thread/INFO]: [CHERRY] 
+[00:59:06] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:06] [Server thread/INFO]: [CHERRY] 
+[00:59:06] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:06] [Server thread/INFO]: [CHERRY] 
+[00:59:06] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:06] [Server thread/INFO]: [CHERRY] 
+[00:59:06] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:06] [Server thread/INFO]: [CHERRY] 
+[00:59:06] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:06] [Server thread/INFO]: [CHERRY] 
+[00:59:07] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:07] [Server thread/INFO]: [CHERRY] 
+[00:59:07] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:07] [Server thread/INFO]: [CHERRY] 
+[00:59:07] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:07] [Server thread/INFO]: [CHERRY] 
+[00:59:07] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:07] [Server thread/INFO]: [CHERRY] - d: 18.2
+[00:59:07] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:07] [Server thread/INFO]: [CHERRY] 
+[00:59:07] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:07] [Server thread/INFO]: [CHERRY] 
+[00:59:08] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:08] [Server thread/INFO]: [CHERRY] 
+[00:59:08] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:08] [Server thread/INFO]: [CHERRY] 
+[00:59:08] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:08] [Server thread/INFO]: [CHERRY] 
+[00:59:08] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:08] [Server thread/INFO]: [CHERRY] 
+[00:59:08] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:08] [Server thread/INFO]: [CHERRY] 
+[00:59:09] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:09] [Server thread/INFO]: [CHERRY] 
+[00:59:09] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:09] [Server thread/INFO]: [CHERRY] 
+[00:59:09] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:09] [Server thread/INFO]: [CHERRY] 
+[00:59:09] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:09] [Server thread/INFO]: [CHERRY] 
+[00:59:09] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:09] [Server thread/INFO]: [CHERRY] 
+[00:59:10] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:10] [Server thread/INFO]: [CHERRY] 
+[00:59:10] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:10] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:10] [Server thread/INFO]: [CHERRY] 
+[00:59:10] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:10] [Server thread/INFO]: [CHERRY] 
+[00:59:10] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:10] [Server thread/INFO]: [CHERRY] 
+[00:59:10] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:10] [Server thread/INFO]: [CHERRY] 
+[00:59:11] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:11] [Server thread/INFO]: [CHERRY] 
+[00:59:11] [Server thread/INFO]: [CHERRY] - d: 22.33
+[00:59:11] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:11] [Server thread/INFO]: [CHERRY] 
+[00:59:11] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:11] [Server thread/INFO]: [CHERRY] 
+[00:59:11] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:11] [Server thread/INFO]: [CHERRY] 
+[00:59:11] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:11] [Server thread/INFO]: [CHERRY] 
+[00:59:12] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:12] [Server thread/INFO]: [CHERRY] 
+[00:59:12] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:12] [Server thread/INFO]: [CHERRY] 
+[00:59:12] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:12] [Server thread/INFO]: [CHERRY] 
+[00:59:12] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:12] [Server thread/INFO]: [CHERRY] 
+[00:59:12] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:12] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:12] [Server thread/INFO]: [CHERRY] 
+[00:59:13] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:13] [Server thread/INFO]: [CHERRY] 
+[00:59:13] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:13] [Server thread/INFO]: [CHERRY] 
+[00:59:13] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:13] [Server thread/INFO]: [CHERRY] 
+[00:59:13] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:13] [Server thread/INFO]: [CHERRY] 
+[00:59:13] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:13] [Server thread/INFO]: [CHERRY] 
+[00:59:14] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:14] [Server thread/INFO]: [CHERRY] 
+[00:59:14] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:14] [Server thread/INFO]: [CHERRY] 
+[00:59:14] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:14] [Server thread/INFO]: [CHERRY] 
+[00:59:14] [Server thread/INFO]: [CHERRY] - d: 23.17
+[00:59:14] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:14] [Server thread/INFO]: [CHERRY] 
+[00:59:14] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:14] [Server thread/INFO]: [CHERRY] 
+[00:59:15] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:15] [Server thread/INFO]: [CHERRY] 
+[00:59:15] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:15] [Server thread/INFO]: [CHERRY] 
+[00:59:15] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:15] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:15] [Server thread/INFO]: [CHERRY] 
+[00:59:15] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:15] [Server thread/INFO]: [CHERRY] 
+[00:59:15] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:15] [Server thread/INFO]: [CHERRY] 
+[00:59:16] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:16] [Server thread/INFO]: [CHERRY] 
+[00:59:16] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:16] [Server thread/INFO]: [CHERRY] 
+[00:59:16] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:16] [Server thread/INFO]: [CHERRY] 
+[00:59:16] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:16] [Server thread/INFO]: [CHERRY] 
+[00:59:16] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:16] [Server thread/INFO]: [CHERRY] 
+[00:59:17] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:17] [Server thread/INFO]: [CHERRY] 
+[00:59:17] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:17] [Server thread/INFO]: [CHERRY] 
+[00:59:17] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:17] [Server thread/INFO]: [CHERRY] 
+[00:59:17] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:17] [Server thread/INFO]: [CHERRY] 
+[00:59:17] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:17] [Server thread/INFO]: [CHERRY] 
+[00:59:17] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:18] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:18] [Server thread/INFO]: [CHERRY] 
+[00:59:18] [Server thread/INFO]: [CHERRY] - d: 17.33
+[00:59:18] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:18] [Server thread/INFO]: [CHERRY] 
+[00:59:18] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:18] [Server thread/INFO]: [CHERRY] 
+[00:59:18] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:18] [Server thread/INFO]: [CHERRY] 
+[00:59:18] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:18] [Server thread/INFO]: [CHERRY] 
+[00:59:19] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:19] [Server thread/INFO]: [CHERRY] 
+[00:59:19] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:19] [Server thread/INFO]: [CHERRY] 
+[00:59:19] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:19] [Server thread/INFO]: [CHERRY] 
+[00:59:19] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:19] [Server thread/INFO]: [CHERRY] 
+[00:59:19] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:19] [Server thread/INFO]: [CHERRY] 
+[00:59:20] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:20] [Server thread/INFO]: [CHERRY] 
+[00:59:20] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:20] [Server thread/INFO]: [CHERRY] 
+[00:59:20] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:20] [Server thread/INFO]: [CHERRY] 
+[00:59:20] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:20] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:20] [Server thread/INFO]: [CHERRY] 
+[00:59:20] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:20] [Server thread/INFO]: [CHERRY] 
+[00:59:21] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:21] [Server thread/INFO]: [CHERRY] 
+[00:59:21] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:21] [Server thread/INFO]: [CHERRY] 
+[00:59:21] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:21] [Server thread/INFO]: [CHERRY] 
+[00:59:21] [Server thread/INFO]: [CHERRY] - d: 16.02
+[00:59:21] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:21] [Server thread/INFO]: [CHERRY] 
+[00:59:21] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:21] [Server thread/INFO]: [CHERRY] 
+[00:59:22] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:22] [Server thread/INFO]: [CHERRY] 
+[00:59:22] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:22] [Server thread/INFO]: [CHERRY] 
+[00:59:22] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:22] [Server thread/INFO]: [CHERRY] 
+[00:59:22] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:22] [Server thread/INFO]: [CHERRY] 
+[00:59:22] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:22] [Server thread/INFO]: [CHERRY] 
+[00:59:23] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:23] [Server thread/INFO]: [CHERRY] 
+[00:59:23] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:23] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:23] [Server thread/INFO]: [CHERRY] 
+[00:59:23] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:23] [Server thread/INFO]: [CHERRY] 
+[00:59:23] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:23] [Server thread/INFO]: [CHERRY] 
+[00:59:23] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:23] [Server thread/INFO]: [CHERRY] 
+[00:59:24] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:24] [Server thread/INFO]: [CHERRY] 
+[00:59:24] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:24] [Server thread/INFO]: [CHERRY] 
+[00:59:24] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:24] [Server thread/INFO]: [CHERRY] 
+[00:59:24] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:24] [Server thread/INFO]: [CHERRY] 
+[00:59:24] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:24] [Server thread/INFO]: [CHERRY] 
+[00:59:25] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:25] [Server thread/INFO]: [CHERRY] 
+[00:59:25] [Server thread/INFO]: [CHERRY] - d: 15.84
+[00:59:25] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:25] [Server thread/INFO]: [CHERRY] 
+[00:59:25] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:25] [Server thread/INFO]: [CHERRY] 
+[00:59:25] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:25] [Server thread/INFO]: [CHERRY] 
+[00:59:25] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:25] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:25] [Server thread/INFO]: [CHERRY] 
+[00:59:26] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:26] [Server thread/INFO]: [CHERRY] 
+[00:59:26] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:26] [Server thread/INFO]: [CHERRY] 
+[00:59:26] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:26] [Server thread/INFO]: [CHERRY] 
+[00:59:26] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:26] [Server thread/INFO]: [CHERRY] 
+[00:59:26] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:26] [Server thread/INFO]: [CHERRY] 
+[00:59:27] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:27] [Server thread/INFO]: [CHERRY] 
+[00:59:27] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:27] [Server thread/INFO]: [CHERRY] 
+[00:59:27] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:27] [Server thread/INFO]: [CHERRY] 
+[00:59:27] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:27] [Server thread/INFO]: [CHERRY] 
+[00:59:27] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:27] [Server thread/INFO]: [CHERRY] 
+[00:59:28] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:28] [Server thread/INFO]: [CHERRY] 
+[00:59:28] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:28] [Server thread/INFO]: [CHERRY] 
+[00:59:28] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:28] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:28] [Server thread/INFO]: [CHERRY] 
+[00:59:28] [Server thread/INFO]: [CHERRY] - d: 12.72
+[00:59:28] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:28] [Server thread/INFO]: [CHERRY] 
+[00:59:28] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:28] [Server thread/INFO]: [CHERRY] 
+[00:59:29] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:29] [Server thread/INFO]: [CHERRY] 
+[00:59:29] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:29] [Server thread/INFO]: [CHERRY] 
+[00:59:29] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:29] [Server thread/INFO]: [CHERRY] 
+[00:59:29] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:29] [Server thread/INFO]: [CHERRY] 
+[00:59:29] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:29] [Server thread/INFO]: [CHERRY] 
+[00:59:30] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:30] [Server thread/INFO]: [CHERRY] 
+[00:59:30] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:30] [Server thread/INFO]: [CHERRY] 
+[00:59:30] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:30] [Server thread/INFO]: [CHERRY] 
+[00:59:30] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:30] [Server thread/INFO]: [CHERRY] 
+[00:59:30] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:30] [Server thread/INFO]: [CHERRY] 
+[00:59:30] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:31] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:31] [Server thread/INFO]: [CHERRY] 
+[00:59:31] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:31] [Server thread/INFO]: [CHERRY] 
+[00:59:31] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:31] [Server thread/INFO]: [CHERRY] 
+[00:59:31] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:31] [Server thread/INFO]: [CHERRY] 
+[00:59:31] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:31] [Server thread/INFO]: [CHERRY] 
+[00:59:32] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:32] [Server thread/INFO]: [CHERRY] 
+[00:59:32] [Server thread/INFO]: [CHERRY] - d: 12.89
+[00:59:32] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:32] [Server thread/INFO]: [CHERRY] 
+[00:59:32] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:32] [Server thread/INFO]: [CHERRY] 
+[00:59:32] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:32] [Server thread/INFO]: [CHERRY] 
+[00:59:32] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:32] [Server thread/INFO]: [CHERRY] 
+[00:59:33] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:33] [Server thread/INFO]: [CHERRY] 
+[00:59:33] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:33] [Server thread/INFO]: [CHERRY] 
+[00:59:33] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:33] [Server thread/INFO]: [CHERRY] 
+[00:59:33] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:33] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:33] [Server thread/INFO]: [CHERRY] 
+[00:59:33] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:33] [Server thread/INFO]: [CHERRY] 
+[00:59:34] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:34] [Server thread/INFO]: [CHERRY] 
+[00:59:34] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:34] [Server thread/INFO]: [CHERRY] 
+[00:59:34] [Server thread/INFO]: [CHERRY] target: <none>
+[00:59:34] [Server thread/INFO]: [CHERRY] 
+[00:59:34] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[00:59:35] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[00:59:35] [Server thread/INFO]: [CHERRY] golem found at x: -1113.12, y: 188, z: -425.12, yaw: 314.97, pitch: 0 in 'world'
+[00:59:35] [Server thread/INFO]: Successfully reloaded golem.sk. (500ms)
+[00:59:35] [Server thread/INFO]: [CHERRY] 
+[00:59:35] [Server thread/INFO]: [CHERRY] 
+[00:59:35] [Server thread/INFO]: [CHERRY] 
+[00:59:35] [Server thread/INFO]: [CHERRY] 
+[00:59:35] [Server thread/INFO]: [CHERRY] 
+[00:59:36] [Server thread/INFO]: [CHERRY] 
+[00:59:36] [Server thread/INFO]: [CHERRY] 
+[00:59:36] [Server thread/INFO]: [CHERRY] 
+[00:59:36] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:36] [Server thread/INFO]: [CHERRY] 
+[00:59:36] [Server thread/INFO]: [CHERRY] 
+[00:59:37] [Server thread/INFO]: [CHERRY] 
+[00:59:37] [Server thread/INFO]: [CHERRY] 
+[00:59:37] [Server thread/INFO]: [CHERRY] 
+[00:59:37] [Server thread/INFO]: [CHERRY] 
+[00:59:37] [Server thread/INFO]: [CHERRY] 
+[00:59:38] [Server thread/INFO]: [CHERRY] 
+[00:59:38] [Server thread/INFO]: [CHERRY] 
+[00:59:38] [Server thread/INFO]: [CHERRY] - d: 12.89
+[00:59:38] [Server thread/INFO]: [CHERRY] 
+[00:59:38] [Server thread/INFO]: [CHERRY] 
+[00:59:38] [Server thread/INFO]: [CHERRY] 
+[00:59:39] [Server thread/INFO]: [CHERRY] 
+[00:59:39] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:39] [Server thread/INFO]: [CHERRY] 
+[00:59:39] [Server thread/INFO]: [CHERRY] 
+[00:59:39] [Server thread/INFO]: [CHERRY] 
+[00:59:39] [Server thread/INFO]: [CHERRY] 
+[00:59:40] [Server thread/INFO]: [CHERRY] 
+[00:59:40] [Server thread/INFO]: [CHERRY] 
+[00:59:40] [Server thread/INFO]: [CHERRY] 
+[00:59:40] [Server thread/INFO]: [CHERRY] 
+[00:59:40] [Server thread/INFO]: [CHERRY] 
+[00:59:41] [Server thread/INFO]: [CHERRY] 
+[00:59:41] [Server thread/INFO]: [CHERRY] 
+[00:59:41] [Server thread/INFO]: [CHERRY] 
+[00:59:41] [Server thread/INFO]: [CHERRY] 
+[00:59:41] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:41] [Server thread/INFO]: [CHERRY] - d: 12.89
+[00:59:41] [Server thread/INFO]: [CHERRY] 
+[00:59:42] [Server thread/INFO]: [CHERRY] 
+[00:59:42] [Server thread/INFO]: [CHERRY] 
+[00:59:42] [Server thread/INFO]: [CHERRY] 
+[00:59:42] [Server thread/INFO]: [CHERRY] 
+[00:59:42] [Server thread/INFO]: [CHERRY] 
+[00:59:43] [Server thread/INFO]: [CHERRY] 
+[00:59:43] [Server thread/INFO]: [CHERRY] 
+[00:59:43] [Server thread/INFO]: [CHERRY] 
+[00:59:43] [Server thread/INFO]: [CHERRY] 
+[00:59:43] [Server thread/INFO]: [CHERRY] 
+[00:59:44] [Server thread/INFO]: [CHERRY] 
+[00:59:44] [Server thread/INFO]: [CHERRY] 
+[00:59:44] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:44] [Server thread/INFO]: [CHERRY] 
+[00:59:44] [Server thread/INFO]: [CHERRY] 
+[00:59:44] [Server thread/INFO]: [CHERRY] 
+[00:59:45] [Server thread/INFO]: [CHERRY] 
+[00:59:45] [Server thread/INFO]: [CHERRY] 
+[00:59:45] [Server thread/INFO]: [CHERRY] - d: 12.89
+[00:59:45] [Server thread/INFO]: [CHERRY] 
+[00:59:45] [Server thread/INFO]: [CHERRY] 
+[00:59:45] [Server thread/INFO]: [CHERRY] 
+[00:59:46] [Server thread/INFO]: [CHERRY] 
+[00:59:46] [Server thread/INFO]: [CHERRY] 
+[00:59:46] [Server thread/INFO]: [CHERRY] 
+[00:59:46] [Server thread/INFO]: [CHERRY] 
+[00:59:46] [Server thread/INFO]: [CHERRY] 
+[00:59:46] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:47] [Server thread/INFO]: [CHERRY] 
+[00:59:47] [Server thread/INFO]: [CHERRY] 
+[00:59:47] [Server thread/INFO]: [CHERRY] 
+[00:59:47] [Server thread/INFO]: [CHERRY] 
+[00:59:47] [Server thread/INFO]: [CHERRY] 
+[00:59:48] [Server thread/INFO]: [CHERRY] 
+[00:59:48] [Server thread/INFO]: [CHERRY] 
+[00:59:48] [Server thread/INFO]: [CHERRY] 
+[00:59:48] [Server thread/INFO]: [CHERRY] 
+[00:59:48] [Server thread/INFO]: [CHERRY] - d: 12.89
+[00:59:48] [Server thread/INFO]: [CHERRY] 
+[00:59:49] [Server thread/INFO]: [CHERRY] 
+[00:59:49] [Server thread/INFO]: [CHERRY] 
+[00:59:49] [Server thread/INFO]: [CHERRY] 
+[00:59:49] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:49] [Server thread/INFO]: [CHERRY] 
+[00:59:49] [Server thread/INFO]: [CHERRY] 
+[00:59:50] [Server thread/INFO]: [CHERRY] 
+[00:59:50] [Server thread/INFO]: [CHERRY] 
+[00:59:50] [Server thread/INFO]: [CHERRY] 
+[00:59:50] [Server thread/INFO]: [CHERRY] 
+[00:59:50] [Server thread/INFO]: [CHERRY] 
+[00:59:51] [Server thread/INFO]: [CHERRY] 
+[00:59:51] [Server thread/INFO]: [CHERRY] 
+[00:59:51] [Server thread/INFO]: [CHERRY] 
+[00:59:51] [Server thread/INFO]: [CHERRY] 
+[00:59:51] [Server thread/INFO]: [CHERRY] 
+[00:59:52] [Server thread/INFO]: [CHERRY] 
+[00:59:52] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:52] [Server thread/INFO]: [CHERRY] 
+[00:59:52] [Server thread/INFO]: [CHERRY] - d: 12.89
+[00:59:52] [Server thread/INFO]: [CHERRY] 
+[00:59:52] [Server thread/INFO]: [CHERRY] 
+[00:59:52] [Server thread/INFO]: [CHERRY] 
+[00:59:53] [Server thread/INFO]: [CHERRY] 
+[00:59:53] [Server thread/INFO]: [CHERRY] 
+[00:59:53] [Server thread/INFO]: [CHERRY] 
+[00:59:53] [Server thread/INFO]: [CHERRY] 
+[00:59:53] [Server thread/INFO]: [CHERRY] 
+[00:59:54] [Server thread/INFO]: [CHERRY] 
+[00:59:54] [Server thread/INFO]: [CHERRY] 
+[00:59:54] [Server thread/INFO]: [CHERRY] 
+[00:59:54] [Server thread/INFO]: [CHERRY] 
+[00:59:54] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:54] [Server thread/INFO]: [CHERRY] 
+[00:59:55] [Server thread/INFO]: [CHERRY] 
+[00:59:55] [Server thread/INFO]: [CHERRY] 
+[00:59:55] [Server thread/INFO]: [CHERRY] 
+[00:59:55] [Server thread/INFO]: [CHERRY] 
+[00:59:55] [Server thread/INFO]: [CHERRY] - d: 12.89
+[00:59:55] [Server thread/INFO]: [CHERRY] 
+[00:59:56] [Server thread/INFO]: [CHERRY] 
+[00:59:56] [Server thread/INFO]: [CHERRY] 
+[00:59:56] [Server thread/INFO]: [CHERRY] 
+[00:59:56] [Server thread/INFO]: [CHERRY] 
+[00:59:56] [Server thread/INFO]: [CHERRY] 
+[00:59:57] [Server thread/INFO]: [CHERRY] 
+[00:59:57] [Server thread/INFO]: [CHERRY] 
+[00:59:57] [Server thread/INFO]: [CHERRY] found target, setting
+[00:59:57] [Server thread/INFO]: [CHERRY] 
+[00:59:57] [Server thread/INFO]: [CHERRY] 
+[00:59:57] [Server thread/INFO]: [CHERRY] 
+[00:59:58] [Server thread/INFO]: [CHERRY] 
+[00:59:58] [Server thread/INFO]: [CHERRY] 
+[00:59:58] [Server thread/INFO]: [CHERRY] 
+[00:59:58] [Server thread/INFO]: [CHERRY] 
+[00:59:58] [Server thread/INFO]: [CHERRY] 
+[00:59:59] [Server thread/INFO]: [CHERRY] 
+[00:59:59] [Server thread/INFO]: [CHERRY] 
+[00:59:59] [Server thread/INFO]: [CHERRY] - d: 10.47
+[00:59:59] [Server thread/INFO]: [CHERRY] 
+[00:59:59] [Server thread/INFO]: [CHERRY] 
+[00:59:59] [Server thread/INFO]: [CHERRY] 
+[00:59:59] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:00] [Server thread/INFO]: [CHERRY] 
+[01:00:00] [Server thread/INFO]: [CHERRY] 
+[01:00:00] [Server thread/INFO]: [CHERRY] 
+[01:00:00] [Server thread/INFO]: [CHERRY] 
+[01:00:00] [Server thread/INFO]: [CHERRY] 
+[01:00:01] [Server thread/INFO]: [CHERRY] 
+[01:00:01] [Server thread/INFO]: [CHERRY] 
+[01:00:01] [Server thread/INFO]: [CHERRY] 
+[01:00:01] [Server thread/INFO]: [CHERRY] 
+[01:00:01] [Server thread/INFO]: [CHERRY] 
+[01:00:02] [Server thread/INFO]: [CHERRY] 
+[01:00:02] [Server thread/INFO]: [CHERRY] 
+[01:00:02] [Server thread/INFO]: [CHERRY] 
+[01:00:02] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:02] [Server thread/INFO]: [CHERRY] 
+[01:00:02] [Server thread/INFO]: [CHERRY] - d: 9.66
+[01:00:02] [Server thread/INFO]: [CHERRY] 
+[01:00:03] [Server thread/INFO]: [CHERRY] 
+[01:00:03] [Server thread/INFO]: [CHERRY] 
+[01:00:03] [Server thread/INFO]: [CHERRY] 
+[01:00:03] [Server thread/INFO]: [CHERRY] 
+[01:00:03] [Server thread/INFO]: [CHERRY] 
+[01:00:04] [Server thread/INFO]: [CHERRY] 
+[01:00:04] [Server thread/INFO]: [CHERRY] 
+[01:00:04] [Server thread/INFO]: [CHERRY] 
+[01:00:04] [Server thread/INFO]: [CHERRY] 
+[01:00:04] [Server thread/INFO]: [CHERRY] 
+[01:00:05] [Server thread/INFO]: [CHERRY] 
+[01:00:05] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:05] [Server thread/INFO]: [CHERRY] 
+[01:00:05] [Server thread/INFO]: [CHERRY] 
+[01:00:05] [Server thread/INFO]: [CHERRY] 
+[01:00:05] [Server thread/INFO]: [CHERRY] 
+[01:00:06] [Server thread/INFO]: [CHERRY] 
+[01:00:06] [Server thread/INFO]: [CHERRY] 
+[01:00:06] [Server thread/INFO]: [CHERRY] - d: 10.21
+[01:00:06] [Server thread/INFO]: [CHERRY] 
+[01:00:06] [Server thread/INFO]: [CHERRY] 
+[01:00:06] [Server thread/INFO]: [CHERRY] 
+[01:00:07] [Server thread/INFO]: [CHERRY] 
+[01:00:07] [Server thread/INFO]: [CHERRY] 
+[01:00:07] [Server thread/INFO]: [CHERRY] 
+[01:00:07] [Server thread/INFO]: [CHERRY] 
+[01:00:07] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:07] [Server thread/INFO]: [CHERRY] 
+[01:00:08] [Server thread/INFO]: [CHERRY] 
+[01:00:08] [Server thread/INFO]: [CHERRY] 
+[01:00:08] [Server thread/INFO]: [CHERRY] 
+[01:00:08] [Server thread/INFO]: [CHERRY] 
+[01:00:08] [Server thread/INFO]: [CHERRY] 
+[01:00:09] [Server thread/INFO]: [CHERRY] 
+[01:00:09] [Server thread/INFO]: [CHERRY] 
+[01:00:09] [Server thread/INFO]: [CHERRY] 
+[01:00:09] [Server thread/INFO]: [CHERRY] 
+[01:00:09] [Server thread/INFO]: [CHERRY] - d: 10.22
+[01:00:09] [Server thread/INFO]: [CHERRY] 
+[01:00:10] [Server thread/INFO]: [CHERRY] 
+[01:00:10] [Server thread/INFO]: [CHERRY] 
+[01:00:10] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:10] [Server thread/INFO]: [CHERRY] 
+[01:00:10] [Server thread/INFO]: [CHERRY] 
+[01:00:10] [Server thread/INFO]: [CHERRY] 
+[01:00:11] [Server thread/INFO]: [CHERRY] 
+[01:00:11] [Server thread/INFO]: [CHERRY] 
+[01:00:11] [Server thread/INFO]: [CHERRY] 
+[01:00:11] [Server thread/INFO]: [CHERRY] 
+[01:00:11] [Server thread/INFO]: [CHERRY] 
+[01:00:12] [Server thread/INFO]: [CHERRY] 
+[01:00:12] [Server thread/INFO]: [CHERRY] 
+[01:00:12] [Server thread/INFO]: [CHERRY] 
+[01:00:12] [Server thread/INFO]: [CHERRY] 
+[01:00:12] [Server thread/INFO]: [CHERRY] 
+[01:00:12] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:13] [Server thread/INFO]: [CHERRY] 
+[01:00:13] [Server thread/INFO]: [CHERRY] 
+[01:00:13] [Server thread/INFO]: [CHERRY] - d: 10.22
+[01:00:13] [Server thread/INFO]: [CHERRY] 
+[01:00:13] [Server thread/INFO]: [CHERRY] 
+[01:00:13] [Server thread/INFO]: [CHERRY] 
+[01:00:14] [Server thread/INFO]: [CHERRY] 
+[01:00:14] [Server thread/INFO]: [CHERRY] 
+[01:00:14] [Server thread/INFO]: [CHERRY] 
+[01:00:14] [Server thread/INFO]: [CHERRY] 
+[01:00:14] [Server thread/INFO]: [CHERRY] 
+[01:00:15] [Server thread/INFO]: [CHERRY] 
+[01:00:15] [Server thread/INFO]: [CHERRY] 
+[01:00:15] [Server thread/INFO]: [CHERRY] 
+[01:00:15] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:15] [Server thread/INFO]: [CHERRY] 
+[01:00:15] [Server thread/INFO]: [CHERRY] 
+[01:00:16] [Server thread/INFO]: [CHERRY] 
+[01:00:16] [Server thread/INFO]: [CHERRY] 
+[01:00:16] [Server thread/INFO]: [CHERRY] 
+[01:00:16] [Server thread/INFO]: [CHERRY] 
+[01:00:16] [Server thread/INFO]: [CHERRY] - d: 10.22
+[01:00:16] [Server thread/INFO]: [CHERRY] 
+[01:00:17] [Server thread/INFO]: [CHERRY] 
+[01:00:17] [Server thread/INFO]: [CHERRY] 
+[01:00:17] [Server thread/INFO]: [CHERRY] 
+[01:00:17] [Server thread/INFO]: [CHERRY] 
+[01:00:17] [Server thread/INFO]: [CHERRY] 
+[01:00:18] [Server thread/INFO]: [CHERRY] 
+[01:00:18] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:18] [Server thread/INFO]: [CHERRY] 
+[01:00:18] [Server thread/INFO]: [CHERRY] 
+[01:00:18] [Server thread/INFO]: [CHERRY] 
+[01:00:18] [Server thread/INFO]: [CHERRY] 
+[01:00:19] [Server thread/INFO]: [CHERRY] 
+[01:00:19] [Server thread/INFO]: [CHERRY] 
+[01:00:19] [Server thread/INFO]: [CHERRY] 
+[01:00:19] [Server thread/INFO]: [CHERRY] 
+[01:00:19] [Server thread/INFO]: [CHERRY] 
+[01:00:20] [Server thread/INFO]: [CHERRY] 
+[01:00:20] [Server thread/INFO]: [CHERRY] 
+[01:00:20] [Server thread/INFO]: [CHERRY] - d: 10.22
+[01:00:20] [Server thread/INFO]: [CHERRY] 
+[01:00:20] [Server thread/INFO]: [CHERRY] 
+[01:00:20] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:20] [Server thread/INFO]: [CHERRY] 
+[01:00:21] [Server thread/INFO]: [CHERRY] 
+[01:00:21] [Server thread/INFO]: [CHERRY] 
+[01:00:21] [Server thread/INFO]: [CHERRY] 
+[01:00:21] [Server thread/INFO]: [CHERRY] 
+[01:00:21] [Server thread/INFO]: [CHERRY] 
+[01:00:22] [Server thread/INFO]: [CHERRY] 
+[01:00:22] [Server thread/INFO]: [CHERRY] 
+[01:00:22] [Server thread/INFO]: [CHERRY] 
+[01:00:22] [Server thread/INFO]: [CHERRY] 
+[01:00:22] [Server thread/INFO]: [CHERRY] 
+[01:00:23] [Server thread/INFO]: [CHERRY] 
+[01:00:23] [Server thread/INFO]: [CHERRY] 
+[01:00:23] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:23] [Server thread/INFO]: [CHERRY] 
+[01:00:23] [Server thread/INFO]: [CHERRY] 
+[01:00:23] [Server thread/INFO]: [CHERRY] - d: 10.22
+[01:00:23] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
+[01:00:23] [Server thread/INFO]: [CHERRY] consume
+[01:00:23] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:00:24] [Server thread/INFO]: [CHERRY] consume
+[01:00:24] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:00:24] [Server thread/INFO]: [CHERRY] consume
+[01:00:24] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:00:24] [Server thread/INFO]: [CHERRY] consume
+[01:00:24] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:00:24] [Server thread/INFO]: [CHERRY] consume
+[01:00:24] [Server thread/INFO]: [CHERRY] 
+[01:00:25] [Server thread/INFO]: [CHERRY] 
+[01:00:25] [Server thread/INFO]: [CHERRY] 
+[01:00:25] [Server thread/INFO]: [CHERRY] 
+[01:00:25] [Server thread/INFO]: [CHERRY] 
+[01:00:25] [Server thread/INFO]: [CHERRY] 
+[01:00:25] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:26] [Server thread/INFO]: [CHERRY] 
+[01:00:26] [Server thread/INFO]: [CHERRY] 
+[01:00:26] [Server thread/INFO]: [CHERRY] 
+[01:00:26] [Server thread/INFO]: [CHERRY] 
+[01:00:26] [Server thread/INFO]: [CHERRY] 
+[01:00:27] [Server thread/INFO]: [CHERRY] 
+[01:00:27] [Server thread/INFO]: [CHERRY] 
+[01:00:27] [Server thread/INFO]: [CHERRY] 
+[01:00:27] [Server thread/INFO]: [CHERRY] 
+[01:00:27] [Server thread/INFO]: [CHERRY] 
+[01:00:28] [Server thread/INFO]: [CHERRY] 
+[01:00:28] [Server thread/INFO]: [CHERRY] 
+[01:00:28] [Server thread/INFO]: [CHERRY] 
+[01:00:28] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:28] [Server thread/INFO]: [CHERRY] 
+[01:00:28] [Server thread/INFO]: [CHERRY] 
+[01:00:29] [Server thread/INFO]: [CHERRY] 
+[01:00:29] [Server thread/INFO]: [CHERRY] 
+[01:00:29] [Server thread/INFO]: [CHERRY] 
+[01:00:29] [Server thread/INFO]: [CHERRY] 
+[01:00:29] [Server thread/INFO]: [CHERRY] 
+[01:00:30] [Server thread/INFO]: [CHERRY] 
+[01:00:30] [Server thread/INFO]: [CHERRY] 
+[01:00:30] [Server thread/INFO]: [CHERRY] 
+[01:00:30] [Server thread/INFO]: [CHERRY] 
+[01:00:30] [Server thread/INFO]: [CHERRY] 
+[01:00:31] [Server thread/INFO]: [CHERRY] 
+[01:00:31] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:31] [Server thread/INFO]: [CHERRY] 
+[01:00:31] [Server thread/INFO]: [CHERRY] 
+[01:00:31] [Server thread/INFO]: [CHERRY] 
+[01:00:31] [Server thread/INFO]: [CHERRY] 
+[01:00:32] [Server thread/INFO]: [CHERRY] 
+[01:00:32] [Server thread/INFO]: [CHERRY] 
+[01:00:32] [Server thread/INFO]: [CHERRY] 
+[01:00:32] [Server thread/INFO]: [CHERRY] 
+[01:00:32] [Server thread/INFO]: [CHERRY] 
+[01:00:33] [Server thread/INFO]: [CHERRY] 
+[01:00:33] [Server thread/INFO]: [CHERRY] 
+[01:00:33] [Server thread/INFO]: [CHERRY] 
+[01:00:33] [Server thread/INFO]: [CHERRY] 
+[01:00:33] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:33] [Server thread/INFO]: [CHERRY] 
+[01:00:34] [Server thread/INFO]: [CHERRY] 
+[01:00:34] [Server thread/INFO]: [CHERRY] 
+[01:00:34] [Server thread/INFO]: [CHERRY] 
+[01:00:34] [Server thread/INFO]: [CHERRY] 
+[01:00:34] [Server thread/INFO]: [CHERRY] 
+[01:00:35] [Server thread/INFO]: [CHERRY] 
+[01:00:35] [Server thread/INFO]: [CHERRY] 
+[01:00:35] [Server thread/INFO]: [CHERRY] 
+[01:00:35] [Server thread/INFO]: [CHERRY] 
+[01:00:35] [Server thread/INFO]: [CHERRY] 
+[01:00:36] [Server thread/INFO]: [CHERRY] 
+[01:00:36] [Server thread/INFO]: [CHERRY] 
+[01:00:36] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:36] [Server thread/INFO]: [CHERRY] 
+[01:00:36] [Server thread/INFO]: [CHERRY] 
+[01:00:36] [Server thread/INFO]: [CHERRY] 
+[01:00:37] [Server thread/INFO]: [CHERRY] 
+[01:00:37] [Server thread/INFO]: [CHERRY] 
+[01:00:37] [Server thread/INFO]: [CHERRY] 
+[01:00:37] [Server thread/INFO]: [CHERRY] 
+[01:00:37] [Server thread/INFO]: [CHERRY] 
+[01:00:38] [Server thread/INFO]: [CHERRY] 
+[01:00:38] [Server thread/INFO]: [CHERRY] 
+[01:00:38] [Server thread/INFO]: [CHERRY] 
+[01:00:38] [Server thread/INFO]: [CHERRY] 
+[01:00:38] [Server thread/INFO]: [CHERRY] 
+[01:00:38] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:39] [Server thread/INFO]: [CHERRY] 
+[01:00:39] [Server thread/INFO]: [CHERRY] 
+[01:00:39] [Server thread/INFO]: [CHERRY] 
+[01:00:39] [Server thread/INFO]: [CHERRY] 
+[01:00:39] [Server thread/INFO]: [CHERRY] 
+[01:00:40] [Server thread/INFO]: [CHERRY] 
+[01:00:40] [Server thread/INFO]: [CHERRY] 
+[01:00:40] [Server thread/INFO]: [CHERRY] 
+[01:00:40] [Server thread/INFO]: [CHERRY] 
+[01:00:40] [Server thread/INFO]: [CHERRY] 
+[01:00:41] [Server thread/INFO]: [CHERRY] 
+[01:00:41] [Server thread/INFO]: [CHERRY] 
+[01:00:41] [Server thread/INFO]: [CHERRY] 
+[01:00:41] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:41] [Server thread/INFO]: [CHERRY] 
+[01:00:41] [Server thread/INFO]: [CHERRY] 
+[01:00:42] [Server thread/INFO]: [CHERRY] 
+[01:00:42] [Server thread/INFO]: [CHERRY] 
+[01:00:42] [Server thread/INFO]: [CHERRY] 
+[01:00:42] [Server thread/INFO]: [CHERRY] 
+[01:00:42] [Server thread/INFO]: [CHERRY] 
+[01:00:43] [Server thread/INFO]: [CHERRY] 
+[01:00:43] [Server thread/INFO]: [CHERRY] 
+[01:00:43] [Server thread/INFO]: [CHERRY] 
+[01:00:43] [Server thread/INFO]: [CHERRY] 
+[01:00:43] [Server thread/INFO]: [CHERRY] 
+[01:00:44] [Server thread/INFO]: [CHERRY] 
+[01:00:44] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:44] [Server thread/INFO]: [CHERRY] 
+[01:00:44] [Server thread/INFO]: [CHERRY] 
+[01:00:44] [Server thread/INFO]: [CHERRY] 
+[01:00:44] [Server thread/INFO]: [CHERRY] 
+[01:00:45] [Server thread/INFO]: [CHERRY] 
+[01:00:45] [Server thread/INFO]: [CHERRY] 
+[01:00:45] [Server thread/INFO]: [CHERRY] 
+[01:00:45] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[01:00:46] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[01:00:46] [Server thread/INFO]: [CHERRY] golem found at x: -1099.85, y: 188, z: -421.1, yaw: 322.28, pitch: 0 in 'world'
+[01:00:46] [Server thread/INFO]: Successfully reloaded golem.sk. (433ms)
+[01:00:46] [Server thread/INFO]: [CHERRY] 
+[01:00:46] [Server thread/INFO]: [CHERRY] 
+[01:00:46] [Server thread/INFO]: [CHERRY] 
+[01:00:46] [Server thread/INFO]: [CHERRY] 
+[01:00:46] [Server thread/INFO]: [CHERRY] 
+[01:00:46] [Server thread/INFO]: [CHERRY] 
+[01:00:46] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:47] [Server thread/INFO]: [CHERRY] 
+[01:00:47] [Server thread/INFO]: [CHERRY] 
+[01:00:47] [Server thread/INFO]: [CHERRY] 
+[01:00:47] [Server thread/INFO]: [CHERRY] 
+[01:00:47] [Server thread/INFO]: [CHERRY] 
+[01:00:48] [Server thread/INFO]: [CHERRY] 
+[01:00:48] [Server thread/INFO]: [CHERRY] 
+[01:00:48] [Server thread/INFO]: [CHERRY] 
+[01:00:48] [Server thread/INFO]: [CHERRY] 
+[01:00:48] [Server thread/INFO]: [CHERRY] 
+[01:00:49] [Server thread/INFO]: [CHERRY] 
+[01:00:49] [Server thread/INFO]: [CHERRY] 
+[01:00:49] [Server thread/INFO]: [CHERRY] 
+[01:00:49] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:49] [Server thread/INFO]: [CHERRY] 
+[01:00:49] [Server thread/INFO]: [CHERRY] 
+[01:00:50] [Server thread/INFO]: [CHERRY] 
+[01:00:50] [Server thread/INFO]: [CHERRY] 
+[01:00:50] [Server thread/INFO]: [CHERRY] 
+[01:00:50] [Server thread/INFO]: [CHERRY] 
+[01:00:50] [Server thread/INFO]: [CHERRY] 
+[01:00:51] [Server thread/INFO]: [CHERRY] 
+[01:00:51] [Server thread/INFO]: [CHERRY] 
+[01:00:51] [Server thread/INFO]: [CHERRY] 
+[01:00:51] [Server thread/INFO]: [CHERRY] 
+[01:00:51] [Server thread/INFO]: [CHERRY] 
+[01:00:52] [Server thread/INFO]: [CHERRY] 
+[01:00:52] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:52] [Server thread/INFO]: [CHERRY] 
+[01:00:52] [Server thread/INFO]: [CHERRY] 
+[01:00:52] [Server thread/INFO]: [CHERRY] - d: 14.34
+[01:00:52] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
+[01:00:52] [Server thread/INFO]: [CHERRY] consume
+[01:00:52] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:00:52] [Server thread/INFO]: [CHERRY] consume
+[01:00:53] [Server thread/INFO]: [CHERRY] 
+[01:00:53] [Server thread/INFO]: [CHERRY] 
+[01:00:53] [Server thread/INFO]: [CHERRY] 
+[01:00:53] [Server thread/INFO]: [CHERRY] 
+[01:00:53] [Server thread/INFO]: [CHERRY] 
+[01:00:54] [Server thread/INFO]: [CHERRY] 
+[01:00:54] [Server thread/INFO]: [CHERRY] 
+[01:00:54] [Server thread/INFO]: [CHERRY] 
+[01:00:54] [Server thread/INFO]: [CHERRY] 
+[01:00:54] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:54] [Server thread/INFO]: [CHERRY] 
+[01:00:55] [Server thread/INFO]: [CHERRY] 
+[01:00:55] [Server thread/INFO]: [CHERRY] 
+[01:00:55] [Server thread/INFO]: [CHERRY] 
+[01:00:55] [Server thread/INFO]: [CHERRY] 
+[01:00:55] [Server thread/INFO]: [CHERRY] 
+[01:00:56] [Server thread/INFO]: [CHERRY] 
+[01:00:56] [Server thread/INFO]: [CHERRY] - d: 13.51
+[01:00:56] [Server thread/INFO]: [CHERRY] 
+[01:00:56] [Server thread/INFO]: [CHERRY] 
+[01:00:56] [Server thread/INFO]: [CHERRY] 
+[01:00:56] [Server thread/INFO]: [CHERRY] 
+[01:00:57] [Server thread/INFO]: [CHERRY] 
+[01:00:57] [Server thread/INFO]: [CHERRY] 
+[01:00:57] [Server thread/INFO]: [CHERRY] found target, setting
+[01:00:57] [Server thread/INFO]: [CHERRY] 
+[01:00:57] [Server thread/INFO]: [CHERRY] 
+[01:00:57] [Server thread/INFO]: [CHERRY] 
+[01:00:58] [Server thread/INFO]: [CHERRY] 
+[01:00:58] [Server thread/INFO]: [CHERRY] 
+[01:00:58] [Server thread/INFO]: [CHERRY] 
+[01:00:58] [Server thread/INFO]: [CHERRY] 
+[01:00:58] [Server thread/INFO]: [CHERRY] 
+[01:00:59] [Server thread/INFO]: [CHERRY] 
+[01:00:59] [Server thread/INFO]: [CHERRY] 
+[01:00:59] [Server thread/INFO]: [CHERRY] 
+[01:00:59] [Server thread/INFO]: [CHERRY] - d: 11.67
+[01:00:59] [Server thread/INFO]: [CHERRY] 
+[01:00:59] [Server thread/INFO]: [CHERRY] 
+[01:00:59] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:00] [Server thread/INFO]: [CHERRY] 
+[01:01:00] [Server thread/INFO]: [CHERRY] 
+[01:01:00] [Server thread/INFO]: [CHERRY] 
+[01:01:00] [Server thread/INFO]: [CHERRY] 
+[01:01:00] [Server thread/INFO]: [CHERRY] 
+[01:01:01] [Server thread/INFO]: [CHERRY] 
+[01:01:01] [Server thread/INFO]: [CHERRY] 
+[01:01:01] [Server thread/INFO]: [CHERRY] 
+[01:01:01] [Server thread/INFO]: [CHERRY] 
+[01:01:01] [Server thread/INFO]: [CHERRY] 
+[01:01:02] [Server thread/INFO]: [CHERRY] 
+[01:01:02] [Server thread/INFO]: [CHERRY] 
+[01:01:02] [Server thread/INFO]: [CHERRY] 
+[01:01:02] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:02] [Server thread/INFO]: [CHERRY] 
+[01:01:02] [Server thread/INFO]: [CHERRY] 
+[01:01:03] [Server thread/INFO]: [CHERRY] 
+[01:01:03] [Server thread/INFO]: [CHERRY] - d: 5.7
+[01:01:03] [Server thread/INFO]: [CHERRY] 
+[01:01:03] [Server thread/INFO]: [CHERRY] 
+[01:01:03] [Server thread/INFO]: [CHERRY] 
+[01:01:03] [Server thread/INFO]: [CHERRY] 
+[01:01:04] [Server thread/INFO]: [CHERRY] 
+[01:01:04] [Server thread/INFO]: [CHERRY] 
+[01:01:04] [Server thread/INFO]: [CHERRY] 
+[01:01:04] [Server thread/INFO]: [CHERRY] 
+[01:01:04] [Server thread/INFO]: [CHERRY] 
+[01:01:05] [Server thread/INFO]: [CHERRY] 
+[01:01:05] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:05] [Server thread/INFO]: [CHERRY] 
+[01:01:05] [Server thread/INFO]: [CHERRY] 
+[01:01:05] [Server thread/INFO]: [CHERRY] 
+[01:01:05] [Server thread/INFO]: [CHERRY] 
+[01:01:06] [Server thread/INFO]: [CHERRY] 
+[01:01:06] [Server thread/INFO]: [CHERRY] 
+[01:01:06] [Server thread/INFO]: [CHERRY] 
+[01:01:06] [Server thread/INFO]: [CHERRY] - d: 12.02
+[01:01:06] [Server thread/INFO]: [CHERRY] 
+[01:01:06] [Server thread/INFO]: [CHERRY] 
+[01:01:07] [Server thread/INFO]: [CHERRY] 
+[01:01:07] [Server thread/INFO]: [CHERRY] 
+[01:01:07] [Server thread/INFO]: [CHERRY] 
+[01:01:07] [Server thread/INFO]: [CHERRY] 
+[01:01:07] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:07] [Server thread/INFO]: [CHERRY] 
+[01:01:08] [Server thread/INFO]: [CHERRY] 
+[01:01:08] [Server thread/INFO]: [CHERRY] 
+[01:01:08] [Server thread/INFO]: [CHERRY] 
+[01:01:08] [Server thread/INFO]: [CHERRY] 
+[01:01:08] [Server thread/INFO]: [CHERRY] 
+[01:01:09] [Server thread/INFO]: [CHERRY] 
+[01:01:09] [Server thread/INFO]: [CHERRY] 
+[01:01:09] [Server thread/INFO]: [CHERRY] 
+[01:01:09] [Server thread/INFO]: [CHERRY] 
+[01:01:09] [Server thread/INFO]: [CHERRY] 
+[01:01:10] [Server thread/INFO]: [CHERRY] 
+[01:01:10] [Server thread/INFO]: [CHERRY] - d: 12.02
+[01:01:10] [Server thread/INFO]: [CHERRY] 
+[01:01:10] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:10] [Server thread/INFO]: [CHERRY] 
+[01:01:10] [Server thread/INFO]: [CHERRY] 
+[01:01:10] [Server thread/INFO]: [CHERRY] 
+[01:01:11] [Server thread/INFO]: [CHERRY] 
+[01:01:11] [Server thread/INFO]: [CHERRY] 
+[01:01:11] [Server thread/INFO]: [CHERRY] 
+[01:01:11] [Server thread/INFO]: [CHERRY] 
+[01:01:11] [Server thread/INFO]: [CHERRY] 
+[01:01:12] [Server thread/INFO]: [CHERRY] 
+[01:01:12] [Server thread/INFO]: [CHERRY] 
+[01:01:12] [Server thread/INFO]: [CHERRY] 
+[01:01:12] [Server thread/INFO]: [CHERRY] 
+[01:01:12] [Server thread/INFO]: [CHERRY] 
+[01:01:12] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:13] [Server thread/INFO]: [CHERRY] 
+[01:01:13] [Server thread/INFO]: [CHERRY] 
+[01:01:13] [Server thread/INFO]: [CHERRY] 
+[01:01:13] [Server thread/INFO]: [CHERRY] - d: 12.02
+[01:01:13] [Server thread/INFO]: [CHERRY] 
+[01:01:13] [Server thread/INFO]: [CHERRY] 
+[01:01:14] [Server thread/INFO]: [CHERRY] 
+[01:01:14] [Server thread/INFO]: [CHERRY] 
+[01:01:14] [Server thread/INFO]: [CHERRY] 
+[01:01:14] [Server thread/INFO]: [CHERRY] 
+[01:01:14] [Server thread/INFO]: [CHERRY] 
+[01:01:15] [Server thread/INFO]: [CHERRY] 
+[01:01:15] [Server thread/INFO]: [CHERRY] 
+[01:01:15] [Server thread/INFO]: [CHERRY] 
+[01:01:15] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:15] [Server thread/INFO]: [CHERRY] 
+[01:01:15] [Server thread/INFO]: [CHERRY] 
+[01:01:16] [Server thread/INFO]: [CHERRY] 
+[01:01:16] [Server thread/INFO]: [CHERRY] 
+[01:01:16] [Server thread/INFO]: [CHERRY] 
+[01:01:16] [Server thread/INFO]: [CHERRY] 
+[01:01:16] [Server thread/INFO]: [CHERRY] 
+[01:01:17] [Server thread/INFO]: [CHERRY] 
+[01:01:17] [Server thread/INFO]: [CHERRY] - d: 12.02
+[01:01:17] [Server thread/INFO]: [CHERRY] 
+[01:01:17] [Server thread/INFO]: [CHERRY] 
+[01:01:17] [Server thread/INFO]: [CHERRY] 
+[01:01:17] [Server thread/INFO]: [CHERRY] 
+[01:01:18] [Server thread/INFO]: [CHERRY] 
+[01:01:18] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:18] [Server thread/INFO]: [CHERRY] 
+[01:01:18] [Server thread/INFO]: [CHERRY] 
+[01:01:18] [Server thread/INFO]: [CHERRY] 
+[01:01:18] [Server thread/INFO]: [CHERRY] 
+[01:01:19] [Server thread/INFO]: [CHERRY] 
+[01:01:19] [Server thread/INFO]: [CHERRY] 
+[01:01:19] [Server thread/INFO]: [CHERRY] 
+[01:01:19] [Server thread/INFO]: [CHERRY] 
+[01:01:19] [Server thread/INFO]: [CHERRY] 
+[01:01:20] [Server thread/INFO]: [CHERRY] 
+[01:01:20] [Server thread/INFO]: [CHERRY] 
+[01:01:20] [Server thread/INFO]: [CHERRY] 
+[01:01:20] [Server thread/INFO]: [CHERRY] - d: 12.02
+[01:01:20] [Server thread/INFO]: [CHERRY] 
+[01:01:20] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:20] [Server thread/INFO]: [CHERRY] 
+[01:01:21] [Server thread/INFO]: [CHERRY] 
+[01:01:21] [Server thread/INFO]: [CHERRY] 
+[01:01:21] [Server thread/INFO]: [CHERRY] 
+[01:01:21] [Server thread/INFO]: [CHERRY] 
+[01:01:21] [Server thread/INFO]: [CHERRY] 
+[01:01:22] [Server thread/INFO]: [CHERRY] 
+[01:01:22] [Server thread/INFO]: [CHERRY] 
+[01:01:22] [Server thread/INFO]: [CHERRY] 
+[01:01:22] [Server thread/INFO]: [CHERRY] 
+[01:01:22] [Server thread/INFO]: [CHERRY] 
+[01:01:23] [Server thread/INFO]: [CHERRY] 
+[01:01:23] [Server thread/INFO]: [CHERRY] 
+[01:01:23] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:23] [Server thread/INFO]: [CHERRY] 
+[01:01:23] [Server thread/INFO]: [CHERRY] 
+[01:01:23] [Server thread/INFO]: [CHERRY] 
+[01:01:24] [Server thread/INFO]: [CHERRY] 
+[01:01:24] [Server thread/INFO]: [CHERRY] - d: 12.62
+[01:01:24] [Server thread/INFO]: [CHERRY] 
+[01:01:24] [Server thread/INFO]: [CHERRY] 
+[01:01:24] [Server thread/INFO]: [CHERRY] 
+[01:01:24] [Server thread/INFO]: [CHERRY] 
+[01:01:24] [Server thread/INFO]: [CHERRY] returning home
+[01:01:25] [Server thread/INFO]: [CHERRY] 
+[01:01:25] [Server thread/INFO]: [CHERRY] returning home
+[01:01:25] [Server thread/INFO]: [CHERRY] 
+[01:01:25] [Server thread/INFO]: [CHERRY] 
+[01:01:25] [Server thread/INFO]: [CHERRY] 
+[01:01:25] [Server thread/INFO]: [CHERRY] 
+[01:01:25] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:26] [Server thread/INFO]: [CHERRY] 
+[01:01:26] [Server thread/INFO]: [CHERRY] 
+[01:01:26] [Server thread/INFO]: [CHERRY] 
+[01:01:26] [Server thread/INFO]: [CHERRY] 
+[01:01:26] [Server thread/INFO]: [CHERRY] 
+[01:01:27] [Server thread/INFO]: [CHERRY] 
+[01:01:27] [Server thread/INFO]: [CHERRY] 
+[01:01:27] [Server thread/INFO]: [CHERRY] 
+[01:01:27] [Server thread/INFO]: [CHERRY] - d: 9.76
+[01:01:27] [Server thread/INFO]: [CHERRY] 
+[01:01:27] [Server thread/INFO]: [CHERRY] 
+[01:01:28] [Server thread/INFO]: [CHERRY] 
+[01:01:28] [Server thread/INFO]: [CHERRY] 
+[01:01:28] [Server thread/INFO]: [CHERRY] 
+[01:01:28] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:28] [Server thread/INFO]: [CHERRY] 
+[01:01:28] [Server thread/INFO]: [CHERRY] 
+[01:01:29] [Server thread/INFO]: [CHERRY] 
+[01:01:29] [Server thread/INFO]: [CHERRY] 
+[01:01:29] [Server thread/INFO]: [CHERRY] 
+[01:01:29] [Server thread/INFO]: [CHERRY] 
+[01:01:29] [Server thread/INFO]: [CHERRY] 
+[01:01:30] [Server thread/INFO]: [CHERRY] 
+[01:01:30] [Server thread/INFO]: [CHERRY] 
+[01:01:30] [Server thread/INFO]: [CHERRY] 
+[01:01:30] [Server thread/INFO]: [CHERRY] 
+[01:01:30] [Server thread/INFO]: [CHERRY] 
+[01:01:31] [Server thread/INFO]: [CHERRY] 
+[01:01:31] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:31] [Server thread/INFO]: [CHERRY] - d: 6.27
+[01:01:31] [Server thread/INFO]: [CHERRY] 
+[01:01:31] [Server thread/INFO]: [CHERRY] 
+[01:01:31] [Server thread/INFO]: [CHERRY] 
+[01:01:31] [Server thread/INFO]: [CHERRY] 
+[01:01:32] [Server thread/INFO]: [CHERRY] 
+[01:01:32] [Server thread/INFO]: [CHERRY] 
+[01:01:32] [Server thread/INFO]: [CHERRY] 
+[01:01:32] [Server thread/INFO]: [CHERRY] 
+[01:01:33] [Server thread/INFO]: [CHERRY] 
+[01:01:33] [Server thread/INFO]: [CHERRY] 
+[01:01:33] [Server thread/INFO]: [CHERRY] 
+[01:01:33] [Server thread/INFO]: [CHERRY] 
+[01:01:33] [Server thread/INFO]: [CHERRY] 
+[01:01:33] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:34] [Server thread/INFO]: [CHERRY] 
+[01:01:34] [Server thread/INFO]: [CHERRY] 
+[01:01:34] [Server thread/INFO]: [CHERRY] 
+[01:01:34] [Server thread/INFO]: [CHERRY] 
+[01:01:34] [Server thread/INFO]: [CHERRY] - d: 5.29
+[01:01:34] [Server thread/INFO]: [CHERRY] 
+[01:01:35] [Server thread/INFO]: [CHERRY] 
+[01:01:35] [Server thread/INFO]: [CHERRY] 
+[01:01:35] [Server thread/INFO]: [CHERRY] 
+[01:01:35] [Server thread/INFO]: [CHERRY] 
+[01:01:35] [Server thread/INFO]: [CHERRY] 
+[01:01:36] [Server thread/INFO]: [CHERRY] 
+[01:01:36] [Server thread/INFO]: [CHERRY] 
+[01:01:36] [Server thread/INFO]: [CHERRY] 
+[01:01:36] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:36] [Server thread/INFO]: [CHERRY] 
+[01:01:36] [Server thread/INFO]: [CHERRY] 
+[01:01:37] [Server thread/INFO]: [CHERRY] 
+[01:01:37] [Server thread/INFO]: [CHERRY] 
+[01:01:37] [Server thread/INFO]: [CHERRY] 
+[01:01:37] [Server thread/INFO]: [CHERRY] 
+[01:01:37] [Server thread/INFO]: [CHERRY] 
+[01:01:38] [Server thread/INFO]: [CHERRY] 
+[01:01:38] [Server thread/INFO]: [CHERRY] 
+[01:01:38] [Server thread/INFO]: [CHERRY] - d: 11.28
+[01:01:38] [Server thread/INFO]: [CHERRY] 
+[01:01:38] [Server thread/INFO]: [CHERRY] 
+[01:01:38] [Server thread/INFO]: [CHERRY] 
+[01:01:39] [Server thread/INFO]: [CHERRY] 
+[01:01:39] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:39] [Server thread/INFO]: [CHERRY] 
+[01:01:39] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:39] [Server thread/INFO]: [CHERRY] 
+[01:01:39] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:39] [Server thread/INFO]: [CHERRY] 
+[01:01:39] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:39] [Server thread/INFO]: [CHERRY] 
+[01:01:39] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:40] [Server thread/INFO]: [CHERRY] 
+[01:01:40] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:40] [Server thread/INFO]: [CHERRY] 
+[01:01:40] [Server thread/INFO]: [CHERRY] 
+[01:01:40] [Server thread/INFO]: [CHERRY] 
+[01:01:40] [Server thread/INFO]: [CHERRY] 
+[01:01:41] [Server thread/INFO]: [CHERRY] 
+[01:01:41] [Server thread/INFO]: [CHERRY] 
+[01:01:41] [Server thread/INFO]: [CHERRY] 
+[01:01:41] [Server thread/INFO]: [CHERRY] 
+[01:01:41] [Server thread/INFO]: [CHERRY] - d: 19.76
+[01:01:41] [Server thread/INFO]: [CHERRY] 
+[01:01:42] [Server thread/INFO]: [CHERRY] 
+[01:01:42] [Server thread/INFO]: [CHERRY] 
+[01:01:42] [Server thread/INFO]: [CHERRY] 
+[01:01:42] [Server thread/INFO]: [CHERRY] 
+[01:01:42] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:42] [Server thread/INFO]: [CHERRY] 
+[01:01:43] [Server thread/INFO]: [CHERRY] 
+[01:01:43] [Server thread/INFO]: [CHERRY] 
+[01:01:43] [Server thread/INFO]: [CHERRY] 
+[01:01:43] [Server thread/INFO]: [CHERRY] 
+[01:01:43] [Server thread/INFO]: [CHERRY] 
+[01:01:44] [Server thread/INFO]: [CHERRY] 
+[01:01:44] [Server thread/INFO]: [CHERRY] 
+[01:01:44] [Server thread/INFO]: [CHERRY] 
+[01:01:44] [Server thread/INFO]: [CHERRY] 
+[01:01:44] [Server thread/INFO]: [CHERRY] 
+[01:01:45] [Server thread/INFO]: [CHERRY] 
+[01:01:45] [Server thread/INFO]: [CHERRY] 
+[01:01:45] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:45] [Server thread/INFO]: [CHERRY] - d: 20.17
+[01:01:45] [Server thread/INFO]: [CHERRY] 
+[01:01:45] [Server thread/INFO]: [CHERRY] 
+[01:01:45] [Server thread/INFO]: [CHERRY] 
+[01:01:46] [Server thread/INFO]: [CHERRY] 
+[01:01:46] [Server thread/INFO]: [CHERRY] 
+[01:01:46] [Server thread/INFO]: [CHERRY] 
+[01:01:46] [Server thread/INFO]: [CHERRY] 
+[01:01:46] [Server thread/INFO]: [CHERRY] 
+[01:01:47] [Server thread/INFO]: [CHERRY] 
+[01:01:47] [Server thread/INFO]: [CHERRY] 
+[01:01:47] [Server thread/INFO]: [CHERRY] 
+[01:01:47] [Server thread/INFO]: [CHERRY] 
+[01:01:47] [Server thread/INFO]: [CHERRY] 
+[01:01:47] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:48] [Server thread/INFO]: [CHERRY] 
+[01:01:48] [Server thread/INFO]: [CHERRY] 
+[01:01:48] [Server thread/INFO]: [CHERRY] 
+[01:01:48] [Server thread/INFO]: [CHERRY] 
+[01:01:48] [Server thread/INFO]: [CHERRY] - d: 20.17
+[01:01:48] [Server thread/INFO]: [CHERRY] 
+[01:01:49] [Server thread/INFO]: [CHERRY] 
+[01:01:49] [Server thread/INFO]: [CHERRY] 
+[01:01:49] [Server thread/INFO]: [CHERRY] 
+[01:01:49] [Server thread/INFO]: [CHERRY] 
+[01:01:49] [Server thread/INFO]: [CHERRY] 
+[01:01:50] [Server thread/INFO]: [CHERRY] 
+[01:01:50] [Server thread/INFO]: [CHERRY] 
+[01:01:50] [Server thread/INFO]: [CHERRY] 
+[01:01:50] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:50] [Server thread/INFO]: [CHERRY] 
+[01:01:50] [Server thread/INFO]: [CHERRY] 
+[01:01:51] [Server thread/INFO]: [CHERRY] 
+[01:01:51] [Server thread/INFO]: [CHERRY] 
+[01:01:51] [Server thread/INFO]: [CHERRY] 
+[01:01:51] [Server thread/INFO]: [CHERRY] 
+[01:01:51] [Server thread/INFO]: [CHERRY] 
+[01:01:52] [Server thread/INFO]: [CHERRY] 
+[01:01:52] [Server thread/INFO]: [CHERRY] 
+[01:01:52] [Server thread/INFO]: [CHERRY] - d: 15.66
+[01:01:52] [Server thread/INFO]: [CHERRY] found consume target: 64 iron ingots
+[01:01:52] [Server thread/INFO]: [CHERRY] consume
+[01:01:52] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:01:52] [Server thread/INFO]: [CHERRY] consume
+[01:01:52] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:01:52] [Server thread/INFO]: [CHERRY] consume
+[01:01:53] [Server thread/INFO]: [CHERRY] 
+[01:01:53] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:53] [Server thread/INFO]: [CHERRY] 
+[01:01:53] [Server thread/INFO]: [CHERRY] 
+[01:01:53] [Server thread/INFO]: [CHERRY] 
+[01:01:53] [Server thread/INFO]: [CHERRY] 
+[01:01:54] [Server thread/INFO]: [CHERRY] 
+[01:01:54] [Server thread/INFO]: [CHERRY] 
+[01:01:54] [Server thread/INFO]: [CHERRY] 
+[01:01:54] [Server thread/INFO]: [CHERRY] 
+[01:01:54] [Server thread/INFO]: [CHERRY] 
+[01:01:55] [Server thread/INFO]: [CHERRY] 
+[01:01:55] [Server thread/INFO]: [CHERRY] 
+[01:01:55] [Server thread/INFO]: [CHERRY] 
+[01:01:55] [Server thread/INFO]: [CHERRY] 
+[01:01:55] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:55] [Server thread/INFO]: [CHERRY] - d: 12.12
+[01:01:55] [Server thread/INFO]: [CHERRY] found consume target: 62 iron ingots
+[01:01:55] [Server thread/INFO]: [CHERRY] consume
+[01:01:55] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:01:56] [Server thread/INFO]: [CHERRY] consume
+[01:01:56] [Server thread/INFO]: [CHERRY] 
+[01:01:56] [Server thread/INFO]: [CHERRY] 
+[01:01:56] [Server thread/INFO]: [CHERRY] 
+[01:01:56] [Server thread/INFO]: [CHERRY] 
+[01:01:57] [Server thread/INFO]: [CHERRY] 
+[01:01:57] [Server thread/INFO]: [CHERRY] 
+[01:01:57] [Server thread/INFO]: [CHERRY] 
+[01:01:57] [Server thread/INFO]: [CHERRY] 
+[01:01:57] [Server thread/INFO]: [CHERRY] 
+[01:01:58] [Server thread/INFO]: [CHERRY] 
+[01:01:58] [Server thread/INFO]: [CHERRY] 
+[01:01:58] [Server thread/INFO]: [CHERRY] found target, setting
+[01:01:58] [Server thread/INFO]: [CHERRY] 
+[01:01:58] [Server thread/INFO]: [CHERRY] 
+[01:01:58] [Server thread/INFO]: [CHERRY] 
+[01:01:59] [Server thread/INFO]: [CHERRY] 
+[01:01:59] [Server thread/INFO]: [CHERRY] 
+[01:01:59] [Server thread/INFO]: [CHERRY] - d: 7.58
+[01:01:59] [Server thread/INFO]: [CHERRY] found consume target: 61 iron ingots
+[01:01:59] [Server thread/INFO]: [CHERRY] consume
+[01:01:59] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:01:59] [Server thread/INFO]: [CHERRY] consume
+[01:01:59] [Server thread/INFO]: [CHERRY] 
+[01:02:00] [Server thread/INFO]: [CHERRY] 
+[01:02:00] [Server thread/INFO]: [CHERRY] 
+[01:02:00] [Server thread/INFO]: [CHERRY] 
+[01:02:00] [Server thread/INFO]: [CHERRY] 
+[01:02:00] [Server thread/INFO]: [CHERRY] 
+[01:02:00] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:01] [Server thread/INFO]: [CHERRY] 
+[01:02:01] [Server thread/INFO]: [CHERRY] 
+[01:02:01] [Server thread/INFO]: [CHERRY] 
+[01:02:01] [Server thread/INFO]: [CHERRY] 
+[01:02:01] [Server thread/INFO]: [CHERRY] 
+[01:02:02] [Server thread/INFO]: [CHERRY] 
+[01:02:02] [Server thread/INFO]: [CHERRY] 
+[01:02:02] [Server thread/INFO]: [CHERRY] 
+[01:02:02] [Server thread/INFO]: [CHERRY] 
+[01:02:02] [Server thread/INFO]: [CHERRY] 
+[01:02:03] [Server thread/INFO]: [CHERRY] 
+[01:02:03] [Server thread/INFO]: [CHERRY] 
+[01:02:03] [Server thread/INFO]: [CHERRY] 
+[01:02:03] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:03] [Server thread/INFO]: [CHERRY] 
+[01:02:03] [Server thread/INFO]: [CHERRY] 
+[01:02:04] [Server thread/INFO]: [CHERRY] 
+[01:02:04] [Server thread/INFO]: [CHERRY] 
+[01:02:04] [Server thread/INFO]: [CHERRY] 
+[01:02:04] [Server thread/INFO]: [CHERRY] 
+[01:02:04] [Server thread/INFO]: [CHERRY] 
+[01:02:05] [Server thread/INFO]: [CHERRY] 
+[01:02:05] [Server thread/INFO]: [CHERRY] 
+[01:02:05] [Server thread/INFO]: [CHERRY] 
+[01:02:05] [Server thread/INFO]: [CHERRY] 
+[01:02:05] [Server thread/INFO]: [CHERRY] 
+[01:02:06] [Server thread/INFO]: [CHERRY] 
+[01:02:06] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:06] [Server thread/INFO]: [CHERRY] 
+[01:02:06] [Server thread/INFO]: [CHERRY] 
+[01:02:06] [Server thread/INFO]: [CHERRY] 
+[01:02:06] [Server thread/INFO]: [CHERRY] 
+[01:02:07] [Server thread/INFO]: [CHERRY] 
+[01:02:07] [Server thread/INFO]: [CHERRY] 
+[01:02:07] [Server thread/INFO]: [CHERRY] 
+[01:02:07] [Server thread/INFO]: [CHERRY] 
+[01:02:07] [Server thread/INFO]: [CHERRY] 
+[01:02:08] [Server thread/INFO]: [CHERRY] 
+[01:02:08] [Server thread/INFO]: [CHERRY] 
+[01:02:08] [Server thread/INFO]: [CHERRY] 
+[01:02:08] [Server thread/INFO]: [CHERRY] 
+[01:02:08] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:08] [Server thread/INFO]: [CHERRY] 
+[01:02:09] [Server thread/INFO]: [CHERRY] 
+[01:02:09] [Server thread/INFO]: [CHERRY] 
+[01:02:09] [Server thread/INFO]: [CHERRY] 
+[01:02:09] [Server thread/INFO]: [CHERRY] 
+[01:02:09] [Server thread/INFO]: [CHERRY] 
+[01:02:10] [Server thread/INFO]: [CHERRY] 
+[01:02:10] [Server thread/INFO]: [CHERRY] 
+[01:02:10] [Server thread/INFO]: [CHERRY] 
+[01:02:10] [Server thread/INFO]: [CHERRY] 
+[01:02:10] [Server thread/INFO]: [CHERRY] 
+[01:02:11] [Server thread/INFO]: [CHERRY] 
+[01:02:11] [Server thread/INFO]: [CHERRY] 
+[01:02:11] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:11] [Server thread/INFO]: [CHERRY] 
+[01:02:11] [Server thread/INFO]: [CHERRY] 
+[01:02:11] [Server thread/INFO]: [CHERRY] 
+[01:02:12] [Server thread/INFO]: [CHERRY] 
+[01:02:12] [Server thread/INFO]: [CHERRY] 
+[01:02:12] [Server thread/INFO]: [CHERRY] 
+[01:02:12] [Server thread/INFO]: [CHERRY] 
+[01:02:12] [Server thread/INFO]: [CHERRY] 
+[01:02:13] [Server thread/INFO]: [CHERRY] 
+[01:02:13] [Server thread/INFO]: [CHERRY] 
+[01:02:13] [Server thread/INFO]: [CHERRY] 
+[01:02:13] [Server thread/INFO]: [CHERRY] 
+[01:02:13] [Server thread/INFO]: [CHERRY] 
+[01:02:13] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:14] [Server thread/INFO]: [CHERRY] 
+[01:02:14] [Server thread/INFO]: [CHERRY] 
+[01:02:14] [Server thread/INFO]: [CHERRY] 
+[01:02:14] [Server thread/INFO]: [CHERRY] 
+[01:02:14] [Server thread/INFO]: [CHERRY] 
+[01:02:15] [Server thread/INFO]: [CHERRY] 
+[01:02:15] [Server thread/INFO]: [CHERRY] 
+[01:02:15] [Server thread/INFO]: [CHERRY] 
+[01:02:15] [Server thread/INFO]: [CHERRY] 
+[01:02:15] [Server thread/INFO]: [CHERRY] 
+[01:02:16] [Server thread/INFO]: [CHERRY] 
+[01:02:16] [Server thread/INFO]: [CHERRY] 
+[01:02:16] [Server thread/INFO]: [CHERRY] 
+[01:02:16] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:16] [Server thread/INFO]: [CHERRY] 
+[01:02:16] [Server thread/INFO]: [CHERRY] 
+[01:02:17] [Server thread/INFO]: [CHERRY] 
+[01:02:17] [Server thread/INFO]: [CHERRY] 
+[01:02:17] [Server thread/INFO]: [CHERRY] 
+[01:02:17] [Server thread/INFO]: [CHERRY] 
+[01:02:17] [Server thread/INFO]: [CHERRY] 
+[01:02:18] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[01:02:18] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[01:02:18] [Server thread/INFO]: [CHERRY] golem found at x: -1113.02, y: 187, z: -434.14, yaw: 230.03, pitch: 0 in 'world'
+[01:02:18] [Server thread/INFO]: Successfully reloaded golem.sk. (409ms)
+[01:02:18] [Server thread/INFO]: [CHERRY] 
+[01:02:18] [Server thread/INFO]: [CHERRY] 
+[01:02:18] [Server thread/INFO]: [CHERRY] 
+[01:02:18] [Server thread/INFO]: [CHERRY] 
+[01:02:19] [Server thread/INFO]: [CHERRY] 
+[01:02:19] [Server thread/INFO]: [CHERRY] 
+[01:02:19] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:19] [Server thread/INFO]: [CHERRY] 
+[01:02:19] [Server thread/INFO]: [CHERRY] 
+[01:02:19] [Server thread/INFO]: [CHERRY] 
+[01:02:20] [Server thread/INFO]: [CHERRY] 
+[01:02:20] [Server thread/INFO]: [CHERRY] 
+[01:02:20] [Server thread/INFO]: [CHERRY] 
+[01:02:20] [Server thread/INFO]: [CHERRY] 
+[01:02:20] [Server thread/INFO]: [CHERRY] 
+[01:02:21] [Server thread/INFO]: [CHERRY] 
+[01:02:21] [Server thread/INFO]: [CHERRY] 
+[01:02:21] [Server thread/INFO]: [CHERRY] 
+[01:02:21] [Server thread/INFO]: [CHERRY] 
+[01:02:21] [Server thread/INFO]: [CHERRY] 
+[01:02:21] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:22] [Server thread/INFO]: [CHERRY] 
+[01:02:22] [Server thread/INFO]: [CHERRY] 
+[01:02:22] [Server thread/INFO]: [CHERRY] 
+[01:02:22] [Server thread/INFO]: [CHERRY] 
+[01:02:22] [Server thread/INFO]: [CHERRY] 
+[01:02:23] [Server thread/INFO]: [CHERRY] 
+[01:02:23] [Server thread/INFO]: [CHERRY] 
+[01:02:23] [Server thread/INFO]: [CHERRY] 
+[01:02:23] [Server thread/INFO]: [CHERRY] 
+[01:02:23] [Server thread/INFO]: [CHERRY] 
+[01:02:24] [Server thread/INFO]: [CHERRY] 
+[01:02:24] [Server thread/INFO]: [CHERRY] 
+[01:02:24] [Server thread/INFO]: [CHERRY] 
+[01:02:24] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:24] [Server thread/INFO]: [CHERRY] 
+[01:02:24] [Server thread/INFO]: [CHERRY] 
+[01:02:25] [Server thread/INFO]: trololol72 issued server command: /time set day
+[01:02:25] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[01:02:25] [Server thread/INFO]: [CHERRY] 
+[01:02:25] [Server thread/INFO]: [CHERRY] 
+[01:02:25] [Server thread/INFO]: [CHERRY] 
+[01:02:25] [Server thread/INFO]: [CHERRY] 
+[01:02:25] [Server thread/INFO]: [CHERRY] 
+[01:02:26] [Server thread/INFO]: [CHERRY] 
+[01:02:26] [Server thread/INFO]: [CHERRY] 
+[01:02:26] [Server thread/INFO]: [CHERRY] 
+[01:02:26] [Server thread/INFO]: [CHERRY] 
+[01:02:26] [Server thread/INFO]: [CHERRY] 
+[01:02:27] [Server thread/INFO]: [CHERRY] 
+[01:02:27] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:27] [Server thread/INFO]: [CHERRY] 
+[01:02:27] [Server thread/INFO]: [CHERRY] 
+[01:02:27] [Server thread/INFO]: [CHERRY] 
+[01:02:27] [Server thread/INFO]: [CHERRY] 
+[01:02:28] [Server thread/INFO]: [CHERRY] 
+[01:02:28] [Server thread/INFO]: [CHERRY] 
+[01:02:28] [Server thread/INFO]: [CHERRY] 
+[01:02:28] [Server thread/INFO]: [CHERRY] 
+[01:02:28] [Server thread/INFO]: [CHERRY] 
+[01:02:29] [Server thread/INFO]: [CHERRY] 
+[01:02:29] [Server thread/INFO]: [CHERRY] 
+[01:02:29] [Server thread/INFO]: [CHERRY] 
+[01:02:29] [Server thread/INFO]: [CHERRY] 
+[01:02:29] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:29] [Server thread/INFO]: [CHERRY] 
+[01:02:30] [Server thread/INFO]: [CHERRY] 
+[01:02:30] [Server thread/INFO]: [CHERRY] 
+[01:02:30] [Server thread/INFO]: [CHERRY] 
+[01:02:30] [Server thread/INFO]: [CHERRY] 
+[01:02:30] [Server thread/INFO]: [CHERRY] 
+[01:02:31] [Server thread/INFO]: [CHERRY] 
+[01:02:31] [Server thread/INFO]: [CHERRY] 
+[01:02:31] [Server thread/INFO]: [CHERRY] 
+[01:02:31] [Server thread/INFO]: [CHERRY] 
+[01:02:31] [Server thread/INFO]: [CHERRY] 
+[01:02:32] [Server thread/INFO]: [CHERRY] 
+[01:02:32] [Server thread/INFO]: [CHERRY] 
+[01:02:32] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:32] [Server thread/INFO]: [CHERRY] 
+[01:02:32] [Server thread/INFO]: [CHERRY] 
+[01:02:32] [Server thread/INFO]: [CHERRY] 
+[01:02:33] [Server thread/INFO]: [CHERRY] 
+[01:02:33] [Server thread/INFO]: [CHERRY] 
+[01:02:33] [Server thread/INFO]: [CHERRY] 
+[01:02:33] [Server thread/INFO]: [CHERRY] 
+[01:02:33] [Server thread/INFO]: [CHERRY] 
+[01:02:34] [Server thread/INFO]: [CHERRY] 
+[01:02:34] [Server thread/INFO]: [CHERRY] 
+[01:02:34] [Server thread/INFO]: [CHERRY] 
+[01:02:34] [Server thread/INFO]: [CHERRY] 
+[01:02:34] [Server thread/INFO]: [CHERRY] 
+[01:02:34] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:35] [Server thread/INFO]: [CHERRY] 
+[01:02:35] [Server thread/INFO]: [CHERRY] 
+[01:02:35] [Server thread/INFO]: [CHERRY] 
+[01:02:35] [Server thread/INFO]: [CHERRY] 
+[01:02:35] [Server thread/INFO]: [CHERRY] 
+[01:02:36] [Server thread/INFO]: [CHERRY] 
+[01:02:36] [Server thread/INFO]: [CHERRY] 
+[01:02:36] [Server thread/INFO]: [CHERRY] 
+[01:02:36] [Server thread/INFO]: [CHERRY] 
+[01:02:36] [Server thread/INFO]: [CHERRY] 
+[01:02:37] [Server thread/INFO]: [CHERRY] 
+[01:02:37] [Server thread/INFO]: [CHERRY] 
+[01:02:37] [Server thread/INFO]: [CHERRY] 
+[01:02:37] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:37] [Server thread/INFO]: [CHERRY] 
+[01:02:37] [Server thread/INFO]: [CHERRY] 
+[01:02:38] [Server thread/INFO]: [CHERRY] 
+[01:02:38] [Server thread/INFO]: [CHERRY] 
+[01:02:38] [Server thread/INFO]: [CHERRY] 
+[01:02:38] [Server thread/INFO]: [CHERRY] 
+[01:02:38] [Server thread/INFO]: [CHERRY] 
+[01:02:39] [Server thread/INFO]: [CHERRY] - d: 6
+[01:02:39] [Server thread/INFO]: [CHERRY] 
+[01:02:39] [Server thread/INFO]: [CHERRY] 
+[01:02:39] [Server thread/INFO]: [CHERRY] 
+[01:02:39] [Server thread/INFO]: [CHERRY] 
+[01:02:39] [Server thread/INFO]: [CHERRY] 
+[01:02:40] [Server thread/INFO]: [CHERRY] 
+[01:02:40] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:40] [Server thread/INFO]: [CHERRY] 
+[01:02:40] [Server thread/INFO]: [CHERRY] 
+[01:02:40] [Server thread/INFO]: [CHERRY] 
+[01:02:40] [Server thread/INFO]: [CHERRY] 
+[01:02:41] [Server thread/INFO]: [CHERRY] 
+[01:02:41] [Server thread/INFO]: [CHERRY] 
+[01:02:41] [Server thread/INFO]: [CHERRY] 
+[01:02:41] [Server thread/INFO]: [CHERRY] 
+[01:02:41] [Server thread/INFO]: [CHERRY] 
+[01:02:42] [Server thread/INFO]: [CHERRY] 
+[01:02:42] [Server thread/INFO]: [CHERRY] 
+[01:02:42] [Server thread/INFO]: [CHERRY] 
+[01:02:42] [Server thread/INFO]: [CHERRY] - d: 6
+[01:02:42] [Server thread/INFO]: [CHERRY] 
+[01:02:42] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:42] [Server thread/INFO]: [CHERRY] 
+[01:02:43] [Server thread/INFO]: [CHERRY] 
+[01:02:43] [Server thread/INFO]: [CHERRY] 
+[01:02:43] [Server thread/INFO]: [CHERRY] 
+[01:02:43] [Server thread/INFO]: [CHERRY] 
+[01:02:43] [Server thread/INFO]: [CHERRY] 
+[01:02:44] [Server thread/INFO]: [CHERRY] 
+[01:02:44] [Server thread/INFO]: [CHERRY] 
+[01:02:44] [Server thread/INFO]: [CHERRY] 
+[01:02:44] [Server thread/INFO]: [CHERRY] 
+[01:02:44] [Server thread/INFO]: [CHERRY] 
+[01:02:45] [Server thread/INFO]: [CHERRY] 
+[01:02:45] [Server thread/INFO]: [CHERRY] 
+[01:02:45] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:45] [Server thread/INFO]: [CHERRY] 
+[01:02:45] [Server thread/INFO]: [CHERRY] 
+[01:02:45] [Server thread/INFO]: [CHERRY] 
+[01:02:46] [Server thread/INFO]: [CHERRY] - d: 7.17
+[01:02:46] [Server thread/INFO]: [CHERRY] 
+[01:02:46] [Server thread/INFO]: [CHERRY] 
+[01:02:46] [Server thread/INFO]: [CHERRY] 
+[01:02:46] [Server thread/INFO]: [CHERRY] 
+[01:02:46] [Server thread/INFO]: [CHERRY] 
+[01:02:47] [Server thread/INFO]: [CHERRY] 
+[01:02:47] [Server thread/INFO]: [CHERRY] 
+[01:02:47] [Server thread/INFO]: [CHERRY] 
+[01:02:47] [Server thread/INFO]: [CHERRY] 
+[01:02:47] [Server thread/INFO]: [CHERRY] 
+[01:02:47] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:48] [Server thread/INFO]: [CHERRY] 
+[01:02:48] [Server thread/INFO]: [CHERRY] 
+[01:02:48] [Server thread/INFO]: [CHERRY] 
+[01:02:48] [Server thread/INFO]: [CHERRY] 
+[01:02:48] [Server thread/INFO]: [CHERRY] 
+[01:02:49] [Server thread/INFO]: [CHERRY] 
+[01:02:49] [Server thread/INFO]: [CHERRY] 
+[01:02:49] [Server thread/INFO]: [CHERRY] 
+[01:02:49] [Server thread/INFO]: [CHERRY] - d: 10.29
+[01:02:49] [Server thread/INFO]: [CHERRY] 
+[01:02:49] [Server thread/INFO]: [CHERRY] 
+[01:02:50] [Server thread/INFO]: [CHERRY] 
+[01:02:50] [Server thread/INFO]: [CHERRY] 
+[01:02:50] [Server thread/INFO]: [CHERRY] 
+[01:02:50] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:50] [Server thread/INFO]: [CHERRY] 
+[01:02:50] [Server thread/INFO]: [CHERRY] 
+[01:02:51] [Server thread/INFO]: [CHERRY] 
+[01:02:51] [Server thread/INFO]: [CHERRY] 
+[01:02:51] [Server thread/INFO]: [CHERRY] 
+[01:02:51] [Server thread/INFO]: [CHERRY] 
+[01:02:51] [Server thread/INFO]: [CHERRY] 
+[01:02:52] [Server thread/INFO]: [CHERRY] 
+[01:02:52] [Server thread/INFO]: [CHERRY] 
+[01:02:52] [Server thread/INFO]: [CHERRY] 
+[01:02:52] [Server thread/INFO]: [CHERRY] 
+[01:02:52] [Server thread/INFO]: [CHERRY] 
+[01:02:53] [Server thread/INFO]: [CHERRY] - d: 10.29
+[01:02:53] [Server thread/INFO]: [CHERRY] 
+[01:02:53] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:53] [Server thread/INFO]: [CHERRY] 
+[01:02:53] [Server thread/INFO]: [CHERRY] 
+[01:02:53] [Server thread/INFO]: [CHERRY] 
+[01:02:53] [Server thread/INFO]: [CHERRY] 
+[01:02:54] [Server thread/INFO]: [CHERRY] 
+[01:02:54] [Server thread/INFO]: [CHERRY] 
+[01:02:54] [Server thread/INFO]: [CHERRY] 
+[01:02:54] [Server thread/INFO]: [CHERRY] 
+[01:02:54] [Server thread/INFO]: [CHERRY] 
+[01:02:55] [Server thread/INFO]: [CHERRY] 
+[01:02:55] [Server thread/INFO]: [CHERRY] 
+[01:02:55] [Server thread/INFO]: [CHERRY] 
+[01:02:55] [Server thread/INFO]: [CHERRY] 
+[01:02:55] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:55] [Server thread/INFO]: [CHERRY] 
+[01:02:56] [Server thread/INFO]: [CHERRY] 
+[01:02:56] [Server thread/INFO]: [CHERRY] 
+[01:02:56] [Server thread/INFO]: [CHERRY] 
+[01:02:56] [Server thread/INFO]: [CHERRY] - d: 9.14
+[01:02:56] [Server thread/INFO]: [CHERRY] 
+[01:02:56] [Server thread/INFO]: [CHERRY] 
+[01:02:57] [Server thread/INFO]: [CHERRY] 
+[01:02:57] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[01:02:57] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[01:02:57] [Server thread/INFO]: [CHERRY] golem found at x: -1118.03, y: 187, z: -434.11, yaw: 317.16, pitch: 0 in 'world'
+[01:02:57] [Server thread/INFO]: Successfully reloaded golem.sk. (404ms)
+[01:02:57] [Server thread/INFO]: [CHERRY] 
+[01:02:57] [Server thread/INFO]: [CHERRY] 
+[01:02:57] [Server thread/INFO]: [CHERRY] 
+[01:02:58] [Server thread/INFO]: [CHERRY] 
+[01:02:58] [Server thread/INFO]: [CHERRY] 
+[01:02:58] [Server thread/INFO]: [CHERRY] 
+[01:02:58] [Server thread/INFO]: [CHERRY] found target, setting
+[01:02:58] [Server thread/INFO]: [CHERRY] 
+[01:02:58] [Server thread/INFO]: [CHERRY] 
+[01:02:59] [Server thread/INFO]: [CHERRY] 
+[01:02:59] [Server thread/INFO]: [CHERRY] 
+[01:02:59] [Server thread/INFO]: [CHERRY] 
+[01:02:59] [Server thread/INFO]: [CHERRY] 
+[01:02:59] [Server thread/INFO]: [CHERRY] 
+[01:03:00] [Server thread/INFO]: [CHERRY] 
+[01:03:00] [Server thread/INFO]: [CHERRY] 
+[01:03:00] [Server thread/INFO]: [CHERRY] 
+[01:03:00] [Server thread/INFO]: [CHERRY] 
+[01:03:00] [Server thread/INFO]: [CHERRY] - d: 8.98
+[01:03:00] [Server thread/INFO]: [CHERRY] 
+[01:03:01] [Server thread/INFO]: [CHERRY] 
+[01:03:01] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:01] [Server thread/INFO]: [CHERRY] 
+[01:03:01] [Server thread/INFO]: [CHERRY] 
+[01:03:01] [Server thread/INFO]: [CHERRY] 
+[01:03:01] [Server thread/INFO]: [CHERRY] 
+[01:03:02] [Server thread/INFO]: [CHERRY] 
+[01:03:02] [Server thread/INFO]: [CHERRY] 
+[01:03:02] [Server thread/INFO]: [CHERRY] 
+[01:03:02] [Server thread/INFO]: [CHERRY] 
+[01:03:02] [Server thread/INFO]: [CHERRY] 
+[01:03:03] [Server thread/INFO]: [CHERRY] 
+[01:03:03] [Server thread/INFO]: [CHERRY] 
+[01:03:03] [Server thread/INFO]: [CHERRY] 
+[01:03:03] [Server thread/INFO]: [CHERRY] 
+[01:03:03] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:03] [Server thread/INFO]: [CHERRY] 
+[01:03:04] [Server thread/INFO]: [CHERRY] 
+[01:03:04] [Server thread/INFO]: [CHERRY] - d: 10.09
+[01:03:04] [Server thread/INFO]: [CHERRY] 
+[01:03:04] [Server thread/INFO]: [CHERRY] 
+[01:03:04] [Server thread/INFO]: [CHERRY] 
+[01:03:04] [Server thread/INFO]: [CHERRY] 
+[01:03:05] [Server thread/INFO]: [CHERRY] 
+[01:03:05] [Server thread/INFO]: [CHERRY] 
+[01:03:05] [Server thread/INFO]: [CHERRY] 
+[01:03:05] [Server thread/INFO]: [CHERRY] 
+[01:03:05] [Server thread/INFO]: [CHERRY] 
+[01:03:06] [Server thread/INFO]: [CHERRY] 
+[01:03:06] [Server thread/INFO]: [CHERRY] 
+[01:03:06] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:06] [Server thread/INFO]: [CHERRY] 
+[01:03:06] [Server thread/INFO]: [CHERRY] 
+[01:03:06] [Server thread/INFO]: [CHERRY] 
+[01:03:07] [Server thread/INFO]: [CHERRY] 
+[01:03:07] [Server thread/INFO]: [CHERRY] 
+[01:03:07] [Server thread/INFO]: [CHERRY] 
+[01:03:07] [Server thread/INFO]: [CHERRY] 
+[01:03:07] [Server thread/INFO]: [CHERRY] - d: 4.98
+[01:03:07] [Server thread/INFO]: [CHERRY] found melee target
+[01:03:07] [Server thread/INFO]: [CHERRY] 
+[01:03:08] [Server thread/INFO]: [CHERRY] 
+[01:03:08] [Server thread/INFO]: [CHERRY] 
+[01:03:08] [Server thread/INFO]: [CHERRY] 
+[01:03:08] [Server thread/INFO]: [CHERRY] 
+[01:03:08] [Server thread/INFO]: [CHERRY] 
+[01:03:08] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:09] [Server thread/INFO]: [CHERRY] 
+[01:03:09] [Server thread/INFO]: [CHERRY] 
+[01:03:09] [Server thread/INFO]: [CHERRY] 
+[01:03:09] [Server thread/INFO]: [CHERRY] 
+[01:03:09] [Server thread/INFO]: [CHERRY] 
+[01:03:10] [Server thread/INFO]: [CHERRY] 
+[01:03:10] [Server thread/INFO]: [CHERRY] 
+[01:03:10] [Server thread/INFO]: [CHERRY] 
+[01:03:10] [Server thread/INFO]: [CHERRY] 
+[01:03:10] [Server thread/INFO]: [CHERRY] 
+[01:03:11] [Server thread/INFO]: [CHERRY] 
+[01:03:11] [Server thread/INFO]: [CHERRY] - d: 1.79
+[01:03:11] [Server thread/INFO]: [CHERRY] found melee target
+[01:03:11] [Server thread/INFO]: [CHERRY] 
+[01:03:11] [Server thread/INFO]: [CHERRY] 
+[01:03:11] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:11] [Server thread/INFO]: [CHERRY] 
+[01:03:11] [Server thread/INFO]: [CHERRY] 
+[01:03:12] [Server thread/INFO]: [CHERRY] 
+[01:03:12] [Server thread/INFO]: [CHERRY] 
+[01:03:12] [Server thread/INFO]: [CHERRY] 
+[01:03:12] [Server thread/INFO]: [CHERRY] 
+[01:03:12] [Server thread/INFO]: [CHERRY] 
+[01:03:13] [Server thread/INFO]: [CHERRY] 
+[01:03:13] [Server thread/INFO]: [CHERRY] 
+[01:03:13] [Server thread/INFO]: [CHERRY] 
+[01:03:13] [Server thread/INFO]: [CHERRY] 
+[01:03:13] [Server thread/INFO]: [CHERRY] 
+[01:03:14] [Server thread/INFO]: [CHERRY] 
+[01:03:14] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:14] [Server thread/INFO]: [CHERRY] 
+[01:03:14] [Server thread/INFO]: [CHERRY] 
+[01:03:14] [Server thread/INFO]: [CHERRY] 
+[01:03:14] [Server thread/INFO]: [CHERRY] - d: 6.88
+[01:03:14] [Server thread/INFO]: [CHERRY] 
+[01:03:15] [Server thread/INFO]: [CHERRY] 
+[01:03:15] [Server thread/INFO]: [CHERRY] 
+[01:03:15] [Server thread/INFO]: [CHERRY] 
+[01:03:15] [Server thread/INFO]: [CHERRY] 
+[01:03:15] [Server thread/INFO]: [CHERRY] 
+[01:03:16] [Server thread/INFO]: [CHERRY] 
+[01:03:16] [Server thread/INFO]: [CHERRY] 
+[01:03:16] [Server thread/INFO]: [CHERRY] 
+[01:03:16] [Server thread/INFO]: [CHERRY] 
+[01:03:16] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:16] [Server thread/INFO]: [CHERRY] 
+[01:03:17] [Server thread/INFO]: [CHERRY] 
+[01:03:17] [Server thread/INFO]: [CHERRY] 
+[01:03:17] [Server thread/INFO]: [CHERRY] 
+[01:03:17] [Server thread/INFO]: [CHERRY] 
+[01:03:17] [Server thread/INFO]: [CHERRY] 
+[01:03:18] [Server thread/INFO]: [CHERRY] 
+[01:03:18] [Server thread/INFO]: [CHERRY] - d: 6.88
+[01:03:18] [Server thread/INFO]: [CHERRY] 
+[01:03:18] [Server thread/INFO]: [CHERRY] 
+[01:03:18] [Server thread/INFO]: [CHERRY] 
+[01:03:18] [Server thread/INFO]: [CHERRY] 
+[01:03:19] [Server thread/INFO]: [CHERRY] 
+[01:03:19] [Server thread/INFO]: [CHERRY] 
+[01:03:19] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:19] [Server thread/INFO]: [CHERRY] 
+[01:03:19] [Server thread/INFO]: [CHERRY] 
+[01:03:19] [Server thread/INFO]: [CHERRY] 
+[01:03:20] [Server thread/INFO]: [CHERRY] 
+[01:03:20] [Server thread/INFO]: [CHERRY] 
+[01:03:20] [Server thread/INFO]: [CHERRY] 
+[01:03:20] [Server thread/INFO]: [CHERRY] 
+[01:03:20] [Server thread/INFO]: [CHERRY] 
+[01:03:21] [Server thread/INFO]: [CHERRY] 
+[01:03:21] [Server thread/INFO]: [CHERRY] 
+[01:03:21] [Server thread/INFO]: [CHERRY] 
+[01:03:21] [Server thread/INFO]: [CHERRY] 
+[01:03:21] [Server thread/INFO]: [CHERRY] - d: 6.88
+[01:03:21] [Server thread/INFO]: [CHERRY] 
+[01:03:21] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:22] [Server thread/INFO]: [CHERRY] 
+[01:03:22] [Server thread/INFO]: [CHERRY] 
+[01:03:22] [Server thread/INFO]: [CHERRY] 
+[01:03:22] [Server thread/INFO]: [CHERRY] 
+[01:03:22] [Server thread/INFO]: [CHERRY] 
+[01:03:23] [Server thread/INFO]: [CHERRY] 
+[01:03:23] [Server thread/INFO]: [CHERRY] 
+[01:03:23] [Server thread/INFO]: [CHERRY] 
+[01:03:23] [Server thread/INFO]: [CHERRY] 
+[01:03:23] [Server thread/INFO]: [CHERRY] 
+[01:03:24] [Server thread/INFO]: [CHERRY] 
+[01:03:24] [Server thread/INFO]: [CHERRY] 
+[01:03:24] [Server thread/INFO]: [CHERRY] 
+[01:03:24] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:24] [Server thread/INFO]: [CHERRY] 
+[01:03:24] [Server thread/INFO]: [CHERRY] 
+[01:03:25] [Server thread/INFO]: [CHERRY] 
+[01:03:25] [Server thread/INFO]: [CHERRY] - d: 6.88
+[01:03:25] [Server thread/INFO]: [CHERRY] 
+[01:03:25] [Server thread/INFO]: [CHERRY] 
+[01:03:25] [Server thread/INFO]: [CHERRY] 
+[01:03:25] [Server thread/INFO]: [CHERRY] 
+[01:03:26] [Server thread/INFO]: [CHERRY] 
+[01:03:26] [Server thread/INFO]: [CHERRY] 
+[01:03:26] [Server thread/INFO]: [CHERRY] 
+[01:03:26] [Server thread/INFO]: [CHERRY] 
+[01:03:26] [Server thread/INFO]: [CHERRY] 
+[01:03:27] [Server thread/INFO]: [CHERRY] 
+[01:03:27] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:27] [Server thread/INFO]: [CHERRY] 
+[01:03:27] [Server thread/INFO]: [CHERRY] 
+[01:03:27] [Server thread/INFO]: [CHERRY] 
+[01:03:27] [Server thread/INFO]: [CHERRY] 
+[01:03:28] [Server thread/INFO]: [CHERRY] 
+[01:03:28] [Server thread/INFO]: [CHERRY] 
+[01:03:28] [Server thread/INFO]: [CHERRY] 
+[01:03:28] [Server thread/INFO]: [CHERRY] 
+[01:03:28] [Server thread/INFO]: [CHERRY] - d: 6.88
+[01:03:28] [Server thread/INFO]: [CHERRY] 
+[01:03:29] [Server thread/INFO]: [CHERRY] 
+[01:03:29] [Server thread/INFO]: [CHERRY] 
+[01:03:29] [Server thread/INFO]: [CHERRY] 
+[01:03:29] [Server thread/INFO]: [CHERRY] 
+[01:03:29] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:29] [Server thread/INFO]: [CHERRY] 
+[01:03:30] [Server thread/INFO]: [CHERRY] 
+[01:03:30] [Server thread/INFO]: [CHERRY] 
+[01:03:30] [Server thread/INFO]: [CHERRY] 
+[01:03:30] [Server thread/INFO]: [CHERRY] 
+[01:03:30] [Server thread/INFO]: [CHERRY] 
+[01:03:31] [Server thread/INFO]: [CHERRY] 
+[01:03:31] [Server thread/INFO]: [CHERRY] 
+[01:03:31] [Server thread/INFO]: [CHERRY] 
+[01:03:31] [Server thread/INFO]: [CHERRY] 
+[01:03:31] [Server thread/INFO]: [CHERRY] 
+[01:03:32] [Server thread/INFO]: [CHERRY] 
+[01:03:32] [Server thread/INFO]: [CHERRY] - d: 6.88
+[01:03:32] [Server thread/INFO]: [CHERRY] 
+[01:03:32] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:32] [Server thread/INFO]: [CHERRY] 
+[01:03:32] [Server thread/INFO]: [CHERRY] 
+[01:03:32] [Server thread/INFO]: [CHERRY] 
+[01:03:33] [Server thread/INFO]: [CHERRY] 
+[01:03:33] [Server thread/INFO]: [CHERRY] 
+[01:03:33] [Server thread/INFO]: [CHERRY] 
+[01:03:33] [Server thread/INFO]: [CHERRY] 
+[01:03:33] [Server thread/INFO]: [CHERRY] 
+[01:03:34] [Server thread/INFO]: [CHERRY] 
+[01:03:34] [Server thread/INFO]: [CHERRY] 
+[01:03:34] [Server thread/INFO]: [CHERRY] 
+[01:03:34] [Server thread/INFO]: [CHERRY] 
+[01:03:34] [Server thread/INFO]: [CHERRY] 
+[01:03:34] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:35] [Server thread/INFO]: [CHERRY] 
+[01:03:35] [Server thread/INFO]: [CHERRY] 
+[01:03:35] [Server thread/INFO]: [CHERRY] 
+[01:03:35] [Server thread/INFO]: [CHERRY] 
+[01:03:35] [Server thread/INFO]: [CHERRY] - d: 8.1
+[01:03:35] [Server thread/INFO]: [CHERRY] 
+[01:03:36] [Server thread/INFO]: [CHERRY] 
+[01:03:36] [Server thread/INFO]: [CHERRY] 
+[01:03:36] [Server thread/INFO]: [CHERRY] 
+[01:03:36] [Server thread/INFO]: [CHERRY] 
+[01:03:36] [Server thread/INFO]: [CHERRY] 
+[01:03:37] [Server thread/INFO]: [CHERRY] 
+[01:03:37] [Server thread/INFO]: [CHERRY] 
+[01:03:37] [Server thread/INFO]: [CHERRY] 
+[01:03:37] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:37] [Server thread/INFO]: [CHERRY] 
+[01:03:37] [Server thread/INFO]: [CHERRY] 
+[01:03:38] [Server thread/INFO]: [CHERRY] 
+[01:03:38] [Server thread/INFO]: [CHERRY] 
+[01:03:38] [Server thread/INFO]: [CHERRY] 
+[01:03:38] [Server thread/INFO]: [CHERRY] 
+[01:03:38] [Server thread/INFO]: [CHERRY] 
+[01:03:39] [Server thread/INFO]: [CHERRY] 
+[01:03:39] [Server thread/INFO]: [CHERRY] - d: 8.1
+[01:03:39] [Server thread/INFO]: [CHERRY] 
+[01:03:39] [Server thread/INFO]: [CHERRY] 
+[01:03:39] [Server thread/INFO]: [CHERRY] 
+[01:03:39] [Server thread/INFO]: [CHERRY] 
+[01:03:40] [Server thread/INFO]: [CHERRY] 
+[01:03:40] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:40] [Server thread/INFO]: [CHERRY] 
+[01:03:40] [Server thread/INFO]: [CHERRY] 
+[01:03:40] [Server thread/INFO]: [CHERRY] 
+[01:03:40] [Server thread/INFO]: [CHERRY] 
+[01:03:41] [Server thread/INFO]: [CHERRY] 
+[01:03:41] [Server thread/INFO]: [CHERRY] 
+[01:03:41] [Server thread/INFO]: [CHERRY] 
+[01:03:41] [Server thread/INFO]: [CHERRY] 
+[01:03:41] [Server thread/INFO]: [CHERRY] 
+[01:03:42] [Server thread/INFO]: [CHERRY] 
+[01:03:42] [Server thread/INFO]: [CHERRY] 
+[01:03:42] [Server thread/INFO]: [CHERRY] 
+[01:03:42] [Server thread/INFO]: [CHERRY] 
+[01:03:42] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:42] [Server thread/INFO]: [CHERRY] - d: 5.14
+[01:03:42] [Server thread/INFO]: [CHERRY] 
+[01:03:43] [Server thread/INFO]: [CHERRY] 
+[01:03:43] [Server thread/INFO]: [CHERRY] 
+[01:03:43] [Server thread/INFO]: [CHERRY] 
+[01:03:43] [Server thread/INFO]: [CHERRY] 
+[01:03:43] [Server thread/INFO]: [CHERRY] 
+[01:03:44] [Server thread/INFO]: [CHERRY] 
+[01:03:44] [Server thread/INFO]: [CHERRY] 
+[01:03:44] [Server thread/INFO]: [Skript] Reloading golem.sk...
+[01:03:44] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
+[01:03:44] [Server thread/INFO]: [CHERRY] golem found at x: -1105.94, y: 188, z: -426.06, yaw: 94.97, pitch: 0 in 'world'
+[01:03:44] [Server thread/INFO]: Successfully reloaded golem.sk. (389ms)
+[01:03:44] [Server thread/INFO]: [CHERRY] 
+[01:03:44] [Server thread/INFO]: [CHERRY] 
+[01:03:45] [Server thread/INFO]: [CHERRY] 
+[01:03:45] [Server thread/INFO]: [CHERRY] 
+[01:03:45] [Server thread/INFO]: [CHERRY] 
+[01:03:45] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:45] [Server thread/INFO]: [CHERRY] 
+[01:03:45] [Server thread/INFO]: [CHERRY] 
+[01:03:46] [Server thread/INFO]: [CHERRY] 
+[01:03:46] [Server thread/INFO]: [CHERRY] 
+[01:03:46] [Server thread/INFO]: [CHERRY] 
+[01:03:46] [Server thread/INFO]: [CHERRY] 
+[01:03:46] [Server thread/INFO]: [CHERRY] 
+[01:03:47] [Server thread/INFO]: [CHERRY] 
+[01:03:47] [Server thread/INFO]: [CHERRY] 
+[01:03:47] [Server thread/INFO]: [CHERRY] 
+[01:03:47] [Server thread/INFO]: [CHERRY] 
+[01:03:47] [Server thread/INFO]: [CHERRY] 
+[01:03:47] [Server thread/INFO]: [CHERRY] - d: 4.61
+[01:03:47] [Server thread/INFO]: [CHERRY] found melee target
+[01:03:48] [Server thread/INFO]: [CHERRY] 
+[01:03:48] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:48] [Server thread/INFO]: [CHERRY] 
+[01:03:48] [Server thread/INFO]: [CHERRY] 
+[01:03:48] [Server thread/INFO]: [CHERRY] 
+[01:03:48] [Server thread/INFO]: [CHERRY] 
+[01:03:49] [Server thread/INFO]: [CHERRY] 
+[01:03:49] [Server thread/INFO]: [CHERRY] 
+[01:03:49] [Server thread/INFO]: [CHERRY] 
+[01:03:49] [Server thread/INFO]: [CHERRY] 
+[01:03:49] [Server thread/INFO]: [CHERRY] 
+[01:03:50] [Server thread/INFO]: [CHERRY] 
+[01:03:50] [Server thread/INFO]: [CHERRY] 
+[01:03:50] [Server thread/INFO]: [CHERRY] 
+[01:03:50] [Server thread/INFO]: [CHERRY] 
+[01:03:50] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:50] [Server thread/INFO]: [CHERRY] 
+[01:03:51] [Server thread/INFO]: [CHERRY] 
+[01:03:51] [Server thread/INFO]: [CHERRY] 
+[01:03:51] [Server thread/INFO]: [CHERRY] - d: 7.67
+[01:03:51] [Server thread/INFO]: [CHERRY] found consume target: 36 arrows
+[01:03:51] [Server thread/INFO]: [CHERRY] found consume target: 7 arrows
+[01:03:51] [Server thread/INFO]: [CHERRY] consume
+[01:03:51] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:03:51] [Server thread/INFO]: [CHERRY] consume
+[01:03:51] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:03:51] [Server thread/INFO]: [CHERRY] consume
+[01:03:51] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:03:52] [Server thread/INFO]: [CHERRY] consume
+[01:03:52] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:03:52] [Server thread/INFO]: [CHERRY] consume
+[01:03:52] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:03:52] [Server thread/INFO]: [CHERRY] consume
+[01:03:52] [Server thread/INFO]: [CHERRY] 
+[01:03:52] [Server thread/INFO]: [CHERRY] 
+[01:03:53] [Server thread/INFO]: [CHERRY] 
+[01:03:53] [Server thread/INFO]: [CHERRY] 
+[01:03:53] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:53] [Server thread/INFO]: [CHERRY] 
+[01:03:53] [Server thread/INFO]: [CHERRY] 
+[01:03:53] [Server thread/INFO]: [CHERRY] 
+[01:03:54] [Server thread/INFO]: [CHERRY] 
+[01:03:54] [Server thread/INFO]: [CHERRY] 
+[01:03:54] [Server thread/INFO]: [CHERRY] 
+[01:03:54] [Server thread/INFO]: [CHERRY] 
+[01:03:54] [Server thread/INFO]: [CHERRY] 
+[01:03:54] [Server thread/INFO]: [CHERRY] - d: 6.93
+[01:03:54] [Server thread/INFO]: [CHERRY] found consume target: 31 arrows
+[01:03:54] [Server thread/INFO]: [CHERRY] found consume target: 7 arrows
+[01:03:55] [Server thread/INFO]: [CHERRY] consume
+[01:03:55] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:03:55] [Server thread/INFO]: [CHERRY] consume
+[01:03:55] [Server thread/INFO]: [CHERRY] 
+[01:03:55] [Server thread/INFO]: [CHERRY] 
+[01:03:55] [Server thread/INFO]: [CHERRY] 
+[01:03:55] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:56] [Server thread/INFO]: [CHERRY] 
+[01:03:56] [Server thread/INFO]: [CHERRY] 
+[01:03:56] [Server thread/INFO]: [CHERRY] 
+[01:03:56] [Server thread/INFO]: [CHERRY] 
+[01:03:56] [Server thread/INFO]: [CHERRY] 
+[01:03:57] [Server thread/INFO]: [CHERRY] 
+[01:03:57] [Server thread/INFO]: [CHERRY] 
+[01:03:57] [Server thread/INFO]: [CHERRY] 
+[01:03:57] [Server thread/INFO]: [CHERRY] 
+[01:03:57] [Server thread/INFO]: [CHERRY] 
+[01:03:58] [Server thread/INFO]: [CHERRY] 
+[01:03:58] [Server thread/INFO]: [CHERRY] 
+[01:03:58] [Server thread/INFO]: [CHERRY] 
+[01:03:58] [Server thread/INFO]: [CHERRY] found target, setting
+[01:03:58] [Server thread/INFO]: [CHERRY] 
+[01:03:58] [Server thread/INFO]: [CHERRY] 
+[01:03:59] [Server thread/INFO]: [CHERRY] 
+[01:03:59] [Server thread/INFO]: [CHERRY] 
+[01:03:59] [Server thread/INFO]: [CHERRY] 
+[01:03:59] [Server thread/INFO]: [CHERRY] 
+[01:03:59] [Server thread/INFO]: [CHERRY] 
+[01:04:00] [Server thread/INFO]: [CHERRY] 
+[01:04:00] [Server thread/INFO]: [CHERRY] 
+[01:04:00] [Server thread/INFO]: [CHERRY] 
+[01:04:00] [Server thread/INFO]: [CHERRY] 
+[01:04:00] [Server thread/INFO]: [CHERRY] 
+[01:04:01] [Server thread/INFO]: [CHERRY] 
+[01:04:01] [Server thread/INFO]: [CHERRY] found target, setting
+[01:04:01] [Server thread/INFO]: [CHERRY] 
+[01:04:01] [Server thread/INFO]: [CHERRY] 
+[01:04:01] [Server thread/INFO]: [CHERRY] 
+[01:04:01] [Server thread/INFO]: [CHERRY] 
+[01:04:02] [Server thread/INFO]: [CHERRY] 
+[01:04:02] [Server thread/INFO]: [CHERRY] 
+[01:04:02] [Server thread/INFO]: [CHERRY] 
+[01:04:02] [Server thread/INFO]: [CHERRY] 
+[01:04:02] [Server thread/INFO]: [CHERRY] 
+[01:04:03] [Server thread/INFO]: [CHERRY] 
+[01:04:03] [Server thread/INFO]: [CHERRY] 
+[01:04:03] [Server thread/INFO]: [CHERRY] 
+[01:04:03] [Server thread/INFO]: [CHERRY] 
+[01:04:03] [Server thread/INFO]: [CHERRY] found target, setting
+[01:04:03] [Server thread/INFO]: [CHERRY] 
+[01:04:04] [Server thread/INFO]: [CHERRY] 
+[01:04:04] [Server thread/INFO]: [CHERRY] 
+[01:04:04] [Server thread/INFO]: [CHERRY] 
+[01:04:04] [Server thread/INFO]: [CHERRY] 
+[01:04:04] [Server thread/INFO]: [CHERRY] 
+[01:04:05] [Server thread/INFO]: [CHERRY] 
+[01:04:05] [Server thread/INFO]: [CHERRY] 
+[01:04:05] [Server thread/INFO]: [CHERRY] 
+[01:04:05] [Server thread/INFO]: trololol72 issued server command: /cherry_debug false
+[01:04:09] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[01:04:12] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:15] [Server thread/INFO]: [Death] trololol72 was slain by Iron Golem (Friends)
+[01:04:22] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[01:04:30] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:30] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:30] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:32] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[01:04:37] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:37] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:37] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:47] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:47] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:51] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:54] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:54] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:58] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:04:58] [Server thread/INFO]: Displaying particle minecraft:trail
+[01:05:13] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[01:05:20] [Server thread/INFO]: trololol72 issued server command: /tick rate 400
+[01:05:20] [Server thread/INFO]: [trololol72: Set the target tick rate to 400.0 per second]
+[01:06:02] [Server thread/INFO]: trololol72 issued server command: /tick rate 20
+[01:06:02] [Server thread/INFO]: [trololol72: Set the target tick rate to 20.0 per second]
+[01:06:07] [Server thread/INFO]: trololol72 issued server command: /time set day
+[01:06:07] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[01:06:49] [Server thread/INFO]: trololol72 issued server command: /countnear horse 500
+[01:06:49] [Server thread/INFO]: Found 0 horses within 500 blocks.
+[01:06:53] [Server thread/INFO]: trololol72 issued server command: /countnear horse 1000
+[01:06:53] [Server thread/INFO]: Found 30 horses within 1000 blocks.
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:14] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:15] [Server thread/INFO]: The particle was not visible for anybody
+[01:07:49] [Server thread/INFO]: trololol72 issued server command: /tick rate 400
+[01:07:49] [Server thread/INFO]: [trololol72: Set the target tick rate to 400.0 per second]
+[01:08:04] [Server thread/INFO]: trololol72 issued server command: /tick rate 20
+[01:08:04] [Server thread/INFO]: [trololol72: Set the target tick rate to 20.0 per second]
+[01:08:37] [Server thread/INFO]: trololol72 issued server command: /give_book dawn
+[01:09:58] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[01:10:54] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[01:12:48] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[01:12:48] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[01:12:51] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[01:12:51] [Server thread/INFO]: Stopping server
+[01:12:51] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[01:12:51] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[01:12:51] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[01:12:51] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[01:12:51] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[01:12:51] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[01:12:51] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[01:12:51] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[01:12:51] [Server thread/INFO]: [TAB] Disabled in 1ms
+[01:12:51] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[01:12:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[01:12:51] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[01:12:51] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[01:12:51] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[01:12:51] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:12:51] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:12:51] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:12:51] [Server thread/INFO]: Saving players
+[01:12:52] [Server thread/INFO]: Saving worlds
+[01:12:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:12:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:12:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:12:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:13:00] [Server thread/INFO]: [ChunkHolderManager] Saved 4194 block chunks, 4592 entity chunks, 0 poi chunks in world 'world' in 8.32s
+[01:13:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[01:13:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[01:13:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[01:13:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[01:13:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[01:13:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:13:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:13:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:13:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:13:01] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[01:13:01] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[01:13:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:13:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

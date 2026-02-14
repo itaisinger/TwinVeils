@@ -6,7 +6,7 @@ on load:
     set {golem::wander_dis} to 25
     set {golem::chase_dis} to 75
     set {golem::tp_dis} to 200
-    set {golem::consume_items::*} to iron ingot, iron nugget, iron block, raw iron, arrow
+    set {golem::consume_items::*} to iron ingot, iron nugget, arrow item, iron block, raw iron
     set {golem::consume_tools::*} to iron spear, iron axe, iron sword, iron pickaxe, iron hoe, iron chestplate, iron helmet, iron leggings, iron boots, iron shovel
 #
 function cherry_debug(msg: text):
@@ -75,12 +75,13 @@ every 3.5 seconds:
         stop
 
     #reset
+    set {_hp_prec} to health of {boss_golem} / max health of {boss_golem}
     set {golem::target} to "none"
     delete {golem::consume_item}
     delete {golem::consume_tool}
 
     set {_min} to 5
-    set {_max} to 30
+    set {_max} to 35
 
     #cancel if busy with melee
     set {_hasValidTarget} to false
@@ -88,8 +89,9 @@ every 3.5 seconds:
     if {_meleeTarget} is set:
         set {_d} to distance between {boss_golem} and {_meleeTarget}
         if {_d} <= {_min}:
-            cherry_debug("- busy with melee, cancelling consume")
-            stop
+            if {_hp_prec} > 0.4:
+                cherry_debug("- busy with melee, cancelling consume")
+                stop
 
     loop all players:
         set {_d} to distance between {boss_golem} and loop-player
@@ -117,7 +119,7 @@ every 3.5 seconds:
 #state loop
 every 4 ticks:
     set {golem::target_cooldown} to max(0,{golem::target_cooldown}-4)
-    cherry_debug("target: %target of {boss_golem}%")
+    # cherry_debug("target: %target of {boss_golem}%")
 
     #not set
     if {boss_golem} is not set:
@@ -391,7 +393,7 @@ every 3 seconds:
                     if distance between {_minion} and {boss_golem} > 10:
                         
                         # 3. Use SkBee syntax to rally
-                        make {_minion} pathfind to {boss_golem} at speed 1.2
+                        make {_minion} pathfind to {boss_golem} at speed 1.6
                         _cherryDebug("Minion %{_minion}% is rallying to the boss.")
 #
 function spawn_golem_boss():

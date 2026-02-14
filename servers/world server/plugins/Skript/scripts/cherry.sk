@@ -1,10 +1,10 @@
 # --- CONFIGURATION ---
 options:
     max_golems: 3
-    spawn_radius: 64
-    min_distance: 24
+    spawn_radius: 45
+    min_distance: 12
     despawn_distance: 256
-    grove_radius: 150
+    grove_radius: 50
 
 # --- LOCAL DEBUG FUNCTION ---
 function _cherryDebug(msg: text):
@@ -42,7 +42,10 @@ on chunk load:
                     _cherryDebug("Recovered unloaded golem from a loading chunk")
 
 # 3. THE SPAWNER
-every 2 seconds:
+every 15 seconds:
+    chance of 75%:
+        stop
+
     loop all players:
         set {_inGrove} to false
         loop {grove_centers::*}:
@@ -59,7 +62,8 @@ every 2 seconds:
                         add 1 to {_localCount}
                 else:
                     remove loop-value-2 from {cherry_golems::*}
-
+            
+            #attempt spawn
             if {_localCount} < {@max_golems}:
                 set {_loc} to location of loop-player
                 add random integer between -{@spawn_radius} and {@spawn_radius} to x-coord of {_loc}
@@ -182,7 +186,13 @@ every 5 seconds:
                         _cherryDebug("Golem wandering back to nearest grove!")
                         make {_golem} pathfind to {_closestGrove} at speed 0.6
 
-
+#dont attack the witch
+on entity target:
+    if event-entity is an iron golem:
+        if event-entity's target is a witch:
+            if scoreboard tags of event-entity's target contains "hut_witch":
+                cancel event
+        
 # --- COMMANDS ---
 
 command /cherrydebug:
