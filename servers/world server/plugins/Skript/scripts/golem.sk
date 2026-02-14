@@ -36,7 +36,7 @@ function find_golem():
 
 #
 on death of iron golem:
-    if scoreboard tags of victim contains "cherry_boss":
+    if scoreboard tags of victim contains "cherry_boss" or "slave_golem":
         clear drops
         loop (random integer between 1 and 15) times:
             add 1 of iron nugget to drops

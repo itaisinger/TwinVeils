@@ -1,0 +1,70 @@
+on load:
+    set {slave_debug} to true
+
+command /spawn_slave_golem:
+    permission: op
+    trigger:
+        spawn 1 iron golem at location of player
+        set {slave_golem} to last spawned iron golem
+        set byte tag "PersistenceRequired" of nbt of {slave_golem} to 1
+        add "slave_golem" to scoreboard tags of {slave_golem}
+
+function slave_debug(msg: text):
+    if {slave_debug} is true:
+        broadcast "[SLAVE] %{_msg}%"
+
+every 5 ticks:
+    if {slave_golem} is not set:
+        stop
+    if chunk at {slave_golem} is not loaded:
+        stop
+
+    if health of {slave_golem} < max health of {slave_golem}:
+        slave_debug("tick: %health of {slave_golem}%")
+        if health of {slave_golem} > 0:
+            slave_heal()
+
+function slave_heal():
+    heal {slave_golem} by 0.5 hearts
+    slave_debug("healing")
+
+    #consume part
+    set {_r} to 10
+    set {_nr} to 0 - {_r}
+    set {_yr} to 5
+    set {_ynr} to -5
+    # set {_i} to 0
+    # set {_am} to 1
+    set {_gx} to x-coord of {slave_golem}
+    set {_gy} to y-coord of {slave_golem} + 1.5
+    set {_gz} to z-coord of {slave_golem}
+    loop 50 times:
+
+        set {_px} to {_gx} + random number between {_nr} and {_r}
+        set {_py} to {_gy} + random number between {_ynr} and {_yr}
+        set {_pz} to {_gz} + random number between {_nr} and {_r}
+
+        set {_amount} to random integer between 10 and 40
+        set {_amount} to floor({_amount} * {_am})
+        set {_dur} to random integer between 5 and 30
+        execute console command "particle minecraft:trail{target:[%{_gx}%,%{_gy}%,%{_gz}%],color:[0.5,0.5,0.5],duration:%{_dur}%} %{_px}% %{_py}% %{_pz}% 0.1 0.1 0.1 0 %{_amount}%"
+        
+        # set {_i} to {_i} + 1
+        # if {_i} is 20:
+        #     wait 1 tick
+        #     set {_i} to 0
+        #     set {_am} to {_am} * 0.9
+
+    #heal part
+    set {_amount} to 70
+    set {_a_mult} to random number between 0.5 and 2.5
+    set {_amount} to floor({_amount} * {_a_mult})
+    draw {_amount} happy_villager particle at location({_gx},{_gy},{_gz}, "world") with offset vector(0.4, 0.7, 0.4) with extra 0.8
+
+    # play sound ""
+
+#
+command /slave_tp:
+    permission: op
+    trigger:
+        teleport {slave_golem} to player
