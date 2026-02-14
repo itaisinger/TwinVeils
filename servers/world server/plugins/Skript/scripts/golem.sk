@@ -2,7 +2,11 @@ on load:
     cherry_debug("Reloading script, scanning for existing golems...")
     find_golem()
     set {golem::state} to "none" 
-    set {golem::consume_items::*} to iron ingot, iron nugget, iron block, raw iron
+    set {golem::target_cooldown_max} to 50
+    set {golem::wander_dis} to 25
+    set {golem::chase_dis} to 75
+    set {golem::tp_dis} to 200
+    set {golem::consume_items::*} to iron ingot, iron nugget, iron block, raw iron, arrow
     set {golem::consume_tools::*} to iron spear, iron axe, iron sword, iron pickaxe, iron hoe, iron chestplate, iron helmet, iron leggings, iron boots, iron shovel
 #
 function cherry_debug(msg: text):
@@ -112,9 +116,10 @@ every 3.5 seconds:
 
 #state loop
 every 4 ticks:
-    
+    set {golem::target_cooldown} to max(0,{golem::target_cooldown}-4)
+    cherry_debug("target: %target of {boss_golem}%")
+
     #not set
-    # cherry_debug("state loop: %{golem::state}%")
     if {boss_golem} is not set:
         find_golem()
         if {boss_golem} is not set:
@@ -127,11 +132,11 @@ every 4 ticks:
     
     #particles
     cherry_particles() 
+    #target players
+    if {golem::state} is not "consume":
+        target_player()
 
     #go home
-    set {golem::wander_dis} to 25
-    set {golem::chase_dis} to 75
-    set {golem::tp_dis} to 200
     
     #top
     if distance between {boss_golem} and {golem::home} > {golem::tp_dis}:
@@ -140,13 +145,15 @@ every 4 ticks:
     #stop chase
     if distance between {boss_golem} and {golem::home} > {golem::chase_dis}:
         cherry_debug("returning home")
-        set path target of {boss_golem} to {golem::home}
-        wait 5 seconds
+        make {boss_golem} pathfind to {golem::home} at speed 0.8
+        set {golem::target_cooldown} to {golem::target_cooldown_max}*2
+        clear_target()
     #wander back
     if distance between {boss_golem} and {golem::home} > {golem::wander_dis}:
         if target of {boss_golem} is not set:
             cherry_debug("returning home")
-            set path target of {boss_golem} to {golem::home}
+            make {boss_golem} pathfind to {golem::home} at speed 0.5
+        
 
     #consume state
     if {golem::state} is "consume":
@@ -221,6 +228,79 @@ function heal_particles(amount: integer):
     set {_amount} to floor({_amount} * {_a_mult})
     draw {_amount} happy_villager particle at {_loc} with offset vector(0.5, 0.7, 0.5)
 #
+function clear_target():
+    clear target of {boss_golem}
+
+    # 1. Spawn a tiny, short-lived 'target'
+    spawn silverfish at {golem::home}
+    set {_target} to last spawned silverfish
+
+    # 2. Make it completely hidden and silent
+    apply invisibility 1 without particles to {_target} for 15 second
+    apply slowness 10 without particles to {_target} for 15 second
+
+    # 3. Force the golem to hit it (This triggers the arms)
+    set target of {boss_golem} to {_target}
+
+    # 4. Clean up
+    wait 15 seconds
+    kill {_target}
+    delete {_target}
+    
+#
+function target_player():
+    cherry_debug("")
+    if {golem::target_cooldown} > 0:
+        # cherry_debug("targeting player on cooldown %{golem::target_cooldown}%")
+        stop
+    # cherry_debug("targeting player")
+    set {_currentTarget} to target of {boss_golem}
+    set {_currentDist} to 9999
+    set {_hasValidTarget} to false
+    set {_aggroRange} to 18
+
+    # 1. Evaluate current target (Mob or Player)
+    if {_currentTarget} is set:
+        if {_currentTarget} is alive:
+            set {_dist} to distance between {boss_golem} and {_currentTarget}
+            if {_dist} <= {_aggroRange}*3:
+                set {_currentDist} to {_dist}
+                set {_hasValidTarget} to true
+            else:
+                # They escaped the 24-block radius, drop aggro
+                _cherryDebug("lost targets")
+                clear target of {boss_golem} 
+    
+    # 2. Find the absolute closest player
+    set {_closestPlayerDist} to {_aggroRange} # Max aggro range
+    set {_nearestPlayer} to null
+    
+    loop all players in world of {boss_golem}:
+        if loop-player's gamemode is survival or adventure:
+            set {_pDist} to distance between {boss_golem} and loop-player
+            set {_homeDist} to distance between {golem::home} and loop-player
+            if {_homeDist} > {golem::chase_dis}:
+                cherry_debug("player to far from home (%{_homeDist}%, %{golem::chase_dis}%), not going after him.")
+                # continue
+            else if {_pDist} <= {_closestPlayerDist}:
+                cherry_debug("chose target")
+                set {_closestPlayerDist} to {_pDist}
+                set {_nearestPlayer} to loop-player
+    
+    # 3. Target Decision Logic
+    if {_nearestPlayer} is set:
+        cherry_debug("found target, setting")
+        if {_hasValidTarget} is true:
+            # If the closest player isn't already the target, apply the half-distance rule
+            if {_currentTarget} is not {_nearestPlayer}:
+                if {_closestPlayerDist} <= ({_currentDist} / 2):
+                    set target of {boss_golem} to {_nearestPlayer}
+                    set {golem::target_cooldown} to {golem::target_cooldown_max}
+        else:
+            # No current target, just lock onto the closest player
+            set target of {boss_golem} to {_nearestPlayer}
+            set {golem::target_cooldown} to {golem::target_cooldown_max}
+#
 function consume_particles():
     set {_px} to x-coord of {golem::target}
     set {_py} to y-coord of {golem::target} + 1
@@ -232,28 +312,29 @@ function consume_particles():
 
     set {_amount} to random integer between 1 and 5
     set {_dur} to random integer between 10 and 25
-    # Added duration:20 (1 second) to the particle data
-    execute console command "particle minecraft:trail{target:[%{_gx}%,%{_gy}%,%{_gz}%],color:[0.5,0.5,0.5],duration:%{_dur}%} %{_px}% %{_py}% %{_pz}% 0.1 0.1 0.1 0 %{_amount}%"#
-    # execute console command "particle minecraft:trail{target:[%{_gx}%,%{_gy}%,%{_gz}%],color:[0.89,0.52,0.6],duration:%{_dur}%} %{_px}% %{_py}% %{_pz}% 0.1 0.1 0.1 0 %{_amount}%"#
-
+    execute console command "particle minecraft:trail{target:[%{_gx}%,%{_gy}%,%{_gz}%],color:[0.5,0.5,0.5],duration:%{_dur}%} %{_px}% %{_py}% %{_pz}% 0.1 0.1 0.1 0 %{_amount}%"
 #
 function call_help():
-    play sound "minecraft:entity.iron_golem.death" with volume 1.5 and pitch 0.4 at {boss_golem}
-    apply slowness 10 without particles to {boss_golem} for 1 second
+    play sound "minecraft:ambient.nether_wastes.mood" with volume 0.5 and pitch 2 at {boss_golem}
+    wait 5 ticks
+
+    apply slowness 10 without particles to {boss_golem} for 3 second
     set velocity of {boss_golem} to vector(0, 0.5, 0)
     wait 2 ticks
+
     # 1. Spawn a tiny, short-lived 'target'
     spawn silverfish at {boss_golem}
     set {_target} to last spawned silverfish
 
     # 2. Make it completely hidden and silent
-    apply invisibility 1 to {_target} for 1 second
-    apply slowness 10 to {_target} for 1 second
+    apply invisibility 1 without particles to {_target} for 10 second
+    apply slowness 10 without particles to {_target} for 10 second
 
     # 3. Force the golem to hit it (This triggers the arms)
     make {boss_golem} attack {_target}
 
     # 4. Clean up instantly
+    kill {_target}
     delete {_target}
 
     #call
@@ -262,24 +343,40 @@ function call_help():
     #vfx
     # 1. THE INITIAL BLAST
     # A massive burst of white and a deep roar
-    play sound "entity.warden.roar" with volume 2 and pitch 0.5 at {boss_golem}
-    play sound "entity.generic.explode" with volume 1 and pitch 2 at {boss_golem}
+    play sound "entity.iron_golem.death" with volume 1 and pitch 0.5 at {boss_golem}
+    play sound "entity.generic.explode" with volume 0.5 and pitch 2 at {boss_golem}
+    play sound "entity.generic.explode" with volume 0.5 and pitch 2 at {boss_golem}
     draw 1 flash at {boss_golem} with extra 0
 
-    # 2. THE EXPANDING SONIC RING
-    # This creates a "calling" effect by sending particles outward
-    loop 5 times:
-        set {_extra} to loop-value * 0.2
-        # Expanding white sonic ring
-        draw 5 cloud at {boss_golem} with offset vector({_extra}, 0.5, {_extra}) with extra 0.1
+
+
+    set {_r} to 60
+    set {_nr} to 0 - {_r}
+    set {_yr} to 5
+    set {_ynr} to -5
+    set {_i} to 0
+    set {_am} to 1
+    loop 450 times:
+        set {_gx} to x-coord of {boss_golem}
+        set {_gy} to y-coord of {boss_golem} + 1.5
+        set {_gz} to z-coord of {boss_golem}
+        set {_px} to {_gx} + random number between {_nr} and {_r}
+        set {_py} to {_gy} + random number between {_ynr} and {_yr}
+        set {_pz} to {_gz} + random number between {_nr} and {_r}
+
+        set {_amount} to random integer between 10 and 30
+        set {_amount} to floor({_amount} * {_am})
+        set {_dur} to random integer between 10 and 30
+        execute console command "particle minecraft:trail{target:[%{_gx}%,%{_gy}%,%{_gz}%],color:[0.81,0.44,0.51],duration:%{_dur}%} %{_px}% %{_py}% %{_pz}% 0.1 0.1 0.1 0 %{_amount}%"
         
-        # The actual Shriek rings (Faster and faster)
-        draw 5 shriek at {boss_golem} with offset vector(0.1, 0.1, 0.1) with extra {_extra}
-        
-        # Optional: Small delay to show expansion
-        wait 1 tick
+        set {_i} to {_i} + 1
+        if {_i} is 20:
+            wait 1 tick
+            set {_i} to 0
+            set {_am} to {_am} * 0.9
 
 #
+#send help pathfind
 every 3 seconds:
     if {golem::is_calling} is false:
         stop
