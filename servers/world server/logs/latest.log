@@ -1,374 +1,258 @@
-[15:00:24] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[15:00:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[15:00:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:00:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[15:00:27] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[15:50:11] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[15:50:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[15:50:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:50:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[15:50:12] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[15:00:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[15:50:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[15:00:33] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[15:00:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[15:00:36] [ServerMain/INFO]: Loaded 1470 recipes
-[15:00:36] [ServerMain/INFO]: Loaded 1584 advancements
-[15:00:36] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[15:00:37] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 491.3ms
-[15:00:37] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[15:00:37] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[15:00:37] [Server thread/INFO]: Loading properties
-[15:00:37] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[15:00:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:00:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:00:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:00:38] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:00:38] [Server thread/INFO]: Default game type: SURVIVAL
-[15:00:38] [Server thread/INFO]: Generating keypair
-[15:00:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:00:38] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[15:00:38] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:00:39] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[15:00:39] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:00:39] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[15:00:39] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[15:00:39] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[15:00:39] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[15:00:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3cf5cd69]
-[15:00:40] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[15:00:40] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[15:00:40] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[15:00:40] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[15:00:41] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[15:00:41] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[15:00:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:00:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[15:00:42] [Server thread/INFO]:         __    
-[15:00:42] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[15:00:42] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:00:42] [Server thread/INFO]: 
-[15:00:42] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:00:42] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:00:42] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:00:43] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1267ms)
-[15:00:43] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[15:00:43] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[15:00:43] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[15:00:43] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[15:00:43] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[15:00:43] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[15:00:43] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[15:00:44] [Server thread/INFO]: Preparing level "world"
-[15:00:44] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[15:00:44] [Server thread/INFO]: Prepared spawn area in 2 ms
-[15:00:44] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[15:00:44] [Server thread/INFO]: Prepared spawn area in 2 ms
-[15:00:44] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[15:00:44] [Server thread/INFO]: Prepared spawn area in 2 ms
-[15:00:44] [Server thread/INFO]: Done preparing level "world" (0.571s)
-[15:00:44] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[15:00:45] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[15:00:46] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[15:00:46] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[15:00:47] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[15:00:47] [Server thread/INFO]: [TAB] Enabled in 460ms
-[15:00:47] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[15:00:47] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[15:00:47] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[15:00:47] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[15:00:47] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[15:00:47] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[15:00:47] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[15:00:48] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1512ms
-[15:00:48] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[15:00:48] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[15:00:48] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[15:00:48] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[15:00:48] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[15:00:48] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[15:00:48] [Server thread/INFO]: [SkBee]  - 56 events
-[15:00:48] [Server thread/INFO]: [SkBee]  - 71 effects
-[15:00:48] [Server thread/INFO]: [SkBee]  - 240 expressions
-[15:00:48] [Server thread/INFO]: [SkBee]  - 27 conditions
-[15:00:48] [Server thread/INFO]: [SkBee]  - 32 sections
-[15:00:48] [Server thread/INFO]: [SkBee]  - 11 properties
-[15:00:48] [Server thread/INFO]: [SkBee] Update checker disabled!
-[15:00:48] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.17 seconds
-[15:00:48] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[15:00:48] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[15:00:48] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[15:00:48] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[15:00:48] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[15:00:48] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[15:00:48] [Server thread/INFO]: [spark] Starting background profiler...
-[15:00:48] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[15:00:48] [Server thread/INFO]: Running delayed init tasks
-[15:00:48] [Server thread/INFO]: [Skript] Loading variables...
-[15:00:48] [Server thread/INFO]: [Skript] Loaded 299 variables in 0.0 seconds
-[15:00:54] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[15:00:54] [Server thread/INFO]: [Skript] Loaded 22 scripts with a total of 189 structures in 5.52 seconds
-[15:00:54] [Server thread/INFO]: [Skript] Finished loading.
-[15:00:54] [Server thread/INFO]: Done (31.653s)! For help, type "help"
-[15:00:54] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 25 build(s) behind ***
-[15:00:54] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[15:02:15] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[15:02:15] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[15:02:19] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[15:02:19] [Server thread/INFO]: trololol72[/127.0.0.1:59812] logged in with entity id 1 at ([world]-581.5, 58.36939263858365, 441.5)
-[15:02:20] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[15:02:20] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[15:03:10] [Server thread/INFO]: trololol72 issued server command: /time set day
-[15:03:10] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[15:03:49] [Server thread/INFO]: trololol72 issued server command: /tp -1415 200 358
-[15:03:49] [Server thread/INFO]: [trololol72: Teleported trololol72 to -1414.500000, 200.000000, 358.500000]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 8b60e73b-0b0d-487d-b48b-27f7956e646b, mapped to Skeleton['Skeleton'/456, uuid='8b60e73b-0b0d-487d-b48b-27f7956e646b', l='ServerLevel[world]', x=-1054.50, y=78.00, z=370.50, cpos=[-66, 23], tl=0, v=true], can't add Skeleton['Skeleton'/1140, uuid='8b60e73b-0b0d-487d-b48b-27f7956e646b', l='ServerLevel[world]', x=-1422.50, y=78.00, z=354.50, cpos=[-89, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 76789399-de65-4dc8-800b-118decb6f8a7, mapped to Creeper['Creeper'/492, uuid='76789399-de65-4dc8-800b-118decb6f8a7', l='ServerLevel[world]', x=-1067.18, y=141.00, z=374.20, cpos=[-67, 23], tl=0, v=true], can't add Creeper['Creeper'/1141, uuid='76789399-de65-4dc8-800b-118decb6f8a7', l='ServerLevel[world]', x=-1435.18, y=141.00, z=358.20, cpos=[-90, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: df3bcb15-2a0a-4bdd-b1d2-17025547289d, mapped to Creeper['Creeper'/493, uuid='df3bcb15-2a0a-4bdd-b1d2-17025547289d', l='ServerLevel[world]', x=-1066.50, y=141.00, z=370.50, cpos=[-67, 23], tl=0, v=true], can't add Creeper['Creeper'/1142, uuid='df3bcb15-2a0a-4bdd-b1d2-17025547289d', l='ServerLevel[world]', x=-1434.50, y=141.00, z=354.50, cpos=[-90, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 5fde46fb-ef62-4388-bcd5-7cd28fed30f2, mapped to Creeper['Creeper'/494, uuid='5fde46fb-ef62-4388-bcd5-7cd28fed30f2', l='ServerLevel[world]', x=-1056.78, y=145.00, z=368.54, cpos=[-67, 23], tl=0, v=true], can't add Creeper['Creeper'/1143, uuid='5fde46fb-ef62-4388-bcd5-7cd28fed30f2', l='ServerLevel[world]', x=-1424.78, y=145.00, z=352.54, cpos=[-90, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d450b167-3c3d-436d-8ffd-b1c452b86111, mapped to Creeper['Creeper'/503, uuid='d450b167-3c3d-436d-8ffd-b1c452b86111', l='ServerLevel[world]', x=-1053.50, y=65.00, z=360.50, cpos=[-66, 22], tl=0, v=true], can't add Creeper['Creeper'/1144, uuid='d450b167-3c3d-436d-8ffd-b1c452b86111', l='ServerLevel[world]', x=-1421.50, y=65.00, z=344.50, cpos=[-89, 21], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: a61dbe34-f16c-47e5-b5d8-c2ca01f2bd21, mapped to Creeper['Creeper'/468, uuid='a61dbe34-f16c-47e5-b5d8-c2ca01f2bd21', l='ServerLevel[world]', x=-1065.50, y=101.00, z=392.50, cpos=[-67, 24], tl=0, v=true], can't add Creeper['Creeper'/1145, uuid='a61dbe34-f16c-47e5-b5d8-c2ca01f2bd21', l='ServerLevel[world]', x=-1433.50, y=101.00, z=376.50, cpos=[-90, 23], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: a0465c61-c2ad-40c3-a6eb-6c6b759ddb61, mapped to Skeleton['Skeleton'/469, uuid='a0465c61-c2ad-40c3-a6eb-6c6b759ddb61', l='ServerLevel[world]', x=-1068.50, y=120.00, z=392.50, cpos=[-67, 24], tl=0, v=true], can't add Skeleton['Skeleton'/1146, uuid='a0465c61-c2ad-40c3-a6eb-6c6b759ddb61', l='ServerLevel[world]', x=-1436.50, y=120.00, z=376.50, cpos=[-90, 23], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 440e1a10-4559-4fc3-aef3-7dd7d7b9c1f7, mapped to Bat['Bat'/470, uuid='440e1a10-4559-4fc3-aef3-7dd7d7b9c1f7', l='ServerLevel[world]', x=-1028.31, y=123.40, z=366.67, cpos=[-65, 22], tl=0, v=true], can't add Bat['Bat'/1147, uuid='440e1a10-4559-4fc3-aef3-7dd7d7b9c1f7', l='ServerLevel[world]', x=-1396.31, y=123.40, z=350.67, cpos=[-88, 21], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 5472245b-d076-4369-b046-5cedd8d745ba, mapped to Bee['Bee'/471, uuid='5472245b-d076-4369-b046-5cedd8d745ba', l='ServerLevel[world]', x=-1029.23, y=132.92, z=358.30, cpos=[-65, 22], tl=0, v=true], can't add Bee['Bee'/1148, uuid='5472245b-d076-4369-b046-5cedd8d745ba', l='ServerLevel[world]', x=-1397.23, y=132.92, z=342.30, cpos=[-88, 21], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f2fb376c-1ab3-4c35-acb9-db98f5f6d5a3, mapped to Skeleton['Skeleton'/533, uuid='f2fb376c-1ab3-4c35-acb9-db98f5f6d5a3', l='ServerLevel[world]', x=-1072.50, y=137.00, z=383.50, cpos=[-68, 23], tl=0, v=true], can't add Skeleton['Skeleton'/1149, uuid='f2fb376c-1ab3-4c35-acb9-db98f5f6d5a3', l='ServerLevel[world]', x=-1440.50, y=137.00, z=367.50, cpos=[-91, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: de3857da-eaf3-459f-96b2-d45f8c3c4994, mapped to Skeleton['Skeleton'/534, uuid='de3857da-eaf3-459f-96b2-d45f8c3c4994', l='ServerLevel[world]', x=-1083.47, y=131.00, z=369.78, cpos=[-68, 23], tl=0, v=true], can't add Skeleton['Skeleton'/1150, uuid='de3857da-eaf3-459f-96b2-d45f8c3c4994', l='ServerLevel[world]', x=-1451.47, y=131.00, z=353.78, cpos=[-91, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 1ecea089-8d94-4c6f-9854-568c39ff53f8, mapped to Skeleton['Skeleton'/535, uuid='1ecea089-8d94-4c6f-9854-568c39ff53f8', l='ServerLevel[world]', x=-1078.50, y=131.00, z=378.50, cpos=[-68, 23], tl=0, v=true], can't add Skeleton['Skeleton'/1151, uuid='1ecea089-8d94-4c6f-9854-568c39ff53f8', l='ServerLevel[world]', x=-1446.50, y=131.00, z=362.50, cpos=[-91, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2e8dc655-6c3c-4e93-83c6-3a4a56e45771, mapped to Skeleton['Skeleton'/536, uuid='2e8dc655-6c3c-4e93-83c6-3a4a56e45771', l='ServerLevel[world]', x=-1080.50, y=131.00, z=374.50, cpos=[-68, 23], tl=0, v=true], can't add Skeleton['Skeleton'/1152, uuid='2e8dc655-6c3c-4e93-83c6-3a4a56e45771', l='ServerLevel[world]', x=-1448.50, y=131.00, z=358.50, cpos=[-91, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b42b236d-198c-40d5-b837-00f4704ff8a1, mapped to Skeleton['Skeleton'/537, uuid='b42b236d-198c-40d5-b837-00f4704ff8a1', l='ServerLevel[world]', x=-1080.75, y=132.00, z=372.29, cpos=[-68, 23], tl=0, v=true], can't add Skeleton['Skeleton'/1153, uuid='b42b236d-198c-40d5-b837-00f4704ff8a1', l='ServerLevel[world]', x=-1448.75, y=132.00, z=356.29, cpos=[-91, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d9b68a33-7327-4d71-8d11-a421d16d6461, mapped to Skeleton['Skeleton'/538, uuid='d9b68a33-7327-4d71-8d11-a421d16d6461', l='ServerLevel[world]', x=-1083.76, y=131.00, z=369.09, cpos=[-68, 23], tl=0, v=true], can't add Skeleton['Skeleton'/1154, uuid='d9b68a33-7327-4d71-8d11-a421d16d6461', l='ServerLevel[world]', x=-1451.76, y=131.00, z=353.09, cpos=[-91, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 77d30b70-2fa0-4a86-a241-c675d649b0dd, mapped to ItemEntity['Cherry Sapling'/539, uuid='77d30b70-2fa0-4a86-a241-c675d649b0dd', l='ServerLevel[world]', x=-1086.60, y=185.00, z=380.58, cpos=[-68, 23], tl=0, v=true], can't add ItemEntity['Cherry Sapling'/1155, uuid='77d30b70-2fa0-4a86-a241-c675d649b0dd', l='ServerLevel[world]', x=-1454.60, y=185.00, z=364.58, cpos=[-91, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b301cd2a-1e38-4b5e-8d20-b30e1e9936e4, mapped to Bat['Bat'/400, uuid='b301cd2a-1e38-4b5e-8d20-b30e1e9936e4', l='ServerLevel[world]', x=-1031.07, y=88.65, z=392.09, cpos=[-65, 24], tl=0, v=true], can't add Bat['Bat'/1156, uuid='b301cd2a-1e38-4b5e-8d20-b30e1e9936e4', l='ServerLevel[world]', x=-1399.07, y=88.65, z=376.09, cpos=[-88, 23], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 93037927-b1da-4626-ba59-9725f5e3336a, mapped to Sheep['Sheep'/520, uuid='93037927-b1da-4626-ba59-9725f5e3336a', l='ServerLevel[world]', x=-1057.55, y=103.00, z=352.55, cpos=[-67, 22], tl=0, v=true], can't add Sheep['Sheep'/1157, uuid='93037927-b1da-4626-ba59-9725f5e3336a', l='ServerLevel[world]', x=-1425.55, y=103.00, z=336.55, cpos=[-90, 21], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 502356ae-a096-441f-9a62-ed27f56e6220, mapped to Sheep['Sheep'/521, uuid='502356ae-a096-441f-9a62-ed27f56e6220', l='ServerLevel[world]', x=-1058.59, y=102.00, z=352.18, cpos=[-67, 22], tl=0, v=true], can't add Sheep['Sheep'/1158, uuid='502356ae-a096-441f-9a62-ed27f56e6220', l='ServerLevel[world]', x=-1426.59, y=102.00, z=336.18, cpos=[-90, 21], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 40ffc3fa-65ca-4675-b766-ca24c75dbb0e, mapped to Sheep['Sheep'/409, uuid='40ffc3fa-65ca-4675-b766-ca24c75dbb0e', l='ServerLevel[world]', x=-1021.81, y=185.00, z=383.80, cpos=[-64, 23], tl=0, v=true], can't add Sheep['Sheep'/1159, uuid='40ffc3fa-65ca-4675-b766-ca24c75dbb0e', l='ServerLevel[world]', x=-1389.81, y=185.00, z=367.80, cpos=[-87, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 161da5a6-3311-4207-a1b4-c2fe2599db02, mapped to Creeper['Creeper'/571, uuid='161da5a6-3311-4207-a1b4-c2fe2599db02', l='ServerLevel[world]', x=-1084.50, y=129.00, z=365.50, cpos=[-68, 22], tl=0, v=true], can't add Creeper['Creeper'/1160, uuid='161da5a6-3311-4207-a1b4-c2fe2599db02', l='ServerLevel[world]', x=-1452.50, y=129.00, z=349.50, cpos=[-91, 21], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 9c66c680-23cc-46f9-96f7-296d9eaeb2c8, mapped to Creeper['Creeper'/502, uuid='9c66c680-23cc-46f9-96f7-296d9eaeb2c8', l='ServerLevel[world]', x=-1073.51, y=137.00, z=385.20, cpos=[-68, 24], tl=0, v=true], can't add Creeper['Creeper'/1161, uuid='9c66c680-23cc-46f9-96f7-296d9eaeb2c8', l='ServerLevel[world]', x=-1441.51, y=137.00, z=369.20, cpos=[-91, 23], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 9980180e-6def-482f-8fc7-ed6e4fa88227, mapped to Sheep['Sheep'/371, uuid='9980180e-6def-482f-8fc7-ed6e4fa88227', l='ServerLevel[world]', x=-1015.61, y=185.00, z=392.28, cpos=[-64, 24], tl=0, v=true], can't add Sheep['Sheep'/1162, uuid='9980180e-6def-482f-8fc7-ed6e4fa88227', l='ServerLevel[world]', x=-1383.61, y=185.00, z=376.28, cpos=[-87, 23], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: a32022df-0f11-4b26-86b8-1d5d3b63de35, mapped to Sheep['Sheep'/372, uuid='a32022df-0f11-4b26-86b8-1d5d3b63de35', l='ServerLevel[world]', x=-1014.57, y=185.00, z=392.46, cpos=[-64, 24], tl=0, v=true], can't add Sheep['Sheep'/1163, uuid='a32022df-0f11-4b26-86b8-1d5d3b63de35', l='ServerLevel[world]', x=-1382.57, y=185.00, z=376.46, cpos=[-87, 23], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 33064d1a-3cfd-4f29-ae11-3dbddcd67e31, mapped to Spider['Spider'/387, uuid='33064d1a-3cfd-4f29-ae11-3dbddcd67e31', l='ServerLevel[world]', x=-992.50, y=148.00, z=377.50, cpos=[-63, 23], tl=0, v=true], can't add Spider['Spider'/1164, uuid='33064d1a-3cfd-4f29-ae11-3dbddcd67e31', l='ServerLevel[world]', x=-1360.50, y=148.00, z=361.50, cpos=[-86, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f6b3c2ca-cfd1-4b3e-b52b-d531710556a3, mapped to Spider['Spider'/386, uuid='f6b3c2ca-cfd1-4b3e-b52b-d531710556a3', l='ServerLevel[world]', x=-1035.44, y=155.00, z=412.67, cpos=[-65, 25], tl=0, v=true], can't add Spider['Spider'/1165, uuid='f6b3c2ca-cfd1-4b3e-b52b-d531710556a3', l='ServerLevel[world]', x=-1403.44, y=155.00, z=396.67, cpos=[-88, 24], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cf96248b-b896-4380-b1f7-8906d54730f3, mapped to Bat['Bat'/354, uuid='cf96248b-b896-4380-b1f7-8906d54730f3', l='ServerLevel[world]', x=-1038.15, y=100.69, z=422.93, cpos=[-65, 26], tl=0, v=true], can't add Bat['Bat'/1166, uuid='cf96248b-b896-4380-b1f7-8906d54730f3', l='ServerLevel[world]', x=-1406.15, y=100.69, z=406.93, cpos=[-88, 25], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d8dd8206-27a1-49c6-811c-f7f26d52a527, mapped to Spider['Spider'/357, uuid='d8dd8206-27a1-49c6-811c-f7f26d52a527', l='ServerLevel[world]', x=-1018.70, y=124.00, z=400.63, cpos=[-64, 25], tl=0, v=true], can't add Spider['Spider'/1167, uuid='d8dd8206-27a1-49c6-811c-f7f26d52a527', l='ServerLevel[world]', x=-1386.70, y=124.00, z=384.63, cpos=[-87, 24], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ef1b9817-a4f3-483c-8448-9a6c951c970b, mapped to ItemEntity['Pink Petals'/603, uuid='ef1b9817-a4f3-483c-8448-9a6c951c970b', l='ServerLevel[world]', x=-1084.91, y=125.00, z=350.00, cpos=[-68, 21], tl=0, v=true], can't add ItemEntity['Pink Petals'/1168, uuid='ef1b9817-a4f3-483c-8448-9a6c951c970b', l='ServerLevel[world]', x=-1452.91, y=125.00, z=334.00, cpos=[-91, 20], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6fc864fb-9388-4b06-9ee8-76af454357c6, mapped to ItemEntity['Pink Petals'/604, uuid='6fc864fb-9388-4b06-9ee8-76af454357c6', l='ServerLevel[world]', x=-1078.78, y=138.00, z=348.72, cpos=[-68, 21], tl=0, v=true], can't add ItemEntity['Pink Petals'/1169, uuid='6fc864fb-9388-4b06-9ee8-76af454357c6', l='ServerLevel[world]', x=-1446.78, y=138.00, z=332.72, cpos=[-91, 20], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: af3f1567-de37-444c-bcc2-57c3c032d72b, mapped to Spider['Spider'/460, uuid='af3f1567-de37-444c-bcc2-57c3c032d72b', l='ServerLevel[world]', x=-1015.30, y=51.10, z=341.30, cpos=[-64, 21], tl=0, v=true], can't add Spider['Spider'/1170, uuid='af3f1567-de37-444c-bcc2-57c3c032d72b', l='ServerLevel[world]', x=-1383.30, y=51.10, z=325.30, cpos=[-87, 20], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e3ffb7a5-cbaa-46fa-a156-9d4e929cb34a, mapped to Creeper['Creeper'/527, uuid='e3ffb7a5-cbaa-46fa-a156-9d4e929cb34a', l='ServerLevel[world]', x=-1026.50, y=90.00, z=334.50, cpos=[-65, 20], tl=0, v=true], can't add Creeper['Creeper'/1171, uuid='e3ffb7a5-cbaa-46fa-a156-9d4e929cb34a', l='ServerLevel[world]', x=-1394.50, y=90.00, z=318.50, cpos=[-88, 19], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 36881e91-c35c-4987-b5d5-8da49d379e55, mapped to Zombie['Zombie'/358, uuid='36881e91-c35c-4987-b5d5-8da49d379e55', l='ServerLevel[world]', x=-985.81, y=147.00, z=378.21, cpos=[-62, 23], tl=0, v=true], can't add Zombie['Zombie'/1172, uuid='36881e91-c35c-4987-b5d5-8da49d379e55', l='ServerLevel[world]', x=-1353.81, y=147.00, z=362.21, cpos=[-85, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 3810980d-f832-4fde-8e41-fbc98fd4f10d, mapped to Zombie['Zombie'/359, uuid='3810980d-f832-4fde-8e41-fbc98fd4f10d', l='ServerLevel[world]', x=-987.49, y=147.00, z=375.63, cpos=[-62, 23], tl=0, v=true], can't add Zombie['Zombie'/1173, uuid='3810980d-f832-4fde-8e41-fbc98fd4f10d', l='ServerLevel[world]', x=-1355.49, y=147.00, z=359.63, cpos=[-85, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 8b546607-a6c9-4206-a4ef-24379c36c809, mapped to Creeper['Creeper'/360, uuid='8b546607-a6c9-4206-a4ef-24379c36c809', l='ServerLevel[world]', x=-991.16, y=148.00, z=381.76, cpos=[-62, 23], tl=0, v=true], can't add Creeper['Creeper'/1174, uuid='8b546607-a6c9-4206-a4ef-24379c36c809', l='ServerLevel[world]', x=-1359.16, y=148.00, z=365.76, cpos=[-85, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 93baf853-23af-4fcc-ba3d-945b79985ebd, mapped to Creeper['Creeper'/361, uuid='93baf853-23af-4fcc-ba3d-945b79985ebd', l='ServerLevel[world]', x=-988.16, y=147.00, z=377.85, cpos=[-62, 23], tl=0, v=true], can't add Creeper['Creeper'/1175, uuid='93baf853-23af-4fcc-ba3d-945b79985ebd', l='ServerLevel[world]', x=-1356.16, y=147.00, z=361.85, cpos=[-85, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 863db60a-3181-4e70-a40c-6b01cb08650a, mapped to Zombie['Zombie'/348, uuid='863db60a-3181-4e70-a40c-6b01cb08650a', l='ServerLevel[world]', x=-997.50, y=89.00, z=387.21, cpos=[-63, 24], tl=0, v=true], can't add Zombie['Zombie'/1176, uuid='863db60a-3181-4e70-a40c-6b01cb08650a', l='ServerLevel[world]', x=-1365.50, y=89.00, z=371.21, cpos=[-86, 23], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 81672f1d-5061-4735-b492-488b7f86c9bf, mapped to Skeleton['Skeleton'/349, uuid='81672f1d-5061-4735-b492-488b7f86c9bf', l='ServerLevel[world]', x=-998.76, y=136.00, z=398.69, cpos=[-63, 24], tl=0, v=true], can't add Skeleton['Skeleton'/1177, uuid='81672f1d-5061-4735-b492-488b7f86c9bf', l='ServerLevel[world]', x=-1366.76, y=136.00, z=382.69, cpos=[-86, 23], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 60c6a2ba-2fa1-4f81-b33c-dfd585eae3bd, mapped to Spider['Spider'/350, uuid='60c6a2ba-2fa1-4f81-b33c-dfd585eae3bd', l='ServerLevel[world]', x=-994.87, y=141.00, z=394.40, cpos=[-63, 24], tl=0, v=true], can't add Spider['Spider'/1178, uuid='60c6a2ba-2fa1-4f81-b33c-dfd585eae3bd', l='ServerLevel[world]', x=-1362.87, y=141.00, z=378.40, cpos=[-86, 23], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ee5b43bd-6291-46e6-a3fe-9f815a981f36, mapped to Creeper['Creeper'/617, uuid='ee5b43bd-6291-46e6-a3fe-9f815a981f36', l='ServerLevel[world]', x=-1088.82, y=155.00, z=360.51, cpos=[-69, 22], tl=0, v=true], can't add Creeper['Creeper'/1179, uuid='ee5b43bd-6291-46e6-a3fe-9f815a981f36', l='ServerLevel[world]', x=-1456.82, y=155.00, z=344.51, cpos=[-92, 21], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 680a8fe7-1978-4918-872c-1dd383954abd, mapped to Creeper['Creeper'/618, uuid='680a8fe7-1978-4918-872c-1dd383954abd', l='ServerLevel[world]', x=-1097.50, y=153.00, z=364.50, cpos=[-69, 22], tl=0, v=true], can't add Creeper['Creeper'/1180, uuid='680a8fe7-1978-4918-872c-1dd383954abd', l='ServerLevel[world]', x=-1465.50, y=153.00, z=348.50, cpos=[-92, 21], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 776313d0-b695-45dd-ba12-49e504dba1a9, mapped to Creeper['Creeper'/619, uuid='776313d0-b695-45dd-ba12-49e504dba1a9', l='ServerLevel[world]', x=-1096.50, y=153.00, z=364.50, cpos=[-69, 22], tl=0, v=true], can't add Creeper['Creeper'/1181, uuid='776313d0-b695-45dd-ba12-49e504dba1a9', l='ServerLevel[world]', x=-1464.50, y=153.00, z=348.50, cpos=[-92, 21], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 8cca1d45-27bc-4e0d-a696-e9ad777f3117, mapped to Zombie['Zombie'/505, uuid='8cca1d45-27bc-4e0d-a696-e9ad777f3117', l='ServerLevel[world]', x=-1008.50, y=38.00, z=329.50, cpos=[-64, 20], tl=0, v=true], can't add Zombie['Zombie'/1182, uuid='8cca1d45-27bc-4e0d-a696-e9ad777f3117', l='ServerLevel[world]', x=-1376.50, y=38.00, z=313.50, cpos=[-87, 19], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 498c134b-3bd5-4a4c-af48-81b0d5e2d80f, mapped to ZombieVillager['Zombie Villager'/506, uuid='498c134b-3bd5-4a4c-af48-81b0d5e2d80f', l='ServerLevel[world]', x=-1009.50, y=39.00, z=335.50, cpos=[-64, 20], tl=0, v=true], can't add ZombieVillager['Zombie Villager'/1183, uuid='498c134b-3bd5-4a4c-af48-81b0d5e2d80f', l='ServerLevel[world]', x=-1377.50, y=39.00, z=319.50, cpos=[-87, 19], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 9eb53e16-da1c-4737-a50e-5890d0289b8b, mapped to Skeleton['Skeleton'/338, uuid='9eb53e16-da1c-4737-a50e-5890d0289b8b', l='ServerLevel[world]', x=-975.73, y=106.00, z=368.56, cpos=[-61, 23], tl=0, v=true], can't add Skeleton['Skeleton'/1185, uuid='9eb53e16-da1c-4737-a50e-5890d0289b8b', l='ServerLevel[world]', x=-1343.73, y=106.00, z=352.56, cpos=[-84, 22], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2d5ca5c5-3f5a-4db7-b9be-1d24d56135d8, mapped to Skeleton['Skeleton'/495, uuid='2d5ca5c5-3f5a-4db7-b9be-1d24d56135d8', l='ServerLevel[world]', x=-1098.75, y=150.00, z=410.74, cpos=[-69, 25], tl=0, v=true], can't add Skeleton['Skeleton'/1186, uuid='2d5ca5c5-3f5a-4db7-b9be-1d24d56135d8', l='ServerLevel[world]', x=-1466.75, y=150.00, z=394.74, cpos=[-92, 24], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: a2c212bc-2849-4e62-9732-d8f350639eb9, mapped to Creeper['Creeper'/444, uuid='a2c212bc-2849-4e62-9732-d8f350639eb9', l='ServerLevel[world]', x=-998.50, y=170.00, z=346.50, cpos=[-63, 21], tl=0, v=true], can't add Creeper['Creeper'/1187, uuid='a2c212bc-2849-4e62-9732-d8f350639eb9', l='ServerLevel[world]', x=-1366.50, y=170.00, z=330.50, cpos=[-86, 20], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 690de54c-77b2-48fe-a4f7-441ad1105eaf, mapped to Zombie['Zombie'/445, uuid='690de54c-77b2-48fe-a4f7-441ad1105eaf', l='ServerLevel[world]', x=-1003.81, y=160.00, z=348.50, cpos=[-63, 21], tl=0, v=true], can't add Zombie['Zombie'/1188, uuid='690de54c-77b2-48fe-a4f7-441ad1105eaf', l='ServerLevel[world]', x=-1371.81, y=160.00, z=332.50, cpos=[-86, 20], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7d86f31c-e139-4918-9db3-133fdf9fbf18, mapped to Spider['Spider'/333, uuid='7d86f31c-e139-4918-9db3-133fdf9fbf18', l='ServerLevel[world]', x=-991.99, y=144.00, z=389.29, cpos=[-62, 24], tl=0, v=true], can't add Spider['Spider'/1189, uuid='7d86f31c-e139-4918-9db3-133fdf9fbf18', l='ServerLevel[world]', x=-1359.99, y=144.00, z=373.29, cpos=[-85, 23], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e2c58f0e-901b-4f2c-bbe0-d6b578db8c47, mapped to Creeper['Creeper'/420, uuid='e2c58f0e-901b-4f2c-bbe0-d6b578db8c47', l='ServerLevel[world]', x=-1080.18, y=137.00, z=431.18, cpos=[-68, 26], tl=0, v=true], can't add Creeper['Creeper'/1190, uuid='e2c58f0e-901b-4f2c-bbe0-d6b578db8c47', l='ServerLevel[world]', x=-1448.18, y=137.00, z=415.18, cpos=[-91, 25], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: bc8b7edd-fec6-40d3-a358-795b8c3db9d5, mapped to Creeper['Creeper'/532, uuid='bc8b7edd-fec6-40d3-a358-795b8c3db9d5', l='ServerLevel[world]', x=-1106.23, y=151.00, z=414.51, cpos=[-70, 25], tl=0, v=true], can't add Creeper['Creeper'/1192, uuid='bc8b7edd-fec6-40d3-a358-795b8c3db9d5', l='ServerLevel[world]', x=-1474.23, y=151.00, z=398.51, cpos=[-93, 24], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f1877259-fcad-441f-83c4-8b1fb8ccf9f2, mapped to Creeper['Creeper'/472, uuid='f1877259-fcad-441f-83c4-8b1fb8ccf9f2', l='ServerLevel[world]', x=-994.50, y=148.00, z=334.50, cpos=[-63, 20], tl=0, v=true], can't add Creeper['Creeper'/1193, uuid='f1877259-fcad-441f-83c4-8b1fb8ccf9f2', l='ServerLevel[world]', x=-1362.50, y=148.00, z=318.50, cpos=[-86, 19], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 75680eea-abcb-4cd3-8010-7b42ffaaf8e1, mapped to Skeleton['Skeleton'/320, uuid='75680eea-abcb-4cd3-8010-7b42ffaaf8e1', l='ServerLevel[world]', x=-1007.84, y=160.00, z=428.84, cpos=[-63, 26], tl=0, v=true], can't add Skeleton['Skeleton'/1194, uuid='75680eea-abcb-4cd3-8010-7b42ffaaf8e1', l='ServerLevel[world]', x=-1375.84, y=160.00, z=412.84, cpos=[-86, 25], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ed03315f-f23c-4c5c-8f56-a50665dfdc08, mapped to Creeper['Creeper'/321, uuid='ed03315f-f23c-4c5c-8f56-a50665dfdc08', l='ServerLevel[world]', x=-989.50, y=136.00, z=400.50, cpos=[-62, 25], tl=0, v=true], can't add Creeper['Creeper'/1195, uuid='ed03315f-f23c-4c5c-8f56-a50665dfdc08', l='ServerLevel[world]', x=-1357.50, y=136.00, z=384.50, cpos=[-85, 24], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 608b39a9-86a5-4122-b1ba-1d8355371cc7, mapped to Skeleton['Skeleton'/411, uuid='608b39a9-86a5-4122-b1ba-1d8355371cc7', l='ServerLevel[world]', x=-977.50, y=131.00, z=346.50, cpos=[-62, 21], tl=0, v=true], can't add Skeleton['Skeleton'/1196, uuid='608b39a9-86a5-4122-b1ba-1d8355371cc7', l='ServerLevel[world]', x=-1345.50, y=131.00, z=330.50, cpos=[-85, 20], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: afadbae2-de59-41cc-85c7-59e03170659f, mapped to Creeper['Creeper'/309, uuid='afadbae2-de59-41cc-85c7-59e03170659f', l='ServerLevel[world]', x=-1011.50, y=160.00, z=433.50, cpos=[-64, 27], tl=0, v=true], can't add Creeper['Creeper'/1197, uuid='afadbae2-de59-41cc-85c7-59e03170659f', l='ServerLevel[world]', x=-1379.50, y=160.00, z=417.50, cpos=[-87, 26], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e3646636-64e8-4bae-8ef6-2263a4a3da10, mapped to Creeper['Creeper'/310, uuid='e3646636-64e8-4bae-8ef6-2263a4a3da10', l='ServerLevel[world]', x=-1009.50, y=160.00, z=433.50, cpos=[-64, 27], tl=0, v=true], can't add Creeper['Creeper'/1198, uuid='e3646636-64e8-4bae-8ef6-2263a4a3da10', l='ServerLevel[world]', x=-1377.50, y=160.00, z=417.50, cpos=[-87, 26], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 9fcda43d-73e0-4942-ae07-6b68865e1de5, mapped to Skeleton['Skeleton'/311, uuid='9fcda43d-73e0-4942-ae07-6b68865e1de5', l='ServerLevel[world]', x=-1008.50, y=160.00, z=434.50, cpos=[-64, 27], tl=0, v=true], can't add Skeleton['Skeleton'/1199, uuid='9fcda43d-73e0-4942-ae07-6b68865e1de5', l='ServerLevel[world]', x=-1376.50, y=160.00, z=418.50, cpos=[-87, 26], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 3a6ff985-ecf4-4453-9900-741a36c46c8d, mapped to Creeper['Creeper'/312, uuid='3a6ff985-ecf4-4453-9900-741a36c46c8d', l='ServerLevel[world]', x=-1012.50, y=160.00, z=432.50, cpos=[-64, 27], tl=0, v=true], can't add Creeper['Creeper'/1200, uuid='3a6ff985-ecf4-4453-9900-741a36c46c8d', l='ServerLevel[world]', x=-1380.50, y=160.00, z=416.50, cpos=[-87, 26], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 8864f68b-b4a7-447b-871c-3e483a08133f, mapped to Spider['Spider'/417, uuid='8864f68b-b4a7-447b-871c-3e483a08133f', l='ServerLevel[world]', x=-1081.84, y=85.00, z=453.55, cpos=[-68, 28], tl=0, v=true], can't add Spider['Spider'/1201, uuid='8864f68b-b4a7-447b-871c-3e483a08133f', l='ServerLevel[world]', x=-1449.84, y=85.00, z=437.55, cpos=[-91, 27], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 3ef7b37e-ef21-447c-9dcd-d79632b6eca9, mapped to Creeper['Creeper'/418, uuid='3ef7b37e-ef21-447c-9dcd-d79632b6eca9', l='ServerLevel[world]', x=-1080.50, y=137.00, z=459.50, cpos=[-68, 28], tl=0, v=true], can't add Creeper['Creeper'/1202, uuid='3ef7b37e-ef21-447c-9dcd-d79632b6eca9', l='ServerLevel[world]', x=-1448.50, y=137.00, z=443.50, cpos=[-91, 27], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 090c450d-83f5-4273-82f5-5473aa4ab04c, mapped to Zombie['Zombie'/419, uuid='090c450d-83f5-4273-82f5-5473aa4ab04c', l='ServerLevel[world]', x=-1080.50, y=137.00, z=461.50, cpos=[-68, 28], tl=0, v=true], can't add Zombie['Zombie'/1203, uuid='090c450d-83f5-4273-82f5-5473aa4ab04c', l='ServerLevel[world]', x=-1448.50, y=137.00, z=445.50, cpos=[-91, 27], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 3841f2cb-d8e2-4185-b95f-d2c7d78109e0, mapped to Zombie['Zombie'/500, uuid='3841f2cb-d8e2-4185-b95f-d2c7d78109e0', l='ServerLevel[world]', x=-1117.50, y=167.00, z=427.50, cpos=[-70, 26], tl=0, v=true], can't add Zombie['Zombie'/1204, uuid='3841f2cb-d8e2-4185-b95f-d2c7d78109e0', l='ServerLevel[world]', x=-1485.50, y=167.00, z=411.50, cpos=[-93, 25], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 0ed5285d-7ec7-463d-ad45-231527ab504d, mapped to Zombie['Zombie'/501, uuid='0ed5285d-7ec7-463d-ad45-231527ab504d', l='ServerLevel[world]', x=-1117.80, y=167.00, z=421.50, cpos=[-70, 26], tl=0, v=true], can't add Zombie['Zombie'/1205, uuid='0ed5285d-7ec7-463d-ad45-231527ab504d', l='ServerLevel[world]', x=-1485.80, y=167.00, z=405.50, cpos=[-93, 25], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 255c89ef-c94b-44fd-b76e-94761d26565e, mapped to Bat['Bat'/437, uuid='255c89ef-c94b-44fd-b76e-94761d26565e', l='ServerLevel[world]', x=-1097.57, y=124.28, z=438.68, cpos=[-69, 27], tl=0, v=true], can't add Bat['Bat'/1206, uuid='255c89ef-c94b-44fd-b76e-94761d26565e', l='ServerLevel[world]', x=-1465.57, y=124.28, z=422.68, cpos=[-92, 26], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cacfff03-1d8d-4fac-97e7-8a20d32242fd, mapped to Skeleton['Skeleton'/293, uuid='cacfff03-1d8d-4fac-97e7-8a20d32242fd', l='ServerLevel[world]', x=-1006.31, y=160.00, z=434.74, cpos=[-63, 27], tl=0, v=true], can't add Skeleton['Skeleton'/1207, uuid='cacfff03-1d8d-4fac-97e7-8a20d32242fd', l='ServerLevel[world]', x=-1374.31, y=160.00, z=418.74, cpos=[-86, 26], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 82a85410-8c9d-4fbc-aaff-dd87b1ee8b34, mapped to Skeleton['Skeleton'/294, uuid='82a85410-8c9d-4fbc-aaff-dd87b1ee8b34', l='ServerLevel[world]', x=-1003.50, y=161.00, z=433.24, cpos=[-63, 27], tl=0, v=true], can't add Skeleton['Skeleton'/1208, uuid='82a85410-8c9d-4fbc-aaff-dd87b1ee8b34', l='ServerLevel[world]', x=-1371.50, y=161.00, z=417.24, cpos=[-86, 26], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: a29b3b39-df9c-40ed-ad1b-5553262f020d, mapped to Creeper['Creeper'/295, uuid='a29b3b39-df9c-40ed-ad1b-5553262f020d', l='ServerLevel[world]', x=-1006.80, y=160.00, z=434.13, cpos=[-63, 27], tl=0, v=true], can't add Creeper['Creeper'/1209, uuid='a29b3b39-df9c-40ed-ad1b-5553262f020d', l='ServerLevel[world]', x=-1374.80, y=160.00, z=418.13, cpos=[-86, 26], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 73015ddd-c882-482b-ab74-e482489d37f6, mapped to Skeleton['Skeleton'/596, uuid='73015ddd-c882-482b-ab74-e482489d37f6', l='ServerLevel[world]', x=-1019.50, y=163.00, z=283.50, cpos=[-64, 17], tl=0, v=true], can't add Skeleton['Skeleton'/1210, uuid='73015ddd-c882-482b-ab74-e482489d37f6', l='ServerLevel[world]', x=-1387.50, y=163.00, z=267.50, cpos=[-87, 16], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 47069713-5bda-49e0-b6b5-26d03ef0e26e, mapped to Creeper['Creeper'/285, uuid='47069713-5bda-49e0-b6b5-26d03ef0e26e', l='ServerLevel[world]', x=-964.52, y=132.00, z=430.80, cpos=[-61, 26], tl=0, v=true], can't add Creeper['Creeper'/1211, uuid='47069713-5bda-49e0-b6b5-26d03ef0e26e', l='ServerLevel[world]', x=-1332.52, y=132.00, z=414.80, cpos=[-84, 25], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 635c937d-28f3-4ccb-a63a-41d30a8da88e, mapped to Creeper['Creeper'/319, uuid='635c937d-28f3-4ccb-a63a-41d30a8da88e', l='ServerLevel[world]', x=-1006.50, y=179.00, z=449.50, cpos=[-63, 28], tl=0, v=true], can't add Creeper['Creeper'/1212, uuid='635c937d-28f3-4ccb-a63a-41d30a8da88e', l='ServerLevel[world]', x=-1374.50, y=179.00, z=433.50, cpos=[-86, 27], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 0a3aa06c-04a0-4175-9431-18cf46e30cd8, mapped to Zombie['Zombie'/274, uuid='0a3aa06c-04a0-4175-9431-18cf46e30cd8', l='ServerLevel[world]', x=-982.20, y=168.00, z=432.48, cpos=[-62, 27], tl=0, v=true], can't add Zombie['Zombie'/1221, uuid='0a3aa06c-04a0-4175-9431-18cf46e30cd8', l='ServerLevel[world]', x=-1350.20, y=168.00, z=416.48, cpos=[-85, 26], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 53e71042-a74f-4a46-90ab-fc9650761c93, mapped to Zombie['Zombie'/275, uuid='53e71042-a74f-4a46-90ab-fc9650761c93', l='ServerLevel[world]', x=-985.20, y=171.00, z=433.51, cpos=[-62, 27], tl=0, v=true], can't add Zombie['Zombie'/1222, uuid='53e71042-a74f-4a46-90ab-fc9650761c93', l='ServerLevel[world]', x=-1353.20, y=171.00, z=417.51, cpos=[-85, 26], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 58fadb14-353d-4e17-ba74-685528486169, mapped to Zombie['Zombie'/458, uuid='58fadb14-353d-4e17-ba74-685528486169', l='ServerLevel[world]', x=-1078.55, y=137.00, z=464.85, cpos=[-68, 29], tl=0, v=true], can't add Zombie['Zombie'/1223, uuid='58fadb14-353d-4e17-ba74-685528486169', l='ServerLevel[world]', x=-1446.55, y=137.00, z=448.85, cpos=[-91, 28], tl=0, v=false]
-[15:03:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 8be2ba63-0e6f-4886-9d2b-821649a0c5e6, mapped to Zombie['Zombie'/459, uuid='8be2ba63-0e6f-4886-9d2b-821649a0c5e6', l='ServerLevel[world]', x=-1078.73, y=137.00, z=469.22, cpos=[-68, 29], tl=0, v=true], can't add Zombie['Zombie'/1224, uuid='8be2ba63-0e6f-4886-9d2b-821649a0c5e6', l='ServerLevel[world]', x=-1446.73, y=137.00, z=453.22, cpos=[-91, 28], tl=0, v=false]
-[15:03:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 0204f4df-c7e7-4477-a807-0fc25d26f0f5, mapped to Creeper['Creeper'/553, uuid='0204f4df-c7e7-4477-a807-0fc25d26f0f5', l='ServerLevel[world]', x=-1006.50, y=113.00, z=282.50, cpos=[-63, 17], tl=0, v=true], can't add Creeper['Creeper'/1229, uuid='0204f4df-c7e7-4477-a807-0fc25d26f0f5', l='ServerLevel[world]', x=-1374.50, y=113.00, z=266.50, cpos=[-86, 16], tl=0, v=false]
-[15:03:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: dc6c7663-86af-429a-98c2-77b5a3765925, mapped to Skeleton['Skeleton'/554, uuid='dc6c7663-86af-429a-98c2-77b5a3765925', l='ServerLevel[world]', x=-1002.50, y=141.00, z=279.50, cpos=[-63, 17], tl=0, v=true], can't add Skeleton['Skeleton'/1230, uuid='dc6c7663-86af-429a-98c2-77b5a3765925', l='ServerLevel[world]', x=-1370.50, y=141.00, z=263.50, cpos=[-86, 16], tl=0, v=false]
-[15:03:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ec507e1d-4bf8-4ac4-9489-0e080dbaf34c, mapped to Skeleton['Skeleton'/639, uuid='ec507e1d-4bf8-4ac4-9489-0e080dbaf34c', l='ServerLevel[world]', x=-1019.63, y=120.00, z=262.60, cpos=[-64, 16], tl=0, v=true], can't add Skeleton['Skeleton'/1240, uuid='ec507e1d-4bf8-4ac4-9489-0e080dbaf34c', l='ServerLevel[world]', x=-1387.63, y=120.00, z=246.60, cpos=[-87, 15], tl=0, v=false]
-[15:03:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cff84af9-281f-4c1b-a90f-9ef0dcb24448, mapped to Skeleton['Skeleton'/622, uuid='cff84af9-281f-4c1b-a90f-9ef0dcb24448', l='ServerLevel[world]', x=-996.81, y=145.00, z=271.38, cpos=[-63, 16], tl=0, v=true], can't add Skeleton['Skeleton'/1268, uuid='cff84af9-281f-4c1b-a90f-9ef0dcb24448', l='ServerLevel[world]', x=-1364.81, y=145.00, z=255.38, cpos=[-86, 15], tl=0, v=false]
-[15:03:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: fc2d37d6-5d3d-4c17-83e5-5c81b11e1256, mapped to Creeper['Creeper'/541, uuid='fc2d37d6-5d3d-4c17-83e5-5c81b11e1256', l='ServerLevel[world]', x=-978.50, y=109.00, z=279.50, cpos=[-62, 17], tl=0, v=true], can't add Creeper['Creeper'/1276, uuid='fc2d37d6-5d3d-4c17-83e5-5c81b11e1256', l='ServerLevel[world]', x=-1346.50, y=109.00, z=263.50, cpos=[-85, 16], tl=0, v=false]
-[15:03:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e3f5b9c9-d862-4785-8878-8215e29f025a, mapped to Zombie['Zombie'/542, uuid='e3f5b9c9-d862-4785-8878-8215e29f025a', l='ServerLevel[world]', x=-980.50, y=127.00, z=280.79, cpos=[-62, 17], tl=0, v=true], can't add Zombie['Zombie'/1277, uuid='e3f5b9c9-d862-4785-8878-8215e29f025a', l='ServerLevel[world]', x=-1348.50, y=127.00, z=264.79, cpos=[-85, 16], tl=0, v=false]
-[15:03:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 56fa493f-ca20-4058-8db6-3280fdddee95, mapped to Zombie['Zombie'/683, uuid='56fa493f-ca20-4058-8db6-3280fdddee95', l='ServerLevel[world]', x=-1008.50, y=168.00, z=248.50, cpos=[-64, 15], tl=0, v=true], can't add Zombie['Zombie'/1278, uuid='56fa493f-ca20-4058-8db6-3280fdddee95', l='ServerLevel[world]', x=-1376.50, y=168.00, z=232.50, cpos=[-87, 14], tl=0, v=false]
-[15:03:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: dbbe5de7-e6bc-476f-86c0-716651eda92d, mapped to Creeper['Creeper'/582, uuid='dbbe5de7-e6bc-476f-86c0-716651eda92d', l='ServerLevel[world]', x=-985.15, y=111.00, z=271.54, cpos=[-62, 16], tl=0, v=true], can't add Creeper['Creeper'/1279, uuid='dbbe5de7-e6bc-476f-86c0-716651eda92d', l='ServerLevel[world]', x=-1353.15, y=111.00, z=255.54, cpos=[-85, 15], tl=0, v=false]
-[15:03:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: bfc4562c-8719-4b25-8293-0505cc09fc87, mapped to Skeleton['Skeleton'/423, uuid='bfc4562c-8719-4b25-8293-0505cc09fc87', l='ServerLevel[world]', x=-953.23, y=159.00, z=303.19, cpos=[-60, 18], tl=0, v=true], can't add Skeleton['Skeleton'/1281, uuid='bfc4562c-8719-4b25-8293-0505cc09fc87', l='ServerLevel[world]', x=-1321.23, y=159.00, z=287.19, cpos=[-83, 17], tl=0, v=false]
-[15:03:52] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: c3bb0b25-e9c1-4ad7-a682-1b101f30ff42, mapped to MinecartChest['Minecart with Chest'/262, uuid='c3bb0b25-e9c1-4ad7-a682-1b101f30ff42', l='ServerLevel[world]', x=-851.50, y=28.50, z=322.50, cpos=[-54, 20], tl=0, v=true], can't add MinecartChest['Minecart with Chest'/1426, uuid='c3bb0b25-e9c1-4ad7-a682-1b101f30ff42', l='ServerLevel[world]', x=-1219.50, y=28.50, z=306.50, cpos=[-77, 19], tl=0, v=false]
-[15:03:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 47dd13f6-fda1-45dd-be33-a38dbf3dfa1e, mapped to MinecartChest['Minecart with Chest'/880, uuid='47dd13f6-fda1-45dd-be33-a38dbf3dfa1e', l='ServerLevel[world]', x=-993.50, y=29.50, z=119.50, cpos=[-63, 7], tl=0, v=true], can't add MinecartChest['Minecart with Chest'/1592, uuid='47dd13f6-fda1-45dd-be33-a38dbf3dfa1e', l='ServerLevel[world]', x=-1361.50, y=29.50, z=103.50, cpos=[-86, 6], tl=0, v=false]
-[15:03:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b28a2e19-2a11-4e55-b292-62362bfceb46, mapped to MinecartChest['Minecart with Chest'/861, uuid='b28a2e19-2a11-4e55-b292-62362bfceb46', l='ServerLevel[world]', x=-989.50, y=36.50, z=112.50, cpos=[-62, 7], tl=0, v=true], can't add MinecartChest['Minecart with Chest'/1594, uuid='b28a2e19-2a11-4e55-b292-62362bfceb46', l='ServerLevel[world]', x=-1357.50, y=36.50, z=96.50, cpos=[-85, 6], tl=0, v=false]
-[15:03:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: dcd2878e-0527-4256-92ab-569a9697d585, mapped to MinecartChest['Minecart with Chest'/896, uuid='dcd2878e-0527-4256-92ab-569a9697d585', l='ServerLevel[world]', x=-996.50, y=39.50, z=110.50, cpos=[-63, 6], tl=0, v=true], can't add MinecartChest['Minecart with Chest'/1595, uuid='dcd2878e-0527-4256-92ab-569a9697d585', l='ServerLevel[world]', x=-1364.50, y=39.50, z=94.50, cpos=[-86, 5], tl=0, v=false]
-[15:04:01] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
-[15:04:07] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 3f8783cc-89f8-495a-83e6-9d2b410426b2, mapped to MinecartChest['Minecart with Chest'/919, uuid='3f8783cc-89f8-495a-83e6-9d2b410426b2', l='ServerLevel[world]', x=-986.50, y=41.50, z=79.50, cpos=[-62, 4], tl=0, v=true], can't add MinecartChest['Minecart with Chest'/1902, uuid='3f8783cc-89f8-495a-83e6-9d2b410426b2', l='ServerLevel[world]', x=-1354.50, y=41.50, z=63.50, cpos=[-85, 3], tl=0, v=false]
-[15:04:07] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 19b57a60-0736-4ef8-b72f-d65e2378383a, mapped to Cow['Cow'/788, uuid='19b57a60-0736-4ef8-b72f-d65e2378383a', l='ServerLevel[world]', x=-888.00, y=185.00, z=52.00, cpos=[-56, 3], tl=0, v=true], can't add Cow['Cow'/2103, uuid='19b57a60-0736-4ef8-b72f-d65e2378383a', l='ServerLevel[world]', x=-1256.00, y=185.00, z=36.00, cpos=[-79, 2], tl=0, v=false]
-[15:04:23] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 842b2226-2bd1-4e0b-a210-4acba3580417, mapped to Armadillo['Armadillo'/2424, uuid='842b2226-2bd1-4e0b-a210-4acba3580417', l='ServerLevel[world]', x=-1467.00, y=159.00, z=-216.00, cpos=[-92, -14], tl=0, v=true], can't add Armadillo['Armadillo'/2778, uuid='842b2226-2bd1-4e0b-a210-4acba3580417', l='ServerLevel[world]', x=-1099.00, y=159.00, z=-200.00, cpos=[-69, -13], tl=0, v=false]
-[15:04:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: fb5733d5-45c3-4bac-af72-f60e46b04f30, mapped to Armadillo['Armadillo'/2418, uuid='fb5733d5-45c3-4bac-af72-f60e46b04f30', l='ServerLevel[world]', x=-1377.38, y=142.00, z=-208.02, cpos=[-87, -14], tl=0, v=true], can't add Armadillo['Armadillo'/2856, uuid='fb5733d5-45c3-4bac-af72-f60e46b04f30', l='ServerLevel[world]', x=-1009.38, y=142.00, z=-192.02, cpos=[-64, -13], tl=0, v=false]
-[15:04:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 1d67e9fd-1c35-427d-b19e-3a361d65a11a, mapped to Armadillo['Armadillo'/2417, uuid='1d67e9fd-1c35-427d-b19e-3a361d65a11a', l='ServerLevel[world]', x=-1374.57, y=142.00, z=-207.55, cpos=[-86, -13], tl=0, v=true], can't add Armadillo['Armadillo'/2858, uuid='1d67e9fd-1c35-427d-b19e-3a361d65a11a', l='ServerLevel[world]', x=-1006.57, y=142.00, z=-191.55, cpos=[-63, -12], tl=0, v=false]
-[15:04:32] [Server thread/INFO]: trololol72 issued server command: /tpb cherry witch
-[15:04:32] [Server thread/INFO]: Set tpb location for 'cherry witch' to: x: -1418.68, y: 192.12, z: 341.81, yaw: 33.84, pitch: 48.67 in 'world'
-[15:04:54] [Server thread/INFO]: trololol72 issued server command: /tp -1159 ~ -425
-[15:04:54] [Server thread/INFO]: [trololol72: Teleported trololol72 to -1158.500000, 192.117437, -424.500000]
-[15:05:02] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6a1d176d-2198-41e6-8c31-fc349a11e486, mapped to Sheep['Sheep'/2885, uuid='6a1d176d-2198-41e6-8c31-fc349a11e486', l='ServerLevel[world]', x=-1141.23, y=187.00, z=-432.18, cpos=[-72, -28], tl=159, v=true], can't add Sheep['Sheep'/3016, uuid='6a1d176d-2198-41e6-8c31-fc349a11e486', l='ServerLevel[world]', x=-773.23, y=187.00, z=-416.18, cpos=[-49, -27], tl=0, v=false]
-[15:05:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 62007cc4-9242-4dd4-b770-ea8ae98dbb43, mapped to Sheep['Sheep'/2886, uuid='62007cc4-9242-4dd4-b770-ea8ae98dbb43', l='ServerLevel[world]', x=-1138.77, y=187.00, z=-432.18, cpos=[-72, -28], tl=173, v=true], can't add Sheep['Sheep'/3023, uuid='62007cc4-9242-4dd4-b770-ea8ae98dbb43', l='ServerLevel[world]', x=-772.22, y=187.00, z=-411.53, cpos=[-49, -26], tl=0, v=false]
-[15:05:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7826eb1a-249c-4115-a57c-5af8192b5cc4, mapped to Bee['Bee'/2882, uuid='7826eb1a-249c-4115-a57c-5af8192b5cc4', l='ServerLevel[world]', x=-1143.46, y=187.60, z=-420.29, cpos=[-72, -27], tl=174, v=true], can't add Bee['Bee'/3025, uuid='7826eb1a-249c-4115-a57c-5af8192b5cc4', l='ServerLevel[world]', x=-776.66, y=187.59, z=-405.09, cpos=[-49, -26], tl=0, v=false]
-[15:05:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d8f7bbe1-cc48-472e-843e-c25ae52dc74e, mapped to Sheep['Sheep'/2884, uuid='d8f7bbe1-cc48-472e-843e-c25ae52dc74e', l='ServerLevel[world]', x=-1134.16, y=187.00, z=-426.85, cpos=[-71, -27], tl=174, v=true], can't add Sheep['Sheep'/3026, uuid='d8f7bbe1-cc48-472e-843e-c25ae52dc74e', l='ServerLevel[world]', x=-765.51, y=187.00, z=-419.29, cpos=[-48, -27], tl=0, v=false]
-[15:05:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: a0e2a0a5-8d85-44b5-ad23-ca800bced39a, mapped to Rabbit['Rabbit'/2887, uuid='a0e2a0a5-8d85-44b5-ad23-ca800bced39a', l='ServerLevel[world]', x=-1128.38, y=186.00, z=-459.63, cpos=[-71, -29], tl=166, v=true], can't add Rabbit['Rabbit'/3027, uuid='a0e2a0a5-8d85-44b5-ad23-ca800bced39a', l='ServerLevel[world]', x=-752.50, y=186.00, z=-448.43, cpos=[-48, -29], tl=0, v=false]
-[15:05:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: aa1c977d-b3c4-464b-aedd-b49ebc41a93c, mapped to Rabbit['Rabbit'/2891, uuid='aa1c977d-b3c4-464b-aedd-b49ebc41a93c', l='ServerLevel[world]', x=-1118.49, y=188.00, z=-469.72, cpos=[-70, -30], tl=168, v=true], can't add Rabbit['Rabbit'/3028, uuid='aa1c977d-b3c4-464b-aedd-b49ebc41a93c', l='ServerLevel[world]', x=-750.30, y=189.00, z=-458.66, cpos=[-47, -29], tl=0, v=false]
-[15:05:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 8a516b6d-7cdc-41ad-aaa8-4e474b4851c8, mapped to Sheep['Sheep'/2883, uuid='8a516b6d-7cdc-41ad-aaa8-4e474b4851c8', l='ServerLevel[world]', x=-1138.23, y=187.00, z=-424.72, cpos=[-72, -27], tl=190, v=true], can't add Sheep['Sheep'/3029, uuid='8a516b6d-7cdc-41ad-aaa8-4e474b4851c8', l='ServerLevel[world]', x=-762.79, y=187.00, z=-413.27, cpos=[-48, -26], tl=0, v=false]
-[15:05:06] [Server thread/INFO]: trololol72 issued server command: /tpb cherry golem
-[15:05:06] [Server thread/INFO]: Set tpb location for 'cherry golem' to: x: -1115.06, y: 202.24, z: -433.73, yaw: -138.04, pitch: 57.73 in 'world'
-[15:05:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: efafe41b-0f4a-4bc8-993e-90053f0b3c3c, mapped to Bee['Bee'/2892, uuid='efafe41b-0f4a-4bc8-993e-90053f0b3c3c', l='ServerLevel[world]', x=-1083.42, y=188.64, z=-430.23, cpos=[-68, -27], tl=319, v=true], can't add Bee['Bee'/3038, uuid='efafe41b-0f4a-4bc8-993e-90053f0b3c3c', l='ServerLevel[world]', x=-711.68, y=187.60, z=-420.35, cpos=[-45, -27], tl=0, v=false]
-[15:05:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 4150d015-ed80-493b-a3fb-9a2469335bb8, mapped to Rabbit['Rabbit'/2893, uuid='4150d015-ed80-493b-a3fb-9a2469335bb8', l='ServerLevel[world]', x=-1076.18, y=187.00, z=-438.96, cpos=[-68, -28], tl=319, v=true], can't add Rabbit['Rabbit'/3039, uuid='4150d015-ed80-493b-a3fb-9a2469335bb8', l='ServerLevel[world]', x=-708.18, y=187.00, z=-422.96, cpos=[-45, -27], tl=0, v=false]
-[15:05:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2297855c-6e85-425f-875e-b6bca7ad95c2, mapped to Bee['Bee'/2894, uuid='2297855c-6e85-425f-875e-b6bca7ad95c2', l='ServerLevel[world]', x=-1087.64, y=188.64, z=-434.30, cpos=[-68, -28], tl=319, v=true], can't add Bee['Bee'/3040, uuid='2297855c-6e85-425f-875e-b6bca7ad95c2', l='ServerLevel[world]', x=-713.47, y=187.65, z=-422.35, cpos=[-45, -27], tl=0, v=false]
-[15:05:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 513514e0-d782-4069-b3d5-d126e99256a0, mapped to Rabbit['Rabbit'/2895, uuid='513514e0-d782-4069-b3d5-d126e99256a0', l='ServerLevel[world]', x=-1052.84, y=187.00, z=-444.76, cpos=[-66, -28], tl=311, v=true], can't add Rabbit['Rabbit'/3042, uuid='513514e0-d782-4069-b3d5-d126e99256a0', l='ServerLevel[world]', x=-691.83, y=187.00, z=-429.22, cpos=[-44, -27], tl=0, v=false]
-[15:05:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 7e2903f7-2406-4f53-ba17-f1c53c25e1d1, mapped to Rabbit['Rabbit'/2896, uuid='7e2903f7-2406-4f53-ba17-f1c53c25e1d1', l='ServerLevel[world]', x=-1060.00, y=187.00, z=-446.00, cpos=[-67, -28], tl=311, v=true], can't add Rabbit['Rabbit'/3043, uuid='7e2903f7-2406-4f53-ba17-f1c53c25e1d1', l='ServerLevel[world]', x=-696.30, y=188.00, z=-425.51, cpos=[-44, -27], tl=0, v=false]
-[15:05:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: c65db0d2-5b35-4147-ad8b-1f3feab630a4, mapped to Bee['Bee'/2897, uuid='c65db0d2-5b35-4147-ad8b-1f3feab630a4', l='ServerLevel[world]', x=-1057.65, y=187.60, z=-443.70, cpos=[-67, -28], tl=311, v=true], can't add Bee['Bee'/3044, uuid='c65db0d2-5b35-4147-ad8b-1f3feab630a4', l='ServerLevel[world]', x=-689.69, y=187.65, z=-427.52, cpos=[-44, -27], tl=0, v=false]
-[15:05:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: c44dc49b-43e6-4843-aeaa-88063aa939e8, mapped to Bee['Bee'/2898, uuid='c44dc49b-43e6-4843-aeaa-88063aa939e8', l='ServerLevel[world]', x=-1066.58, y=191.40, z=-446.59, cpos=[-67, -28], tl=311, v=true], can't add Bee['Bee'/3045, uuid='c44dc49b-43e6-4843-aeaa-88063aa939e8', l='ServerLevel[world]', x=-692.59, y=188.59, z=-422.31, cpos=[-44, -27], tl=0, v=false]
-[15:05:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: c9f15579-2f33-4043-942d-be48ebd3420f, mapped to Bee['Bee'/2899, uuid='c9f15579-2f33-4043-942d-be48ebd3420f', l='ServerLevel[world]', x=-1059.41, y=187.61, z=-445.27, cpos=[-67, -28], tl=311, v=true], can't add Bee['Bee'/3046, uuid='c9f15579-2f33-4043-942d-be48ebd3420f', l='ServerLevel[world]', x=-688.86, y=193.59, z=-424.65, cpos=[-44, -27], tl=0, v=false]
-[15:05:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 204e5b62-f0e6-4449-92ad-478cd8b4038f, mapped to Pig['Pig'/2888, uuid='204e5b62-f0e6-4449-92ad-478cd8b4038f', l='ServerLevel[world]', x=-1085.76, y=188.00, z=-420.73, cpos=[-68, -27], tl=333, v=true], can't add Pig['Pig'/3047, uuid='204e5b62-f0e6-4449-92ad-478cd8b4038f', l='ServerLevel[world]', x=-716.00, y=188.00, z=-402.00, cpos=[-45, -26], tl=0, v=false]
-[15:05:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: c84e45a4-575d-4152-ba55-095cb1b2c453, mapped to Rabbit['Rabbit'/2890, uuid='c84e45a4-575d-4152-ba55-095cb1b2c453', l='ServerLevel[world]', x=-1067.27, y=188.00, z=-422.48, cpos=[-67, -27], tl=321, v=true], can't add Rabbit['Rabbit'/3049, uuid='c84e45a4-575d-4152-ba55-095cb1b2c453', l='ServerLevel[world]', x=-688.90, y=187.00, z=-411.12, cpos=[-44, -26], tl=0, v=false]
-[15:05:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cc9a6a5c-f95f-43b4-be83-b22a51543903, mapped to MinecartChest['Minecart with Chest'/2904, uuid='cc9a6a5c-f95f-43b4-be83-b22a51543903', l='ServerLevel[world]', x=-1034.50, y=140.06, z=-499.50, cpos=[-65, -32], tl=264, v=true], can't add MinecartChest['Minecart with Chest'/3055, uuid='cc9a6a5c-f95f-43b4-be83-b22a51543903', l='ServerLevel[world]', x=-666.50, y=140.06, z=-483.50, cpos=[-42, -31], tl=0, v=false]
-[15:05:12] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2dcc6ffe-01d6-4110-b731-0d6f17af2729, mapped to MinecartChest['Minecart with Chest'/2902, uuid='2dcc6ffe-01d6-4110-b731-0d6f17af2729', l='ServerLevel[world]', x=-997.50, y=147.06, z=-386.50, cpos=[-63, -25], tl=284, v=true], can't add MinecartChest['Minecart with Chest'/3103, uuid='2dcc6ffe-01d6-4110-b731-0d6f17af2729', l='ServerLevel[world]', x=-629.50, y=147.06, z=-370.50, cpos=[-40, -24], tl=0, v=false]
-[15:05:13] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: a904562e-2207-4a08-8f18-e07a07cee769, mapped to Armadillo['Armadillo'/2903, uuid='a904562e-2207-4a08-8f18-e07a07cee769', l='ServerLevel[world]', x=-1024.09, y=187.00, z=-361.98, cpos=[-65, -23], tl=300, v=true], can't add Armadillo['Armadillo'/3117, uuid='a904562e-2207-4a08-8f18-e07a07cee769', l='ServerLevel[world]', x=-651.39, y=187.00, z=-339.73, cpos=[-41, -22], tl=0, v=false]
-[15:05:16] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f100ffa6-5077-4529-a756-9befe507edc9, mapped to Armadillo['Armadillo'/2919, uuid='f100ffa6-5077-4529-a756-9befe507edc9', l='ServerLevel[world]', x=-1074.40, y=187.00, z=-278.40, cpos=[-68, -18], tl=349, v=true], can't add Armadillo['Armadillo'/3195, uuid='f100ffa6-5077-4529-a756-9befe507edc9', l='ServerLevel[world]', x=-705.00, y=187.00, z=-266.00, cpos=[-45, -17], tl=0, v=false]
-[15:05:23] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:05:31] [Server thread/INFO]: trololol72 issued server command: /pos1
-[15:05:34] [Server thread/INFO]: trololol72 issued server command: //pos1
-[15:05:42] [Server thread/INFO]: trololol72 issued server command: //pos2
-[15:05:45] [Server thread/INFO]: trololol72 issued server command: //set dirt
-[15:05:46] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
-[15:06:04] [Server thread/INFO]: trololol72 issued server command: /paste ws6R5hnLUKSqy8qeUCv5
-[15:06:39] [Server thread/INFO]: trololol72 issued server command: /paste ws6R5hnLUKSqy8qeUCv5
-[15:06:45] [Server thread/INFO]: trololol72 issued server command: /undopaste
-[15:06:54] [Server thread/INFO]: trololol72 issued server command: /paste x1bXQehgDwR2DTchWxvl
-[15:07:16] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:10:07] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:10:12] [Server thread/INFO]: trololol72 issued server command: /paste hqP5pZgsUW3FF8S01buv
-[15:10:47] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:12:07] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:12:12] [Server thread/INFO]: trololol72 issued server command: /paste JjrgIIQXPDe5G3nb5sop
-[15:12:31] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[15:13:14] [Server thread/INFO]: trololol72 issued server command: /undopaste
-[15:14:03] [Server thread/INFO]: trololol72 issued server command: /time set day
-[15:14:03] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[15:14:07] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[15:14:13] [Server thread/INFO]: trololol72 issued server command: /paste uqInVX3tYjawnTzQKsZT
-[15:16:03] [Server thread/INFO]: trololol72 issued server command: /paste lTmkf8nymrAVsILXhYik
-[15:16:10] [Server thread/INFO]: trololol72 issued server command: /undopaste
-[15:18:28] [Server thread/INFO]: trololol72 issued server command: /paste jqjEOYo7XYKbU588s6xA
-[15:20:21] [Server thread/INFO]: trololol72 issued server command: /paste zmCOstgPnwhxukxDp2wm
-[15:21:49] [Server thread/INFO]: trololol72 issued server command: //pos1
-[15:21:56] [Server thread/INFO]: trololol72 issued server command: //pos2
-[15:22:12] [Server thread/INFO]: trololol72 issued server command: //replace crimson_stairs cherry_stairs
-[15:22:21] [Server thread/INFO]: trololol72 issued server command: //undo
-[15:23:19] [Server thread/INFO]: trololol72 issued server command: //replace deepslate_tile_wall cherry_fence
-[15:23:39] [Server thread/INFO]: trololol72 issued server command: /time set day
-[15:23:39] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[15:23:55] [Server thread/INFO]: trololol72 issued server command: //undo
-[15:24:06] [Server thread/INFO]: trololol72 issued server command: //replace deepslate_tile_wall ^cherry_fence
-[15:24:14] [Server thread/INFO]: trololol72 issued server command: //replace deepslate_tile_wall ^cherry_fence
-[15:24:30] [Server thread/INFO]: trololol72 issued server command: //replace crimson_stairs ^cherry_stairs
-[15:24:45] [Server thread/INFO]: trololol72 issued server command: //replace crimson_slab ^cherry_slab
-[15:25:03] [Server thread/INFO]: trololol72 issued server command: //replace cherry_fence deepslate_tile_wall
-[15:25:54] [Server thread/INFO]: trololol72 issued server command: //undo 5
-[15:26:41] [Server thread/INFO]: trololol72 issued server command: //pos1
-[15:27:16] [Server thread/INFO]: trololol72 issued server command: //pos2
-[15:27:27] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:27:33] [Server thread/INFO]: trololol72 issued server command: /tpb cherry witch
-[15:27:58] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:28:03] [Server thread/INFO]: trololol72 issued server command: //undo
-[15:28:14] [Server thread/INFO]: trololol72 issued server command: /tpb cherry golem
-[15:28:51] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:29:02] [Server thread/INFO]: trololol72 issued server command: /tpb_set k
-[15:29:02] [Server thread/INFO]: tpb set: k
-[15:29:02] [Server thread/INFO]: Set tpb location for 'k' to: x: -1008.31, y: 71, z: -793.91, yaw: 176.25, pitch: 32.66 in 'world'
-[15:29:06] [Server thread/INFO]: trololol72 issued server command: /tpb cherry witch
-[15:29:17] [Server thread/INFO]: trololol72 issued server command: /tpb k
-[15:29:19] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
-[15:29:46] [Server thread/INFO]: trololol72 issued server command: //copy
-[15:29:51] [Server thread/INFO]: trololol72 issued server command: /tpb cherry witch
-[15:30:10] [Server thread/INFO]: trololol72 issued server command: //paste
-[15:30:15] [Server thread/INFO]: trololol72 issued server command: //undo
-[15:30:22] [Server thread/INFO]: trololol72 issued server command: //rotate -90 0
-[15:30:25] [Server thread/INFO]: trololol72 issued server command: //paste -a
-[15:31:19] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[15:31:19] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[15:31:23] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[15:31:23] [Server thread/INFO]: Stopping server
-[15:31:23] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[15:31:23] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[15:31:23] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[15:31:23] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[15:31:23] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[15:31:23] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[15:31:23] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[15:31:23] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[15:31:23] [Server thread/INFO]: [TAB] Disabled in 0ms
-[15:31:23] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[15:31:23] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[15:31:23] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[15:31:23] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[15:31:23] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[15:31:23] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[15:31:23] [Server thread/INFO]: [LuckPerms] Closing storage...
-[15:31:23] [Server thread/INFO]: [LuckPerms] Goodbye!
-[15:31:23] [Server thread/INFO]: Saving players
-[15:31:23] [Server thread/INFO]: Saving worlds
-[15:31:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:31:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:31:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:31:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:31:35] [Server thread/INFO]: [ChunkHolderManager] Saved 5217 block chunks, 5217 entity chunks, 0 poi chunks in world 'world' in 10.88s
-[15:31:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[15:31:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[15:31:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:31:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:31:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:31:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:31:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[15:31:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[15:31:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[15:31:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:31:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:31:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:31:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:31:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[15:31:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[15:31:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[15:31:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:31:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:31:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:31:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:31:37] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[15:31:37] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[15:31:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[15:31:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[15:50:17] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[15:50:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:50:20] [ServerMain/INFO]: Loaded 1470 recipes
+[15:50:20] [ServerMain/INFO]: Loaded 1584 advancements
+[15:50:20] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:50:20] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 396.9ms
+[15:50:20] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[15:50:20] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[15:50:20] [Server thread/INFO]: Loading properties
+[15:50:20] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[15:50:21] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:50:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:50:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:50:21] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:50:21] [Server thread/INFO]: Default game type: SURVIVAL
+[15:50:21] [Server thread/INFO]: Generating keypair
+[15:50:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:50:21] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[15:50:21] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:50:22] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[15:50:22] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:50:22] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[15:50:22] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[15:50:22] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[15:50:22] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[15:50:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@527a84ab]
+[15:50:23] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[15:50:23] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[15:50:23] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[15:50:23] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[15:50:24] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[15:50:24] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[15:50:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:50:24] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[15:50:25] [Server thread/INFO]:         __    
+[15:50:25] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[15:50:25] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:50:25] [Server thread/INFO]: 
+[15:50:25] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:50:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:50:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:50:25] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1147ms)
+[15:50:25] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[15:50:25] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[15:50:26] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[15:50:26] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[15:50:26] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:50:26] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:50:26] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[15:50:27] [Server thread/INFO]: Preparing level "world"
+[15:50:27] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[15:50:27] [Server thread/INFO]: Prepared spawn area in 2 ms
+[15:50:27] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[15:50:27] [Server thread/INFO]: Prepared spawn area in 2 ms
+[15:50:27] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[15:50:27] [Server thread/INFO]: Prepared spawn area in 2 ms
+[15:50:27] [Server thread/INFO]: Done preparing level "world" (0.515s)
+[15:50:27] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[15:50:27] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[15:50:29] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[15:50:29] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[15:50:29] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[15:50:29] [Server thread/INFO]: [TAB] Enabled in 863ms
+[15:50:29] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[15:50:30] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[15:50:30] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[15:50:30] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[15:50:30] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[15:50:30] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[15:50:30] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[15:50:30] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[15:50:30] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1900ms
+[15:50:30] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[15:50:30] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[15:50:30] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[15:50:31] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[15:50:31] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[15:50:31] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[15:50:31] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[15:50:31] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[15:50:31] [Server thread/INFO]: [SkBee]  - 56 events
+[15:50:31] [Server thread/INFO]: [SkBee]  - 71 effects
+[15:50:31] [Server thread/INFO]: [SkBee]  - 240 expressions
+[15:50:31] [Server thread/INFO]: [SkBee]  - 27 conditions
+[15:50:31] [Server thread/INFO]: [SkBee]  - 32 sections
+[15:50:31] [Server thread/INFO]: [SkBee]  - 11 properties
+[15:50:31] [Server thread/INFO]: [SkBee] Update checker disabled!
+[15:50:31] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.96 seconds
+[15:50:31] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[15:50:31] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[15:50:31] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[15:50:31] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[15:50:31] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[15:50:31] [Server thread/INFO]: [spark] Starting background profiler...
+[15:50:31] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[15:50:31] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[15:50:31] [Server thread/INFO]: Running delayed init tasks
+[15:50:31] [Server thread/INFO]: [Skript] Loading variables...
+[15:50:31] [Server thread/INFO]: [Skript] Loaded 302 variables in 0.0 seconds
+[15:50:36] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[15:50:36] [Server thread/INFO]: [Skript] Loaded 22 scripts with a total of 189 structures in 5.28 seconds
+[15:50:36] [Server thread/INFO]: [Skript] Finished loading.
+[15:50:36] [Server thread/INFO]: Done (26.798s)! For help, type "help"
+[15:50:37] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 25 build(s) behind ***
+[15:50:37] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[15:51:47] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[15:51:48] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[15:51:51] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[15:51:51] [Server thread/INFO]: trololol72[/127.0.0.1:60926] logged in with entity id 1 at ([world]-1414.0793682858107, 217.63565500765256, 399.9764778334594)
+[15:51:52] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[15:51:52] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[15:52:32] [Server thread/INFO]: trololol72 issued server command: /time set day
+[15:52:32] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[15:52:35] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[15:52:57] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[15:53:05] [Server thread/INFO]: trololol72 issued server command: //wand
+[15:53:09] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[15:53:18] [Server thread/INFO]: trololol72 issued server command: //pos2
+[15:53:24] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision
+[15:53:24] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
+[15:53:29] [Server thread/INFO]: trololol72 issued server command: //set air
+[15:53:29] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[15:53:39] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[15:53:52] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision infinite 1 true
+[15:53:52] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
+[16:00:05] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:00:08] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:02:41] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:03:07] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:03:56] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:04:04] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:06:20] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 3
+[16:09:35] [Server thread/INFO]: trololol72 issued server command: /sk reload witch.sk
+[16:09:56] [Server thread/INFO]: trololol72 issued server command: /tpb_set cherry witch
+[16:09:56] [Server thread/INFO]: tpb set: cherry witch
+[16:09:56] [Server thread/INFO]: Set tpb location for 'cherry witch' to: x: -1436.24, y: 179, z: 354.72, yaw: -122.72, pitch: 39.23 in 'world'
+[16:10:00] [Server thread/INFO]: trololol72 issued server command: /tpb pillger
+[16:10:00] [Server thread/INFO]: Set tpb location for 'pillger' to: x: -1436.24, y: 179, z: 354.72, yaw: -122.72, pitch: 39.23 in 'world'
+[16:10:04] [Server thread/INFO]: trololol72 issued server command: /tpb pillager
+[16:10:10] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:10:50] [Server thread/INFO]: trololol72 issued server command: /tpw 1
+[16:10:50] [Server thread/INFO]: tp player to hut 1
+[16:11:13] [Server thread/INFO]: trololol72 issued server command: /countnear witch 50
+[16:11:13] [Server thread/INFO]: Found 1 adult witchs within 50 blocks.
+[16:11:22] [Server thread/INFO]: trololol72 issued server command: /witch_status
+[16:11:22] [Server thread/INFO]: Entity: witch
+[16:11:22] [Server thread/INFO]: Entity: <none>
+[16:11:22] [Server thread/INFO]: Entity: witch
+[16:11:43] [Server thread/INFO]: trololol72 issued server command: /tp 240 121 786
+[16:11:43] [Server thread/INFO]: [trololol72: Teleported trololol72 to 240.500000, 121.000000, 786.500000]
+[16:12:06] [Server thread/INFO]: trololol72 issued server command: /tpw 3
+[16:12:06] [Server thread/INFO]: tp player to hut 3
+[16:12:17] [Server thread/INFO]: trololol72 issued server command: /tpw 4
+[16:12:17] [Server thread/INFO]: tp player to hut 4
+[16:12:32] [Server thread/INFO]: trololol72 issued server command: /sk reload witch.sk
+[16:12:38] [Server thread/INFO]: trololol72 issued server command: /witch_status
+[16:12:38] [Server thread/INFO]: Entity: witch
+[16:12:38] [Server thread/INFO]: Entity: <none>
+[16:12:38] [Server thread/INFO]: Entity: witch
+[16:12:54] [Server thread/INFO]: trololol72 issued server command: /reset_witch all
+[16:12:54] [Server thread/INFO]: [Skript] Reloading witch.sk...
+[16:12:54] [Server thread/INFO]: Successfully reloaded witch.sk. (168ms)
+[16:12:58] [Server thread/INFO]: trololol72 issued server command: /witch_status
+[16:12:58] [Server thread/INFO]: Entity: witch
+[16:12:58] [Server thread/INFO]: Entity: <none>
+[16:12:58] [Server thread/INFO]: Entity: witch
+[16:12:58] [Server thread/INFO]: Entity: <none>
+[16:13:02] [Server thread/INFO]: trololol72 issued server command: /tpw 4
+[16:13:02] [Server thread/INFO]: tp player to hut 4
+[16:13:13] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[16:15:01] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:15:03] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:15:07] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[16:16:32] [Server thread/INFO]: trololol72 issued server command: //wand
+[16:16:46] [Server thread/INFO]: trololol72 issued server command: //pos2
+[16:16:58] [Server thread/INFO]: trololol72 issued server command: //copy
+[16:17:01] [Server thread/INFO]: trololol72 issued server command: //copy
+[16:17:10] [Server thread/INFO]: trololol72 issued server command: //paste -a
+[16:17:22] [Server thread/INFO]: trololol72 issued server command: //paste -a
+[16:17:35] [Server thread/INFO]: trololol72 issued server command: //undo 3
+[16:17:59] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[16:17:59] [Server thread/INFO]: trololol72 lost connection: Server is restarting
+[16:17:59] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[16:17:59] [Server thread/INFO]: Stopping server
+[16:17:59] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[16:17:59] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[16:17:59] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[16:17:59] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[16:17:59] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[16:17:59] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[16:17:59] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[16:17:59] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[16:17:59] [Server thread/INFO]: [TAB] Disabled in 3ms
+[16:17:59] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[16:17:59] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:17:59] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[16:17:59] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[16:17:59] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[16:17:59] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:17:59] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:17:59] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:17:59] [Server thread/INFO]: Saving players
+[16:17:59] [Server thread/INFO]: Saving worlds
+[16:17:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:18:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:18:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:18:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:18:09] [Server thread/INFO]: [ChunkHolderManager] Saved 4830 block chunks, 4830 entity chunks, 0 poi chunks in world 'world' in 9.42s
+[16:18:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:18:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:18:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:18:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:18:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:18:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:18:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:18:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:18:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:18:10] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:18:10] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[16:18:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:18:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
