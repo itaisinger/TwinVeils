@@ -1,0 +1,154 @@
+# --- CONFIGURATION ---
+options:
+    max_golems: 3
+    spawn_radius: 64
+    min_distance: 24
+    despawn_distance: 256
+    grove_radius: 150
+
+# --- LOCAL DEBUG FUNCTION ---
+function _cherryDebug(msg: text):
+    if {cherry_debug} is true:
+        broadcast "&d[Cherry Grove] &f%{_msg}%"
+
+# 1. SETUP & RECOVERY ON RESTART
+on load:
+    delete {cherry_golems::*} 
+    loop all iron golems: 
+        if scoreboard tags of loop-entity contains "cherry_golem":
+            add loop-entity to {cherry_golems::*}
+            
+    _cherryDebug("Script loaded. Found and tracked %size of {cherry_golems::*}% existing golems. Loaded %size of {grove_centers::*}% groves.")
+
+# 2. OPTIMIZED CHUNK RECOVERY
+on chunk load:
+    set {_inGrove} to false
+    
+    loop all players:
+        loop {grove_centers::*}:
+            # Changed to loop-value-2 to specify the inner loop
+            if distance between loop-player and loop-value-2 <= {@grove_radius}:
+                set {_inGrove} to true
+                
+    if {_inGrove} is false:
+        stop
+    
+    wait 1 tick 
+    loop entities in event-chunk:
+        if type of loop-entity is iron golem:
+            if scoreboard tags of loop-entity contains "cherry_golem":
+                if {cherry_golems::*} does not contain loop-entity:
+                    add loop-entity to {cherry_golems::*}
+                    _cherryDebug("Recovered unloaded golem from a loading chunk")
+
+# 3. THE SPAWNER
+every 2 seconds:
+    _cherryDebug("spawn loop")
+    loop all players:
+        set {_inGrove} to false
+        loop {grove_centers::*}:
+            # Changed to loop-value-2 to specify the inner loop
+            if distance between loop-player and loop-value-2 <= {@grove_radius}:
+                set {_inGrove} to true
+            
+        if {_inGrove} is true:
+            set {_localCount} to 0
+            
+            loop {cherry_golems::*}:
+                if loop-value-2 is alive:
+                    if distance between loop-player and loop-value-2 <= {@despawn_distance}:
+                        add 1 to {_localCount}
+                else:
+                    remove loop-value-2 from {cherry_golems::*}
+                    _cherryDebug("- A golem died. Removed from tracking list.")
+            _cherryDebug("- alive golems: %{_localCount}%")
+
+            if {_localCount} < {@max_golems}:
+                set {_loc} to location of loop-player
+                add random integer between -{@spawn_radius} and {@spawn_radius} to x-coord of {_loc}
+                add random integer between -{@spawn_radius} and {@spawn_radius} to z-coord of {_loc}
+                
+                if distance between loop-player and {_loc} > {@min_distance}:
+                    _cherryDebug("- distance from player good")
+                    if biome at {_loc} is cherry grove:
+                        _cherryDebug("- biome good")
+                        set {_spawnLoc} to location of highest solid block at {_loc}
+                        
+                        if type of block at {_spawnLoc} is grass block or dirt:
+                            add 1 to y-coord of {_spawnLoc}
+                            if block at {_spawnLoc} is air or short grass or pink petals:
+                                
+                                spawn iron golem at {_spawnLoc}
+                                set {_golem} to last spawned iron golem
+                                
+                                add "cherry_golem" to scoreboard tags of {_golem} 
+                                add {_golem} to {cherry_golems::*}
+                                _cherryDebug("- Spawned new golem near %loop-player%")
+
+# 4. THE DESPAWNER
+every 3 seconds:
+    loop {cherry_golems::*}:
+        set {_golem} to loop-value
+        
+        if {_golem} is alive:
+            set {_closestDist} to 9999
+            set {_nearest} to null
+            
+            loop all players in world of {_golem}:
+                set {_dist} to distance between {_golem} and loop-player
+                if {_dist} < {_closestDist}:
+                    set {_closestDist} to {_dist}
+                    set {_nearest} to loop-player
+            
+            if {_nearest} is not set:
+                _cherryDebug("Despawning golem (No players in world)")
+                delete {_golem}
+                remove {_golem} from {cherry_golems::*}
+                
+            else if {_closestDist} > {@despawn_distance}:
+                _cherryDebug("Despawning golem (Too far from %{_nearest}%)")
+                delete {_golem}
+                remove {_golem} from {cherry_golems::*}
+
+# --- COMMANDS ---
+
+command /cherrydebug:
+    permission: op
+    description: Toggles the Cherry Grove spawn debugging logs.
+    trigger:
+        if {cherry_debug} is true:
+            set {cherry_debug} to false
+            send "&d[Cherry Grove] &cDebug mode disabled." to player
+        else:
+            set {cherry_debug} to true
+            send "&d[Cherry Grove] &aDebug mode enabled." to player
+
+command /cherry_add <text>:
+    permission: op
+    description: Adds a Cherry Grove at your current location.
+    usage: &c/addcherrygrove <name>
+    trigger:
+        set {grove_centers::%arg-1%} to location of player
+        send "&d[Cherry Grove] &aAdded grove '&f%arg-1%&a' at your current location."
+
+command /cherry_remove <text>:
+    permission: op
+    description: Removes a saved Cherry Grove.
+    usage: &c/removecherrygrove <name>
+    trigger:
+        if {grove_centers::%arg-1%} is set:
+            delete {grove_centers::%arg-1%}
+            send "&d[Cherry Grove] &cRemoved grove '&f%arg-1%&c'."
+        else:
+            send "&cGrove '&f%arg-1%&c' does not exist."
+
+command /cherry_list:
+    permission: op
+    description: Lists all saved Cherry Groves.
+    trigger:
+        send "&d--- Active Cherry Groves ---"
+        if size of {grove_centers::*} is 0:
+            send "&7No groves currently set. Use /addcherrygrove <name>"
+        else:
+            loop {grove_centers::*}:
+                send "&d%loop-index%: &f%loop-value%"

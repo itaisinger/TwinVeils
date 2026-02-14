@@ -231,6 +231,9 @@ function spawn_golem_boss():
     apply potion of speed of tier 2 without particles to {boss_golem} for 999 days
     set generic follow range attribute of {_boss} to 50
     cherry_debug("Cherry Boss spawned at %{golem::home}% and tagged.")
+#
+
+
 ###
 # methods
 ###

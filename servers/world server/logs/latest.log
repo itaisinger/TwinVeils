@@ -1,931 +1,1535 @@
-[01:53:34] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-adhoc.Administrator.jdk21u; OpenLogic OpenLogic-OpenJDK) on Windows 11 10.0 (amd64)
-[01:53:34] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[01:53:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:53:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[01:53:44] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[04:34:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-adhoc.Administrator.jdk21u; OpenLogic OpenLogic-OpenJDK) on Windows 11 10.0 (amd64)
+[04:34:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[04:34:13] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:34:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[04:34:14] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[01:53:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[04:34:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[01:53:51] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[01:53:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:53:54] [ServerMain/INFO]: Loaded 1470 recipes
-[01:53:54] [ServerMain/INFO]: Loaded 1584 advancements
-[01:53:54] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:53:55] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 472.0ms
-[01:53:55] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[01:53:55] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[01:53:55] [Server thread/INFO]: Loading properties
-[01:53:55] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[01:53:55] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:53:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:53:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:53:56] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
-[01:53:56] [Server thread/INFO]: Default game type: SURVIVAL
-[01:53:56] [Server thread/INFO]: Generating keypair
-[01:53:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:53:56] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[01:53:56] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[01:53:57] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[01:53:59] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:53:59] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[01:53:59] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[01:53:59] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[01:53:59] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:54:01] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@54003428]
-[01:54:01] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[01:54:01] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[01:54:01] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[01:54:01] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[01:54:02] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[01:54:02] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[01:54:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:54:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[01:54:02] [Server thread/INFO]:         __    
-[01:54:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[01:54:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:54:02] [Server thread/INFO]: 
-[01:54:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:54:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:54:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:54:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1610ms)
-[01:54:03] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[01:54:04] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:54:04] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[01:54:04] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[01:54:04] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:54:04] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[01:54:04] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[01:54:05] [Server thread/INFO]: Preparing level "world"
-[01:54:06] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[01:54:06] [Server thread/INFO]: Preparing spawn area: 100%
-[01:54:06] [Server thread/INFO]: Prepared spawn area in 3 ms
-[01:54:06] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[01:54:06] [Server thread/INFO]: Prepared spawn area in 2 ms
-[01:54:06] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[01:54:06] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:54:06] [Server thread/INFO]: Done preparing level "world" (0.783s)
-[01:54:06] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[01:54:07] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[01:54:09] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[01:54:09] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[01:54:10] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[01:54:10] [Server thread/INFO]: [TAB] Enabled in 800ms
-[01:54:10] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[01:54:11] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[01:54:11] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[01:54:11] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1563ms
-[01:54:11] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[01:54:11] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[01:54:11] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[01:54:11] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[01:54:11] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[01:54:12] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[01:54:12] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[01:54:12] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[01:54:12] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[01:54:12] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[01:54:12] [Server thread/INFO]: [SkBee]  - 56 events
-[01:54:12] [Server thread/INFO]: [SkBee]  - 71 effects
-[01:54:12] [Server thread/INFO]: [SkBee]  - 240 expressions
-[01:54:12] [Server thread/INFO]: [SkBee]  - 27 conditions
-[01:54:12] [Server thread/INFO]: [SkBee]  - 32 sections
-[01:54:12] [Server thread/INFO]: [SkBee]  - 11 properties
-[01:54:12] [Server thread/INFO]: [SkBee] Update checker disabled!
-[01:54:12] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.43 seconds
-[01:54:12] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[01:54:12] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[01:54:12] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[01:54:12] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[01:54:12] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[01:54:12] [Server thread/INFO]: [spark] Starting background profiler...
-[01:54:12] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[01:54:12] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[01:54:13] [Server thread/INFO]: Running delayed init tasks
-[01:54:13] [Server thread/INFO]: [Skript] Loading variables...
-[01:54:13] [Server thread/INFO]: [Skript] Loaded 293 variables in 0.1 seconds
-[01:54:19] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
-[01:54:19] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[01:54:19] [Server thread/INFO]: [Skript] Loaded 21 scripts with a total of 172 structures in 6.17 seconds
-[01:54:19] [Server thread/INFO]: [Skript] Finished loading.
-[01:54:19] [Server thread/INFO]: Done (47.727s)! For help, type "help"
-[01:54:19] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 25 build(s) behind ***
-[01:54:19] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[01:54:22] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:25] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:28] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:31] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:34] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:37] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:40] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:43] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:46] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:49] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:52] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:55] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:54:56] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[01:54:56] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[01:55:01] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:55:04] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[01:55:05] [Server thread/INFO]: [CHERRY] golem found at x: 1859.11, y: 65, z: -119.11, yaw: 228.31, pitch: 0 in 'world'
-[01:55:06] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[01:55:06] [Server thread/INFO]: trololol72[/[0:0:0:0:0:0:0:1]:51475] logged in with entity id 1 at ([world]1861.7863396494377, 67.0, -114.97207913265655)
-[01:55:09] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[01:55:09] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[01:55:11] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:15] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:18] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:21] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:22] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[01:55:24] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[01:55:24] [Server thread/INFO]: [CHERRY] - d: 12.15
-[01:55:24] [Server thread/INFO]: [CHERRY] found consume target: iron sword
-[01:55:24] [Server thread/INFO]: [CHERRY] found consume target: iron boots
-[01:55:24] [Server thread/INFO]: [CHERRY] consume
-[01:55:24] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:24] [Server thread/INFO]: [CHERRY] consume
-[01:55:24] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:24] [Server thread/INFO]: [CHERRY] consume
-[01:55:24] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:25] [Server thread/INFO]: [CHERRY] consume
-[01:55:25] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:25] [Server thread/INFO]: [CHERRY] consume
-[01:55:25] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:25] [Server thread/INFO]: [CHERRY] consume
-[01:55:25] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:25] [Server thread/INFO]: [CHERRY] consume
-[01:55:25] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:25] [Server thread/INFO]: [CHERRY] consume
-[01:55:25] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:26] [Server thread/INFO]: [CHERRY] consume
-[01:55:26] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:26] [Server thread/INFO]: [CHERRY] consume
-[01:55:26] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:26] [Server thread/INFO]: [CHERRY] consume
-[01:55:27] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:28] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[01:55:30] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[01:55:30] [Server thread/INFO]: [CHERRY] - d: 14.31
-[01:55:30] [Server thread/INFO]: [CHERRY] found consume target: iron sword
-[01:55:30] [Server thread/INFO]: [CHERRY] found consume target: iron boots
-[01:55:30] [Server thread/INFO]: [CHERRY] consume
-[01:55:30] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:30] [Server thread/INFO]: [CHERRY] consume
-[01:55:30] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:30] [Server thread/INFO]: [CHERRY] consume
-[01:55:30] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:31] [Server thread/INFO]: [CHERRY] consume
-[01:55:31] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:33] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 120 / 150
-[01:55:33] [Server thread/INFO]: [CHERRY] - d: 14.31
-[01:55:33] [Server thread/INFO]: [CHERRY] found consume target: iron sword
-[01:55:33] [Server thread/INFO]: [CHERRY] consume
-[01:55:33] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:33] [Server thread/INFO]: [CHERRY] consume
-[01:55:33] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:33] [Server thread/INFO]: [CHERRY] consume
-[01:55:33] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:34] [Server thread/INFO]: [CHERRY] consume
-[01:55:34] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:34] [Server thread/INFO]: [CHERRY] consume
-[01:55:34] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:34] [Server thread/INFO]: [CHERRY] consume
-[01:55:34] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:55:34] [Server thread/INFO]: [CHERRY] consume
-[01:55:36] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:39] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:40] [Server thread/INFO]: trololol72 issued server command: /weather clear
-[01:55:40] [Server thread/INFO]: [trololol72: Set the weather to clear]
-[01:55:42] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:45] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:46] [Server thread/INFO]: trololol72 issued server command: /gamerule send_command_feedback false
-[01:55:46] [Server thread/INFO]: [trololol72: Gamerule send_command_feedback is now set to: false]
-[01:55:48] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:51] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:54] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:55:56] [Server thread/INFO]: [Skript] Reloading golem.sk...
-[01:55:57] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
-[01:55:57] [Server thread/INFO]: [CHERRY] golem found at x: 1853.06, y: 66, z: -123.06, yaw: 44.99, pitch: 0 in 'world'
-[01:55:57] [Server thread/INFO]: Successfully reloaded golem.sk. (351ms)
-[01:55:59] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:01] [Server thread/INFO]: [Skript] Reloading golem.sk...
-[01:56:02] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
-[01:56:02] [Server thread/INFO]: [CHERRY] golem found at x: 1853.06, y: 66, z: -123.06, yaw: 153.81, pitch: 0 in 'world'
-[01:56:02] [Server thread/INFO]: Successfully reloaded golem.sk. (348ms)
-[01:56:05] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:06] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[01:56:08] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[01:56:08] [Server thread/INFO]: [CHERRY] - d: 20.98
-[01:56:08] [Server thread/INFO]: [CHERRY] found consume target: iron sword
-[01:56:08] [Server thread/INFO]: [CHERRY] consume
-[01:56:08] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:08] [Server thread/INFO]: [CHERRY] consume
-[01:56:08] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:08] [Server thread/INFO]: [CHERRY] consume
-[01:56:08] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:08] [Server thread/INFO]: [CHERRY] consume
-[01:56:08] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:08] [Server thread/INFO]: [CHERRY] consume
-[01:56:08] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:09] [Server thread/INFO]: [CHERRY] consume
-[01:56:09] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:09] [Server thread/INFO]: [CHERRY] consume
-[01:56:09] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:09] [Server thread/INFO]: [CHERRY] consume
-[01:56:09] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:09] [Server thread/INFO]: [CHERRY] consume
-[01:56:09] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:09] [Server thread/INFO]: [CHERRY] consume
-[01:56:09] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:10] [Server thread/INFO]: [CHERRY] consume
-[01:56:11] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:14] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:17] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:20] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:21] [Server thread/INFO]: [CHERRY] returning home
-[01:56:23] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:26] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:29] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:32] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:35] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:38] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:41] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:44] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:45] [Server thread/INFO]: [CHERRY] returning home
-[01:56:46] [Server thread/INFO]: [Skript] Reloading golem.sk...
-[01:56:46] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
-[01:56:46] [Server thread/INFO]: [CHERRY] golem found at x: 1851.34, y: 68, z: -123.39, yaw: 38.19, pitch: 0 in 'world'
-[01:56:46] [Server thread/INFO]: Successfully reloaded golem.sk. (386ms)
-[01:56:49] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:56:50] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[01:56:52] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[01:56:52] [Server thread/INFO]: [CHERRY] - d: 18.03
-[01:56:52] [Server thread/INFO]: [CHERRY] found consume target: iron sword
-[01:56:52] [Server thread/INFO]: [CHERRY] consume
-[01:56:52] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:52] [Server thread/INFO]: [CHERRY] consume
-[01:56:52] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:53] [Server thread/INFO]: [CHERRY] consume
-[01:56:53] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:53] [Server thread/INFO]: [CHERRY] consume
-[01:56:53] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:53] [Server thread/INFO]: [CHERRY] consume
-[01:56:53] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:53] [Server thread/INFO]: [CHERRY] consume
-[01:56:53] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:53] [Server thread/INFO]: [CHERRY] consume
-[01:56:53] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:54] [Server thread/INFO]: [CHERRY] consume
-[01:56:54] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:54] [Server thread/INFO]: [CHERRY] consume
-[01:56:54] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:56:55] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 145 / 150
-[01:56:55] [Server thread/INFO]: [CHERRY] - d: 17.5
-[01:56:58] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 145 / 150
-[01:56:58] [Server thread/INFO]: [CHERRY] - d: 15.61
-[01:57:01] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 145 / 150
-[01:57:01] [Server thread/INFO]: [CHERRY] - d: 15.56
-[01:57:04] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 145 / 150
-[01:57:04] [Server thread/INFO]: [CHERRY] - d: 10.35
-[01:57:04] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[01:57:04] [Server thread/INFO]: [CHERRY] found consume target: iron spear
-[01:57:04] [Server thread/INFO]: [CHERRY] consume
-[01:57:04] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:04] [Server thread/INFO]: [CHERRY] consume
-[01:57:07] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:57:08] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[01:57:10] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[01:57:10] [Server thread/INFO]: [CHERRY] - d: 15.33
-[01:57:10] [Server thread/INFO]: [CHERRY] found consume target: 64 iron ingots
-[01:57:10] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[01:57:10] [Server thread/INFO]: [CHERRY] found consume target: iron spear
-[01:57:10] [Server thread/INFO]: [CHERRY] consume
-[01:57:10] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:10] [Server thread/INFO]: [CHERRY] consume
-[01:57:10] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:11] [Server thread/INFO]: [CHERRY] consume
-[01:57:11] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:11] [Server thread/INFO]: [CHERRY] consume
-[01:57:11] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:11] [Server thread/INFO]: [CHERRY] consume
-[01:57:11] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:11] [Server thread/INFO]: [CHERRY] consume
-[01:57:11] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:11] [Server thread/INFO]: [CHERRY] consume
-[01:57:11] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:12] [Server thread/INFO]: [CHERRY] consume
-[01:57:12] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:12] [Server thread/INFO]: [CHERRY] consume
-[01:57:12] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:12] [Server thread/INFO]: [CHERRY] consume
-[01:57:12] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:12] [Server thread/INFO]: [CHERRY] consume
-[01:57:13] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:57:16] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:57:16] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[01:57:17] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[01:57:19] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 50 / 150
-[01:57:19] [Server thread/INFO]: [CHERRY] - d: 12.72
-[01:57:19] [Server thread/INFO]: [CHERRY] found consume target: 54 iron ingots
-[01:57:19] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[01:57:19] [Server thread/INFO]: [CHERRY] found consume target: iron spear
-[01:57:19] [Server thread/INFO]: [CHERRY] consume
-[01:57:19] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:19] [Server thread/INFO]: [CHERRY] consume
-[01:57:19] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:20] [Server thread/INFO]: [CHERRY] consume
-[01:57:20] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:20] [Server thread/INFO]: [CHERRY] consume
-[01:57:20] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:20] [Server thread/INFO]: [CHERRY] consume
-[01:57:20] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:20] [Server thread/INFO]: [CHERRY] consume
-[01:57:20] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:20] [Server thread/INFO]: [CHERRY] consume
-[01:57:20] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:21] [Server thread/INFO]: [CHERRY] consume
-[01:57:21] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:21] [Server thread/INFO]: [CHERRY] consume
-[01:57:21] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:21] [Server thread/INFO]: [CHERRY] consume
-[01:57:21] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:21] [Server thread/INFO]: [CHERRY] consume
-[01:57:21] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:21] [Server thread/INFO]: [CHERRY] consume
-[01:57:21] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:22] [Server thread/INFO]: [CHERRY] consume
-[01:57:22] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:22] [Server thread/INFO]: [CHERRY] consume
-[01:57:22] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:22] [Server thread/INFO]: [CHERRY] consume
-[01:57:22] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:22] [Server thread/INFO]: [CHERRY] already consuming, skipping check
-[01:57:22] [Server thread/INFO]: [CHERRY] consume
-[01:57:22] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:22] [Server thread/INFO]: [CHERRY] consume
-[01:57:22] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:23] [Server thread/INFO]: [CHERRY] consume
-[01:57:23] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:23] [Server thread/INFO]: [CHERRY] consume
-[01:57:23] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:23] [Server thread/INFO]: [CHERRY] consume
-[01:57:23] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:23] [Server thread/INFO]: [CHERRY] consume
-[01:57:25] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:57:28] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:57:31] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:57:34] [Server thread/INFO]: [Skript] Reloading golem.sk...
-[01:57:34] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
-[01:57:34] [Server thread/INFO]: [CHERRY] golem found at x: 1848.88, y: 67, z: -111.12, yaw: 202.08, pitch: 0 in 'world'
-[01:57:34] [Server thread/INFO]: Successfully reloaded golem.sk. (332ms)
-[01:57:36] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[01:57:37] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[01:57:37] [Server thread/INFO]: [CHERRY] - d: 17.87
-[01:57:37] [Server thread/INFO]: [CHERRY] found consume target: 34 iron ingots
-[01:57:37] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[01:57:37] [Server thread/INFO]: [CHERRY] found consume target: iron spear
-[01:57:37] [Server thread/INFO]: [CHERRY] consume
-[01:57:37] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:37] [Server thread/INFO]: [CHERRY] consume
-[01:57:37] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:37] [Server thread/INFO]: [CHERRY] consume
-[01:57:37] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:37] [Server thread/INFO]: [CHERRY] consume
-[01:57:37] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:38] [Server thread/INFO]: [CHERRY] consume
-[01:57:38] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:38] [Server thread/INFO]: [CHERRY] consume
-[01:57:38] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:38] [Server thread/INFO]: [CHERRY] consume
-[01:57:38] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:38] [Server thread/INFO]: [CHERRY] consume
-[01:57:38] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:38] [Server thread/INFO]: [CHERRY] consume
-[01:57:38] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:39] [Server thread/INFO]: [CHERRY] consume
-[01:57:39] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:57:39] [Server thread/INFO]: [CHERRY] consume
-[01:57:40] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:57:43] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:57:46] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:57:49] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:57:52] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:57:52] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[01:57:55] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[01:57:55] [Server thread/INFO]: [CHERRY] - d: 33.44
-[01:57:58] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[01:57:58] [Server thread/INFO]: [CHERRY] - d: 32.45
-[01:58:01] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[01:58:01] [Server thread/INFO]: [CHERRY] - d: 26.55
-[01:58:01] [Server thread/INFO]: [CHERRY] found consume target: 24 iron ingots
-[01:58:01] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[01:58:01] [Server thread/INFO]: [CHERRY] found consume target: iron spear
-[01:58:01] [Server thread/INFO]: [CHERRY] consume
-[01:58:01] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:58:01] [Server thread/INFO]: [CHERRY] consume
-[01:58:01] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:58:01] [Server thread/INFO]: [CHERRY] consume
-[01:58:01] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:58:01] [Server thread/INFO]: [CHERRY] consume
-[01:58:01] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:58:02] [Server thread/INFO]: [CHERRY] consume
-[01:58:02] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:58:02] [Server thread/INFO]: [CHERRY] consume
-[01:58:02] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:58:02] [Server thread/INFO]: [CHERRY] consume
-[01:58:02] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:58:02] [Server thread/INFO]: [CHERRY] consume
-[01:58:02] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:58:02] [Server thread/INFO]: [CHERRY] consume
-[01:58:02] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:58:03] [Server thread/INFO]: [CHERRY] consume
-[01:58:03] [Server thread/INFO]: Displaying particle minecraft:trail
-[01:58:03] [Server thread/INFO]: [CHERRY] consume
-[01:58:04] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:07] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:10] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:13] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:16] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:19] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:22] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:25] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:26] [Server thread/INFO]: trololol72 issued server command: /playsound minecraft:block.anvil.hit
-[01:58:26] [Server thread/INFO]: [trololol72: Played sound minecraft:block.anvil.hit to trololol72]
-[01:58:28] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:31] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:31] [Server thread/INFO]: trololol72 issued server command: /playsound minecraft:block.anvil.place
-[01:58:31] [Server thread/INFO]: [trololol72: Played sound minecraft:block.anvil.place to trololol72]
-[01:58:34] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:37] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:39] [Server thread/INFO]: trololol72 issued server command: /playsound minecraft:block.anvil.hit
-[01:58:39] [Server thread/INFO]: [trololol72: Played sound minecraft:block.anvil.hit to trololol72]
-[01:58:40] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:43] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:46] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:49] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:52] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:55] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:58:58] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:01] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:04] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:07] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:10] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:13] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:16] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:19] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:22] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:25] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:28] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:31] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:34] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:37] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:40] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:43] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:46] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:47] [Server thread/INFO]: [Skript] Reloading golem.sk...
-[01:59:47] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
-[01:59:47] [Server thread/INFO]: [CHERRY] golem found at x: 1855.73, y: 66, z: -104.67, yaw: 297.7, pitch: 0 in 'world'
-[01:59:47] [Server thread/INFO]: Successfully reloaded golem.sk. (272ms)
-[01:59:50] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:53] [Server thread/INFO]: trololol72 issued server command: /playsound minecraft:block.anvil.hit
-[01:59:53] [Server thread/INFO]: [trololol72: Played sound minecraft:block.anvil.hit to trololol72]
-[01:59:53] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:56] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[01:59:59] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:02] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[02:00:02] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[02:00:02] [Server thread/INFO]: [CHERRY] - d: 18.1
-[02:00:02] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:00:02] [Server thread/INFO]: [CHERRY] found consume target: iron spear
-[02:00:02] [Server thread/INFO]: [CHERRY] consume
-[02:00:02] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:02] [Server thread/INFO]: [CHERRY] consume
-[02:00:02] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:03] [Server thread/INFO]: [CHERRY] consume
-[02:00:03] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:03] [Server thread/INFO]: [CHERRY] consume
-[02:00:03] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:03] [Server thread/INFO]: [CHERRY] consume
-[02:00:03] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:03] [Server thread/INFO]: [CHERRY] consume
-[02:00:03] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:03] [Server thread/INFO]: [CHERRY] consume
-[02:00:03] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:04] [Server thread/INFO]: [CHERRY] consume
-[02:00:04] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:04] [Server thread/INFO]: [CHERRY] consume
-[02:00:04] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:04] [Server thread/INFO]: [CHERRY] consume
-[02:00:04] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:04] [Server thread/INFO]: [CHERRY] consume
-[02:00:05] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:08] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:11] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:14] [Server thread/INFO]: [Skript] Reloading golem.sk...
-[02:00:14] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
-[02:00:14] [Server thread/INFO]: [CHERRY] golem found at x: 1857.02, y: 67, z: -115.98, yaw: 273.77, pitch: 0 in 'world'
-[02:00:14] [Server thread/INFO]: Successfully reloaded golem.sk. (469ms)
-[02:00:17] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[02:00:17] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[02:00:17] [Server thread/INFO]: [CHERRY] - d: 21.11
-[02:00:17] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:00:17] [Server thread/INFO]: [CHERRY] found consume target: iron spear
-[02:00:17] [Server thread/INFO]: [CHERRY] returning home
-[02:00:17] [Server thread/INFO]: [CHERRY] consume
-[02:00:17] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:17] [Server thread/INFO]: [CHERRY] returning home
-[02:00:17] [Server thread/INFO]: [CHERRY] consume
-[02:00:17] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:17] [Server thread/INFO]: [CHERRY] returning home
-[02:00:17] [Server thread/INFO]: [CHERRY] consume
-[02:00:17] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:18] [Server thread/INFO]: [CHERRY] returning home
-[02:00:18] [Server thread/INFO]: [CHERRY] consume
-[02:00:18] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:18] [Server thread/INFO]: [CHERRY] returning home
-[02:00:18] [Server thread/INFO]: [CHERRY] consume
-[02:00:18] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:18] [Server thread/INFO]: [CHERRY] returning home
-[02:00:18] [Server thread/INFO]: [CHERRY] consume
-[02:00:18] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:18] [Server thread/INFO]: [CHERRY] returning home
-[02:00:18] [Server thread/INFO]: [CHERRY] consume
-[02:00:18] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:18] [Server thread/INFO]: [CHERRY] returning home
-[02:00:18] [Server thread/INFO]: [CHERRY] consume
-[02:00:18] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:19] [Server thread/INFO]: [CHERRY] returning home
-[02:00:19] [Server thread/INFO]: [CHERRY] consume
-[02:00:19] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:19] [Server thread/INFO]: [CHERRY] returning home
-[02:00:19] [Server thread/INFO]: [CHERRY] consume
-[02:00:19] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:19] [Server thread/INFO]: [CHERRY] returning home
-[02:00:19] [Server thread/INFO]: [CHERRY] consume
-[02:00:19] [Server thread/INFO]: [CHERRY] returning home
-[02:00:19] [Server thread/INFO]: [CHERRY] returning home
-[02:00:20] [Server thread/INFO]: [CHERRY] returning home
-[02:00:20] [Server thread/INFO]: [CHERRY] returning home
-[02:00:20] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:20] [Server thread/INFO]: [CHERRY] returning home
-[02:00:20] [Server thread/INFO]: [CHERRY] returning home
-[02:00:20] [Server thread/INFO]: [CHERRY] returning home
-[02:00:21] [Server thread/INFO]: [CHERRY] returning home
-[02:00:21] [Server thread/INFO]: [CHERRY] returning home
-[02:00:21] [Server thread/INFO]: [CHERRY] returning home
-[02:00:23] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:26] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:29] [Server thread/INFO]: [CHERRY] returning home
-[02:00:29] [Server thread/INFO]: [CHERRY] returning home
-[02:00:29] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 148.5 / 150
-[02:00:29] [Server thread/INFO]: [CHERRY] - d: 21.65
-[02:00:29] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:00:29] [Server thread/INFO]: [CHERRY] found consume target: iron spear
-[02:00:29] [Server thread/INFO]: [CHERRY] returning home
-[02:00:29] [Server thread/INFO]: [CHERRY] consume
-[02:00:29] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:29] [Server thread/INFO]: [CHERRY] returning home
-[02:00:29] [Server thread/INFO]: [CHERRY] consume
-[02:00:29] [Server thread/INFO]: [CHERRY] returning home
-[02:00:30] [Server thread/INFO]: [CHERRY] returning home
-[02:00:30] [Server thread/INFO]: [CHERRY] returning home
-[02:00:30] [Server thread/INFO]: [CHERRY] returning home
-[02:00:30] [Server thread/INFO]: [CHERRY] returning home
-[02:00:30] [Server thread/INFO]: [CHERRY] returning home
-[02:00:32] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:35] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:38] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:40] [Server thread/INFO]: [Skript] Reloading golem.sk...
-[02:00:40] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
-[02:00:40] [Server thread/INFO]: [CHERRY] golem found at x: 1851.75, y: 67, z: -113.01, yaw: -3.1, pitch: 0 in 'world'
-[02:00:40] [Server thread/INFO]: Successfully reloaded golem.sk. (327ms)
-[02:00:43] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:44] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[02:00:46] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[02:00:46] [Server thread/INFO]: [CHERRY] - d: 16.42
-[02:00:46] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:00:46] [Server thread/INFO]: [CHERRY] found consume target: iron spear
-[02:00:46] [Server thread/INFO]: [CHERRY] consume
-[02:00:46] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:46] [Server thread/INFO]: [CHERRY] consume
-[02:00:46] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:46] [Server thread/INFO]: [CHERRY] consume
-[02:00:46] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:49] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 115 / 150
-[02:00:49] [Server thread/INFO]: [CHERRY] - d: 16.52
-[02:00:49] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:00:49] [Server thread/INFO]: [CHERRY] consume
-[02:00:49] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:49] [Server thread/INFO]: [CHERRY] consume
-[02:00:49] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:49] [Server thread/INFO]: [CHERRY] consume
-[02:00:49] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:49] [Server thread/INFO]: [CHERRY] consume
-[02:00:49] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:50] [Server thread/INFO]: [CHERRY] consume
-[02:00:50] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:50] [Server thread/INFO]: [CHERRY] consume
-[02:00:50] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:50] [Server thread/INFO]: [CHERRY] consume
-[02:00:50] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:50] [Server thread/INFO]: [CHERRY] consume
-[02:00:52] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:00:55] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 148.5 / 150
-[02:00:55] [Server thread/INFO]: [CHERRY] - d: 16.7
-[02:00:55] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:00:55] [Server thread/INFO]: [CHERRY] consume
-[02:00:55] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:00:55] [Server thread/INFO]: [CHERRY] consume
-[02:00:58] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:01] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:04] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:07] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:10] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:13] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:16] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:19] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:22] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:25] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 147 / 150
-[02:01:25] [Server thread/INFO]: [CHERRY] - d: 19.57
-[02:01:25] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:01:25] [Server thread/INFO]: [CHERRY] consume
-[02:01:25] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:25] [Server thread/INFO]: [CHERRY] consume
-[02:01:28] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:31] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:34] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 148.5 / 150
-[02:01:34] [Server thread/INFO]: [CHERRY] - d: 28.77
-[02:01:34] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:01:34] [Server thread/INFO]: [CHERRY] consume
-[02:01:34] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:34] [Server thread/INFO]: [CHERRY] consume
-[02:01:35] [Server thread/INFO]: [CHERRY] returning home
-[02:01:35] [Server thread/INFO]: [CHERRY] returning home
-[02:01:35] [Server thread/INFO]: [CHERRY] returning home
-[02:01:36] [Server thread/INFO]: [CHERRY] returning home
-[02:01:36] [Server thread/INFO]: [CHERRY] returning home
-[02:01:37] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 148.5 / 150
-[02:01:37] [Server thread/INFO]: [CHERRY] - d: 21.43
-[02:01:37] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:01:37] [Server thread/INFO]: [CHERRY] consume
-[02:01:37] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:37] [Server thread/INFO]: [CHERRY] consume
-[02:01:37] [Server thread/INFO]: [Skript] Reloading golem.sk...
-[02:01:37] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
-[02:01:37] [Server thread/INFO]: [CHERRY] golem found at x: 1857.55, y: 66, z: -108, yaw: 90, pitch: 0 in 'world'
-[02:01:37] [Server thread/INFO]: Successfully reloaded golem.sk. (308ms)
-[02:01:40] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[02:01:40] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[02:01:40] [Server thread/INFO]: [CHERRY] - d: 16.4
-[02:01:40] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:01:40] [Server thread/INFO]: [CHERRY] consume
-[02:01:40] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:40] [Server thread/INFO]: [CHERRY] consume
-[02:01:40] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:41] [Server thread/INFO]: [CHERRY] consume
-[02:01:41] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:41] [Server thread/INFO]: [CHERRY] consume
-[02:01:41] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:41] [Server thread/INFO]: [CHERRY] consume
-[02:01:41] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:41] [Server thread/INFO]: [CHERRY] consume
-[02:01:41] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:41] [Server thread/INFO]: [CHERRY] consume
-[02:01:41] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:42] [Server thread/INFO]: [CHERRY] consume
-[02:01:42] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:42] [Server thread/INFO]: [CHERRY] consume
-[02:01:42] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:42] [Server thread/INFO]: [CHERRY] consume
-[02:01:42] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:42] [Server thread/INFO]: [CHERRY] consume
-[02:01:43] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:01:46] [Server thread/INFO]: trololol72 issued server command: /cherry_damage_boss 50
-[02:01:46] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 100 / 150
-[02:01:46] [Server thread/INFO]: [CHERRY] - d: 14.25
-[02:01:46] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:01:46] [Server thread/INFO]: [CHERRY] consume
-[02:01:46] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:46] [Server thread/INFO]: [CHERRY] consume
-[02:01:46] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:47] [Server thread/INFO]: [CHERRY] consume
-[02:01:47] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:49] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 115 / 150
-[02:01:49] [Server thread/INFO]: [CHERRY] - d: 14.1
-[02:01:52] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 115 / 150
-[02:01:52] [Server thread/INFO]: [CHERRY] - d: 13.5
-[02:01:55] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 113.5 / 150
-[02:01:55] [Server thread/INFO]: [CHERRY] - d: 19.07
-[02:01:55] [Server thread/INFO]: [CHERRY] found consume target: 64 iron ingots
-[02:01:55] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:01:55] [Server thread/INFO]: [CHERRY] consume
-[02:01:55] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:55] [Server thread/INFO]: [CHERRY] consume
-[02:01:55] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:56] [Server thread/INFO]: [CHERRY] consume
-[02:01:56] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:56] [Server thread/INFO]: [CHERRY] consume
-[02:01:56] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:56] [Server thread/INFO]: [CHERRY] consume
-[02:01:56] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:56] [Server thread/INFO]: [CHERRY] consume
-[02:01:56] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:56] [Server thread/INFO]: [CHERRY] consume
-[02:01:56] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:57] [Server thread/INFO]: [CHERRY] consume
-[02:01:57] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:01:57] [Server thread/INFO]: [CHERRY] consume
-[02:01:58] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:02:01] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:02:04] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 148.5 / 150
-[02:02:04] [Server thread/INFO]: [CHERRY] - d: 13.99
-[02:02:04] [Server thread/INFO]: [CHERRY] found consume target: 56 iron ingots
-[02:02:04] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:02:04] [Server thread/INFO]: [CHERRY] consume
-[02:02:04] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:02:04] [Server thread/INFO]: [CHERRY] consume
-[02:02:05] [Server thread/INFO]: [CHERRY] returning home
-[02:02:07] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 137 / 150
-[02:02:07] [Server thread/INFO]: [CHERRY] - d: 16.48
-[02:02:07] [Server thread/INFO]: [CHERRY] found consume target: 55 iron ingots
-[02:02:07] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:02:07] [Server thread/INFO]: [CHERRY] consume
-[02:02:07] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:02:07] [Server thread/INFO]: [CHERRY] returning home
-[02:02:07] [Server thread/INFO]: [CHERRY] consume
-[02:02:07] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:02:08] [Server thread/INFO]: [CHERRY] returning home
-[02:02:08] [Server thread/INFO]: [CHERRY] consume
-[02:02:08] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:02:08] [Server thread/INFO]: [CHERRY] returning home
-[02:02:08] [Server thread/INFO]: [CHERRY] consume
-[02:02:08] [Server thread/INFO]: [CHERRY] returning home
-[02:02:08] [Server thread/INFO]: [CHERRY] returning home
-[02:02:08] [Server thread/INFO]: [CHERRY] returning home
-[02:02:09] [Server thread/INFO]: [CHERRY] returning home
-[02:02:09] [Server thread/INFO]: [CHERRY] returning home
-[02:02:09] [Server thread/INFO]: [CHERRY] returning home
-[02:02:09] [Server thread/INFO]: [CHERRY] returning home
-[02:02:09] [Server thread/INFO]: [CHERRY] returning home
-[02:02:10] [Server thread/INFO]: [CHERRY] returning home
-[02:02:10] [Server thread/INFO]: [CHERRY] returning home
-[02:02:10] [Server thread/INFO]: [CHERRY] returning home
-[02:02:10] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:02:10] [Server thread/INFO]: [CHERRY] returning home
-[02:02:10] [Server thread/INFO]: [CHERRY] returning home
-[02:02:11] [Server thread/INFO]: [CHERRY] returning home
-[02:02:13] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:02:16] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:02:19] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:02:22] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 147 / 150
-[02:02:22] [Server thread/INFO]: [CHERRY] - d: 13.61
-[02:02:22] [Server thread/INFO]: [CHERRY] found consume target: 52 iron ingots
-[02:02:22] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:02:22] [Server thread/INFO]: [CHERRY] consume
-[02:02:22] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:02:22] [Server thread/INFO]: [CHERRY] consume
-[02:02:25] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 148 / 150
-[02:02:25] [Server thread/INFO]: [CHERRY] - d: 18.62
-[02:02:25] [Server thread/INFO]: [CHERRY] found consume target: 51 iron ingots
-[02:02:25] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:02:25] [Server thread/INFO]: [CHERRY] consume
-[02:02:25] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:02:25] [Server thread/INFO]: [CHERRY] consume
-[02:02:28] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 148 / 150
-[02:02:28] [Server thread/INFO]: [CHERRY] - d: 23.31
-[02:02:28] [Server thread/INFO]: [CHERRY] found consume target: 50 iron ingots
-[02:02:28] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:02:28] [Server thread/INFO]: [CHERRY] consume
-[02:02:28] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:02:28] [Server thread/INFO]: [CHERRY] consume
-[02:02:31] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 148.5 / 150
-[02:02:31] [Server thread/INFO]: [CHERRY] - d: 23.92
-[02:02:31] [Server thread/INFO]: [CHERRY] found consume target: 49 iron ingots
-[02:02:31] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:02:31] [Server thread/INFO]: [CHERRY] consume
-[02:02:31] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:02:31] [Server thread/INFO]: [CHERRY] consume
-[02:02:33] [Server thread/INFO]: [Skript] Reloading golem.sk...
-[02:02:34] [Server thread/INFO]: [CHERRY] Reloading script, scanning for existing golems...
-[02:02:34] [Server thread/INFO]: [CHERRY] golem found at x: 1831.72, y: 67, z: -95.99, yaw: 64.28, pitch: -1.95 in 'world'
-[02:02:34] [Server thread/INFO]: Successfully reloaded golem.sk. (302ms)
-[02:02:36] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 147.5 / 150
-[02:02:36] [Server thread/INFO]: [CHERRY] - d: 31.82
-[02:02:39] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 147.5 / 150
-[02:02:39] [Server thread/INFO]: [CHERRY] - d: 16.96
-[02:02:39] [Server thread/INFO]: [CHERRY] found consume target: 48 iron ingots
-[02:02:39] [Server thread/INFO]: [CHERRY] found consume target: iron chestplate
-[02:02:39] [Server thread/INFO]: [CHERRY] consume
-[02:02:39] [Server thread/INFO]: Displaying particle minecraft:trail
-[02:02:40] [Server thread/INFO]: [CHERRY] consume
-[02:02:42] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:02:45] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:02:47] [Server thread/INFO]: [CHERRY] returning home
-[02:02:48] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:02:51] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:02:54] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:02:57] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:00] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:03] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:06] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:09] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:12] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:15] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:18] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:21] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:24] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:27] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:30] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:33] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:35] [Server thread/INFO]: [CHERRY] returning home
-[02:03:36] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:39] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:42] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:45] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:48] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:03:51] [Server thread/INFO]: trololol72 issued server command: /cherry_kill_boss
-[02:03:51] [Server thread/INFO]: [CHERRY] Cherry Boss died.
-[02:03:51] [Server thread/INFO]: Named entity IronGolem['Iron Boss'/22, uuid='f27df069-624a-4579-859e-6b2e6d44b9f4', l='ServerLevel[world]', x=1836.14, y=67.00, z=-96.30, cpos=[114, -7], tl=10406, v=true] died: Iron Boss was killed
-[02:03:51] [Server thread/INFO]: [CHERRY] Cherry Boss was killed and data cleared.
-[02:03:51] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[02:03:54] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[02:03:57] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: <none> / <none>
-[02:03:58] [Server thread/INFO]: trololol72 issued server command: /spawn_cherry_golem
-[02:03:58] [Server thread/INFO]: [CHERRY] Cherry Boss spawned at x: 1838.27, y: 67, z: -109.29, yaw: 23.67, pitch: 5.85 in 'world' and tagged.
-[02:04:00] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:04:03] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:04:06] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:04:09] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[02:04:09] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[02:04:10] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:04:12] [Server thread/INFO]: [CHERRY] attempting to start consume. hp: 150 / 150
-[02:04:13] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[02:04:13] [Server thread/INFO]: Stopping server
-[02:04:13] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[02:04:13] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[02:04:13] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[02:04:13] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[02:04:13] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[02:04:13] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[02:04:13] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[02:04:13] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[02:04:13] [Server thread/INFO]: [TAB] Disabled in 2ms
-[02:04:13] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[02:04:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[02:04:13] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[02:04:13] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[02:04:13] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[02:04:13] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[02:04:13] [Server thread/INFO]: [LuckPerms] Closing storage...
-[02:04:13] [Server thread/INFO]: [LuckPerms] Goodbye!
-[02:04:13] [Server thread/INFO]: Saving players
-[02:04:13] [Server thread/INFO]: Saving worlds
-[02:04:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Saved 138 block chunks, 862 entity chunks, 0 poi chunks in world 'world' in 0.22s
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[02:04:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[02:04:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[02:04:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[02:04:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:04:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:04:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:04:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:04:13] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[02:04:13] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[02:04:13] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[02:04:13] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[04:34:22] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[04:34:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[04:34:25] [ServerMain/INFO]: Loaded 1470 recipes
+[04:34:25] [ServerMain/INFO]: Loaded 1584 advancements
+[04:34:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[04:34:26] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 450.3ms
+[04:34:26] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[04:34:26] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[04:34:26] [Server thread/INFO]: Loading properties
+[04:34:26] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[04:34:26] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:34:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:34:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:34:27] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[04:34:28] [Server thread/INFO]: Default game type: SURVIVAL
+[04:34:28] [Server thread/INFO]: Generating keypair
+[04:34:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:34:28] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[04:34:28] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[04:34:28] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[04:34:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[04:34:29] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[04:34:29] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[04:34:29] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[04:34:29] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[04:34:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@61abed77]
+[04:34:31] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[04:34:31] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[04:34:31] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[04:34:31] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[04:34:33] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[04:34:33] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[04:34:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:34:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[04:34:33] [Server thread/INFO]:         __    
+[04:34:33] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[04:34:33] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[04:34:33] [Server thread/INFO]: 
+[04:34:34] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[04:34:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[04:34:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[04:34:35] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1837ms)
+[04:34:35] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[04:34:35] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[04:34:35] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[04:34:35] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[04:34:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[04:34:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[04:34:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[04:34:37] [Server thread/INFO]: Preparing level "world"
+[04:34:38] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[04:34:38] [Server thread/INFO]: Preparing spawn area: 100%
+[04:34:38] [Server thread/INFO]: Prepared spawn area in 4 ms
+[04:34:38] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[04:34:38] [Server thread/INFO]: Preparing spawn area: 100%
+[04:34:38] [Server thread/INFO]: Prepared spawn area in 2 ms
+[04:34:38] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[04:34:38] [Server thread/INFO]: Prepared spawn area in 1 ms
+[04:34:38] [Server thread/INFO]: Done preparing level "world" (0.935s)
+[04:34:38] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[04:34:39] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[04:34:41] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[04:34:41] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[04:34:42] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[04:34:42] [Server thread/INFO]: [TAB] Enabled in 587ms
+[04:34:42] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[04:34:42] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[04:34:42] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[04:34:43] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[04:34:43] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[04:34:43] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[04:34:43] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[04:34:43] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[04:34:43] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[04:34:43] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[04:34:43] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[04:34:43] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[04:34:44] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[04:34:44] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[04:34:44] [Server thread/INFO]: [SkBee]  - 56 events
+[04:34:44] [Server thread/INFO]: [SkBee]  - 71 effects
+[04:34:44] [Server thread/INFO]: [SkBee]  - 240 expressions
+[04:34:44] [Server thread/INFO]: [SkBee]  - 27 conditions
+[04:34:44] [Server thread/INFO]: [SkBee]  - 32 sections
+[04:34:44] [Server thread/INFO]: [SkBee]  - 11 properties
+[04:34:44] [Server thread/INFO]: [SkBee] Update checker disabled!
+[04:34:44] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.44 seconds
+[04:34:44] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[04:34:44] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[04:34:44] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 2424ms
+[04:34:44] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[04:34:44] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[04:34:44] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[04:34:44] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[04:34:44] [Server thread/INFO]: [spark] Starting background profiler...
+[04:34:44] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[04:34:44] [Server thread/INFO]: Running delayed init tasks
+[04:34:44] [Server thread/INFO]: [Skript] Loading variables...
+[04:34:44] [Server thread/INFO]: [Skript] Loaded 294 variables in 0.0 seconds
+[04:34:56] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:34:56] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[04:34:56] [Server thread/INFO]: [Skript] Loaded 22 scripts with a total of 178 structures in 11.91 seconds
+[04:34:56] [Server thread/INFO]: [Skript] Finished loading.
+[04:34:56] [Server thread/INFO]: Done (46.348s)! For help, type "help"
+[04:34:56] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 25 build(s) behind ***
+[04:34:56] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[04:35:15] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[04:35:15] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[04:35:26] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[04:35:27] [Server thread/INFO]: trololol72[/[0:0:0:0:0:0:0:1]:57485] logged in with entity id 1 at ([world]14732.71169937949, 105.72196699414935, -7435.377763151602)
+[04:35:28] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[04:35:28] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[04:35:42] [Server thread/INFO]: trololol72 issued server command: /tpb c
+[04:37:15] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:37:15] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:37:15] [Server thread/INFO]: Successfully reloaded cherry.sk. (295ms)
+[04:37:33] [Server thread/INFO]: trololol72 issued server command: /cherrydebug true
+[04:37:36] [Server thread/INFO]: trololol72 issued server command: /cherrydebug
+[04:38:18] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:38:18] [Server thread/INFO]: Line 37: (cherry.sk)
+[04:38:18] [Server thread/INFO]:     Functions cannot be used here (or there is a problem with your arguments).
+[04:38:18] [Server thread/INFO]:     Line: _debug("attempting spawn")
+[04:38:18] [Server thread/INFO]:  
+[04:38:18] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:38:18] [Server thread/INFO]:     Encountered 1 error while reloading cherry.sk! (300ms)
+[04:38:32] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:38:32] [Server thread/INFO]: Line 37: (cherry.sk)
+[04:38:32] [Server thread/INFO]:     Functions cannot be used here (or there is a problem with your arguments).
+[04:38:32] [Server thread/INFO]:     Line: _debug("attempting spawn")
+[04:38:32] [Server thread/INFO]:  
+[04:38:32] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:38:32] [Server thread/INFO]:     Encountered 1 error while reloading cherry.sk! (284ms)
+[04:38:40] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:38:40] [Server thread/INFO]: Line 37: (cherry.sk)
+[04:38:40] [Server thread/INFO]:     Functions cannot be used here (or there is a problem with your arguments).
+[04:38:40] [Server thread/INFO]:     Line: _debug("attempting spawn")
+[04:38:40] [Server thread/INFO]:  
+[04:38:40] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:38:40] [Server thread/INFO]:     Encountered 1 error while reloading cherry.sk! (226ms)
+[04:38:48] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:38:48] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:38:48] [Server thread/INFO]: Successfully reloaded cherry.sk. (239ms)
+[04:38:50] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:38:52] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:38:54] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:38:56] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:38:58] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:00] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:02] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:04] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:06] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:08] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:10] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:12] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:14] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:16] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:18] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:20] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:22] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:24] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:26] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:28] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:30] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:32] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:34] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:36] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:37] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:39:38] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:39:38] [Server thread/INFO]: Successfully reloaded cherry.sk. (286ms)
+[04:39:39] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:39] [Server thread/INFO]: [Cherry Grove] valid for true, true
+[04:39:41] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:41] [Server thread/INFO]: [Cherry Grove] valid for true, true
+[04:39:43] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:43] [Server thread/INFO]: [Cherry Grove] valid for true, true
+[04:39:45] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:45] [Server thread/INFO]: [Cherry Grove] valid for true, true
+[04:39:47] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:47] [Server thread/INFO]: [Cherry Grove] valid for true, true
+[04:39:49] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:49] [Server thread/INFO]: [Cherry Grove] valid for true, true
+[04:39:51] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:51] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:39:53] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:53] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:39:55] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:55] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:39:57] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:57] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:39:59] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:39:59] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:01] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:01] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:03] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:03] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:05] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:05] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:07] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:07] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:09] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:09] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:11] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:11] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:13] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:13] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:15] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:15] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:17] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:17] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:19] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:19] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:21] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:21] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:23] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:23] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:25] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:25] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:27] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:27] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:29] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:29] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:31] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:31] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:33] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:33] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:35] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:35] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:37] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:37] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:39] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:39] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:41] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:41] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:43] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:43] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:45] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:45] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:47] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:47] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:49] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:49] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:51] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:51] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:53] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:53] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:55] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:55] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:57] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:57] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:40:59] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:40:59] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:01] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:01] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:03] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:03] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:05] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:05] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:07] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:07] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:09] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:09] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:11] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:11] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:13] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:13] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:15] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:15] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:17] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:17] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:19] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:19] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:21] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:21] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:23] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:23] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:25] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:25] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:27] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:27] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:29] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:29] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:31] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:31] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:33] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:33] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:35] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:35] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:37] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:37] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:39] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:39] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:41] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:41] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:43] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:43] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:45] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:45] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:47] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:47] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:49] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:49] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:51] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:51] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:53] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:53] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:55] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:55] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:57] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:57] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:41:59] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:41:59] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:42:01] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:01] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:42:03] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:03] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:42:05] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:05] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:42:07] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:07] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:42:09] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:09] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:42:11] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:11] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:42:13] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:13] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:42:15] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:15] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:42:17] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:17] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:42:19] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:19] [Server thread/INFO]: [Cherry Grove] valid for true, false
+[04:42:21] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:42:21] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:42:21] [Server thread/INFO]: Successfully reloaded cherry.sk. (225ms)
+[04:42:23] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:23] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:25] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:25] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:27] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:27] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:29] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:29] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:31] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:31] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:33] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:33] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:35] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:35] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:37] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:37] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:39] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:39] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:41] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:41] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:43] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:43] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:44] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:42:44] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:42:44] [Server thread/INFO]: Successfully reloaded cherry.sk. (179ms)
+[04:42:46] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:46] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:48] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:48] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:50] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:50] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:52] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:52] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:54] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:54] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:56] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:56] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:42:58] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:42:58] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:00] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:00] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:02] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:02] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:04] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:04] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:06] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:06] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:08] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:08] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:10] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:10] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:12] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:12] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:14] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:14] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:16] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:16] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:18] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:18] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:20] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:20] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:22] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:22] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:24] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:24] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:26] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:26] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:28] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:28] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:30] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:30] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:32] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:32] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:34] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:34] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:36] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:36] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:38] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:38] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:40] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:40] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:42] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:42] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:44] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:44] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:46] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:46] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:48] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:48] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:50] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:50] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:52] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:52] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:54] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:54] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:56] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:56] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:43:58] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:43:58] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:00] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:00] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:02] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:02] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:04] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:04] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:06] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:06] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:08] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:08] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:10] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:10] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:12] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:12] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:14] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:14] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:16] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:16] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:18] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:18] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:20] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:20] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:22] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:22] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:24] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:24] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:26] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:26] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:28] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:28] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:30] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:30] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:32] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:32] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:34] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:34] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:36] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:36] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:38] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:38] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:40] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:40] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:42] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:42] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:44] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:44] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:46] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:46] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:48] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:48] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:50] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:50] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:52] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:52] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:54] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:54] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:56] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:56] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:44:58] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:44:58] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:00] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:00] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:02] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:02] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:04] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:04] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:06] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:06] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:08] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:08] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:10] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:10] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:12] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:12] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:14] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:14] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:16] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:16] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:18] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:18] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:20] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:20] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:22] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:22] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:24] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:24] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:26] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:26] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:28] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:28] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:30] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:30] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:32] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:32] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:34] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:34] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:36] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:36] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:38] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:38] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:40] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:40] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:42] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:42] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:44] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:44] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:46] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:46] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:48] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:48] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:50] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:50] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:52] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:52] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:54] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:54] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:56] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:56] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:45:58] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:45:58] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:00] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:00] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:02] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:02] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:04] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:04] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:06] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:06] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:08] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:08] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:10] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:10] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:12] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:12] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:14] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:14] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:16] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:16] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:18] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:18] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:20] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:20] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:22] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:22] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:24] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:24] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:26] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:26] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:28] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:28] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:30] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:30] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:32] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:32] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:34] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:34] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:36] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:36] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:38] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:38] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:40] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:40] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:42] [Server thread/INFO]: [Cherry Grove] living golems: 0
+[04:46:42] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:46:44] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:46:44] [Server thread/INFO]: Line 66: (cherry.sk)
+[04:46:44] [Server thread/INFO]:     Variables cannot be used here.
+[04:46:44] [Server thread/INFO]:     Line: if distance between loop-player and {grove_center_1} <= {@grove_radius} or distance between loop-player and {grove_center_2} <= {@grove_radius}:
+[04:46:44] [Server thread/INFO]:  
+[04:46:44] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:46:44] [Server thread/INFO]:     Encountered 1 error while reloading cherry.sk! (463ms)
+[04:47:48] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:47:48] [Server thread/INFO]: Line 66: (cherry.sk)
+[04:47:48] [Server thread/INFO]:     Variables cannot be used here.
+[04:47:48] [Server thread/INFO]:     Line: set {_g1} to distance between loop-player and {grove_center_1} <= {@grove_radius}
+[04:47:48] [Server thread/INFO]:  
+[04:47:48] [Server thread/INFO]: Line 67: (cherry.sk)
+[04:47:48] [Server thread/INFO]:     Variables cannot be used here.
+[04:47:48] [Server thread/INFO]:     Line: set {_g2} to distance between loop-player and {grove_center_2} <= {@grove_radius}
+[04:47:48] [Server thread/INFO]:  
+[04:47:48] [Server thread/INFO]: Line 68: (cherry.sk)
+[04:47:48] [Server thread/INFO]:     Can't understand this condition: '{_g1} or {_g2}'
+[04:47:48] [Server thread/INFO]:     Line: if {_g1} or {_g2}:
+[04:47:48] [Server thread/INFO]:  
+[04:47:48] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:47:48] [Server thread/INFO]:     Encountered 3 errors while reloading cherry.sk! (145ms)
+[04:48:02] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:48:02] [Server thread/INFO]: Line 66: (cherry.sk)
+[04:48:02] [Server thread/INFO]:     Variables cannot be used here.
+[04:48:02] [Server thread/INFO]:     Line: set {_g1} to distance between loop-player and {grove_center_1} <= {@grove_radius}
+[04:48:02] [Server thread/INFO]:  
+[04:48:02] [Server thread/INFO]: Line 67: (cherry.sk)
+[04:48:02] [Server thread/INFO]:     Variables cannot be used here.
+[04:48:02] [Server thread/INFO]:     Line: set {_g2} to distance between loop-player and {grove_center_2} <= {@grove_radius}
+[04:48:02] [Server thread/INFO]:  
+[04:48:02] [Server thread/INFO]: Line 68: (cherry.sk)
+[04:48:02] [Server thread/INFO]:     Can't understand this condition: '{_g1} is true or {_g2} is true'
+[04:48:02] [Server thread/INFO]:     Line: if {_g1} is true or {_g2} is true:
+[04:48:02] [Server thread/INFO]:  
+[04:48:02] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:48:02] [Server thread/INFO]:     Encountered 3 errors while reloading cherry.sk! (173ms)
+[04:49:24] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:49:24] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:49:24] [Server thread/INFO]: Successfully reloaded cherry.sk. (223ms)
+[04:50:25] [Server thread/INFO]: trololol72 issued server command: /cherrydebug
+[04:50:26] [Server thread/INFO]: trololol72 issued server command: /cherrydebug
+[04:51:01] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:51:01] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:51:01] [Server thread/INFO]: Successfully reloaded cherry.sk. (557ms)
+[04:51:17] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:51:17] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:51:17] [Server thread/INFO]: Successfully reloaded cherry.sk. (241ms)
+[04:51:54] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:51:55] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems.
+[04:51:55] [Server thread/INFO]: Successfully reloaded cherry.sk. (277ms)
+[04:51:56] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:51:58] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:00] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:02] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:04] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:06] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:08] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:10] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:12] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:14] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:16] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:18] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:20] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:22] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:24] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:26] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:28] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:30] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:32] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:34] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:36] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:38] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:40] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:42] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:44] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:46] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:48] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:50] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:52] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:54] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:56] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:52:58] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:00] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:02] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:04] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:06] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:08] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:10] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:12] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:14] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:16] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:18] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:20] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:22] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:24] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:26] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:28] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:30] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:32] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:34] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:36] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:38] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:40] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:42] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:44] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:46] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:48] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:50] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:52] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:54] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:56] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:53:58] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:00] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:02] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:04] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:06] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:08] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:10] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:12] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:14] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:16] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:18] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:20] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:22] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:24] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:26] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:28] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:30] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:32] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:34] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:36] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:38] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:40] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:42] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:44] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:46] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:48] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:50] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:52] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:54] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:56] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:54:58] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:00] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:02] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:04] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:06] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:08] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:10] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:12] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:14] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:16] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:18] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:20] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:22] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:24] [Server thread/INFO]: [Cherry Grove] spawn loop
+[04:55:24] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:55:24] [Server thread/INFO]: Line 77: (cherry.sk)
+[04:55:24] [Server thread/INFO]:     There are multiple loops that match loop-value. Use loop-value-1/2/3/etc. to specify which loop's value you want.
+[04:55:24] [Server thread/INFO]:     Line: if distance between loop-player and loop-value <= {@grove_radius}:
+[04:55:24] [Server thread/INFO]:  
+[04:55:25] [Server thread/INFO]: Line 97: (cherry.sk)
+[04:55:25] [Server thread/INFO]:     There are multiple loops that match loop-value. Use loop-value-1/2/3/etc. to specify which loop's value you want.
+[04:55:25] [Server thread/INFO]:     Line: if distance between loop-player and loop-value <= {@grove_radius}:
+[04:55:25] [Server thread/INFO]:  
+[04:55:25] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems. Loaded 0 groves.
+[04:55:25] [Server thread/INFO]:     Encountered 2 errors while reloading cherry.sk! (334ms)
+[04:56:20] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:56:20] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems. Loaded 0 groves.
+[04:56:20] [Server thread/INFO]: Successfully reloaded cherry.sk. (257ms)
+[04:57:33] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:57:34] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems. Loaded 0 groves.
+[04:57:34] [Server thread/INFO]: Successfully reloaded cherry.sk. (257ms)
+[04:59:24] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[04:59:24] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems. Loaded 0 groves.
+[04:59:24] [Server thread/INFO]: Successfully reloaded cherry.sk. (338ms)
+[04:59:29] [Server thread/INFO]: trololol72 issued server command: /weather clear
+[04:59:29] [Server thread/INFO]: [trololol72: Set the weather to clear]
+[04:59:36] [Server thread/INFO]: trololol72 issued server command: /cherry_add 1
+[04:59:38] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:59:40] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:59:42] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:59:44] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:59:46] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:59:48] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:59:50] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:59:52] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:59:54] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:59:56] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[04:59:58] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:00] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:02] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:04] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:06] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:08] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:10] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:12] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:14] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:16] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:18] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:20] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:22] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:24] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:25] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[05:00:25] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems. Loaded 1 groves.
+[05:00:25] [Server thread/INFO]: Successfully reloaded cherry.sk. (310ms)
+[05:00:27] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:29] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:31] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:33] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:35] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:37] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:39] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:41] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[05:00:41] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems. Loaded 1 groves.
+[05:00:41] [Server thread/INFO]: Successfully reloaded cherry.sk. (295ms)
+[05:00:43] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:45] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:47] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:49] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:00:49] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[05:00:49] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems. Loaded 1 groves.
+[05:00:49] [Server thread/INFO]: Successfully reloaded cherry.sk. (278ms)
+[05:01:27] [Server thread/INFO]: trololol72 issued server command: //wand
+[05:01:34] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[05:01:37] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[05:01:47] [Server thread/INFO]: trololol72 issued server command: //pos1
+[05:01:57] [Server thread/WARN]: trololol72 moved too quickly! -19.004221894041166,0.0,35.465559031190594
+[05:01:59] [Server thread/INFO]: trololol72 issued server command: //pos2
+[05:02:04] [Server thread/INFO]: trololol72 issued server command: //setbiome cherry_grove
+[05:02:04] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[05:02:14] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[05:02:21] [Server thread/INFO]: trololol72 issued server command: /cherry_add 2
+[05:02:53] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[05:02:54] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems. Loaded 2 groves.
+[05:02:54] [Server thread/INFO]: Successfully reloaded cherry.sk. (294ms)
+[05:02:57] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:02:59] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:03] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:05] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:07] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:09] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:11] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:13] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:15] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:19] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:21] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:23] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:25] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:27] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:29] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:31] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:33] [Server thread/INFO]: [Cherry Grove] attempting spawn
+[05:03:34] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[05:03:35] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems. Loaded 2 groves.
+[05:03:35] [Server thread/INFO]: Successfully reloaded cherry.sk. (230ms)
+[05:03:36] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:03:38] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:03:40] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:03:44] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:03:46] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:03:48] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:03:50] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:03:52] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:03:54] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:03:56] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:03:58] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:00] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:02] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:04] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:06] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:08] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:10] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:12] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:14] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:16] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:18] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:20] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:22] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:24] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:26] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:28] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:30] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:32] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[05:04:32] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems. Loaded 2 groves.
+[05:04:32] [Server thread/INFO]: Successfully reloaded cherry.sk. (448ms)
+[05:04:34] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:36] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:38] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:40] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:42] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:44] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:46] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:48] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:50] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:52] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:54] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:56] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:04:58] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:00] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:02] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:04] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:06] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:08] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:10] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:12] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:14] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:16] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:18] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:20] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:22] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:24] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:26] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:28] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:30] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:32] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:34] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:36] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:38] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:40] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:42] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:44] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:45] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[05:05:45] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 0 existing golems. Loaded 2 groves.
+[05:05:45] [Server thread/INFO]: Successfully reloaded cherry.sk. (379ms)
+[05:05:47] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:47] [Server thread/INFO]: [Cherry Grove] biome good
+[05:05:47] [Server thread/INFO]: [Cherry Grove] Spawned new golem near trololol72
+[05:05:49] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:49] [Server thread/INFO]: [Cherry Grove] biome good
+[05:05:49] [Server thread/INFO]: [Cherry Grove] Spawned new golem near trololol72
+[05:05:51] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:51] [Server thread/INFO]: [Cherry Grove] biome good
+[05:05:51] [Server thread/INFO]: [Cherry Grove] Spawned new golem near trololol72
+[05:05:53] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:53] [Server thread/INFO]: [Cherry Grove] biome good
+[05:05:53] [Server thread/INFO]: [Cherry Grove] Spawned new golem near trololol72
+[05:05:55] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:55] [Server thread/INFO]: [Cherry Grove] biome good
+[05:05:55] [Server thread/INFO]: [Cherry Grove] Spawned new golem near trololol72
+[05:05:57] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:05:57] [Server thread/INFO]: [Cherry Grove] biome good
+[05:05:57] [Server thread/INFO]: [Cherry Grove] Spawned new golem near trololol72
+[05:06:01] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:01] [Server thread/INFO]: [Cherry Grove] biome good
+[05:06:01] [Server thread/INFO]: [Cherry Grove] Spawned new golem near trololol72
+[05:06:03] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:03] [Server thread/INFO]: [Cherry Grove] biome good
+[05:06:03] [Server thread/INFO]: [Cherry Grove] Spawned new golem near trololol72
+[05:06:05] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:05] [Server thread/INFO]: [Cherry Grove] biome good
+[05:06:05] [Server thread/INFO]: [Cherry Grove] Spawned new golem near trololol72
+[05:06:07] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:07] [Server thread/INFO]: [Cherry Grove] biome good
+[05:06:07] [Server thread/INFO]: [Cherry Grove] Spawned new golem near trololol72
+[05:06:09] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:11] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:13] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:15] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:17] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:19] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:21] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:23] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:25] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:27] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:29] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:31] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:33] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:35] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:37] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:39] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:41] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:43] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:45] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:47] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:49] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:51] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:53] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:55] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:57] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:06:59] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:01] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:03] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:05] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:07] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:09] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:11] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:13] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:15] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:17] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:19] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:21] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:23] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:25] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:27] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:29] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:31] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:33] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:35] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:37] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:39] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:41] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:43] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:45] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:47] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:49] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:51] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:53] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:55] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:57] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:07:59] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:08:01] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:08:03] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:08:05] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:08:07] [Server thread/INFO]: [Cherry Grove] distance from player good
+[05:08:08] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[05:08:09] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 10 existing golems. Loaded 2 groves.
+[05:08:09] [Server thread/INFO]: Successfully reloaded cherry.sk. (306ms)
+[05:08:10] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:10] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:08:12] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:12] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:08:12] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:08:14] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:14] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:08:14] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:08:14] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:08:14] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:08:16] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:16] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:08:16] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:08:16] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:08:16] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:08:18] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:18] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:08:18] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:08:18] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:08:18] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:08:20] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:20] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:08:20] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:08:20] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:08:20] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:08:22] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:22] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:08:24] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:24] [Server thread/INFO]: [Cherry Grove] - alive golems: 9
+[05:08:26] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:26] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:28] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:28] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:30] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:30] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:32] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:32] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:34] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:34] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:36] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:36] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:38] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:38] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:40] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:40] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:42] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:42] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:44] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:44] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:46] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:46] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:48] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:48] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:50] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:50] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:52] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:52] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:54] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:54] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:56] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:56] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:08:58] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:08:58] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:00] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:00] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:02] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:02] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:04] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:04] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:06] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:06] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:08] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:08] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:10] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:10] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:12] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:12] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:14] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:14] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:16] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:16] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:18] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:18] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:20] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:20] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:22] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:22] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:24] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:24] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:26] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:26] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:28] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:28] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:30] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:30] [Server thread/INFO]: [Cherry Grove] - alive golems: 11
+[05:09:31] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[05:09:32] [Server thread/INFO]: Line 59: (cherry.sk)
+[05:09:32] [Server thread/INFO]:     undefined option {@despawn_radius}
+[05:09:32] [Server thread/INFO]:     Line: if distance between loop-player and loop-value-2 <= {@despawn_radius}:
+[05:09:32] [Server thread/INFO]:  
+[05:09:32] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 14 existing golems. Loaded 2 groves.
+[05:09:32] [Server thread/INFO]:     Encountered 1 error while reloading cherry.sk! (261ms)
+[05:09:33] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:33] [Server thread/INFO]: [Cherry Grove] - alive golems: 0
+[05:09:33] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:09:33] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:09:33] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:09:35] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:35] [Server thread/INFO]: [Cherry Grove] - alive golems: 0
+[05:09:35] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:09:35] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:09:35] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:09:37] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:37] [Server thread/INFO]: [Cherry Grove] - alive golems: 0
+[05:09:37] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:09:37] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:09:37] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:09:39] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:39] [Server thread/INFO]: [Cherry Grove] - alive golems: 0
+[05:09:39] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:09:39] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:09:39] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:09:41] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:41] [Server thread/INFO]: [Cherry Grove] - alive golems: 0
+[05:09:41] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:09:41] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:09:41] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:09:43] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:43] [Server thread/INFO]: [Cherry Grove] - alive golems: 0
+[05:09:43] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:09:43] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:09:43] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:09:45] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[05:09:45] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 20 existing golems. Loaded 2 groves.
+[05:09:45] [Server thread/INFO]: Successfully reloaded cherry.sk. (268ms)
+[05:09:47] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:47] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:09:49] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:49] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:09:51] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:51] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:09:53] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:53] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:09:55] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:55] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:09:57] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:57] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:09:59] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:09:59] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:10:01] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:01] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:10:03] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:03] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:10:05] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:05] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:10:07] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:07] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:10:09] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:09] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:10:11] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:11] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:10:13] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:13] [Server thread/INFO]: [Cherry Grove] - alive golems: 20
+[05:10:13] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=minecraft:iron_golem,distance=..150]
+[05:10:13] [Server thread/INFO]: [trololol72: Killed 20 entities]
+[05:10:15] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:10:15] [Server thread/INFO]: [Cherry Grove] - alive golems: 0
+[05:10:17] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:17] [Server thread/INFO]: [Cherry Grove] - alive golems: 0
+[05:10:17] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:10:17] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:10:17] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:10:19] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:19] [Server thread/INFO]: [Cherry Grove] - alive golems: 1
+[05:10:21] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:21] [Server thread/INFO]: [Cherry Grove] - alive golems: 1
+[05:10:21] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:10:21] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:10:23] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:23] [Server thread/INFO]: [Cherry Grove] - alive golems: 1
+[05:10:23] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:10:23] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:10:23] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:10:25] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:25] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:10:25] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:10:27] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:27] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:10:29] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:29] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:10:29] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:10:29] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:10:29] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:10:31] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:31] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:33] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:33] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:35] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:35] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:37] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:37] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:39] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:39] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:41] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:41] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:43] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:43] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:45] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:45] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:47] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:47] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:49] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:49] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:51] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:51] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:53] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:53] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:55] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:55] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:57] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:57] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:10:59] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:10:59] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:11:01] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:01] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:11:01] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:11:01] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:11:01] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:11:03] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:03] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:11:03] [Server thread/INFO]: [Cherry Grove] Despawning golem (Too far from trololol72)
+[05:11:05] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:05] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:11:07] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:07] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:09] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:09] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:11] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:11] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:13] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:13] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:15] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:15] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:17] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:17] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:19] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:19] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:21] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:21] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:22] [Server thread/INFO]: [Skript] Reloading cherry.sk...
+[05:11:23] [Server thread/INFO]: [Cherry Grove] Script loaded. Found and tracked 4 existing golems. Loaded 2 groves.
+[05:11:23] [Server thread/INFO]: Successfully reloaded cherry.sk. (276ms)
+[05:11:24] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:24] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:26] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:26] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:28] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:28] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:30] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:30] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:32] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:32] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:34] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:34] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:36] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:36] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:38] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:38] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:40] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:40] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:42] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:42] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:44] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:44] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:46] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:46] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:48] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:48] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:50] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:50] [Server thread/INFO]: [Cherry Grove] - alive golems: 4
+[05:11:51] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=minecraft:iron_golem,distance=..150]
+[05:11:51] [Server thread/INFO]: [trololol72: Killed 4 entities]
+[05:11:52] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:52] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:11:52] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:11:52] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:11:52] [Server thread/INFO]: [Cherry Grove] - A golem died. Removed from tracking list.
+[05:11:52] [Server thread/INFO]: [Cherry Grove] - alive golems: 0
+[05:11:52] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:11:52] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:11:54] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:54] [Server thread/INFO]: [Cherry Grove] - alive golems: 0
+[05:11:54] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:11:54] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:11:54] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:11:56] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:56] [Server thread/INFO]: [Cherry Grove] - alive golems: 1
+[05:11:56] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:11:56] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:11:56] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:11:58] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:11:58] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:11:58] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:11:58] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:12:00] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:00] [Server thread/INFO]: [Cherry Grove] - alive golems: 2
+[05:12:00] [Server thread/INFO]: [Cherry Grove] - distance from player good
+[05:12:00] [Server thread/INFO]: [Cherry Grove] - biome good
+[05:12:00] [Server thread/INFO]: [Cherry Grove] - Spawned new golem near trololol72
+[05:12:02] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:02] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:04] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:04] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:06] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:06] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:08] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:08] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:10] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:10] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:12] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:12] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:14] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:14] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:16] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:16] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:18] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:18] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:20] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:20] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:22] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:22] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:24] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:24] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:26] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:26] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:28] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:28] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:30] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:30] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:32] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:32] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:34] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:34] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:36] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:36] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:38] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:38] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:40] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:40] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:42] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:42] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:44] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:44] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:46] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:46] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:48] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:48] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:50] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:50] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:52] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:52] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:54] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:54] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:56] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:56] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:12:58] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:12:58] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:00] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:00] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:01] [Server thread/INFO]: trololol72 issued server command: /cherry_list
+[05:13:02] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:02] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:04] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:04] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:06] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:06] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:08] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:08] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:10] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:10] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:12] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:12] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:14] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:14] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:16] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:16] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:18] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:18] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:20] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:20] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:22] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:22] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:24] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:24] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:26] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:26] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:28] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:28] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:30] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:30] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:32] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:32] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:33] [Server thread/INFO]: trololol72 issued server command: /cherry_remove 1
+[05:13:34] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:34] [Server thread/INFO]: [Cherry Grove] - alive golems: 3
+[05:13:35] [Server thread/INFO]: trololol72 issued server command: /cherry_remove 2
+[05:13:36] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:38] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:40] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:42] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:44] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[05:13:44] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[05:13:44] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:46] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:46] [Server thread/INFO]: [Cherry Grove] Despawning golem (Too far from null)
+[05:13:46] [Server thread/INFO]: [Cherry Grove] Despawning golem (Too far from null)
+[05:13:46] [Server thread/INFO]: [Cherry Grove] Despawning golem (Too far from null)
+[05:13:48] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:49] [Server thread/INFO]: [Cherry Grove] Despawning golem (Too far from null)
+[05:13:49] [Server thread/INFO]: [Cherry Grove] Despawning golem (Too far from null)
+[05:13:49] [Server thread/INFO]: [Cherry Grove] Despawning golem (Too far from null)
+[05:13:50] [Server thread/INFO]: [Cherry Grove] spawn loop
+[05:13:51] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[05:13:52] [Server thread/INFO]: Stopping server
+[05:13:52] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[05:13:52] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[05:13:52] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[05:13:52] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[05:13:52] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[05:13:52] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[05:13:52] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[05:13:52] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[05:13:52] [Server thread/INFO]: [TAB] Disabled in 3ms
+[05:13:52] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[05:13:52] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[05:13:52] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[05:13:52] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[05:13:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[05:13:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[05:13:52] [Server thread/INFO]: [LuckPerms] Closing storage...
+[05:13:52] [Server thread/INFO]: [LuckPerms] Goodbye!
+[05:13:52] [Server thread/INFO]: Saving players
+[05:13:52] [Server thread/INFO]: Saving worlds
+[05:13:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Saved 528 block chunks, 1088 entity chunks, 0 poi chunks in world 'world' in 0.48s
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[05:13:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[05:13:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[05:13:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:13:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:13:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:13:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:13:52] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[05:13:52] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[05:13:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[05:13:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
