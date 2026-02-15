@@ -1,689 +1,400 @@
-[21:35:31] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[21:35:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[21:35:32] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:35:33] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[21:35:33] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[23:40:21] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[23:40:21] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[23:40:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:40:24] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[23:40:24] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[21:35:33] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[23:40:24] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[21:35:37] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[21:35:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[21:35:39] [ServerMain/INFO]: Loaded 1470 recipes
-[21:35:39] [ServerMain/INFO]: Loaded 1584 advancements
-[21:35:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[21:35:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 335.9ms
-[21:35:39] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[21:35:39] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[21:35:39] [Server thread/INFO]: Loading properties
-[21:35:39] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[21:35:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:35:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:35:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:35:40] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[21:35:40] [Server thread/INFO]: Default game type: SURVIVAL
-[21:35:40] [Server thread/INFO]: Generating keypair
-[21:35:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:35:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:35:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:35:41] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[21:35:41] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:35:42] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[21:35:42] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[21:35:42] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[21:35:42] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[21:35:43] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2961ac7]
-[21:35:43] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[21:35:43] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[21:35:43] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[21:35:43] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[21:35:44] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[21:35:44] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[21:35:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:35:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[21:35:44] [Server thread/INFO]:         __    
-[21:35:44] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[21:35:44] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[21:35:44] [Server thread/INFO]: 
-[21:35:44] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:35:44] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:35:44] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:35:45] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 994ms)
-[21:35:45] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[21:35:45] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[21:35:45] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[21:35:45] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[21:35:45] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:35:45] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:35:45] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[21:35:46] [Server thread/INFO]: Preparing level "world"
-[21:35:46] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[21:35:46] [Server thread/INFO]: Preparing spawn area: 100%
-[21:35:46] [Server thread/INFO]: Prepared spawn area in 3 ms
-[21:35:46] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[21:35:46] [Server thread/INFO]: Prepared spawn area in 2 ms
-[21:35:46] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[21:35:46] [Server thread/INFO]: Prepared spawn area in 2 ms
-[21:35:46] [Server thread/INFO]: Done preparing level "world" (0.454s)
-[21:35:46] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[21:35:47] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[21:35:48] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[21:35:48] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[21:35:48] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[21:35:48] [Server thread/INFO]: [TAB] Enabled in 555ms
-[21:35:48] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[21:35:49] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[21:35:49] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[21:35:49] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[21:35:49] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[21:35:49] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[21:35:49] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[21:35:49] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[21:35:49] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[21:35:49] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[21:35:49] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1421ms
-[21:35:49] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[21:35:49] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[21:35:49] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[21:35:49] [Server thread/INFO]: [SkBee]  - 56 events
-[21:35:49] [Server thread/INFO]: [SkBee]  - 71 effects
-[21:35:49] [Server thread/INFO]: [SkBee]  - 240 expressions
-[21:35:49] [Server thread/INFO]: [SkBee]  - 27 conditions
-[21:35:49] [Server thread/INFO]: [SkBee]  - 32 sections
-[21:35:49] [Server thread/INFO]: [SkBee]  - 11 properties
-[21:35:49] [Server thread/INFO]: [SkBee] Update checker disabled!
-[21:35:49] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.77 seconds
-[21:35:49] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[21:35:49] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[21:35:49] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[21:35:49] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[21:35:49] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[21:35:49] [Server thread/INFO]: [spark] Starting background profiler...
-[21:35:50] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[21:35:50] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[21:35:50] [Server thread/INFO]: Running delayed init tasks
-[21:35:50] [Server thread/INFO]: [Skript] Loading variables...
-[21:35:50] [Server thread/INFO]: [Skript] Loaded 309 variables in 0.0 seconds
-[21:35:55] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[21:35:55] [Server thread/INFO]: [Skript] Loaded 23 scripts with a total of 197 structures in 5.13 seconds
-[21:35:55] [Server thread/INFO]: [Skript] Finished loading.
-[21:35:55] [Server thread/INFO]: Done (24.821s)! For help, type "help"
-[21:35:55] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
-[21:35:55] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[21:37:17] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[21:37:17] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[21:37:20] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[21:37:20] [Server thread/INFO]: trololol72[/127.0.0.1:60645] logged in with entity id 1 at ([world]520.1140391389985, 325.9943438141238, 496.53433435247706)
-[21:37:21] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[21:37:21] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[21:37:53] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:37:59] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:45:18] [Server thread/INFO]: trololol72 issued server command: //wand
-[21:45:32] [Server thread/INFO]: trololol72 issued server command: //pos2
-[21:45:36] [Server thread/INFO]: trololol72 issued server command: //set dirt
-[21:45:36] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
-[21:47:34] [Server thread/INFO]: trololol72 issued server command: /effect clear
-[21:47:34] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
-[21:48:13] [Server thread/INFO]: trololol72 issued server command: //set air
-[21:48:25] [Server thread/INFO]: trololol72 issued server command: /weather clear
-[21:48:25] [Server thread/INFO]: [trololol72: Set the weather to clear]
-[21:48:42] [Server thread/INFO]: trololol72 issued server command: /time set dayt
-[21:48:44] [Server thread/INFO]: trololol72 issued server command: /time set day
-[21:48:44] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[21:49:27] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision infinite 1 true
-[21:49:27] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
-[21:49:37] [Server thread/INFO]: trololol72 issued server command: /give @a minecraft:command_block
-[21:49:37] [Server thread/INFO]: [trololol72: Gave 1 [Command Block] to trololol72]
-[21:59:37] [Server thread/INFO]: trololol72 issued server command: /time set day
-[21:59:37] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[22:20:27] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:20:27] [Server thread/INFO]: Line 27: (enclosure.sk)
-[22:20:27] [Server thread/INFO]:     Can't understand this loop: '{_dir::poses::{_index}::*}'
-[22:20:27] [Server thread/INFO]:     Line: loop {_dir::poses::{_index}::*}:
-[22:20:27] [Server thread/INFO]:  
-[22:20:27] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (121ms)
-[22:20:46] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:20:46] [Server thread/INFO]: Successfully reloaded enclosure.sk. (42ms)
-[22:25:12] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:25:12] [Server thread/INFO]: Line 40: (enclosure.sk)
-[22:25:12] [Server thread/INFO]:     indentation error: expected 0 spaces, but found 4 spaces
-[22:25:12] [Server thread/INFO]:     Line: permission: op
-[22:25:12] [Server thread/INFO]:  
-[22:25:12] [Server thread/INFO]: Line 41: (enclosure.sk)
-[22:25:12] [Server thread/INFO]:     indentation error: expected 0 spaces, but found 4 spaces
-[22:25:12] [Server thread/INFO]:     Line: usage: /enc_add <direction> <index> <location>
-[22:25:12] [Server thread/INFO]:  
-[22:25:12] [Server thread/INFO]: Line 42: (enclosure.sk)
-[22:25:12] [Server thread/INFO]:     indentation error: expected 0 spaces, but found 4 spaces
-[22:25:12] [Server thread/INFO]:     Line: trigger:
-[22:25:12] [Server thread/INFO]:  
-[22:25:12] [Server thread/INFO]: Line 43: (enclosure.sk)
-[22:25:12] [Server thread/INFO]:     indentation error: expected 0 spaces, but found 8 spaces
-[22:25:12] [Server thread/INFO]:     Line: set {_dir} to -1
-[22:25:12] [Server thread/INFO]:  
-[22:25:12] [Server thread/INFO]: Line 39: (enclosure.sk)
-[22:25:12] [Server thread/INFO]:     Can't understand this structure: command /enc_add <text> <text> <location>
-[22:25:12] [Server thread/INFO]:     Line: command /enc_add <text> <text> <location>
-[22:25:12] [Server thread/INFO]:  
-[22:25:12] [Server thread/INFO]:     Encountered 5 errors while reloading enclosure.sk! (49ms)
-[22:25:30] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:25:30] [Server thread/INFO]: Line 40: (enclosure.sk)
-[22:25:30] [Server thread/INFO]:     indentation error: expected 0 spaces, but found 4 spaces
-[22:25:30] [Server thread/INFO]:     Line: permission: op
-[22:25:30] [Server thread/INFO]:  
-[22:25:30] [Server thread/INFO]: Line 41: (enclosure.sk)
-[22:25:30] [Server thread/INFO]:     indentation error: expected 0 spaces, but found 4 spaces
-[22:25:30] [Server thread/INFO]:     Line: usage: "/enc_add <direction> <index> <location>"
-[22:25:30] [Server thread/INFO]:  
-[22:25:30] [Server thread/INFO]: Line 42: (enclosure.sk)
-[22:25:30] [Server thread/INFO]:     indentation error: expected 0 spaces, but found 4 spaces
-[22:25:30] [Server thread/INFO]:     Line: trigger:
-[22:25:30] [Server thread/INFO]:  
-[22:25:30] [Server thread/INFO]: Line 43: (enclosure.sk)
-[22:25:30] [Server thread/INFO]:     indentation error: expected 0 spaces, but found 8 spaces
-[22:25:30] [Server thread/INFO]:     Line: set {_dir} to -1
-[22:25:30] [Server thread/INFO]:  
-[22:25:30] [Server thread/INFO]: Line 39: (enclosure.sk)
-[22:25:30] [Server thread/INFO]:     Can't understand this structure: command /enc_add <text> <text> <location>
-[22:25:30] [Server thread/INFO]:     Line: command /enc_add <text> <text> <location>
-[22:25:30] [Server thread/INFO]:  
-[22:25:30] [Server thread/INFO]:     Encountered 5 errors while reloading enclosure.sk! (47ms)
-[22:27:02] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:27:02] [Server thread/INFO]: Line 39: (enclosure.sk)
-[22:27:02] [Server thread/INFO]:     Can't use location as argument of a command
-[22:27:02] [Server thread/INFO]:     Line: command /enc_add <text> <text> <location>:
-[22:27:02] [Server thread/INFO]:  
-[22:27:02] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (41ms)
-[22:28:21] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:28:21] [Server thread/INFO]: Successfully reloaded enclosure.sk. (42ms)
-[22:37:45] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:37:45] [Server thread/INFO]: Successfully reloaded enclosure.sk. (62ms)
-[22:42:52] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:42:52] [Server thread/INFO]: Line 65: (enclosure.sk)
-[22:42:52] [Server thread/INFO]:     indentation error: expected 12 spaces, but found 16 spaces
-[22:42:52] [Server thread/INFO]:     Line: set {_index} to loop-value-2
-[22:42:52] [Server thread/INFO]:  
-[22:42:52] [Server thread/INFO]: Line 68: (enclosure.sk)
-[22:42:52] [Server thread/INFO]:     indentation error: expected 12 spaces, but found 16 spaces
-[22:42:52] [Server thread/INFO]:     Line: loop {_dir::poses::_index::*}:
-[22:42:52] [Server thread/INFO]:  
-[22:42:52] [Server thread/INFO]: Line 69: (enclosure.sk)
-[22:42:52] [Server thread/INFO]:     indentation error: expected 12 spaces, but found 20 spaces
-[22:42:52] [Server thread/INFO]:     Line: set {_current_loc} to loop-value-3
-[22:42:52] [Server thread/INFO]:  
-[22:42:52] [Server thread/INFO]: Line 70: (enclosure.sk)
-[22:42:52] [Server thread/INFO]:     indentation error: expected 12 spaces, but found 20 spaces
-[22:42:52] [Server thread/INFO]:     Line: broadcast "- %loop-index%: %loop-index-2%: %{_current_loc}%"
-[22:42:52] [Server thread/INFO]:  
-[22:42:52] [Server thread/INFO]: Line 64: (enclosure.sk)
-[22:42:52] [Server thread/INFO]:     Can't understand this condition/effect: loop {_dir::*}
-[22:42:52] [Server thread/INFO]:     Line: loop {_dir::*}
-[22:42:52] [Server thread/INFO]:  
-[22:42:52] [Server thread/INFO]:     Encountered 5 errors while reloading enclosure.sk! (56ms)
-[22:42:59] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:42:59] [Server thread/INFO]: Line 70: (enclosure.sk)
-[22:42:59] [Server thread/INFO]:     There are multiple loops that match loop-index. Use loop-index-1/2/3/etc. to specify which loop's value you want.
-[22:42:59] [Server thread/INFO]:     Line: broadcast "- %loop-index%: %loop-index-2%: %{_current_loc}%"
-[22:42:59] [Server thread/INFO]:  
-[22:42:59] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (64ms)
-[22:43:22] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:43:22] [Server thread/INFO]: Successfully reloaded enclosure.sk. (56ms)
-[22:43:47] [Server thread/INFO]: trololol72 issued server command: /enc_list
-[22:43:47] [Server thread/INFO]: enclosure stripts locations:
-[22:44:03] [Server thread/INFO]: trololol72 issued server command: /enc_add nw 1 ~ ~ ~
-[22:44:43] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:44:43] [Server thread/INFO]: Successfully reloaded enclosure.sk. (70ms)
-[22:44:52] [Server thread/INFO]: trololol72 issued server command: /enc_add nw 1
-[22:46:09] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:46:09] [Server thread/INFO]: Line 19: (enclosure.sk)
-[22:46:09] [Server thread/INFO]:     Can't understand this expression: msg
-[22:46:09] [Server thread/INFO]:     Line: broadcast "&2[ENCLOSURE] &r%msg%"
-[22:46:09] [Server thread/INFO]:  
-[22:46:09] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (56ms)
-[22:46:33] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:46:33] [Server thread/INFO]: Successfully reloaded enclosure.sk. (56ms)
-[22:49:45] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:49:45] [Server thread/INFO]: Successfully reloaded enclosure.sk. (65ms)
-[22:49:52] [Server thread/INFO]: trololol72 issued server command: /time set day
-[22:49:52] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[22:50:02] [Server thread/INFO]: trololol72 issued server command: /enc_add nw 1
-[22:50:02] [Server thread/INFO]: [ENCLOSURE] <none>
-[22:50:24] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:50:24] [Server thread/INFO]: Line 21: (enclosure.sk)
-[22:50:24] [Server thread/INFO]:     Can't understand this condition/effect: broadcast "&2[ENCLOSURE] &r" + msg
-[22:50:24] [Server thread/INFO]:     Line: broadcast "&2[ENCLOSURE] &r" + msg
-[22:50:24] [Server thread/INFO]:  
-[22:50:24] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (66ms)
-[22:50:52] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:50:52] [Server thread/INFO]: Line 21: (enclosure.sk)
-[22:50:52] [Server thread/INFO]:     Invalid amount or placement of brackets. Please make sure that each opening bracket has a corresponding closing bracket.
-[22:50:52] [Server thread/INFO]:     Line: broadcast "&2[ENCLOSURE] &r{_msg}%"
-[22:50:52] [Server thread/INFO]:  
-[22:50:52] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (53ms)
-[22:51:01] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:51:01] [Server thread/INFO]: Successfully reloaded enclosure.sk. (63ms)
-[22:51:14] [Server thread/INFO]: trololol72 issued server command: /enc_add nw 1
-[22:51:14] [Server thread/INFO]: [ENCLOSURE] added x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world' to <none>, 1
-[22:51:26] [Server thread/INFO]: trololol72 issued server command: /enc_list
-[22:51:26] [Server thread/INFO]: enclosure stripts locations:
-[22:52:23] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:52:23] [Server thread/INFO]: Successfully reloaded enclosure.sk. (68ms)
-[22:52:28] [Server thread/INFO]: trololol72 issued server command: /enc_add nr 1
-[22:52:28] [Server thread/INFO]: wrong direction: nr
-[22:52:50] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:52:51] [Server thread/INFO]: Successfully reloaded enclosure.sk. (75ms)
-[22:52:53] [Server thread/INFO]: trololol72 issued server command: /enc_add nr 1
-[22:52:53] [Server thread/INFO]: wrong direction: nr
-[22:52:59] [Server thread/INFO]: trololol72 issued server command: /enc_add nw 1
-[22:52:59] [Server thread/INFO]: [ENCLOSURE] added x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world' to <none>, 1
-[22:53:47] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:53:47] [Server thread/INFO]: Successfully reloaded enclosure.sk. (48ms)
-[22:53:50] [Server thread/INFO]: trololol72 issued server command: /enc_list
-[22:53:50] [Server thread/INFO]: enclosure stripts locations:
-[22:57:10] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:57:10] [Server thread/INFO]: Successfully reloaded enclosure.sk. (47ms)
-[22:57:31] [Server thread/INFO]: trololol72 issued server command: /enc_add nw 1
-[22:57:31] [Server thread/INFO]: [ENCLOSURE] added x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world' to nw, 1
-[22:57:35] [Server thread/INFO]: trololol72 issued server command: /enc_list
-[22:57:35] [Server thread/INFO]: enclosure stripts locations:
-[22:59:17] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[22:59:17] [Server thread/INFO]: Line 60: (enclosure.sk)
-[22:59:17] [Server thread/INFO]:     Can't use block as argument of a command
-[22:59:17] [Server thread/INFO]:     Line: command /enc_trigger <text> <text> <block>:
-[22:59:17] [Server thread/INFO]:  
-[22:59:17] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (61ms)
-[23:01:50] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:01:50] [Server thread/INFO]: Line 64: (enclosure.sk)
-[23:01:50] [Server thread/INFO]:     the 2nd argument is not an item type
-[23:01:50] [Server thread/INFO]:     Line: set_strip(arg-2,arg-1)
-[23:01:50] [Server thread/INFO]:  
-[23:01:50] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (47ms)
-[23:02:08] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:02:08] [Server thread/INFO]: Successfully reloaded enclosure.sk. (54ms)
-[23:02:26] [Server thread/INFO]: trololol72 issued server command: /enc_trigger 1 bedrock
-[23:05:27] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:05:27] [Server thread/INFO]: Successfully reloaded enclosure.sk. (53ms)
-[23:05:30] [Server thread/INFO]: trololol72 issued server command: /enc_trigger 1 bedrock
-[23:05:30] [Server thread/INFO]: [ENCLOSURE] looping directions. index: 1
-[23:05:38] [Server thread/INFO]: trololol72 issued server command: /enc_list
-[23:05:38] [Server thread/INFO]: enclosure stripts locations:
-[23:06:27] [Server thread/INFO]: trololol72 issued server command: /enc_add se 1
-[23:06:27] [Server thread/INFO]: [ENCLOSURE] added x: 519, y: 76, z: -505, yaw: 0, pitch: 0 in 'world' to se, 1
-[23:11:28] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:11:28] [Server thread/INFO]: Line 37: (enclosure.sk)
-[23:11:28] [Server thread/INFO]:     There are multiple loops that match loop-value. Use loop-value-1/2/3/etc. to specify which loop's value you want.
-[23:11:28] [Server thread/INFO]:     Line: set {_current_loc} to loop-value
-[23:11:28] [Server thread/INFO]:  
-[23:11:28] [Server thread/INFO]: Line 8: (enclosure.sk)
-[23:11:28] [Server thread/INFO]:     Invalid use of quotes ("). If you want to use quotes in "quoted text", double them: "".
-[23:11:28] [Server thread/INFO]:     Line: set {enc::dirs::"%nw%""::xadd} to -1
-[23:11:28] [Server thread/INFO]:  
-[23:11:28] [Server thread/INFO]: Line 9: (enclosure.sk)
-[23:11:28] [Server thread/INFO]:     Invalid use of quotes ("). If you want to use quotes in "quoted text", double them: "".
-[23:11:28] [Server thread/INFO]:     Line: set {enc::dirs::"%nw%""::zadd} to -1
-[23:11:28] [Server thread/INFO]:  
-[23:11:28] [Server thread/INFO]: Line 10: (enclosure.sk)
-[23:11:28] [Server thread/INFO]:     Invalid use of quotes ("). If you want to use quotes in "quoted text", double them: "".
-[23:11:28] [Server thread/INFO]:     Line: set {enc::dirs::"%ne%""::xadd} to 1
-[23:11:28] [Server thread/INFO]:  
-[23:11:28] [Server thread/INFO]: Line 11: (enclosure.sk)
-[23:11:28] [Server thread/INFO]:     Invalid use of quotes ("). If you want to use quotes in "quoted text", double them: "".
-[23:11:28] [Server thread/INFO]:     Line: set {enc::dirs::"%ne%""::zadd} to -1
-[23:11:28] [Server thread/INFO]:  
-[23:11:28] [Server thread/INFO]: Line 12: (enclosure.sk)
-[23:11:28] [Server thread/INFO]:     Invalid use of quotes ("). If you want to use quotes in "quoted text", double them: "".
-[23:11:28] [Server thread/INFO]:     Line: set {enc::dirs::"%sw%""::xadd} to -1
-[23:11:28] [Server thread/INFO]:  
-[23:11:28] [Server thread/INFO]: Line 13: (enclosure.sk)
-[23:11:28] [Server thread/INFO]:     Invalid use of quotes ("). If you want to use quotes in "quoted text", double them: "".
-[23:11:28] [Server thread/INFO]:     Line: set {enc::dirs::"%sw%""::zadd} to 1
-[23:11:28] [Server thread/INFO]:  
-[23:11:28] [Server thread/INFO]: Line 14: (enclosure.sk)
-[23:11:28] [Server thread/INFO]:     Invalid use of quotes ("). If you want to use quotes in "quoted text", double them: "".
-[23:11:28] [Server thread/INFO]:     Line: set {enc::dirs::"%se%""::xadd} to 1
-[23:11:28] [Server thread/INFO]:  
-[23:11:28] [Server thread/INFO]: Line 15: (enclosure.sk)
-[23:11:28] [Server thread/INFO]:     Invalid use of quotes ("). If you want to use quotes in "quoted text", double them: "".
-[23:11:28] [Server thread/INFO]:     Line: set {enc::dirs::"%se%""::zadd} to 1
-[23:11:28] [Server thread/INFO]:  
-[23:11:28] [Server thread/INFO]:     Encountered 9 errors while reloading enclosure.sk! (63ms)
-[23:12:08] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:12:08] [Server thread/INFO]: Line 33: (enclosure.sk)
-[23:12:08] [Server thread/INFO]:     There are multiple loops that match loop-value. Use loop-value-1/2/3/etc. to specify which loop's value you want.
-[23:12:08] [Server thread/INFO]:     Line: set {_current_loc} to loop-value
-[23:12:08] [Server thread/INFO]:  
-[23:12:08] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (71ms)
-[23:12:21] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:12:22] [Server thread/INFO]: Successfully reloaded enclosure.sk. (50ms)
-[23:12:30] [Server thread/INFO]: trololol72 issued server command: /enc_list
-[23:12:30] [Server thread/INFO]: Enclosure strip locations:
-[23:12:30] [Server thread/INFO]: - nw | Index 1: x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world'
-[23:12:30] [Server thread/INFO]: - se | Index 1: x: 519, y: 76, z: -505, yaw: 0, pitch: 0 in 'world'
-[23:12:42] [Server thread/INFO]: trololol72 issued server command: /enc_trigger 1 bedrock
-[23:12:42] [Server thread/INFO]: [ENCLOSURE] looping directions. index: 1
-[23:13:40] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:13:40] [Server thread/INFO]: Successfully reloaded enclosure.sk. (54ms)
-[23:13:44] [Server thread/INFO]: trololol72 issued server command: /enc_trigger 1 bedrock
-[23:13:44] [Server thread/INFO]: [ENCLOSURE] looping directions. index: 1
-[23:14:22] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:14:23] [Server thread/INFO]: Successfully reloaded enclosure.sk. (59ms)
-[23:14:25] [Server thread/INFO]: trololol72 issued server command: /enc_trigger 1 bedrock
-[23:14:25] [Server thread/INFO]: [ENCLOSURE] looping directions. index: 1
-[23:16:09] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:16:09] [Server thread/INFO]: Successfully reloaded enclosure.sk. (43ms)
-[23:16:25] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:16:25] [Server thread/INFO]: Line 33: (enclosure.sk)
-[23:16:25] [Server thread/INFO]:     There are multiple loops that match loop-value. Use loop-value-1/2/3/etc. to specify which loop's value you want.
-[23:16:25] [Server thread/INFO]:     Line: set {_current_loc} to loop-value# <--- Use the current loop's value
-[23:16:25] [Server thread/INFO]:  
-[23:16:25] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (85ms)
-[23:17:40] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:17:40] [Server thread/INFO]: Successfully reloaded enclosure.sk. (64ms)
-[23:17:54] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:17:54] [Server thread/INFO]: Successfully reloaded enclosure.sk. (40ms)
-[23:17:59] [Server thread/INFO]: trololol72 issued server command: /enc_trigger 1 bedrock
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] looping directions. index: 1
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world'
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 523, y: 72, z: -503, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 522, y: 72, z: -504, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 521, y: 72, z: -505, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 519, y: 76, z: -505, yaw: 0, pitch: 0 in 'world'
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 519, y: 76, z: -505, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 520, y: 76, z: -504, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 521, y: 76, z: -503, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:17:59] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 522, y: 76, z: -502, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:18:37] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:18:37] [Server thread/INFO]: Successfully reloaded enclosure.sk. (67ms)
-[23:18:44] [Server thread/INFO]: trololol72 issued server command: /enc_trigger 1 glass
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] looping directions. index: 1
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world'
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world' to glass
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 523, y: 72, z: -503, yaw: 0, pitch: 0 in 'world' to glass
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 522, y: 72, z: -504, yaw: 0, pitch: 0 in 'world' to glass
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 521, y: 72, z: -505, yaw: 0, pitch: 0 in 'world' to glass
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 519, y: 76, z: -505, yaw: 0, pitch: 0 in 'world'
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 519, y: 76, z: -505, yaw: 0, pitch: 0 in 'world' to glass
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 520, y: 76, z: -504, yaw: 0, pitch: 0 in 'world' to glass
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 521, y: 76, z: -503, yaw: 0, pitch: 0 in 'world' to glass
-[23:18:44] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 522, y: 76, z: -502, yaw: 0, pitch: 0 in 'world' to glass
-[23:18:47] [Server thread/INFO]: trololol72 issued server command: /enc_trigger 1 air
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] looping directions. index: 1
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world'
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world' to air
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 523, y: 72, z: -503, yaw: 0, pitch: 0 in 'world' to air
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 522, y: 72, z: -504, yaw: 0, pitch: 0 in 'world' to air
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 521, y: 72, z: -505, yaw: 0, pitch: 0 in 'world' to air
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 519, y: 76, z: -505, yaw: 0, pitch: 0 in 'world'
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 519, y: 76, z: -505, yaw: 0, pitch: 0 in 'world' to air
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 520, y: 76, z: -504, yaw: 0, pitch: 0 in 'world' to air
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 521, y: 76, z: -503, yaw: 0, pitch: 0 in 'world' to air
-[23:18:47] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 522, y: 76, z: -502, yaw: 0, pitch: 0 in 'world' to air
-[23:19:00] [Server thread/INFO]: trololol72 issued server command: /enc_add ne 1
-[23:19:00] [Server thread/INFO]: [ENCLOSURE] added x: 530, y: 72, z: -502, yaw: 0, pitch: 0 in 'world' to ne, 1
-[23:19:04] [Server thread/INFO]: trololol72 issued server command: /enc_trigger 1 glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] looping directions. index: 1
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world'
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world' to glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 523, y: 72, z: -503, yaw: 0, pitch: 0 in 'world' to glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 522, y: 72, z: -504, yaw: 0, pitch: 0 in 'world' to glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 521, y: 72, z: -505, yaw: 0, pitch: 0 in 'world' to glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 530, y: 72, z: -502, yaw: 0, pitch: 0 in 'world'
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 530, y: 72, z: -502, yaw: 0, pitch: 0 in 'world' to glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 531, y: 72, z: -503, yaw: 0, pitch: 0 in 'world' to glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 532, y: 72, z: -504, yaw: 0, pitch: 0 in 'world' to glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 533, y: 72, z: -505, yaw: 0, pitch: 0 in 'world' to glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 519, y: 76, z: -505, yaw: 0, pitch: 0 in 'world'
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 519, y: 76, z: -505, yaw: 0, pitch: 0 in 'world' to glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 520, y: 76, z: -504, yaw: 0, pitch: 0 in 'world' to glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 521, y: 76, z: -503, yaw: 0, pitch: 0 in 'world' to glass
-[23:19:04] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 522, y: 76, z: -502, yaw: 0, pitch: 0 in 'world' to glass
-[23:20:38] [Server thread/INFO]: trololol72 issued server command: /effect clear
-[23:20:38] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
-[23:33:36] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:33:36] [Server thread/INFO]: Successfully reloaded enclosure.sk. (57ms)
-[23:33:43] [Server thread/INFO]: trololol72 issued server command: /enc_list
-[23:33:43] [Server thread/INFO]: Enclosure strip locations:
-[23:33:43] [Server thread/INFO]: - nw | Index 1: x: 524, y: 72, z: -502, yaw: 0, pitch: 0 in 'world'
-[23:33:44] [Server thread/INFO]: - ne | Index 1: x: 530, y: 72, z: -502, yaw: 0, pitch: 0 in 'world'
-[23:33:44] [Server thread/INFO]: - se | Index 1: x: 519, y: 76, z: -505, yaw: 0, pitch: 0 in 'world'
-[23:33:56] [Server thread/INFO]: trololol72 issued server command: /enc_clear nw 1
-[23:33:56] [Server thread/INFO]: [ENCLOSURE] Cleared all locations for nw at index 1
-[23:34:00] [Server thread/INFO]: trololol72 issued server command: /enc_clear ne 1
-[23:34:00] [Server thread/INFO]: [ENCLOSURE] Cleared all locations for ne at index 1
-[23:34:03] [Server thread/INFO]: trololol72 issued server command: /enc_clear se 1
-[23:34:03] [Server thread/INFO]: [ENCLOSURE] Cleared all locations for se at index 1
-[23:34:04] [Server thread/INFO]: trololol72 issued server command: /enc_list
-[23:34:04] [Server thread/INFO]: Enclosure strip locations:
-[23:34:25] [Server thread/INFO]: trololol72 issued server command: /enc_add
-[23:34:42] [Server thread/INFO]: trololol72 issued server command: /enc_add sw out
-[23:34:42] [Server thread/INFO]: [ENCLOSURE] added x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world' to sw, out
-[23:34:48] [Server thread/INFO]: trololol72 issued server command: /enc_add sw out
-[23:34:48] [Server thread/INFO]: [ENCLOSURE] added x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to sw, out
-[23:35:07] [Server thread/INFO]: trololol72 issued server command: /enc_trigger
-[23:35:17] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out bedrock
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 473, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 472, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 476, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -473, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -472, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:17] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:35:25] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out air
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world' to air
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to air
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 473, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to air
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 472, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to air
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to air
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 476, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to air
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -473, yaw: 0, pitch: 0 in 'world' to air
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -472, yaw: 0, pitch: 0 in 'world' to air
-[23:35:25] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:35:33] [Server thread/INFO]: trololol72 issued server command: /enc_add sw in
-[23:35:33] [Server thread/INFO]: [ENCLOSURE] added x: 477, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to sw, in
-[23:35:38] [Server thread/INFO]: trololol72 issued server command: /enc_add sw in
-[23:35:38] [Server thread/INFO]: [ENCLOSURE] added x: 476, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to sw, in
-[23:35:43] [Server thread/INFO]: trololol72 issued server command: /enc_add sw in
-[23:35:43] [Server thread/INFO]: [ENCLOSURE] added x: 476, y: 72, z: -477, yaw: 0, pitch: 0 in 'world' to sw, in
-[23:35:52] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out bedrock
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 473, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 472, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 476, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -473, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -472, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:52] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:35:58] [Server thread/INFO]: trololol72 issued server command: /enc_trigger in bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] looping directions. index: in
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 477, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 476, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -473, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 476, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 473, y: 72, z: -473, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 476, y: 72, z: -477, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 473, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to bedrock
-[23:35:58] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:36:03] [Server thread/INFO]: trololol72 issued server command: /enc_trigger in air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] looping directions. index: in
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 477, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 476, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -473, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 476, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 473, y: 72, z: -473, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 476, y: 72, z: -477, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 473, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to air
-[23:36:03] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:36:09] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out air
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world' to air
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to air
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 473, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to air
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 472, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to air
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to air
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 476, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to air
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -473, yaw: 0, pitch: 0 in 'world' to air
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -472, yaw: 0, pitch: 0 in 'world' to air
-[23:36:09] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:36:22] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out air
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world' to air
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -476, yaw: 0, pitch: 0 in 'world' to air
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 473, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to air
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 472, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to air
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world' to air
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 476, y: 72, z: -474, yaw: 0, pitch: 0 in 'world' to air
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 475, y: 72, z: -473, yaw: 0, pitch: 0 in 'world' to air
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - - - setting x: 474, y: 72, z: -472, yaw: 0, pitch: 0 in 'world' to air
-[23:36:22] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:36:26] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
-[23:36:26] [Server thread/INFO]: Successfully reloaded enclosure.sk. (58ms)
-[23:36:30] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out air
-[23:36:30] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
-[23:36:30] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
-[23:36:30] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
-[23:36:30] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
-[23:36:30] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
-[23:36:30] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
-[23:36:30] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
-[23:38:19] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[23:38:19] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[23:38:23] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[23:38:23] [Server thread/INFO]: Stopping server
-[23:38:23] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[23:38:23] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[23:38:23] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[23:38:23] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[23:38:23] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[23:38:23] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[23:38:23] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[23:38:23] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[23:38:23] [Server thread/INFO]: [TAB] Disabled in 1ms
-[23:38:23] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[23:38:23] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[23:38:23] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[23:38:23] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[23:38:23] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[23:38:23] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[23:38:23] [Server thread/INFO]: [LuckPerms] Closing storage...
-[23:38:23] [Server thread/INFO]: [LuckPerms] Goodbye!
-[23:38:23] [Server thread/INFO]: Saving players
-[23:38:24] [Server thread/INFO]: Saving worlds
-[23:38:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:38:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:38:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:38:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:38:24] [Server thread/INFO]: [ChunkHolderManager] Saved 12 block chunks, 1128 entity chunks, 0 poi chunks in world 'world' in 0.83s
-[23:38:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[23:38:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[23:38:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[23:38:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[23:38:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[23:38:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:38:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:38:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:38:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:38:25] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[23:38:25] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[23:38:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[23:38:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[23:40:29] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[23:40:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[23:40:31] [ServerMain/INFO]: Loaded 1470 recipes
+[23:40:31] [ServerMain/INFO]: Loaded 1584 advancements
+[23:40:31] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[23:40:32] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 358.8ms
+[23:40:32] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[23:40:32] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[23:40:32] [Server thread/INFO]: Loading properties
+[23:40:32] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[23:40:32] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:40:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:40:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:40:33] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[23:40:33] [Server thread/INFO]: Default game type: SURVIVAL
+[23:40:33] [Server thread/INFO]: Generating keypair
+[23:40:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:40:33] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[23:40:33] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[23:40:33] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[23:40:33] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[23:40:34] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[23:40:34] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[23:40:34] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[23:40:34] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[23:40:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7e27638]
+[23:40:35] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[23:40:35] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[23:40:35] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[23:40:35] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[23:40:36] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[23:40:36] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[23:40:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:40:36] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[23:40:36] [Server thread/INFO]:         __    
+[23:40:36] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[23:40:36] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[23:40:36] [Server thread/INFO]: 
+[23:40:36] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[23:40:36] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[23:40:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[23:40:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 937ms)
+[23:40:37] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[23:40:37] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[23:40:37] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[23:40:37] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[23:40:37] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[23:40:37] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:40:37] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[23:40:38] [Server thread/INFO]: Preparing level "world"
+[23:40:38] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[23:40:38] [Server thread/INFO]: Prepared spawn area in 2 ms
+[23:40:38] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[23:40:38] [Server thread/INFO]: Prepared spawn area in 2 ms
+[23:40:38] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[23:40:38] [Server thread/INFO]: Prepared spawn area in 1 ms
+[23:40:38] [Server thread/INFO]: Done preparing level "world" (0.443s)
+[23:40:38] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[23:40:39] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[23:40:40] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[23:40:40] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[23:40:40] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[23:40:40] [Server thread/INFO]: [TAB] Enabled in 409ms
+[23:40:40] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[23:40:40] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[23:40:41] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[23:40:41] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[23:40:41] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[23:40:41] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[23:40:41] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[23:40:41] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[23:40:41] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[23:40:41] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[23:40:41] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1289ms
+[23:40:41] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[23:40:41] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[23:40:41] [Server thread/INFO]: [SkBee]  - 56 events
+[23:40:41] [Server thread/INFO]: [SkBee]  - 71 effects
+[23:40:41] [Server thread/INFO]: [SkBee]  - 240 expressions
+[23:40:41] [Server thread/INFO]: [SkBee]  - 27 conditions
+[23:40:41] [Server thread/INFO]: [SkBee]  - 32 sections
+[23:40:41] [Server thread/INFO]: [SkBee]  - 11 properties
+[23:40:41] [Server thread/INFO]: [SkBee] Update checker disabled!
+[23:40:41] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.73 seconds
+[23:40:41] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[23:40:41] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[23:40:41] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[23:40:41] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[23:40:41] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[23:40:41] [Server thread/INFO]: [spark] Starting background profiler...
+[23:40:41] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[23:40:41] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[23:40:42] [Server thread/INFO]: Running delayed init tasks
+[23:40:42] [Server thread/INFO]: [Skript] Loading variables...
+[23:40:42] [Server thread/INFO]: [Skript] Loaded 340 variables in 0.0 seconds
+[23:40:47] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[23:40:47] [Server thread/INFO]: [Skript] Loaded 24 scripts with a total of 204 structures in 5.37 seconds
+[23:40:47] [Server thread/INFO]: [Skript] Finished loading.
+[23:40:47] [Server thread/INFO]: Done (26.821s)! For help, type "help"
+[23:40:47] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
+[23:40:47] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[23:48:16] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[23:48:16] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[23:48:18] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[23:48:19] [Server thread/INFO]: trololol72[/127.0.0.1:62012] logged in with entity id 1 at ([world]480.86806778591415, 72.0, -479.79392910375776)
+[23:48:19] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[23:48:19] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[23:49:08] [Server thread/INFO]: trololol72 issued server command: /time set day
+[23:49:08] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[23:51:12] [Server thread/INFO]: trololol72 issued server command: /enc_add se out
+[23:51:12] [Server thread/INFO]: [ENCLOSURE] added x: 549, y: 68, z: -477, yaw: 0, pitch: 0 in 'world' to se, out
+[23:51:20] [Server thread/INFO]: trololol72 issued server command: /enc_add se out
+[23:51:20] [Server thread/INFO]: [ENCLOSURE] added x: 547, y: 68, z: -475, yaw: 0, pitch: 0 in 'world' to se, out
+[23:51:28] [Server thread/INFO]: trololol72 issued server command: /enc_add se in
+[23:51:28] [Server thread/INFO]: [ENCLOSURE] added x: 547, y: 68, z: -476, yaw: 0, pitch: 0 in 'world' to se, in
+[23:51:31] [Server thread/INFO]: trololol72 issued server command: /enc_add se in
+[23:51:31] [Server thread/INFO]: [ENCLOSURE] added x: 548, y: 68, z: -477, yaw: 0, pitch: 0 in 'world' to se, in
+[23:51:34] [Server thread/INFO]: trololol72 issued server command: /enc_add se in
+[23:51:34] [Server thread/INFO]: [ENCLOSURE] added x: 548, y: 68, z: -476, yaw: 0, pitch: 0 in 'world' to se, in
+[23:51:44] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out air
+[23:51:44] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
+[23:51:44] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:51:44] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:51:44] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:51:44] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:51:44] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:51:44] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:51:44] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 549, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:51:44] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:51:46] [Server thread/INFO]: trololol72 issued server command: /enc_add se in
+[23:51:46] [Server thread/INFO]: [ENCLOSURE] added x: 546, y: 68, z: -478, yaw: 0, pitch: 0 in 'world' to se, in
+[23:51:57] [Server thread/INFO]: trololol72 issued server command: /enc_clear se in
+[23:51:57] [Server thread/INFO]: [ENCLOSURE] Cleared all locations for se at index in
+[23:52:05] [Server thread/INFO]: trololol72 issued server command: /enc_add se in
+[23:52:05] [Server thread/INFO]: [ENCLOSURE] added x: 548, y: 68, z: -477, yaw: 0, pitch: 0 in 'world' to se, in
+[23:52:08] [Server thread/INFO]: trololol72 issued server command: /enc_add se in
+[23:52:08] [Server thread/INFO]: [ENCLOSURE] added x: 548, y: 68, z: -476, yaw: 0, pitch: 0 in 'world' to se, in
+[23:52:09] [Server thread/INFO]: trololol72 issued server command: /enc_add se in
+[23:52:09] [Server thread/INFO]: [ENCLOSURE] added x: 547, y: 68, z: -476, yaw: 0, pitch: 0 in 'world' to se, in
+[23:52:13] [Server thread/INFO]: trololol72 issued server command: /enc_list
+[23:52:13] [Server thread/INFO]: Enclosure strip locations:
+[23:52:34] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out bedrock
+[23:52:34] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
+[23:52:34] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:52:34] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:52:34] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:52:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:52:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:52:34] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:52:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 549, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:52:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:52:38] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out air
+[23:52:38] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
+[23:52:38] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:52:38] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:52:38] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:52:38] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:52:38] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:52:38] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:52:38] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 549, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:52:38] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:52:42] [Server thread/INFO]: trololol72 issued server command: /enc_trigger in air
+[23:52:42] [Server thread/INFO]: [ENCLOSURE] looping directions. index: in
+[23:52:42] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:52:42] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:52:42] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:52:42] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:52:42] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:52:42] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:52:42] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:52:42] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:52:42] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 68, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:52:42] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:53:32] [Server thread/INFO]: trololol72 issued server command: /enc_add ne out
+[23:53:32] [Server thread/INFO]: [ENCLOSURE] added x: 549, y: 73, z: -547, yaw: 0, pitch: 0 in 'world' to ne, out
+[23:53:36] [Server thread/INFO]: trololol72 issued server command: /enc_add ne out
+[23:53:36] [Server thread/INFO]: [ENCLOSURE] added x: 547, y: 73, z: -549, yaw: 0, pitch: 0 in 'world' to ne, out
+[23:53:43] [Server thread/INFO]: trololol72 issued server command: /enc_add ne in
+[23:53:43] [Server thread/INFO]: [ENCLOSURE] added x: 547, y: 73, z: -548, yaw: 0, pitch: 0 in 'world' to ne, in
+[23:53:47] [Server thread/INFO]: trololol72 issued server command: /enc_add ne in
+[23:53:47] [Server thread/INFO]: [ENCLOSURE] added x: 548, y: 73, z: -548, yaw: 0, pitch: 0 in 'world' to ne, in
+[23:53:51] [Server thread/INFO]: trololol72 issued server command: /enc_add ne in
+[23:53:51] [Server thread/INFO]: [ENCLOSURE] added x: 548, y: 73, z: -547, yaw: 0, pitch: 0 in 'world' to ne, in
+[23:54:04] [Server thread/INFO]: trololol72 issued server command: /enc_trigger in air
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] looping directions. index: in
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 73, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 73, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 73, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 68, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:54:04] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:54:08] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out air
+[23:54:08] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
+[23:54:08] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:54:08] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:54:08] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 549, y: 73, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:54:08] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 73, z: -549, yaw: 0, pitch: 0 in 'world'
+[23:54:08] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:54:08] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:54:08] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:54:08] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:54:08] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 549, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:54:08] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:56:29] [Server thread/INFO]: trololol72 issued server command: /enc_add nw out
+[23:56:29] [Server thread/INFO]: [ENCLOSURE] added x: 475, y: 72, z: -547, yaw: 0, pitch: 0 in 'world' to nw, out
+[23:56:33] [Server thread/INFO]: trololol72 issued server command: /enc_add nw out
+[23:56:33] [Server thread/INFO]: [ENCLOSURE] added x: 477, y: 72, z: -549, yaw: 0, pitch: 0 in 'world' to nw, out
+[23:56:38] [Server thread/INFO]: trololol72 issued server command: /enc_add nw in
+[23:56:38] [Server thread/INFO]: [ENCLOSURE] added x: 477, y: 72, z: -548, yaw: 0, pitch: 0 in 'world' to nw, in
+[23:56:44] [Server thread/INFO]: trololol72 issued server command: /enc_add nw in
+[23:56:44] [Server thread/INFO]: [ENCLOSURE] added x: 476, y: 72, z: -548, yaw: 0, pitch: 0 in 'world' to nw, in
+[23:56:47] [Server thread/INFO]: trololol72 issued server command: /enc_add nw in
+[23:56:47] [Server thread/INFO]: [ENCLOSURE] added x: 476, y: 72, z: -547, yaw: 0, pitch: 0 in 'world' to nw, in
+[23:56:57] [Server thread/INFO]: trololol72 issued server command: /enc_trigger in air
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] looping directions. index: in
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 73, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 73, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 73, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 68, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:56:57] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:57:01] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out air
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -549, yaw: 0, pitch: 0 in 'world'
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 549, y: 73, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 73, z: -549, yaw: 0, pitch: 0 in 'world'
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 549, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:57:01] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:57:34] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out bedrock
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -549, yaw: 0, pitch: 0 in 'world'
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 549, y: 73, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 73, z: -549, yaw: 0, pitch: 0 in 'world'
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 549, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:57:34] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: trololol72 issued server command: /enc_trigger in bedrock
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] looping directions. index: in
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 73, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 73, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 73, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 68, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:57:40] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:57:45] [Server thread/INFO]: trololol72 issued server command: /time set night
+[23:57:45] [Server thread/INFO]: [trololol72: Set the time to 13000]
+[23:57:49] [Server thread/INFO]: trololol72 issued server command: /enc_trigger in air
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] looping directions. index: in
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 73, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 73, z: -548, yaw: 0, pitch: 0 in 'world'
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 73, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 476, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 548, y: 68, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:57:49] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -476, yaw: 0, pitch: 0 in 'world'
+[23:57:54] [Server thread/INFO]: trololol72 issued server command: /enc_trigger out air
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] looping directions. index: out
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - looping direction: nw
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -549, yaw: 0, pitch: 0 in 'world'
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - looping direction: ne
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 549, y: 73, z: -547, yaw: 0, pitch: 0 in 'world'
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 73, z: -549, yaw: 0, pitch: 0 in 'world'
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - looping direction: sw
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 475, y: 72, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 477, y: 72, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - looping direction: se
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 549, y: 68, z: -477, yaw: 0, pitch: 0 in 'world'
+[23:57:54] [Server thread/INFO]: [ENCLOSURE] - - looping strip for location: x: 547, y: 68, z: -475, yaw: 0, pitch: 0 in 'world'
+[23:58:10] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[23:58:10] [Server thread/INFO]: trololol72 lost connection: Server is restarting
+[23:58:10] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[23:58:10] [Server thread/INFO]: Stopping server
+[23:58:10] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[23:58:10] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[23:58:10] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[23:58:10] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[23:58:10] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[23:58:10] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[23:58:10] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[23:58:10] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[23:58:10] [Server thread/INFO]: [TAB] Disabled in 1ms
+[23:58:10] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[23:58:10] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[23:58:10] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[23:58:10] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[23:58:10] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[23:58:10] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[23:58:10] [Server thread/INFO]: [LuckPerms] Closing storage...
+[23:58:10] [Server thread/INFO]: [LuckPerms] Goodbye!
+[23:58:10] [Server thread/INFO]: Saving players
+[23:58:10] [Server thread/INFO]: Saving worlds
+[23:58:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:58:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:58:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:58:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:58:11] [Server thread/INFO]: [ChunkHolderManager] Saved 41 block chunks, 970 entity chunks, 0 poi chunks in world 'world' in 0.84s
+[23:58:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[23:58:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[23:58:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:58:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:58:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:58:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:58:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[23:58:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[23:58:11] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[23:58:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:58:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:58:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:58:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:58:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[23:58:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[23:58:12] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[23:58:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:58:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:58:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:58:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:58:12] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[23:58:12] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[23:58:12] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[23:58:12] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
