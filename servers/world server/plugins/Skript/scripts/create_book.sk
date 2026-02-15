@@ -33,6 +33,8 @@ command /give_book <text>:
             eschatology_book(player)
         if arg-1 is "rumi":
             ruminations_ii_book(player)
+        if arg-1 is "enclosure 1":
+            enclosure_note(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -645,3 +647,71 @@ command /update_eschatology <integer>:
         # 6. Finish message
         send "&aScan complete! Replaced &e%{_books_replaced}% &aold books." to player
 #
+function enclosure_note(p: player):
+    set {_book} to a written book named "a note"
+    # set author of {_book} to "GGGG"
+
+    # Page 1: The Intro
+    set {_p1} to ""
+    add "To whoever found this note" to {_p1}
+    add "%nl%My name is &kGGGG&r" to {_p1}
+    add "%nl%I'm not sure how i ended up here" to {_p1}
+
+    # Page 2: The Enclosure Time
+    set {_p2} to ""
+    add "%nl%%nl%I'm not sure how long I've been living in the enclosure for. I lost count after a few years." to {_p1}
+    add "I had hopes of making sense of this messed up world, but I'm sick and suspect my time is near." to {_p2}
+    add "%nl%%nl%I pray that you'll succeed in my stead." to {_p2}
+
+    # Page 3: The Enclosure 
+    set {_p3} to ""
+    add "If you're reading this note you probably already know about the day and night of this place, and how to get out of the enclosure." to {_p3}
+    add "%nl%%nl%It might be tempting to stay outside at dawn, but as you know, night is your friend." to {_p3}
+
+    # Page 4: Temptation
+    set {_p4} to ""
+    add "Not that it gives you a break - the traveler's curse, how the Sahrans call it." to {_p4}
+    add "%nl%%nl%If you do find yourself stuck outside after dawn, try for the mazes. The Sun cannot reach there, they are in the night’s rule." to {_p4}
+
+    # Page 6: The Dangers
+    set {_p6} to ""
+    add "Day and night struggle for power yet again, like everything here." to {_p6}
+    add "%nl%%nl%There's no shortage of dangers outside, but none like the sun." to {_p6}
+
+    # Page 7: The Legend Part 1
+    set {_p7} to ""
+    add "I heard a Skelndornian legend about the sun god’s eclipse. If I read it right, I believe the sun could be killed." to {_p7}
+    add "%nl%%nl%There is a passage there about the sun resting on a lava bed, but I couldn't find an original copy of the book." to {_p7}
+
+    # Page 9: Al Rahim
+    set {_p9} to ""
+    add "The only lava bed I know is Al Rahim at Sahra, but I examined the place throughouly and I don't think it has anything to do with it." to {_p9}
+
+    # Page 10: The Search
+    set {_p10} to ""
+    add "I tried searching for the book. The Skelndornians are said to live underground, but it's not easy to mine and look for them when the sun is at your back." to {_p10}
+
+    # Page 11: Wishes
+    set {_p11} to ""
+    add "I wish that you would succeed in my place, stranger." to {_p11}
+    add "%nl%%nl%This hostile world is depressing, but even the vengeful sun warms us with light." to {_p11}
+
+    # Page 12: The Quote
+    set {_p12} to ""
+    add "As the Sahrans say," to {_p12}
+    add "%nl%%nl%&o“Oh heat, love us;" to {_p12}
+    add "%nl%For Aten is a harsh, and a cruel, and a cold mistress;" to {_p12}
+    add "%nl%%nl%And the heat gives us power to live on.”&r" to {_p12}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p6}
+    set page 6 of {_book} to {_p7}
+    set page 7 of {_book} to {_p9}
+    set page 8 of {_book} to {_p10}
+    set page 9 of {_book} to {_p11}
+    set page 10 of {_book} to {_p12}
+
+    give {_book} to {_p}
