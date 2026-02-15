@@ -69,7 +69,7 @@ command /enc_add <text> <text>:
 #
 command /enc_trigger <text> <item type>:
     permission: op
-    usage: "&cUsage: /enc_add <index> <item type>"
+    usage: "&cUsage: /enc_trigger <index> <item type>"
     trigger:
         set_strip(arg-2,arg-1)
 #
