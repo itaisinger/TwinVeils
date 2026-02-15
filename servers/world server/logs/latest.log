@@ -1,383 +1,252 @@
-[12:17:43] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[12:17:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[12:17:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[12:17:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[12:17:45] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[13:03:44] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[13:03:44] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[13:03:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:03:46] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[13:03:46] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[12:17:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[13:03:46] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[12:17:49] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[12:17:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[12:17:52] [ServerMain/INFO]: Loaded 1470 recipes
-[12:17:52] [ServerMain/INFO]: Loaded 1584 advancements
-[12:17:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[12:17:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 333.1ms
-[12:17:53] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[12:17:53] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[12:17:53] [Server thread/INFO]: Loading properties
-[12:17:53] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[12:17:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[12:17:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:17:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:17:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[12:17:54] [Server thread/INFO]: Default game type: SURVIVAL
-[12:17:54] [Server thread/INFO]: Generating keypair
-[12:17:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:17:54] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:17:54] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:17:54] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[12:17:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[12:17:54] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[12:17:54] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[12:17:54] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[12:17:55] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[12:17:56] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3c166cc1]
-[12:17:56] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[12:17:56] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[12:17:56] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[12:17:56] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[12:17:57] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[12:17:57] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[12:17:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:17:57] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[12:17:57] [Server thread/INFO]:         __    
-[12:17:57] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[12:17:57] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[12:17:57] [Server thread/INFO]: 
-[12:17:57] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[12:17:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[12:17:58] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[12:17:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1013ms)
-[12:17:58] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[12:17:58] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[12:17:58] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[12:17:58] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[12:17:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[12:17:58] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[12:17:58] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[12:17:59] [Server thread/INFO]: Preparing level "world"
-[12:17:59] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[12:17:59] [Server thread/INFO]: Preparing spawn area: 100%
-[12:17:59] [Server thread/INFO]: Prepared spawn area in 3 ms
-[12:17:59] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[12:17:59] [Server thread/INFO]: Prepared spawn area in 2 ms
-[12:17:59] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[12:17:59] [Server thread/INFO]: Prepared spawn area in 1 ms
-[12:17:59] [Server thread/INFO]: Done preparing level "world" (0.547s)
-[12:17:59] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[12:18:00] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[12:18:01] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[12:18:01] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[12:18:02] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[12:18:02] [Server thread/INFO]: [TAB] Enabled in 579ms
-[12:18:02] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[12:18:02] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[12:18:02] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[12:18:02] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[12:18:02] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[12:18:02] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[12:18:02] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[12:18:02] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[12:18:02] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[12:18:02] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[12:18:02] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1439ms
-[12:18:02] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[12:18:02] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[12:18:03] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[12:18:03] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[12:18:03] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[12:18:03] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[12:18:03] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[12:18:03] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[12:18:03] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[12:18:03] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[12:18:03] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[12:18:03] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[12:18:03] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[12:18:03] [Server thread/INFO]: [SkBee]  - 56 events
-[12:18:03] [Server thread/INFO]: [SkBee]  - 71 effects
-[12:18:03] [Server thread/INFO]: [SkBee]  - 240 expressions
-[12:18:03] [Server thread/INFO]: [SkBee]  - 27 conditions
-[12:18:03] [Server thread/INFO]: [SkBee]  - 32 sections
-[12:18:03] [Server thread/INFO]: [SkBee]  - 11 properties
-[12:18:03] [Server thread/INFO]: [SkBee] Update checker disabled!
-[12:18:03] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.85 seconds
-[12:18:03] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[12:18:03] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[12:18:03] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[12:18:03] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[12:18:03] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[12:18:03] [Server thread/INFO]: [spark] Starting background profiler...
-[12:18:03] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[12:18:03] [Server thread/INFO]: Running delayed init tasks
-[12:18:03] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[12:18:03] [Server thread/INFO]: [Skript] Loading variables...
-[12:18:03] [Server thread/INFO]: [Skript] Loaded 308 variables in 0.0 seconds
-[12:18:08] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[12:18:08] [Server thread/INFO]: [Skript] Loaded 23 scripts with a total of 196 structures in 5.08 seconds
-[12:18:08] [Server thread/INFO]: [Skript] Finished loading.
-[12:18:08] [Server thread/INFO]: Done (25.794s)! For help, type "help"
-[12:18:08] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 27 build(s) behind ***
-[12:18:08] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[12:18:18] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[12:18:18] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[12:18:21] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[12:18:21] [Server thread/INFO]: trololol72[/127.0.0.1:54970] logged in with entity id 1 at ([world]-2190.115484736891, 91.42043699651825, 5023.257079433203)
-[12:18:22] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[12:18:22] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[12:19:05] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/483, uuid='173d93a2-6230-46f1-8586-e685560bc2f0', l='ServerLevel[world]', x=-4459.66, y=27.18, z=-1012.70, cpos=[-279, -64], tl=0, v=false] is outside of serialized chunk [-168, 284]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/484, uuid='6db01857-24b4-4d2a-8357-47d0a4b60cad', l='ServerLevel[world]', x=-4459.27, y=27.27, z=-1013.67, cpos=[-279, -64], tl=0, v=false] is outside of serialized chunk [-168, 284]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/485, uuid='bbd13096-f156-4fe2-8ea0-84fe14e5e35e', l='ServerLevel[world]', x=-4459.44, y=27.40, z=-1016.50, cpos=[-279, -64], tl=0, v=false] is outside of serialized chunk [-168, 284]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/486, uuid='ff9a41f9-b141-4e5d-a4be-047d74ace9e1', l='ServerLevel[world]', x=-4459.53, y=27.72, z=-1017.58, cpos=[-279, -64], tl=0, v=false] is outside of serialized chunk [-168, 284]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/487, uuid='c4b719c7-c1bb-47c9-90fe-117e89344c6f', l='ServerLevel[world]', x=-4459.46, y=27.41, z=-1018.15, cpos=[-279, -64], tl=0, v=false] is outside of serialized chunk [-168, 284]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/493, uuid='a1d8f631-ea42-47b8-814a-599292c12be2', l='ServerLevel[world]', x=-4478.49, y=13.27, z=-985.75, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/494, uuid='f88a6a95-a169-49a1-860c-88b22a46bda4', l='ServerLevel[world]', x=-4478.68, y=13.66, z=-984.61, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/495, uuid='e9f475b1-e5d3-4535-939d-652f0182a995', l='ServerLevel[world]', x=-4478.39, y=13.26, z=-983.44, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/496, uuid='89774e85-2d22-4af2-bfdc-38e00f3b6dc2', l='ServerLevel[world]', x=-4478.28, y=13.67, z=-982.74, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/497, uuid='0ea03209-6309-4cd9-97c5-1cba30b08fa7', l='ServerLevel[world]', x=-4478.20, y=13.25, z=-980.77, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/498, uuid='433a23f1-8ae6-4684-b48b-717284cf01e8', l='ServerLevel[world]', x=-4478.58, y=13.31, z=-979.32, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
-[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/499, uuid='609a247c-d281-437a-9d0a-061c11ba531a', l='ServerLevel[world]', x=-4479.52, y=24.26, z=-998.30, cpos=[-280, -63], tl=0, v=false] is outside of serialized chunk [-169, 285]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Pig['Pig'/502, uuid='ea4e1aa9-5000-4801-b2a3-a00d92d91458', l='ServerLevel[world]', x=-4462.50, y=64.00, z=-1053.50, cpos=[-279, -66], tl=0, v=false] is outside of serialized chunk [-168, 282]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Pig['Pig'/503, uuid='74ed38e3-464c-4226-8b93-23bd870b6416', l='ServerLevel[world]', x=-4461.50, y=65.00, z=-1053.50, cpos=[-279, -66], tl=0, v=false] is outside of serialized chunk [-168, 282]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Pig['Pig'/504, uuid='208822c5-a4c1-40c7-bfb3-3ddd0d9c175a', l='ServerLevel[world]', x=-4462.50, y=67.00, z=-1051.50, cpos=[-279, -66], tl=0, v=false] is outside of serialized chunk [-168, 282]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Pumpkin Seeds'/506, uuid='fe0bd381-27b4-4b83-a6a5-e0e5ba4a88b0', l='ServerLevel[world]', x=-4431.61, y=26.84, z=-1078.42, cpos=[-277, -68], tl=0, v=false] is outside of serialized chunk [-166, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Bread'/507, uuid='6b24ae58-c338-4457-8869-30dfd54b4ed3', l='ServerLevel[world]', x=-4431.75, y=26.43, z=-1078.19, cpos=[-277, -68], tl=0, v=false] is outside of serialized chunk [-166, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Iron Ingot'/508, uuid='ed58e5b1-74e4-473d-a953-9a767735fd3c', l='ServerLevel[world]', x=-4431.82, y=26.90, z=-1078.55, cpos=[-277, -68], tl=0, v=false] is outside of serialized chunk [-166, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/509, uuid='b6bcb0fc-f0a0-458d-9780-f6e865b0da44', l='ServerLevel[world]', x=-4431.44, y=26.35, z=-1078.45, cpos=[-277, -68], tl=0, v=false] is outside of serialized chunk [-166, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Lapis Lazuli'/510, uuid='f9e0048a-2934-4aa6-ba79-985ea41d192d', l='ServerLevel[world]', x=-4431.41, y=26.60, z=-1078.59, cpos=[-277, -68], tl=0, v=false] is outside of serialized chunk [-166, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/511, uuid='5a1d1a64-b3f1-4666-b8f8-01f3828070c8', l='ServerLevel[world]', x=-4457.80, y=23.13, z=-1070.82, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/512, uuid='943f41f0-6dda-4fb8-84a7-8a0f638a3b98', l='ServerLevel[world]', x=-4457.37, y=23.13, z=-1067.82, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/513, uuid='69c9d855-3481-46dd-b83c-209cb9270670', l='ServerLevel[world]', x=-4459.88, y=23.13, z=-1067.82, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/514, uuid='d1540e9e-edb9-4db6-8b7a-753117a32c4b', l='ServerLevel[world]', x=-4459.00, y=23.13, z=-1066.81, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/515, uuid='ff2242d0-c643-4743-99b7-b57a77f8da5f', l='ServerLevel[world]', x=-4451.13, y=24.13, z=-1062.83, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/516, uuid='c6c74d5a-fa18-4d61-87cd-2696dae00dda', l='ServerLevel[world]', x=-4451.86, y=24.13, z=-1070.25, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/517, uuid='0462b9c0-b1e1-435e-9c77-a2a1f24b26c6', l='ServerLevel[world]', x=-4453.88, y=24.13, z=-1058.83, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/518, uuid='cb71d930-4b05-4732-8156-60fe377f4ecc', l='ServerLevel[world]', x=-4452.05, y=24.13, z=-1071.34, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/519, uuid='11cfe738-ab69-43b8-95cc-fb3c0e1ebcd5', l='ServerLevel[world]', x=-4452.15, y=24.13, z=-1057.81, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/520, uuid='844777eb-066f-4446-a83a-d1bcde6556b4', l='ServerLevel[world]', x=-4447.36, y=29.46, z=-1081.66, cpos=[-278, -68], tl=0, v=false] is outside of serialized chunk [-167, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/521, uuid='eb6f6bf7-cf35-466b-9748-9a58f498e864', l='ServerLevel[world]', x=-4445.74, y=29.56, z=-1081.18, cpos=[-278, -68], tl=0, v=false] is outside of serialized chunk [-167, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/522, uuid='78d782b9-4a39-40c6-aee8-50b6e9432c7d', l='ServerLevel[world]', x=-4439.52, y=26.26, z=-1075.30, cpos=[-278, -68], tl=0, v=false] is outside of serialized chunk [-167, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/524, uuid='6cf6e7d4-797e-4c40-b2a6-1f7792092304', l='ServerLevel[world]', x=-4461.83, y=23.13, z=-1086.13, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/525, uuid='79000ff6-c6bb-4a86-a8dd-eb7f0af69d0d', l='ServerLevel[world]', x=-4457.44, y=23.13, z=-1087.83, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/526, uuid='b993c9ce-73f4-4421-a286-887a30c9e9b0', l='ServerLevel[world]', x=-4451.33, y=25.13, z=-1083.04, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/527, uuid='e4e4b0fd-2352-4bce-9c96-70f8ab15c29a', l='ServerLevel[world]', x=-4451.52, y=24.13, z=-1074.32, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/528, uuid='03553da2-3435-470d-abbf-dd77c8757415', l='ServerLevel[world]', x=-4456.25, y=23.13, z=-1087.88, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/529, uuid='d682f419-9178-4312-aff9-21a99b2ea82b', l='ServerLevel[world]', x=-4452.16, y=29.13, z=-1080.13, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/530, uuid='d9287997-dc0d-4949-bc78-ba4501c6d7db', l='ServerLevel[world]', x=-4454.15, y=29.13, z=-1080.20, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/531, uuid='83944f2e-b370-4ec2-938a-afa6ba373987', l='ServerLevel[world]', x=-4455.88, y=29.13, z=-1080.67, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
-[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/532, uuid='6f1ca75e-ab29-4f26-bc9e-8e2644130af5', l='ServerLevel[world]', x=-4451.50, y=63.00, z=-1087.50, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
-[12:19:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/538, uuid='924fcaa0-c6b0-431d-a7f0-dc3ea8bb747b', l='ServerLevel[world]', x=-4495.50, y=69.00, z=-979.50, cpos=[-281, -62], tl=0, v=false] is outside of serialized chunk [-170, 286]
-[12:19:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/539, uuid='f4929e1e-026a-459d-9c66-8c5a0c3de9af', l='ServerLevel[world]', x=-4488.50, y=64.00, z=-1002.50, cpos=[-281, -63], tl=0, v=false] is outside of serialized chunk [-170, 285]
-[12:19:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/540, uuid='8445a87f-7121-49a4-8f3b-c8f7d02daba6', l='ServerLevel[world]', x=-4488.50, y=64.00, z=-1006.50, cpos=[-281, -63], tl=0, v=false] is outside of serialized chunk [-170, 285]
-[12:19:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/541, uuid='904e8937-fdf9-41e2-abb1-5b7175fd4353', l='ServerLevel[world]', x=-4490.50, y=64.00, z=-1006.50, cpos=[-281, -63], tl=0, v=false] is outside of serialized chunk [-170, 285]
-[12:19:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/542, uuid='9785f895-310c-4508-8ecc-ca45ee59231f', l='ServerLevel[world]', x=-4490.50, y=63.00, z=-1009.50, cpos=[-281, -64], tl=0, v=false] is outside of serialized chunk [-170, 284]
-[12:19:37] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/550, uuid='b3649324-f36b-45d8-824d-ac0f1aa0abbe', l='ServerLevel[world]', x=-4503.50, y=67.00, z=-977.50, cpos=[-282, -62], tl=0, v=false] is outside of serialized chunk [-171, 286]
-[12:19:37] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/551, uuid='a1847eea-321b-4032-8059-dbb279509b2d', l='ServerLevel[world]', x=-4501.50, y=68.00, z=-977.50, cpos=[-282, -62], tl=0, v=false] is outside of serialized chunk [-171, 286]
-[12:19:37] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/552, uuid='f51482d6-ecca-45a6-8261-3c947cb34413', l='ServerLevel[world]', x=-4498.50, y=69.00, z=-978.50, cpos=[-282, -62], tl=0, v=false] is outside of serialized chunk [-171, 286]
-[12:20:08] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:21:42] [Server thread/INFO]: trololol72 issued server command: //sel cyl
-[12:23:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/996, uuid='381bd6e6-ad06-4766-b68b-901f33094bb7', l='ServerLevel[world]', x=1205.50, y=75.00, z=474.50, cpos=[75, 29], tl=0, v=false] is outside of serialized chunk [-100, 302]
-[12:23:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/997, uuid='fadc9cfb-2d81-49aa-8de4-267f4ff67ddb', l='ServerLevel[world]', x=1204.50, y=75.00, z=476.50, cpos=[75, 29], tl=0, v=false] is outside of serialized chunk [-100, 302]
-[12:23:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/998, uuid='c0c03b09-016f-4126-9e48-3ce4f5ea59b1', l='ServerLevel[world]', x=1203.50, y=74.00, z=473.50, cpos=[75, 29], tl=0, v=false] is outside of serialized chunk [-100, 302]
-[12:23:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/999, uuid='3e4e610e-2d45-4522-91e6-97fb194bfbe3', l='ServerLevel[world]', x=1206.50, y=76.00, z=477.50, cpos=[75, 29], tl=0, v=false] is outside of serialized chunk [-100, 302]
-[12:24:27] [Server thread/INFO]: trololol72 issued server command: /tp ~ -63 ~
-[12:24:27] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2254.214504, -63.000000, 4938.738768]
-[12:24:39] [Server thread/INFO]: trololol72 issued server command: //pos1
-[12:24:51] [Server thread/INFO]: trololol72 issued server command: /tp ~53 ~ ~
-[12:24:51] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2201.214504, -63.000000, 4938.738768]
-[12:24:54] [Server thread/INFO]: trololol72 issued server command: //pos2
-[12:25:11] [Server thread/INFO]: trololol72 issued server command: /tp ~ ~200 ~
-[12:25:11] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2201.214504, 137.000000, 4938.738768]
-[12:25:17] [Server thread/INFO]: trololol72 issued server command: //pos2
-[12:26:09] [Server thread/INFO]: trololol72 issued server command: /tp -2255 -64
-[12:26:11] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:26:22] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:26:30] [Server thread/INFO]: trololol72 issued server command: /tp -2255 -64 4938
-[12:26:30] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2254.500000, -64.000000, 4938.500000]
-[12:26:39] [Server thread/INFO]: trololol72 issued server command: /tp -2255 -63 4938
-[12:26:39] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2254.500000, -63.000000, 4938.500000]
-[12:26:44] [Server thread/INFO]: trololol72 issued server command: //copy
-[12:26:44] [AsyncNotifyKeyedQueue - 2/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
-[12:26:56] [Server thread/INFO]: trololol72 issued server command: /tp -512 64 512
-[12:26:56] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, 64.000000, 512.500000]
-[12:27:23] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
-[12:27:23] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
-[12:27:30] [Server thread/INFO]: trololol72 issued server command: //paste
-[12:28:03] [Server thread/INFO]: trololol72 issued server command: //undo
-[12:29:06] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
-[12:29:06] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
-[12:29:19] [Server thread/INFO]: trololol72 issued server command: /tp -2255 -63 4938
-[12:29:19] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2254.500000, -63.000000, 4938.500000]
-[12:29:43] [Server thread/INFO]: trololol72 issued server command: //copy
-[12:30:59] [Server thread/INFO]: trololol72 issued server command: //pos1
-[12:31:08] [Server thread/INFO]: trololol72 issued server command: /tp ~53 320 ~53
-[12:31:08] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2201.500000, 320.000000, 4991.500000]
-[12:31:12] [Server thread/INFO]: trololol72 issued server command: //pos2
-[12:31:21] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:31:29] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:31:34] [Server thread/INFO]: trololol72 issued server command: /tp -2255 -63 4938
-[12:31:34] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2254.500000, -63.000000, 4938.500000]
-[12:31:36] [Server thread/INFO]: trololol72 issued server command: //copy
-[12:31:47] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
-[12:31:47] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
-[12:31:56] [Server thread/INFO]: trololol72 issued server command: //paste
-[12:32:44] [Server thread/INFO]: trololol72 issued server command: /time set day
-[12:32:44] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[12:33:00] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
-[12:33:00] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
-[12:35:26] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 55 383
-[12:35:33] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 54 383
-[12:35:38] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 53 383
-[12:35:41] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 52 383
-[12:35:44] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 51 383
-[12:35:50] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 50 383
-[12:37:16] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
-[12:37:16] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
-[12:37:23] [Server thread/INFO]: trololol72 issued server command: //pos1
-[12:37:39] [Server thread/INFO]: trololol72 issued server command: /tp ~52 320 ~52
-[12:37:39] [Server thread/INFO]: [trololol72: Teleported trololol72 to -459.500000, 320.000000, 564.500000]
-[12:37:47] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
-[12:37:47] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
-[12:38:06] [Server thread/INFO]: trololol72 issued server command: /tp ~50 ~ ~
-[12:38:06] [Server thread/INFO]: [trololol72: Teleported trololol72 to -461.500000, -64.499595, 512.500000]
-[12:38:35] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
-[12:38:35] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
-[12:38:41] [Server thread/INFO]: trololol72 issued server command: //pos1
-[12:38:49] [Server thread/INFO]: trololol72 issued server command: /tp ~51 320 ~51
-[12:38:49] [Server thread/INFO]: [trololol72: Teleported trololol72 to -460.500000, 320.000000, 563.500000]
-[12:39:12] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
-[12:39:12] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
-[12:39:15] [Server thread/INFO]: trololol72 issued server command: /tp ~51 320 ~
-[12:39:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to -460.500000, 320.000000, 512.500000]
-[12:39:37] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
-[12:39:37] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
-[12:39:47] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 50.5 383
-[12:39:51] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 51.5 383
-[12:39:55] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 52.5 383
-[12:39:59] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 53.5 383
-[12:40:02] [Server thread/INFO]: trololol72 issued server command: /tp ~51 320 ~
-[12:40:02] [Server thread/INFO]: [trololol72: Teleported trololol72 to -460.500000, 320.000000, 512.500000]
-[12:40:39] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
-[12:40:39] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
-[12:40:54] [Server thread/INFO]: trololol72 issued server command: /tp ~52 320 ~52
-[12:40:54] [Server thread/INFO]: [trololol72: Teleported trololol72 to -459.500000, 320.000000, 564.500000]
-[12:40:58] [Server thread/INFO]: trololol72 issued server command: //pos2
-[12:41:13] [Server thread/INFO]: trololol72 issued server command: //setbiome plains
-[12:41:17] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:41:25] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:41:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:41:39] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:42:00] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:42:23] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:42:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:42:32] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:42:34] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:42:41] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:42:52] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:43:13] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ stone
-[12:43:13] [Server thread/INFO]: [trololol72: Changed the block at -508, 13, 506]
-[12:43:17] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
-[12:43:17] [Server thread/INFO]: [trololol72: Changed the block at -508, 14, 506]
-[12:43:18] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:43:50] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:44:03] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision infinite 1 true
-[12:44:30] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
-[12:44:30] [Server thread/INFO]: [trololol72: Changed the block at -546, 14, 506]
-[12:44:38] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
-[12:44:42] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ stone
-[12:44:42] [Server thread/INFO]: [trololol72: Changed the block at -546, 13, 506]
-[12:44:43] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:45:21] [Server thread/INFO]: trololol72 issued server command: /tp ~ ~50 ~
-[12:45:21] [Server thread/INFO]: [trololol72: Teleported trololol72 to -522.114915, 101.976282, 483.176758]
-[12:45:48] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:46:00] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ stone
-[12:46:00] [Server thread/INFO]: [trololol72: Changed the block at -536, 12, 497]
-[12:46:03] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
-[12:46:03] [Server thread/INFO]: [trololol72: Changed the block at -536, 13, 497]
-[12:46:04] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:46:14] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:46:23] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
-[12:46:23] [Server thread/INFO]: [trololol72: Changed the block at -504, 14, 479]
-[12:46:25] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ stone
-[12:46:25] [Server thread/INFO]: [trololol72: Changed the block at -504, 13, 479]
-[12:46:26] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:46:37] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:46:50] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ stone
-[12:46:50] [Server thread/INFO]: [trololol72: Changed the block at -489, 13, 500]
-[12:46:55] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
-[12:46:55] [Server thread/INFO]: [trololol72: Changed the block at -489, 14, 500]
-[12:46:58] [Server thread/INFO]: trololol72 issued server command: /tp ~ ~50 ~
-[12:46:58] [Server thread/INFO]: [trololol72: Teleported trololol72 to -488.300000, 63.000000, 500.422773]
-[12:47:00] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:47:05] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:48:56] [Server thread/INFO]: trololol72 issued server command: /tp -512 64 512
-[12:48:56] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, 64.000000, 512.500000]
-[12:48:57] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:49:07] [Server thread/INFO]: trololol72 issued server command: /tp ~35 ~ ~35
-[12:49:07] [Server thread/INFO]: [trololol72: Teleported trololol72 to -476.500000, 64.000000, 547.500000]
-[12:49:11] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[12:49:24] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[12:49:36] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[12:49:36] [Server thread/INFO]: trololol72 lost connection: Server is restarting
-[12:49:36] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[12:49:36] [Server thread/INFO]: Stopping server
-[12:49:36] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[12:49:36] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[12:49:36] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[12:49:36] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[12:49:36] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[12:49:36] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[12:49:36] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[12:49:36] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[12:49:36] [Server thread/INFO]: [TAB] Disabled in 2ms
-[12:49:36] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[12:49:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[12:49:36] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[12:49:36] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[12:49:36] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[12:49:36] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[12:49:36] [Server thread/INFO]: [LuckPerms] Closing storage...
-[12:49:37] [Server thread/INFO]: [LuckPerms] Goodbye!
-[12:49:37] [Server thread/INFO]: Saving players
-[12:49:37] [Server thread/INFO]: Saving worlds
-[12:49:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:49:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[12:49:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[12:49:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[12:49:39] [Server thread/INFO]: [ChunkHolderManager] Saved 72 block chunks, 879 entity chunks, 0 poi chunks in world 'world' in 2.03s
-[12:49:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[12:49:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[12:49:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[12:49:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[12:49:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:49:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:49:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:49:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12:49:42] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[12:49:42] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[12:49:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[12:49:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[13:03:51] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[13:03:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[13:03:55] [ServerMain/INFO]: Loaded 1470 recipes
+[13:03:55] [ServerMain/INFO]: Loaded 1584 advancements
+[13:03:55] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:03:55] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 448.4ms
+[13:03:55] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[13:03:55] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[13:03:55] [Server thread/INFO]: Loading properties
+[13:03:55] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[13:03:55] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:03:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:03:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:03:56] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[13:03:56] [Server thread/INFO]: Default game type: SURVIVAL
+[13:03:56] [Server thread/INFO]: Generating keypair
+[13:03:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:03:56] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:03:56] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:03:57] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[13:03:57] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:03:57] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[13:03:57] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[13:03:57] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[13:03:57] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[13:03:58] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5b0d16c5]
+[13:03:58] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[13:03:58] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[13:03:58] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[13:03:58] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[13:03:59] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[13:03:59] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[13:03:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:03:59] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[13:04:00] [Server thread/INFO]:         __    
+[13:04:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[13:04:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[13:04:00] [Server thread/INFO]: 
+[13:04:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:04:00] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:04:00] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:04:00] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1246ms)
+[13:04:00] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[13:04:01] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[13:04:01] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[13:04:01] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[13:04:01] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:04:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:04:01] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[13:04:02] [Server thread/INFO]: Preparing level "world"
+[13:04:02] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[13:04:02] [Server thread/INFO]: Preparing spawn area: 100%
+[13:04:02] [Server thread/INFO]: Prepared spawn area in 3 ms
+[13:04:02] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[13:04:02] [Server thread/INFO]: Prepared spawn area in 2 ms
+[13:04:02] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[13:04:02] [Server thread/INFO]: Prepared spawn area in 2 ms
+[13:04:02] [Server thread/INFO]: Done preparing level "world" (0.547s)
+[13:04:02] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[13:04:03] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[13:04:04] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[13:04:04] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[13:04:05] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[13:04:05] [Server thread/INFO]: [TAB] Enabled in 950ms
+[13:04:05] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[13:04:05] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[13:04:05] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1429ms
+[13:04:05] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[13:04:06] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[13:04:06] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[13:04:06] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[13:04:06] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[13:04:06] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[13:04:06] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[13:04:06] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[13:04:06] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[13:04:06] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[13:04:06] [Server thread/INFO]: [SkBee]  - 56 events
+[13:04:06] [Server thread/INFO]: [SkBee]  - 71 effects
+[13:04:06] [Server thread/INFO]: [SkBee]  - 240 expressions
+[13:04:06] [Server thread/INFO]: [SkBee]  - 27 conditions
+[13:04:06] [Server thread/INFO]: [SkBee]  - 32 sections
+[13:04:06] [Server thread/INFO]: [SkBee]  - 11 properties
+[13:04:06] [Server thread/INFO]: [SkBee] Update checker disabled!
+[13:04:06] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.00 seconds
+[13:04:06] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[13:04:06] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[13:04:06] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[13:04:06] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[13:04:06] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[13:04:06] [Server thread/INFO]: [spark] Starting background profiler...
+[13:04:06] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[13:04:06] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[13:04:06] [Server thread/INFO]: Running delayed init tasks
+[13:04:06] [Server thread/INFO]: [Skript] Loading variables...
+[13:04:07] [Server thread/INFO]: [Skript] Loaded 308 variables in 0.0 seconds
+[13:04:12] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[13:04:12] [Server thread/INFO]: [Skript] Loaded 23 scripts with a total of 196 structures in 5.94 seconds
+[13:04:12] [Server thread/INFO]: [Skript] Finished loading.
+[13:04:12] [Server thread/INFO]: Done (29.296s)! For help, type "help"
+[13:04:13] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 27 build(s) behind ***
+[13:04:13] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[13:04:17] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[13:04:17] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[13:04:21] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[13:04:21] [Server thread/INFO]: trololol72[/127.0.0.1:55436] logged in with entity id 1 at ([world]-481.5896827908288, 69.11201956529634, 542.447532353814)
+[13:04:22] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[13:04:22] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[13:05:02] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:05:11] [Server thread/INFO]: trololol72 issued server command: /tp -512 64 512
+[13:05:11] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, 64.000000, 512.500000]
+[13:05:26] [Server thread/INFO]: trololol72 issued server command: /tp ~-38 ~ -38
+[13:05:26] [Server thread/INFO]: [trololol72: Teleported trololol72 to -549.500000, 64.000000, -37.500000]
+[13:05:28] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:06:25] [Server thread/INFO]: trololol72 issued server command: /tp -512 64 512
+[13:06:25] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, 64.000000, 512.500000]
+[13:06:31] [Server thread/INFO]: trololol72 issued server command: /tp ~-35 ~ -35
+[13:06:31] [Server thread/INFO]: [trololol72: Teleported trololol72 to -546.500000, 64.000000, -34.500000]
+[13:06:39] [Server thread/INFO]: trololol72 issued server command: /tp -512 64 512
+[13:06:39] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, 64.000000, 512.500000]
+[13:06:45] [Server thread/INFO]: trololol72 issued server command: /tp ~-35 ~ ~-35
+[13:06:45] [Server thread/INFO]: [trololol72: Teleported trololol72 to -546.500000, 64.000000, 477.500000]
+[13:06:50] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:07:08] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:07:34] [Server thread/INFO]: trololol72 issued server command: /tp -512 64 512
+[13:07:34] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, 64.000000, 512.500000]
+[13:07:38] [Server thread/INFO]: trololol72 issued server command: /tp ~-35 ~ ~35
+[13:07:38] [Server thread/INFO]: [trololol72: Teleported trololol72 to -546.500000, 64.000000, 547.500000]
+[13:07:46] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:07:52] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:08:12] [Server thread/INFO]: trololol72 issued server command: /effect clear
+[13:08:12] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
+[13:08:33] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision infinite 1 true
+[13:08:33] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
+[13:09:32] [Server thread/INFO]: trololol72 issued server command: /tp -512 64 512
+[13:09:32] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, 64.000000, 512.500000]
+[13:09:38] [Server thread/INFO]: trololol72 issued server command: /tp ~35 ~ ~-35
+[13:09:38] [Server thread/INFO]: [trololol72: Teleported trololol72 to -476.500000, 64.000000, 477.500000]
+[13:09:42] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:09:43] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:09:53] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:10:00] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:10:25] [Server thread/INFO]: trololol72 issued server command: /tp -512 64 512
+[13:10:25] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, 64.000000, 512.500000]
+[13:10:30] [Server thread/INFO]: trololol72 issued server command: /tp ~35 ~ ~35
+[13:10:30] [Server thread/INFO]: [trololol72: Teleported trololol72 to -476.500000, 64.000000, 547.500000]
+[13:10:33] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:10:38] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:12:04] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:12:31] [Server thread/INFO]: trololol72 issued server command: //brush sphere air 1
+[13:12:33] [Server thread/INFO]: trololol72 issued server command: //mask stone
+[13:12:34] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[13:13:04] [Server thread/INFO]: trololol72 issued server command: //brush sphere dirt 2
+[13:13:06] [Server thread/INFO]: trololol72 issued server command: //mask stone
+[13:13:14] [Server thread/INFO]: trololol72 issued server command: //undo
+[13:14:36] [Server thread/INFO]: trololol72 issued server command: //brush sphere air 3
+[13:14:40] [Server thread/INFO]: trololol72 issued server command: //brush sphere air 3
+[13:14:54] [Server thread/INFO]: trololol72 issued server command: //mask dirt,stone,grass_block,snow_block,snow
+[13:15:56] [Server thread/INFO]: trololol72 issued server command: //brush smooth 5
+[13:16:03] [Server thread/INFO]: trololol72 issued server command: //undo
+[13:16:22] [Server thread/INFO]: trololol72 issued server command: //brush sphere stone 3
+[13:17:07] [Server thread/INFO]: trololol72 issued server command: /time set day
+[13:17:07] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[13:17:41] [Server thread/INFO]: trololol72 issued server command: //undo
+[13:18:18] [Server thread/INFO]: trololol72 issued server command: //brush smooth 1 #existing
+[13:18:33] [Server thread/INFO]: trololol72 issued server command: //brush sphere air 2
+[13:18:42] [Server thread/INFO]: trololol72 issued server command: //mask dir,grass_block
+[13:18:46] [Server thread/INFO]: trololol72 issued server command: //mask
+[13:22:35] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:22:47] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:23:02] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[13:23:02] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[13:23:04] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[13:23:04] [Server thread/INFO]: Stopping server
+[13:23:04] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[13:23:04] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[13:23:04] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[13:23:04] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[13:23:04] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[13:23:04] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[13:23:04] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[13:23:04] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[13:23:04] [Server thread/INFO]: [TAB] Disabled in 0ms
+[13:23:04] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[13:23:04] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:23:04] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[13:23:04] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[13:23:04] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[13:23:04] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:23:04] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:23:04] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:23:04] [Server thread/INFO]: Saving players
+[13:23:04] [Server thread/INFO]: Saving worlds
+[13:23:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:23:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:23:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:23:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:23:06] [Server thread/INFO]: [ChunkHolderManager] Saved 72 block chunks, 934 entity chunks, 0 poi chunks in world 'world' in 1.36s
+[13:23:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[13:23:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[13:23:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[13:23:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[13:23:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[13:23:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:23:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:23:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:23:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:23:07] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[13:23:07] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[13:23:07] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[13:23:07] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
