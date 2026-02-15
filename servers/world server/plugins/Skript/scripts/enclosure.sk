@@ -3,10 +3,13 @@ on load:
     
     set {enc::dirs::nw::xadd} to -1  
     set {enc::dirs::nw::zadd} to -1
+    
     set {enc::dirs::ne::xadd} to 1  
     set {enc::dirs::ne::zadd} to -1
+
     set {enc::dirs::sw::xadd} to -1
     set {enc::dirs::sw::zadd} to 1
+
     set {enc::dirs::se::xadd} to 1
     set {enc::dirs::se::zadd} to 1
 
