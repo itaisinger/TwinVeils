@@ -1,372 +1,383 @@
-[11:44:29] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[11:44:29] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[11:44:29] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[11:44:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[11:44:31] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[12:17:43] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[12:17:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[12:17:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:17:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[12:17:45] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[11:44:31] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[12:17:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[11:44:36] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[11:44:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[11:44:39] [ServerMain/INFO]: Loaded 1470 recipes
-[11:44:39] [ServerMain/INFO]: Loaded 1584 advancements
-[11:44:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[11:44:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 418.2ms
-[11:44:40] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[11:44:40] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[11:44:40] [Server thread/INFO]: Loading properties
-[11:44:40] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[11:44:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[11:44:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:44:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:44:41] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[11:44:41] [Server thread/INFO]: Default game type: SURVIVAL
-[11:44:41] [Server thread/INFO]: Generating keypair
-[11:44:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:44:41] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[11:44:41] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[11:44:41] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[11:44:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[11:44:43] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[11:44:43] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[11:44:44] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[11:44:44] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[11:44:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5e5eb7d3]
-[11:44:45] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[11:44:45] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[11:44:45] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[11:44:45] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[11:44:46] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[11:44:46] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[11:44:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:44:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[11:44:46] [Server thread/INFO]:         __    
-[11:44:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[11:44:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[11:44:46] [Server thread/INFO]: 
-[11:44:46] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[11:44:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[11:44:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[11:44:47] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1283ms)
-[11:44:47] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[11:44:47] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[11:44:47] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[11:44:47] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[11:44:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[11:44:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[11:44:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[11:44:48] [Server thread/INFO]: Preparing level "world"
-[11:44:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[11:44:49] [Server thread/INFO]: Preparing spawn area: 100%
-[11:44:49] [Server thread/INFO]: Prepared spawn area in 3 ms
-[11:44:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[11:44:49] [Server thread/INFO]: Prepared spawn area in 2 ms
-[11:44:49] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[11:44:49] [Server thread/INFO]: Prepared spawn area in 2 ms
-[11:44:49] [Server thread/INFO]: Done preparing level "world" (0.788s)
-[11:44:49] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[11:44:50] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[11:44:51] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[11:44:51] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[11:44:51] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[11:44:52] [Server thread/INFO]: [TAB] Enabled in 752ms
-[11:44:52] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[11:44:52] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[11:44:52] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[11:44:52] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[11:44:52] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[11:44:52] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[11:44:52] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1470ms
-[11:44:52] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[11:44:52] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[11:44:52] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[11:44:52] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[11:44:52] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[11:44:52] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[11:44:53] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[11:44:53] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[11:44:53] [Server thread/INFO]: [SkBee]  - 56 events
-[11:44:53] [Server thread/INFO]: [SkBee]  - 71 effects
-[11:44:53] [Server thread/INFO]: [SkBee]  - 240 expressions
-[11:44:53] [Server thread/INFO]: [SkBee]  - 27 conditions
-[11:44:53] [Server thread/INFO]: [SkBee]  - 32 sections
-[11:44:53] [Server thread/INFO]: [SkBee]  - 11 properties
-[11:44:53] [Server thread/INFO]: [SkBee] Update checker disabled!
-[11:44:53] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.80 seconds
-[11:44:53] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[11:44:53] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[11:44:53] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[11:44:53] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[11:44:53] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[11:44:53] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[11:44:53] [Server thread/INFO]: [spark] Starting background profiler...
-[11:44:53] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[11:44:53] [Server thread/INFO]: Running delayed init tasks
-[11:44:53] [Server thread/INFO]: [Skript] Loading variables...
-[11:44:53] [Server thread/INFO]: [Skript] Loaded 308 variables in 0.0 seconds
-[11:44:59] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[11:44:59] [Server thread/INFO]: [Skript] Loaded 23 scripts with a total of 196 structures in 5.67 seconds
-[11:44:59] [Server thread/INFO]: [Skript] Finished loading.
-[11:44:59] [Server thread/INFO]: Done (31.502s)! For help, type "help"
-[11:44:59] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 27 build(s) behind ***
-[11:44:59] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[11:48:06] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[11:48:06] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[11:48:07] [Server thread/INFO]: trololol72 (f946718e-31b0-439f-8eca-e4353741b2b6) lost connection: Disconnected
-[11:49:24] [User Authenticator #1/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[11:49:28] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[11:49:28] [Server thread/INFO]: trololol72[/127.0.0.1:54764] logged in with entity id 2 at ([world]86.95271984063419, 55.89716232809167, 53.94214533136057)
-[11:49:29] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[11:49:29] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[11:49:37] [Server thread/INFO]: trololol72 issued server command: /time set day
-[11:49:37] [Server thread/INFO]: [trololol72: Set the time to 1000]
-[11:50:06] [Server thread/INFO]: trololol72 issued server command: /tp -2220 ~ 4903
-[11:50:06] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2219.500000, 57.392228, 4903.500000]
-[11:50:14] [Server thread/WARN]: [net.minecraft.world.level.chunk.storage.SerializableChunkData] Serialization errors:
-chunk@[-150, 314][1]: Failed to decode value '""' from field 'Owner': Not a list
-[11:50:19] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[11:50:24] [Server thread/ERROR]: Failed to create block entity net.minecraft.world.level.block.entity.BlockEntityType@3e6373c2 for block BlockPos{x=-2533, y=17, z=4813} at position Block{minecraft:granite} 
-java.lang.IllegalStateException: Invalid block entity minecraft:mob_spawner // net.minecraft.world.level.block.entity.SpawnerBlockEntity state at BlockPos{x=-2533, y=17, z=4813}, got Block{minecraft:granite}
-	at net.minecraft.world.level.block.entity.BlockEntity.validateBlockState(BlockEntity.java:64) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.BlockEntity.<init>(BlockEntity.java:57) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.SpawnerBlockEntity.<init>(SpawnerBlockEntity.java:39) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.BlockEntityType.create(BlockEntityType.java:301) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.BlockEntity.loadStatic(BlockEntity.java:207) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.chunk.storage.SerializableChunkData.lambda$postLoadChunk$11(SerializableChunkData.java:686) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.chunk.LevelChunk.runPostLoad(LevelChunk.java:631) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkFullTask.run(ChunkFullTask.java:80) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.8.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:126) ~[concurrentutil-0.0.8.jar:?]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.executeMainThreadTask(ChunkTaskScheduler.java:338) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:831) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:429) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.tickMidTickTasks(MinecraftServer.java:425) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.moonrise$executeMidTickTasks(MinecraftServer.java:446) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1513) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-[11:50:24] [Server thread/ERROR]: Failed to create block entity net.minecraft.world.level.block.entity.BlockEntityType@17076ffa for block BlockPos{x=-2533, y=17, z=4811} at position Block{minecraft:stone} 
-java.lang.IllegalStateException: Invalid block entity minecraft:chest // net.minecraft.world.level.block.entity.ChestBlockEntity state at BlockPos{x=-2533, y=17, z=4811}, got Block{minecraft:stone}
-	at net.minecraft.world.level.block.entity.BlockEntity.validateBlockState(BlockEntity.java:64) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.BlockEntity.<init>(BlockEntity.java:57) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.BaseContainerBlockEntity.<init>(BaseContainerBlockEntity.java:34) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.<init>(RandomizableContainerBlockEntity.java:24) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.ChestBlockEntity.<init>(ChestBlockEntity.java:100) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.ChestBlockEntity.<init>(ChestBlockEntity.java:104) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.BlockEntityType.create(BlockEntityType.java:301) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.BlockEntity.loadStatic(BlockEntity.java:207) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.chunk.storage.SerializableChunkData.lambda$postLoadChunk$11(SerializableChunkData.java:686) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.chunk.LevelChunk.runPostLoad(LevelChunk.java:631) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkFullTask.run(ChunkFullTask.java:80) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.8.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:126) ~[concurrentutil-0.0.8.jar:?]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.executeMainThreadTask(ChunkTaskScheduler.java:338) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:831) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:429) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.tickMidTickTasks(MinecraftServer.java:425) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.moonrise$executeMidTickTasks(MinecraftServer.java:446) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1513) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-[11:50:24] [Server thread/ERROR]: Failed to create block entity net.minecraft.world.level.block.entity.BlockEntityType@17076ffa for block BlockPos{x=-2531, y=17, z=4815} at position Block{minecraft:cave_air} 
-java.lang.IllegalStateException: Invalid block entity minecraft:chest // net.minecraft.world.level.block.entity.ChestBlockEntity state at BlockPos{x=-2531, y=17, z=4815}, got Block{minecraft:cave_air}
-	at net.minecraft.world.level.block.entity.BlockEntity.validateBlockState(BlockEntity.java:64) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.BlockEntity.<init>(BlockEntity.java:57) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.BaseContainerBlockEntity.<init>(BaseContainerBlockEntity.java:34) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.<init>(RandomizableContainerBlockEntity.java:24) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.ChestBlockEntity.<init>(ChestBlockEntity.java:100) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.ChestBlockEntity.<init>(ChestBlockEntity.java:104) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.BlockEntityType.create(BlockEntityType.java:301) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.block.entity.BlockEntity.loadStatic(BlockEntity.java:207) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.chunk.storage.SerializableChunkData.lambda$postLoadChunk$11(SerializableChunkData.java:686) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.world.level.chunk.LevelChunk.runPostLoad(LevelChunk.java:631) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.task.ChunkFullTask.run(ChunkFullTask.java:80) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue$PrioritisedQueuedTask.execute(PrioritisedTaskQueue.java:345) ~[concurrentutil-0.0.8.jar:?]
-	at ca.spottedleaf.concurrentutil.executor.queue.PrioritisedTaskQueue.executeTask(PrioritisedTaskQueue.java:126) ~[concurrentutil-0.0.8.jar:?]
-	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkTaskScheduler.executeMainThreadTask(ChunkTaskScheduler.java:338) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.pollTask(ServerChunkCache.java:831) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.level.ServerChunkCache.pollTask(ServerChunkCache.java:429) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.tickMidTickTasks(MinecraftServer.java:425) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.moonrise$executeMidTickTasks(MinecraftServer.java:446) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1513) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-[11:50:39] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/2706, uuid='1a92fae9-a59b-4920-b35c-f462791cac19', l='ServerLevel[world]', x=433.13, y=37.13, z=683.47, cpos=[27, 42], tl=0, v=false] is outside of serialized chunk [-148, 315]
-[11:50:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2713, uuid='9cc11616-88f4-42d4-8ec9-0cf6811045ec', l='ServerLevel[world]', x=421.50, y=68.00, z=675.50, cpos=[26, 42], tl=0, v=false] is outside of serialized chunk [-149, 315]
-[11:50:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2714, uuid='b0bd4d4e-d690-4a98-9676-1d793b8efba7', l='ServerLevel[world]', x=422.50, y=68.00, z=676.50, cpos=[26, 42], tl=0, v=false] is outside of serialized chunk [-149, 315]
-[11:50:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2715, uuid='f8060a2e-eca1-4eba-95fe-bd87bfd87cf0', l='ServerLevel[world]', x=419.50, y=68.00, z=674.50, cpos=[26, 42], tl=0, v=false] is outside of serialized chunk [-149, 315]
-[11:50:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2718, uuid='3b31affe-82fd-4b6c-88a4-3218cafbf359', l='ServerLevel[world]', x=401.69, y=72.00, z=686.34, cpos=[25, 42], tl=0, v=false] is outside of serialized chunk [-150, 315]
-[11:50:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2719, uuid='04de2e93-5e75-4cbb-a6ec-0911824b8ae2', l='ServerLevel[world]', x=411.50, y=70.00, z=678.50, cpos=[25, 42], tl=0, v=false] is outside of serialized chunk [-150, 315]
-[11:50:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2720, uuid='afb8a1c8-86eb-4bce-87a5-5a679ae37e85', l='ServerLevel[world]', x=413.50, y=70.00, z=676.50, cpos=[25, 42], tl=0, v=false] is outside of serialized chunk [-150, 315]
-[11:50:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.paper.PaperHooks] [ca.spottedleaf.moonrise.paper.PaperHooks] Serialization errors:
-chunk@[-150, 315]:
-  [0]: Failed to decode value '""' from field 'Owner': Not a list
-  [1]: Failed to decode value '""' from field 'Owner': Not a list
-  [2]: Failed to decode value '""' from field 'Owner': Not a list
-[11:50:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/2721, uuid='f9e5ac35-dd48-46b3-b319-e2ea2446ae7c', l='ServerLevel[world]', x=437.31, y=36.13, z=707.13, cpos=[27, 44], tl=0, v=false] is outside of serialized chunk [-148, 317]
-[11:50:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2735, uuid='bcec25a6-0b42-4a9a-ba4a-5aac3cd4dcd2', l='ServerLevel[world]', x=436.40, y=70.00, z=732.75, cpos=[27, 45], tl=0, v=false] is outside of serialized chunk [-148, 318]
-[11:50:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2736, uuid='250933ff-5126-4b26-a176-47e2f280bc43', l='ServerLevel[world]', x=444.45, y=65.00, z=733.93, cpos=[27, 45], tl=0, v=false] is outside of serialized chunk [-148, 318]
-[11:50:40] [Server thread/WARN]: [ca.spottedleaf.moonrise.paper.PaperHooks] [ca.spottedleaf.moonrise.paper.PaperHooks] Serialization errors:
-chunk@[-148, 318]:
-  [0]: Failed to decode value '""' from field 'Owner': Not a list
-  [1]: Failed to decode value '""' from field 'Owner': Not a list
-[11:50:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2815, uuid='98962f5b-3cb5-4c04-8283-8e3d797150c1', l='ServerLevel[world]', x=391.75, y=74.00, z=686.35, cpos=[24, 42], tl=0, v=false] is outside of serialized chunk [-151, 315]
-[11:50:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2816, uuid='1a6cc415-38ac-4bc1-ae38-fd7430f8a335', l='ServerLevel[world]', x=391.06, y=73.00, z=687.24, cpos=[24, 42], tl=0, v=false] is outside of serialized chunk [-151, 315]
-[11:50:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2817, uuid='c524ae38-367d-461c-b141-4647c2a12018', l='ServerLevel[world]', x=390.50, y=72.00, z=688.50, cpos=[24, 43], tl=0, v=false] is outside of serialized chunk [-151, 316]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2824, uuid='1dc07713-efe0-4b9a-845b-5468c31c7067', l='ServerLevel[world]', x=383.64, y=76.00, z=685.52, cpos=[23, 42], tl=0, v=false] is outside of serialized chunk [-152, 315]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2825, uuid='f883fb8a-941c-4c04-aa0a-a81459040025', l='ServerLevel[world]', x=434.50, y=69.00, z=738.50, cpos=[27, 46], tl=0, v=false] is outside of serialized chunk [-148, 319]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.paper.PaperHooks] [ca.spottedleaf.moonrise.paper.PaperHooks] Serialization errors:
-chunk@[-148, 319][0]: Failed to decode value '""' from field 'Owner': Not a list
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2826, uuid='96712b89-a97a-4774-abe2-0defe18c7958', l='ServerLevel[world]', x=428.46, y=71.00, z=731.30, cpos=[26, 45], tl=0, v=false] is outside of serialized chunk [-149, 318]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.paper.PaperHooks] [ca.spottedleaf.moonrise.paper.PaperHooks] Serialization errors:
-chunk@[-149, 318][0]: Failed to decode value '""' from field 'Owner': Not a list
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/2828, uuid='213a71ae-316f-4e7b-aa21-925de975a310', l='ServerLevel[world]', x=361.18, y=42.13, z=676.88, cpos=[22, 42], tl=0, v=false] is outside of serialized chunk [-153, 315]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2830, uuid='8625a862-88f5-4cc5-8ac1-7eb8077e88e5', l='ServerLevel[world]', x=430.94, y=63.00, z=750.47, cpos=[26, 46], tl=0, v=false] is outside of serialized chunk [-149, 319]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2831, uuid='83707cf8-dc1b-480f-93e8-ea0ec2cc7948', l='ServerLevel[world]', x=429.15, y=68.00, z=744.60, cpos=[26, 46], tl=0, v=false] is outside of serialized chunk [-149, 319]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2832, uuid='1ca1c9ea-20ac-40b8-adca-4eefdd777de4', l='ServerLevel[world]', x=426.43, y=71.00, z=741.17, cpos=[26, 46], tl=0, v=false] is outside of serialized chunk [-149, 319]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2833, uuid='bf881784-4afb-4bdd-9166-5e76e0eba3f7', l='ServerLevel[world]', x=427.40, y=70.00, z=742.17, cpos=[26, 46], tl=0, v=false] is outside of serialized chunk [-149, 319]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2834, uuid='955db65b-c958-48ef-8d87-5974957fca7a', l='ServerLevel[world]', x=424.50, y=69.00, z=743.50, cpos=[26, 46], tl=0, v=false] is outside of serialized chunk [-149, 319]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2835, uuid='70b754aa-5e77-47a0-b474-653ce603ae54', l='ServerLevel[world]', x=428.39, y=71.00, z=741.30, cpos=[26, 46], tl=0, v=false] is outside of serialized chunk [-149, 319]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2836, uuid='23ad46e3-899e-476f-9ab3-2e012ae77213', l='ServerLevel[world]', x=429.23, y=69.00, z=743.41, cpos=[26, 46], tl=0, v=false] is outside of serialized chunk [-149, 319]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2837, uuid='544eaa2e-b490-4242-8992-09845a2e8a36', l='ServerLevel[world]', x=430.86, y=65.00, z=746.55, cpos=[26, 46], tl=0, v=false] is outside of serialized chunk [-149, 319]
-[11:50:44] [Server thread/WARN]: [ca.spottedleaf.moonrise.paper.PaperHooks] [ca.spottedleaf.moonrise.paper.PaperHooks] Serialization errors:
-chunk@[-149, 319]:
-  [4]: Failed to decode value '""' from field 'Owner': Not a list
-  [5]: Failed to decode value '""' from field 'Owner': Not a list
-  [6]: Failed to decode value '""' from field 'Owner': Not a list
-  [7]: Failed to decode value '""' from field 'Owner': Not a list
-[11:50:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2870, uuid='39031bd4-a824-46b4-9182-bbab888e7a44', l='ServerLevel[world]', x=417.50, y=84.00, z=764.50, cpos=[26, 47], tl=0, v=false] is outside of serialized chunk [-149, 320]
-[11:50:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2871, uuid='1f0968ff-a7c6-4b90-9220-156897066eb4', l='ServerLevel[world]', x=419.50, y=82.00, z=767.50, cpos=[26, 47], tl=0, v=false] is outside of serialized chunk [-149, 320]
-[11:50:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2872, uuid='fb278ae1-3b87-4e2c-8efc-717cffca3610', l='ServerLevel[world]', x=416.30, y=91.00, z=764.48, cpos=[26, 47], tl=0, v=false] is outside of serialized chunk [-149, 320]
-[11:50:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.paper.PaperHooks] [ca.spottedleaf.moonrise.paper.PaperHooks] Serialization errors:
-chunk@[-149, 320][2]: Failed to decode value '""' from field 'Owner': Not a list
-[11:50:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2874, uuid='90c12797-f8eb-4361-8078-75eec598c325', l='ServerLevel[world]', x=416.48, y=83.00, z=772.36, cpos=[26, 48], tl=0, v=false] is outside of serialized chunk [-149, 321]
-[11:50:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/2877, uuid='231eba8c-cfdf-4710-bfa9-a8e0233f2a2d', l='ServerLevel[world]', x=361.50, y=66.00, z=691.50, cpos=[22, 43], tl=0, v=false] is outside of serialized chunk [-153, 316]
-[11:50:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/2878, uuid='be344395-6bb4-4d31-89a9-e8b8cefedfa3', l='ServerLevel[world]', x=364.31, y=69.00, z=699.77, cpos=[22, 43], tl=0, v=false] is outside of serialized chunk [-153, 316]
-[11:50:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/2879, uuid='926776e3-12a8-4834-8dbf-b3b590d22a17', l='ServerLevel[world]', x=363.50, y=67.00, z=690.50, cpos=[22, 43], tl=0, v=false] is outside of serialized chunk [-153, 316]
-[11:50:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/2880, uuid='e68a14cf-ff72-4af9-b204-e0cd5528c296', l='ServerLevel[world]', x=363.09, y=69.00, z=696.01, cpos=[22, 43], tl=0, v=false] is outside of serialized chunk [-153, 316]
-[11:50:54] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/2891, uuid='af2540e0-417a-497a-8777-8731afedb78c', l='ServerLevel[world]', x=415.50, y=88.00, z=766.50, cpos=[25, 47], tl=0, v=false] is outside of serialized chunk [-150, 320]
-[11:50:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2921, uuid='bfa663f3-6cad-43a9-8cdb-eb9d6f8b611b', l='ServerLevel[world]', x=410.30, y=91.00, z=769.50, cpos=[25, 48], tl=0, v=false] is outside of serialized chunk [-150, 321]
-[11:50:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2922, uuid='b59bae67-f8a9-4775-b6fd-2c0447c5912b', l='ServerLevel[world]', x=407.30, y=91.00, z=770.49, cpos=[25, 48], tl=0, v=false] is outside of serialized chunk [-150, 321]
-[11:50:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Wolf['Wolf'/2923, uuid='78349751-9d8d-4537-ac38-ab4ce45c8b4a', l='ServerLevel[world]', x=413.30, y=89.00, z=771.67, cpos=[25, 48], tl=0, v=false] is outside of serialized chunk [-150, 321]
-[11:50:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.paper.PaperHooks] [ca.spottedleaf.moonrise.paper.PaperHooks] Serialization errors:
-chunk@[-150, 321]:
-  [0]: Failed to decode value '""' from field 'Owner': Not a list
-  [1]: Failed to decode value '""' from field 'Owner': Not a list
-  [2]: Failed to decode value '""' from field 'Owner': Not a list
-[11:51:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/2937, uuid='45377838-80f6-4228-b7da-5038788f286d', l='ServerLevel[world]', x=371.55, y=74.00, z=777.39, cpos=[23, 48], tl=0, v=false] is outside of serialized chunk [-152, 321]
-[11:51:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/2938, uuid='79867104-af3d-483d-a209-2848f1ed538f', l='ServerLevel[world]', x=372.81, y=74.00, z=778.55, cpos=[23, 48], tl=0, v=false] is outside of serialized chunk [-152, 321]
-[11:51:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/2939, uuid='3f58bf2b-21a8-48c3-af2c-2d431ccd5a8b', l='ServerLevel[world]', x=371.47, y=80.00, z=781.53, cpos=[23, 48], tl=0, v=false] is outside of serialized chunk [-152, 321]
-[11:51:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['String'/2943, uuid='f7e1da05-4454-400a-b643-6d8f1e494dc9', l='ServerLevel[world]', x=327.31, y=17.31, z=729.84, cpos=[20, 45], tl=0, v=false] is outside of serialized chunk [-155, 318]
-[11:51:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['String'/2944, uuid='cfe55dd6-aa6d-4669-9324-324c7335dbe4', l='ServerLevel[world]', x=327.22, y=17.28, z=728.31, cpos=[20, 45], tl=0, v=false] is outside of serialized chunk [-155, 318]
-[11:51:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['String'/2945, uuid='783ab8ee-3269-41e3-a01c-f1a75fafce16', l='ServerLevel[world]', x=327.35, y=17.59, z=730.16, cpos=[20, 45], tl=0, v=false] is outside of serialized chunk [-155, 318]
-[11:51:09] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/2968, uuid='3d0cd729-8ceb-4bcc-b46a-5d95f326a97f', l='ServerLevel[world]', x=367.98, y=72.00, z=781.73, cpos=[22, 48], tl=0, v=false] is outside of serialized chunk [-153, 321]
-[11:51:11] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/2971, uuid='18cd22e4-d0aa-4e29-9e14-f61b63ec7813', l='ServerLevel[world]', x=324.58, y=19.39, z=757.53, cpos=[20, 47], tl=0, v=false] is outside of serialized chunk [-155, 320]
-[11:51:13] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/2975, uuid='c7a10a28-bc45-42d6-9c73-e56629342b60', l='ServerLevel[world]', x=279.45, y=26.77, z=723.18, cpos=[17, 45], tl=0, v=false] is outside of serialized chunk [-158, 318]
-[11:51:13] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/2976, uuid='bfdae2b7-2331-416c-aefc-1d5fd1422811', l='ServerLevel[world]', x=279.39, y=26.22, z=726.70, cpos=[17, 45], tl=0, v=false] is outside of serialized chunk [-158, 318]
-[11:51:14] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision infinite 1 true
-[11:51:14] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
-[11:51:14] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/2977, uuid='9a55ae33-3da9-409b-b904-b6b6f68e0b41', l='ServerLevel[world]', x=315.36, y=20.50, z=758.55, cpos=[19, 47], tl=0, v=false] is outside of serialized chunk [-156, 320]
-[11:51:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/3013, uuid='e1d8c4fb-a924-4597-9cbc-194792f16bde', l='ServerLevel[world]', x=965.30, y=39.15, z=695.64, cpos=[60, 43], tl=0, v=false] is outside of serialized chunk [-115, 316]
-[11:51:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/3014, uuid='29b07a9d-ce42-418f-817e-10ac7057ac39', l='ServerLevel[world]', x=966.54, y=39.70, z=695.80, cpos=[60, 43], tl=0, v=false] is outside of serialized chunk [-115, 316]
-[11:51:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/3015, uuid='d2a801e3-7424-46c8-a706-46ebebda405a', l='ServerLevel[world]', x=963.75, y=39.16, z=695.29, cpos=[60, 43], tl=0, v=false] is outside of serialized chunk [-115, 316]
-[11:51:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/3016, uuid='ee358993-96ca-468a-900a-c2dc3267549f', l='ServerLevel[world]', x=967.27, y=39.22, z=695.61, cpos=[60, 43], tl=0, v=false] is outside of serialized chunk [-115, 316]
-[11:51:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/3017, uuid='f56e5f19-5423-4185-9dee-faf700056203', l='ServerLevel[world]', x=962.74, y=39.40, z=695.47, cpos=[60, 43], tl=0, v=false] is outside of serialized chunk [-115, 316]
-[11:51:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/3018, uuid='89f5b287-91ed-4f34-b89e-862cf0e32cd5', l='ServerLevel[world]', x=961.41, y=39.15, z=695.58, cpos=[60, 43], tl=0, v=false] is outside of serialized chunk [-115, 316]
-[11:51:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/3019, uuid='fbd4716b-b8d1-4523-a2c5-d572d555b0b8', l='ServerLevel[world]', x=960.83, y=39.60, z=695.36, cpos=[60, 43], tl=0, v=false] is outside of serialized chunk [-115, 316]
-[11:51:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/3020, uuid='350fca30-a3f1-470c-9ab4-37b86ddd77a3', l='ServerLevel[world]', x=968.44, y=39.41, z=695.47, cpos=[60, 43], tl=0, v=false] is outside of serialized chunk [-115, 316]
-[11:51:28] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/3021, uuid='cb751b41-14d2-4106-a53c-1d21e779abdd', l='ServerLevel[world]', x=969.61, y=39.56, z=695.43, cpos=[60, 43], tl=0, v=false] is outside of serialized chunk [-115, 316]
-[11:51:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/3024, uuid='973b0ba5-7da5-4a11-ba84-f89b380ac450', l='ServerLevel[world]', x=931.39, y=19.37, z=750.41, cpos=[58, 46], tl=0, v=false] is outside of serialized chunk [-117, 319]
-[11:51:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Pig['Pig'/3025, uuid='5a65d492-96da-421e-9347-a595fb888fca', l='ServerLevel[world]', x=929.50, y=63.00, z=745.50, cpos=[58, 46], tl=0, v=false] is outside of serialized chunk [-117, 319]
-[11:51:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Pig['Pig'/3026, uuid='be85ae73-7b15-444a-8111-02d20d21a1a0', l='ServerLevel[world]', x=929.50, y=63.00, z=745.50, cpos=[58, 46], tl=0, v=false] is outside of serialized chunk [-117, 319]
-[11:51:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Pig['Pig'/3027, uuid='5cc867fe-0c0d-4ca7-9773-323ce4eae80d', l='ServerLevel[world]', x=930.50, y=64.00, z=746.50, cpos=[58, 46], tl=0, v=false] is outside of serialized chunk [-117, 319]
-[11:51:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/3062, uuid='cbfc0aaa-7073-4a6c-8b36-62e77cb10487', l='ServerLevel[world]', x=1016.50, y=71.00, z=690.50, cpos=[63, 43], tl=0, v=false] is outside of serialized chunk [-112, 316]
-[11:51:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/3063, uuid='5a467aac-c561-4bde-b290-280b7c28da93', l='ServerLevel[world]', x=1019.50, y=71.00, z=690.50, cpos=[63, 43], tl=0, v=false] is outside of serialized chunk [-112, 316]
-[11:51:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/3064, uuid='225697f1-938e-439d-91a0-c3fff9279139', l='ServerLevel[world]', x=1022.50, y=72.00, z=691.50, cpos=[63, 43], tl=0, v=false] is outside of serialized chunk [-112, 316]
-[11:51:42] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Cow['Cow'/3065, uuid='921a1c98-3564-468b-b163-cbb2b0b7d898', l='ServerLevel[world]', x=1019.50, y=71.00, z=693.50, cpos=[63, 43], tl=0, v=false] is outside of serialized chunk [-112, 316]
-[11:51:57] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/3164, uuid='796d35b8-c9a2-465e-aa57-0925bb6fd4e3', l='ServerLevel[world]', x=1094.50, y=65.00, z=677.50, cpos=[68, 42], tl=0, v=false] is outside of serialized chunk [-107, 315]
-[11:51:57] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/3165, uuid='2f6cc4bc-5f15-4c7f-8cf4-a1dcb2264548', l='ServerLevel[world]', x=1095.50, y=65.00, z=675.50, cpos=[68, 42], tl=0, v=false] is outside of serialized chunk [-107, 315]
-[11:51:57] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/3166, uuid='15abd5c6-495d-4398-8567-ba94053cf289', l='ServerLevel[world]', x=1095.50, y=65.00, z=677.50, cpos=[68, 42], tl=0, v=false] is outside of serialized chunk [-107, 315]
-[11:51:57] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/3167, uuid='6860af67-efc1-418a-b4ba-b75cc4bf00fb', l='ServerLevel[world]', x=1091.50, y=66.00, z=678.50, cpos=[68, 42], tl=0, v=false] is outside of serialized chunk [-107, 315]
-[11:52:34] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[11:52:34] [Server thread/INFO]: trololol72 lost connection: Server is restarting
-[11:52:34] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[11:52:35] [Server thread/INFO]: Stopping server
-[11:52:35] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[11:52:35] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[11:52:35] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[11:52:35] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[11:52:35] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[11:52:35] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[11:52:35] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[11:52:35] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[11:52:35] [Server thread/INFO]: [TAB] Disabled in 106ms
-[11:52:35] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[11:52:35] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[11:52:35] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[11:52:35] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[11:52:35] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[11:52:35] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[11:52:35] [Server thread/INFO]: [LuckPerms] Closing storage...
-[11:52:36] [Server thread/INFO]: [LuckPerms] Goodbye!
-[11:52:36] [Server thread/INFO]: Saving players
-[11:52:36] [Server thread/INFO]: Saving worlds
-[11:52:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:52:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[11:52:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[11:52:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[11:52:40] [spark-java-sampler-0-1/WARN]: [spark] Timed out waiting for world statistics
-[11:52:48] [Server thread/INFO]: [ChunkHolderManager] Saved 6916 block chunks, 3806 entity chunks, 20 poi chunks in world 'world' in 12.00s
-[11:52:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[11:52:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[11:52:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:52:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[11:52:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[11:52:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[11:52:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[11:52:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[11:52:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[11:52:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:52:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[11:52:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[11:52:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[11:52:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[11:52:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[11:52:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[11:52:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:52:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:52:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:52:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:52:51] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[11:52:51] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[11:52:51] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[11:52:51] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[12:17:49] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[12:17:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[12:17:52] [ServerMain/INFO]: Loaded 1470 recipes
+[12:17:52] [ServerMain/INFO]: Loaded 1584 advancements
+[12:17:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[12:17:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 333.1ms
+[12:17:53] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[12:17:53] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[12:17:53] [Server thread/INFO]: Loading properties
+[12:17:53] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[12:17:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[12:17:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:17:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:17:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[12:17:54] [Server thread/INFO]: Default game type: SURVIVAL
+[12:17:54] [Server thread/INFO]: Generating keypair
+[12:17:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:17:54] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[12:17:54] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:17:54] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[12:17:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:17:54] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[12:17:54] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[12:17:54] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[12:17:55] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[12:17:56] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3c166cc1]
+[12:17:56] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[12:17:56] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[12:17:56] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[12:17:56] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[12:17:57] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[12:17:57] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[12:17:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:17:57] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[12:17:57] [Server thread/INFO]:         __    
+[12:17:57] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[12:17:57] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[12:17:57] [Server thread/INFO]: 
+[12:17:57] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:17:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:17:58] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:17:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1013ms)
+[12:17:58] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[12:17:58] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[12:17:58] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[12:17:58] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[12:17:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:17:58] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:17:58] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[12:17:59] [Server thread/INFO]: Preparing level "world"
+[12:17:59] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[12:17:59] [Server thread/INFO]: Preparing spawn area: 100%
+[12:17:59] [Server thread/INFO]: Prepared spawn area in 3 ms
+[12:17:59] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[12:17:59] [Server thread/INFO]: Prepared spawn area in 2 ms
+[12:17:59] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[12:17:59] [Server thread/INFO]: Prepared spawn area in 1 ms
+[12:17:59] [Server thread/INFO]: Done preparing level "world" (0.547s)
+[12:17:59] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[12:18:00] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[12:18:01] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[12:18:01] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[12:18:02] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[12:18:02] [Server thread/INFO]: [TAB] Enabled in 579ms
+[12:18:02] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[12:18:02] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[12:18:02] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[12:18:02] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[12:18:02] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[12:18:02] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[12:18:02] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[12:18:02] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[12:18:02] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[12:18:02] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[12:18:02] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1439ms
+[12:18:02] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[12:18:02] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[12:18:03] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[12:18:03] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[12:18:03] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[12:18:03] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[12:18:03] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[12:18:03] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[12:18:03] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[12:18:03] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[12:18:03] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[12:18:03] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[12:18:03] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[12:18:03] [Server thread/INFO]: [SkBee]  - 56 events
+[12:18:03] [Server thread/INFO]: [SkBee]  - 71 effects
+[12:18:03] [Server thread/INFO]: [SkBee]  - 240 expressions
+[12:18:03] [Server thread/INFO]: [SkBee]  - 27 conditions
+[12:18:03] [Server thread/INFO]: [SkBee]  - 32 sections
+[12:18:03] [Server thread/INFO]: [SkBee]  - 11 properties
+[12:18:03] [Server thread/INFO]: [SkBee] Update checker disabled!
+[12:18:03] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.85 seconds
+[12:18:03] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[12:18:03] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[12:18:03] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[12:18:03] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[12:18:03] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[12:18:03] [Server thread/INFO]: [spark] Starting background profiler...
+[12:18:03] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[12:18:03] [Server thread/INFO]: Running delayed init tasks
+[12:18:03] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[12:18:03] [Server thread/INFO]: [Skript] Loading variables...
+[12:18:03] [Server thread/INFO]: [Skript] Loaded 308 variables in 0.0 seconds
+[12:18:08] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[12:18:08] [Server thread/INFO]: [Skript] Loaded 23 scripts with a total of 196 structures in 5.08 seconds
+[12:18:08] [Server thread/INFO]: [Skript] Finished loading.
+[12:18:08] [Server thread/INFO]: Done (25.794s)! For help, type "help"
+[12:18:08] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 27 build(s) behind ***
+[12:18:08] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[12:18:18] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[12:18:18] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[12:18:21] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[12:18:21] [Server thread/INFO]: trololol72[/127.0.0.1:54970] logged in with entity id 1 at ([world]-2190.115484736891, 91.42043699651825, 5023.257079433203)
+[12:18:22] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[12:18:22] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[12:19:05] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/483, uuid='173d93a2-6230-46f1-8586-e685560bc2f0', l='ServerLevel[world]', x=-4459.66, y=27.18, z=-1012.70, cpos=[-279, -64], tl=0, v=false] is outside of serialized chunk [-168, 284]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/484, uuid='6db01857-24b4-4d2a-8357-47d0a4b60cad', l='ServerLevel[world]', x=-4459.27, y=27.27, z=-1013.67, cpos=[-279, -64], tl=0, v=false] is outside of serialized chunk [-168, 284]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/485, uuid='bbd13096-f156-4fe2-8ea0-84fe14e5e35e', l='ServerLevel[world]', x=-4459.44, y=27.40, z=-1016.50, cpos=[-279, -64], tl=0, v=false] is outside of serialized chunk [-168, 284]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/486, uuid='ff9a41f9-b141-4e5d-a4be-047d74ace9e1', l='ServerLevel[world]', x=-4459.53, y=27.72, z=-1017.58, cpos=[-279, -64], tl=0, v=false] is outside of serialized chunk [-168, 284]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/487, uuid='c4b719c7-c1bb-47c9-90fe-117e89344c6f', l='ServerLevel[world]', x=-4459.46, y=27.41, z=-1018.15, cpos=[-279, -64], tl=0, v=false] is outside of serialized chunk [-168, 284]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/493, uuid='a1d8f631-ea42-47b8-814a-599292c12be2', l='ServerLevel[world]', x=-4478.49, y=13.27, z=-985.75, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/494, uuid='f88a6a95-a169-49a1-860c-88b22a46bda4', l='ServerLevel[world]', x=-4478.68, y=13.66, z=-984.61, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/495, uuid='e9f475b1-e5d3-4535-939d-652f0182a995', l='ServerLevel[world]', x=-4478.39, y=13.26, z=-983.44, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/496, uuid='89774e85-2d22-4af2-bfdc-38e00f3b6dc2', l='ServerLevel[world]', x=-4478.28, y=13.67, z=-982.74, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/497, uuid='0ea03209-6309-4cd9-97c5-1cba30b08fa7', l='ServerLevel[world]', x=-4478.20, y=13.25, z=-980.77, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/498, uuid='433a23f1-8ae6-4684-b48b-717284cf01e8', l='ServerLevel[world]', x=-4478.58, y=13.31, z=-979.32, cpos=[-280, -62], tl=0, v=false] is outside of serialized chunk [-169, 286]
+[12:19:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/499, uuid='609a247c-d281-437a-9d0a-061c11ba531a', l='ServerLevel[world]', x=-4479.52, y=24.26, z=-998.30, cpos=[-280, -63], tl=0, v=false] is outside of serialized chunk [-169, 285]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Pig['Pig'/502, uuid='ea4e1aa9-5000-4801-b2a3-a00d92d91458', l='ServerLevel[world]', x=-4462.50, y=64.00, z=-1053.50, cpos=[-279, -66], tl=0, v=false] is outside of serialized chunk [-168, 282]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Pig['Pig'/503, uuid='74ed38e3-464c-4226-8b93-23bd870b6416', l='ServerLevel[world]', x=-4461.50, y=65.00, z=-1053.50, cpos=[-279, -66], tl=0, v=false] is outside of serialized chunk [-168, 282]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Pig['Pig'/504, uuid='208822c5-a4c1-40c7-bfb3-3ddd0d9c175a', l='ServerLevel[world]', x=-4462.50, y=67.00, z=-1051.50, cpos=[-279, -66], tl=0, v=false] is outside of serialized chunk [-168, 282]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Pumpkin Seeds'/506, uuid='fe0bd381-27b4-4b83-a6a5-e0e5ba4a88b0', l='ServerLevel[world]', x=-4431.61, y=26.84, z=-1078.42, cpos=[-277, -68], tl=0, v=false] is outside of serialized chunk [-166, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Bread'/507, uuid='6b24ae58-c338-4457-8869-30dfd54b4ed3', l='ServerLevel[world]', x=-4431.75, y=26.43, z=-1078.19, cpos=[-277, -68], tl=0, v=false] is outside of serialized chunk [-166, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Iron Ingot'/508, uuid='ed58e5b1-74e4-473d-a953-9a767735fd3c', l='ServerLevel[world]', x=-4431.82, y=26.90, z=-1078.55, cpos=[-277, -68], tl=0, v=false] is outside of serialized chunk [-166, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/509, uuid='b6bcb0fc-f0a0-458d-9780-f6e865b0da44', l='ServerLevel[world]', x=-4431.44, y=26.35, z=-1078.45, cpos=[-277, -68], tl=0, v=false] is outside of serialized chunk [-166, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Lapis Lazuli'/510, uuid='f9e0048a-2934-4aa6-ba79-985ea41d192d', l='ServerLevel[world]', x=-4431.41, y=26.60, z=-1078.59, cpos=[-277, -68], tl=0, v=false] is outside of serialized chunk [-166, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/511, uuid='5a1d1a64-b3f1-4666-b8f8-01f3828070c8', l='ServerLevel[world]', x=-4457.80, y=23.13, z=-1070.82, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/512, uuid='943f41f0-6dda-4fb8-84a7-8a0f638a3b98', l='ServerLevel[world]', x=-4457.37, y=23.13, z=-1067.82, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/513, uuid='69c9d855-3481-46dd-b83c-209cb9270670', l='ServerLevel[world]', x=-4459.88, y=23.13, z=-1067.82, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/514, uuid='d1540e9e-edb9-4db6-8b7a-753117a32c4b', l='ServerLevel[world]', x=-4459.00, y=23.13, z=-1066.81, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/515, uuid='ff2242d0-c643-4743-99b7-b57a77f8da5f', l='ServerLevel[world]', x=-4451.13, y=24.13, z=-1062.83, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/516, uuid='c6c74d5a-fa18-4d61-87cd-2696dae00dda', l='ServerLevel[world]', x=-4451.86, y=24.13, z=-1070.25, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/517, uuid='0462b9c0-b1e1-435e-9c77-a2a1f24b26c6', l='ServerLevel[world]', x=-4453.88, y=24.13, z=-1058.83, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/518, uuid='cb71d930-4b05-4732-8156-60fe377f4ecc', l='ServerLevel[world]', x=-4452.05, y=24.13, z=-1071.34, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/519, uuid='11cfe738-ab69-43b8-95cc-fb3c0e1ebcd5', l='ServerLevel[world]', x=-4452.15, y=24.13, z=-1057.81, cpos=[-279, -67], tl=0, v=false] is outside of serialized chunk [-168, 281]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/520, uuid='844777eb-066f-4446-a83a-d1bcde6556b4', l='ServerLevel[world]', x=-4447.36, y=29.46, z=-1081.66, cpos=[-278, -68], tl=0, v=false] is outside of serialized chunk [-167, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/521, uuid='eb6f6bf7-cf35-466b-9748-9a58f498e864', l='ServerLevel[world]', x=-4445.74, y=29.56, z=-1081.18, cpos=[-278, -68], tl=0, v=false] is outside of serialized chunk [-167, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/522, uuid='78d782b9-4a39-40c6-aee8-50b6e9432c7d', l='ServerLevel[world]', x=-4439.52, y=26.26, z=-1075.30, cpos=[-278, -68], tl=0, v=false] is outside of serialized chunk [-167, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/524, uuid='6cf6e7d4-797e-4c40-b2a6-1f7792092304', l='ServerLevel[world]', x=-4461.83, y=23.13, z=-1086.13, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/525, uuid='79000ff6-c6bb-4a86-a8dd-eb7f0af69d0d', l='ServerLevel[world]', x=-4457.44, y=23.13, z=-1087.83, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/526, uuid='b993c9ce-73f4-4421-a286-887a30c9e9b0', l='ServerLevel[world]', x=-4451.33, y=25.13, z=-1083.04, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Torch'/527, uuid='e4e4b0fd-2352-4bce-9c96-70f8ab15c29a', l='ServerLevel[world]', x=-4451.52, y=24.13, z=-1074.32, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/528, uuid='03553da2-3435-470d-abbf-dd77c8757415', l='ServerLevel[world]', x=-4456.25, y=23.13, z=-1087.88, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/529, uuid='d682f419-9178-4312-aff9-21a99b2ea82b', l='ServerLevel[world]', x=-4452.16, y=29.13, z=-1080.13, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/530, uuid='d9287997-dc0d-4949-bc78-ba4501c6d7db', l='ServerLevel[world]', x=-4454.15, y=29.13, z=-1080.20, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity ItemEntity['Rail'/531, uuid='83944f2e-b370-4ec2-938a-afa6ba373987', l='ServerLevel[world]', x=-4455.88, y=29.13, z=-1080.67, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
+[12:19:32] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Chicken['Chicken'/532, uuid='6f1ca75e-ab29-4f26-bc9e-8e2644130af5', l='ServerLevel[world]', x=-4451.50, y=63.00, z=-1087.50, cpos=[-279, -68], tl=0, v=false] is outside of serialized chunk [-168, 280]
+[12:19:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/538, uuid='924fcaa0-c6b0-431d-a7f0-dc3ea8bb747b', l='ServerLevel[world]', x=-4495.50, y=69.00, z=-979.50, cpos=[-281, -62], tl=0, v=false] is outside of serialized chunk [-170, 286]
+[12:19:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/539, uuid='f4929e1e-026a-459d-9c66-8c5a0c3de9af', l='ServerLevel[world]', x=-4488.50, y=64.00, z=-1002.50, cpos=[-281, -63], tl=0, v=false] is outside of serialized chunk [-170, 285]
+[12:19:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/540, uuid='8445a87f-7121-49a4-8f3b-c8f7d02daba6', l='ServerLevel[world]', x=-4488.50, y=64.00, z=-1006.50, cpos=[-281, -63], tl=0, v=false] is outside of serialized chunk [-170, 285]
+[12:19:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/541, uuid='904e8937-fdf9-41e2-abb1-5b7175fd4353', l='ServerLevel[world]', x=-4490.50, y=64.00, z=-1006.50, cpos=[-281, -63], tl=0, v=false] is outside of serialized chunk [-170, 285]
+[12:19:34] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/542, uuid='9785f895-310c-4508-8ecc-ca45ee59231f', l='ServerLevel[world]', x=-4490.50, y=63.00, z=-1009.50, cpos=[-281, -64], tl=0, v=false] is outside of serialized chunk [-170, 284]
+[12:19:37] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/550, uuid='b3649324-f36b-45d8-824d-ac0f1aa0abbe', l='ServerLevel[world]', x=-4503.50, y=67.00, z=-977.50, cpos=[-282, -62], tl=0, v=false] is outside of serialized chunk [-171, 286]
+[12:19:37] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/551, uuid='a1847eea-321b-4032-8059-dbb279509b2d', l='ServerLevel[world]', x=-4501.50, y=68.00, z=-977.50, cpos=[-282, -62], tl=0, v=false] is outside of serialized chunk [-171, 286]
+[12:19:37] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/552, uuid='f51482d6-ecca-45a6-8261-3c947cb34413', l='ServerLevel[world]', x=-4498.50, y=69.00, z=-978.50, cpos=[-282, -62], tl=0, v=false] is outside of serialized chunk [-171, 286]
+[12:20:08] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:21:42] [Server thread/INFO]: trololol72 issued server command: //sel cyl
+[12:23:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/996, uuid='381bd6e6-ad06-4766-b68b-901f33094bb7', l='ServerLevel[world]', x=1205.50, y=75.00, z=474.50, cpos=[75, 29], tl=0, v=false] is outside of serialized chunk [-100, 302]
+[12:23:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/997, uuid='fadc9cfb-2d81-49aa-8de4-267f4ff67ddb', l='ServerLevel[world]', x=1204.50, y=75.00, z=476.50, cpos=[75, 29], tl=0, v=false] is outside of serialized chunk [-100, 302]
+[12:23:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/998, uuid='c0c03b09-016f-4126-9e48-3ce4f5ea59b1', l='ServerLevel[world]', x=1203.50, y=74.00, z=473.50, cpos=[75, 29], tl=0, v=false] is outside of serialized chunk [-100, 302]
+[12:23:43] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Root entity Sheep['Sheep'/999, uuid='3e4e610e-2d45-4522-91e6-97fb194bfbe3', l='ServerLevel[world]', x=1206.50, y=76.00, z=477.50, cpos=[75, 29], tl=0, v=false] is outside of serialized chunk [-100, 302]
+[12:24:27] [Server thread/INFO]: trololol72 issued server command: /tp ~ -63 ~
+[12:24:27] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2254.214504, -63.000000, 4938.738768]
+[12:24:39] [Server thread/INFO]: trololol72 issued server command: //pos1
+[12:24:51] [Server thread/INFO]: trololol72 issued server command: /tp ~53 ~ ~
+[12:24:51] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2201.214504, -63.000000, 4938.738768]
+[12:24:54] [Server thread/INFO]: trololol72 issued server command: //pos2
+[12:25:11] [Server thread/INFO]: trololol72 issued server command: /tp ~ ~200 ~
+[12:25:11] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2201.214504, 137.000000, 4938.738768]
+[12:25:17] [Server thread/INFO]: trololol72 issued server command: //pos2
+[12:26:09] [Server thread/INFO]: trololol72 issued server command: /tp -2255 -64
+[12:26:11] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:26:22] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:26:30] [Server thread/INFO]: trololol72 issued server command: /tp -2255 -64 4938
+[12:26:30] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2254.500000, -64.000000, 4938.500000]
+[12:26:39] [Server thread/INFO]: trololol72 issued server command: /tp -2255 -63 4938
+[12:26:39] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2254.500000, -63.000000, 4938.500000]
+[12:26:44] [Server thread/INFO]: trololol72 issued server command: //copy
+[12:26:44] [AsyncNotifyKeyedQueue - 2/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[12:26:56] [Server thread/INFO]: trololol72 issued server command: /tp -512 64 512
+[12:26:56] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, 64.000000, 512.500000]
+[12:27:23] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
+[12:27:23] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
+[12:27:30] [Server thread/INFO]: trololol72 issued server command: //paste
+[12:28:03] [Server thread/INFO]: trololol72 issued server command: //undo
+[12:29:06] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
+[12:29:06] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
+[12:29:19] [Server thread/INFO]: trololol72 issued server command: /tp -2255 -63 4938
+[12:29:19] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2254.500000, -63.000000, 4938.500000]
+[12:29:43] [Server thread/INFO]: trololol72 issued server command: //copy
+[12:30:59] [Server thread/INFO]: trololol72 issued server command: //pos1
+[12:31:08] [Server thread/INFO]: trololol72 issued server command: /tp ~53 320 ~53
+[12:31:08] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2201.500000, 320.000000, 4991.500000]
+[12:31:12] [Server thread/INFO]: trololol72 issued server command: //pos2
+[12:31:21] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:31:29] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:31:34] [Server thread/INFO]: trololol72 issued server command: /tp -2255 -63 4938
+[12:31:34] [Server thread/INFO]: [trololol72: Teleported trololol72 to -2254.500000, -63.000000, 4938.500000]
+[12:31:36] [Server thread/INFO]: trololol72 issued server command: //copy
+[12:31:47] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
+[12:31:47] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
+[12:31:56] [Server thread/INFO]: trololol72 issued server command: //paste
+[12:32:44] [Server thread/INFO]: trololol72 issued server command: /time set day
+[12:32:44] [Server thread/INFO]: [trololol72: Set the time to 1000]
+[12:33:00] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
+[12:33:00] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
+[12:35:26] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 55 383
+[12:35:33] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 54 383
+[12:35:38] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 53 383
+[12:35:41] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 52 383
+[12:35:44] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 51 383
+[12:35:50] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 50 383
+[12:37:16] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
+[12:37:16] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
+[12:37:23] [Server thread/INFO]: trololol72 issued server command: //pos1
+[12:37:39] [Server thread/INFO]: trololol72 issued server command: /tp ~52 320 ~52
+[12:37:39] [Server thread/INFO]: [trololol72: Teleported trololol72 to -459.500000, 320.000000, 564.500000]
+[12:37:47] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
+[12:37:47] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
+[12:38:06] [Server thread/INFO]: trololol72 issued server command: /tp ~50 ~ ~
+[12:38:06] [Server thread/INFO]: [trololol72: Teleported trololol72 to -461.500000, -64.499595, 512.500000]
+[12:38:35] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
+[12:38:35] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
+[12:38:41] [Server thread/INFO]: trololol72 issued server command: //pos1
+[12:38:49] [Server thread/INFO]: trololol72 issued server command: /tp ~51 320 ~51
+[12:38:49] [Server thread/INFO]: [trololol72: Teleported trololol72 to -460.500000, 320.000000, 563.500000]
+[12:39:12] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
+[12:39:12] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
+[12:39:15] [Server thread/INFO]: trololol72 issued server command: /tp ~51 320 ~
+[12:39:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to -460.500000, 320.000000, 512.500000]
+[12:39:37] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
+[12:39:37] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
+[12:39:47] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 50.5 383
+[12:39:51] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 51.5 383
+[12:39:55] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 52.5 383
+[12:39:59] [Server thread/INFO]: trololol72 issued server command: //hcyl bedrock 53.5 383
+[12:40:02] [Server thread/INFO]: trololol72 issued server command: /tp ~51 320 ~
+[12:40:02] [Server thread/INFO]: [trololol72: Teleported trololol72 to -460.500000, 320.000000, 512.500000]
+[12:40:39] [Server thread/INFO]: trololol72 issued server command: /tp -512 -63 512
+[12:40:39] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, -63.000000, 512.500000]
+[12:40:54] [Server thread/INFO]: trololol72 issued server command: /tp ~52 320 ~52
+[12:40:54] [Server thread/INFO]: [trololol72: Teleported trololol72 to -459.500000, 320.000000, 564.500000]
+[12:40:58] [Server thread/INFO]: trololol72 issued server command: //pos2
+[12:41:13] [Server thread/INFO]: trololol72 issued server command: //setbiome plains
+[12:41:17] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:41:25] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:41:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:41:39] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:42:00] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:42:23] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:42:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:42:32] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:42:34] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:42:41] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:42:52] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:43:13] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ stone
+[12:43:13] [Server thread/INFO]: [trololol72: Changed the block at -508, 13, 506]
+[12:43:17] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
+[12:43:17] [Server thread/INFO]: [trololol72: Changed the block at -508, 14, 506]
+[12:43:18] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:43:50] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:44:03] [Server thread/INFO]: trololol72 issued server command: /effect give @a minecraft:night_vision infinite 1 true
+[12:44:30] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
+[12:44:30] [Server thread/INFO]: [trololol72: Changed the block at -546, 14, 506]
+[12:44:38] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
+[12:44:42] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ stone
+[12:44:42] [Server thread/INFO]: [trololol72: Changed the block at -546, 13, 506]
+[12:44:43] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:45:21] [Server thread/INFO]: trololol72 issued server command: /tp ~ ~50 ~
+[12:45:21] [Server thread/INFO]: [trololol72: Teleported trololol72 to -522.114915, 101.976282, 483.176758]
+[12:45:48] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:46:00] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ stone
+[12:46:00] [Server thread/INFO]: [trololol72: Changed the block at -536, 12, 497]
+[12:46:03] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
+[12:46:03] [Server thread/INFO]: [trololol72: Changed the block at -536, 13, 497]
+[12:46:04] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:46:14] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:46:23] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
+[12:46:23] [Server thread/INFO]: [trololol72: Changed the block at -504, 14, 479]
+[12:46:25] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ stone
+[12:46:25] [Server thread/INFO]: [trololol72: Changed the block at -504, 13, 479]
+[12:46:26] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:46:37] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:46:50] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~ ~ stone
+[12:46:50] [Server thread/INFO]: [trololol72: Changed the block at -489, 13, 500]
+[12:46:55] [Server thread/INFO]: trololol72 issued server command: /setblock ~ ~1 ~ stone
+[12:46:55] [Server thread/INFO]: [trololol72: Changed the block at -489, 14, 500]
+[12:46:58] [Server thread/INFO]: trololol72 issued server command: /tp ~ ~50 ~
+[12:46:58] [Server thread/INFO]: [trololol72: Teleported trololol72 to -488.300000, 63.000000, 500.422773]
+[12:47:00] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:47:05] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:48:56] [Server thread/INFO]: trololol72 issued server command: /tp -512 64 512
+[12:48:56] [Server thread/INFO]: [trololol72: Teleported trololol72 to -511.500000, 64.000000, 512.500000]
+[12:48:57] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:49:07] [Server thread/INFO]: trololol72 issued server command: /tp ~35 ~ ~35
+[12:49:07] [Server thread/INFO]: [trololol72: Teleported trololol72 to -476.500000, 64.000000, 547.500000]
+[12:49:11] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:49:24] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:49:36] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[12:49:36] [Server thread/INFO]: trololol72 lost connection: Server is restarting
+[12:49:36] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[12:49:36] [Server thread/INFO]: Stopping server
+[12:49:36] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[12:49:36] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[12:49:36] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[12:49:36] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[12:49:36] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[12:49:36] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[12:49:36] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[12:49:36] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[12:49:36] [Server thread/INFO]: [TAB] Disabled in 2ms
+[12:49:36] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[12:49:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[12:49:36] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[12:49:36] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[12:49:36] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[12:49:36] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[12:49:36] [Server thread/INFO]: [LuckPerms] Closing storage...
+[12:49:37] [Server thread/INFO]: [LuckPerms] Goodbye!
+[12:49:37] [Server thread/INFO]: Saving players
+[12:49:37] [Server thread/INFO]: Saving worlds
+[12:49:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:49:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:49:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:49:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:49:39] [Server thread/INFO]: [ChunkHolderManager] Saved 72 block chunks, 879 entity chunks, 0 poi chunks in world 'world' in 2.03s
+[12:49:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[12:49:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[12:49:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[12:49:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[12:49:42] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[12:49:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:49:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:49:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:49:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:49:42] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[12:49:42] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[12:49:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[12:49:42] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
