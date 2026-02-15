@@ -1,0 +1,98 @@
+on load:
+    set {enc::width} to 4
+    
+    set {enc::dirs::nw::xadd} to -1  
+    set {enc::dirs::nw::zadd} to -1
+    set {enc::dirs::ne::xadd} to 1  
+    set {enc::dirs::ne::zadd} to -1
+    set {enc::dirs::sw::xadd} to -1
+    set {enc::dirs::sw::zadd} to 1
+    set {enc::dirs::se::xadd} to 1
+    set {enc::dirs::se::zadd} to 1
+
+    set {enc_debug} to true
+
+function enc_debug(msg: text):
+    if {enc_debug} is true:
+        broadcast "&2[ENCLOSURE] &r%{_msg}%"
+
+function set_strip(blck: item type, index: text):
+    enc_debug("looping directions. index: %{_index}%")
+    
+    # Explicitly loop the four directions
+    loop "nw", "ne", "sw" and "se":
+        set {_dir} to loop-value
+        enc_debug("- looping direction: %{_dir}%")
+        
+        # Get movement modifiers for this direction
+        set {_xadd} to {enc::dirs::%{_dir}%::xadd}
+        set {_zadd} to {enc::dirs::%{_dir}%::zadd}
+
+        # Loop starting locations for this index
+        loop {enc::dirs::%{_dir}%::poses::%{_index}%::*}:
+            set {_current_loc} to loop-value-2
+            enc_debug("- - looping strip for location: %{_current_loc}%")
+            
+            # Loop for width
+            loop {enc::width} times:
+                set block at {_current_loc} to {_blck}
+                add 1 to y-coord of {_current_loc}
+                set block at {_current_loc} to {_blck}
+                add 1 to y-coord of {_current_loc}
+                set block at {_current_loc} to {_blck}
+                add -2 to y-coord of {_current_loc}
+
+                # enc_debug("- - - setting %{_current_loc}% to %{_blck}%")
+                
+                # Move location by adding coordinates
+                add {_xadd} to x-coord of {_current_loc}
+                add {_zadd} to z-coord of {_current_loc}
+
+## commands ##
+command /enc_add <text> <text>:
+    permission: op
+    usage: "&cUsage: /enc_add <direction> <index>"
+    trigger:
+        # Validate direction
+        if arg-1 is not "nw" or "ne" or "sw" or "se":
+            broadcast "&4wrong direction: %arg-1%"
+            stop
+
+        # Get and format location
+        set {_loc} to location of player
+        set {_loc} to location(floor(x-coord of {_loc}), floor(y-coord of {_loc}), floor(z-coord of {_loc}), player's world)
+        
+        # Add directly to the dynamic variable path
+        add {_loc} to {enc::dirs::%arg-1%::poses::%arg-2%::*}
+        
+        enc_debug("added %{_loc}% to %arg-1%, %arg-2%")
+#
+command /enc_trigger <text> <item type>:
+    permission: op
+    usage: "&cUsage: /enc_add <index> <item type>"
+    trigger:
+        set_strip(arg-2,arg-1)
+#
+command /enc_list:
+    permission: op
+    trigger:
+        broadcast "&2Enclosure strip locations:"
+        
+        # Loop through your four directions
+        loop "nw", "ne", "sw" and "se":
+            set {_dir} to loop-value
+            
+            # Loop through the indexes (e.g., "1", "2") for each direction
+            loop {enc::dirs::%{_dir}%::poses::*}:
+                set {_index} to loop-index
+                
+                # Loop through the actual saved locations
+                loop {enc::dirs::%{_dir}%::poses::%{_index}%::*}:
+                    broadcast "- %{_dir}% | Index %{_index}%: %loop-value-3%"
+#
+command /enc_clear <text> <text>:
+    permission: op
+    usage: "&cUsage: /enc_clear <direction> <index>"
+    trigger:
+        clear {enc::dirs::%arg-1%::poses::%arg-2%::*}
+        enc_debug("Cleared all locations for %arg-1% at index %arg-2%")
