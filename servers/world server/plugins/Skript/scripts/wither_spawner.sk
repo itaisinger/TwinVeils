@@ -1,5 +1,6 @@
 options:
-    safe_radius: 15
+    safe_radius: 52
+    safe_radius_2: 30 
     wither_start: 00:00
     wither_end: 23:50
 
@@ -7,50 +8,31 @@ options:
 on load:
     delete {regions::*}
     delete {safe_spots::*}
+    delete {safe_spots_2::*}
     delete {wither::*} 
     
     # Format: "MinX, MaxX, MinZ, MaxZ"
-    set {regions::0} to "0,100,0,100"
-    set {regions::1} to "0,100,100,200"
-    set {regions::2} to "100,200,0,100"
+    set {regions::0} to "5000,5050,5000,5050"
+    set {regions::1} to "5050,5100,5050,5100"
+    # set {regions::2} to "100,200,0,100"
 
-    # Safe Spots
-    set {safe_spots::0} to location(0, 100, 0, world "world") 
+    # Safe Spots (Set 1)
+    set {safe_spots::0} to location(50, 100, 0, world "world") 
     set {safe_spots::1} to location(100, 100, 100, world "world")
+    
+    # Safe Spots (Set 2)
+    set {safe_spots_2::0} to location(50, 100, 50, world "world") 
     
     if {wither_system_active} is not set:
         set {wither_system_active} to true
     set {wither_debug_active} to false
 
-# --- 2. Manual Toggle Commands ---
-command /witherstorm_debug <text>:
-    permission: op
-    trigger:
-        if arg-1 is "true":
-            set {wither_debug_active} to true
-            send "&a&l[Wither Storm] debug ENABLED."
-        else if arg-1 is "false":
-            set {wither_debug_active} to false
-            send "&c&l[Wither Storm] debug DISABLED."
-        else:
-            send "&eUsage: /witherstorm_debug <true/false>"
-
-command /witherstorm <text>:
-    permission: op
-    trigger:
-        if arg-1 is "true":
-            set {wither_system_active} to true
-            send "&a&l[Wither Storm] System ENABLED."
-        else if arg-1 is "false":
-            set {wither_system_active} to false
-            # Cleanup using the function
-            loop {wither::*}:
-                despawn_wither(loop-index)
-            send "&c&l[Wither Storm] System DISABLED and cleared."
-        else:
-            send "&eUsage: /witherstorm <true/false>"
 
 # --- 3. Functions ---
+function wither_debug(msg: text):
+    if {wither_debug_active} is true:
+        broadcast {_msg}
+
 function spawn_wither(p: player, id: text):
     # 1. Location
     set {_spawnLoc} to location 10 meters in front of {_p}
@@ -69,35 +51,18 @@ function spawn_wither(p: player, id: text):
     add "region_%{_id}%" to scoreboard tags of {_w}
     set {wither::%{_id}%} to {_w} 
 
-    #visuals
+    # Visuals
     set display name of {_w} to "&4Ra"
     
     send "&c&lSTORM INCOMING..." to {_p}
-    if {wither_debug_active} is true:
-        broadcast "spawning wither at %{_id}%" # FIXED: added underscore
-
-    # # Particle Halo
-    # while {_w} is alive:
-    #     set {_loc} to location of {_w}
-    #     add 3.5 to y-coord of {_loc}
-        
-    #     # Extract coordinates for the command
-    #     set {_x} to x-coord of {_loc}
-    #     set {_y} to y-coord of {_loc}
-    #     set {_z} to z-coord of {_loc}
-        
-    #     # Syntax: particle <name> <x> <y> <z> <dx> <dy> <dz> <speed> <count>
-    #     execute console command "particle flame %{_x}% %{_y}% %{_z}% 0.3 0.3 0.3 0.01 10"
-        
-    #     wait 4 ticks
+    wither_debug("spawning wither at %{_id}%")
 
 function despawn_wither(id: text):
     # 1. Get entity
     set {_w} to {wither::%{_id}%}
     
     if {_w} is not set:
-        if {wither_debug_active} is true:
-            broadcast "failed to kill wither %{_id}% (already dead?)"
+        wither_debug("failed to kill wither %{_id}% (already dead?)")
         stop
 
     set {_loc} to location of {_w}
@@ -120,24 +85,30 @@ function despawn_wither(id: text):
     kill {_w}
     
     # 5. Clean Data
-    delete {wither::%{_id}%} # FIXED: Added this crucial line
+    delete {wither::%{_id}%}
     
-    if {wither_debug_active} is true:
-        broadcast "killed wither %{_id}%"
+    wither_debug("killed wither %{_id}%")
+
+## team ##
+on spawn:
+    chance of 20%:
+        stop
+    if event-entity is a player:
+        stop
+    add event-entity to team named "wither"
+##
 
 # --- 4. Main Loop ---
 every 1 second:
     
-    if {wither_debug_active} is true:
-        broadcast ""
+    wither_debug("")
     
     if {wither_system_active} is false:
         stop
 
     else:
         set {_time} to time of world "world"
-        if {wither_debug_active} is true:
-            broadcast "time: %{_time}%"
+        wither_debug("time: %{_time}%")
 
         # Check Time Window
         if {_time} is between {@wither_start} and {@wither_end}:
@@ -171,23 +142,35 @@ every 1 second:
                             
                             # Check Safety
                             set {_isSafe} to false
+                            
+                            # --- Safety Set 1 ---
                             loop {safe_spots::*}:
                                 set {_spot} to loop-value-3
                                 set y-coord of {_spot} to y-coord of loop-player
                                 
                                 if distance between loop-player and {_spot} <= {@safe_radius}:
                                     set {_isSafe} to true
-                                    if {wither_debug_active} is true:
-                                        broadcast "DEBUG: %loop-player% is SAFE near spot %loop-index-1%"
-                                if world of loop-player is "world_nether":
-                                    set {_isSafe} to true
-                                    if {wither_debug_active} is true:
-                                        broadcast "DEBUG: %loop-player% is SAFE in the nether!"
-                                if world of loop-player is "world_the_end":
-                                    set {_isSafe} to true
-                                    if {wither_debug_active} is true:
-                                        broadcast "DEBUG: %loop-player% is SAFE in the end!"
+                                    wither_debug("DEBUG: %loop-player% is SAFE near spot %loop-index-1%")
+                                        
+                            # --- Safety Set 2 ---
+                            if {_isSafe} is false: 
+                                loop {safe_spots_2::*}:
+                                    set {_spot2} to loop-value-3
+                                    set y-coord of {_spot2} to y-coord of loop-player
+                                    
+                                    if distance between loop-player and {_spot2} <= {@safe_radius_2}:
+                                        set {_isSafe} to true
+                                        wither_debug("DEBUG: %loop-player% is SAFE near secondary spot %loop-index-1%")
 
+                            # --- Global Safety Checks ---
+                            if world of loop-player is "world_nether":
+                                set {_isSafe} to true
+                                wither_debug("DEBUG: %loop-player% is SAFE in the nether!")
+                            if world of loop-player is "world_the_end":
+                                set {_isSafe} to true
+                                wither_debug("DEBUG: %loop-player% is SAFE in the end!")
+
+                            # Mark as Target if NOT Safe
                             if {_isSafe} is false:
                                 add 1 to {_playerInRegion}
                                 set {_targetPlayer} to loop-player
@@ -207,3 +190,32 @@ every 1 second:
         else:
             loop {regions::*}:
                 despawn_wither(loop-index)
+
+
+##  commands
+command /wither_debug <text>:
+    permission: op
+    trigger:
+        if arg-1 is "true":
+            set {wither_debug_active} to true
+            send "&a&l[Wither Storm] debug ENABLED."
+        else if arg-1 is "false":
+            set {wither_debug_active} to false
+            send "&c&l[Wither Storm] debug DISABLED."
+        else:
+            send "&eUsage: /witherstorm_debug <true/false>"
+
+command /wither_toggle <text>:
+    permission: op
+    trigger:
+        if arg-1 is "true":
+            set {wither_system_active} to true
+            send "&a&l[Wither Storm] System ENABLED."
+        else if arg-1 is "false":
+            set {wither_system_active} to false
+            # Cleanup using the function
+            loop {wither::*}:
+                despawn_wither(loop-index)
+            send "&c&l[Wither Storm] System DISABLED and cleared."
+        else:
+            send "&eUsage: /witherstorm <true/false>"
