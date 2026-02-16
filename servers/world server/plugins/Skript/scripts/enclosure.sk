@@ -13,7 +13,7 @@ on load:
     set {enc::dirs::se::xadd} to 1
     set {enc::dirs::se::zadd} to 1
 
-    set {enc_debug} to true
+    set {enc_debug} to false
 
 function enc_debug(msg: text):
     if {enc_debug} is true:
@@ -52,7 +52,7 @@ function set_strip(blck: item type, index: text):
                 add {_zadd} to z-coord of {_current_loc}
 
 # #
-# every 100 ticks:
+# every 20 ticks:
 #     set {_time} to time of world "world"
 #     broadcast "&eIn-game time: %{_time}%"
 # #
@@ -74,15 +74,15 @@ function _enc_open():
     set_strip(air,"out")
 
 function _enc_close():
-    enc_debug("ITS 6:30 AM")
+    enc_debug("ITS 6:00 AM")
     ring_bell()
     
-    wait 167 ticks # Approx 06:40
+    wait 334 ticks # Approx 06:40
     enc_debug("closing out")
     ring_bell()
     set_strip(bedrock,"out")
     
-    wait 167 ticks # Approx 06:50
+    wait 334 ticks # Approx 06:50
     enc_debug("closing in")
     ring_bell()
     set_strip(bedrock,"in")

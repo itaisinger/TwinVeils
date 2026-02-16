@@ -1,218 +1,825 @@
-[01:54:11] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[01:54:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[01:54:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:54:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[01:54:12] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[02:38:48] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[02:38:48] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[02:38:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:38:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[02:38:49] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[01:54:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[02:38:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[01:54:17] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[01:54:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:54:19] [ServerMain/INFO]: Loaded 1470 recipes
-[01:54:19] [ServerMain/INFO]: Loaded 1584 advancements
-[01:54:19] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:54:20] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 344.1ms
-[01:54:20] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[01:54:20] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[01:54:20] [Server thread/INFO]: Loading properties
-[01:54:20] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[01:54:20] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:54:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:54:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:54:20] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[01:54:21] [Server thread/INFO]: Default game type: SURVIVAL
-[01:54:21] [Server thread/INFO]: Generating keypair
-[01:54:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:54:21] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[01:54:21] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[01:54:21] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[01:54:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:54:21] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[01:54:21] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[01:54:21] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[01:54:22] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:54:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5dba7f07]
-[01:54:23] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[01:54:23] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[01:54:23] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[01:54:23] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[01:54:24] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[01:54:24] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[01:54:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:54:24] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[01:54:24] [Server thread/INFO]:         __    
-[01:54:24] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[01:54:24] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:54:24] [Server thread/INFO]: 
-[01:54:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:54:24] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:54:24] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:54:25] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 926ms)
-[01:54:25] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[01:54:25] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:54:25] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[01:54:25] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[01:54:25] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:54:25] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[01:54:25] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[01:54:26] [Server thread/INFO]: Preparing level "world"
-[01:54:26] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[01:54:26] [Server thread/INFO]: Preparing spawn area: 100%
-[01:54:26] [Server thread/INFO]: Prepared spawn area in 2 ms
-[01:54:26] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[01:54:26] [Server thread/INFO]: Prepared spawn area in 2 ms
-[01:54:26] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[01:54:26] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:54:26] [Server thread/INFO]: Done preparing level "world" (0.480s)
-[01:54:26] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[01:54:27] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[01:54:28] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[01:54:28] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[01:54:28] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[01:54:28] [Server thread/INFO]: [TAB] Enabled in 485ms
-[01:54:28] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[01:54:29] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[01:54:29] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[01:54:29] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[01:54:29] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[01:54:29] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[01:54:29] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[01:54:29] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[01:54:29] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[01:54:29] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[01:54:29] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1375ms
-[01:54:29] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[01:54:29] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[01:54:29] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[01:54:29] [Server thread/INFO]: [SkBee]  - 56 events
-[01:54:29] [Server thread/INFO]: [SkBee]  - 71 effects
-[01:54:29] [Server thread/INFO]: [SkBee]  - 240 expressions
-[01:54:29] [Server thread/INFO]: [SkBee]  - 27 conditions
-[01:54:29] [Server thread/INFO]: [SkBee]  - 32 sections
-[01:54:29] [Server thread/INFO]: [SkBee]  - 11 properties
-[01:54:29] [Server thread/INFO]: [SkBee] Update checker disabled!
-[01:54:29] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.82 seconds
-[01:54:29] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[01:54:29] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[01:54:29] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[01:54:29] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[01:54:29] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[01:54:30] [Server thread/INFO]: [spark] Starting background profiler...
-[01:54:30] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[01:54:30] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[01:54:30] [Server thread/INFO]: Running delayed init tasks
-[01:54:30] [Server thread/INFO]: [Skript] Loading variables...
-[01:54:30] [Server thread/INFO]: [Skript] Loaded 375 variables in 0.0 seconds
-[01:54:35] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[01:54:35] [Server thread/INFO]: [Skript] Loaded 24 scripts with a total of 209 structures in 4.82 seconds
-[01:54:35] [Server thread/INFO]: [Skript] Finished loading.
-[01:54:35] [Server thread/INFO]: Done (25.026s)! For help, type "help"
-[01:54:35] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
-[01:54:35] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[01:55:27] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[01:55:27] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[01:55:30] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[01:55:30] [Server thread/INFO]: trololol72[/127.0.0.1:63473] logged in with entity id 1 at ([world]-541.962813216395, 69.0, 484.6977897943567)
-[01:55:31] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[01:55:31] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[01:55:38] [Server thread/INFO]: trololol72 issued server command: /time set 0
-[01:55:38] [Server thread/INFO]: [trololol72: Set the time to 0]
-[01:55:40] [Server thread/INFO]: [ENCLOSURE] ITS 6:30 AM
-[01:55:48] [Server thread/INFO]: [ENCLOSURE] closing out
-[01:55:57] [Server thread/INFO]: [ENCLOSURE] closing in
-[01:56:05] [Server thread/INFO]: trololol72 issued server command: /weather clear
-[01:56:05] [Server thread/INFO]: [trololol72: Set the weather to clear]
-[01:56:12] [Server thread/INFO]: trololol72 issued server command: /time set 12000
-[01:56:12] [Server thread/INFO]: [trololol72: Set the time to 12000]
-[01:56:37] [Server thread/INFO]: [ENCLOSURE] ITS 6:00 PM
-[01:56:41] [Server thread/INFO]: [ENCLOSURE] opening in
-[01:56:45] [Server thread/INFO]: [ENCLOSURE] opening out
-[01:57:17] [Server thread/INFO]: trololol72 issued server command: //wand
-[01:57:26] [Server thread/INFO]: trololol72 issued server command: //copy
-[01:57:26] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
-[01:57:30] [Server thread/INFO]: trololol72 issued server command: //paste
-[01:58:16] [Server thread/INFO]: trololol72 issued server command: /tp -750 ~ -600
-[01:58:16] [Server thread/INFO]: [trololol72: Teleported trololol72 to -749.500000, 75.034491, -599.500000]
-[01:58:28] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
-[01:58:37] [Server thread/INFO]: trololol72 issued server command: /tpb lab
-[01:58:37] [Server thread/INFO]: Set tpb location for 'lab' to: x: -658.76, y: 68, z: -664.55, yaw: -78.17, pitch: 8.55 in 'world'
-[01:59:21] [Server thread/INFO]: trololol72 issued server command: //paste
-[02:00:05] [Server thread/INFO]: trololol72 issued server command: /tptool
-[02:00:43] [Server thread/INFO]: trololol72 issued server command: /time set 0
-[02:00:43] [Server thread/INFO]: [trololol72: Set the time to 0]
-[02:00:47] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
-[02:02:20] [Server thread/INFO]: trololol72 issued server command: /tpb lab
-[02:02:33] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
-[02:02:50] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[02:02:50] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[02:03:16] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[02:03:16] [Server thread/INFO]: Stopping server
-[02:03:16] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[02:03:16] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[02:03:16] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[02:03:16] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[02:03:16] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[02:03:16] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[02:03:16] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[02:03:16] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[02:03:16] [Server thread/INFO]: [TAB] Disabled in 0ms
-[02:03:16] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[02:03:16] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[02:03:16] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[02:03:16] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[02:03:16] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[02:03:16] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[02:03:16] [Server thread/INFO]: [LuckPerms] Closing storage...
-[02:03:16] [Server thread/INFO]: [LuckPerms] Goodbye!
-[02:03:16] [Server thread/INFO]: Saving players
-[02:03:16] [Server thread/INFO]: Saving worlds
-[02:03:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:03:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[02:03:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[02:03:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[02:03:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 1.27s
-[02:03:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[02:03:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[02:03:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[02:03:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[02:03:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[02:03:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:03:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:03:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:03:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:03:18] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[02:03:18] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[02:03:18] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[02:03:18] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[02:38:53] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[02:38:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[02:38:56] [ServerMain/INFO]: Loaded 1470 recipes
+[02:38:56] [ServerMain/INFO]: Loaded 1584 advancements
+[02:38:56] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[02:38:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 472.4ms
+[02:38:57] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[02:38:57] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[02:38:57] [Server thread/INFO]: Loading properties
+[02:38:57] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[02:38:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:38:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:38:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:38:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[02:38:58] [Server thread/INFO]: Default game type: SURVIVAL
+[02:38:58] [Server thread/INFO]: Generating keypair
+[02:38:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:38:58] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[02:38:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[02:38:59] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[02:38:59] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:38:59] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[02:38:59] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[02:38:59] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[02:38:59] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[02:39:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@36ca3d78]
+[02:39:03] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[02:39:03] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[02:39:03] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[02:39:03] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[02:39:04] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[02:39:04] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[02:39:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:39:04] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[02:39:05] [Server thread/INFO]:         __    
+[02:39:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[02:39:05] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:39:05] [Server thread/INFO]: 
+[02:39:05] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:39:05] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:39:06] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:39:06] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1540ms)
+[02:39:06] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[02:39:06] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[02:39:06] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[02:39:06] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[02:39:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:39:06] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:39:07] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[02:39:08] [Server thread/INFO]: Preparing level "world"
+[02:39:08] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[02:39:08] [Server thread/INFO]: Preparing spawn area: 100%
+[02:39:08] [Server thread/INFO]: Prepared spawn area in 3 ms
+[02:39:08] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[02:39:08] [Server thread/INFO]: Prepared spawn area in 2 ms
+[02:39:08] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[02:39:08] [Server thread/INFO]: Prepared spawn area in 2 ms
+[02:39:08] [Server thread/INFO]: Done preparing level "world" (0.620s)
+[02:39:08] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[02:39:09] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[02:39:11] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[02:39:11] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[02:39:11] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[02:39:11] [Server thread/INFO]: [TAB] Enabled in 556ms
+[02:39:11] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[02:39:11] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[02:39:12] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[02:39:12] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[02:39:12] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[02:39:12] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[02:39:12] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[02:39:12] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1296ms
+[02:39:12] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[02:39:12] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[02:39:12] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[02:39:12] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[02:39:12] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[02:39:12] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[02:39:12] [Server thread/INFO]: [SkBee]  - 56 events
+[02:39:12] [Server thread/INFO]: [SkBee]  - 71 effects
+[02:39:12] [Server thread/INFO]: [SkBee]  - 240 expressions
+[02:39:12] [Server thread/INFO]: [SkBee]  - 27 conditions
+[02:39:12] [Server thread/INFO]: [SkBee]  - 32 sections
+[02:39:12] [Server thread/INFO]: [SkBee]  - 11 properties
+[02:39:12] [Server thread/INFO]: [SkBee] Update checker disabled!
+[02:39:12] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.82 seconds
+[02:39:12] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[02:39:12] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[02:39:12] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[02:39:12] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[02:39:12] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[02:39:12] [Server thread/INFO]: [spark] Starting background profiler...
+[02:39:12] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[02:39:13] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[02:39:13] [Server thread/INFO]: Running delayed init tasks
+[02:39:13] [Server thread/INFO]: [Skript] Loading variables...
+[02:39:13] [Server thread/INFO]: [Skript] Loaded 376 variables in 0.0 seconds
+[02:39:18] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[02:39:18] [Server thread/INFO]: [Skript] Loaded 24 scripts with a total of 209 structures in 5.4 seconds
+[02:39:18] [Server thread/INFO]: [Skript] Finished loading.
+[02:39:18] [Server thread/INFO]: Done (31.486s)! For help, type "help"
+[02:39:18] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
+[02:39:18] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[02:40:20] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[02:40:20] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[02:40:24] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[02:40:25] [Server thread/INFO]: trololol72[/127.0.0.1:61216] logged in with entity id 1 at ([world]-677.2695988747319, 80.60733475595048, -657.6520390713741)
+[02:40:26] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[02:40:26] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[02:40:46] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 1904f2ea-cb05-48ee-b170-9d5dad319bd0, mapped to Rabbit['Rabbit'/269, uuid='1904f2ea-cb05-48ee-b170-9d5dad319bd0', l='ServerLevel[world]', x=-549.04, y=67.00, z=-1043.37, cpos=[-35, -66], tl=0, v=true], can't add Rabbit['Rabbit'/283, uuid='1904f2ea-cb05-48ee-b170-9d5dad319bd0', l='ServerLevel[world]', x=-533.04, y=67.00, z=-1043.37, cpos=[-34, -66], tl=0, v=false]
+[02:40:49] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: b4444a11-efe8-4669-8991-6a50634dc8ed, mapped to Rabbit['Rabbit'/426, uuid='b4444a11-efe8-4669-8991-6a50634dc8ed', l='ServerLevel[world]', x=-515.42, y=62.79, z=-1147.80, cpos=[-33, -72], tl=0, v=true], can't add Rabbit['Rabbit'/427, uuid='b4444a11-efe8-4669-8991-6a50634dc8ed', l='ServerLevel[world]', x=-531.42, y=62.79, z=-1147.80, cpos=[-34, -72], tl=0, v=false]
+[02:40:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 943cbd74-870c-4ab6-a6c1-a758f27ddc21, mapped to Rabbit['Rabbit'/428, uuid='943cbd74-870c-4ab6-a6c1-a758f27ddc21', l='ServerLevel[world]', x=-522.94, y=71.00, z=-1152.61, cpos=[-33, -73], tl=0, v=true], can't add Rabbit['Rabbit'/432, uuid='943cbd74-870c-4ab6-a6c1-a758f27ddc21', l='ServerLevel[world]', x=-538.94, y=71.00, z=-1152.61, cpos=[-34, -73], tl=0, v=false]
+[02:40:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f960ab33-0893-4ca3-96fe-fab9f037fdd9, mapped to Rabbit['Rabbit'/430, uuid='f960ab33-0893-4ca3-96fe-fab9f037fdd9', l='ServerLevel[world]', x=-524.00, y=70.00, z=-1179.00, cpos=[-33, -74], tl=0, v=true], can't add Rabbit['Rabbit'/435, uuid='f960ab33-0893-4ca3-96fe-fab9f037fdd9', l='ServerLevel[world]', x=-540.00, y=70.00, z=-1179.00, cpos=[-34, -74], tl=0, v=false]
+[02:40:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 9ea67c0e-a330-4799-a02f-4d18143a66b4, mapped to Rabbit['Rabbit'/431, uuid='9ea67c0e-a330-4799-a02f-4d18143a66b4', l='ServerLevel[world]', x=-525.00, y=68.00, z=-1179.00, cpos=[-33, -74], tl=0, v=true], can't add Rabbit['Rabbit'/436, uuid='9ea67c0e-a330-4799-a02f-4d18143a66b4', l='ServerLevel[world]', x=-541.00, y=68.00, z=-1179.00, cpos=[-34, -74], tl=0, v=false]
+[02:40:55] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 58ed428b-4ea7-494a-85df-2904dbdbce23, mapped to Camel['Camel'/487, uuid='58ed428b-4ea7-494a-85df-2904dbdbce23', l='ServerLevel[world]', x=-519.86, y=80.00, z=-1304.55, cpos=[-33, -82], tl=0, v=true], can't add Camel['Camel'/489, uuid='58ed428b-4ea7-494a-85df-2904dbdbce23', l='ServerLevel[world]', x=-535.86, y=80.00, z=-1304.55, cpos=[-34, -82], tl=0, v=false]
+[02:40:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 910b8d56-1463-48cc-ae7e-6205f5d13b30, mapped to Rabbit['Rabbit'/499, uuid='910b8d56-1463-48cc-ae7e-6205f5d13b30', l='ServerLevel[world]', x=-532.85, y=70.00, z=-1373.97, cpos=[-34, -86], tl=0, v=true], can't add Rabbit['Rabbit'/509, uuid='910b8d56-1463-48cc-ae7e-6205f5d13b30', l='ServerLevel[world]', x=-548.85, y=70.00, z=-1373.97, cpos=[-35, -86], tl=0, v=false]
+[02:40:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 932fe28d-2fe5-45b4-b943-236957e47107, mapped to Rabbit['Rabbit'/502, uuid='932fe28d-2fe5-45b4-b943-236957e47107', l='ServerLevel[world]', x=-530.12, y=64.00, z=-1385.79, cpos=[-34, -87], tl=0, v=true], can't add Rabbit['Rabbit'/512, uuid='932fe28d-2fe5-45b4-b943-236957e47107', l='ServerLevel[world]', x=-546.12, y=64.00, z=-1385.79, cpos=[-35, -87], tl=0, v=false]
+[02:40:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: ea205c1a-b77c-4f3c-9112-c07fb686b7a9, mapped to Rabbit['Rabbit'/503, uuid='ea205c1a-b77c-4f3c-9112-c07fb686b7a9', l='ServerLevel[world]', x=-532.33, y=64.00, z=-1385.68, cpos=[-34, -87], tl=0, v=true], can't add Rabbit['Rabbit'/513, uuid='ea205c1a-b77c-4f3c-9112-c07fb686b7a9', l='ServerLevel[world]', x=-548.33, y=64.00, z=-1385.68, cpos=[-35, -87], tl=0, v=false]
+[02:40:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f960ab33-0893-4ca3-96fe-fab9f037fdd9, mapped to Rabbit['Rabbit'/430, uuid='f960ab33-0893-4ca3-96fe-fab9f037fdd9', l='ServerLevel[world]', x=-524.11, y=66.31, z=-1178.67, cpos=[-33, -74], tl=43, v=true], can't add Rabbit['Rabbit'/514, uuid='f960ab33-0893-4ca3-96fe-fab9f037fdd9', l='ServerLevel[world]', x=-764.00, y=70.00, z=-1179.00, cpos=[-48, -74], tl=0, v=false]
+[02:40:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 9ea67c0e-a330-4799-a02f-4d18143a66b4, mapped to Rabbit['Rabbit'/431, uuid='9ea67c0e-a330-4799-a02f-4d18143a66b4', l='ServerLevel[world]', x=-524.77, y=66.20, z=-1178.30, cpos=[-33, -74], tl=43, v=true], can't add Rabbit['Rabbit'/515, uuid='9ea67c0e-a330-4799-a02f-4d18143a66b4', l='ServerLevel[world]', x=-765.00, y=68.00, z=-1179.00, cpos=[-48, -74], tl=0, v=false]
+[02:40:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e6e42194-5b85-493b-8538-8a6496634dde, mapped to Rabbit['Rabbit'/504, uuid='e6e42194-5b85-493b-8538-8a6496634dde', l='ServerLevel[world]', x=-512.48, y=66.00, z=-1397.19, cpos=[-33, -88], tl=0, v=true], can't add Rabbit['Rabbit'/516, uuid='e6e42194-5b85-493b-8538-8a6496634dde', l='ServerLevel[world]', x=-528.48, y=66.00, z=-1397.19, cpos=[-34, -88], tl=0, v=false]
+[02:40:58] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 6d2e5408-0e62-4827-a1e4-39b6905b79a7, mapped to Rabbit['Rabbit'/505, uuid='6d2e5408-0e62-4827-a1e4-39b6905b79a7', l='ServerLevel[world]', x=-512.09, y=68.20, z=-1393.49, cpos=[-33, -88], tl=0, v=true], can't add Rabbit['Rabbit'/517, uuid='6d2e5408-0e62-4827-a1e4-39b6905b79a7', l='ServerLevel[world]', x=-528.09, y=68.20, z=-1393.49, cpos=[-34, -88], tl=0, v=false]
+[02:40:59] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f960ab33-0893-4ca3-96fe-fab9f037fdd9, mapped to Rabbit['Rabbit'/430, uuid='f960ab33-0893-4ca3-96fe-fab9f037fdd9', l='ServerLevel[world]', x=-524.28, y=66.35, z=-1178.16, cpos=[-33, -74], tl=58, v=true], can't add Rabbit['Rabbit'/522, uuid='f960ab33-0893-4ca3-96fe-fab9f037fdd9', l='ServerLevel[world]', x=-524.00, y=70.00, z=-1435.00, cpos=[-33, -90], tl=0, v=false]
+[02:40:59] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 9ea67c0e-a330-4799-a02f-4d18143a66b4, mapped to Rabbit['Rabbit'/431, uuid='9ea67c0e-a330-4799-a02f-4d18143a66b4', l='ServerLevel[world]', x=-524.62, y=66.00, z=-1177.85, cpos=[-33, -74], tl=58, v=true], can't add Rabbit['Rabbit'/523, uuid='9ea67c0e-a330-4799-a02f-4d18143a66b4', l='ServerLevel[world]', x=-525.00, y=68.00, z=-1435.00, cpos=[-33, -90], tl=0, v=false]
+[02:40:59] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f960ab33-0893-4ca3-96fe-fab9f037fdd9, mapped to Rabbit['Rabbit'/430, uuid='f960ab33-0893-4ca3-96fe-fab9f037fdd9', l='ServerLevel[world]', x=-524.30, y=66.31, z=-1178.09, cpos=[-33, -74], tl=59, v=true], can't add Rabbit['Rabbit'/525, uuid='f960ab33-0893-4ca3-96fe-fab9f037fdd9', l='ServerLevel[world]', x=-540.00, y=70.00, z=-1435.00, cpos=[-34, -90], tl=0, v=false]
+[02:40:59] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 9ea67c0e-a330-4799-a02f-4d18143a66b4, mapped to Rabbit['Rabbit'/431, uuid='9ea67c0e-a330-4799-a02f-4d18143a66b4', l='ServerLevel[world]', x=-524.61, y=66.20, z=-1177.72, cpos=[-33, -74], tl=59, v=true], can't add Rabbit['Rabbit'/526, uuid='9ea67c0e-a330-4799-a02f-4d18143a66b4', l='ServerLevel[world]', x=-541.00, y=68.00, z=-1435.00, cpos=[-34, -90], tl=0, v=false]
+[02:40:59] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e5c4cfc1-2540-44b0-a0c8-798c840f3892, mapped to MinecartChest['Minecart with Chest'/521, uuid='e5c4cfc1-2540-44b0-a0c8-798c840f3892', l='ServerLevel[world]', x=-528.50, y=-9.94, z=-1423.50, cpos=[-34, -89], tl=0, v=true], can't add MinecartChest['Minecart with Chest'/530, uuid='e5c4cfc1-2540-44b0-a0c8-798c840f3892', l='ServerLevel[world]', x=-544.50, y=-9.94, z=-1423.50, cpos=[-35, -89], tl=0, v=false]
+[02:41:00] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e8524860-d97e-4b51-b2bd-94bf033af0c0, mapped to Drowned['Drowned'/202, uuid='e8524860-d97e-4b51-b2bd-94bf033af0c0', l='ServerLevel[world]', x=-673.50, y=39.00, z=-1100.50, cpos=[-43, -69], tl=8, v=true], can't add Drowned['Drowned'/544, uuid='e8524860-d97e-4b51-b2bd-94bf033af0c0', l='ServerLevel[world]', x=-897.50, y=39.00, z=-1100.50, cpos=[-57, -69], tl=0, v=false]
+[02:41:01] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e4c2ea24-1ad6-4a30-990b-7d086396108c, mapped to MinecartChest['Minecart with Chest'/545, uuid='e4c2ea24-1ad6-4a30-990b-7d086396108c', l='ServerLevel[world]', x=-517.50, y=-9.94, z=-1472.50, cpos=[-33, -93], tl=0, v=true], can't add MinecartChest['Minecart with Chest'/558, uuid='e4c2ea24-1ad6-4a30-990b-7d086396108c', l='ServerLevel[world]', x=-533.50, y=-9.94, z=-1472.50, cpos=[-34, -93], tl=0, v=false]
+[02:41:09] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f960ab33-0893-4ca3-96fe-fab9f037fdd9, mapped to Rabbit['Rabbit'/430, uuid='f960ab33-0893-4ca3-96fe-fab9f037fdd9', l='ServerLevel[world]', x=-525.15, y=66.00, z=-1175.03, cpos=[-33, -74], tl=262, v=true], can't add Rabbit['Rabbit'/612, uuid='f960ab33-0893-4ca3-96fe-fab9f037fdd9', l='ServerLevel[world]', x=-764.00, y=70.00, z=-1435.00, cpos=[-48, -90], tl=0, v=false]
+[02:41:09] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 9ea67c0e-a330-4799-a02f-4d18143a66b4, mapped to Rabbit['Rabbit'/431, uuid='9ea67c0e-a330-4799-a02f-4d18143a66b4', l='ServerLevel[world]', x=-524.50, y=66.00, z=-1170.59, cpos=[-33, -74], tl=262, v=true], can't add Rabbit['Rabbit'/613, uuid='9ea67c0e-a330-4799-a02f-4d18143a66b4', l='ServerLevel[world]', x=-765.00, y=68.00, z=-1435.00, cpos=[-48, -90], tl=0, v=false]
+[02:41:26] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[02:41:32] [Server thread/INFO]: trololol72 issued server command: /tp ~ -65 ~
+[02:41:32] [Server thread/INFO]: [trololol72: Teleported trololol72 to -512.300000, -65.000000, -1535.940330]
+[02:41:34] [Server thread/INFO]: trololol72 issued server command: //pos2
+[02:41:39] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[02:41:39] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[02:41:50] [Server thread/INFO]: trololol72 issued server command: /tp ~ ~200 ~
+[02:41:50] [Server thread/INFO]: [trololol72: Teleported trololol72 to -528.352884, 135.000000, -1524.356579]
+[02:41:54] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:41:59] [Server thread/INFO]: trololol72 issued server command: /time set midnight
+[02:41:59] [Server thread/INFO]: [trololol72: Set the time to 18000]
+[02:42:13] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[02:42:14] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:43:45] [Server thread/INFO]: trololol72 issued server command: //paste
+[02:43:59] [Server thread/INFO]: trololol72 issued server command: //copy
+[02:44:11] [Server thread/INFO]: trololol72 issued server command: //paste
+[02:46:31] [Server thread/INFO]: trololol72 issued server command: /scoreboard players get time
+[02:46:46] [Server thread/INFO]: trololol72 issued server command: /scoreboard objectives list
+[02:47:30] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[02:47:31] [Server thread/INFO]: Successfully reloaded enclosure.sk. (273ms)
+[02:47:31] [Server thread/INFO]: In-game time: 6:39
+[02:47:32] [Server thread/INFO]: In-game time: 6:40
+[02:47:33] [Server thread/INFO]: In-game time: 6:41
+[02:47:34] [Server thread/INFO]: In-game time: 6:42
+[02:47:35] [Server thread/INFO]: In-game time: 6:43
+[02:47:36] [Server thread/INFO]: In-game time: 6:45
+[02:47:37] [Server thread/INFO]: In-game time: 6:46
+[02:47:38] [Server thread/INFO]: In-game time: 6:47
+[02:47:39] [Server thread/INFO]: In-game time: 6:48
+[02:47:40] [Server thread/INFO]: trololol72 issued server command: /time set 50
+[02:47:40] [Server thread/INFO]: [trololol72: Set the time to 50]
+[02:47:40] [Server thread/INFO]: In-game time: 6:03
+[02:47:41] [Server thread/INFO]: In-game time: 6:04
+[02:47:42] [Server thread/INFO]: In-game time: 6:06
+[02:47:43] [Server thread/INFO]: In-game time: 6:07
+[02:47:44] [Server thread/INFO]: In-game time: 6:08
+[02:47:45] [Server thread/INFO]: In-game time: 6:09
+[02:47:46] [Server thread/INFO]: trololol72 issued server command: /time set 100
+[02:47:46] [Server thread/INFO]: [trololol72: Set the time to 100]
+[02:47:46] [Server thread/INFO]: In-game time: 6:07
+[02:47:47] [Server thread/INFO]: In-game time: 6:08
+[02:47:48] [Server thread/INFO]: In-game time: 6:09
+[02:47:49] [Server thread/INFO]: In-game time: 6:10
+[02:47:50] [Server thread/INFO]: In-game time: 6:12
+[02:47:51] [Server thread/INFO]: In-game time: 6:13
+[02:47:52] [Server thread/INFO]: In-game time: 6:14
+[02:47:53] [Server thread/INFO]: In-game time: 6:15
+[02:47:54] [Server thread/INFO]: In-game time: 6:16
+[02:47:55] [Server thread/INFO]: In-game time: 6:18
+[02:47:56] [Server thread/INFO]: In-game time: 6:19
+[02:47:57] [Server thread/INFO]: trololol72 issued server command: /time set 500
+[02:47:57] [Server thread/INFO]: [trololol72: Set the time to 500]
+[02:47:57] [Server thread/INFO]: In-game time: 6:31
+[02:47:58] [Server thread/INFO]: In-game time: 6:32
+[02:47:59] [Server thread/INFO]: In-game time: 6:33
+[02:48:00] [Server thread/INFO]: In-game time: 6:34
+[02:48:01] [Server thread/INFO]: trololol72 issued server command: /time set 400
+[02:48:01] [Server thread/INFO]: [trololol72: Set the time to 400]
+[02:48:01] [Server thread/INFO]: In-game time: 6:25
+[02:48:02] [Server thread/INFO]: In-game time: 6:26
+[02:48:03] [Server thread/INFO]: In-game time: 6:27
+[02:48:04] [Server thread/INFO]: In-game time: 6:29
+[02:48:05] [Server thread/INFO]: In-game time: 6:30
+[02:48:06] [Server thread/INFO]: In-game time: 6:31
+[02:48:07] [Server thread/INFO]: In-game time: 6:32
+[02:48:08] [Server thread/INFO]: In-game time: 6:33
+[02:48:09] [Server thread/INFO]: In-game time: 6:35
+[02:48:10] [Server thread/INFO]: In-game time: 6:36
+[02:48:11] [Server thread/INFO]: In-game time: 6:37
+[02:48:12] [Server thread/INFO]: trololol72 issued server command: /tpb lab
+[02:48:12] [Server thread/INFO]: In-game time: 6:38
+[02:48:13] [Server thread/INFO]: In-game time: 6:39
+[02:48:14] [Server thread/INFO]: In-game time: 6:41
+[02:48:15] [Server thread/INFO]: In-game time: 6:42
+[02:48:16] [Server thread/INFO]: In-game time: 6:43
+[02:48:17] [Server thread/INFO]: In-game time: 6:44
+[02:48:18] [Server thread/INFO]: In-game time: 6:45
+[02:48:19] [Server thread/INFO]: In-game time: 6:47
+[02:48:20] [Server thread/INFO]: In-game time: 6:48
+[02:48:21] [Server thread/INFO]: In-game time: 6:49
+[02:48:22] [Server thread/INFO]: In-game time: 6:50
+[02:48:23] [Server thread/INFO]: In-game time: 6:51
+[02:48:24] [Server thread/INFO]: In-game time: 6:53
+[02:48:25] [Server thread/INFO]: In-game time: 6:54
+[02:48:26] [Server thread/INFO]: In-game time: 6:55
+[02:48:27] [Server thread/INFO]: In-game time: 6:56
+[02:48:28] [Server thread/INFO]: In-game time: 6:57
+[02:48:29] [Server thread/INFO]: In-game time: 6:59
+[02:48:30] [Server thread/INFO]: In-game time: 7:00
+[02:48:31] [Server thread/INFO]: In-game time: 7:01
+[02:48:32] [Server thread/INFO]: In-game time: 7:02
+[02:48:33] [Server thread/INFO]: In-game time: 7:03
+[02:48:34] [Server thread/INFO]: In-game time: 7:05
+[02:48:35] [Server thread/INFO]: In-game time: 7:06
+[02:48:36] [Server thread/INFO]: In-game time: 7:07
+[02:48:37] [Server thread/INFO]: In-game time: 7:08
+[02:48:38] [Server thread/INFO]: In-game time: 7:09
+[02:48:39] [Server thread/INFO]: In-game time: 7:11
+[02:48:40] [Server thread/INFO]: In-game time: 7:12
+[02:48:41] [Server thread/INFO]: In-game time: 7:13
+[02:48:42] [Server thread/INFO]: In-game time: 7:14
+[02:48:43] [Server thread/INFO]: In-game time: 7:15
+[02:48:44] [Server thread/INFO]: In-game time: 7:17
+[02:48:45] [Server thread/INFO]: In-game time: 7:18
+[02:48:46] [Server thread/INFO]: In-game time: 7:19
+[02:48:47] [Server thread/INFO]: In-game time: 7:20
+[02:48:48] [Server thread/INFO]: In-game time: 7:21
+[02:48:49] [Server thread/INFO]: In-game time: 7:23
+[02:48:50] [Server thread/INFO]: In-game time: 7:24
+[02:48:51] [Server thread/INFO]: In-game time: 7:25
+[02:48:52] [Server thread/INFO]: In-game time: 7:26
+[02:48:53] [Server thread/INFO]: In-game time: 7:27
+[02:48:54] [Server thread/INFO]: In-game time: 7:29
+[02:48:55] [Server thread/INFO]: In-game time: 7:30
+[02:48:56] [Server thread/INFO]: In-game time: 7:31
+[02:48:57] [Server thread/INFO]: In-game time: 7:32
+[02:48:58] [Server thread/INFO]: In-game time: 7:33
+[02:48:59] [Server thread/INFO]: In-game time: 7:35
+[02:49:00] [Server thread/INFO]: In-game time: 7:36
+[02:49:01] [Server thread/INFO]: In-game time: 7:37
+[02:49:02] [Server thread/INFO]: trololol72 issued server command: /forceload add
+[02:49:02] [Server thread/INFO]: In-game time: 7:38
+[02:49:03] [Server thread/INFO]: In-game time: 7:39
+[02:49:04] [Server thread/INFO]: In-game time: 7:41
+[02:49:05] [Server thread/INFO]: In-game time: 7:42
+[02:49:06] [Server thread/INFO]: In-game time: 7:43
+[02:49:07] [Server thread/INFO]: In-game time: 7:44
+[02:49:08] [Server thread/INFO]: In-game time: 7:45
+[02:49:09] [Server thread/INFO]: In-game time: 7:47
+[02:49:10] [Server thread/INFO]: In-game time: 7:48
+[02:49:11] [Server thread/INFO]: In-game time: 7:49
+[02:49:12] [Server thread/INFO]: trololol72 issued server command: /forceload add ~ ~
+[02:49:12] [Server thread/INFO]: [trololol72: Marked chunk [-34, -93] in minecraft:overworld to be force loaded]
+[02:49:12] [Server thread/INFO]: In-game time: 7:50
+[02:49:13] [Server thread/INFO]: In-game time: 7:51
+[02:49:14] [Server thread/INFO]: In-game time: 7:53
+[02:49:15] [Server thread/INFO]: In-game time: 7:54
+[02:49:16] [Server thread/INFO]: In-game time: 7:55
+[02:49:17] [Server thread/INFO]: In-game time: 7:56
+[02:49:18] [Server thread/INFO]: In-game time: 7:57
+[02:49:19] [Server thread/INFO]: trololol72 issued server command: /time set 400
+[02:49:19] [Server thread/INFO]: [trololol72: Set the time to 400]
+[02:49:19] [Server thread/INFO]: In-game time: 6:25
+[02:49:20] [Server thread/INFO]: In-game time: 6:26
+[02:49:21] [Server thread/INFO]: In-game time: 6:27
+[02:49:22] [Server thread/INFO]: In-game time: 6:29
+[02:49:23] [Server thread/INFO]: In-game time: 6:30
+[02:49:24] [Server thread/INFO]: In-game time: 6:31
+[02:49:25] [Server thread/INFO]: In-game time: 6:32
+[02:49:26] [Server thread/INFO]: In-game time: 6:33
+[02:49:27] [Server thread/INFO]: In-game time: 6:35
+[02:49:28] [Server thread/INFO]: In-game time: 6:36
+[02:49:29] [Server thread/INFO]: In-game time: 6:37
+[02:49:30] [Server thread/INFO]: In-game time: 6:38
+[02:49:31] [Server thread/INFO]: In-game time: 6:39
+[02:49:32] [Server thread/INFO]: In-game time: 6:41
+[02:49:33] [Server thread/INFO]: In-game time: 6:42
+[02:49:34] [Server thread/INFO]: In-game time: 6:43
+[02:49:35] [Server thread/INFO]: In-game time: 6:44
+[02:49:36] [Server thread/INFO]: In-game time: 6:45
+[02:49:37] [Server thread/INFO]: trololol72 issued server command: /tpb_set lab
+[02:49:37] [Server thread/INFO]: tpb set: lab
+[02:49:37] [Server thread/INFO]: Set tpb location for 'lab' to: x: -540.66, y: 66, z: -1483.56, yaw: -177.62, pitch: 10.65 in 'world'
+[02:49:37] [Server thread/INFO]: In-game time: 6:47
+[02:49:38] [Server thread/INFO]: In-game time: 6:48
+[02:49:39] [Server thread/INFO]: In-game time: 6:49
+[02:49:40] [Server thread/INFO]: In-game time: 6:50
+[02:49:41] [Server thread/INFO]: In-game time: 6:51
+[02:49:42] [Server thread/INFO]: In-game time: 6:53
+[02:49:43] [Server thread/INFO]: In-game time: 6:54
+[02:49:44] [Server thread/INFO]: In-game time: 6:55
+[02:49:45] [Server thread/INFO]: In-game time: 6:56
+[02:49:46] [Server thread/INFO]: In-game time: 6:57
+[02:49:47] [Server thread/INFO]: In-game time: 6:59
+[02:49:48] [Server thread/INFO]: In-game time: 7:00
+[02:49:49] [Server thread/INFO]: In-game time: 7:01
+[02:49:50] [Server thread/INFO]: In-game time: 7:02
+[02:49:51] [Server thread/INFO]: In-game time: 7:03
+[02:49:52] [Server thread/INFO]: In-game time: 7:05
+[02:49:53] [Server thread/INFO]: In-game time: 7:06
+[02:49:54] [Server thread/INFO]: In-game time: 7:07
+[02:49:55] [Server thread/INFO]: In-game time: 7:08
+[02:49:56] [Server thread/INFO]: In-game time: 7:09
+[02:49:57] [Server thread/INFO]: In-game time: 7:11
+[02:49:58] [Server thread/INFO]: In-game time: 7:12
+[02:49:59] [Server thread/INFO]: trololol72 issued server command: /time set 40
+[02:49:59] [Server thread/INFO]: [trololol72: Set the time to 40]
+[02:49:59] [Server thread/INFO]: [ENCLOSURE] ITS 6:30 AM
+[02:49:59] [Server thread/INFO]: In-game time: 6:03
+[02:50:00] [Server thread/INFO]: In-game time: 6:05
+[02:50:01] [Server thread/INFO]: In-game time: 6:06
+[02:50:02] [Server thread/INFO]: In-game time: 6:07
+[02:50:03] [Server thread/INFO]: In-game time: 6:08
+[02:50:04] [Server thread/INFO]: In-game time: 6:09
+[02:50:05] [Server thread/INFO]: In-game time: 6:11
+[02:50:06] [Server thread/INFO]: In-game time: 6:12
+[02:50:07] [Server thread/INFO]: In-game time: 6:13
+[02:50:08] [Server thread/INFO]: [ENCLOSURE] closing out
+[02:50:08] [Server thread/INFO]: In-game time: 6:14
+[02:50:09] [Server thread/INFO]: In-game time: 6:15
+[02:50:10] [Server thread/INFO]: In-game time: 6:17
+[02:50:11] [Server thread/INFO]: In-game time: 6:18
+[02:50:12] [Server thread/INFO]: In-game time: 6:19
+[02:50:13] [Server thread/INFO]: In-game time: 6:20
+[02:50:14] [Server thread/INFO]: In-game time: 6:21
+[02:50:15] [Server thread/INFO]: In-game time: 6:23
+[02:50:16] [Server thread/INFO]: [ENCLOSURE] closing in
+[02:50:16] [Server thread/INFO]: In-game time: 6:24
+[02:50:17] [Server thread/INFO]: In-game time: 6:25
+[02:50:18] [Server thread/INFO]: In-game time: 6:26
+[02:50:19] [Server thread/INFO]: In-game time: 6:27
+[02:50:20] [Server thread/INFO]: In-game time: 6:29
+[02:50:21] [Server thread/INFO]: In-game time: 6:30
+[02:50:22] [Server thread/INFO]: In-game time: 6:31
+[02:50:23] [Server thread/INFO]: In-game time: 6:32
+[02:50:24] [Server thread/INFO]: trololol72 issued server command: /time set 40
+[02:50:24] [Server thread/INFO]: [trololol72: Set the time to 40]
+[02:50:24] [Server thread/INFO]: In-game time: 6:02
+[02:50:25] [Server thread/INFO]: [ENCLOSURE] ITS 6:30 AM
+[02:50:25] [Server thread/INFO]: In-game time: 6:04
+[02:50:26] [Server thread/INFO]: In-game time: 6:05
+[02:50:27] [Server thread/INFO]: trololol72 issued server command: /time set 400
+[02:50:27] [Server thread/INFO]: [trololol72: Set the time to 400]
+[02:50:27] [Server thread/INFO]: In-game time: 6:24
+[02:50:28] [Server thread/INFO]: In-game time: 6:25
+[02:50:29] [Server thread/INFO]: In-game time: 6:26
+[02:50:30] [Server thread/INFO]: In-game time: 6:28
+[02:50:31] [Server thread/INFO]: In-game time: 6:29
+[02:50:32] [Server thread/INFO]: In-game time: 6:30
+[02:50:33] [Server thread/INFO]: trololol72 issued server command: /time set 500
+[02:50:33] [Server thread/INFO]: [trololol72: Set the time to 500]
+[02:50:33] [Server thread/INFO]: [ENCLOSURE] closing out
+[02:50:33] [Server thread/INFO]: In-game time: 6:31
+[02:50:34] [Server thread/INFO]: In-game time: 6:32
+[02:50:35] [Server thread/INFO]: In-game time: 6:33
+[02:50:36] [Server thread/INFO]: In-game time: 6:34
+[02:50:37] [Server thread/INFO]: trololol72 issued server command: /time set 500
+[02:50:37] [Server thread/INFO]: [trololol72: Set the time to 500]
+[02:50:37] [Server thread/INFO]: In-game time: 6:30
+[02:50:38] [Server thread/INFO]: In-game time: 6:32
+[02:50:39] [Server thread/INFO]: In-game time: 6:33
+[02:50:40] [Server thread/INFO]: In-game time: 6:34
+[02:50:41] [Server thread/INFO]: In-game time: 6:35
+[02:50:42] [Server thread/INFO]: [ENCLOSURE] closing in
+[02:50:42] [Server thread/INFO]: In-game time: 6:36
+[02:50:43] [Server thread/INFO]: In-game time: 6:38
+[02:50:44] [Server thread/INFO]: In-game time: 6:39
+[02:50:45] [Server thread/INFO]: In-game time: 6:40
+[02:50:46] [Server thread/INFO]: In-game time: 6:41
+[02:50:47] [Server thread/INFO]: In-game time: 6:42
+[02:50:48] [Server thread/INFO]: In-game time: 6:44
+[02:50:49] [Server thread/INFO]: In-game time: 6:45
+[02:50:50] [Server thread/INFO]: In-game time: 6:46
+[02:50:51] [Server thread/INFO]: In-game time: 6:47
+[02:50:52] [Server thread/INFO]: In-game time: 6:48
+[02:50:53] [Server thread/INFO]: In-game time: 6:50
+[02:50:54] [Server thread/INFO]: In-game time: 6:51
+[02:50:55] [Server thread/INFO]: In-game time: 6:52
+[02:50:56] [Server thread/INFO]: In-game time: 6:53
+[02:50:57] [Server thread/INFO]: In-game time: 6:54
+[02:50:58] [Server thread/INFO]: In-game time: 6:56
+[02:50:59] [Server thread/INFO]: In-game time: 6:57
+[02:51:00] [Server thread/INFO]: In-game time: 6:58
+[02:51:01] [Server thread/INFO]: In-game time: 6:59
+[02:51:02] [Server thread/INFO]: In-game time: 7:00
+[02:51:03] [Server thread/INFO]: In-game time: 7:02
+[02:51:04] [Server thread/INFO]: In-game time: 7:03
+[02:51:05] [Server thread/INFO]: In-game time: 7:04
+[02:51:06] [Server thread/INFO]: In-game time: 7:05
+[02:51:07] [Server thread/INFO]: In-game time: 7:06
+[02:51:08] [Server thread/INFO]: trololol72 issued server command: /tp 512 ~ -512
+[02:51:08] [Server thread/INFO]: [trololol72: Teleported trololol72 to 512.500000, 72.993137, -511.500000]
+[02:51:08] [Server thread/INFO]: In-game time: 7:08
+[02:51:09] [Server thread/INFO]: In-game time: 7:09
+[02:51:10] [Server thread/INFO]: In-game time: 7:10
+[02:51:11] [Server thread/INFO]: In-game time: 7:11
+[02:51:12] [Server thread/INFO]: In-game time: 7:12
+[02:51:13] [Server thread/INFO]: In-game time: 7:14
+[02:51:14] [Server thread/INFO]: In-game time: 7:15
+[02:51:15] [Server thread/INFO]: In-game time: 7:16
+[02:51:16] [Server thread/INFO]: In-game time: 7:17
+[02:51:17] [Server thread/INFO]: In-game time: 7:18
+[02:51:18] [Server thread/INFO]: In-game time: 7:20
+[02:51:19] [Server thread/INFO]: In-game time: 7:21
+[02:51:20] [Server thread/INFO]: In-game time: 7:22
+[02:51:21] [Server thread/INFO]: trololol72 issued server command: /time set 12000
+[02:51:21] [Server thread/INFO]: [trololol72: Set the time to 12000]
+[02:51:21] [Server thread/INFO]: In-game time: 18:00
+[02:51:22] [Server thread/INFO]: In-game time: 18:02
+[02:51:23] [Server thread/INFO]: In-game time: 18:03
+[02:51:24] [Server thread/INFO]: In-game time: 18:04
+[02:51:25] [Server thread/INFO]: In-game time: 18:05
+[02:51:26] [Server thread/INFO]: In-game time: 18:06
+[02:51:27] [Server thread/INFO]: In-game time: 18:08
+[02:51:28] [Server thread/INFO]: In-game time: 18:09
+[02:51:29] [Server thread/INFO]: In-game time: 18:10
+[02:51:30] [Server thread/INFO]: In-game time: 18:11
+[02:51:31] [Server thread/INFO]: In-game time: 18:12
+[02:51:32] [Server thread/INFO]: In-game time: 18:14
+[02:51:33] [Server thread/INFO]: In-game time: 18:15
+[02:51:34] [Server thread/INFO]: In-game time: 18:16
+[02:51:35] [Server thread/INFO]: In-game time: 18:17
+[02:51:36] [Server thread/INFO]: In-game time: 18:18
+[02:51:37] [Server thread/INFO]: In-game time: 18:20
+[02:51:38] [Server thread/INFO]: In-game time: 18:21
+[02:51:39] [Server thread/INFO]: In-game time: 18:22
+[02:51:40] [Server thread/INFO]: In-game time: 18:23
+[02:51:41] [Server thread/INFO]: In-game time: 18:24
+[02:51:42] [Server thread/INFO]: In-game time: 18:26
+[02:51:43] [Server thread/INFO]: In-game time: 18:27
+[02:51:44] [Server thread/INFO]: In-game time: 18:28
+[02:51:45] [Server thread/INFO]: In-game time: 18:29
+[02:51:46] [Server thread/INFO]: [ENCLOSURE] ITS 6:00 PM
+[02:51:46] [Server thread/INFO]: In-game time: 18:30
+[02:51:47] [Server thread/INFO]: In-game time: 18:32
+[02:51:48] [Server thread/INFO]: In-game time: 18:33
+[02:51:49] [Server thread/INFO]: In-game time: 18:34
+[02:51:50] [Server thread/INFO]: [ENCLOSURE] opening in
+[02:51:50] [Server thread/INFO]: In-game time: 18:35
+[02:51:51] [Server thread/INFO]: In-game time: 18:36
+[02:51:52] [Server thread/INFO]: In-game time: 18:38
+[02:51:53] [Server thread/INFO]: In-game time: 18:39
+[02:51:54] [Server thread/INFO]: [ENCLOSURE] opening out
+[02:51:54] [Server thread/INFO]: In-game time: 18:40
+[02:51:55] [Server thread/INFO]: In-game time: 18:41
+[02:51:56] [Server thread/INFO]: In-game time: 18:42
+[02:51:57] [Server thread/INFO]: In-game time: 18:44
+[02:51:58] [Server thread/INFO]: In-game time: 18:45
+[02:51:59] [Server thread/INFO]: In-game time: 18:46
+[02:52:00] [Server thread/INFO]: In-game time: 18:47
+[02:52:01] [Server thread/INFO]: In-game time: 18:48
+[02:52:02] [Server thread/INFO]: In-game time: 18:50
+[02:52:03] [Server thread/INFO]: In-game time: 18:51
+[02:52:04] [Server thread/INFO]: In-game time: 18:52
+[02:52:05] [Server thread/INFO]: In-game time: 18:53
+[02:52:06] [Server thread/INFO]: In-game time: 18:54
+[02:52:07] [Server thread/INFO]: In-game time: 18:56
+[02:52:08] [Server thread/INFO]: In-game time: 18:57
+[02:52:09] [Server thread/INFO]: trololol72 issued server command: /time set 12400
+[02:52:09] [Server thread/INFO]: [trololol72: Set the time to 12400]
+[02:52:09] [Server thread/INFO]: In-game time: 18:25
+[02:52:10] [Server thread/INFO]: In-game time: 18:26
+[02:52:11] [Server thread/INFO]: In-game time: 18:27
+[02:52:12] [Server thread/INFO]: In-game time: 18:29
+[02:52:13] [Server thread/INFO]: In-game time: 18:30
+[02:52:14] [Server thread/INFO]: [ENCLOSURE] ITS 6:00 PM
+[02:52:14] [Server thread/INFO]: In-game time: 18:31
+[02:52:15] [Server thread/INFO]: In-game time: 18:32
+[02:52:16] [Server thread/INFO]: trololol72 issued server command: /time set 12500
+[02:52:16] [Server thread/INFO]: [trololol72: Set the time to 12500]
+[02:52:16] [Server thread/INFO]: In-game time: 18:30
+[02:52:17] [Server thread/INFO]: In-game time: 18:31
+[02:52:18] [Server thread/INFO]: [ENCLOSURE] opening in
+[02:52:18] [Server thread/INFO]: In-game time: 18:33
+[02:52:19] [Server thread/INFO]: In-game time: 18:34
+[02:52:20] [Server thread/INFO]: In-game time: 18:35
+[02:52:21] [Server thread/INFO]: In-game time: 18:36
+[02:52:22] [Server thread/INFO]: [ENCLOSURE] opening out
+[02:52:22] [Server thread/INFO]: In-game time: 18:38
+[02:52:23] [Server thread/INFO]: In-game time: 18:39
+[02:52:24] [Server thread/INFO]: In-game time: 18:40
+[02:52:25] [Server thread/INFO]: trololol72 issued server command: /time set 12500
+[02:52:25] [Server thread/INFO]: [trololol72: Set the time to 12500]
+[02:52:25] [Server thread/INFO]: In-game time: 18:30
+[02:52:26] [Server thread/INFO]: In-game time: 18:31
+[02:52:27] [Server thread/INFO]: In-game time: 18:33
+[02:52:28] [Server thread/INFO]: In-game time: 18:34
+[02:52:29] [Server thread/INFO]: In-game time: 18:35
+[02:52:30] [Server thread/INFO]: trololol72 issued server command: /time set 12000
+[02:52:30] [Server thread/INFO]: [trololol72: Set the time to 12000]
+[02:52:30] [Server thread/INFO]: In-game time: 18:01
+[02:52:31] [Server thread/INFO]: In-game time: 18:02
+[02:52:32] [Server thread/INFO]: In-game time: 18:03
+[02:52:33] [Server thread/INFO]: In-game time: 18:04
+[02:52:34] [Server thread/INFO]: In-game time: 18:05
+[02:52:35] [Server thread/INFO]: In-game time: 18:07
+[02:52:36] [Server thread/INFO]: In-game time: 18:08
+[02:52:37] [Server thread/INFO]: In-game time: 18:09
+[02:52:38] [Server thread/INFO]: In-game time: 18:10
+[02:52:39] [Server thread/INFO]: In-game time: 18:11
+[02:52:40] [Server thread/INFO]: In-game time: 18:13
+[02:52:41] [Server thread/INFO]: In-game time: 18:14
+[02:52:42] [Server thread/INFO]: In-game time: 18:15
+[02:52:43] [Server thread/INFO]: In-game time: 18:16
+[02:52:44] [Server thread/INFO]: In-game time: 18:17
+[02:52:45] [Server thread/INFO]: In-game time: 18:19
+[02:52:46] [Server thread/INFO]: In-game time: 18:20
+[02:52:47] [Server thread/INFO]: In-game time: 18:21
+[02:52:48] [Server thread/INFO]: In-game time: 18:22
+[02:52:49] [Server thread/INFO]: In-game time: 18:23
+[02:52:50] [Server thread/INFO]: In-game time: 18:25
+[02:52:51] [Server thread/INFO]: In-game time: 18:26
+[02:52:52] [Server thread/INFO]: In-game time: 18:27
+[02:52:53] [Server thread/INFO]: In-game time: 18:28
+[02:52:54] [Server thread/INFO]: In-game time: 18:29
+[02:52:55] [Server thread/INFO]: [ENCLOSURE] ITS 6:00 PM
+[02:52:55] [Server thread/INFO]: In-game time: 18:31
+[02:52:56] [Server thread/INFO]: In-game time: 18:32
+[02:52:57] [Server thread/INFO]: In-game time: 18:33
+[02:52:58] [Server thread/INFO]: In-game time: 18:34
+[02:52:59] [Server thread/INFO]: [ENCLOSURE] opening in
+[02:52:59] [Server thread/INFO]: In-game time: 18:35
+[02:53:00] [Server thread/INFO]: In-game time: 18:37
+[02:53:01] [Server thread/INFO]: In-game time: 18:38
+[02:53:02] [Server thread/INFO]: In-game time: 18:39
+[02:53:03] [Server thread/INFO]: [ENCLOSURE] opening out
+[02:53:03] [Server thread/INFO]: In-game time: 18:40
+[02:53:04] [Server thread/INFO]: In-game time: 18:41
+[02:53:05] [Server thread/INFO]: In-game time: 18:43
+[02:53:06] [Server thread/INFO]: In-game time: 18:44
+[02:53:07] [Server thread/INFO]: In-game time: 18:45
+[02:53:08] [Server thread/INFO]: In-game time: 18:46
+[02:53:09] [Server thread/INFO]: In-game time: 18:47
+[02:53:10] [Server thread/INFO]: In-game time: 18:49
+[02:53:11] [Server thread/INFO]: In-game time: 18:50
+[02:53:12] [Server thread/INFO]: In-game time: 18:51
+[02:53:13] [Server thread/INFO]: In-game time: 18:52
+[02:53:14] [Server thread/INFO]: In-game time: 18:53
+[02:53:15] [Server thread/INFO]: In-game time: 18:55
+[02:53:16] [Server thread/INFO]: In-game time: 18:56
+[02:53:17] [Server thread/INFO]: In-game time: 18:57
+[02:53:18] [Server thread/INFO]: In-game time: 18:58
+[02:53:19] [Server thread/INFO]: In-game time: 18:59
+[02:53:20] [Server thread/INFO]: In-game time: 19:01
+[02:53:21] [Server thread/INFO]: In-game time: 19:02
+[02:53:22] [Server thread/INFO]: In-game time: 19:03
+[02:53:23] [Server thread/INFO]: In-game time: 19:04
+[02:53:24] [Server thread/INFO]: In-game time: 19:05
+[02:53:25] [Server thread/INFO]: In-game time: 19:07
+[02:53:26] [Server thread/INFO]: In-game time: 19:08
+[02:53:27] [Server thread/INFO]: In-game time: 19:09
+[02:53:28] [Server thread/INFO]: In-game time: 19:10
+[02:53:29] [Server thread/INFO]: In-game time: 19:11
+[02:53:30] [Server thread/INFO]: In-game time: 19:13
+[02:53:31] [Server thread/INFO]: In-game time: 19:14
+[02:53:32] [Server thread/INFO]: In-game time: 19:15
+[02:53:33] [Server thread/INFO]: In-game time: 19:16
+[02:53:34] [Server thread/INFO]: In-game time: 19:17
+[02:53:35] [Server thread/INFO]: In-game time: 19:19
+[02:53:36] [Server thread/INFO]: In-game time: 19:20
+[02:53:37] [Server thread/INFO]: In-game time: 19:21
+[02:53:38] [Server thread/INFO]: In-game time: 19:22
+[02:53:39] [Server thread/INFO]: In-game time: 19:23
+[02:53:40] [Server thread/INFO]: In-game time: 19:25
+[02:53:41] [Server thread/INFO]: In-game time: 19:26
+[02:53:42] [Server thread/INFO]: In-game time: 19:27
+[02:53:43] [Server thread/INFO]: In-game time: 19:28
+[02:53:44] [Server thread/INFO]: In-game time: 19:29
+[02:53:45] [Server thread/INFO]: In-game time: 19:31
+[02:53:46] [Server thread/INFO]: In-game time: 19:32
+[02:53:47] [Server thread/INFO]: In-game time: 19:33
+[02:53:48] [Server thread/INFO]: In-game time: 19:34
+[02:53:49] [Server thread/INFO]: In-game time: 19:35
+[02:53:50] [Server thread/INFO]: In-game time: 19:37
+[02:53:51] [Server thread/INFO]: In-game time: 19:38
+[02:53:52] [Server thread/INFO]: In-game time: 19:39
+[02:53:53] [Server thread/INFO]: In-game time: 19:40
+[02:53:54] [Server thread/INFO]: In-game time: 19:41
+[02:53:55] [Server thread/INFO]: In-game time: 19:43
+[02:53:56] [Server thread/INFO]: In-game time: 19:44
+[02:53:57] [Server thread/INFO]: In-game time: 19:45
+[02:53:58] [Server thread/INFO]: In-game time: 19:46
+[02:53:59] [Server thread/INFO]: In-game time: 19:47
+[02:54:00] [Server thread/INFO]: In-game time: 19:49
+[02:54:01] [Server thread/INFO]: In-game time: 19:50
+[02:54:02] [Server thread/INFO]: In-game time: 19:51
+[02:54:03] [Server thread/INFO]: In-game time: 19:52
+[02:54:04] [Server thread/INFO]: In-game time: 19:53
+[02:54:05] [Server thread/INFO]: In-game time: 19:55
+[02:54:06] [Server thread/INFO]: In-game time: 19:56
+[02:54:07] [Server thread/INFO]: In-game time: 19:57
+[02:54:08] [Server thread/INFO]: In-game time: 19:58
+[02:54:09] [Server thread/INFO]: In-game time: 19:59
+[02:54:10] [Server thread/INFO]: In-game time: 20:01
+[02:54:11] [Server thread/INFO]: In-game time: 20:02
+[02:54:12] [Server thread/INFO]: In-game time: 20:03
+[02:54:13] [Server thread/INFO]: In-game time: 20:04
+[02:54:14] [Server thread/INFO]: In-game time: 20:05
+[02:54:15] [Server thread/INFO]: In-game time: 20:07
+[02:54:16] [Server thread/INFO]: In-game time: 20:08
+[02:54:17] [Server thread/INFO]: In-game time: 20:09
+[02:54:18] [Server thread/INFO]: In-game time: 20:10
+[02:54:19] [Server thread/INFO]: In-game time: 20:11
+[02:54:20] [Server thread/INFO]: In-game time: 20:13
+[02:54:21] [Server thread/INFO]: In-game time: 20:14
+[02:54:22] [Server thread/INFO]: In-game time: 20:15
+[02:54:23] [Server thread/INFO]: In-game time: 20:16
+[02:54:24] [Server thread/INFO]: In-game time: 20:17
+[02:54:25] [Server thread/INFO]: In-game time: 20:19
+[02:54:26] [Server thread/INFO]: In-game time: 20:20
+[02:54:27] [Server thread/INFO]: In-game time: 20:21
+[02:54:28] [Server thread/INFO]: In-game time: 20:22
+[02:54:29] [Server thread/INFO]: In-game time: 20:23
+[02:54:30] [Server thread/INFO]: In-game time: 20:25
+[02:54:31] [Server thread/INFO]: In-game time: 20:26
+[02:54:32] [Server thread/INFO]: In-game time: 20:27
+[02:54:33] [Server thread/INFO]: In-game time: 20:28
+[02:54:34] [Server thread/INFO]: In-game time: 20:29
+[02:54:35] [Server thread/INFO]: In-game time: 20:31
+[02:54:36] [Server thread/INFO]: In-game time: 20:32
+[02:54:37] [Server thread/INFO]: In-game time: 20:33
+[02:54:38] [Server thread/INFO]: In-game time: 20:34
+[02:54:39] [Server thread/INFO]: In-game time: 20:35
+[02:54:40] [Server thread/INFO]: In-game time: 20:37
+[02:54:41] [Server thread/INFO]: In-game time: 20:38
+[02:54:42] [Server thread/INFO]: In-game time: 20:39
+[02:54:43] [Server thread/INFO]: In-game time: 20:40
+[02:54:44] [Server thread/INFO]: In-game time: 20:41
+[02:54:45] [Server thread/INFO]: In-game time: 20:43
+[02:54:46] [Server thread/INFO]: In-game time: 20:44
+[02:54:47] [Server thread/INFO]: In-game time: 20:45
+[02:54:48] [Server thread/INFO]: In-game time: 20:46
+[02:54:49] [Server thread/INFO]: In-game time: 20:47
+[02:54:50] [Server thread/INFO]: In-game time: 20:49
+[02:54:51] [Server thread/INFO]: In-game time: 20:50
+[02:54:52] [Server thread/INFO]: In-game time: 20:51
+[02:54:53] [Server thread/INFO]: In-game time: 20:52
+[02:54:54] [Server thread/INFO]: In-game time: 20:53
+[02:54:55] [Server thread/INFO]: In-game time: 20:55
+[02:54:56] [Server thread/INFO]: In-game time: 20:56
+[02:54:57] [Server thread/INFO]: In-game time: 20:57
+[02:54:58] [Server thread/INFO]: In-game time: 20:58
+[02:54:59] [Server thread/INFO]: In-game time: 20:59
+[02:55:00] [Server thread/INFO]: In-game time: 21:01
+[02:55:01] [Server thread/INFO]: In-game time: 21:02
+[02:55:02] [Server thread/INFO]: In-game time: 21:03
+[02:55:03] [Server thread/INFO]: In-game time: 21:04
+[02:55:04] [Server thread/INFO]: In-game time: 21:05
+[02:55:05] [Server thread/INFO]: In-game time: 21:07
+[02:55:06] [Server thread/INFO]: In-game time: 21:08
+[02:55:07] [Server thread/INFO]: In-game time: 21:09
+[02:55:08] [Server thread/INFO]: In-game time: 21:10
+[02:55:09] [Server thread/INFO]: In-game time: 21:11
+[02:55:10] [Server thread/INFO]: In-game time: 21:13
+[02:55:11] [Server thread/INFO]: In-game time: 21:14
+[02:55:12] [Server thread/INFO]: In-game time: 21:15
+[02:55:13] [Server thread/INFO]: In-game time: 21:16
+[02:55:14] [Server thread/INFO]: In-game time: 21:17
+[02:55:15] [Server thread/INFO]: In-game time: 21:19
+[02:55:16] [Server thread/INFO]: In-game time: 21:20
+[02:55:17] [Server thread/INFO]: In-game time: 21:21
+[02:55:18] [Server thread/INFO]: In-game time: 21:22
+[02:55:19] [Server thread/INFO]: In-game time: 21:23
+[02:55:20] [Server thread/INFO]: In-game time: 21:25
+[02:55:21] [Server thread/INFO]: In-game time: 21:26
+[02:55:22] [Server thread/INFO]: In-game time: 21:27
+[02:55:23] [Server thread/INFO]: In-game time: 21:28
+[02:55:24] [Server thread/INFO]: In-game time: 21:29
+[02:55:25] [Server thread/INFO]: In-game time: 21:31
+[02:55:26] [Server thread/INFO]: In-game time: 21:32
+[02:55:27] [Server thread/INFO]: In-game time: 21:33
+[02:55:28] [Server thread/INFO]: In-game time: 21:34
+[02:55:29] [Server thread/INFO]: In-game time: 21:35
+[02:55:30] [Server thread/INFO]: In-game time: 21:37
+[02:55:31] [Server thread/INFO]: In-game time: 21:38
+[02:55:32] [Server thread/INFO]: In-game time: 21:39
+[02:55:33] [Server thread/INFO]: In-game time: 21:40
+[02:55:34] [Server thread/INFO]: In-game time: 21:41
+[02:55:35] [Server thread/INFO]: In-game time: 21:43
+[02:55:36] [Server thread/INFO]: In-game time: 21:44
+[02:55:37] [Server thread/INFO]: In-game time: 21:45
+[02:55:38] [Server thread/INFO]: In-game time: 21:46
+[02:55:39] [Server thread/INFO]: In-game time: 21:47
+[02:55:40] [Server thread/INFO]: In-game time: 21:49
+[02:55:41] [Server thread/INFO]: In-game time: 21:50
+[02:55:42] [Server thread/INFO]: In-game time: 21:51
+[02:55:43] [Server thread/INFO]: In-game time: 21:52
+[02:55:44] [Server thread/INFO]: In-game time: 21:53
+[02:55:45] [Server thread/INFO]: In-game time: 21:55
+[02:55:46] [Server thread/INFO]: In-game time: 21:56
+[02:55:47] [Server thread/INFO]: trololol72 issued server command: /time set 0
+[02:55:47] [Server thread/INFO]: [trololol72: Set the time to 0]
+[02:55:47] [Server thread/INFO]: In-game time: 6:01
+[02:55:48] [Server thread/INFO]: In-game time: 6:02
+[02:55:49] [Server thread/INFO]: In-game time: 6:03
+[02:55:50] [Server thread/INFO]: In-game time: 6:04
+[02:55:51] [Server thread/INFO]: In-game time: 6:05
+[02:55:52] [Server thread/INFO]: In-game time: 6:07
+[02:55:53] [Server thread/INFO]: In-game time: 6:08
+[02:55:54] [Server thread/INFO]: In-game time: 6:09
+[02:55:55] [Server thread/INFO]: In-game time: 6:10
+[02:55:56] [Server thread/INFO]: In-game time: 6:11
+[02:55:57] [Server thread/INFO]: In-game time: 6:13
+[02:55:58] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[02:55:58] [Server thread/INFO]: Successfully reloaded enclosure.sk. (322ms)
+[02:56:12] [Server thread/INFO]: [ENCLOSURE] ITS 6:30 AM
+[02:56:20] [Server thread/INFO]: [ENCLOSURE] closing out
+[02:56:29] [Server thread/INFO]: [ENCLOSURE] closing in
+[02:57:27] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[02:57:27] [Server thread/INFO]: Successfully reloaded enclosure.sk. (147ms)
+[02:57:37] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[02:57:37] [Server thread/INFO]: Successfully reloaded enclosure.sk. (91ms)
+[02:57:45] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[02:57:56] [Server thread/INFO]: trololol72 issued server command: /tpb enc f
+[02:57:56] [Server thread/INFO]: Set tpb location for 'enc f' to: x: 530.45, y: 81.11, z: -530.87, yaw: 33.89, pitch: 40.8 in 'world'
+[02:57:58] [Server thread/INFO]: trololol72 issued server command: /tpb lab
+[02:58:00] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:58:14] [Server thread/INFO]: trololol72 issued server command: /tpb enc f
+[02:58:22] [Server thread/INFO]: trololol72 issued server command: /time set 12000
+[02:58:22] [Server thread/INFO]: [trololol72: Set the time to 12000]
+[02:59:51] [Server thread/INFO]: trololol72 issued server command: /gamerule players_sleeping_percentage 110
+[02:59:51] [Server thread/INFO]: [trololol72: Gamerule players_sleeping_percentage is now set to: 110]
+[03:00:28] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[03:00:30] [Server thread/INFO]: [Death] trololol72 fell from a high place (Friends)
+[03:00:36] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:00:42] [Server thread/INFO]: trololol72 issued server command: /tpb enc f
+[03:01:12] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[03:01:59] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:02:06] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:02:22] [Server thread/INFO]: trololol72 issued server command: /time set 0
+[03:02:22] [Server thread/INFO]: [trololol72: Set the time to 0]
+[03:03:27] [Server thread/INFO]: trololol72 issued server command: /time set midnight
+[03:03:27] [Server thread/INFO]: [trololol72: Set the time to 18000]
+[03:04:31] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[03:04:31] [Server thread/INFO]: trololol72 lost connection: Server is restarting
+[03:04:31] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[03:04:31] [Server thread/INFO]: Stopping server
+[03:04:31] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[03:04:31] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[03:04:31] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[03:04:31] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[03:04:31] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[03:04:31] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[03:04:31] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[03:04:31] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[03:04:31] [Server thread/INFO]: [TAB] Disabled in 1ms
+[03:04:31] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[03:04:31] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[03:04:31] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[03:04:31] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[03:04:31] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[03:04:31] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[03:04:31] [Server thread/INFO]: [LuckPerms] Closing storage...
+[03:04:31] [Server thread/INFO]: [LuckPerms] Goodbye!
+[03:04:31] [Server thread/INFO]: Saving players
+[03:04:31] [Server thread/INFO]: Saving worlds
+[03:04:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:04:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:04:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:04:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:04:38] [Server thread/INFO]: [ChunkHolderManager] Saved 4497 block chunks, 4784 entity chunks, 1 poi chunks in world 'world' in 6.52s
+[03:04:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[03:04:38] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[03:04:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[03:04:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[03:04:39] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[03:04:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:04:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:04:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:04:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:04:39] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[03:04:39] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[03:04:39] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[03:04:39] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
