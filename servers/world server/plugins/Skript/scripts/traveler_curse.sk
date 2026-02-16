@@ -1,12 +1,15 @@
 options:
     safe_radius: 53
+    safe_radius_2: 25 # The "Danger Zone" radius
     curse_start: 20:00
     curse_end: 05:00
+    effect_length: 30
 
 # --- 1. Setup Data ---
 on load:
     delete {regions::*}
     delete {safe_spots::*}
+    delete {safe_spots_2::*} 
     
     # Format: "MinX, MaxX, MinZ, MaxZ"
     set {regions::0} to "512,1536,-1536,-512"   #desert
@@ -17,50 +20,56 @@ on load:
     set {regions::5} to "-512,512,512,1536"     #pale garden
     set {regions::6} to "-1536,-512,-512,512"   #badlands
 
-    # Safe Spots
+    # Safe Spots (Big - Completely Safe)
     set {safe_spots::0} to location(512, 100, -512, world "world") 
     set {safe_spots::1} to location(-512, 100, 512, world "world")
     
+    # "Safe" Spots (Small - Hunger 2 Traps)
+    set {safe_spots_2::0} to location(197, 100, -1460, world "world") 
+    
+    # Non-destructive toggles
     if {curse_active} is not set:
         set {curse_active} to true
-    set {traveler_debug_active} to false
+    if {traveler_debug_active} is not set:
+        set {traveler_debug_active} to false
 
-
-# command /witherstorm_debug <text>:
-#     permission: op
-#     trigger:
-#         if arg-1 is "true":
-#             set {traveler_debug_active} to true
-#             send "&a&l[Wither Storm] debug ENABLED."
-#         else if arg-1 is "false":
-#             set {traveler_debug_active} to false
-#             send "&c&l[Wither Storm] debug DISABLED."
-#         else:
-#             send "&eUsage: /witherstorm_debug <true/false>"
-
+# --- 2. Commands ---
 command /curse_active <text>:
     permission: op
     trigger:
         if arg-1 is "true":
             set {curse_active} to true
-            send "&a&l[curse_active] System ENABLED."
+            send "&a&l[Curse] System ENABLED."
         else if arg-1 is "false":
             set {curse_active} to false
+            send "&c&l[Curse] System DISABLED."
         else:
             send "&eUsage: /curse_active <true/false>"
 
-# --- 4. Main Loop ---
-every 2 second:
-    
+command /curse_debug <text>:
+    permission: op
+    trigger:
+        if arg-1 is "true":
+            set {traveler_debug_active} to true
+            send "&a&l[Curse] debug ENABLED."
+        else if arg-1 is "false":
+            set {traveler_debug_active} to false
+            send "&c&l[Curse] debug DISABLED."
+        else:
+            send "&eUsage: /curse_debug <true/false>"
+
+# --- 3. Functions ---
+function traveler_debug(msg: text):
     if {traveler_debug_active} is true:
-        broadcast ""
+        broadcast "&5[CURSE] &r%{_msg}%"
+
+# --- 4. Main Loop ---
+every 29 second:
     
     if {curse_active} is false:
         stop
 
     set {_time} to time of world "world"
-    if {traveler_debug_active} is true:
-        broadcast "time: %{_time}%"
 
     # Check Time Window
     if {_time} is between {@curse_end} and {@curse_start}:
@@ -82,25 +91,38 @@ every 2 second:
             if {_px} is between {_xMin} and {_xMax}:
                 if {_pz} is between {_zMin} and {_zMax}:
                     
-                    # Check Safety
-                    set {_isSafe} to false
+                    # Assume Normal Curse by default
+                    set {_curseLevel} to 1
+                    
+                    # --- Safety Set 1 (Big Zones - SAFE) ---
                     loop {safe_spots::*}:
                         set {_spot} to loop-value-3
                         set y-coord of {_spot} to y-coord of loop-player
                         
                         if distance between loop-player and {_spot} <= {@safe_radius}:
-                            set {_isSafe} to true
-                            if {traveler_debug_active} is true:
-                                broadcast "DEBUG: %loop-player% is SAFE near spot %loop-index-1%"
-                        if world of loop-player is "world_nether":
-                            set {_isSafe} to true
-                            if {traveler_debug_active} is true:
-                                broadcast "DEBUG: %loop-player% is SAFE in the nether!"
-                        if world of loop-player is "world_the_end":
-                            set {_isSafe} to true
-                            if {traveler_debug_active} is true:
-                                broadcast "DEBUG: %loop-player% is SAFE in the end!"
+                            set {_curseLevel} to 0
+                            traveler_debug("DEBUG: %loop-player% is SAFE near big spot")
+                            
+                    # --- Safety Set 2 (Small Zones - HEAVY CURSE) ---
+                    if {_curseLevel} is 1: # Only check if not already inside a big safe zone
+                        loop {safe_spots_2::*}:
+                            set {_spot2} to loop-value-3
+                            set y-coord of {_spot2} to y-coord of loop-player
+                            
+                            if distance between loop-player and {_spot2} <= {@safe_radius_2}:
+                                set {_curseLevel} to 2
+                                traveler_debug("DEBUG: %loop-player% triggered HUNGER 2 near small spot")
 
-                    if {_isSafe} is false:
+                    # Global Safety Checks
+                    if world of loop-player is "world_nether":
+                        set {_curseLevel} to 0
+                    if world of loop-player is "world_the_end":
+                        set {_curseLevel} to 0
+
+                    # --- Apply Curse Based on Level ---
+                    if {_curseLevel} is 1:
                         remove hunger from loop-player
-                        apply hunger 1 to loop-player for 3 seconds
+                        apply hunger 1 to loop-player for 30 seconds
+                    else if {_curseLevel} is 2:
+                        remove hunger from loop-player
+                        apply hunger 2 to loop-player for 30 seconds

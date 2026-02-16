@@ -1,254 +1,669 @@
-[21:30:39] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-100-generic (amd64)
-[21:30:39] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[21:30:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[21:30:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[21:30:41] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - SkBee (3.15.0)
-[21:30:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[21:30:45] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[21:30:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[21:30:47] [ServerMain/INFO]: Loaded 1470 recipes
-[21:30:47] [ServerMain/INFO]: Loaded 1584 advancements
-[21:30:47] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[21:30:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 355.5ms
-[21:30:48] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[21:30:48] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[21:30:48] [Server thread/WARN]: ****************************
-[21:30:48] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[21:30:48] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[21:30:48] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[21:30:48] [Server thread/WARN]: ****************************
-[21:30:48] [Server thread/INFO]: Loading properties
-[21:30:48] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[21:30:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[21:30:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:30:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:30:49] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[21:30:49] [Server thread/INFO]: Default game type: SURVIVAL
-[21:30:49] [Server thread/INFO]: Generating keypair
-[21:30:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:30:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:30:49] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[21:30:50] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[21:30:50] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[21:30:50] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:30:50] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[21:30:50] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[21:30:50] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[21:30:51] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5d307291]
-[21:30:51] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[21:30:51] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[21:30:51] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[21:30:51] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[21:30:51] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[21:30:51] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[21:30:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:30:52] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[21:30:52] [Server thread/INFO]:         __    
-[21:30:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[21:30:52] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[21:30:52] [Server thread/INFO]: 
-[21:30:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:30:53] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:30:53] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:30:53] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1022ms)
-[21:30:53] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[21:30:53] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[21:30:53] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[21:30:53] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[21:30:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:30:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:30:54] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[21:30:55] [Server thread/INFO]: Preparing level "world"
-[21:30:55] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[21:30:55] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 2 NUMA nodes.
-[21:30:55] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
-[21:30:55] [Server thread/INFO]: Preparing spawn area: 28%
-[21:30:56] [Server thread/INFO]: Prepared spawn area in 850 ms
-[21:30:56] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[21:30:56] [Server thread/INFO]: Prepared spawn area in 0 ms
-[21:30:56] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[21:30:56] [Server thread/INFO]: Prepared spawn area in 1 ms
-[21:30:56] [Server thread/INFO]: Done preparing level "world" (1.495s)
-[21:30:56] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[21:30:56] [Server thread/INFO]: [Skript] Successfully generated the config and the example scripts.
-[21:30:57] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[21:30:58] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[21:30:58] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[21:30:58] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[21:30:58] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[21:30:58] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[21:30:58] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[21:30:59] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[21:31:00] [Server thread/INFO]: [TAB] Enabled in 1033ms
-[21:31:00] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[21:31:00] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[21:31:00] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[21:31:00] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[21:31:00] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[21:31:00] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[21:31:01] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[21:31:01] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[21:31:01] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[21:31:01] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[21:31:01] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[21:31:01] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[21:31:01] [Server thread/INFO]: [SkBee]  - 56 events
-[21:31:01] [Server thread/INFO]: [SkBee]  - 71 effects
-[21:31:01] [Server thread/INFO]: [SkBee]  - 240 expressions
-[21:31:01] [Server thread/INFO]: [SkBee]  - 27 conditions
-[21:31:01] [Server thread/INFO]: [SkBee]  - 32 sections
-[21:31:01] [Server thread/INFO]: [SkBee]  - 11 properties
-[21:31:01] [Server thread/INFO]: [SkBee] Update checker disabled!
-[21:31:01] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.70 seconds
-[21:31:01] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[21:31:01] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[21:31:02] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[21:31:02] [Server thread/INFO]: [spark] Starting background profiler...
-[21:31:02] [Thread-13/INFO]: [Skript] Loaded 5684 aliases in 3987ms
-[21:31:02] [Server thread/INFO]: Running delayed init tasks
-[21:31:02] [Server thread/INFO]: [Skript] Loading variables...
-[21:31:02] [Server thread/INFO]: [Skript] Loaded 381 variables in 0.0 seconds
-[21:31:10] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[21:31:10] [Server thread/INFO]: [Skript] Loaded 24 scripts with a total of 205 structures in 7.58 seconds
-[21:31:10] [Server thread/INFO]: [Skript] Finished loading.
-[21:31:10] [Server thread/INFO]: Done (31.938s)! For help, type "help"
-[21:31:10] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
-[21:31:10] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[21:32:23] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[21:32:23] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[21:32:26] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[21:32:26] [Server thread/INFO]: trololol72[/176.228.190.209:59479] logged in with entity id 5 at ([world]5073.280472382335, 89.72492769379963, 5072.964334091085)
-[21:32:27] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[21:32:27] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[21:33:11] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[21:33:11] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[21:33:18] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[21:33:20] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[21:33:20] [Server thread/INFO]: trololol72[/176.228.190.209:59492] logged in with entity id 704 at ([world]5064.699999988079, 76.0, 5048.731800008564)
-[21:33:20] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[21:33:20] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[21:33:30] [SIGCONT handler/WARN]: Exception in thread "SIGCONT handler" java.io.IOError: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
-[21:33:30] [Server console handler/ERROR]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Input/output error
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:198) ~[paper-1.21.11.jar:1.21.11-88-8556cb4]
-Caused by: java.io.IOException: Input/output error
-	at java.base/java.io.FileInputStream.read0(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
-	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
-	at org.jline.terminal.impl.AbstractPty$1.read(AbstractPty.java:58) ~[jline-terminal-3.27.1.jar:?]
-	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:124) ~[jline-terminal-3.27.1.jar:?]
-	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.27.1.jar:?]
-	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:157) ~[jline-terminal-3.27.1.jar:?]
-	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
-	... 9 more
-[21:33:30] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:65)
-[21:33:30] [SIGCONT handler/WARN]: 	at org.jline.terminal.Terminal.getBufferSize(Terminal.java:273)
-[21:33:30] [SIGCONT handler/WARN]: 	at org.jline.reader.impl.LineReaderImpl.handleSignal(LineReaderImpl.java:1160)
-[21:33:30] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractTerminal.raise(AbstractTerminal.java:96)
-[21:33:30] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.PosixSysTerminal.lambda$handle$1(PosixSysTerminal.java:68)
-[21:33:30] [SIGCONT handler/WARN]: 	at org.jline.utils.Signals.lambda$register$1(Signals.java:52)
-[21:33:30] [SIGCONT handler/WARN]: 	at jdk.proxy2/jdk.proxy2.$Proxy68.handle(Unknown Source)
-[21:33:30] [SIGCONT handler/WARN]: 	at jdk.unsupported/sun.misc.Signal$InternalMiscHandler.handle(Signal.java:198)
-[21:33:30] [SIGCONT handler/WARN]: 	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
-[21:33:30] [SIGCONT handler/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[21:33:30] [SIGCONT handler/WARN]: Caused by: java.io.IOException: Error calling ioctl(TIOCGWINSZ): return code is -1
-[21:33:30] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.jni.JniNativePty.getSize(JniNativePty.java:155)
-[21:33:30] [SIGCONT handler/WARN]: 	at org.jline.terminal.impl.AbstractPosixTerminal.getSize(AbstractPosixTerminal.java:63)
-[21:33:30] [SIGCONT handler/WARN]: 	... 9 more
-[21:33:30] [Server thread/INFO]: Stopping server
-[21:33:30] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[21:33:30] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[21:33:30] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[21:33:30] [Server thread/INFO]: [TAB] Disabled in 0ms
-[21:33:30] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[21:33:30] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[21:33:30] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[21:33:30] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[21:33:30] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[21:33:30] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[21:33:30] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[21:33:30] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[21:33:30] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[21:33:30] [Server thread/INFO]: [LuckPerms] Closing storage...
-[21:33:30] [Server thread/INFO]: [LuckPerms] Goodbye!
-[21:33:30] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[21:33:30] [Server thread/INFO]: Saving players
-[21:33:30] [Server thread/INFO]: trololol72 lost connection: Server closed
-[21:33:30] [Server thread/INFO]: trololol72 left the game
-[21:33:30] [Thread-8/WARN]: Exception in thread "Thread-8" java.lang.NoClassDefFoundError: org/h2/api/ErrorCode
-[21:33:30] [Thread-8/WARN]: 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:475)
-[21:33:30] [Thread-8/WARN]: 	at org.h2.message.DbException.get(DbException.java:212)
-[21:33:30] [Thread-8/WARN]: 	at org.h2.mvstore.db.Store.close(Store.java:402)
-[21:33:30] [Thread-8/WARN]: 	at org.h2.engine.Database.closeOpenFilesAndUnlock(Database.java:1261)
-[21:33:30] [Thread-8/WARN]: 	at org.h2.engine.Database.closeImpl(Database.java:1225)
-[21:33:30] [Thread-8/WARN]: 	at org.h2.engine.Database.close(Database.java:1144)
-[21:33:30] [Thread-8/WARN]: 	at org.h2.engine.OnExitDatabaseCloser.onShutdown(OnExitDatabaseCloser.java:85)
-[21:33:30] [Thread-8/WARN]: 	at org.h2.engine.OnExitDatabaseCloser.run(OnExitDatabaseCloser.java:114)
-[21:33:30] [Thread-8/WARN]: Caused by: java.lang.ClassNotFoundException: org.h2.api.ErrorCode
-[21:33:30] [Thread-8/WARN]: 	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
-[21:33:30] [Thread-8/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
-[21:33:30] [Thread-8/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
-[21:33:30] [Thread-8/WARN]: 	... 8 more
-[21:33:30] [Server thread/INFO]: Saving worlds
-[21:33:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:33:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[21:33:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[21:33:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Saved 1876 block chunks, 1876 entity chunks, 0 poi chunks in world 'world' in 2.39s
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[21:33:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[21:33:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[21:33:33] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[21:33:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:33:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:33:33] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:33:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:33:33] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[21:33:33] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[21:33:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[21:33:33] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[00:00:00] [Server thread/INFO]: [CURSE] 
+[00:00:00] [Server thread/INFO]: [CURSE] time: 16:40
+[00:00:01] [Server thread/INFO]: trololol72 issued server command: /time set midnight
+[00:00:01] [Server thread/INFO]: [trololol72: Set the time to 18000]
+[00:00:02] [Server thread/INFO]: [CURSE] 
+[00:00:02] [Server thread/INFO]: [CURSE] time: 0:01
+[00:00:04] [Server thread/INFO]: [CURSE] 
+[00:00:04] [Server thread/INFO]: [CURSE] time: 0:03
+[00:00:06] [Server thread/INFO]: [CURSE] 
+[00:00:06] [Server thread/INFO]: [CURSE] time: 0:05
+[00:00:08] [Server thread/INFO]: [CURSE] 
+[00:00:08] [Server thread/INFO]: [CURSE] time: 0:08
+[00:00:10] [Server thread/INFO]: [CURSE] 
+[00:00:10] [Server thread/INFO]: [CURSE] time: 0:10
+[00:00:12] [Server thread/INFO]: [CURSE] 
+[00:00:12] [Server thread/INFO]: [CURSE] time: 0:13
+[00:00:14] [Server thread/INFO]: [CURSE] 
+[00:00:14] [Server thread/INFO]: [CURSE] time: 0:15
+[00:00:16] [Server thread/INFO]: [CURSE] 
+[00:00:16] [Server thread/INFO]: [CURSE] time: 0:17
+[00:00:18] [Server thread/INFO]: [CURSE] 
+[00:00:18] [Server thread/INFO]: [CURSE] time: 0:20
+[00:00:20] [Server thread/INFO]: [CURSE] 
+[00:00:20] [Server thread/INFO]: [CURSE] time: 0:22
+[00:00:22] [Server thread/INFO]: [CURSE] 
+[00:00:22] [Server thread/INFO]: [CURSE] time: 0:25
+[00:00:23] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[00:00:24] [Server thread/INFO]: [CURSE] 
+[00:00:24] [Server thread/INFO]: [CURSE] time: 0:27
+[00:00:26] [Server thread/INFO]: [CURSE] 
+[00:00:26] [Server thread/INFO]: [CURSE] time: 0:29
+[00:00:26] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:28] [Server thread/INFO]: [CURSE] 
+[00:00:28] [Server thread/INFO]: [CURSE] time: 0:32
+[00:00:28] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:30] [Server thread/INFO]: [CURSE] 
+[00:00:30] [Server thread/INFO]: [CURSE] time: 0:34
+[00:00:30] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:32] [Server thread/INFO]: [CURSE] 
+[00:00:32] [Server thread/INFO]: [CURSE] time: 0:37
+[00:00:32] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:34] [Server thread/INFO]: [CURSE] 
+[00:00:34] [Server thread/INFO]: [CURSE] time: 0:39
+[00:00:34] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:36] [Server thread/INFO]: [CURSE] 
+[00:00:36] [Server thread/INFO]: [CURSE] time: 0:41
+[00:00:36] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:38] [Server thread/INFO]: [CURSE] 
+[00:00:38] [Server thread/INFO]: [CURSE] time: 0:44
+[00:00:38] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:40] [Server thread/INFO]: [CURSE] 
+[00:00:40] [Server thread/INFO]: [CURSE] time: 0:46
+[00:00:40] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:42] [Server thread/INFO]: [CURSE] 
+[00:00:42] [Server thread/INFO]: [CURSE] time: 0:49
+[00:00:42] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:44] [Server thread/INFO]: [CURSE] 
+[00:00:44] [Server thread/INFO]: [CURSE] time: 0:51
+[00:00:44] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:46] [Server thread/INFO]: [CURSE] 
+[00:00:46] [Server thread/INFO]: [CURSE] time: 0:53
+[00:00:46] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:48] [Server thread/INFO]: [CURSE] 
+[00:00:48] [Server thread/INFO]: [CURSE] time: 0:56
+[00:00:48] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:50] [Server thread/INFO]: [CURSE] 
+[00:00:50] [Server thread/INFO]: [CURSE] time: 0:58
+[00:00:50] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:52] [Server thread/INFO]: [CURSE] 
+[00:00:52] [Server thread/INFO]: [CURSE] time: 1:01
+[00:00:52] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:54] [Server thread/INFO]: [CURSE] 
+[00:00:54] [Server thread/INFO]: [CURSE] time: 1:03
+[00:00:54] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:56] [Server thread/INFO]: [CURSE] 
+[00:00:56] [Server thread/INFO]: [CURSE] time: 1:05
+[00:00:56] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:00:58] [Server thread/INFO]: [CURSE] 
+[00:00:58] [Server thread/INFO]: [CURSE] time: 1:08
+[00:00:58] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:00] [Server thread/INFO]: [CURSE] 
+[00:01:00] [Server thread/INFO]: [CURSE] time: 1:10
+[00:01:00] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:02] [Server thread/INFO]: [CURSE] 
+[00:01:02] [Server thread/INFO]: [CURSE] time: 1:13
+[00:01:02] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:04] [Server thread/INFO]: [CURSE] 
+[00:01:04] [Server thread/INFO]: [CURSE] time: 1:15
+[00:01:04] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:06] [Server thread/INFO]: [CURSE] 
+[00:01:06] [Server thread/INFO]: [CURSE] time: 1:17
+[00:01:06] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:08] [Server thread/INFO]: [CURSE] 
+[00:01:08] [Server thread/INFO]: [CURSE] time: 1:20
+[00:01:08] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:10] [Server thread/INFO]: [CURSE] 
+[00:01:10] [Server thread/INFO]: [CURSE] time: 1:22
+[00:01:10] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:12] [Server thread/INFO]: [CURSE] 
+[00:01:12] [Server thread/INFO]: [CURSE] time: 1:25
+[00:01:12] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:14] [Server thread/INFO]: [CURSE] 
+[00:01:14] [Server thread/INFO]: [CURSE] time: 1:27
+[00:01:14] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:16] [Server thread/INFO]: [CURSE] 
+[00:01:16] [Server thread/INFO]: [CURSE] time: 1:29
+[00:01:16] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:18] [Server thread/INFO]: [CURSE] 
+[00:01:18] [Server thread/INFO]: [CURSE] time: 1:32
+[00:01:18] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:20] [Server thread/INFO]: [CURSE] 
+[00:01:20] [Server thread/INFO]: [CURSE] time: 1:34
+[00:01:20] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:22] [Server thread/INFO]: [CURSE] 
+[00:01:22] [Server thread/INFO]: [CURSE] time: 1:37
+[00:01:22] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:24] [Server thread/INFO]: [CURSE] 
+[00:01:24] [Server thread/INFO]: [CURSE] time: 1:39
+[00:01:24] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:26] [Server thread/INFO]: [CURSE] 
+[00:01:26] [Server thread/INFO]: [CURSE] time: 1:41
+[00:01:26] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:28] [Server thread/INFO]: [CURSE] 
+[00:01:28] [Server thread/INFO]: [CURSE] time: 1:44
+[00:01:28] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:30] [Server thread/INFO]: [CURSE] 
+[00:01:30] [Server thread/INFO]: [CURSE] time: 1:46
+[00:01:30] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:32] [Server thread/INFO]: [CURSE] 
+[00:01:32] [Server thread/INFO]: [CURSE] time: 1:49
+[00:01:32] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:34] [Server thread/INFO]: [CURSE] 
+[00:01:34] [Server thread/INFO]: [CURSE] time: 1:51
+[00:01:34] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:36] [Server thread/INFO]: [CURSE] 
+[00:01:36] [Server thread/INFO]: [CURSE] time: 1:53
+[00:01:36] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:38] [Server thread/INFO]: [CURSE] 
+[00:01:38] [Server thread/INFO]: [CURSE] time: 1:56
+[00:01:38] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:40] [Server thread/INFO]: [CURSE] 
+[00:01:40] [Server thread/INFO]: [CURSE] time: 1:58
+[00:01:40] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:42] [Server thread/INFO]: [CURSE] 
+[00:01:42] [Server thread/INFO]: [CURSE] time: 2:01
+[00:01:42] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:44] [Server thread/INFO]: [CURSE] 
+[00:01:44] [Server thread/INFO]: [CURSE] time: 2:03
+[00:01:44] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:46] [Server thread/INFO]: [CURSE] 
+[00:01:46] [Server thread/INFO]: [CURSE] time: 2:05
+[00:01:46] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:48] [Server thread/INFO]: [CURSE] 
+[00:01:48] [Server thread/INFO]: [CURSE] time: 2:08
+[00:01:48] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:50] [Server thread/INFO]: [CURSE] 
+[00:01:50] [Server thread/INFO]: [CURSE] time: 2:10
+[00:01:50] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:52] [Server thread/INFO]: [CURSE] 
+[00:01:52] [Server thread/INFO]: [CURSE] time: 2:13
+[00:01:52] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:54] [Server thread/INFO]: [CURSE] 
+[00:01:54] [Server thread/INFO]: [CURSE] time: 2:15
+[00:01:54] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:56] [Server thread/INFO]: [CURSE] 
+[00:01:56] [Server thread/INFO]: [CURSE] time: 2:17
+[00:01:56] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:01:58] [Server thread/INFO]: [CURSE] 
+[00:01:58] [Server thread/INFO]: [CURSE] time: 2:20
+[00:01:58] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:00] [Server thread/INFO]: [CURSE] 
+[00:02:00] [Server thread/INFO]: [CURSE] time: 2:22
+[00:02:00] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:02] [Server thread/INFO]: [CURSE] 
+[00:02:02] [Server thread/INFO]: [CURSE] time: 2:25
+[00:02:02] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:04] [Server thread/INFO]: [CURSE] 
+[00:02:04] [Server thread/INFO]: [CURSE] time: 2:27
+[00:02:04] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:06] [Server thread/INFO]: [CURSE] 
+[00:02:06] [Server thread/INFO]: [CURSE] time: 2:29
+[00:02:06] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:08] [Server thread/INFO]: [CURSE] 
+[00:02:08] [Server thread/INFO]: [CURSE] time: 2:32
+[00:02:08] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:10] [Server thread/INFO]: [CURSE] 
+[00:02:10] [Server thread/INFO]: [CURSE] time: 2:34
+[00:02:10] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:12] [Server thread/INFO]: [CURSE] 
+[00:02:12] [Server thread/INFO]: [CURSE] time: 2:37
+[00:02:12] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:14] [Server thread/INFO]: [CURSE] 
+[00:02:14] [Server thread/INFO]: [CURSE] time: 2:39
+[00:02:14] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:16] [Server thread/INFO]: [CURSE] 
+[00:02:16] [Server thread/INFO]: [CURSE] time: 2:41
+[00:02:16] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:18] [Server thread/INFO]: [CURSE] 
+[00:02:18] [Server thread/INFO]: [CURSE] time: 2:44
+[00:02:18] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:20] [Server thread/INFO]: [CURSE] 
+[00:02:20] [Server thread/INFO]: [CURSE] time: 2:46
+[00:02:20] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:22] [Server thread/INFO]: [CURSE] 
+[00:02:22] [Server thread/INFO]: [CURSE] time: 2:49
+[00:02:22] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:24] [Server thread/INFO]: [CURSE] 
+[00:02:24] [Server thread/INFO]: [CURSE] time: 2:51
+[00:02:24] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:26] [Server thread/INFO]: [CURSE] 
+[00:02:26] [Server thread/INFO]: [CURSE] time: 2:53
+[00:02:26] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:28] [Server thread/INFO]: [CURSE] 
+[00:02:28] [Server thread/INFO]: [CURSE] time: 2:56
+[00:02:28] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:30] [Server thread/INFO]: [CURSE] 
+[00:02:30] [Server thread/INFO]: [CURSE] time: 2:58
+[00:02:30] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:32] [Server thread/INFO]: [CURSE] 
+[00:02:32] [Server thread/INFO]: [CURSE] time: 3:01
+[00:02:32] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:34] [Server thread/INFO]: [CURSE] 
+[00:02:34] [Server thread/INFO]: [CURSE] time: 3:03
+[00:02:34] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:36] [Server thread/INFO]: [CURSE] 
+[00:02:36] [Server thread/INFO]: [CURSE] time: 3:05
+[00:02:36] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:38] [Server thread/INFO]: [CURSE] 
+[00:02:38] [Server thread/INFO]: [CURSE] time: 3:08
+[00:02:38] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:40] [Server thread/INFO]: [CURSE] 
+[00:02:40] [Server thread/INFO]: [CURSE] time: 3:10
+[00:02:40] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:42] [Server thread/INFO]: [CURSE] 
+[00:02:42] [Server thread/INFO]: [CURSE] time: 3:13
+[00:02:42] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:44] [Server thread/INFO]: [CURSE] 
+[00:02:44] [Server thread/INFO]: [CURSE] time: 3:15
+[00:02:44] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:46] [Server thread/INFO]: [CURSE] 
+[00:02:46] [Server thread/INFO]: [CURSE] time: 3:17
+[00:02:46] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:48] [Server thread/INFO]: [CURSE] 
+[00:02:48] [Server thread/INFO]: [CURSE] time: 3:20
+[00:02:48] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:50] [Server thread/INFO]: [CURSE] 
+[00:02:50] [Server thread/INFO]: [CURSE] time: 3:22
+[00:02:50] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:52] [Server thread/INFO]: [CURSE] 
+[00:02:52] [Server thread/INFO]: [CURSE] time: 3:25
+[00:02:52] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:54] [Server thread/INFO]: [CURSE] 
+[00:02:54] [Server thread/INFO]: [CURSE] time: 3:27
+[00:02:54] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:56] [Server thread/INFO]: [CURSE] 
+[00:02:56] [Server thread/INFO]: [CURSE] time: 3:29
+[00:02:56] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:02:58] [Server thread/INFO]: [CURSE] 
+[00:02:58] [Server thread/INFO]: [CURSE] time: 3:32
+[00:02:58] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:00] [Server thread/INFO]: [CURSE] 
+[00:03:00] [Server thread/INFO]: [CURSE] time: 3:34
+[00:03:00] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:02] [Server thread/INFO]: [CURSE] 
+[00:03:02] [Server thread/INFO]: [CURSE] time: 3:37
+[00:03:02] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:04] [Server thread/INFO]: [CURSE] 
+[00:03:04] [Server thread/INFO]: [CURSE] time: 3:39
+[00:03:04] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:06] [Server thread/INFO]: [CURSE] 
+[00:03:06] [Server thread/INFO]: [CURSE] time: 3:41
+[00:03:06] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:08] [Server thread/INFO]: [CURSE] 
+[00:03:08] [Server thread/INFO]: [CURSE] time: 3:44
+[00:03:08] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:10] [Server thread/INFO]: [CURSE] 
+[00:03:10] [Server thread/INFO]: [CURSE] time: 3:46
+[00:03:10] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:12] [Server thread/INFO]: [CURSE] 
+[00:03:12] [Server thread/INFO]: [CURSE] time: 3:49
+[00:03:12] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:14] [Server thread/INFO]: [CURSE] 
+[00:03:14] [Server thread/INFO]: [CURSE] time: 3:51
+[00:03:14] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:16] [Server thread/INFO]: [CURSE] 
+[00:03:16] [Server thread/INFO]: [CURSE] time: 3:53
+[00:03:16] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:18] [Server thread/INFO]: [CURSE] 
+[00:03:18] [Server thread/INFO]: [CURSE] time: 3:56
+[00:03:18] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:20] [Server thread/INFO]: [CURSE] 
+[00:03:20] [Server thread/INFO]: [CURSE] time: 3:58
+[00:03:20] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:22] [Server thread/INFO]: [CURSE] 
+[00:03:22] [Server thread/INFO]: [CURSE] time: 4:01
+[00:03:22] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:24] [Server thread/INFO]: [CURSE] 
+[00:03:24] [Server thread/INFO]: [CURSE] time: 4:03
+[00:03:24] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:26] [Server thread/INFO]: [CURSE] 
+[00:03:26] [Server thread/INFO]: [CURSE] time: 4:05
+[00:03:26] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:28] [Server thread/INFO]: [CURSE] 
+[00:03:28] [Server thread/INFO]: [CURSE] time: 4:08
+[00:03:28] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:30] [Server thread/INFO]: [CURSE] 
+[00:03:30] [Server thread/INFO]: [CURSE] time: 4:10
+[00:03:30] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:32] [Server thread/INFO]: [CURSE] 
+[00:03:32] [Server thread/INFO]: [CURSE] time: 4:13
+[00:03:32] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:34] [Server thread/INFO]: [CURSE] 
+[00:03:34] [Server thread/INFO]: [CURSE] time: 4:15
+[00:03:34] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:36] [Server thread/INFO]: [CURSE] 
+[00:03:36] [Server thread/INFO]: [CURSE] time: 4:17
+[00:03:36] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:38] [Server thread/INFO]: [CURSE] 
+[00:03:38] [Server thread/INFO]: [CURSE] time: 4:20
+[00:03:38] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:40] [Server thread/INFO]: [CURSE] 
+[00:03:40] [Server thread/INFO]: [CURSE] time: 4:22
+[00:03:40] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:42] [Server thread/INFO]: [CURSE] 
+[00:03:42] [Server thread/INFO]: [CURSE] time: 4:25
+[00:03:42] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:44] [Server thread/INFO]: [CURSE] 
+[00:03:44] [Server thread/INFO]: [CURSE] time: 4:27
+[00:03:44] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:46] [Server thread/INFO]: [CURSE] 
+[00:03:46] [Server thread/INFO]: [CURSE] time: 4:29
+[00:03:46] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:48] [Server thread/INFO]: [CURSE] 
+[00:03:48] [Server thread/INFO]: [CURSE] time: 4:32
+[00:03:48] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:50] [Server thread/INFO]: [CURSE] 
+[00:03:50] [Server thread/INFO]: [CURSE] time: 4:34
+[00:03:50] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:52] [Server thread/INFO]: [CURSE] 
+[00:03:52] [Server thread/INFO]: [CURSE] time: 4:37
+[00:03:52] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:54] [Server thread/INFO]: [CURSE] 
+[00:03:54] [Server thread/INFO]: [CURSE] time: 4:39
+[00:03:54] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:56] [Server thread/INFO]: [CURSE] 
+[00:03:56] [Server thread/INFO]: [CURSE] time: 4:41
+[00:03:56] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:03:58] [Server thread/INFO]: [CURSE] 
+[00:03:58] [Server thread/INFO]: [CURSE] time: 4:44
+[00:03:58] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:04:00] [Server thread/INFO]: [CURSE] 
+[00:04:00] [Server thread/INFO]: [CURSE] time: 4:46
+[00:04:00] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:04:02] [Server thread/INFO]: [CURSE] 
+[00:04:02] [Server thread/INFO]: [CURSE] time: 4:49
+[00:04:02] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:04:04] [Server thread/INFO]: [CURSE] 
+[00:04:04] [Server thread/INFO]: [CURSE] time: 4:51
+[00:04:04] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:04:06] [Server thread/INFO]: [CURSE] 
+[00:04:06] [Server thread/INFO]: [CURSE] time: 4:53
+[00:04:06] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:04:08] [Server thread/INFO]: [CURSE] 
+[00:04:08] [Server thread/INFO]: [CURSE] time: 4:56
+[00:04:08] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:04:10] [Server thread/INFO]: [CURSE] 
+[00:04:10] [Server thread/INFO]: [CURSE] time: 4:58
+[00:04:10] [Server thread/INFO]: [CURSE] DEBUG: trololol72 is SAFE near spot 1
+[00:04:12] [Server thread/INFO]: [CURSE] 
+[00:04:12] [Server thread/INFO]: [CURSE] time: 5:01
+[00:04:12] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[00:04:13] [Server thread/INFO]: Line 101: (traveler_curse.sk)
+[00:04:13] [Server thread/INFO]:     There are multiple loops that match loop-value. Use loop-value-1/2/3/etc. to specify which loop's value you want.
+[00:04:13] [Server thread/INFO]:     Line: set {_spot} to loop-value# Fixed from loop-value-3 to standard loop-value
+[00:04:13] [Server thread/INFO]:  
+[00:04:13] [Server thread/INFO]: Line 111: (traveler_curse.sk)
+[00:04:13] [Server thread/INFO]:     There are multiple loops that match loop-value. Use loop-value-1/2/3/etc. to specify which loop's value you want.
+[00:04:13] [Server thread/INFO]:     Line: set {_spot2} to loop-value
+[00:04:13] [Server thread/INFO]:  
+[00:04:13] [Server thread/INFO]:     Encountered 2 errors while reloading traveler_curse.sk! (350ms)
+[00:04:14] [Server thread/INFO]: [CURSE] 
+[00:04:14] [Server thread/INFO]: [CURSE] time: 5:04
+[00:04:16] [Server thread/INFO]: [CURSE] 
+[00:04:16] [Server thread/INFO]: [CURSE] time: 5:06
+[00:04:18] [Server thread/INFO]: [CURSE] 
+[00:04:18] [Server thread/INFO]: [CURSE] time: 5:08
+[00:04:20] [Server thread/INFO]: [CURSE] 
+[00:04:20] [Server thread/INFO]: [CURSE] time: 5:11
+[00:04:23] [Server thread/INFO]: [CURSE] 
+[00:04:23] [Server thread/INFO]: [CURSE] time: 5:13
+[00:04:24] [Server thread/INFO]: [CURSE] 
+[00:04:24] [Server thread/INFO]: [CURSE] time: 5:16
+[00:04:26] [Server thread/INFO]: [CURSE] 
+[00:04:26] [Server thread/INFO]: [CURSE] time: 5:18
+[00:04:28] [Server thread/INFO]: [CURSE] 
+[00:04:28] [Server thread/INFO]: [CURSE] time: 5:20
+[00:04:30] [Server thread/INFO]: [CURSE] 
+[00:04:30] [Server thread/INFO]: [CURSE] time: 5:23
+[00:04:32] [Server thread/INFO]: [CURSE] 
+[00:04:32] [Server thread/INFO]: [CURSE] time: 5:25
+[00:04:34] [Server thread/INFO]: [CURSE] 
+[00:04:34] [Server thread/INFO]: [CURSE] time: 5:28
+[00:04:36] [Server thread/INFO]: [CURSE] 
+[00:04:36] [Server thread/INFO]: [CURSE] time: 5:30
+[00:04:38] [Server thread/INFO]: [CURSE] 
+[00:04:38] [Server thread/INFO]: [CURSE] time: 5:32
+[00:04:40] [Server thread/INFO]: [CURSE] 
+[00:04:40] [Server thread/INFO]: [CURSE] time: 5:35
+[00:04:42] [Server thread/INFO]: [CURSE] 
+[00:04:42] [Server thread/INFO]: [CURSE] time: 5:37
+[00:04:44] [Server thread/INFO]: [CURSE] 
+[00:04:44] [Server thread/INFO]: [CURSE] time: 5:40
+[00:04:46] [Server thread/INFO]: [CURSE] 
+[00:04:46] [Server thread/INFO]: [CURSE] time: 5:42
+[00:04:48] [Server thread/INFO]: [CURSE] 
+[00:04:48] [Server thread/INFO]: [CURSE] time: 5:44
+[00:04:50] [Server thread/INFO]: [CURSE] 
+[00:04:50] [Server thread/INFO]: [CURSE] time: 5:47
+[00:04:52] [Server thread/INFO]: [CURSE] 
+[00:04:52] [Server thread/INFO]: [CURSE] time: 5:49
+[00:04:54] [Server thread/INFO]: [CURSE] 
+[00:04:54] [Server thread/INFO]: [CURSE] time: 5:52
+[00:04:56] [Server thread/INFO]: [CURSE] 
+[00:04:56] [Server thread/INFO]: [CURSE] time: 5:54
+[00:04:58] [Server thread/INFO]: [CURSE] 
+[00:04:58] [Server thread/INFO]: [CURSE] time: 5:56
+[00:05:00] [Server thread/INFO]: [CURSE] 
+[00:05:00] [Server thread/INFO]: [CURSE] time: 5:59
+[00:05:02] [Server thread/INFO]: [CURSE] 
+[00:05:02] [Server thread/INFO]: [CURSE] time: 6:01
+[00:05:04] [Server thread/INFO]: [CURSE] 
+[00:05:04] [Server thread/INFO]: [CURSE] time: 6:04
+[00:05:06] [Server thread/INFO]: [CURSE] 
+[00:05:06] [Server thread/INFO]: [CURSE] time: 6:06
+[00:05:08] [Server thread/INFO]: [CURSE] 
+[00:05:08] [Server thread/INFO]: [CURSE] time: 6:08
+[00:05:10] [Server thread/INFO]: [CURSE] 
+[00:05:10] [Server thread/INFO]: [CURSE] time: 6:11
+[00:05:12] [Server thread/INFO]: [CURSE] 
+[00:05:12] [Server thread/INFO]: [CURSE] time: 6:13
+[00:05:14] [Server thread/INFO]: [CURSE] 
+[00:05:14] [Server thread/INFO]: [CURSE] time: 6:16
+[00:05:16] [Server thread/INFO]: [CURSE] 
+[00:05:16] [Server thread/INFO]: [CURSE] time: 6:18
+[00:05:18] [Server thread/INFO]: [CURSE] 
+[00:05:18] [Server thread/INFO]: [CURSE] time: 6:20
+[00:05:20] [Server thread/INFO]: [CURSE] 
+[00:05:20] [Server thread/INFO]: [CURSE] time: 6:23
+[00:05:22] [Server thread/INFO]: [CURSE] 
+[00:05:22] [Server thread/INFO]: [CURSE] time: 6:25
+[00:05:24] [Server thread/INFO]: [CURSE] 
+[00:05:24] [Server thread/INFO]: [CURSE] time: 6:28
+[00:05:26] [Server thread/INFO]: [CURSE] 
+[00:05:26] [Server thread/INFO]: [CURSE] time: 6:30
+[00:05:28] [Server thread/INFO]: [CURSE] 
+[00:05:28] [Server thread/INFO]: [CURSE] time: 6:32
+[00:05:30] [Server thread/INFO]: [CURSE] 
+[00:05:30] [Server thread/INFO]: [CURSE] time: 6:35
+[00:05:32] [Server thread/INFO]: [CURSE] 
+[00:05:32] [Server thread/INFO]: [CURSE] time: 6:37
+[00:05:34] [Server thread/INFO]: [CURSE] 
+[00:05:34] [Server thread/INFO]: [CURSE] time: 6:40
+[00:05:36] [Server thread/INFO]: [CURSE] 
+[00:05:36] [Server thread/INFO]: [CURSE] time: 6:42
+[00:05:38] [Server thread/INFO]: [CURSE] 
+[00:05:38] [Server thread/INFO]: [CURSE] time: 6:44
+[00:05:40] [Server thread/INFO]: [CURSE] 
+[00:05:40] [Server thread/INFO]: [CURSE] time: 6:47
+[00:05:42] [Server thread/INFO]: [CURSE] 
+[00:05:42] [Server thread/INFO]: [CURSE] time: 6:49
+[00:05:44] [Server thread/INFO]: [CURSE] 
+[00:05:44] [Server thread/INFO]: [CURSE] time: 6:52
+[00:05:46] [Server thread/INFO]: [CURSE] 
+[00:05:46] [Server thread/INFO]: [CURSE] time: 6:54
+[00:05:48] [Server thread/INFO]: [CURSE] 
+[00:05:48] [Server thread/INFO]: [CURSE] time: 6:56
+[00:05:50] [Server thread/INFO]: [CURSE] 
+[00:05:50] [Server thread/INFO]: [CURSE] time: 6:59
+[00:05:52] [Server thread/INFO]: [CURSE] 
+[00:05:52] [Server thread/INFO]: [CURSE] time: 7:01
+[00:05:54] [Server thread/INFO]: [CURSE] 
+[00:05:54] [Server thread/INFO]: [CURSE] time: 7:04
+[00:05:56] [Server thread/INFO]: [CURSE] 
+[00:05:56] [Server thread/INFO]: [CURSE] time: 7:06
+[00:05:58] [Server thread/INFO]: [CURSE] 
+[00:05:58] [Server thread/INFO]: [CURSE] time: 7:08
+[00:06:00] [Server thread/INFO]: [CURSE] 
+[00:06:00] [Server thread/INFO]: [CURSE] time: 7:11
+[00:06:02] [Server thread/INFO]: [CURSE] 
+[00:06:02] [Server thread/INFO]: [CURSE] time: 7:13
+[00:06:04] [Server thread/INFO]: [CURSE] 
+[00:06:04] [Server thread/INFO]: [CURSE] time: 7:16
+[00:06:06] [Server thread/INFO]: [CURSE] 
+[00:06:06] [Server thread/INFO]: [CURSE] time: 7:18
+[00:06:08] [Server thread/INFO]: [CURSE] 
+[00:06:08] [Server thread/INFO]: [CURSE] time: 7:20
+[00:06:10] [Server thread/INFO]: [CURSE] 
+[00:06:10] [Server thread/INFO]: [CURSE] time: 7:23
+[00:06:12] [Server thread/INFO]: [CURSE] 
+[00:06:12] [Server thread/INFO]: [CURSE] time: 7:25
+[00:06:14] [Server thread/INFO]: [CURSE] 
+[00:06:14] [Server thread/INFO]: [CURSE] time: 7:28
+[00:06:16] [Server thread/INFO]: [CURSE] 
+[00:06:16] [Server thread/INFO]: [CURSE] time: 7:30
+[00:06:18] [Server thread/INFO]: [CURSE] 
+[00:06:18] [Server thread/INFO]: [CURSE] time: 7:32
+[00:06:20] [Server thread/INFO]: [CURSE] 
+[00:06:20] [Server thread/INFO]: [CURSE] time: 7:35
+[00:06:22] [Server thread/INFO]: [CURSE] 
+[00:06:22] [Server thread/INFO]: [CURSE] time: 7:37
+[00:06:24] [Server thread/INFO]: [CURSE] 
+[00:06:24] [Server thread/INFO]: [CURSE] time: 7:40
+[00:06:26] [Server thread/INFO]: [CURSE] 
+[00:06:26] [Server thread/INFO]: [CURSE] time: 7:42
+[00:06:28] [Server thread/INFO]: [CURSE] 
+[00:06:28] [Server thread/INFO]: [CURSE] time: 7:44
+[00:06:30] [Server thread/INFO]: [CURSE] 
+[00:06:30] [Server thread/INFO]: [CURSE] time: 7:47
+[00:06:32] [Server thread/INFO]: [CURSE] 
+[00:06:32] [Server thread/INFO]: [CURSE] time: 7:49
+[00:06:34] [Server thread/INFO]: [CURSE] 
+[00:06:34] [Server thread/INFO]: [CURSE] time: 7:52
+[00:06:36] [Server thread/INFO]: [CURSE] 
+[00:06:36] [Server thread/INFO]: [CURSE] time: 7:54
+[00:06:38] [Server thread/INFO]: [CURSE] 
+[00:06:38] [Server thread/INFO]: [CURSE] time: 7:56
+[00:06:40] [Server thread/INFO]: [CURSE] 
+[00:06:40] [Server thread/INFO]: [CURSE] time: 7:59
+[00:06:42] [Server thread/INFO]: [CURSE] 
+[00:06:42] [Server thread/INFO]: [CURSE] time: 8:01
+[00:06:44] [Server thread/INFO]: [CURSE] 
+[00:06:44] [Server thread/INFO]: [CURSE] time: 8:04
+[00:06:46] [Server thread/INFO]: [CURSE] 
+[00:06:46] [Server thread/INFO]: [CURSE] time: 8:06
+[00:06:48] [Server thread/INFO]: [CURSE] 
+[00:06:48] [Server thread/INFO]: [CURSE] time: 8:08
+[00:06:50] [Server thread/INFO]: [CURSE] 
+[00:06:50] [Server thread/INFO]: [CURSE] time: 8:11
+[00:06:52] [Server thread/INFO]: [CURSE] 
+[00:06:52] [Server thread/INFO]: [CURSE] time: 8:13
+[00:06:54] [Server thread/INFO]: [CURSE] 
+[00:06:54] [Server thread/INFO]: [CURSE] time: 8:16
+[00:06:56] [Server thread/INFO]: [CURSE] 
+[00:06:56] [Server thread/INFO]: [CURSE] time: 8:18
+[00:06:58] [Server thread/INFO]: [CURSE] 
+[00:06:58] [Server thread/INFO]: [CURSE] time: 8:20
+[00:07:00] [Server thread/INFO]: [CURSE] 
+[00:07:00] [Server thread/INFO]: [CURSE] time: 8:23
+[00:07:02] [Server thread/INFO]: [CURSE] 
+[00:07:02] [Server thread/INFO]: [CURSE] time: 8:25
+[00:07:04] [Server thread/INFO]: [CURSE] 
+[00:07:04] [Server thread/INFO]: [CURSE] time: 8:28
+[00:07:06] [Server thread/INFO]: [CURSE] 
+[00:07:06] [Server thread/INFO]: [CURSE] time: 8:30
+[00:07:07] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[00:07:07] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (168ms)
+[00:07:33] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[00:07:33] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (158ms)
+[00:07:47] [Server thread/INFO]: trololol72 issued server command: /tpb list
+[00:07:47] [Server thread/INFO]: tpb list:
+[00:07:47] [Server thread/INFO]: - -1430 953
+[00:07:47] [Server thread/INFO]: - ancient 1
+[00:07:47] [Server thread/INFO]: - ancient 2
+[00:07:47] [Server thread/INFO]: - ancient 3
+[00:07:47] [Server thread/INFO]: - arg-1
+[00:07:47] [Server thread/INFO]: - b
+[00:07:47] [Server thread/INFO]: - bedrock chets 1-4
+[00:07:47] [Server thread/INFO]: - bedrock chets 1-3
+[00:07:47] [Server thread/INFO]: - bedrock chets 1-2
+[00:07:47] [Server thread/INFO]: - bedrock chets 1-1
+[00:07:47] [Server thread/INFO]: - bedrock chets 2-4
+[00:07:47] [Server thread/INFO]: - bedrock chets 2-3
+[00:07:47] [Server thread/INFO]: - bedrock chets 2-2
+[00:07:47] [Server thread/INFO]: - bedrock chets 2-1
+[00:07:47] [Server thread/INFO]: - bedrock chets 3-4
+[00:07:47] [Server thread/INFO]: - bedrock chets 3-3
+[00:07:47] [Server thread/INFO]: - bedrock chets 3-2
+[00:07:47] [Server thread/INFO]: - bedrock chets 3-1
+[00:07:47] [Server thread/INFO]: - book
+[00:07:47] [Server thread/INFO]: - c
+[00:07:47] [Server thread/INFO]: - ch
+[00:07:47] [Server thread/INFO]: - cherry golem
+[00:07:47] [Server thread/INFO]: - cherry witch
+[00:07:47] [Server thread/INFO]: - dead village 1
+[00:07:47] [Server thread/INFO]: - enc f
+[00:07:47] [Server thread/INFO]: - enc u
+[00:07:47] [Server thread/INFO]: - end copy
+[00:07:47] [Server thread/INFO]: - hideout 1
+[00:07:47] [Server thread/INFO]: - k
+[00:07:47] [Server thread/INFO]: - l
+[00:07:47] [Server thread/INFO]: - lab
+[00:07:47] [Server thread/INFO]: - lib
+[00:07:47] [Server thread/INFO]: - list
+[00:07:47] [Server thread/INFO]: - lush
+[00:07:47] [Server thread/INFO]: - mine lib
+[00:07:47] [Server thread/INFO]: - mine village
+[00:07:47] [Server thread/INFO]: - mineshaft
+[00:07:47] [Server thread/INFO]: - mineshaft village
+[00:07:47] [Server thread/INFO]: - n
+[00:07:47] [Server thread/INFO]: - netherite village
+[00:07:47] [Server thread/INFO]: - p
+[00:07:47] [Server thread/INFO]: - pillager
+[00:07:47] [Server thread/INFO]: - pillager camp
+[00:07:47] [Server thread/INFO]: - pillger
+[00:07:47] [Server thread/INFO]: - r
+[00:07:47] [Server thread/INFO]: - t
+[00:07:47] [Server thread/INFO]: - trial
+[00:07:47] [Server thread/INFO]: - trial chest
+[00:08:17] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:08:23] [Server thread/INFO]: trololol72 issued server command: /tptool
+[00:08:52] [Server thread/INFO]: trololol72 issued server command: /time set midnight
+[00:08:52] [Server thread/INFO]: [trololol72: Set the time to 18000]
+[00:09:07] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[00:10:24] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[00:10:24] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (149ms)
+[00:10:26] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:28] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:30] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:32] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:34] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:36] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:38] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:40] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:42] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:44] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:46] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:48] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:50] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:10:52] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[00:10:52] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (126ms)
+[00:11:04] [Server thread/INFO]: trololol72 issued server command: /tick rate 60
+[00:11:04] [Server thread/INFO]: [trololol72: Set the target tick rate to 60.0 per second]
+[00:12:09] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[00:12:09] [Server thread/INFO]: Line 67: (traveler_curse.sk)
+[00:12:09] [Server thread/INFO]:     Can't understand this structure: every 30-1 second
+[00:12:09] [Server thread/INFO]:     Line: every {@effect_length}-1 second:
+[00:12:09] [Server thread/INFO]:  
+[00:12:09] [Server thread/INFO]:     Encountered 1 error while reloading traveler_curse.sk! (45ms)
+[00:12:29] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[00:12:29] [Server thread/INFO]: Line 67: (traveler_curse.sk)
+[00:12:29] [Server thread/INFO]:     Can't understand this structure: every "%30-1%" second
+[00:12:29] [Server thread/INFO]:     Line: every "%{@effect_length}-1%" second:
+[00:12:29] [Server thread/INFO]:  
+[00:12:29] [Server thread/INFO]:     Encountered 1 error while reloading traveler_curse.sk! (50ms)
+[00:13:02] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[00:13:02] [Server thread/INFO]: Line 68: (traveler_curse.sk)
+[00:13:02] [Server thread/INFO]:     Can't understand this structure: every {loop_time} second
+[00:13:02] [Server thread/INFO]:     Line: every {loop_time} second:
+[00:13:02] [Server thread/INFO]:  
+[00:13:02] [Server thread/INFO]:     Encountered 1 error while reloading traveler_curse.sk! (52ms)
+[00:15:21] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[00:15:21] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (98ms)
+[00:15:56] [Server thread/INFO]: trololol72 issued server command: /time query
+[00:16:01] [Server thread/INFO]: trololol72 issued server command: /time query daytime
+[00:16:03] [Server thread/INFO]: trololol72 issued server command: /time query daytime
+[00:16:23] [Server thread/INFO]: trololol72 issued server command: /tick rate 20
+[00:16:23] [Server thread/INFO]: [trololol72: Set the target tick rate to 20.0 per second]
+[00:16:41] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:17:10] [Server thread/INFO]: [CURSE] DEBUG: trololol72 triggered HUNGER 2 near small spot
+[00:18:00] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[00:18:02] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:19:24] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[00:19:53] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[00:19:53] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[00:19:56] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Attempting to restart with ./start.sh
+[00:20:05] [spark-java-sampler-0-5/WARN]: [spark] Timed out waiting for world statistics
+[00:21:05] [spark-java-sampler-0-2/WARN]: [spark] Timed out waiting for world statistics
+[00:22:05] [spark-java-sampler-0-1/WARN]: [spark] Timed out waiting for world statistics
+[00:23:05] [spark-java-sampler-0-2/WARN]: [spark] Timed out waiting for world statistics
