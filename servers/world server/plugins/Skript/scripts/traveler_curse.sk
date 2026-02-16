@@ -1,6 +1,6 @@
 options:
     safe_radius: 53
-    safe_radius_2: 25 # The "Danger Zone" radius
+    safe_radius_2: 24 # The "Danger Zone" radius
     curse_start: 20:00
     curse_end: 05:00
     effect_length: 30
@@ -26,6 +26,9 @@ on load:
     
     # "Safe" Spots (Small - Hunger 2 Traps)
     set {safe_spots_2::0} to location(197, 100, -1460, world "world") 
+    set {safe_spots_2::1} to location(1270, 100, 95, world "world") 
+    set {safe_spots_2::2} to location(-131, 209, 1192, world "world")   #pale
+    set {safe_spots_2::2} to location(-866, 204, 67, world "world")   #pale
     
     # Non-destructive toggles
     if {curse_active} is not set:
@@ -64,7 +67,7 @@ function traveler_debug(msg: text):
         broadcast "&5[CURSE] &r%{_msg}%"
 
 # --- 4. Main Loop ---
-every 29 second:
+every 4 second:
     
     if {curse_active} is false:
         stop
