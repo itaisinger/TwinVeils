@@ -1,5 +1,6 @@
 on load:
     set {enc::width} to 4
+    set {enc::height} to 3
     
     set {enc::dirs::nw::xadd} to -1  
     set {enc::dirs::nw::zadd} to -1
@@ -18,7 +19,11 @@ on load:
 function enc_debug(msg: text):
     if {enc_debug} is true:
         broadcast "&2[ENCLOSURE] &r%{_msg}%"
-
+#
+function bedrock_break_effect(loc: location):
+    draw 20 dust particle using dustOption(black, 1) at {_loc} with offset vector(0.45, 0.45, 0.45) with extra 0.05
+    draw 5 block particle using bedrock at {_loc} with offset vector(0.3, 0.3, 0.3)
+#
 function set_strip(blck: item type, index: text):
     # enc_debug("looping directions. index: %{_index}%")
     
@@ -33,17 +38,26 @@ function set_strip(blck: item type, index: text):
 
         # Loop starting locations for this index
         loop {enc::dirs::%{_dir}%::poses::%{_index}%::*}:
+
             set {_current_loc} to loop-value-2
+            
+            if {_blck} is air:
+                play sound "minecraft:entity.ender_eye.death" with volume 0.1 with pitch 0.1 at {_current_loc}
+                # play sound "minecraft:entity.ender_dragon.hurt" with volume 0.1 with pitch 0.9 at {_current_loc}
+            else:
+                play sound "minecraft:entity.ender_eye.death" with volume 0.15 with pitch 0.1 at {_current_loc}
+                
             # enc_debug("- - looping strip for location: %{_current_loc}%")
             
             # Loop for width
             loop {enc::width} times:
-                set block at {_current_loc} to {_blck}
-                add 1 to y-coord of {_current_loc}
-                set block at {_current_loc} to {_blck}
-                add 1 to y-coord of {_current_loc}
-                set block at {_current_loc} to {_blck}
-                add -2 to y-coord of {_current_loc}
+
+                loop {enc::height} times:
+                    set block at {_current_loc} to {_blck}
+                    add 1 to y-coord of {_current_loc}
+                    bedrock_break_effect({_current_loc})
+
+                add -1*{enc::height} to y-coord of {_current_loc}
 
                 # enc_debug("- - - setting %{_current_loc}% to %{_blck}%")
                 
@@ -52,21 +66,25 @@ function set_strip(blck: item type, index: text):
                 add {_zadd} to z-coord of {_current_loc}
 
 # #
-# every 20 ticks:
+# every 5 ticks:
+#     set {_time} to time of world "world"
 #     broadcast "&eIn-game time: %{_time}%"
 # #
 function ring_bell():
     set {_time} to time of world "world"
     enc_debug("&eIn-game time: %{_time}%")
     play sound "minecraft:block.bell.use" with pitch 0.8 to all players
+# 
+function ring_warn():
+    play sound "minecraft:entity.ender_eye.death" with volume 0.3 and pitch 0.2 to all players
     
 function _enc_open():
     enc_debug("ITS 6:30 PM")
     ring_bell()
     
     wait 83 ticks # Approx 18:05
-    ring_bell()
     enc_debug("opening in")
+    ring_bell()
     set_strip(air,"in")
     
     wait 83 ticks # Approx 18:10
@@ -78,13 +96,28 @@ function _enc_close():
     enc_debug("ITS 6:00 AM")
     ring_bell()
     
-    wait 334 ticks # Approx 06:40
+    set {_warn_time} to 40
+    set {_off_time} to 334
+    
+    # Calculate the math beforehand
+    set {_first_wait} to {_off_time} - {_warn_time}
+
+    # Multiply your variables by '1 tick' to create a valid timespan
+    wait {_first_wait} * 1 tick
+    ring_warn()
+    set_strip(bedrock,"out")
+
+    wait {_warn_time} * 1 tick 
     enc_debug("closing out")
     ring_bell()
     set_strip(bedrock,"out")
     
-    wait 334 ticks # Approx 06:50
+    wait {_first_wait} * 1 tick
+    ring_warn()
+
+    wait {_warn_time} * 1 tick
     enc_debug("closing in")
+    set_strip(bedrock,"out")
     ring_bell()
     set_strip(bedrock,"in")
 
@@ -139,6 +172,11 @@ command /enc_close:
     permission: op
     trigger:
         _enc_close()
+#
+command /enc_ring_bells:
+    permission: op
+    trigger:
+        ring_bell()
 #
 command /enc_clear <text> <text>:
     permission: op
