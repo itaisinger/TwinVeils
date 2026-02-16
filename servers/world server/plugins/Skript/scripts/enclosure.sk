@@ -3,7 +3,7 @@ on load:
     
     set {enc::dirs::nw::xadd} to -1  
     set {enc::dirs::nw::zadd} to -1
-    
+
     set {enc::dirs::ne::xadd} to 1  
     set {enc::dirs::ne::zadd} to -1
 
@@ -20,12 +20,12 @@ function enc_debug(msg: text):
         broadcast "&2[ENCLOSURE] &r%{_msg}%"
 
 function set_strip(blck: item type, index: text):
-    enc_debug("looping directions. index: %{_index}%")
+    # enc_debug("looping directions. index: %{_index}%")
     
     # Explicitly loop the four directions
     loop "nw", "ne", "sw" and "se":
         set {_dir} to loop-value
-        enc_debug("- looping direction: %{_dir}%")
+        # enc_debug("- looping direction: %{_dir}%")
         
         # Get movement modifiers for this direction
         set {_xadd} to {enc::dirs::%{_dir}%::xadd}
@@ -34,7 +34,7 @@ function set_strip(blck: item type, index: text):
         # Loop starting locations for this index
         loop {enc::dirs::%{_dir}%::poses::%{_index}%::*}:
             set {_current_loc} to loop-value-2
-            enc_debug("- - looping strip for location: %{_current_loc}%")
+            # enc_debug("- - looping strip for location: %{_current_loc}%")
             
             # Loop for width
             loop {enc::width} times:
@@ -50,6 +50,42 @@ function set_strip(blck: item type, index: text):
                 # Move location by adding coordinates
                 add {_xadd} to x-coord of {_current_loc}
                 add {_zadd} to z-coord of {_current_loc}
+
+# #
+# every 100 ticks:
+#     set {_time} to time of world "world"
+#     broadcast "&eIn-game time: %{_time}%"
+# #
+function ring_bell():
+    play sound "minecraft:block.bell.use" with pitch 0.8 to all players
+    
+function _enc_open():
+    enc_debug("ITS 6:00 PM")
+    ring_bell()
+    
+    wait 83 ticks # Approx 18:05
+    ring_bell()
+    enc_debug("opening in")
+    set_strip(air,"in")
+    
+    wait 83 ticks # Approx 18:10
+    enc_debug("opening out")
+    ring_bell()
+    set_strip(air,"out")
+
+function _enc_close():
+    enc_debug("ITS 6:30 AM")
+    ring_bell()
+    
+    wait 167 ticks # Approx 06:40
+    enc_debug("closing out")
+    ring_bell()
+    set_strip(bedrock,"out")
+    
+    wait 167 ticks # Approx 06:50
+    enc_debug("closing in")
+    ring_bell()
+    set_strip(bedrock,"in")
 
 ## commands ##
 command /enc_add <text> <text>:
@@ -92,6 +128,16 @@ command /enc_list:
                 # Loop through the actual saved locations
                 loop {enc::dirs::%{_dir}%::poses::%{_index}%::*}:
                     broadcast "- %{_dir}% | Index %{_index}%: %loop-value-3%"
+#
+command /enc_open:
+    permission: op
+    trigger:
+        _enc_open()
+#
+command /enc_close:
+    permission: op
+    trigger:
+        _enc_close()
 #
 command /enc_clear <text> <text>:
     permission: op
