@@ -67,7 +67,7 @@ function traveler_debug(msg: text):
         broadcast "&5[CURSE] &r%{_msg}%"
 
 # --- 4. Main Loop ---
-every 4 second:
+every 29 second:
     
     if {curse_active} is false:
         stop

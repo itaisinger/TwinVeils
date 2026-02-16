@@ -76,7 +76,7 @@ function ring_bell():
     play sound "minecraft:block.bell.use" with pitch 0.8 to all players
 # 
 function ring_warn():
-    play sound "minecraft:entity.ender_eye.death" with volume 0.3 and pitch 0.2 to all players
+    play sound "minecraft:entity.ender_eye.death" with volume 0.4 and pitch 0.2 to all players
     
 function _enc_open():
     enc_debug("ITS 6:30 PM")

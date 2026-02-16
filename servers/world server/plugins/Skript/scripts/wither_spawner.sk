@@ -1,15 +1,15 @@
 options:
     safe_radius: 15
     safe_radius_2: 5
-    wither_start: 00:00
-    wither_end: 23:50
-    bored_timeout: 5
+    wither_start: 07:00
+    wither_end: 18:00
+    bored_timeout: 50
 
 # --- 1. Setup Data ---
 on load:
-    delete {regions::*}
-    delete {safe_spots::*}
-    delete {safe_spots_2::*}
+    # delete {regions::*}
+    # delete {safe_spots::*}
+    # delete {safe_spots_2::*}
     delete {wither_bored::*} 
     
     if {wither_session_id} is not set:
@@ -17,13 +17,18 @@ on load:
     add 1 to {wither_session_id}
     
     # Format: "MinX, MaxX, MinZ, MaxZ"
-    set {regions::0} to "5000,5050,5000,5050"
-    set {regions::1} to "5050,5100,5050,5100"
+    # set {regions::0} to "512,1536,-1536,-512"   #desert
+    # set {regions::1} to "-512,512,-1536,-512"   #ocean
+    # set {regions::2} to "512,1536,-512,512"     #snow
+    # set {regions::3} to "-512,512,-512,512"     #plains
+    # set {regions::4} to "-1536,-512,512,1536"   #underground
+    # set {regions::5} to "-512,512,512,1536"     #pale garden
+    # set {regions::6} to "-1536,-512,-512,512"   #badlands
 
     # Safe Spots
-    set {safe_spots::0} to location(5050, 100, 5050, world "world") 
-    set {safe_spots::1} to location(100, 100, 100, world "world")
-    set {safe_spots_2::0} to location(5085, 100, 5086, world "world") 
+    # set {safe_spots::0} to location(5050, 100, 5050, world "world") 
+    # set {safe_spots::1} to location(100, 100, 100, world "world")
+    # set {safe_spots_2::0} to location(5085, 100, 5086, world "world") 
     
     # --- NON-DESTRUCTIVE TOGGLES ---
     if {wither_system_active} is not set:
@@ -75,7 +80,7 @@ function spawn_wither(p: player, id: text):
 
     set display name of {_w} to "&4Ra"
     
-    send "&c&lSTORM INCOMING..." to {_p}
+    wither_debug("&c&lSTORM INCOMING...")
     wither_debug("spawning wither at %{_id}%")
 
 function despawn_wither(id: text):
@@ -112,6 +117,17 @@ on spawn:
         stop
     if event-entity is a player:
         stop
+    if event-entity is a zombie:
+        stop
+    if event-entity is a skeleton:
+        stop
+    if event-entity is a enderman:
+        stop
+    if event-entity is a spider:
+        stop
+    if event-entity is a creeper:
+        stop
+    
     add event-entity to team named "wither"
 ##
 
@@ -227,17 +243,17 @@ command /wither_debug <text>:
     trigger:
         if arg-1 is "true":
             set {wither_debug_active} to true
-            send "&a&l[Wither Storm] debug ENABLED."
+            wither_debug("&a&l[Wither Storm] debug ENABLED.")
         else if arg-1 is "false":
             set {wither_debug_active} to false
-            send "&c&l[Wither Storm] debug DISABLED."
+            wither_debug("&c&l[Wither Storm] debug DISABLED.")
 
 command /wither_toggle <text>:
     permission: op
     trigger:
         if arg-1 is "true":
             set {wither_system_active} to true
-            send "&a&l[Wither Storm] System ENABLED."
+            wither_debug("&a&l[Wither Storm] System ENABLED.")
         else if arg-1 is "false":
             set {wither_system_active} to false
             loop {wither::*}:
@@ -247,5 +263,5 @@ command /wither_toggle <text>:
             loop all withers:
                 delete loop-wither
                 
-            send "&c&l[Wither Storm] System DISABLED and cleared."
+            wither_debug("&c&l[Wither Storm] System DISABLED and cleared.")
 #
