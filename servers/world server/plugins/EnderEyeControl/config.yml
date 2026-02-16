@@ -18,4 +18,8 @@ messages:
 #     x: 100
 #     y: 64
 #     z: -200
-targets: {}
+targets:
+  world:
+    x: 0.0
+    y: -45.0
+    z: 0.0
