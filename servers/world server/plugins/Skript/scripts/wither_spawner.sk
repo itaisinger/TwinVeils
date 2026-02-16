@@ -1,6 +1,6 @@
 options:
-    safe_radius: 15
-    safe_radius_2: 5
+    safe_radius: 50
+    safe_radius_2: 25.6
     wither_start: 07:00
     wither_end: 18:00
     bored_timeout: 50
@@ -130,7 +130,6 @@ on spawn:
     
     add event-entity to team named "wither"
 ##
-
 # --- 4. Main Loop ---
 every 1 second:
 
