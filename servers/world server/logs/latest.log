@@ -1,198 +1,746 @@
-[03:20:51] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[03:20:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[03:20:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:20:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[03:20:52] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[03:41:10] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[03:41:10] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[03:41:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:41:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[03:41:12] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[03:20:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[03:41:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[03:20:56] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[03:20:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[03:20:58] [ServerMain/INFO]: Loaded 1470 recipes
-[03:20:58] [ServerMain/INFO]: Loaded 1584 advancements
-[03:20:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[03:20:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 335.2ms
-[03:20:58] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[03:20:58] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[03:20:58] [Server thread/INFO]: Loading properties
-[03:20:59] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[03:20:59] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:20:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:20:59] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:20:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[03:20:59] [Server thread/INFO]: Default game type: SURVIVAL
-[03:20:59] [Server thread/INFO]: Generating keypair
-[03:20:59] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:20:59] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[03:20:59] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[03:21:00] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[03:21:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[03:21:00] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[03:21:00] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[03:21:00] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[03:21:00] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[03:21:01] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@54f0fb92]
-[03:21:01] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[03:21:01] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[03:21:01] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[03:21:01] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[03:21:02] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[03:21:02] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[03:21:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:21:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[03:21:03] [Server thread/INFO]:         __    
-[03:21:03] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[03:21:03] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[03:21:03] [Server thread/INFO]: 
-[03:21:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[03:21:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[03:21:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[03:21:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 942ms)
-[03:21:03] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[03:21:03] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[03:21:03] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[03:21:03] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[03:21:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[03:21:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[03:21:04] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[03:21:04] [Server thread/INFO]: Preparing level "world"
-[03:21:05] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
-[03:21:05] [Server thread/INFO]: Preparing spawn area: 28%
-[03:21:06] [Server thread/INFO]: Prepared spawn area in 727 ms
-[03:21:06] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[03:21:06] [Server thread/INFO]: Prepared spawn area in 1 ms
-[03:21:06] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[03:21:06] [Server thread/INFO]: Prepared spawn area in 1 ms
-[03:21:06] [Server thread/INFO]: Done preparing level "world" (1.265s)
-[03:21:06] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[03:21:06] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[03:21:07] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[03:21:07] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[03:21:08] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[03:21:08] [Server thread/INFO]: [TAB] Enabled in 592ms
-[03:21:08] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[03:21:08] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[03:21:08] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[03:21:08] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[03:21:08] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[03:21:08] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[03:21:08] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[03:21:08] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1284ms
-[03:21:08] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[03:21:08] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[03:21:08] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[03:21:08] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[03:21:08] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[03:21:08] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[03:21:08] [Server thread/INFO]: [SkBee]  - 56 events
-[03:21:08] [Server thread/INFO]: [SkBee]  - 71 effects
-[03:21:08] [Server thread/INFO]: [SkBee]  - 240 expressions
-[03:21:08] [Server thread/INFO]: [SkBee]  - 27 conditions
-[03:21:08] [Server thread/INFO]: [SkBee]  - 32 sections
-[03:21:08] [Server thread/INFO]: [SkBee]  - 11 properties
-[03:21:08] [Server thread/INFO]: [SkBee] Update checker disabled!
-[03:21:08] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.76 seconds
-[03:21:08] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[03:21:08] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[03:21:08] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[03:21:08] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[03:21:08] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[03:21:09] [Server thread/INFO]: [spark] Starting background profiler...
-[03:21:09] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[03:21:09] [Server thread/INFO]: Running delayed init tasks
-[03:21:09] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[03:21:09] [Server thread/INFO]: [Skript] Loading variables...
-[03:21:09] [Server thread/INFO]: [Skript] Loaded 377 variables in 0.0 seconds
-[03:21:14] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[03:21:14] [Server thread/INFO]: [Skript] Loaded 24 scripts with a total of 209 structures in 5.28 seconds
-[03:21:14] [Server thread/INFO]: [Skript] Finished loading.
-[03:21:14] [Server thread/INFO]: Done (24.523s)! For help, type "help"
-[03:21:14] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
-[03:21:14] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[03:22:16] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[03:22:16] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[03:22:19] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[03:22:19] [Server thread/INFO]: trololol72[/127.0.0.1:61655] logged in with entity id 5 at ([world]542.8980995227591, 71.0, -510.0072998025794)
-[03:22:20] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[03:22:20] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[03:22:38] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[03:22:42] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[03:23:00] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[03:23:10] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[03:25:22] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[03:25:27] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[03:25:54] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[03:26:08] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[03:27:19] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[03:27:19] [Server thread/INFO]: trololol72 lost connection: Server is restarting
-[03:27:19] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[03:27:19] [Server thread/INFO]: Stopping server
-[03:27:19] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[03:27:19] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[03:27:19] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[03:27:19] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[03:27:19] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[03:27:19] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[03:27:19] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[03:27:19] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[03:27:19] [Server thread/INFO]: [TAB] Disabled in 0ms
-[03:27:19] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[03:27:19] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[03:27:19] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[03:27:19] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[03:27:19] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[03:27:19] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[03:27:19] [Server thread/INFO]: [LuckPerms] Closing storage...
-[03:27:19] [Server thread/INFO]: [LuckPerms] Goodbye!
-[03:27:19] [Server thread/INFO]: Saving players
-[03:27:19] [Server thread/INFO]: Saving worlds
-[03:27:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:27:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[03:27:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[03:27:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[03:27:26] [Server thread/INFO]: [ChunkHolderManager] Saved 5473 block chunks, 5500 entity chunks, 0 poi chunks in world 'world' in 6.87s
-[03:27:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[03:27:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[03:27:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[03:27:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[03:27:27] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[03:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:27:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:27:27] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[03:27:27] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[03:27:27] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[03:27:27] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[03:41:16] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[03:41:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[03:41:18] [ServerMain/INFO]: Loaded 1470 recipes
+[03:41:18] [ServerMain/INFO]: Loaded 1584 advancements
+[03:41:18] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[03:41:18] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 331.8ms
+[03:41:18] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[03:41:18] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[03:41:18] [Server thread/INFO]: Loading properties
+[03:41:18] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[03:41:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:41:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:41:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:41:19] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[03:41:19] [Server thread/INFO]: Default game type: SURVIVAL
+[03:41:19] [Server thread/INFO]: Generating keypair
+[03:41:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:41:19] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[03:41:19] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[03:41:20] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[03:41:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[03:41:20] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[03:41:20] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[03:41:20] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[03:41:20] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[03:41:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@31b5804a]
+[03:41:21] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[03:41:21] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[03:41:21] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[03:41:21] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[03:41:22] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[03:41:22] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[03:41:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:41:22] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[03:41:22] [Server thread/INFO]:         __    
+[03:41:22] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[03:41:22] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[03:41:22] [Server thread/INFO]: 
+[03:41:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[03:41:23] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[03:41:23] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[03:41:23] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 930ms)
+[03:41:23] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[03:41:23] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[03:41:23] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[03:41:23] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[03:41:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:41:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:41:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[03:41:24] [Server thread/INFO]: Preparing level "world"
+[03:41:24] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
+[03:41:24] [Server thread/INFO]: Preparing spawn area: 28%
+[03:41:25] [Server thread/INFO]: Prepared spawn area in 721 ms
+[03:41:25] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[03:41:25] [Server thread/INFO]: Prepared spawn area in 2 ms
+[03:41:25] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[03:41:25] [Server thread/INFO]: Prepared spawn area in 2 ms
+[03:41:25] [Server thread/INFO]: Done preparing level "world" (1.224s)
+[03:41:25] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[03:41:26] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[03:41:27] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[03:41:27] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[03:41:27] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[03:41:27] [Server thread/INFO]: [TAB] Enabled in 523ms
+[03:41:27] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[03:41:27] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[03:41:28] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[03:41:28] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[03:41:28] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[03:41:28] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[03:41:28] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[03:41:28] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[03:41:28] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[03:41:28] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[03:41:28] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1350ms
+[03:41:28] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[03:41:28] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[03:41:28] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[03:41:28] [Server thread/INFO]: [SkBee]  - 56 events
+[03:41:28] [Server thread/INFO]: [SkBee]  - 71 effects
+[03:41:28] [Server thread/INFO]: [SkBee]  - 240 expressions
+[03:41:28] [Server thread/INFO]: [SkBee]  - 27 conditions
+[03:41:28] [Server thread/INFO]: [SkBee]  - 32 sections
+[03:41:28] [Server thread/INFO]: [SkBee]  - 11 properties
+[03:41:28] [Server thread/INFO]: [SkBee] Update checker disabled!
+[03:41:28] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.79 seconds
+[03:41:28] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[03:41:28] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[03:41:28] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[03:41:28] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[03:41:28] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[03:41:28] [Server thread/INFO]: [spark] Starting background profiler...
+[03:41:28] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[03:41:29] [Server thread/INFO]: Running delayed init tasks
+[03:41:29] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[03:41:29] [Server thread/INFO]: [Skript] Loading variables...
+[03:41:29] [Server thread/INFO]: [Skript] Loaded 377 variables in 0.0 seconds
+[03:41:34] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[03:41:34] [Server thread/INFO]: [Skript] Loaded 24 scripts with a total of 209 structures in 5.13 seconds
+[03:41:34] [Server thread/INFO]: [Skript] Finished loading.
+[03:41:34] [Server thread/INFO]: Done (24.283s)! For help, type "help"
+[03:41:34] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
+[03:41:34] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[03:42:20] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[03:42:20] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[03:42:23] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[03:42:23] [Server thread/INFO]: trololol72[/127.0.0.1:61832] logged in with entity id 5 at ([world]544.6572178778648, 73.0, -545.2888615029127)
+[03:42:24] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[03:42:24] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[03:42:48] [Server thread/INFO]: trololol72 issued server command: /time set night
+[03:42:48] [Server thread/INFO]: [trololol72: Set the time to 13000]
+[03:43:29] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[03:43:29] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (125ms)
+[03:43:42] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:45:15] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[03:45:15] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (125ms)
+[03:45:34] [Server thread/INFO]: trololol72 issued server command: /time set 12000
+[03:45:34] [Server thread/INFO]: [trololol72: Set the time to 12000]
+[03:45:49] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:46:55] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[03:46:55] [Server thread/INFO]: Successfully reloaded enclosure.sk. (82ms)
+[03:46:56] [Server thread/INFO]: In-game time: 19:38
+[03:46:57] [Server thread/INFO]: In-game time: 19:39
+[03:46:58] [Server thread/INFO]: In-game time: 19:40
+[03:46:59] [Server thread/INFO]: In-game time: 19:41
+[03:47:00] [Server thread/INFO]: In-game time: 19:42
+[03:47:01] [Server thread/INFO]: In-game time: 19:44
+[03:47:02] [Server thread/INFO]: In-game time: 19:45
+[03:47:03] [Server thread/INFO]: In-game time: 19:46
+[03:47:04] [Server thread/INFO]: In-game time: 19:47
+[03:47:05] [Server thread/INFO]: In-game time: 19:48
+[03:47:06] [Server thread/INFO]: In-game time: 19:50
+[03:47:07] [Server thread/INFO]: In-game time: 19:51
+[03:47:08] [Server thread/INFO]: In-game time: 19:52
+[03:47:09] [Server thread/INFO]: In-game time: 19:53
+[03:47:10] [Server thread/INFO]: In-game time: 19:54
+[03:47:11] [Server thread/INFO]: In-game time: 19:56
+[03:47:12] [Server thread/INFO]: In-game time: 19:57
+[03:47:13] [Server thread/INFO]: In-game time: 19:58
+[03:47:14] [Server thread/INFO]: In-game time: 19:59
+[03:47:15] [Server thread/INFO]: In-game time: 20:00
+[03:47:16] [Server thread/INFO]: In-game time: 20:02
+[03:47:17] [Server thread/INFO]: In-game time: 20:03
+[03:47:18] [Server thread/INFO]: In-game time: 20:04
+[03:47:19] [Server thread/INFO]: In-game time: 20:05
+[03:47:20] [Server thread/INFO]: In-game time: 20:06
+[03:47:21] [Server thread/INFO]: In-game time: 20:08
+[03:47:22] [Server thread/INFO]: In-game time: 20:09
+[03:47:23] [Server thread/INFO]: In-game time: 20:10
+[03:47:24] [Server thread/INFO]: In-game time: 20:11
+[03:47:25] [Server thread/INFO]: In-game time: 20:12
+[03:47:25] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[03:47:25] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (114ms)
+[03:47:26] [Server thread/INFO]: In-game time: 20:14
+[03:47:27] [Server thread/INFO]: In-game time: 20:15
+[03:47:28] [Server thread/INFO]: In-game time: 20:16
+[03:47:29] [Server thread/INFO]: In-game time: 20:17
+[03:47:30] [Server thread/INFO]: In-game time: 20:18
+[03:47:31] [Server thread/INFO]: In-game time: 20:20
+[03:47:32] [Server thread/INFO]: In-game time: 20:21
+[03:47:33] [Server thread/INFO]: In-game time: 20:22
+[03:47:34] [Server thread/INFO]: In-game time: 20:23
+[03:47:35] [Server thread/INFO]: In-game time: 20:24
+[03:47:36] [Server thread/INFO]: In-game time: 20:26
+[03:47:36] [Server thread/INFO]: trololol72 issued server command: /time set 0
+[03:47:36] [Server thread/INFO]: [trololol72: Set the time to 0]
+[03:47:37] [Server thread/INFO]: In-game time: 6:01
+[03:47:38] [Server thread/INFO]: In-game time: 6:02
+[03:47:39] [Server thread/INFO]: In-game time: 6:03
+[03:47:40] [Server thread/INFO]: In-game time: 6:04
+[03:47:41] [Server thread/INFO]: In-game time: 6:05
+[03:47:42] [Server thread/INFO]: In-game time: 6:07
+[03:47:43] [Server thread/INFO]: In-game time: 6:08
+[03:47:44] [Server thread/INFO]: In-game time: 6:09
+[03:47:45] [Server thread/INFO]: In-game time: 6:10
+[03:47:46] [Server thread/INFO]: In-game time: 6:11
+[03:47:47] [Server thread/INFO]: In-game time: 6:13
+[03:47:48] [Server thread/INFO]: In-game time: 6:14
+[03:47:49] [Server thread/INFO]: In-game time: 6:15
+[03:47:50] [Server thread/INFO]: In-game time: 6:16
+[03:47:51] [Server thread/INFO]: In-game time: 6:17
+[03:47:52] [Server thread/INFO]: In-game time: 6:19
+[03:47:53] [Server thread/INFO]: In-game time: 6:20
+[03:47:54] [Server thread/INFO]: In-game time: 6:21
+[03:47:55] [Server thread/INFO]: In-game time: 6:22
+[03:47:56] [Server thread/INFO]: In-game time: 6:23
+[03:47:57] [Server thread/INFO]: In-game time: 6:25
+[03:47:58] [Server thread/INFO]: In-game time: 6:26
+[03:47:59] [Server thread/INFO]: In-game time: 6:27
+[03:48:00] [Server thread/INFO]: In-game time: 6:28
+[03:48:01] [Server thread/INFO]: In-game time: 6:29
+[03:48:02] [Server thread/INFO]: In-game time: 6:31
+[03:48:03] [Server thread/INFO]: In-game time: 6:32
+[03:48:04] [Server thread/INFO]: In-game time: 6:33
+[03:48:05] [Server thread/INFO]: In-game time: 6:34
+[03:48:06] [Server thread/INFO]: In-game time: 6:35
+[03:48:07] [Server thread/INFO]: In-game time: 6:37
+[03:48:08] [Server thread/INFO]: In-game time: 6:38
+[03:48:09] [Server thread/INFO]: In-game time: 6:39
+[03:48:10] [Server thread/INFO]: In-game time: 6:40
+[03:48:11] [Server thread/INFO]: In-game time: 6:41
+[03:48:12] [Server thread/INFO]: In-game time: 6:43
+[03:48:13] [Server thread/INFO]: In-game time: 6:44
+[03:48:14] [Server thread/INFO]: In-game time: 6:45
+[03:48:15] [Server thread/INFO]: In-game time: 6:46
+[03:48:16] [Server thread/INFO]: In-game time: 6:47
+[03:48:17] [Server thread/INFO]: In-game time: 6:49
+[03:48:18] [Server thread/INFO]: In-game time: 6:50
+[03:48:19] [Server thread/INFO]: In-game time: 6:51
+[03:48:20] [Server thread/INFO]: In-game time: 6:52
+[03:48:21] [Server thread/INFO]: In-game time: 6:53
+[03:48:22] [Server thread/INFO]: In-game time: 6:55
+[03:48:23] [Server thread/INFO]: In-game time: 6:56
+[03:48:24] [Server thread/INFO]: In-game time: 6:57
+[03:48:25] [Server thread/INFO]: In-game time: 6:58
+[03:48:26] [Server thread/INFO]: In-game time: 6:59
+[03:48:27] [Server thread/INFO]: In-game time: 7:01
+[03:48:28] [Server thread/INFO]: In-game time: 7:02
+[03:48:29] [Server thread/INFO]: In-game time: 7:03
+[03:48:30] [Server thread/INFO]: In-game time: 7:04
+[03:48:31] [Server thread/INFO]: In-game time: 7:05
+[03:48:32] [Server thread/INFO]: In-game time: 7:07
+[03:48:33] [Server thread/INFO]: In-game time: 7:08
+[03:48:34] [Server thread/INFO]: In-game time: 7:09
+[03:48:35] [Server thread/INFO]: In-game time: 7:10
+[03:48:36] [Server thread/INFO]: In-game time: 7:11
+[03:48:37] [Server thread/INFO]: In-game time: 7:13
+[03:48:38] [Server thread/INFO]: In-game time: 7:14
+[03:48:39] [Server thread/INFO]: In-game time: 7:15
+[03:48:40] [Server thread/INFO]: In-game time: 7:16
+[03:48:41] [Server thread/INFO]: In-game time: 7:17
+[03:48:42] [Server thread/INFO]: In-game time: 7:19
+[03:48:43] [Server thread/INFO]: In-game time: 7:20
+[03:48:44] [Server thread/INFO]: In-game time: 7:21
+[03:48:45] [Server thread/INFO]: In-game time: 7:22
+[03:48:46] [Server thread/INFO]: In-game time: 7:23
+[03:48:47] [Server thread/INFO]: In-game time: 7:25
+[03:48:48] [Server thread/INFO]: In-game time: 7:26
+[03:48:49] [Server thread/INFO]: In-game time: 7:27
+[03:48:50] [Server thread/INFO]: In-game time: 7:28
+[03:48:51] [Server thread/INFO]: In-game time: 7:29
+[03:48:52] [Server thread/INFO]: In-game time: 7:31
+[03:48:53] [Server thread/INFO]: In-game time: 7:32
+[03:48:54] [Server thread/INFO]: In-game time: 7:33
+[03:48:55] [Server thread/INFO]: In-game time: 7:34
+[03:48:56] [Server thread/INFO]: In-game time: 7:35
+[03:48:57] [Server thread/INFO]: In-game time: 7:37
+[03:48:58] [Server thread/INFO]: In-game time: 7:38
+[03:48:59] [Server thread/INFO]: In-game time: 7:39
+[03:49:00] [Server thread/INFO]: In-game time: 7:40
+[03:49:01] [Server thread/INFO]: In-game time: 7:41
+[03:49:02] [Server thread/INFO]: In-game time: 7:43
+[03:49:03] [Server thread/INFO]: In-game time: 7:44
+[03:49:04] [Server thread/INFO]: In-game time: 7:45
+[03:49:05] [Server thread/INFO]: In-game time: 7:46
+[03:49:06] [Server thread/INFO]: In-game time: 7:47
+[03:49:07] [Server thread/INFO]: In-game time: 7:49
+[03:49:08] [Server thread/INFO]: In-game time: 7:50
+[03:49:09] [Server thread/INFO]: In-game time: 7:51
+[03:49:10] [Server thread/INFO]: In-game time: 7:52
+[03:49:11] [Server thread/INFO]: In-game time: 7:53
+[03:49:12] [Server thread/INFO]: In-game time: 7:55
+[03:49:13] [Server thread/INFO]: In-game time: 7:56
+[03:49:14] [Server thread/INFO]: In-game time: 7:57
+[03:49:15] [Server thread/INFO]: In-game time: 7:58
+[03:49:16] [Server thread/INFO]: In-game time: 7:59
+[03:49:17] [Server thread/INFO]: In-game time: 8:01
+[03:49:18] [Server thread/INFO]: In-game time: 8:02
+[03:49:19] [Server thread/INFO]: In-game time: 8:03
+[03:49:20] [Server thread/INFO]: In-game time: 8:04
+[03:49:21] [Server thread/INFO]: In-game time: 8:05
+[03:49:22] [Server thread/INFO]: In-game time: 8:07
+[03:49:23] [Server thread/INFO]: In-game time: 8:08
+[03:49:24] [Server thread/INFO]: In-game time: 8:09
+[03:49:25] [Server thread/INFO]: In-game time: 8:10
+[03:49:26] [Server thread/INFO]: In-game time: 8:11
+[03:49:27] [Server thread/INFO]: In-game time: 8:13
+[03:49:28] [Server thread/INFO]: In-game time: 8:14
+[03:49:29] [Server thread/INFO]: In-game time: 8:15
+[03:49:30] [Server thread/INFO]: In-game time: 8:16
+[03:49:31] [Server thread/INFO]: In-game time: 8:17
+[03:49:32] [Server thread/INFO]: In-game time: 8:19
+[03:49:33] [Server thread/INFO]: In-game time: 8:20
+[03:49:34] [Server thread/INFO]: In-game time: 8:21
+[03:49:35] [Server thread/INFO]: In-game time: 8:22
+[03:49:36] [Server thread/INFO]: In-game time: 8:23
+[03:49:37] [Server thread/INFO]: In-game time: 8:25
+[03:49:38] [Server thread/INFO]: In-game time: 8:26
+[03:49:39] [Server thread/INFO]: In-game time: 8:27
+[03:49:40] [Server thread/INFO]: In-game time: 8:28
+[03:49:41] [Server thread/INFO]: In-game time: 8:29
+[03:49:42] [Server thread/INFO]: In-game time: 8:31
+[03:49:43] [Server thread/INFO]: In-game time: 8:32
+[03:49:44] [Server thread/INFO]: In-game time: 8:33
+[03:49:45] [Server thread/INFO]: In-game time: 8:34
+[03:49:46] [Server thread/INFO]: In-game time: 8:35
+[03:49:47] [Server thread/INFO]: In-game time: 8:37
+[03:49:48] [Server thread/INFO]: In-game time: 8:38
+[03:49:49] [Server thread/INFO]: In-game time: 8:39
+[03:49:50] [Server thread/INFO]: In-game time: 8:40
+[03:49:51] [Server thread/INFO]: In-game time: 8:41
+[03:49:51] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[03:49:51] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (90ms)
+[03:49:52] [Server thread/INFO]: In-game time: 8:43
+[03:49:53] [Server thread/INFO]: In-game time: 8:44
+[03:49:54] [Server thread/INFO]: In-game time: 8:45
+[03:49:55] [Server thread/INFO]: In-game time: 8:46
+[03:49:56] [Server thread/INFO]: In-game time: 8:47
+[03:49:57] [Server thread/INFO]: In-game time: 8:49
+[03:49:58] [Server thread/INFO]: In-game time: 8:50
+[03:49:59] [Server thread/INFO]: In-game time: 8:51
+[03:50:00] [Server thread/INFO]: In-game time: 8:52
+[03:50:01] [Server thread/INFO]: In-game time: 8:53
+[03:50:01] [Server thread/INFO]: trololol72 issued server command: /time set 12000
+[03:50:01] [Server thread/INFO]: [trololol72: Set the time to 12000]
+[03:50:02] [Server thread/INFO]: In-game time: 18:00
+[03:50:03] [Server thread/INFO]: In-game time: 18:01
+[03:50:04] [Server thread/INFO]: In-game time: 18:03
+[03:50:05] [Server thread/INFO]: In-game time: 18:04
+[03:50:06] [Server thread/INFO]: In-game time: 18:05
+[03:50:07] [Server thread/INFO]: In-game time: 18:06
+[03:50:08] [Server thread/INFO]: In-game time: 18:07
+[03:50:09] [Server thread/INFO]: In-game time: 18:09
+[03:50:10] [Server thread/INFO]: In-game time: 18:10
+[03:50:11] [Server thread/INFO]: In-game time: 18:11
+[03:50:12] [Server thread/INFO]: In-game time: 18:12
+[03:50:13] [Server thread/INFO]: In-game time: 18:13
+[03:50:14] [Server thread/INFO]: In-game time: 18:15
+[03:50:15] [Server thread/INFO]: In-game time: 18:16
+[03:50:16] [Server thread/INFO]: In-game time: 18:17
+[03:50:17] [Server thread/INFO]: In-game time: 18:18
+[03:50:18] [Server thread/INFO]: In-game time: 18:19
+[03:50:19] [Server thread/INFO]: In-game time: 18:21
+[03:50:20] [Server thread/INFO]: In-game time: 18:22
+[03:50:21] [Server thread/INFO]: In-game time: 18:23
+[03:50:22] [Server thread/INFO]: In-game time: 18:24
+[03:50:23] [Server thread/INFO]: In-game time: 18:25
+[03:50:24] [Server thread/INFO]: In-game time: 18:27
+[03:50:25] [Server thread/INFO]: In-game time: 18:28
+[03:50:26] [Server thread/INFO]: In-game time: 18:29
+[03:50:27] [Server thread/INFO]: In-game time: 18:30
+[03:50:28] [Server thread/INFO]: In-game time: 18:31
+[03:50:29] [Server thread/INFO]: In-game time: 18:33
+[03:50:29] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[03:50:29] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (142ms)
+[03:50:30] [Server thread/INFO]: In-game time: 18:34
+[03:50:31] [Server thread/INFO]: In-game time: 18:35
+[03:50:32] [Server thread/INFO]: In-game time: 18:36
+[03:50:33] [Server thread/INFO]: In-game time: 18:37
+[03:50:34] [Server thread/INFO]: In-game time: 18:39
+[03:50:35] [Server thread/INFO]: In-game time: 18:40
+[03:50:36] [Server thread/INFO]: In-game time: 18:41
+[03:50:37] [Server thread/INFO]: In-game time: 18:42
+[03:50:38] [Server thread/INFO]: In-game time: 18:43
+[03:50:39] [Server thread/INFO]: In-game time: 18:45
+[03:50:40] [Server thread/INFO]: In-game time: 18:46
+[03:50:41] [Server thread/INFO]: In-game time: 18:47
+[03:50:42] [Server thread/INFO]: In-game time: 18:48
+[03:50:43] [Server thread/INFO]: In-game time: 18:49
+[03:50:44] [Server thread/INFO]: In-game time: 18:51
+[03:50:45] [Server thread/INFO]: In-game time: 18:52
+[03:50:46] [Server thread/INFO]: In-game time: 18:53
+[03:50:47] [Server thread/INFO]: In-game time: 18:54
+[03:50:48] [Server thread/INFO]: In-game time: 18:55
+[03:50:49] [Server thread/INFO]: In-game time: 18:57
+[03:50:50] [Server thread/INFO]: In-game time: 18:58
+[03:50:51] [Server thread/INFO]: In-game time: 18:59
+[03:50:52] [Server thread/INFO]: In-game time: 19:00
+[03:50:53] [Server thread/INFO]: In-game time: 19:01
+[03:50:54] [Server thread/INFO]: In-game time: 19:03
+[03:50:55] [Server thread/INFO]: In-game time: 19:04
+[03:50:56] [Server thread/INFO]: In-game time: 19:05
+[03:50:57] [Server thread/INFO]: In-game time: 19:06
+[03:50:58] [Server thread/INFO]: In-game time: 19:07
+[03:50:59] [Server thread/INFO]: In-game time: 19:09
+[03:51:00] [Server thread/INFO]: In-game time: 19:10
+[03:51:01] [Server thread/INFO]: In-game time: 19:11
+[03:51:02] [Server thread/INFO]: In-game time: 19:12
+[03:51:03] [Server thread/INFO]: In-game time: 19:13
+[03:51:04] [Server thread/INFO]: In-game time: 19:15
+[03:51:05] [Server thread/INFO]: In-game time: 19:16
+[03:51:06] [Server thread/INFO]: In-game time: 19:17
+[03:51:07] [Server thread/INFO]: In-game time: 19:18
+[03:51:08] [Server thread/INFO]: In-game time: 19:19
+[03:51:09] [Server thread/INFO]: In-game time: 19:21
+[03:51:10] [Server thread/INFO]: In-game time: 19:22
+[03:51:11] [Server thread/INFO]: In-game time: 19:23
+[03:51:12] [Server thread/INFO]: In-game time: 19:24
+[03:51:13] [Server thread/INFO]: In-game time: 19:25
+[03:51:14] [Server thread/INFO]: In-game time: 19:27
+[03:51:15] [Server thread/INFO]: In-game time: 19:28
+[03:51:16] [Server thread/INFO]: In-game time: 19:29
+[03:51:17] [Server thread/INFO]: In-game time: 19:30
+[03:51:18] [Server thread/INFO]: In-game time: 19:31
+[03:51:19] [Server thread/INFO]: In-game time: 19:33
+[03:51:20] [Server thread/INFO]: In-game time: 19:34
+[03:51:21] [Server thread/INFO]: In-game time: 19:35
+[03:51:22] [Server thread/INFO]: In-game time: 19:36
+[03:51:23] [Server thread/INFO]: In-game time: 19:37
+[03:51:24] [Server thread/INFO]: In-game time: 19:39
+[03:51:25] [Server thread/INFO]: In-game time: 19:40
+[03:51:26] [Server thread/INFO]: In-game time: 19:41
+[03:51:27] [Server thread/INFO]: In-game time: 19:42
+[03:51:28] [Server thread/INFO]: In-game time: 19:43
+[03:51:29] [Server thread/INFO]: In-game time: 19:45
+[03:51:30] [Server thread/INFO]: In-game time: 19:46
+[03:51:31] [Server thread/INFO]: In-game time: 19:47
+[03:51:32] [Server thread/INFO]: In-game time: 19:48
+[03:51:33] [Server thread/INFO]: In-game time: 19:49
+[03:51:34] [Server thread/INFO]: In-game time: 19:51
+[03:51:35] [Server thread/INFO]: In-game time: 19:52
+[03:51:36] [Server thread/INFO]: In-game time: 19:53
+[03:51:37] [Server thread/INFO]: In-game time: 19:54
+[03:51:38] [Server thread/INFO]: In-game time: 19:55
+[03:51:39] [Server thread/INFO]: In-game time: 19:57
+[03:51:40] [Server thread/INFO]: In-game time: 19:58
+[03:51:41] [Server thread/INFO]: In-game time: 19:59
+[03:51:42] [Server thread/INFO]: In-game time: 20:00
+[03:51:43] [Server thread/INFO]: In-game time: 20:01
+[03:51:44] [Server thread/INFO]: In-game time: 20:03
+[03:51:45] [Server thread/INFO]: In-game time: 20:04
+[03:51:46] [Server thread/INFO]: In-game time: 20:05
+[03:51:47] [Server thread/INFO]: In-game time: 20:06
+[03:51:48] [Server thread/INFO]: In-game time: 20:07
+[03:51:49] [Server thread/INFO]: In-game time: 20:09
+[03:51:50] [Server thread/INFO]: In-game time: 20:10
+[03:51:51] [Server thread/INFO]: In-game time: 20:11
+[03:51:52] [Server thread/INFO]: In-game time: 20:12
+[03:51:53] [Server thread/INFO]: In-game time: 20:13
+[03:51:54] [Server thread/INFO]: In-game time: 20:15
+[03:51:55] [Server thread/INFO]: In-game time: 20:16
+[03:51:56] [Server thread/INFO]: In-game time: 20:17
+[03:51:57] [Server thread/INFO]: In-game time: 20:18
+[03:51:58] [Server thread/INFO]: In-game time: 20:19
+[03:51:58] [Server thread/INFO]: trololol72 issued server command: /time set 0
+[03:51:58] [Server thread/INFO]: [trololol72: Set the time to 0]
+[03:51:59] [Server thread/INFO]: In-game time: 6:00
+[03:52:00] [Server thread/INFO]: In-game time: 6:02
+[03:52:01] [Server thread/INFO]: In-game time: 6:03
+[03:52:02] [Server thread/INFO]: In-game time: 6:04
+[03:52:03] [Server thread/INFO]: In-game time: 6:05
+[03:52:04] [Server thread/INFO]: In-game time: 6:06
+[03:52:05] [Server thread/INFO]: In-game time: 6:08
+[03:52:06] [Server thread/INFO]: In-game time: 6:09
+[03:52:07] [Server thread/INFO]: In-game time: 6:10
+[03:52:08] [Server thread/INFO]: In-game time: 6:11
+[03:52:09] [Server thread/INFO]: In-game time: 6:12
+[03:52:10] [Server thread/INFO]: In-game time: 6:14
+[03:52:11] [Server thread/INFO]: In-game time: 6:15
+[03:52:12] [Server thread/INFO]: In-game time: 6:16
+[03:52:13] [Server thread/INFO]: In-game time: 6:17
+[03:52:14] [Server thread/INFO]: In-game time: 6:18
+[03:52:15] [Server thread/INFO]: In-game time: 6:20
+[03:52:15] [Server thread/INFO]: [Skript] Reloading traveler_curse.sk...
+[03:52:15] [Server thread/INFO]: Successfully reloaded traveler_curse.sk. (108ms)
+[03:52:16] [Server thread/INFO]: In-game time: 6:21
+[03:52:17] [Server thread/INFO]: In-game time: 6:22
+[03:52:18] [Server thread/INFO]: In-game time: 6:23
+[03:52:18] [Server thread/INFO]: trololol72 issued server command: /time set 0
+[03:52:18] [Server thread/INFO]: [trololol72: Set the time to 0]
+[03:52:19] [Server thread/INFO]: In-game time: 6:01
+[03:52:20] [Server thread/INFO]: In-game time: 6:02
+[03:52:21] [Server thread/INFO]: In-game time: 6:03
+[03:52:22] [Server thread/INFO]: In-game time: 6:04
+[03:52:23] [Server thread/INFO]: In-game time: 6:05
+[03:52:24] [Server thread/INFO]: In-game time: 6:07
+[03:52:25] [Server thread/INFO]: In-game time: 6:08
+[03:52:26] [Server thread/INFO]: In-game time: 6:09
+[03:52:26] [Server thread/INFO]: trololol72 issued server command: /time set 23000
+[03:52:26] [Server thread/INFO]: [trololol72: Set the time to 23000]
+[03:52:27] [Server thread/INFO]: In-game time: 5:01
+[03:52:28] [Server thread/INFO]: In-game time: 5:02
+[03:52:29] [Server thread/INFO]: In-game time: 5:03
+[03:52:30] [Server thread/INFO]: In-game time: 5:05
+[03:52:31] [Server thread/INFO]: In-game time: 5:06
+[03:52:32] [Server thread/INFO]: In-game time: 5:07
+[03:52:32] [Server thread/INFO]: trololol72 issued server command: /weather clear
+[03:52:32] [Server thread/INFO]: [trololol72: Set the weather to clear]
+[03:52:33] [Server thread/INFO]: In-game time: 5:08
+[03:52:34] [Server thread/INFO]: In-game time: 5:09
+[03:52:35] [Server thread/INFO]: In-game time: 5:11
+[03:52:36] [Server thread/INFO]: In-game time: 5:12
+[03:52:37] [Server thread/INFO]: In-game time: 5:13
+[03:52:38] [Server thread/INFO]: In-game time: 5:14
+[03:52:39] [Server thread/INFO]: In-game time: 5:15
+[03:52:40] [Server thread/INFO]: In-game time: 5:17
+[03:52:41] [Server thread/INFO]: In-game time: 5:18
+[03:52:42] [Server thread/INFO]: In-game time: 5:19
+[03:52:43] [Server thread/INFO]: In-game time: 5:20
+[03:52:44] [Server thread/INFO]: In-game time: 5:21
+[03:52:45] [Server thread/INFO]: In-game time: 5:23
+[03:52:46] [Server thread/INFO]: In-game time: 5:24
+[03:52:47] [Server thread/INFO]: In-game time: 5:25
+[03:52:48] [Server thread/INFO]: In-game time: 5:26
+[03:52:49] [Server thread/INFO]: In-game time: 5:27
+[03:52:50] [Server thread/INFO]: In-game time: 5:28
+[03:52:51] [Server thread/INFO]: In-game time: 5:30
+[03:52:52] [Server thread/INFO]: In-game time: 5:31
+[03:52:53] [Server thread/INFO]: In-game time: 5:32
+[03:52:54] [Server thread/INFO]: In-game time: 5:33
+[03:52:55] [Server thread/INFO]: In-game time: 5:35
+[03:52:56] [Server thread/INFO]: In-game time: 5:36
+[03:52:57] [Server thread/INFO]: In-game time: 5:37
+[03:52:58] [Server thread/INFO]: In-game time: 5:38
+[03:52:59] [Server thread/INFO]: In-game time: 5:39
+[03:53:00] [Server thread/INFO]: In-game time: 5:41
+[03:53:01] [Server thread/INFO]: In-game time: 5:42
+[03:53:02] [Server thread/INFO]: In-game time: 5:43
+[03:53:03] [Server thread/INFO]: In-game time: 5:44
+[03:53:04] [Server thread/INFO]: In-game time: 5:45
+[03:53:05] [Server thread/INFO]: In-game time: 5:47
+[03:53:06] [Server thread/INFO]: In-game time: 5:48
+[03:53:07] [Server thread/INFO]: In-game time: 5:49
+[03:53:08] [Server thread/INFO]: In-game time: 5:50
+[03:53:09] [Server thread/INFO]: In-game time: 5:51
+[03:53:10] [Server thread/INFO]: In-game time: 5:52
+[03:53:11] [Server thread/INFO]: In-game time: 5:54
+[03:53:12] [Server thread/INFO]: In-game time: 5:55
+[03:53:13] [Server thread/INFO]: In-game time: 5:56
+[03:53:14] [Server thread/INFO]: In-game time: 5:57
+[03:53:15] [Server thread/INFO]: In-game time: 5:58
+[03:53:16] [Server thread/INFO]: In-game time: 6:00
+[03:53:17] [Server thread/INFO]: In-game time: 6:01
+[03:53:18] [Server thread/INFO]: In-game time: 6:02
+[03:53:19] [Server thread/INFO]: In-game time: 6:03
+[03:53:20] [Server thread/INFO]: In-game time: 6:05
+[03:53:21] [Server thread/INFO]: In-game time: 6:06
+[03:53:22] [Server thread/INFO]: In-game time: 6:07
+[03:53:23] [Server thread/INFO]: In-game time: 6:08
+[03:53:24] [Server thread/INFO]: In-game time: 6:09
+[03:53:25] [Server thread/INFO]: In-game time: 6:11
+[03:53:26] [Server thread/INFO]: In-game time: 6:12
+[03:53:27] [Server thread/INFO]: In-game time: 6:13
+[03:53:28] [Server thread/INFO]: In-game time: 6:14
+[03:53:29] [Server thread/INFO]: In-game time: 6:15
+[03:53:30] [Server thread/INFO]: In-game time: 6:17
+[03:53:31] [Server thread/INFO]: In-game time: 6:18
+[03:53:32] [Server thread/INFO]: In-game time: 6:19
+[03:53:33] [Server thread/INFO]: In-game time: 6:20
+[03:53:34] [Server thread/INFO]: In-game time: 6:21
+[03:53:35] [Server thread/INFO]: In-game time: 6:23
+[03:53:36] [Server thread/INFO]: In-game time: 6:24
+[03:53:37] [Server thread/INFO]: In-game time: 6:25
+[03:53:38] [Server thread/INFO]: In-game time: 6:26
+[03:53:39] [Server thread/INFO]: In-game time: 6:27
+[03:53:40] [Server thread/INFO]: In-game time: 6:28
+[03:53:40] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[03:53:40] [Server thread/INFO]: Successfully reloaded enclosure.sk. (69ms)
+[03:55:19] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[03:55:19] [Server thread/INFO]: Line 60: (enclosure.sk)
+[03:55:19] [Server thread/INFO]:     Functions cannot be used here (or there is a problem with your arguments).
+[03:55:19] [Server thread/INFO]:     Line: enc_debug(&eIn-game time: %{_time}%)
+[03:55:19] [Server thread/INFO]:  
+[03:55:19] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (69ms)
+[03:55:31] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[03:55:31] [Server thread/INFO]: Line 60: (enclosure.sk)
+[03:55:31] [Server thread/INFO]:     Functions cannot be used here (or there is a problem with your arguments).
+[03:55:31] [Server thread/INFO]:     Line: enc_debug(&eIn-game time: %{_time}%)
+[03:55:31] [Server thread/INFO]:  
+[03:55:31] [Server thread/INFO]:     Encountered 1 error while reloading enclosure.sk! (69ms)
+[03:55:48] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[03:55:48] [Server thread/INFO]: Successfully reloaded enclosure.sk. (62ms)
+[03:55:58] [Server thread/INFO]: trololol72 issued server command: /tick rate 200
+[03:55:58] [Server thread/INFO]: [trololol72: Set the target tick rate to 200.0 per second]
+[03:56:17] [Server thread/INFO]: trololol72 issued server command: /time set 12000
+[03:56:17] [Server thread/INFO]: [trololol72: Set the time to 12000]
+[03:56:20] [Server thread/INFO]: [ENCLOSURE] ITS 6:00 PM
+[03:56:20] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:30
+[03:56:20] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:35
+[03:56:20] [Server thread/INFO]: [ENCLOSURE] opening in
+[03:56:20] [Server thread/INFO]: [ENCLOSURE] opening out
+[03:56:20] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:40
+[03:56:50] [Server thread/INFO]: trololol72 issued server command: /tick rate 20
+[03:56:50] [Server thread/INFO]: [trololol72: Set the target tick rate to 20.0 per second]
+[03:56:52] [Server thread/INFO]: trololol72 issued server command: /time set 12000
+[03:56:52] [Server thread/INFO]: [trololol72: Set the time to 12000]
+[03:57:04] [Server thread/INFO]: trololol72 issued server command: /time set 12500
+[03:57:04] [Server thread/INFO]: [trololol72: Set the time to 12500]
+[03:57:51] [Server thread/INFO]: trololol72 issued server command: /time set 12000
+[03:57:51] [Server thread/INFO]: [trololol72: Set the time to 12000]
+[03:57:56] [Server thread/INFO]: trololol72 issued server command: /tick rate 60
+[03:57:56] [Server thread/INFO]: [trololol72: Set the target tick rate to 60.0 per second]
+[03:58:03] [Server thread/INFO]: [ENCLOSURE] ITS 6:00 PM
+[03:58:03] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:30
+[03:58:04] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:35
+[03:58:04] [Server thread/INFO]: [ENCLOSURE] opening in
+[03:58:05] [Server thread/INFO]: [ENCLOSURE] opening out
+[03:58:05] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:40
+[03:58:19] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[03:58:19] [Server thread/INFO]: Successfully reloaded enclosure.sk. (82ms)
+[03:59:00] [Server thread/INFO]: trololol72 issued server command: /time set 23000
+[03:59:00] [Server thread/INFO]: [trololol72: Set the time to 23000]
+[03:59:11] [Server thread/INFO]: trololol72 issued server command: /time set 21000
+[03:59:11] [Server thread/INFO]: [trololol72: Set the time to 21000]
+[03:59:26] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[04:00:02] [Server thread/INFO]: [ENCLOSURE] ITS 6:30 AM
+[04:00:02] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:03
+[04:00:07] [Server thread/INFO]: [ENCLOSURE] closing out
+[04:00:07] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:23
+[04:00:13] [Server thread/INFO]: [ENCLOSURE] closing in
+[04:00:13] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:43
+[04:01:04] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[04:01:04] [Server thread/INFO]: Successfully reloaded enclosure.sk. (65ms)
+[04:01:08] [Server thread/INFO]: trololol72 issued server command: /time set 0
+[04:01:08] [Server thread/INFO]: [trololol72: Set the time to 0]
+[04:01:09] [Server thread/INFO]: [ENCLOSURE] ITS 6:30 PM
+[04:01:09] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:03
+[04:01:15] [Server thread/INFO]: [ENCLOSURE] closing out
+[04:01:15] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:23
+[04:01:20] [Server thread/INFO]: [ENCLOSURE] closing in
+[04:01:20] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:43
+[04:01:49] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[04:01:49] [Server thread/INFO]: Successfully reloaded enclosure.sk. (58ms)
+[04:01:53] [Server thread/INFO]: trololol72 issued server command: /time set 0
+[04:01:53] [Server thread/INFO]: [trololol72: Set the time to 0]
+[04:01:54] [Server thread/INFO]: [ENCLOSURE] ITS 6:00 AM
+[04:01:54] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:03
+[04:01:59] [Server thread/INFO]: [ENCLOSURE] closing out
+[04:01:59] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:23
+[04:02:05] [Server thread/INFO]: trololol72 issued server command: /time set 12000
+[04:02:05] [Server thread/INFO]: [trololol72: Set the time to 12000]
+[04:02:05] [Server thread/INFO]: [ENCLOSURE] closing in
+[04:02:05] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:01
+[04:02:13] [Server thread/INFO]: [ENCLOSURE] ITS 6:30 PM
+[04:02:13] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:30
+[04:02:14] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:35
+[04:02:14] [Server thread/INFO]: [ENCLOSURE] opening in
+[04:02:16] [Server thread/INFO]: [ENCLOSURE] opening out
+[04:02:16] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:40
+[04:02:26] [Server thread/INFO]: trololol72 issued server command: /time set 11000
+[04:02:26] [Server thread/INFO]: [trololol72: Set the time to 11000]
+[04:02:30] [Server thread/INFO]: trololol72 issued server command: /time set 0
+[04:02:30] [Server thread/INFO]: [trololol72: Set the time to 0]
+[04:02:31] [Server thread/INFO]: [ENCLOSURE] ITS 6:00 AM
+[04:02:31] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:03
+[04:02:37] [Server thread/INFO]: [ENCLOSURE] closing out
+[04:02:37] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:23
+[04:02:42] [Server thread/INFO]: [ENCLOSURE] closing in
+[04:02:42] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:43
+[04:02:45] [Server thread/INFO]: trololol72 issued server command: /time set 11000
+[04:02:45] [Server thread/INFO]: [trololol72: Set the time to 11000]
+[04:03:08] [Server thread/INFO]: trololol72 issued server command: /time set 11500
+[04:03:08] [Server thread/INFO]: [trololol72: Set the time to 11500]
+[04:03:12] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[04:03:21] [Server thread/INFO]: trololol72 issued server command: /tick rate 200
+[04:03:21] [Server thread/INFO]: [trololol72: Set the target tick rate to 200.0 per second]
+[04:03:22] [Server thread/INFO]: [ENCLOSURE] ITS 6:30 PM
+[04:03:22] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:30
+[04:03:22] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:35
+[04:03:22] [Server thread/INFO]: [ENCLOSURE] opening in
+[04:03:23] [Server thread/INFO]: [ENCLOSURE] opening out
+[04:03:23] [Server thread/INFO]: [ENCLOSURE] In-game time: 18:40
+[04:03:41] [Server thread/INFO]: trololol72 issued server command: /time set 9000
+[04:03:41] [Server thread/INFO]: [trololol72: Set the time to 9000]
+[04:03:47] [Server thread/INFO]: trololol72 issued server command: /time set 20000
+[04:03:47] [Server thread/INFO]: [trololol72: Set the time to 20000]
+[04:04:08] [Server thread/INFO]: [ENCLOSURE] ITS 6:00 AM
+[04:04:08] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:03
+[04:04:09] [Server thread/INFO]: [ENCLOSURE] closing out
+[04:04:09] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:23
+[04:04:11] [Server thread/INFO]: [ENCLOSURE] closing in
+[04:04:11] [Server thread/INFO]: [ENCLOSURE] In-game time: 6:43
+[04:04:17] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[04:04:20] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[04:04:23] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[04:04:32] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[04:04:32] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[04:04:35] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[04:04:35] [Server thread/INFO]: Stopping server
+[04:04:35] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[04:04:35] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[04:04:35] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[04:04:35] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[04:04:35] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
+[04:04:35] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[04:04:35] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[04:04:35] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[04:04:35] [Server thread/INFO]: [TAB] Disabled in 0ms
+[04:04:35] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[04:04:35] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[04:04:35] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[04:04:35] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[04:04:35] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[04:04:35] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[04:04:35] [Server thread/INFO]: [LuckPerms] Closing storage...
+[04:04:35] [Server thread/INFO]: [LuckPerms] Goodbye!
+[04:04:35] [Server thread/INFO]: Saving players
+[04:04:35] [Server thread/INFO]: Saving worlds
+[04:04:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:04:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:04:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:04:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:04:36] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 3 entity chunks, 0 poi chunks in world 'world' in 1.04s
+[04:04:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[04:04:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[04:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[04:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[04:04:37] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[04:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:04:37] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[04:04:37] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[04:04:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[04:04:37] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

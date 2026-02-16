@@ -13,7 +13,7 @@ on load:
     set {enc::dirs::se::xadd} to 1
     set {enc::dirs::se::zadd} to 1
 
-    set {enc_debug} to false
+    set {enc_debug} to true
 
 function enc_debug(msg: text):
     if {enc_debug} is true:
@@ -53,14 +53,15 @@ function set_strip(blck: item type, index: text):
 
 # #
 # every 20 ticks:
-#     set {_time} to time of world "world"
 #     broadcast "&eIn-game time: %{_time}%"
 # #
 function ring_bell():
+    set {_time} to time of world "world"
+    enc_debug("&eIn-game time: %{_time}%")
     play sound "minecraft:block.bell.use" with pitch 0.8 to all players
     
 function _enc_open():
-    enc_debug("ITS 6:00 PM")
+    enc_debug("ITS 6:30 PM")
     ring_bell()
     
     wait 83 ticks # Approx 18:05
