@@ -1,211 +1,358 @@
-[20:40:22] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[20:40:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[20:40:23] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:40:24] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[20:40:24] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[20:52:40] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[20:52:40] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[20:52:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:52:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[20:52:42] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[20:40:24] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[20:52:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[20:40:28] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[20:40:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[20:40:30] [ServerMain/INFO]: Loaded 1470 recipes
-[20:40:30] [ServerMain/INFO]: Loaded 1584 advancements
-[20:40:30] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[20:40:30] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 345.0ms
-[20:40:30] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[20:40:30] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[20:40:30] [Server thread/INFO]: Loading properties
-[20:40:30] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[20:40:30] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:40:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:40:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:40:31] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[20:40:31] [Server thread/INFO]: Default game type: SURVIVAL
-[20:40:31] [Server thread/INFO]: Generating keypair
-[20:40:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:40:31] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:40:31] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:40:32] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[20:40:32] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:40:32] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[20:40:32] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[20:40:32] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[20:40:32] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[20:40:33] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@634bf4dd]
-[20:40:33] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[20:40:33] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[20:40:33] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[20:40:33] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[20:40:34] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[20:40:34] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[20:40:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:40:34] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[20:40:34] [Server thread/INFO]:         __    
-[20:40:34] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[20:40:34] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:40:34] [Server thread/INFO]: 
-[20:40:34] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:40:35] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:40:35] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:40:35] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 982ms)
-[20:40:35] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[20:40:35] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[20:40:35] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[20:40:35] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[20:40:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[20:40:35] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:40:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[20:40:36] [Server thread/INFO]: Preparing level "world"
-[20:40:36] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
-[20:40:37] [Server thread/INFO]: Preparing spawn area: 28%
-[20:40:37] [Server thread/INFO]: Prepared spawn area in 759 ms
-[20:40:37] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[20:40:37] [Server thread/INFO]: Prepared spawn area in 2 ms
-[20:40:37] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[20:40:37] [Server thread/INFO]: Prepared spawn area in 1 ms
-[20:40:37] [Server thread/INFO]: Done preparing level "world" (1.343s)
-[20:40:37] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[20:40:38] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[20:40:39] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[20:40:39] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[20:40:39] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[20:40:39] [Server thread/INFO]: [TAB] Enabled in 504ms
-[20:40:39] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[20:40:39] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[20:40:39] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[20:40:40] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[20:40:40] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[20:40:40] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[20:40:40] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[20:40:40] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[20:40:40] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[20:40:40] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[20:40:40] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1252ms
-[20:40:40] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[20:40:40] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[20:40:40] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[20:40:40] [Server thread/INFO]: [SkBee]  - 56 events
-[20:40:40] [Server thread/INFO]: [SkBee]  - 71 effects
-[20:40:40] [Server thread/INFO]: [SkBee]  - 240 expressions
-[20:40:40] [Server thread/INFO]: [SkBee]  - 27 conditions
-[20:40:40] [Server thread/INFO]: [SkBee]  - 32 sections
-[20:40:40] [Server thread/INFO]: [SkBee]  - 11 properties
-[20:40:40] [Server thread/INFO]: [SkBee] Update checker disabled!
-[20:40:40] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.78 seconds
-[20:40:40] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[20:40:40] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[20:40:40] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[20:40:40] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[20:40:40] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[20:40:40] [Server thread/INFO]: [spark] Starting background profiler...
-[20:40:40] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[20:40:40] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[20:40:41] [Server thread/INFO]: Running delayed init tasks
-[20:40:41] [Server thread/INFO]: [Skript] Loading variables...
-[20:40:41] [Server thread/INFO]: [Skript] Loaded 381 variables in 0.0 seconds
-[20:40:45] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[20:40:45] [Server thread/INFO]: [Skript] Loaded 24 scripts with a total of 215 structures in 4.71 seconds
-[20:40:45] [Server thread/INFO]: [Skript] Finished loading.
-[20:40:45] [Server thread/INFO]: Done (24.073s)! For help, type "help"
-[20:40:46] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
-[20:40:46] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[20:41:31] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[20:41:31] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[20:41:33] [Server thread/INFO]: Named entity WitherBoss['Ra'/45, uuid='78a97f3d-2b93-4e76-8877-e899d1f4d2fe', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=2, v=true] died: Ra was killed
-[20:41:33] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[20:41:34] [Server thread/INFO]: trololol72[/127.0.0.1:56955] logged in with entity id 5 at ([world]5086.838973708081, 88.58719314708006, 5068.778105188525)
-[20:41:34] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[20:41:34] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[20:41:45] [Server thread/INFO]: Villager Villager['Villager'/37, uuid='df4d2006-0d2d-407f-8384-d71c72361f90', l='ServerLevel[world]', x=5073.20, y=76.00, z=5059.23, cpos=[317, 316], tl=240, v=true] died, message: 'Villager withered away'
-[20:41:50] [Server thread/INFO]: trololol72 issued server command: /tp 8000 ~ ~
-[20:41:50] [Server thread/INFO]: [trololol72: Teleported trololol72 to 8000.500000, 92.694918, 5063.123210]
-[20:41:52] [Server thread/INFO]: The particle was not visible for anybody
-[20:41:52] [Server thread/INFO]: The particle was not visible for anybody
-[20:41:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/156, uuid='ddc06b67-f60b-43a7-8a5d-c7e61a87e772', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=329, v=true] died: Ra was killed
-[20:42:19] [Server thread/INFO]: trololol72 issued server command: /tp 5000 ~ 5000
-[20:42:19] [Server thread/INFO]: [trololol72: Teleported trololol72 to 5000.500000, 66.983445, 5000.500000]
-[20:42:24] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[20:42:24] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[20:42:25] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[20:42:25] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[20:42:26] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[20:42:26] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[20:42:27] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[20:42:27] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[20:42:27] [Server thread/INFO]: Named entity WitherBoss['Ra'/752, uuid='f80f1569-e9c9-4e4a-a11e-f622adc9e9ee', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=82, v=true] died: Ra was killed
-[20:42:42] [Server thread/INFO]: The particle was not visible for anybody
-[20:42:42] [Server thread/INFO]: The particle was not visible for anybody
-[20:42:42] [Server thread/INFO]: Named entity WitherBoss['Ra'/1493, uuid='9576ee20-25b5-4226-8517-f88d9e210c87', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=81, v=true] died: Ra was killed
-[20:42:57] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[20:42:57] [Server thread/INFO]: trololol72 lost connection: Server is restarting
-[20:42:57] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[20:42:57] [Server thread/INFO]: Stopping server
-[20:42:57] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[20:42:57] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[20:42:57] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[20:42:57] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[20:42:57] [Server thread/INFO]: [packetevents] Failed to uninject server channel, handler not found
-[20:42:57] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[20:42:57] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[20:42:57] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[20:42:57] [Server thread/INFO]: [TAB] Disabled in 1ms
-[20:42:57] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[20:42:57] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:42:58] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[20:42:58] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[20:42:58] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[20:42:58] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:42:58] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:42:58] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:42:58] [Server thread/INFO]: Saving players
-[20:42:58] [Server thread/INFO]: Saving worlds
-[20:42:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:42:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:42:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:42:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:43:04] [Server thread/INFO]: [ChunkHolderManager] Saved 3820 block chunks, 3820 entity chunks, 0 poi chunks in world 'world' in 6.10s
-[20:43:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[20:43:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[20:43:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[20:43:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[20:43:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[20:43:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:43:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:43:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:43:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:43:05] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[20:43:05] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[20:43:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[20:43:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[20:52:46] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[20:52:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:52:48] [ServerMain/INFO]: Loaded 1470 recipes
+[20:52:48] [ServerMain/INFO]: Loaded 1584 advancements
+[20:52:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:52:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 343.8ms
+[20:52:48] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[20:52:48] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[20:52:48] [Server thread/INFO]: Loading properties
+[20:52:48] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[20:52:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:52:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:52:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:52:49] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[20:52:49] [Server thread/INFO]: Default game type: SURVIVAL
+[20:52:49] [Server thread/INFO]: Generating keypair
+[20:52:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:52:49] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:52:49] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:52:50] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[20:52:50] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:52:50] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[20:52:50] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[20:52:50] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[20:52:50] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[20:52:51] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4bde566f]
+[20:52:51] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[20:52:51] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[20:52:51] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[20:52:51] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[20:52:52] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[20:52:52] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[20:52:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:52:52] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[20:52:52] [Server thread/INFO]:         __    
+[20:52:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[20:52:52] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:52:52] [Server thread/INFO]: 
+[20:52:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:52:53] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:52:53] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:52:53] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 922ms)
+[20:52:53] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[20:52:53] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[20:52:53] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[20:52:53] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[20:52:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:52:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:52:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[20:52:54] [Server thread/INFO]: Preparing level "world"
+[20:52:55] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
+[20:52:55] [Server thread/INFO]: Preparing spawn area: 28%
+[20:52:55] [Server thread/INFO]: Prepared spawn area in 738 ms
+[20:52:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[20:52:55] [Server thread/INFO]: Prepared spawn area in 1 ms
+[20:52:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[20:52:55] [Server thread/INFO]: Prepared spawn area in 1 ms
+[20:52:55] [Server thread/INFO]: Done preparing level "world" (1.242s)
+[20:52:55] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[20:52:56] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[20:52:57] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[20:52:57] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[20:52:57] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[20:52:57] [Server thread/INFO]: [TAB] Enabled in 493ms
+[20:52:57] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[20:52:57] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[20:52:57] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[20:52:58] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[20:52:58] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[20:52:58] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[20:52:58] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[20:52:58] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1299ms
+[20:52:58] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[20:52:58] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[20:52:58] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[20:52:58] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[20:52:58] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[20:52:58] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[20:52:58] [Server thread/INFO]: [SkBee]  - 56 events
+[20:52:58] [Server thread/INFO]: [SkBee]  - 71 effects
+[20:52:58] [Server thread/INFO]: [SkBee]  - 240 expressions
+[20:52:58] [Server thread/INFO]: [SkBee]  - 27 conditions
+[20:52:58] [Server thread/INFO]: [SkBee]  - 32 sections
+[20:52:58] [Server thread/INFO]: [SkBee]  - 11 properties
+[20:52:58] [Server thread/INFO]: [SkBee] Update checker disabled!
+[20:52:58] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.96 seconds
+[20:52:58] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[20:52:58] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[20:52:58] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[20:52:58] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[20:52:58] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[20:52:59] [Server thread/INFO]: [spark] Starting background profiler...
+[20:52:59] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[20:52:59] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[20:52:59] [Server thread/INFO]: Running delayed init tasks
+[20:52:59] [Server thread/INFO]: [Skript] Loading variables...
+[20:52:59] [Server thread/INFO]: [Skript] Loaded 381 variables in 0.0 seconds
+[20:52:59] [Server thread/INFO]: [Skript] Line 72: (wither_spawner.sk)
+[20:52:59] [Server thread/INFO]:     Function 'wither_debug' with the same argument types already exists in script 'enclosure.sk'.
+[20:52:59] [Server thread/INFO]:     Line: function wither_debug(msg: text):
+[20:52:59] [Server thread/INFO]:  
+[20:52:59] [Server thread/INFO]: [Skript] Line 76: (wither_spawner.sk)
+[20:52:59] [Server thread/INFO]:     Function 'spawn_wither' with the same argument types already exists in script 'enclosure.sk'.
+[20:52:59] [Server thread/INFO]:     Line: function spawn_wither(p: player, id: text):
+[20:52:59] [Server thread/INFO]:  
+[20:52:59] [Server thread/INFO]: [Skript] Line 101: (wither_spawner.sk)
+[20:52:59] [Server thread/INFO]:     Function 'despawn_wither' with the same argument types already exists in script 'enclosure.sk'.
+[20:52:59] [Server thread/INFO]:     Line: function despawn_wither(id: text):
+[20:52:59] [Server thread/INFO]:  
+[20:53:02] [Server thread/INFO]: [Skript] Line 246: (wither_spawner.sk)
+[20:53:02] [Server thread/INFO]:     A command with the name /wither_debug is already defined in enclosure.sk
+[20:53:02] [Server thread/INFO]:     Line: command /wither_debug <text>:
+[20:53:02] [Server thread/INFO]:  
+[20:53:02] [Server thread/INFO]: [Skript] Line 259: (wither_spawner.sk)
+[20:53:02] [Server thread/INFO]:     A command with the name /wither_toggle is already defined in enclosure.sk
+[20:53:02] [Server thread/INFO]:     Line: command /wither_toggle <text>:
+[20:53:02] [Server thread/INFO]:  
+[20:53:04] [Server thread/INFO]: [Skript] Loaded 24 scripts with a total of 209 structures in 5.23 seconds
+[20:53:04] [Server thread/INFO]: [Skript] Finished loading.
+[20:53:04] [Server thread/INFO]: Done (24.610s)! For help, type "help"
+[20:53:04] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
+[20:53:04] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[20:53:46] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[20:53:46] [Server thread/INFO]: Line 161: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'wither_debug(string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: wither_debug("time: %{_time}%")
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]: Line 213: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'wither_debug(string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: wither_debug("DEBUG: %loop-player% is SAFE near secondary spot %loop-index-1%")
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]: Line 203: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'wither_debug(string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: wither_debug("DEBUG: %loop-player% is SAFE near spot %loop-index-1%")
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]: Line 149: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'wither_debug(string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: wither_debug("Swept a ghost wither from an old session!")
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]: Line 53: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'wither_debug(string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: wither_debug("Recovered Wither in region %{_regID}% on reload! (Session: %{wither_session_id}%)")
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]: Line 218: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'wither_debug(string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: wither_debug("DEBUG: %loop-player% is SAFE in the nether!")
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]: Line 158: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'wither_debug(string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: wither_debug("")
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]: Line 68: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'wither_debug(string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: wither_debug("Recovered Wither in region %{_regID}% on reload!")
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]: Line 221: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'wither_debug(string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: wither_debug("DEBUG: %loop-player% is SAFE in the end!")
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]: Line 232: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'spawn_wither(player, string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: spawn_wither({_targetPlayer}, {_regID})
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]: Line 242: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'despawn_wither(string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: despawn_wither(loop-index)
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]: Line 237: (wither_spawner.sk)
+[20:53:46] [Server thread/INFO]:     The function 'despawn_wither(string)' was deleted or renamed, but is still used in other script(s). These will continue to use the old version of the function until Skript restarts.
+[20:53:46] [Server thread/INFO]:     Line: despawn_wither({_regID})
+[20:53:46] [Server thread/INFO]:  
+[20:53:46] [Server thread/INFO]:     Encountered 12 errors while reloading enclosure.sk! (86ms)
+[20:53:51] [Server thread/INFO]: [Skript] Reloading the config, aliases and all scripts...
+[20:53:51] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 417ms
+[20:53:54] [ForkJoinPool.commonPool-worker-1/INFO]: Successfully reloaded the config, aliases and all scripts. (3505ms)
+[20:54:05] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[20:54:05] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[20:54:07] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[20:54:08] [Server thread/INFO]: trololol72[/127.0.0.1:57073] logged in with entity id 5 at ([world]5085.685346012519, 98.82306762295853, 5086.499846811387)
+[20:54:08] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[20:54:08] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[20:54:18] [Server thread/INFO]: Villager Villager['Villager'/34, uuid='cf0b29c1-56ee-4471-924c-38f9f7e60a80', l='ServerLevel[world]', x=5074.87, y=76.00, z=5073.62, cpos=[317, 317], tl=218, v=true] died, message: 'Villager was blown up by Ra'
+[20:54:37] [Server thread/INFO]: trololol72 issued server command: /wither_toggle false
+[20:54:37] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[20:54:37] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[20:54:37] [Server thread/INFO]: Named entity WitherBoss['Ra'/205, uuid='2103a638-c4c3-4d1a-95b3-5ae1c97165f5', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=476, v=true] died: Ra was killed
+[20:55:01] [Server thread/INFO]: trololol72 issued server command: /wither_toggle true
+[20:55:06] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[20:55:06] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[20:55:06] [Server thread/INFO]: Named entity WitherBoss['Ra'/724, uuid='f1cd2d69-5ec0-481e-bbed-1d8d243cc9ef', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[20:55:15] [Server thread/INFO]: The particle was not visible for anybody
+[20:55:15] [Server thread/INFO]: The particle was not visible for anybody
+[20:55:15] [Server thread/INFO]: Named entity WitherBoss['Ra'/804, uuid='75d9a4ef-b770-4a6f-8d1a-7b2a1273ca0c', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=141, v=true] died: Ra was killed
+[20:55:24] [Server thread/INFO]: Villager Villager['Villager'/23, uuid='b44b82a7-85e6-49ed-96f0-fe48b975dfaf', l='ServerLevel[world]', x=5079.01, y=76.00, z=5084.30, cpos=[317, 317], tl=1510, v=true] died, message: 'Villager withered away'
+[20:57:53] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[20:57:53] [Server thread/INFO]: Successfully reloaded enclosure.sk. (74ms)
+[20:58:04] [Server thread/INFO]: Villager Villager['Villager'/42, uuid='4b484f2f-16cb-4b43-b07e-19cebc164162', l='ServerLevel[world]', x=5063.45, y=76.00, z=5074.17, cpos=[316, 317], tl=4738, v=true] died, message: 'Villager was blown up by Ra'
+[20:58:10] [Server thread/INFO]: The particle was not visible for anybody
+[20:58:10] [Server thread/INFO]: The particle was not visible for anybody
+[20:58:10] [Server thread/INFO]: Named entity WitherBoss['Ra'/1199, uuid='46d9ba78-b260-4714-a754-e24ab3cc01df', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=221, v=true] died: Ra was killed
+[20:58:17] [Server thread/INFO]: Villager Villager['Villager'/24, uuid='6a87fd3a-c91b-43f8-b7de-7ac7fadb481e', l='ServerLevel[world]', x=5076.49, y=76.00, z=5073.60, cpos=[317, 317], tl=4976, v=true] died, message: 'Villager was blown up by Ra'
+[20:58:18] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[20:58:18] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[20:58:18] [Server thread/INFO]: Named entity WitherBoss['Ra'/1336, uuid='2c7aaa2f-8ecc-489b-a1a4-5a8bdf37e34b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=121, v=true] died: Ra was killed
+[20:59:19] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[20:59:19] [Server thread/INFO]: Successfully reloaded enclosure.sk. (85ms)
+[20:59:28] [Server thread/INFO]: [Skript] Reloading wither_spawner.sk...
+[20:59:28] [Server thread/INFO]: Successfully reloaded wither_spawner.sk. (175ms)
+[20:59:33] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[20:59:33] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[20:59:33] [Server thread/INFO]: Named entity WitherBoss['Ra'/1532, uuid='1097e663-0502-4d2f-b981-44563466fd2b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[20:59:38] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[20:59:38] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[20:59:38] [Server thread/INFO]: Named entity WitherBoss['Ra'/1618, uuid='d9563028-424e-4a77-b0e1-56d7905bd563', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[20:59:55] [Server thread/INFO]: Villager Villager['Villager'/39, uuid='b320e499-ccc6-4b4d-90b7-7cee13051097', l='ServerLevel[world]', x=5059.30, y=76.00, z=5071.08, cpos=[316, 316], tl=6950, v=true] died, message: 'Villager was blown up by Ra'
+[20:59:57] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[20:59:57] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[20:59:57] [Server thread/INFO]: Named entity WitherBoss['Ra'/1691, uuid='10e09039-e741-4291-9016-ae09534fc53f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=321, v=true] died: Ra was killed
+[21:00:34] [Server thread/INFO]: [Skript] Reloading wither_spawner.sk...
+[21:00:34] [Server thread/INFO]: Successfully reloaded wither_spawner.sk. (181ms)
+[21:00:43] [Server thread/INFO]: The particle was not visible for anybody
+[21:00:43] [Server thread/INFO]: The particle was not visible for anybody
+[21:00:43] [Server thread/INFO]: Named entity WitherBoss['Ra'/1883, uuid='5906c133-f5f0-49d3-a65c-d72ace2fb77b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=101, v=true] died: Ra was killed
+[21:01:20] [Server thread/INFO]: Villager Villager['Villager'/2014, uuid='96dbcf93-49c8-49a0-922d-03d21a2edb89', l='ServerLevel[world]', x=5086.37, y=76.00, z=5080.48, cpos=[317, 317], tl=308, v=true] died, message: 'Villager withered away'
+[21:01:35] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[21:01:35] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[21:01:35] [Server thread/INFO]: Named entity WitherBoss['Ra'/1977, uuid='436f5219-8c2d-4652-ae0c-6f3326b6bc98', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1001, v=true] died: Ra was killed
+[21:02:14] [Server thread/INFO]: [Skript] Reloading wither_spawner.sk...
+[21:02:14] [Server thread/INFO]: Successfully reloaded wither_spawner.sk. (208ms)
+[21:02:20] [Server thread/INFO]: trololol72 issued server command: /wither_debug true
+[21:02:21] [Server thread/INFO]: 
+[21:02:21] [Server thread/INFO]: time: 4:23
+[21:02:21] [Server thread/INFO]: DEBUG: trololol72 is SAFE near secondary spot 1
+[21:02:22] [Server thread/INFO]: 
+[21:02:22] [Server thread/INFO]: time: 4:25
+[21:02:22] [Server thread/INFO]: spawning wither at 1
+[21:02:23] [Server thread/INFO]: 
+[21:02:23] [Server thread/INFO]: time: 4:26
+[21:02:23] [Server thread/INFO]: Wither 1 bored: 1/5s
+[21:02:24] [Server thread/INFO]: 
+[21:02:24] [Server thread/INFO]: time: 4:27
+[21:02:24] [Server thread/INFO]: Wither 1 bored: 2/5s
+[21:02:25] [Server thread/INFO]: 
+[21:02:25] [Server thread/INFO]: time: 4:28
+[21:02:25] [Server thread/INFO]: Wither 1 bored: 3/5s
+[21:02:26] [Server thread/INFO]: 
+[21:02:26] [Server thread/INFO]: time: 4:29
+[21:02:26] [Server thread/INFO]: Wither 1 bored: 4/5s
+[21:02:27] [Server thread/INFO]: 
+[21:02:27] [Server thread/INFO]: time: 4:31
+[21:02:27] [Server thread/INFO]: Wither 1 bored: 5/5s
+[21:02:27] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[21:02:27] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[21:02:27] [Server thread/INFO]: spawning wither at 1
+[21:02:27] [Server thread/INFO]: Named entity WitherBoss['Ra'/2239, uuid='7a2e7358-1b60-4a61-8e76-699230c52c5c', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=101, v=true] died: Ra was killed
+[21:02:27] [Server thread/INFO]: killed wither 1
+[21:02:28] [Server thread/INFO]: 
+[21:02:28] [Server thread/INFO]: time: 4:32
+[21:02:28] [Server thread/INFO]: spawning wither at 1
+[21:02:29] [Server thread/INFO]: 
+[21:02:29] [Server thread/INFO]: time: 4:33
+[21:02:29] [Server thread/INFO]: Wither 1 bored: 1/5s
+[21:02:30] [Server thread/INFO]: 
+[21:02:30] [Server thread/INFO]: time: 4:34
+[21:02:30] [Server thread/INFO]: Wither 1 bored: 2/5s
+[21:02:31] [Server thread/INFO]: 
+[21:02:31] [Server thread/INFO]: time: 4:35
+[21:02:31] [Server thread/INFO]: Wither 1 bored: 3/5s
+[21:02:32] [Server thread/INFO]: Villager Villager['Villager'/2015, uuid='fbec360d-4b84-49cc-8cf0-98b5bfa167e7', l='ServerLevel[world]', x=5070.36, y=76.00, z=5082.45, cpos=[316, 317], tl=1724, v=true] died, message: 'Villager was blown up by Ra'
+[21:02:32] [Server thread/INFO]: 
+[21:02:32] [Server thread/INFO]: time: 4:37
+[21:02:32] [Server thread/INFO]: Wither 1 bored: 4/5s
+[21:02:33] [Server thread/INFO]: Villager Villager['Villager'/25, uuid='c5a35cd7-57f2-429e-96da-722b66c0e524', l='ServerLevel[world]', x=5065.81, y=76.00, z=5081.19, cpos=[316, 317], tl=10092, v=true] died, message: 'Villager was blown up by Ra'
+[21:02:33] [Server thread/INFO]: 
+[21:02:33] [Server thread/INFO]: time: 4:38
+[21:02:33] [Server thread/INFO]: Wither 1 bored: 5/5s
+[21:02:33] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[21:02:33] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[21:02:33] [Server thread/INFO]: spawning wither at 1
+[21:02:33] [Server thread/INFO]: Named entity WitherBoss['Ra'/2317, uuid='070509ac-d6c2-4b58-b1e2-d3ad72a49e27', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=101, v=true] died: Ra was killed
+[21:02:33] [Server thread/INFO]: killed wither 1
+[21:02:34] [Server thread/INFO]: 
+[21:02:34] [Server thread/INFO]: time: 4:39
+[21:02:34] [Server thread/INFO]: spawning wither at 1
+[21:02:35] [Server thread/INFO]: 
+[21:02:35] [Server thread/INFO]: time: 4:40
+[21:02:35] [Server thread/INFO]: Wither 1 bored: 1/5s
+[21:02:36] [Server thread/INFO]: 
+[21:02:36] [Server thread/INFO]: time: 4:41
+[21:02:36] [Server thread/INFO]: Wither 1 bored: 2/5s
+[21:02:36] [Server thread/INFO]: DEBUG: trololol72 is SAFE near secondary spot 1
+[21:02:36] [Server thread/INFO]: Region 1 is safe/empty. Instant despawning wither.
+[21:02:36] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[21:02:36] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[21:02:36] [Server thread/INFO]: Named entity WitherBoss['Ra'/2400, uuid='87302ab2-6677-40af-a6bb-c4daaaa4ff67', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[21:02:36] [Server thread/INFO]: killed wither 1
+[21:02:37] [Server thread/INFO]: 
+[21:02:37] [Server thread/INFO]: time: 4:43
+[21:02:37] [Server thread/INFO]: DEBUG: trololol72 is SAFE near secondary spot 1
+[21:02:38] [Server thread/INFO]: Villager Villager['Villager'/2012, uuid='6f5a50bf-822f-4114-8db3-da9122ed67b4', l='ServerLevel[world]', x=5076.94, y=76.00, z=5066.94, cpos=[317, 316], tl=1877, v=true] died, message: 'Villager was blown up by Ra'
+[21:02:38] [Server thread/INFO]: 
+[21:02:38] [Server thread/INFO]: time: 4:44
+[21:02:38] [Server thread/INFO]: DEBUG: trololol72 is SAFE near secondary spot 1
+[21:02:39] [Server thread/INFO]: 
+[21:02:39] [Server thread/INFO]: time: 4:45
+[21:02:39] [Server thread/INFO]: DEBUG: trololol72 is SAFE near secondary spot 1
+[21:02:40] [Server thread/INFO]: 
+[21:02:40] [Server thread/INFO]: time: 4:46
+[21:02:40] [Server thread/INFO]: DEBUG: trololol72 is SAFE near secondary spot 1
+[21:02:41] [Server thread/INFO]: 
+[21:02:41] [Server thread/INFO]: time: 4:47
+[21:02:41] [Server thread/INFO]: DEBUG: trololol72 is SAFE near secondary spot 1
+[21:02:42] [Server thread/INFO]: trololol72 issued server command: /wither_toggle false
+[21:02:52] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=wither]
+[21:02:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/2257, uuid='8883ece0-706a-4468-9043-31d6b019043a', l='ServerLevel[world]', x=5069.77, y=76.00, z=5066.31, cpos=[316, 316], tl=503, v=true] died: Ra was killed
+[21:02:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/2335, uuid='82c5e93b-b16f-4a15-871e-f8cf418ab27a', l='ServerLevel[world]', x=5069.07, y=76.00, z=5079.50, cpos=[316, 317], tl=383, v=true] died: Ra was killed
+[21:02:52] [Server thread/INFO]: [trololol72: Killed 2 entities]
+[21:04:56] [Server thread/INFO]: [Skript] Reloading wither_spawner.sk...
+[21:04:56] [Server thread/INFO]: Line 247: (wither_spawner.sk)
+[21:04:56] [Server thread/INFO]:     'clear drops' can only be used in the on death event, the on block drop event, the on harvest block event or the on break / mine event
+[21:04:56] [Server thread/INFO]:     Line: clear drops
+[21:04:56] [Server thread/INFO]:  
+[21:04:57] [Server thread/INFO]:     Encountered 1 error while reloading wither_spawner.sk! (184ms)
+[21:05:30] [Server thread/INFO]: [Skript] Reloading wither_spawner.sk...
+[21:05:30] [Server thread/INFO]: Successfully reloaded wither_spawner.sk. (175ms)
+[21:05:37] [Server thread/INFO]: trololol72 issued server command: /wither_debug true
+[23:11:12] [Server thread/INFO]: trololol72 lost connection: Timed out
+[23:11:12] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[23:11:18] [spark-java-sampler-0-0/WARN]: [spark] Timed out waiting for world statistics
