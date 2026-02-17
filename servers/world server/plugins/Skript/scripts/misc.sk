@@ -47,11 +47,15 @@ command /respawn_riders:
 command /spreadinventory <number>:
     permission: op
     trigger:
-        # 1. Find chests
+        # 1. Find chests, barrels, and the new Copper Chests
         set {_chests::*} to blocks in radius arg-1 around player where [input is a chest]
         add blocks in radius arg-1 around player where [input is a barrel] to {_chests::*} 
+        
+        # Safely catch all 8 variants of Copper Chests (oxidized, waxed, etc.)
+        add blocks in radius arg-1 around player where ["%type of input%" contains "copper chest"] to {_chests::*}
+        
         if size of {_chests::*} is 0:
-            send "&cNo chests found in radius!"
+            send "&cNo chests, barrels, or copper chests found in radius!"
             stop
             
         # 2. Loop inventory
@@ -106,8 +110,7 @@ command /spreadinventory <number>:
                             add {_stack} to {_target}'s inventory
                             remove {_toRemove} from player's inventory # Remove the UNDAMAGED version
 
-        send "&aInventory spread (batches of 1-5) into %size of {_chests::*}% chests with random damage!"
-
+        send "&aInventory spread (batches of 1-5) into %size of {_chests::*}% containers with random damage!"
 command /force2x2 <number>:
     permission: op
     trigger:
@@ -425,6 +428,65 @@ command /give_loot_maze:
                 add {_randomRare} parsed as item to player's inventory
                 
         send "&7Received custom maze loot." to player
+#
+# The Function
+# Usage Example: detailBricks(player's location, 15, 25.5)
+function detailBricks(center: location, radius: number, chance: number):
+    loop blocks in radius {_radius} around {_center}:
+        # 1. Roll the chance immediately to save server performance
+        chance of {_chance}%:
+            
+            # 2. Grab the block's exact DNA as text
+            set {_dataString} to "%block data of loop-block%"
+            set {_modified} to false
+            
+            # --- SOLID STONE BRICKS (Can roll Mossy OR Cracked) ---
+            if {_dataString} starts with "minecraft:stone_bricks":
+                set {_roll} to random integer between 1 and 2
+                if {_roll} is 1:
+                    replace "minecraft:stone_bricks" with "minecraft:mossy_stone_bricks" in {_dataString}
+                else:
+                    replace "minecraft:stone_bricks" with "minecraft:cracked_stone_bricks" in {_dataString}
+                set {_modified} to true
+                
+            # --- STAIRS, SLABS, AND WALLS (Only Mossy exists in Vanilla) ---
+            else if {_dataString} starts with "minecraft:stone_brick_stairs":
+                replace "minecraft:stone_brick_stairs" with "minecraft:mossy_stone_brick_stairs" in {_dataString}
+                set {_modified} to true
+                
+            else if {_dataString} starts with "minecraft:stone_brick_slab":
+                replace "minecraft:stone_brick_slab" with "minecraft:mossy_stone_brick_slab" in {_dataString}
+                set {_modified} to true
+                
+            else if {_dataString} starts with "minecraft:stone_brick_wall":
+                replace "minecraft:stone_brick_wall" with "minecraft:mossy_stone_brick_wall" in {_dataString}
+                set {_modified} to true
+                
+            # --- OTHER BRICK TYPES (Deepslate, Nether, Blackstone) ---
+            else if {_dataString} starts with "minecraft:deepslate_bricks":
+                replace "minecraft:deepslate_bricks" with "minecraft:cracked_deepslate_bricks" in {_dataString}
+                set {_modified} to true
+                
+            else if {_dataString} starts with "minecraft:nether_bricks":
+                replace "minecraft:nether_bricks" with "minecraft:cracked_nether_bricks" in {_dataString}
+                set {_modified} to true
+                
+            else if {_dataString} starts with "minecraft:polished_blackstone_bricks":
+                replace "minecraft:polished_blackstone_bricks" with "minecraft:cracked_polished_blackstone_bricks" in {_dataString}
+                set {_modified} to true
+
+            # 3. If a match was found and changed, apply the new DNA back to the block!
+            if {_modified} is true:
+                set block data of loop-block to {_dataString} parsed as block data
+#
+command /weatherbricks <number> <number>:
+    permission: op
+    usage: &c/weatherbricks <radius> <chance percentage>
+    trigger:
+        # Example: /weatherbricks 10 35.5
+        detailBricks(player's location, arg-1, arg-2)
+        send "&aWeathered bricks in a %arg-1% block radius with a %arg-2%%% chance!"
+
 # Usage: /fillstands <radius>
 command /fillstands <number>:
     permission: op
