@@ -2,21 +2,17 @@
 # 1. CONFIGURATION & LOAD EVENT
 # ----------------------------------------
 on load:
-    # --- EDIT THESE COORDINATES ---
-    # Set the exact location of the chest to check
-    set {maze_chest::chest_pos} to location at -862, 67, -1371 in world "world"
+    # Vanilla syntax that never fails
+    # set {maze_chest::chest_pos} to location at -862, 68, -1371 in world "world"
+    set {maze_chest::struct_pos} to location at -879.5, 65.5, -1389.5 in world "world"
     
-    # Set the exact location where the structure should be placed
-    set {maze_chest::struct_pos} to location at -879, 64, -1389 in world "world"
-    # ------------------------------
-    
-    # Initialize variables if they don't exist yet
     if {maze_chest::active} is not set:
         set {maze_chest::active} to false
     if {maze_chest::debug} is not set:
         set {maze_chest::debug} to false
         
-    debugMsg("&eStructure script reloaded. Chest: %{maze_chest::chest_pos}% | Target: %{maze_chest::struct_pos}%")
+    # Let's verify it loaded correctly in the console!
+    send "&e[StructDebug] Loaded Chest Pos: %{maze_chest::chest_pos}%" to console
 
 # ----------------------------------------
 # 2. DEBUG FUNCTION
@@ -61,18 +57,19 @@ command /maze_chest_debug <text>:
 # ----------------------------------------
 # 4. THE 10-SECOND ENGINE
 # ----------------------------------------
-# ----------------------------------------
-# 4. THE 10-SECOND ENGINE
-# ----------------------------------------
-every 10 seconds:
-    # 1. Check if the system is turned on
-    if {sys::active} is not true:
+every 5 seconds:
+    if {maze_chest::active} is not true:
         stop
-        
+    maze_loop()
+
+function maze_loop():
+    # 1. Check if the system is turned on
+      
     debugMsg("Running 10-second container check...")
     
-    set {_chestLoc} to {sys::chest_pos}
-    set {_structLoc} to {sys::struct_pos}
+     # Grab the updated maze_chest variables!
+    set {_chestLoc} to {maze_chest::chest_pos}
+    set {_structLoc} to {maze_chest::struct_pos}
     
     # 2. Extract clean integer coordinates for the console command
     set {_x} to floor(x-coordinate of {_structLoc})
@@ -95,10 +92,35 @@ every 10 seconds:
         # 4. Check for the Blaze Powder
         if {_inv} contains blaze powder:
             debugMsg("&aBlaze powder found. Placing Structure 1.")
-            make console execute command "execute in minecraft:%{_worldName}% run place template structure1 %{_x}% %{_y}% %{_z}%"
+            make console execute command "execute in minecraft:overworld run place template minecraft:maze_chest %{_x}% %{_y}% %{_z}%"
         else:
+            stop
             debugMsg("&cNo blaze powder. Placing Structure 2.")
-            make console execute command "execute in minecraft:%{_worldName}% run place template structure2 %{_x}% %{_y}% %{_z}%"
+            make console execute command "execute in minecraft:overworld run place template structure2 %{_x}% %{_y}% %{_z}%"
             
     else:
-        debugMsg("&4ERROR: Block at %{_chestLoc}% is not a valid container! Found: %{_blockType}%")
+        debugMsg("&4ERROR: Block at %{_chestLoc}% is not a valid container! Found: %{_blockType}% at %{_chestLoc}%")
+
+
+#
+command /maze_loop:
+    permission: op
+    trigger:
+        maze_loop()
+#
+command /maze_set_chest:
+    permission: op
+    trigger:
+        set {maze_chest::chest_pos} to target block of player
+#
+command /maze_set_struct:
+    permission: op
+    trigger:
+        set {maze_chest::struct_pos} to target block of player
+#
+command /maze_status:
+    permission: op
+    trigger:
+        send "&8[&dMazeStatus&8] &7active: &e%{maze_chest::active}%" to player
+        send "&8[&dMazeStatus&8] &7chest pos: &e%{maze_chest::chest_pos}%" to player
+        send "&8[&dMazeStatus&8] &7struct pos: &e%{maze_chest::struct_pos}%" to player
