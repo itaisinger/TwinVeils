@@ -111,6 +111,28 @@ function despawn_wither(id: text):
     
     wither_debug("killed wither %{_id}%")
 
+function add_friends():
+    set {_i} to 0
+    loop all entities:
+        chance of 30%:
+            continue
+        if loop-entity is player:
+            continue
+        if loop-entity is zombie:
+            continue
+        if loop-entity is skeleton:
+            continue
+        if loop-entity is spider:
+            continue
+        if loop-entity is creeper:
+            continue
+        if loop-entity is enderman:
+            continue
+        if team of loop-entity is team named "wither":
+            continue
+        set {_i} to {_i} + 1
+        add loop-entity to team named "wither"
+    wither_debug("added %{_i}% entities to wither team")
 ## team ##
 on spawn:
     chance of 20%:
@@ -127,12 +149,18 @@ on spawn:
         stop
     if event-entity is a creeper:
         stop
-    
+
     add event-entity to team named "wither"
+    
+
 ##
+every 5 seconds:
+  #add friends
+    if {wither_add_friends} is true:
+        add_friends()
+
 # --- 4. Main Loop ---
 every 1 second:
-
     # --- THE GHOST SWEEPER ---
     loop all withers:
         set {_ghostTags::*} to scoreboard tags of loop-wither
@@ -264,3 +292,12 @@ command /wither_toggle <text>:
                 
             wither_debug("&c&l[Wither Storm] System DISABLED and cleared.")
 #
+command wither_add_friends:
+    permission: op
+    trigger:
+        if {wither_add_friends} is true:
+            set {wither_add_friends} to false   
+            wither_debug("wither_add_friends set to false")
+        else:
+            set {wither_add_friends} to true   
+            wither_debug("wither_add_friends set to true")
