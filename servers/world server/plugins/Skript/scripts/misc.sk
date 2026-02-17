@@ -322,6 +322,30 @@ on right click:
             set pitch of {_loc} to player's pitch
             teleport player to {_loc}
 
+#
+command /tp_smooth <number> <number> <number>:
+    permission: op
+    trigger:
+        set {_from} to location of player
+
+        set {_xdest} to arg-1
+        set {_ydest} to arg-2
+        set {_zdest} to arg-3
+
+        set {_xstart} to x-coord of {_from}
+        set {_ystart} to y-coord of {_from}
+        set {_zstart} to z-coord of {_from}
+
+        set {_xadd} to {_xdest} - {_xstart}
+        set {_yadd} to {_ydest} - {_ystart}
+        set {_zadd} to {_zdest} - {_zstart}
+
+        add {_xadd} to x-coord of {_from}
+        add {_yadd} to y-coord of {_from}
+        add {_zadd} to z-coord of {_from}
+
+        teleport player to {_from}
+
 #Armor stands
 command /viewradius <number>:
     permission: op
