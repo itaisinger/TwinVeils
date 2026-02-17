@@ -1,0 +1,68 @@
+help-pages:
+  wand-command: Gives you a maze wand item. It works like a world edit wand but for
+    mazes :P \nClick two blocks and continue with &e/maze start&a
+  start-command: Converts your clipboard into a maze layout. Click on the border to
+    place exits. Continue with &e/maze build&a
+  add-command: Merges the area of your clipboard with your maze layout.
+  cut-command: Removes the area of your clipboard from your maze layout.
+  tool-command: 'Switch between different tools for editing your maze layout:'
+  tools:
+    rectangle: create rectangles when clicking with the maze wand
+    circle: create circles with the maze wand
+    triangle: create triangles with the maze wand
+    exit: set exits for the maze on the redstone border
+    brush: click on the redstone border to expand/shrink single blocks, depending
+      on your viewing direction
+  settings-command: 'Change how your maze will be built later:'
+  settings:
+    wall-height: height of walls in blocks
+    path-width: width of paths to walk on
+    wall-width: width of walls of the maze
+    roof-width: width of the roof
+    curliness: '1: short stretches of path, many turns \n10: long alleys, fewer turns'
+    room-count: number of rooms attempted to be built in the maze
+    room-size: maximum width of rooms in blocks (sizes are random)
+    seed: a number to lock in the layout of a maze, so it always generates with the
+      same paths. Use 0 as seed to make your maze random again.
+  undo-command: Undo the last change to your maze layout like adding or cutting away
+    a clipboard.
+  build-command: Builds your maze. Type in names of blocks to build with, e.g.\n&e/maze
+    build 5*oak_leaves 2*oak_log[axis=y] glowstone&a \nUse the flags -floor or -roof
+    to build different parts of the maze.
+  unbuild-command: Deconstructs your maze. Use the flags -floor or -roof to unbuild
+    different parts of the maze.
+  teleport-command: Teleports you back to your maze.
+  solve-command: Highlights the right path to get through a built maze.
+  loot-command: Can spawn, respawn or remove loot chests in a maze using the "LootChest"
+    plugin. Spawn multiple chests at once e.g.\n&e/maze loot spawn 5*your_loot_chest_name&a
+    \nUse the flags -rooms, -deadends or -hallways to spawn loot in different parts
+    of the maze.
+infos:
+  plugin-reload: Reloaded config settings.
+  maze-wand-usage: Click two blocks with the and use /maze start to continue.
+  tool-switch: Switched to %tool%.
+  setting-change: Set %setting% to %value%.
+  setting-info: '%setting% is currently set to %value%.'
+  setting-seed-info: Use 0 as seed to make your maze random again.
+  maze-not-built: Please build the maze first (without -roof or -floor flag).
+  maze-not-editable: Cannot perform this action while your maze is built. /maze unbuild
+  maze-build: Built your maze part with %count% blocks.
+  no-maze-to-unbuild: No maze found to remove.
+  maze-single-exit: This maze only has one exit. It can't be solved.
+  loot-plugin-not-found: Loot chests can not be used because LootChest plugin was
+    not found. Download at:\nhttps://www.spigotmc.org/resources/lootchest.61564/
+  loot-spawn: Spawned %count% loot chests.
+  loot-respawn: Respawned %count% loot chests.
+  loot-remove: Removed %count% loot chests.
+errors:
+  missing-permission: You do not have the permission for this command.
+  clipboard-missing: No clipboard selected with the maze wand. /maze wand
+  maze-missing: No maze started yet. /maze start
+  no-exit-missing: No exits set yet (click on the maze border).
+  invalid-tool: Invalid tool '%tool%'.
+  invalid-setting: Invalid setting '%setting%'.
+  invalid-block-name: Invalid block name '%block%'.
+  invalid-block-property: Invalid property '%property%' for block '%block%'.
+  invalid-block-property-value: Invalid value '%value%' for property '%property%'.
+  missing-block-property-value: 'Missing property value: ''%property%=...''.'
+  loot-chest-name-not-found: Could not find loot chest with name '%name%'.

@@ -1,0 +1,5 @@
+wand-item: golden_shovel
+hover-clicking:
+  enabled: true
+  range: 50
+blocks-placed-per-tick: -1

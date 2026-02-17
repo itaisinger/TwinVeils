@@ -147,8 +147,8 @@ every 2 ticks:
                                             set {_offsetY} to {_tMinY} - {_minY}
                                             set {_offsetZ} to {_tMinZ} - {_minZ}
 
-                                            load chunk at location({_tMinX},{_tMinY},{_tMinZ})
-                                            wait 1 second
+                                            # load chunk at location({_tMinX},{_tMinY},{_tMinZ})
+                                            # wait 1 second
                                             make console execute command "execute as %loop-player% at @s run tp @s ~%{_offsetX}% ~%{_offsetY}% ~%{_offsetZ}%"
                                             
                                             # Apply the spatial lock instantly

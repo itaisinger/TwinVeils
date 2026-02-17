@@ -392,6 +392,39 @@ command /viewradius <number>:
                 show 1 electric spark at {_locV2}
             
             wait 10 ticks
+#
+command /give_loot_maze:
+    permission: op
+    trigger:
+        # --- POOL 1: FOOD ---
+        set {_foodPool::*} to "cooked beef", "bread", "golden carrot", "baked potato", "cooked porkchop"
+        
+        set {_foodRolls} to random integer between 5 and 10
+        loop {_foodRolls} times:
+            set {_randomFood} to random element out of {_foodPool::*}
+            add {_randomFood} parsed as item to player's inventory
+
+        # --- POOL 2: RARE ITEMS ---
+        # We use "enchanted_book_flag" as a placeholder string so the script knows when to grab a book
+        set {_rarePool::*} to "echo shard", "ender pearl", "diamond", "enchanted_book_flag"
+        
+        # Define the exact high-quality books you want in the maze!
+        set {_bookPool::*} to "enchanted book of sharpness 3", "enchanted book of efficiency 4", "enchanted book of unbreaking 3", "enchanted book of protection 4", "enchanted book of mending"
+        
+        set {_rareRolls} to random integer between 1 and 3
+        loop {_rareRolls} times:
+            set {_randomRare} to random element out of {_rarePool::*}
+            
+            # If it rolls the book flag, grab a random book from the list
+            if {_randomRare} is "enchanted_book_flag":
+                set {_randomBook} to random element out of {_bookPool::*}
+                add {_randomBook} parsed as item to player's inventory
+                
+            # Otherwise, just give the normal rare item
+            else:
+                add {_randomRare} parsed as item to player's inventory
+                
+        send "&7Received custom maze loot." to player
 # Usage: /fillstands <radius>
 command /fillstands <number>:
     permission: op
