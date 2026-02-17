@@ -411,6 +411,6 @@ witch_hut::alive::2, boolean, 00
 witch_status_cache::1, string, 8046C2A761416C69766520C2A73728783A203233302C20793A203132342C207A3A203830332C207961773A202D33392E37312C2070697463683A203020696E2027776F726C642729
 wither_add_friends, boolean, 01
 wither_debug_active, boolean, 00
-wither_session_id, long, 000000000000002F
+wither_session_id, long, 0000000000000030
 wither_system_active, boolean, 00
 
