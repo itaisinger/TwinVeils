@@ -1,0 +1,224 @@
+# ----------------------------------------
+# 1. THE WAND & SELECTION
+# ----------------------------------------
+command /portalwand:
+    permission: op
+    trigger:
+        give player 1 golden hoe named "&e&lPortal Wand" with lore "&7Left-Click: Pos 1", "&7Right-Click: Pos 2"
+        send "&e[Portals] You got the wand!" to player
+
+on left click with golden hoe:
+    if name of player's tool is "&e&lPortal Wand":
+        cancel event
+        set {portal::%player%::pos1} to location of target block
+        send "&e[Portals] Position 1 set to %{portal::%player%::pos1}%" to player
+
+on right click with golden hoe:
+    if name of player's tool is "&e&lPortal Wand":
+        cancel event
+        set {portal::%player%::pos2} to location of target block
+        send "&e[Portals] Position 2 set to %{portal::%player%::pos2}%" to player
+
+# ----------------------------------------
+# 2. CREATING, LINKING & DELETING (SEPARATED)
+# ----------------------------------------
+
+# --- CREATE COMMAND ---
+command /portalcreate <text>:
+    permission: op
+    usage: &c/portalcreate <name>
+    trigger:
+        if {portal::%player%::pos1} is not set:
+            send "&cSet Pos 1 with the Portal Wand first!" to player
+            stop
+        if {portal::%player%::pos2} is not set:
+            send "&cSet Pos 2 with the Portal Wand first!" to player
+            stop
+        
+        # Save the region bounds
+        set {portals::list::%arg-1%} to arg-1
+        set {portals::%arg-1%::pos1} to {portal::%player%::pos1}
+        set {portals::%arg-1%::pos2} to {portal::%player%::pos2}
+        send "&a[Portals] Created portal region: &e%arg-1%" to player
+
+# --- LINK COMMAND ---
+command /portallink <text> <text>:
+    permission: op
+    usage: &c/portallink <from_portal> <to_portal>
+    trigger:
+        if {portals::list::%arg-1%} is not set:
+            send "&cPortal '%arg-1%' does not exist." to player
+            stop
+        if {portals::list::%arg-2%} is not set:
+            send "&cPortal '%arg-2%' does not exist." to player
+            stop
+        
+        # Link Portal A to Portal B
+        set {portals::%arg-1%::target} to arg-2
+        send "&a[Portals] Linked &e%arg-1% &ato &e%arg-2%" to player
+
+# --- DELETE COMMAND ---
+command /portaldelete <text>:
+    permission: op
+    usage: &c/portaldelete <name>
+    trigger:
+        if {portals::list::%arg-1%} is not set:
+            send "&cPortal '%arg-1%' does not exist." to player
+            stop
+        
+        # Wipe all data for this portal
+        delete {portals::list::%arg-1%}
+        delete {portals::%arg-1%::pos1}
+        delete {portals::%arg-1%::pos2}
+        delete {portals::%arg-1%::target}
+        
+        # Remove any links POINTING to this deleted portal
+        loop {portals::list::*}:
+            if {portals::%loop-value%::target} is arg-1:
+                delete {portals::%loop-value%::target}
+                send "&e[Portals] Removed broken link from %loop-value%." to player
+                
+        send "&c[Portals] Successfully deleted portal: &e%arg-1%" to player
+
+# --- LIST COMMAND ---
+command /portallist:
+    permission: op
+    trigger:
+        send "&e--- Active Portals ---" to player
+        if size of {portals::list::*} is 0:
+            send "&7None." to player
+        else:
+            loop {portals::list::*}:
+                set {_target} to {portals::%loop-value%::target}
+                if {_target} is set:
+                    send "&a%loop-value% &7-> &e%{_target}%" to player
+                else:
+                    send "&c%loop-value% &7(Unlinked)" to player
+
+# ----------------------------------------
+# 3. THE SEAMLESS TELEPORT ENGINE (PATCHED)
+# ----------------------------------------
+every 2 ticks:
+    loop all players:
+        # We will use this to track if they are currently standing inside ANY portal
+        set {_isInsideAnyPortal} to false
+        
+        loop {portals::list::*}:
+            set {_portalName} to loop-value-2
+            set {_p1} to {portals::%{_portalName}%::pos1}
+            set {_p2} to {portals::%{_portalName}%::pos2}
+            
+            set {_minX} to min(x-coord of {_p1}, x-coord of {_p2})
+            set {_minY} to min(y-coord of {_p1}, y-coord of {_p2})
+            set {_minZ} to min(z-coord of {_p1}, z-coord of {_p2})
+            
+            set {_maxX} to max(x-coord of {_p1}, x-coord of {_p2}) + 1
+            set {_maxY} to max(y-coord of {_p1}, y-coord of {_p2}) + 1
+            set {_maxZ} to max(z-coord of {_p1}, z-coord of {_p2}) + 1
+            
+            set {_px} to x-coord of loop-player
+            set {_py} to y-coord of loop-player
+            set {_pz} to z-coord of loop-player
+            
+            # Check if player is inside THIS bounding box
+            if {_px} >= {_minX}:
+                if {_px} <= {_maxX}:
+                    if {_py} >= {_minY}:
+                        if {_py} <= {_maxY}:
+                            if {_pz} >= {_minZ}:
+                                if {_pz} <= {_maxZ}:
+                                    
+                                    # They are inside a portal zone!
+                                    set {_isInsideAnyPortal} to true
+                                    
+                                    # If they don't have the cooldown lock, teleport them!
+                                    if {portal::locked::%loop-player%} is not set:
+                                        
+                                        set {_targetName} to {portals::%{_portalName}%::target}
+                                        if {_targetName} is set:
+                                            
+                                            set {_tP1} to {portals::%{_targetName}%::pos1}
+                                            set {_tP2} to {portals::%{_targetName}%::pos2}
+                                            set {_tMinX} to min(x-coord of {_tP1}, x-coord of {_tP2})
+                                            set {_tMinY} to min(y-coord of {_tP1}, y-coord of {_tP2})
+                                            set {_tMinZ} to min(z-coord of {_tP1}, z-coord of {_tP2})
+                                            
+                                            set {_offsetX} to {_tMinX} - {_minX}
+                                            set {_offsetY} to {_tMinY} - {_minY}
+                                            set {_offsetZ} to {_tMinZ} - {_minZ}
+
+                                            load chunk at location({_tMinX},{_tMinY},{_tMinZ})
+                                            wait 1 second
+                                            make console execute command "execute as %loop-player% at @s run tp @s ~%{_offsetX}% ~%{_offsetY}% ~%{_offsetZ}%"
+                                            
+                                            # Apply the spatial lock instantly
+                                            set {portal::locked::%loop-player%} to true
+        
+        # --- THE FIX ---
+        # If the loop finishes and they are NOT inside any portal box, remove the lock!
+        if {_isInsideAnyPortal} is false:
+            delete {portal::locked::%loop-player%}
+
+## chunk loader ##
+# ----------------------------------------
+# 1. THE CHUNK WAND
+# ----------------------------------------
+command /chunkwand:
+    permission: op
+    trigger:
+        give player 1 diamond hoe named "&b&lChunk Wand" with lore "&7Left-Click: Pos 1", "&7Right-Click: Pos 2"
+        send "&b[Chunks] You got the Chunk Wand!" to player
+
+on left click with diamond hoe:
+    if name of player's tool is "&b&lChunk Wand":
+        cancel event
+        set {chunkwand::%player%::pos1} to location of target block
+        send "&b[Chunks] Position 1 set to %{chunkwand::%player%::pos1}%" to player
+
+on right click with diamond hoe:
+    if name of player's tool is "&b&lChunk Wand":
+        cancel event
+        set {chunkwand::%player%::pos2} to location of target block
+        send "&b[Chunks] Position 2 set to %{chunkwand::%player%::pos2}%" to player
+
+# ----------------------------------------
+# 2. FORCE LOAD COMMANDS
+# ----------------------------------------
+command /addforce:
+    permission: op
+    trigger:
+        if {chunkwand::%player%::pos1} is not set:
+            send "&cSet Pos 1 and Pos 2 with the Chunk Wand first!" to player
+            stop
+        if {chunkwand::%player%::pos2} is not set:
+            send "&cSet Pos 2 with the Chunk Wand first!" to player
+            stop
+            
+        # Get the X and Z coordinates (Y doesn't matter for chunks)
+        set {_x1} to floor(x-coord of {chunkwand::%player%::pos1})
+        set {_z1} to floor(z-coord of {chunkwand::%player%::pos1})
+        
+        set {_x2} to floor(x-coord of {chunkwand::%player%::pos2})
+        set {_z2} to floor(z-coord of {chunkwand::%player%::pos2})
+
+        # Execute the vanilla command using the player's dimension
+        make console execute command "execute as %player% at @s run forceload add %{_x1}% %{_z1}% %{_x2}% %{_z2}%"
+        
+        send "&a[Chunks] Force-loaded all chunks between your two selected blocks!" to player
+
+# --- BONUS: REMOVE FORCE COMMAND ---
+command /removeforce:
+    permission: op
+    trigger:
+        if {chunkwand::%player%::pos1} is not set:
+            send "&cSet Pos 1 and Pos 2 with the Chunk Wand first!" to player
+            stop
+            
+        set {_x1} to floor(x-coord of {chunkwand::%player%::pos1})
+        set {_z1} to floor(z-coord of {chunkwand::%player%::pos1})
+        set {_x2} to floor(x-coord of {chunkwand::%player%::pos2})
+        set {_z2} to floor(z-coord of {chunkwand::%player%::pos2})
+        
+        make console execute command "execute as %player% at @s run forceload remove %{_x1}% %{_z1}% %{_x2}% %{_z2}%"
+        
+        send "&c[Chunks] Removed force-loading for the selected chunks!" to player
