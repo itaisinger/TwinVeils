@@ -1,0 +1,104 @@
+# ----------------------------------------
+# 1. CONFIGURATION & LOAD EVENT
+# ----------------------------------------
+on load:
+    # --- EDIT THESE COORDINATES ---
+    # Set the exact location of the chest to check
+    set {maze_chest::chest_pos} to location at -862, 67, -1371 in world "world"
+    
+    # Set the exact location where the structure should be placed
+    set {maze_chest::struct_pos} to location at -879, 64, -1389 in world "world"
+    # ------------------------------
+    
+    # Initialize variables if they don't exist yet
+    if {maze_chest::active} is not set:
+        set {maze_chest::active} to false
+    if {maze_chest::debug} is not set:
+        set {maze_chest::debug} to false
+        
+    debugMsg("&eStructure script reloaded. Chest: %{maze_chest::chest_pos}% | Target: %{maze_chest::struct_pos}%")
+
+# ----------------------------------------
+# 2. DEBUG FUNCTION
+# ----------------------------------------
+function debugMsg(msg: text):
+    if {maze_chest::debug} is true:
+        loop all players:
+            if loop-player is op:
+                send "&8[&dStructDebug&8] &7%{_msg}%" to loop-player
+
+# ----------------------------------------
+# 3. TOGGLE COMMANDS
+# ----------------------------------------
+command /maze_chest <text>:
+    permission: op
+    usage: &c/structsystem <on|off>
+    trigger:
+        if arg-1 is "on":
+            set {maze_chest::active} to true
+            send "&a[System] Structure swapper enabled!" to player
+            debugMsg("System toggled ON by %player%.")
+        else if arg-1 is "off":
+            set {maze_chest::active} to false
+            send "&c[System] Structure swapper disabled!" to player
+            debugMsg("System toggled OFF by %player%.")
+        else:
+            send "&cUsage: /structsystem <on|off>" to player
+
+command /maze_chest_debug <text>:
+    permission: op
+    usage: &c/maze_chest_debug <on|off>
+    trigger:
+        if arg-1 is "on":
+            set {maze_chest::debug} to true
+            send "&a[System] Debug mode enabled!" to player
+        else if arg-1 is "off":
+            set {maze_chest::debug} to false
+            send "&c[System] Debug mode disabled!" to player
+        else:
+            send "&cUsage: /structdebug <on|off>" to player
+
+# ----------------------------------------
+# 4. THE 10-SECOND ENGINE
+# ----------------------------------------
+# ----------------------------------------
+# 4. THE 10-SECOND ENGINE
+# ----------------------------------------
+every 10 seconds:
+    # 1. Check if the system is turned on
+    if {sys::active} is not true:
+        stop
+        
+    debugMsg("Running 10-second container check...")
+    
+    set {_chestLoc} to {sys::chest_pos}
+    set {_structLoc} to {sys::struct_pos}
+    
+    # 2. Extract clean integer coordinates for the console command
+    set {_x} to floor(x-coordinate of {_structLoc})
+    set {_y} to floor(y-coordinate of {_structLoc})
+    set {_z} to floor(z-coordinate of {_structLoc})
+    set {_worldName} to "%world of {_structLoc}%"
+    
+    # 3. Verify the block is a valid container (Safely catching Copper Chests)
+    set {_blockType} to "%type of block at {_chestLoc}%"
+    set {_isValidContainer} to false
+    
+    if block at {_chestLoc} is a chest or a barrel:
+        set {_isValidContainer} to true
+    if {_blockType} contains "copper chest":
+        set {_isValidContainer} to true
+        
+    if {_isValidContainer} is true:
+        set {_inv} to inventory of block at {_chestLoc}
+        
+        # 4. Check for the Blaze Powder
+        if {_inv} contains blaze powder:
+            debugMsg("&aBlaze powder found. Placing Structure 1.")
+            make console execute command "execute in minecraft:%{_worldName}% run place template structure1 %{_x}% %{_y}% %{_z}%"
+        else:
+            debugMsg("&cNo blaze powder. Placing Structure 2.")
+            make console execute command "execute in minecraft:%{_worldName}% run place template structure2 %{_x}% %{_y}% %{_z}%"
+            
+    else:
+        debugMsg("&4ERROR: Block at %{_chestLoc}% is not a valid container! Found: %{_blockType}%")
