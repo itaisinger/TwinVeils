@@ -1,5 +1,5 @@
 options:
-    safe_radius: 50
+    safe_radius: 53
     safe_radius_2: 25.6
     wither_start: 07:00
     wither_end: 18:00
