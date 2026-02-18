@@ -2,9 +2,9 @@ friends should:
 - send username, ill do: 
 	- add user to lp team: /lp user [Username] parent set [group]
 	- add user to chat team: /team join [friendsChat/uniChat] [username]
-- address to join is: 192.168.1.188:25577
+- address to join is: 83.229.81.188:25565
 
 i should:
-- adress to join: localhost:25577 or 127.0.0.1:25577
+- adress to join: localhost:25577 or 83.229.81.188:25565
 
 176.228.190.74

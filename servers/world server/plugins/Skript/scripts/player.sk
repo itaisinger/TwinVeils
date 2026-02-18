@@ -1,0 +1,22 @@
+on load:
+    set {spawn::enc_u} to location(-512,64,512,"world")
+    set {spawn::enc_f} to location(512,64,-512,"world")
+
+    set {spawm::rad} to 10
+
+#spawn
+on respawn:
+    if bed location of player is not set:
+        wait 1 tick
+        
+        # Friends Team Spawn
+        if player has permission "team.friendsChat":
+            set {_x} to x-coord of {spawm::enc_f}
+            set {_z} to z-coord of {spawm::enc_f}
+            execute console command "/spreadplayers %{_x}% %{_z}% 2 15 false %player%"
+            
+        # Uni Team Spawn
+        else if player has permission "team.uniChat":
+            set {_x} to x-coord of {spawm::enc_u}
+            set {_z} to z-coord of {spawm::enc_u}
+            execute console command "/spreadplayers %{_x}% %{_z}% 2 15 false %player%"
