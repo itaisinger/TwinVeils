@@ -12,9 +12,10 @@ on right click with echo shard:
     echo_sfx(1.4,{_loc})
     send "&5%y-coordinate of player%" to player
     wait 1 second
-    echo_sfx(0.7,{_loc})
+    echo_sfx(1,{_loc})
     send "&5%z-coordinate of player%" to player
 
 function echo_sfx(pitch: number,loc: location):
-    play sound "minecraft:block.bell.use" with pitch 0.5+{_pitch} at {_loc}
-    play sound "minecraft:block.end_portal_frame.fill" with volume 1.5 and pitch 1.2+{_pitch} at {_loc}
+    # play sound "minecraft:block.bell.use" with pitch 0.5+{_pitch} at {_loc}
+    # play sound "minecraft:block.end_portal_frame.fill" with volume 1.5 and pitch 1.2+{_pitch} at {_loc}
+    play sound "night.bell" with volume 1.5 and pitch {_pitch} at {_loc}

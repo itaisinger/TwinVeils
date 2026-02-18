@@ -24,6 +24,11 @@
       "custom/oceanhead_done"
     ]
   },
+  "night.bell": {
+    "sounds": [
+      "custom/night_bell"
+    ]
+  },
   "trial_chest.startup": {
     "sounds": [
       "custom/trial_startup"
