@@ -501,6 +501,13 @@ command /fillstands <number>:
         
         send "&aEquipped %{_count}% armor stands."
 
+#
+command /c:
+    permission: op
+    trigger:
+        execute console command "/set weather clear"
+        execute console command "/time set day"
+#
 function equip_stand_slot(e: entity, slot: text):
     # 1. 20% Chance to skip
     # if chance of 10%:
