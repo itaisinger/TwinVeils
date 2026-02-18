@@ -1,607 +1,642 @@
-[04:24:56] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[04:24:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[04:24:57] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:24:58] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
-[04:24:58] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[05:27:39] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[05:27:39] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[05:27:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:27:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[05:27:41] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SkBee (3.15.0)
-[04:24:58] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+[05:27:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), TangledMaze (3.1.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[04:25:02] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[04:25:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[04:25:04] [ServerMain/INFO]: Loaded 1470 recipes
-[04:25:04] [ServerMain/INFO]: Loaded 1584 advancements
-[04:25:04] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[04:25:05] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 348.8ms
-[04:25:05] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
-[04:25:05] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[04:25:05] [Server thread/INFO]: Loading properties
-[04:25:05] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[04:25:05] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[04:25:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:25:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:25:06] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[04:25:06] [Server thread/INFO]: Default game type: SURVIVAL
-[04:25:06] [Server thread/INFO]: Generating keypair
-[04:25:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:25:06] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[04:25:06] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[04:25:06] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[04:25:06] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[04:25:06] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[04:25:06] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[04:25:06] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[04:25:07] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[04:25:08] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4b6f3e93]
-[04:25:08] [Server thread/INFO]: [TangledMaze] Loading server plugin TangledMaze v3.1.0
-[04:25:08] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[04:25:08] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[04:25:08] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[04:25:08] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[04:25:09] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[04:25:09] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[04:25:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:25:09] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[04:25:09] [Server thread/INFO]:         __    
-[04:25:09] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[04:25:09] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[04:25:09] [Server thread/INFO]: 
-[04:25:09] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[04:25:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[04:25:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[04:25:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1013ms)
-[04:25:10] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[04:25:10] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[04:25:10] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[04:25:10] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[04:25:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[04:25:10] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[04:25:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[04:25:11] [Server thread/INFO]: Preparing level "world"
-[04:25:11] [Server thread/INFO]: Loading 125 persistent chunks for world 'minecraft:overworld'...
-[04:25:11] [Server thread/INFO]: Preparing spawn area: 7%
-[04:25:12] [Server thread/INFO]: Prepared spawn area in 876 ms
-[04:25:12] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[04:25:12] [Server thread/INFO]: Preparing spawn area: 100%
-[04:25:12] [Server thread/INFO]: Prepared spawn area in 2 ms
-[04:25:12] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[04:25:12] [Server thread/INFO]: Prepared spawn area in 2 ms
-[04:25:12] [Server thread/INFO]: Done preparing level "world" (1.427s)
-[04:25:12] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[04:25:13] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[04:25:14] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[04:25:14] [Server thread/INFO]: [TangledMaze] Enabling TangledMaze v3.1.0
-[04:25:14] [Server thread/INFO]: [TangledMaze]     LootChest plugin not detected. Loot chests can't be used.
-[04:25:14] [Server thread/INFO]: [TangledMaze]     Download available at: https://www.spigotmc.org/resources/lootchest.61564/
-[04:25:14] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[04:25:14] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
-[04:25:14] [Server thread/INFO]: [TAB] Enabled in 568ms
-[04:25:14] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[04:25:15] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[04:25:15] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[04:25:15] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[04:25:15] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[04:25:15] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[04:25:15] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1260ms
-[04:25:15] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[04:25:15] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[04:25:15] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[04:25:15] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[04:25:15] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[04:25:15] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[04:25:15] [Server thread/INFO]: [SkBee]  - 56 events
-[04:25:15] [Server thread/INFO]: [SkBee]  - 71 effects
-[04:25:15] [Server thread/INFO]: [SkBee]  - 240 expressions
-[04:25:15] [Server thread/INFO]: [SkBee]  - 27 conditions
-[04:25:15] [Server thread/INFO]: [SkBee]  - 32 sections
-[04:25:15] [Server thread/INFO]: [SkBee]  - 11 properties
-[04:25:15] [Server thread/INFO]: [SkBee] Update checker disabled!
-[04:25:15] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.79 seconds
-[04:25:15] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[04:25:15] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[04:25:15] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[04:25:15] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[04:25:15] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[04:25:15] [Server thread/INFO]: [spark] Starting background profiler...
-[04:25:16] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[04:25:16] [Server thread/INFO]: Running delayed init tasks
-[04:25:16] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[04:25:16] [Server thread/INFO]: [Skript] Loading variables...
-[04:25:16] [Server thread/INFO]: [Skript] Loaded 449 variables in 0.0 seconds
-[04:25:16] [Craft Scheduler Thread - 2 - TangledMaze/INFO]: [TangledMaze] Plugin is up to date :)
-[04:25:18] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[04:25:24] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
-[04:25:24] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[04:25:24] [Server thread/INFO]: [Skript] Loaded 26 scripts with a total of 247 structures in 8.42 seconds
-[04:25:24] [Server thread/INFO]: [Skript] Finished loading.
-[04:25:24] [Server thread/INFO]: Done (28.831s)! For help, type "help"
-[04:25:24] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[04:25:24] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
-[04:25:24] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[04:25:27] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[04:25:27] [Server thread/INFO]: trololol72[/127.0.0.1:64047] logged in with entity id 5 at ([world]-694.4058500381115, 66.5, -1444.6430904518209)
-[04:25:28] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[04:25:28] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[04:25:37] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:25:50] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:26:03] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:26:16] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:26:17] [Server thread/INFO]: trololol72 issued server command: /c
-[04:26:17] [Server thread/INFO]: Set the weather to clear
-[04:26:17] [Server thread/INFO]: Set the time to 1000
-[04:26:29] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:26:42] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:26:55] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:27:08] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:27:21] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:27:34] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:27:47] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:28:00] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:28:13] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:28:26] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:28:39] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:28:52] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:29:05] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:29:18] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:29:31] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:29:44] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:29:57] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:30:10] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:30:23] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:30:25] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
-[04:30:27] [Server thread/INFO]: trololol72 issued server command: /give_loot_smith
-[04:30:33] [Server thread/INFO]: trololol72 issued server command: /give_loot_butcher
-[04:30:34] [Server thread/INFO]: trololol72 issued server command: /give_loot_butcher
-[04:30:36] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:30:46] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
-[04:30:49] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:31:02] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:31:15] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:31:28] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:31:41] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:31:54] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:32:07] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:32:20] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:32:33] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:32:46] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:32:59] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:33:12] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:33:25] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:33:37] [Server thread/INFO]: trololol72 issued server command: //set bedrock
-[04:33:37] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
-[04:33:38] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:33:51] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:34:04] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:34:17] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:34:30] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:34:38] [Server thread/INFO]: trololol72 issued server command: //set bedrock
-[04:34:43] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:34:48] [Server thread/INFO]: trololol72 issued server command: //set air
-[04:34:51] [Server thread/INFO]: trololol72 issued server command: //undo
-[04:34:55] [Server thread/INFO]: trololol72 issued server command: //undo
-[04:34:56] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:35:01] [Server thread/INFO]: trololol72 issued server command: //redo
-[04:35:09] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:35:22] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:35:35] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:35:48] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:35:58] [Server thread/INFO]: trololol72 issued server command: /c
-[04:35:58] [Server thread/INFO]: Set the weather to clear
-[04:35:58] [Server thread/INFO]: Set the time to 1000
-[04:36:01] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:36:14] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:36:27] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:36:40] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:36:53] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:37:06] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:37:19] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:37:32] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:37:45] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:37:58] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:38:11] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:38:24] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:38:37] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:38:50] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:39:03] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:39:16] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:39:29] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:39:36] [Server thread/INFO]: trololol72 issued server command: //set bedrock
-[04:39:42] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:39:55] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:40:08] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:40:21] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:40:34] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:40:47] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:41:00] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:41:13] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:41:26] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:41:39] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:41:52] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:42:05] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:42:11] [Server thread/INFO]: trololol72 issued server command: //set bedrock
-[04:42:18] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:42:19] [Server thread/INFO]: trololol72 issued server command: //set bedrock
-[04:42:31] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:42:44] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:42:57] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:43:10] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:43:23] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:43:36] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:43:49] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:44:02] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:44:15] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:44:28] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:44:41] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:44:54] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:45:07] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:45:20] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:45:33] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:45:46] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:45:59] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:46:01] [Server thread/INFO]: trololol72 issued server command: /c
-[04:46:01] [Server thread/INFO]: Set the weather to clear
-[04:46:01] [Server thread/INFO]: Set the time to 1000
-[04:46:12] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:46:25] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:46:38] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:46:51] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:47:04] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:47:17] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:47:30] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:47:43] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:47:56] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:48:09] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:48:22] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:48:35] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:48:48] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:49:01] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:49:14] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:49:27] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:49:40] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:49:53] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:50:06] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:50:09] [Server thread/INFO]: trololol72 issued server command: /playsound minecraft:block.end_portal_frame.fill
-[04:50:09] [Server thread/INFO]: [trololol72: Played sound minecraft:block.end_portal_frame.fill to trololol72]
-[04:50:19] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:50:24] [Server thread/INFO]: trololol72 issued server command: /playsound minecraft:block.end_portal_frame.fill player
-[04:50:24] [Server thread/INFO]: [trololol72: Played sound minecraft:block.end_portal_frame.fill to trololol72]
-[04:50:26] [Server thread/INFO]: trololol72 issued server command: /playsound minecraft:block.end_portal_frame.fill player
-[04:50:26] [Server thread/INFO]: [trololol72: Played sound minecraft:block.end_portal_frame.fill to trololol72]
-[04:50:27] [Server thread/INFO]: trololol72 issued server command: /playsound minecraft:block.end_portal_frame.fill player
-[04:50:27] [Server thread/INFO]: [trololol72: Played sound minecraft:block.end_portal_frame.fill to trololol72]
-[04:50:28] [Server thread/INFO]: trololol72 issued server command: /playsound minecraft:block.end_portal_frame.fill player
-[04:50:28] [Server thread/INFO]: [trololol72: Played sound minecraft:block.end_portal_frame.fill to trololol72]
-[04:50:32] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:50:45] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:50:58] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:51:11] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:51:24] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:51:37] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:51:50] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:52:03] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:52:16] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:52:29] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:52:42] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:52:55] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:53:08] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:53:21] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:53:34] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:53:47] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:54:00] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:54:13] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:54:26] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:54:39] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:54:52] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:55:05] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:55:08] [Server thread/INFO]: trololol72 issued server command: /c
-[04:55:08] [Server thread/INFO]: Set the weather to clear
-[04:55:08] [Server thread/INFO]: Set the time to 1000
-[04:55:18] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:55:31] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:55:44] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:55:57] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:56:10] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:56:23] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:56:36] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:56:49] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:57:02] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:57:15] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:57:28] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:28] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:28] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:57:28] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:28] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:28] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:28] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:29] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:30] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:31] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:32] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:33] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:34] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:35] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:38] [Server thread/INFO]: [Not Secure] [@] "hi"
-[04:57:41] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:57:54] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:58:07] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:58:20] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:58:33] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:58:46] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:58:59] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:59:12] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:59:25] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:59:38] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[04:59:51] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:00:04] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:00:17] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:00:30] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:00:43] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:00:56] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:01:09] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:01:22] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:01:35] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:01:48] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:02:01] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:02:14] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:02:27] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:02:40] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:02:53] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:03:06] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:03:19] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:03:32] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:03:45] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:03:58] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:04:11] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:04:24] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:04:37] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:04:50] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:05:03] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:05:16] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:05:21] [Server thread/INFO]: trololol72 issued server command: /c
-[05:05:21] [Server thread/INFO]: Set the weather to clear
-[05:05:21] [Server thread/INFO]: Set the time to 1000
-[05:05:29] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:05:42] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:05:55] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:06:08] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:06:21] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:06:34] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:06:47] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:07:00] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:07:13] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:07:26] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:07:39] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:07:52] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:08:05] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:08:18] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:08:31] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:08:44] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:08:57] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:09:10] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:09:23] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:09:36] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:09:49] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:10:02] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:10:15] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:10:28] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:10:41] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:10:54] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:11:07] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:11:20] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:11:33] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:11:46] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:11:59] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:12:12] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:12:25] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:12:38] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:12:51] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:13:04] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:13:17] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:13:30] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:13:43] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
-[05:13:51] [Server thread/INFO]: Stopping the server
-[05:13:51] [Server thread/INFO]: Stopping server
-[05:13:51] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[05:13:51] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[05:13:51] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[05:13:51] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[05:13:51] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[05:13:51] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[05:13:51] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[05:13:51] [Server thread/INFO]: [TAB] Disabled in 0ms
-[05:13:51] [Server thread/INFO]: [TangledMaze] Disabling TangledMaze v3.1.0
-[05:13:51] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[05:13:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[05:13:51] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[05:13:51] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[05:13:51] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[05:13:51] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[05:13:51] [Server thread/INFO]: [LuckPerms] Closing storage...
-[05:13:51] [Server thread/INFO]: [LuckPerms] Goodbye!
-[05:13:51] [Server thread/INFO]: Saving players
-[05:13:51] [Server thread/INFO]: trololol72 lost connection: Server closed
-[05:13:51] [Server thread/INFO]: trololol72 left the game
-[05:13:51] [Server thread/INFO]: Saving worlds
-[05:13:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:13:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[05:13:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[05:13:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Saved 45 block chunks, 254 entity chunks, 0 poi chunks in world 'world' in 0.61s
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[05:13:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[05:13:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[05:13:52] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[05:13:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:13:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:13:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:13:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[05:13:52] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[05:13:52] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[05:13:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[05:13:52] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[05:27:46] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[05:27:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[05:27:48] [ServerMain/INFO]: Loaded 1470 recipes
+[05:27:48] [ServerMain/INFO]: Loaded 1584 advancements
+[05:27:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[05:27:48] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 381.7ms
+[05:27:49] [ServerMain/WARN]: resource-pack-id missing, using default of 9f4c4e40-fa74-3ea6-aafc-7287c7e9d9ff
+[05:27:49] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[05:27:49] [Server thread/INFO]: Loading properties
+[05:27:49] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[05:27:49] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:27:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:27:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:27:49] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[05:27:50] [Server thread/INFO]: Default game type: SURVIVAL
+[05:27:50] [Server thread/INFO]: Generating keypair
+[05:27:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:27:50] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[05:27:50] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[05:27:50] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[05:27:50] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[05:27:50] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[05:27:50] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[05:27:50] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[05:27:51] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[05:27:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2b34961c]
+[05:27:52] [Server thread/INFO]: [TangledMaze] Loading server plugin TangledMaze v3.1.0
+[05:27:52] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[05:27:52] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[05:27:52] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[05:27:52] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[05:27:53] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[05:27:53] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[05:27:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:27:53] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[05:27:53] [Server thread/INFO]:         __    
+[05:27:53] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[05:27:53] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[05:27:53] [Server thread/INFO]: 
+[05:27:53] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[05:27:53] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[05:27:53] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[05:27:54] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1021ms)
+[05:27:54] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[05:27:54] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[05:27:54] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[05:27:54] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[05:27:54] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[05:27:54] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[05:27:54] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[05:27:55] [Server thread/INFO]: Preparing level "world"
+[05:27:55] [Server thread/INFO]: Loading 125 persistent chunks for world 'minecraft:overworld'...
+[05:27:55] [Server thread/INFO]: Preparing spawn area: 7%
+[05:27:56] [Server thread/INFO]: Prepared spawn area in 915 ms
+[05:27:56] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[05:27:56] [Server thread/INFO]: Prepared spawn area in 1 ms
+[05:27:56] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[05:27:56] [Server thread/INFO]: Preparing spawn area: 100%
+[05:27:56] [Server thread/INFO]: Prepared spawn area in 2 ms
+[05:27:56] [Server thread/INFO]: Done preparing level "world" (1.550s)
+[05:27:56] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[05:27:57] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[05:27:58] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[05:27:58] [Server thread/INFO]: [TangledMaze] Enabling TangledMaze v3.1.0
+[05:27:58] [Server thread/INFO]: [TangledMaze]     LootChest plugin not detected. Loot chests can't be used.
+[05:27:58] [Server thread/INFO]: [TangledMaze]     Download available at: https://www.spigotmc.org/resources/lootchest.61564/
+[05:27:58] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[05:27:59] [Server thread/INFO]: [TAB] [WARN] Failed to download skin "1753261242" from MineSkin: Server returned HTTP response code: 400 for URL: https://api.mineskin.org/get/uuid/1753261242
+[05:27:59] [Server thread/INFO]: [TAB] Enabled in 520ms
+[05:27:59] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[05:27:59] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[05:27:59] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[05:27:59] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[05:27:59] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[05:27:59] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[05:27:59] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[05:27:59] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[05:27:59] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[05:27:59] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[05:27:59] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1415ms
+[05:27:59] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[05:27:59] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[05:27:59] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[05:27:59] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[05:27:59] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[05:27:59] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[05:27:59] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[05:27:59] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[05:27:59] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[05:28:00] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[05:28:00] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[05:28:00] [Server thread/INFO]: [SkBee]  - 56 events
+[05:28:00] [Server thread/INFO]: [SkBee]  - 71 effects
+[05:28:00] [Server thread/INFO]: [SkBee]  - 240 expressions
+[05:28:00] [Server thread/INFO]: [SkBee]  - 27 conditions
+[05:28:00] [Server thread/INFO]: [SkBee]  - 32 sections
+[05:28:00] [Server thread/INFO]: [SkBee]  - 11 properties
+[05:28:00] [Server thread/INFO]: [SkBee] Update checker disabled!
+[05:28:00] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.05 seconds
+[05:28:00] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[05:28:00] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[05:28:00] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[05:28:00] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[05:28:00] [Server thread/INFO]: [spark] Starting background profiler...
+[05:28:00] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[05:28:00] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[05:28:00] [Server thread/INFO]: Running delayed init tasks
+[05:28:00] [Server thread/INFO]: [Skript] Loading variables...
+[05:28:00] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[05:28:00] [Server thread/INFO]: [Skript] Loaded 449 variables in 0.1 seconds
+[05:28:01] [Craft Scheduler Thread - 0 - TangledMaze/INFO]: [TangledMaze] Plugin is up to date :)
+[05:28:08] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
+[05:28:08] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[05:28:08] [Server thread/INFO]: [Skript] Loaded 26 scripts with a total of 247 structures in 7.66 seconds
+[05:28:08] [Server thread/INFO]: [Skript] Finished loading.
+[05:28:08] [Server thread/INFO]: Done (30.155s)! For help, type "help"
+[05:28:08] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
+[05:28:08] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[05:28:21] [Server thread/INFO]: That position is not loaded
+[05:28:34] [Server thread/INFO]: That position is not loaded
+[05:28:46] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[05:28:46] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[05:28:47] [Server thread/INFO]: That position is not loaded
+[05:28:48] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[05:28:48] [Server thread/INFO]: trololol72[/127.0.0.1:61534] logged in with entity id 5 at ([world]-727.9423238812428, 87.27702777745168, -1474.4211303728187)
+[05:28:49] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[05:28:49] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[05:29:00] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:29:13] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:29:26] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:29:39] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:29:52] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:30:05] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:30:18] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:30:31] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:30:44] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:30:47] [Server thread/INFO]: trololol72 issued server command: /c
+[05:30:47] [Server thread/INFO]: Set the weather to clear
+[05:30:47] [Server thread/INFO]: Set the time to 1000
+[05:30:57] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:31:10] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:31:23] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:31:36] [Server thread/INFO]: That position is not loaded
+[05:31:49] [Server thread/INFO]: That position is not loaded
+[05:32:02] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:32:06] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[05:32:06] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[05:32:15] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:32:20] [Notification Thread/WARN]: [com.fastasyncworldedit.core.Fawe] High memory usage detected, FAWE will attempt to slow operations to prevent a crash.
+[05:32:26] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[05:32:29] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:32:41] [Server thread/INFO]: trololol72 issued server command: //brush sphere obsidian 3
+[05:32:41] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:32:44] [Server thread/INFO]: trololol72 issued server command: //mask bedrock
+[05:32:54] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:33:07] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:33:21] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:33:32] [Server thread/INFO]: trololol72 issued server command: //undo 4
+[05:33:34] [Server thread/INFO]: That position is not loaded
+[05:33:47] [Server thread/INFO]: That position is not loaded
+[05:33:53] [Server thread/INFO]: trololol72 issued server command: //brush sphere 70%obsidian,30%bedrock 3
+[05:34:00] [Server thread/INFO]: That position is not loaded
+[05:34:13] [Server thread/INFO]: That position is not loaded
+[05:34:26] [Server thread/INFO]: That position is not loaded
+[05:34:39] [Server thread/INFO]: That position is not loaded
+[05:34:52] [Server thread/INFO]: That position is not loaded
+[05:35:05] [Server thread/INFO]: That position is not loaded
+[05:35:13] [Server thread/INFO]: trololol72 issued server command: /give_loot_maze
+[05:35:18] [Server thread/INFO]: That position is not loaded
+[05:35:19] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
+[05:35:31] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:35:44] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:35:57] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:36:10] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:36:23] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:36:36] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:36:49] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:37:02] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:37:15] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:37:28] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:37:41] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:37:54] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:38:07] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:38:20] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:38:33] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:38:46] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:38:59] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:39:12] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:39:25] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:39:37] [Server thread/INFO]: trololol72 issued server command: /tp ~20 ~ ~
+[05:39:37] [Server thread/INFO]: [trololol72: Teleported trololol72 to -676.772430, 66.000000, -1446.359211]
+[05:39:38] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:39:45] [Server thread/INFO]: trololol72 issued server command: /tp ~25 ~ ~
+[05:39:45] [Server thread/INFO]: [trololol72: Teleported trololol72 to -671.520249, 66.000000, -1446.332412]
+[05:39:51] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:40:04] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:40:17] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:40:30] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:40:40] [Server thread/INFO]: trololol72 issued server command: /c
+[05:40:40] [Server thread/INFO]: Set the weather to clear
+[05:40:40] [Server thread/INFO]: Set the time to 1000
+[05:40:43] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:40:56] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:41:09] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:41:22] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:41:35] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:41:48] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:42:01] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:42:14] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:42:27] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:42:40] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:42:53] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:43:06] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:43:19] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:43:32] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:43:45] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:43:58] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:44:11] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:44:24] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:44:37] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:44:50] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:45:03] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:45:16] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:45:29] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:45:42] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:45:55] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:46:08] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:46:21] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:46:34] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:46:47] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:47:00] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:47:13] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:47:26] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:47:39] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:47:52] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:48:05] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:48:18] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:48:31] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:48:44] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:48:57] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:49:10] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:49:23] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:49:36] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:49:49] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:50:02] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:50:15] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:50:28] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:50:41] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:50:54] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:51:07] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:51:20] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:51:33] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:51:46] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:51:59] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:52:12] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:52:25] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:52:38] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:52:51] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:53:04] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:53:17] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:53:17] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[05:53:17] [Server thread/INFO]: Successfully reloaded enclosure.sk. (326ms)
+[05:53:30] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:53:43] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:53:56] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:54:09] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:54:22] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:54:35] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:54:48] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:55:01] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:55:14] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:55:19] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:55:27] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:55:29] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:55:40] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:55:41] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:55:43] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:55:46] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:55:53] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:56:06] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:56:12] [Server thread/INFO]: [Skript] Reloading enclosure.sk...
+[05:56:12] [Server thread/INFO]: Successfully reloaded enclosure.sk. (181ms)
+[05:56:15] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:56:17] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:56:19] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:56:19] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:56:32] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:56:45] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:56:49] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:56:56] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:56:58] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:56:58] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:57:11] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:57:19] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:57:22] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:57:24] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:57:37] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:57:50] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:58:01] [Server thread/INFO]: trololol72 issued server command: /tpb fix maze
+[05:58:01] [Server thread/INFO]: Set tpb location for 'fix maze' to: x: -691.7, y: 63, z: -1442.3, yaw: -176.66, pitch: -0.64 in 'world'
+[05:58:03] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:58:10] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[05:58:12] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[05:58:16] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:58:16] [Server thread/INFO]: [Not Secure] [@] "hiu"
+[05:58:29] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:58:42] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:58:49] [Server thread/INFO]: trololol72 issued server command: /tpb fix maze
+[05:58:53] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[05:58:54] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[05:58:55] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:59:03] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[05:59:06] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[05:59:08] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:59:10] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[05:59:13] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[05:59:21] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:59:34] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[05:59:47] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:00:00] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:00:13] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:00:26] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:00:39] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:00:52] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:01:01] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[06:01:05] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:01:06] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[06:01:18] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:01:31] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:01:44] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:01:57] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:02:10] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:02:23] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:02:36] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:02:49] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:03:02] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:03:15] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:03:28] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:03:41] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:03:54] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:04:07] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:04:20] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:04:33] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:04:46] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:04:59] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:05:12] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:05:25] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:05:38] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:05:51] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:06:04] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:06:17] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:06:30] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:06:43] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:06:56] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:07:09] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:07:22] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:07:35] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:07:48] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:08:01] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:08:14] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:08:27] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:08:40] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:08:53] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:09:06] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:09:19] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:09:32] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:09:45] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:09:58] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:10:11] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:10:17] [Server thread/INFO]: trololol72 issued server command: /c
+[06:10:17] [Server thread/INFO]: Set the weather to clear
+[06:10:17] [Server thread/INFO]: Set the time to 1000
+[06:10:24] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:10:37] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:10:50] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:11:03] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:11:16] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:11:29] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:11:42] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:11:55] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:12:08] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:12:21] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:12:34] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:12:47] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:13:00] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:13:13] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:13:26] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:13:39] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:13:52] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:14:05] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:14:18] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:14:31] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:14:44] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:14:57] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:15:10] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:15:23] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:15:36] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:15:49] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:16:02] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:16:15] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:16:28] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:16:41] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:16:54] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:17:07] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:17:20] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:17:33] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:17:46] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:17:59] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:18:12] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:18:25] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:18:38] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:18:51] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:19:04] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:19:17] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:19:30] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:19:43] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:19:44] [Server thread/INFO]: trololol72 issued server command: /c
+[06:19:44] [Server thread/INFO]: Set the weather to clear
+[06:19:44] [Server thread/INFO]: Set the time to 1000
+[06:19:56] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:20:09] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:20:22] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:20:35] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:20:48] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:21:01] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:21:14] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:21:27] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:21:40] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:21:53] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:22:06] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:22:19] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:22:32] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:22:45] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:22:58] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:23:11] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:23:24] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:23:37] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:23:50] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:24:03] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:24:16] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:24:29] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:24:29] [Server thread/INFO]: trololol72 issued server command: /give_loot_maze
+[06:24:34] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
+[06:24:42] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:24:55] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:25:08] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:25:08] [Server thread/INFO]: trololol72 issued server command: //copy
+[06:25:18] [Server thread/INFO]: trololol72 issued server command: //paste
+[06:25:21] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:25:34] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:25:47] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:26:00] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:26:13] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:26:26] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:26:39] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:26:52] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:27:05] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:27:18] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:27:31] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:27:44] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:27:57] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:28:10] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:28:23] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:28:36] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:28:49] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:29:02] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:29:15] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:29:28] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:29:29] [Server thread/INFO]: trololol72 issued server command: /c
+[06:29:29] [Server thread/INFO]: Set the weather to clear
+[06:29:29] [Server thread/INFO]: Set the time to 1000
+[06:29:41] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:29:54] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:30:07] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:30:20] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:30:33] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:30:46] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:30:59] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:31:12] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:31:25] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:31:38] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:31:51] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:32:04] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:32:17] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:32:30] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:32:43] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:32:56] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:33:09] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:33:22] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:33:35] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:33:48] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:34:01] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:34:14] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:34:27] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:34:29] [Server thread/INFO]: trololol72 issued server command: /tpb maze fix
+[06:34:29] [Server thread/INFO]: Set tpb location for 'maze fix' to: x: -691.33, y: 66, z: -1443.3, yaw: -171.94, pitch: 51.49 in 'world'
+[06:34:38] [Server thread/INFO]: trololol72 issued server command: /tpb list
+[06:34:38] [Server thread/INFO]: tpb list:
+[06:34:38] [Server thread/INFO]: - -1430 953
+[06:34:38] [Server thread/INFO]: - ancient 1
+[06:34:38] [Server thread/INFO]: - ancient 2
+[06:34:38] [Server thread/INFO]: - ancient 3
+[06:34:38] [Server thread/INFO]: - arg-1
+[06:34:38] [Server thread/INFO]: - b
+[06:34:38] [Server thread/INFO]: - bedrock chets 1-4
+[06:34:38] [Server thread/INFO]: - bedrock chets 1-3
+[06:34:38] [Server thread/INFO]: - bedrock chets 1-2
+[06:34:38] [Server thread/INFO]: - bedrock chets 1-1
+[06:34:38] [Server thread/INFO]: - bedrock chets 2-4
+[06:34:38] [Server thread/INFO]: - bedrock chets 2-3
+[06:34:38] [Server thread/INFO]: - bedrock chets 2-2
+[06:34:38] [Server thread/INFO]: - bedrock chets 2-1
+[06:34:38] [Server thread/INFO]: - bedrock chets 3-4
+[06:34:38] [Server thread/INFO]: - bedrock chets 3-3
+[06:34:38] [Server thread/INFO]: - bedrock chets 3-2
+[06:34:38] [Server thread/INFO]: - bedrock chets 3-1
+[06:34:38] [Server thread/INFO]: - book
+[06:34:38] [Server thread/INFO]: - c
+[06:34:38] [Server thread/INFO]: - ch
+[06:34:38] [Server thread/INFO]: - cherry golem
+[06:34:38] [Server thread/INFO]: - cherry witch
+[06:34:38] [Server thread/INFO]: - dead village 1
+[06:34:38] [Server thread/INFO]: - enc f
+[06:34:38] [Server thread/INFO]: - enc u
+[06:34:38] [Server thread/INFO]: - end chunk
+[06:34:38] [Server thread/INFO]: - end copy
+[06:34:38] [Server thread/INFO]: - end cunk
+[06:34:38] [Server thread/INFO]: - fix maze
+[06:34:38] [Server thread/INFO]: - hideout 1
+[06:34:38] [Server thread/INFO]: - k
+[06:34:38] [Server thread/INFO]: - l
+[06:34:38] [Server thread/INFO]: - lab
+[06:34:38] [Server thread/INFO]: - lab m
+[06:34:38] [Server thread/INFO]: - lib
+[06:34:38] [Server thread/INFO]: - list
+[06:34:38] [Server thread/INFO]: - lush
+[06:34:38] [Server thread/INFO]: - maze badlands
+[06:34:38] [Server thread/INFO]: - maze fix
+[06:34:38] [Server thread/INFO]: - maze ocean
+[06:34:38] [Server thread/INFO]: - maze pale
+[06:34:38] [Server thread/INFO]: - maze snow
+[06:34:38] [Server thread/INFO]: - mine lib
+[06:34:38] [Server thread/INFO]: - mine village
+[06:34:38] [Server thread/INFO]: - mineshaft
+[06:34:38] [Server thread/INFO]: - mineshaft village
+[06:34:38] [Server thread/INFO]: - n
+[06:34:38] [Server thread/INFO]: - nether enc f
+[06:34:38] [Server thread/INFO]: - nether enc u
+[06:34:38] [Server thread/INFO]: - netherite village
+[06:34:38] [Server thread/INFO]: - ocean temple 1
+[06:34:38] [Server thread/INFO]: - ocean temple 2
+[06:34:38] [Server thread/INFO]: - ocean temple 3
+[06:34:38] [Server thread/INFO]: - ocean village
+[06:34:38] [Server thread/INFO]: - p
+[06:34:38] [Server thread/INFO]: - pillager
+[06:34:38] [Server thread/INFO]: - pillager camp
+[06:34:38] [Server thread/INFO]: - pillger
+[06:34:38] [Server thread/INFO]: - r
+[06:34:38] [Server thread/INFO]: - t
+[06:34:38] [Server thread/INFO]: - trial
+[06:34:38] [Server thread/INFO]: - trial chest
+[06:34:40] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:34:53] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:34:56] [Server thread/INFO]: trololol72 issued server command: /tpb fix maze
+[06:35:04] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[06:35:06] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:35:07] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[06:35:19] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:35:32] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[06:35:32] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[06:35:32] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[06:35:35] [Server thread/INFO]: Stopping the server
+[06:35:35] [Server thread/INFO]: Stopping server
+[06:35:35] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[06:35:35] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[06:35:35] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[06:35:35] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[06:35:35] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[06:35:35] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[06:35:35] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[06:35:35] [Server thread/INFO]: [TAB] Disabled in 0ms
+[06:35:35] [Server thread/INFO]: [TangledMaze] Disabling TangledMaze v3.1.0
+[06:35:35] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[06:35:35] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[06:35:35] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[06:35:35] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[06:35:35] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[06:35:35] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[06:35:35] [Server thread/INFO]: [LuckPerms] Closing storage...
+[06:35:35] [Server thread/INFO]: [LuckPerms] Goodbye!
+[06:35:35] [Server thread/INFO]: Saving players
+[06:35:35] [Server thread/INFO]: Saving worlds
+[06:35:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:35:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:35:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:35:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Saved 52 block chunks, 278 entity chunks, 0 poi chunks in world 'world' in 0.80s
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[06:35:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[06:35:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[06:35:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[06:35:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:35:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:35:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:35:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:35:36] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[06:35:36] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[06:35:36] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[06:35:36] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

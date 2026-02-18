@@ -178,6 +178,29 @@ command /enc_ring_bells:
     trigger:
         ring_bell()
 #
+command /bedrock_break_eff <number> <number> <number>:
+    permission: op
+    trigger:
+        set {_loc} to location(arg-1,arg-2,arg-3,"world")
+        play sound "minecraft:entity.ender_eye.death" with volume 0.1 with pitch 0.1 at {_loc}
+        bedrock_break_effect({_loc})
+#
+command /bedrock_break <number> <number> <number>:
+    permission: op
+    trigger:
+        set {_loc} to location(arg-1,arg-2,arg-3,"world")
+        play sound "minecraft:entity.ender_eye.death" with volume 0.3 with pitch 0.1 at {_loc}
+        bedrock_break_effect({_loc})
+        set block at {_loc} to air
+#
+command /bedrock_place <number> <number> <number>:
+    permission: op
+    trigger:
+        set {_loc} to location(arg-1,arg-2,arg-3,"world")
+        play sound "minecraft:entity.ender_eye.death" with volume 0.4 with pitch 0.1 at {lo}
+        bedrock_break_effect({_loc})
+        set block at {_loc} to bedrock
+#
 command /enc_clear <text> <text>:
     permission: op
     usage: "&cUsage: /enc_clear <direction> <index>"
