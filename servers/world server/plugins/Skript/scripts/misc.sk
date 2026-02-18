@@ -432,50 +432,66 @@ command /give_loot_maze:
 # The Function
 # Usage Example: detailBricks(player's location, 15, 25.5)
 function detailBricks(center: location, radius: number, chance: number):
+    # Rule applied: Defaulting Skript systems to OFF initially
+    if {system::detailing_enabled} is not set:
+        set {system::detailing_enabled} to false
+    if {system::detailing_enabled} is false:
+        stop
+
     loop blocks in radius {_radius} around {_center}:
-        # 1. Roll the chance immediately to save server performance
         chance of {_chance}%:
-            
-            # 2. Grab the block's exact DNA as text
             set {_dataString} to "%block data of loop-block%"
             set {_modified} to false
             
-            # --- SOLID STONE BRICKS (Can roll Mossy OR Cracked) ---
-            if {_dataString} starts with "minecraft:stone_bricks":
+            # --- SKIP BLOCKS THAT ARE ALREADY DEGRADED ---
+            if {_dataString} contains "cracked" or "mossy" or "cobbled":
+                continue
+            
+            # --- SOLID STONE BRICKS ---
+            if {_dataString} contains "stone_bricks":
                 set {_roll} to random integer between 1 and 2
                 if {_roll} is 1:
-                    replace "minecraft:stone_bricks" with "minecraft:mossy_stone_bricks" in {_dataString}
+                    replace "stone_bricks" with "mossy_stone_bricks" in {_dataString}
                 else:
-                    replace "minecraft:stone_bricks" with "minecraft:cracked_stone_bricks" in {_dataString}
+                    replace "stone_bricks" with "cracked_stone_bricks" in {_dataString}
                 set {_modified} to true
                 
-            # --- STAIRS, SLABS, AND WALLS (Only Mossy exists in Vanilla) ---
-            else if {_dataString} starts with "minecraft:stone_brick_stairs":
-                replace "minecraft:stone_brick_stairs" with "minecraft:mossy_stone_brick_stairs" in {_dataString}
+            else if {_dataString} contains "stone_brick_stairs":
+                replace "stone_brick_stairs" with "mossy_stone_brick_stairs" in {_dataString}
                 set {_modified} to true
                 
-            else if {_dataString} starts with "minecraft:stone_brick_slab":
-                replace "minecraft:stone_brick_slab" with "minecraft:mossy_stone_brick_slab" in {_dataString}
+            else if {_dataString} contains "stone_brick_slab":
+                replace "stone_brick_slab" with "mossy_stone_brick_slab" in {_dataString}
                 set {_modified} to true
                 
-            else if {_dataString} starts with "minecraft:stone_brick_wall":
-                replace "minecraft:stone_brick_wall" with "minecraft:mossy_stone_brick_wall" in {_dataString}
+            else if {_dataString} contains "stone_brick_wall":
+                replace "stone_brick_wall" with "mossy_stone_brick_wall" in {_dataString}
                 set {_modified} to true
                 
-            # --- OTHER BRICK TYPES (Deepslate, Nether, Blackstone) ---
-            else if {_dataString} starts with "minecraft:deepslate_bricks":
-                replace "minecraft:deepslate_bricks" with "minecraft:cracked_deepslate_bricks" in {_dataString}
+            # --- DEEPSLATE STUFF ---
+            else if {_dataString} contains "deepslate_bricks":
+                replace "deepslate_bricks" with "cracked_deepslate_bricks" in {_dataString}
                 set {_modified} to true
                 
-            else if {_dataString} starts with "minecraft:nether_bricks":
-                replace "minecraft:nether_bricks" with "minecraft:cracked_nether_bricks" in {_dataString}
+            else if {_dataString} contains "deepslate_tiles":
+                replace "deepslate_tiles" with "cracked_deepslate_tiles" in {_dataString}
                 set {_modified} to true
                 
-            else if {_dataString} starts with "minecraft:polished_blackstone_bricks":
-                replace "minecraft:polished_blackstone_bricks" with "minecraft:cracked_polished_blackstone_bricks" in {_dataString}
+            else if {_dataString} contains "polished_deepslate":
+                # Vanilla has no cracked polished deepslate, so we degrade to cobbled
+                replace "polished_deepslate" with "cobbled_deepslate" in {_dataString} 
+                set {_modified} to true
+                
+            # --- OTHER BRICK TYPES ---
+            else if {_dataString} contains "nether_bricks":
+                replace "nether_bricks" with "cracked_nether_bricks" in {_dataString}
+                set {_modified} to true
+                
+            else if {_dataString} contains "polished_blackstone_bricks":
+                replace "polished_blackstone_bricks" with "cracked_polished_blackstone_bricks" in {_dataString}
                 set {_modified} to true
 
-            # 3. If a match was found and changed, apply the new DNA back to the block!
+            # Apply the new DNA back to the block!
             if {_modified} is true:
                 set block data of loop-block to {_dataString} parsed as block data
 #
