@@ -13,3 +13,9 @@ i should:
 
 old:
 192.168.1.188:25577
+
+
+install:
+
+shaders: https://modrinth.com/mod/iris/version/1.10.4+1.21.11-fabric
+mod menu: https://modrinth.com/mod/modmenu
