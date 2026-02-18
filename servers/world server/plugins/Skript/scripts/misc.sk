@@ -505,7 +505,8 @@ command /fillstands <number>:
 command /c:
     permission: op
     trigger:
-        execute console command "/set weather clear"
+        send "done"
+        execute console command "/weather clear"
         execute console command "/time set day"
 #
 function equip_stand_slot(e: entity, slot: text):
