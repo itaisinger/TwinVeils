@@ -1,22 +1,68 @@
 on load:
-    set {spawn::enc_u} to location(-512,64,512,"world")
-    set {spawn::enc_f} to location(512,64,-512,"world")
+    set {spawn::enc_u} to location(-512, 64, 512, world("world"))
+    set {spawn::enc_f} to location(512, 64, -512, world("world"))
+    set {spawn::rad} to 10
+    debugLog("Variables loaded successfully.")
 
-    set {spawm::rad} to 10
+    if {debug::enabled} is not set:
+        set {debug::enabled} to true  # Default state
+    debugLog("Variables loaded successfully.")
 
-#spawn
+function debugLog(msg: text):
+    if {debug::enabled} is true:
+        send "[Spawn Debug] %{_msg}%" to console
+
+# Handle First-Time Joins
+on first join:
+    debugLog("%player% joined for the first time.")
+    wait 3 ticks 
+    
+    if player has permission "team.friendsChat":
+        set {_x} to x-coord of {spawn::enc_f}
+        set {_z} to z-coord of {spawn::enc_f}
+        debugLog("First join: Spreading %player% to Friends spawn (%{_x}%, %{_z}%).")
+        execute console command "/spreadplayers %{_x}% %{_z}% 2 %{spawn::rad}% false %player%"
+        
+    else if player has permission "team.uniChat":
+        set {_x} to x-coord of {spawn::enc_u}
+        set {_z} to z-coord of {spawn::enc_u}
+        debugLog("First join: Spreading %player% to Uni spawn (%{_x}%, %{_z}%).")
+        execute console command "/spreadplayers %{_x}% %{_z}% 2 %{spawn::rad}% false %player%"
+    else:
+        debugLog("First join: %player% has no team permissions yet.")
+
+# Handle Deaths/Respawns
 on respawn:
     if bed location of player is not set:
         wait 1 tick
+        debugLog("%player% respawning without a bed.")
         
         # Friends Team Spawn
         if player has permission "team.friendsChat":
-            set {_x} to x-coord of {spawm::enc_f}
-            set {_z} to z-coord of {spawm::enc_f}
-            execute console command "/spreadplayers %{_x}% %{_z}% 2 15 false %player%"
+            set {_x} to x-coord of {spawn::enc_f}
+            set {_z} to z-coord of {spawn::enc_f}
+            debugLog("Respawn: Spreading %player% to Friends spawn (%{_x}%, %{_z}%).")
+            execute console command "/spreadplayers %{_x}% %{_z}% 2 %{spawn::rad}% false %player%"
             
         # Uni Team Spawn
         else if player has permission "team.uniChat":
-            set {_x} to x-coord of {spawm::enc_u}
-            set {_z} to z-coord of {spawm::enc_u}
-            execute console command "/spreadplayers %{_x}% %{_z}% 2 15 false %player%"
+            set {_x} to x-coord of {spawn::enc_u}
+            set {_z} to z-coord of {spawn::enc_u}
+            debugLog("Respawn: Spreading %player% to Uni spawn (%{_x}%, %{_z}%).")
+            execute console command "/spreadplayers %{_x}% %{_z}% 2 %{spawn::rad}% false %player%"
+
+
+#
+
+
+#commands
+command /player_debug_toggle:
+    permission: admin.debug
+    description: Toggles spawn script debug messages
+    trigger:
+        if {debug::enabled} is true:
+            set {debug::enabled} to false
+            send "&cSpawn debugging disabled." to player
+        else:
+            set {debug::enabled} to true
+            send "&aSpawn debugging enabled." to player

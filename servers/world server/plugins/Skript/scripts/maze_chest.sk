@@ -64,7 +64,9 @@ every 13 seconds:
 
 function maze_loop():
     # 1. Check if the system is turned on
-      
+    if {maze_chest::chest_pos} is not loaded:
+        stop
+
     debugMsg("Running 10-second container check...")
     
      # Grab the updated maze_chest variables!
