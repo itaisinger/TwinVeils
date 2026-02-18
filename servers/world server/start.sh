@@ -1,2 +1,2 @@
 #!/bin/bash
-java -Xms4500M -Xmx4500M -jar paper.jar nogui
+java -Xms6500M -Xmx6500M -jar paper.jar nogui
