@@ -98,7 +98,10 @@ command /portallist:
 # ----------------------------------------
 # 3. THE SEAMLESS TELEPORT ENGINE (PATCHED)
 # ----------------------------------------
-every 2 ticks:
+every 1 minute:
+    if 1 is 1:
+        stop
+
     loop all players:
         # We will use this to track if they are currently standing inside ANY portal
         set {_isInsideAnyPortal} to false
