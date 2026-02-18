@@ -217,34 +217,35 @@ every 1 second:
                 set {_px} to x-coord of loop-player
                 set {_pz} to z-coord of loop-player
 
-                if {_px} is between {_xMin} and {_xMax}:
-                    if {_pz} is between {_zMin} and {_zMax}:
-                        
-                        set {_isSafe} to false
-                        
-                        # Safety Checks
-                        loop {safe_spots::*}:
-                            set {_spot} to loop-value-3
-                            set y-coord of {_spot} to y-coord of loop-player
-                            if distance between loop-player and {_spot} <= {@safe_radius}:
-                                set {_isSafe} to true
-                                wither_debug("DEBUG: %loop-player% is SAFE near spot %loop-index-1%")
-                                    
-                        if {_isSafe} is false: 
-                            loop {safe_spots_2::*}:
-                                set {_spot2} to loop-value-3
-                                set y-coord of {_spot2} to y-coord of loop-player
-                                if distance between loop-player and {_spot2} <= {@safe_radius_2}:
+                if gamemode of loop-player is survival:
+                    if {_px} is between {_xMin} and {_xMax}:
+                        if {_pz} is between {_zMin} and {_zMax}:
+                            
+                            set {_isSafe} to false
+
+                            # Safety Checks
+                            loop {safe_spots::*}:
+                                set {_spot} to loop-value-3
+                                set y-coord of {_spot} to y-coord of loop-player
+                                if distance between loop-player and {_spot} <= {@safe_radius}:
                                     set {_isSafe} to true
-                                    wither_debug("DEBUG: %loop-player% is SAFE near secondary spot %loop-index-1%")
+                                    wither_debug("DEBUG: %loop-player% is SAFE near spot %loop-index-1%")
+                                        
+                            if {_isSafe} is false: 
+                                loop {safe_spots_2::*}:
+                                    set {_spot2} to loop-value-3
+                                    set y-coord of {_spot2} to y-coord of loop-player
+                                    if distance between loop-player and {_spot2} <= {@safe_radius_2}:
+                                        set {_isSafe} to true
+                                        wither_debug("DEBUG: %loop-player% is SAFE near secondary spot %loop-index-1%")
 
-                        if world of loop-player is "world_nether" or "world_the_end":
-                            set {_isSafe} to true
+                            if world of loop-player is "world_nether" or "world_the_end":
+                                set {_isSafe} to true
 
-                        # Tally Unsafe Players
-                        if {_isSafe} is false:
-                            add 1 to {_unsafePlayers}
-                            set {_targetPlayer} to loop-player
+                            # Tally Unsafe Players
+                            if {_isSafe} is false:
+                                add 1 to {_unsafePlayers}
+                                set {_targetPlayer} to loop-player
             
             # --- SYSTEM 2: SPAWN LOGIC ---
             if {_unsafePlayers} > 0:
