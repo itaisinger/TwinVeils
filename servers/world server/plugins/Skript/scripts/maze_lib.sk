@@ -1,0 +1,13 @@
+on load:
+    set {maze_lib::loc} to location(-727, 66, -1108, world "world") 
+    set {maze_lib::rad} to 100 
+#
+on spawn of a monster:
+    # Check if the mob is spawning within 50 blocks of that center
+    if distance between event-location and {maze_lib::loc} is less than {maze_lib::rad}:
+        cancel event
+#
+on spawn of a bat:
+    # Check if the mob is spawning within 50 blocks of that center
+    if distance between event-location and {maze_lib::loc} is less than {maze_lib::rad}:
+        cancel event
