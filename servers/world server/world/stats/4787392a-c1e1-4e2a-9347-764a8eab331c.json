@@ -1,21 +1,25 @@
 {
   "stats": {
-    "minecraft:killed_by": {
-      "minecraft:creeper": 1,
-      "minecraft:zombie": 1
+    "minecraft:picked_up": {
+      "minecraft:stone_axe": 1
     },
     "minecraft:custom": {
       "minecraft:sleep_in_bed": 2,
-      "minecraft:time_since_rest": 499,
+      "minecraft:time_since_rest": 414,
+      "minecraft:fall_one_cm": 235,
       "minecraft:walk_one_cm": 3423,
-      "minecraft:total_world_time": 54244,
-      "minecraft:leave_game": 8,
+      "minecraft:total_world_time": 64503,
+      "minecraft:leave_game": 9,
       "minecraft:fly_one_cm": 27,
       "minecraft:damage_taken": 550,
-      "minecraft:play_time": 54244,
-      "minecraft:deaths": 3,
-      "minecraft:jump": 3,
-      "minecraft:time_since_death": 385
+      "minecraft:play_time": 64503,
+      "minecraft:deaths": 4,
+      "minecraft:jump": 4,
+      "minecraft:time_since_death": 338
+    },
+    "minecraft:killed_by": {
+      "minecraft:creeper": 1,
+      "minecraft:zombie": 1
     },
     "minecraft:used": {
       "minecraft:black_bed": 1

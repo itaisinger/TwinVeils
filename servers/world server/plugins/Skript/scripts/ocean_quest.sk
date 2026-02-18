@@ -7,8 +7,8 @@
 
 on load:
     # 1. Debug Toggle (Default to false if not set)
-    if {ocean_debug} is not set:
-        set {ocean_debug} to false
+    # if {ocean_debug} is not set:
+    set {ocean_debug} to false
 
     # 2. Set Locations ONLY if they are missing (Persist across reloads)
     set {loc1} to location(-348, 75, -697, "world")
@@ -173,6 +173,7 @@ function spawn_chest():
 
 #commands
 command /ocean_chest:
+    permission: op
     trigger:
         spawn_chest()
 
@@ -210,4 +211,4 @@ command /reset_puzzle_data:
         loop {locs::*}:
             set {puzzle::placed::%loop-index%} to false
 
-        broadcast "&c&lCLEARED all puzzle data!"
+        # broadcast "&c&lCLEARED all puzzle data!"
