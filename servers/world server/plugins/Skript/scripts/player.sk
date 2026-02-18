@@ -53,7 +53,19 @@ on respawn:
 
 
 #
-
+on command "/teammsg":
+    send "&cYou do not have permission to this command."
+    cancel event
+on command "/tm":
+    send "&cYou do not have permission to this command."
+    cancel event
+on command "/minecraft:teammsg":
+    send "&cYou do not have permission to this command."
+    cancel event
+on command "/minecraft:tm":
+    send "&cYou do not have permission to this command."
+    cancel event
+#
 
 #commands
 command /player_debug_toggle:

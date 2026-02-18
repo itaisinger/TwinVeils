@@ -69,6 +69,7 @@ every 7 seconds:
     loopp()
 
 command /witch_loop:
+    permission: op
     trigger:
         loopp()
 

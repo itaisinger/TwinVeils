@@ -73,6 +73,7 @@ function set_strip(blck: item type, index: text):
 function ring_bell():
     set {_time} to time of world "world"
     enc_debug("&eIn-game time: %{_time}%")
+    # play sound "minecraft:night.bell" with pitch 1.3 to all players
     play sound "minecraft:block.bell.use" with pitch 0.8 to all players
 # 
 function ring_warn():
@@ -200,6 +201,12 @@ command /bedrock_place <number> <number> <number>:
         play sound "minecraft:entity.ender_eye.death" with volume 0.4 with pitch 0.1 at {lo}
         bedrock_break_effect({_loc})
         set block at {_loc} to bedrock
+#
+command /enc_bell:
+    permission: op
+    trigger:
+        ring_bell()
+
 #
 command /enc_clear <text> <text>:
     permission: op

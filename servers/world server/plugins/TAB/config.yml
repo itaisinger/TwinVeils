@@ -157,15 +157,14 @@ scoreboard:
 #         players:
 #           slots:
 #             - 44-80
-
 layout:
   enabled: true
   direction: COLUMNS
-  default-skin: "mineskin:1753261242"
+  default-skin: "player:Steve" # Changed from broken mineskin to a default player skin
   enable-remaining-players-text: false
   remaining-players-text: ""
   empty-slot-ping-value: 1000
-  # slot-count: 20
+  # Removed slot-count completely
   layouts:
     uni_layout:
       condition: "permission:group.uni"
@@ -173,8 +172,7 @@ layout:
       groups:
         uni:
           condition: "permission:group.uni"
-          slots: [1-80]
-        # This hidden group prevents the "fake players" from filling the list
+          slots: [1-10]
         others:
           condition: "permission:!all"
           slots: []
@@ -184,7 +182,7 @@ layout:
       groups:
         friends:
           condition: "permission:group.friends"
-          slots: [1-80]
+          slots: [1-10]
         others:
           condition: "permission:!all"
           slots: []
