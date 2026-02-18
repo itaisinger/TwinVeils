@@ -1,0 +1,20 @@
+# Default: System is passive/OFF until interaction
+on right click with echo shard:
+    remove 1 of player's tool from player
+    set {_loc} to location of head of player
+    set {_col} to rgb(58, 38, 82)
+    draw 20 dust particle using dustOption(black, 1.4) at {_loc} with offset vector(0.5, 0.5, 0.5) with extra 0.05
+    draw 20 dust particle using dustOption({_col}, 1.4) at {_loc} with offset vector(0.5, 0.5, 0.5) with extra 0.05
+
+    echo_sfx(0.5,{_loc})
+    send "&5%x-coordinate of player%" to player
+    wait 1 second
+    echo_sfx(1.4,{_loc})
+    send "&5%y-coordinate of player%" to player
+    wait 1 second
+    echo_sfx(0.7,{_loc})
+    send "&5%z-coordinate of player%" to player
+
+function echo_sfx(pitch: number,loc: location):
+    play sound "minecraft:block.bell.use" with pitch 0.5+{_pitch} at {_loc}
+    play sound "minecraft:block.end_portal_frame.fill" with volume 1.5 and pitch 1.2+{_pitch} at {_loc}
