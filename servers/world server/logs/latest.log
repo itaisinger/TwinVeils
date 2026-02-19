@@ -1,1138 +1,439 @@
-[18:48:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-100-generic (amd64)
-[18:48:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[18:48:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:48:38] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
-[18:48:38] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[13:27:34] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-100-generic (amd64)
+[13:27:34] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[13:27:35] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:27:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[13:27:36] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - HidePlugins (1.0-1.21), SkBee (3.15.0)
-[18:48:38] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[13:27:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[18:48:43] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
-[18:48:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[18:48:45] [ServerMain/INFO]: Loaded 1470 recipes
-[18:48:45] [ServerMain/INFO]: Loaded 1584 advancements
-[18:48:45] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[18:48:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 425.9ms
-[18:48:46] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
-[18:48:46] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[18:48:46] [Server thread/WARN]: ****************************
-[18:48:46] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[18:48:46] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[18:48:46] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[18:48:46] [Server thread/WARN]: ****************************
-[18:48:46] [Server thread/INFO]: Loading properties
-[18:48:46] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[18:48:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:48:46] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:48:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:48:47] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[18:48:48] [Server thread/INFO]: Default game type: SURVIVAL
-[18:48:48] [Server thread/INFO]: Generating keypair
-[18:48:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:48:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:48:48] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[18:48:48] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[18:48:48] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[18:48:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[18:48:48] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[18:48:48] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[18:48:49] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[18:48:50] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@32e86fe]
-[18:48:50] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[18:48:50] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[18:48:50] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v1.0-1.21
-[18:48:50] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[18:48:50] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[18:48:50] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[18:48:50] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[18:48:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:48:50] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[18:48:51] [Server thread/INFO]:         __    
-[18:48:51] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[18:48:51] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[18:48:51] [Server thread/INFO]: 
-[18:48:51] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[18:48:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[18:48:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[18:48:52] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1261ms)
-[18:48:52] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[18:48:52] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[18:48:52] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[18:48:52] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[18:48:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[18:48:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[18:48:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[18:48:54] [Server thread/INFO]: Preparing level "world"
-[18:48:54] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[18:48:54] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 2 NUMA nodes.
-[18:48:54] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
-[18:48:54] [Server thread/INFO]: Preparing spawn area: 28%
-[18:48:55] [Server thread/INFO]: Prepared spawn area in 382 ms
-[18:48:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[18:48:55] [Server thread/INFO]: Prepared spawn area in 1 ms
-[18:48:55] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[18:48:55] [Server thread/INFO]: Prepared spawn area in 1 ms
-[18:48:55] [Server thread/INFO]: Done preparing level "world" (1.160s)
-[18:48:55] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[18:48:56] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[18:48:57] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[18:48:57] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[18:48:57] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[18:48:57] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v1.0-1.21
-[18:48:57] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[18:48:57] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[18:48:57] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[18:48:58] [Server thread/INFO]: [TAB] Enabled in 413ms
-[18:48:58] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[18:48:58] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[18:48:59] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[18:48:59] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[18:48:59] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[18:48:59] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[18:48:59] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[18:48:59] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[18:48:59] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[18:48:59] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[18:48:59] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[18:48:59] [Server thread/INFO]: [SkBee]  - 56 events
-[18:48:59] [Server thread/INFO]: [SkBee]  - 71 effects
-[18:48:59] [Server thread/INFO]: [SkBee]  - 240 expressions
-[18:48:59] [Server thread/INFO]: [SkBee]  - 27 conditions
-[18:48:59] [Server thread/INFO]: [SkBee]  - 32 sections
-[18:48:59] [Server thread/INFO]: [SkBee]  - 11 properties
-[18:48:59] [Server thread/INFO]: [SkBee] Update checker disabled!
-[18:48:59] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.52 seconds
-[18:48:59] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[18:48:59] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[18:49:00] [Thread-13/INFO]: [Skript] Loaded 5684 aliases in 2616ms
-[18:49:00] [Server thread/INFO]: [spark] Starting background profiler...
-[18:49:00] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[18:49:00] [Server thread/INFO]: Running delayed init tasks
-[18:49:00] [Server thread/INFO]: [Skript] Loading variables...
-[18:49:01] [Server thread/INFO]: [Skript] Loaded 480 variables in 0.1 seconds
-[18:49:05] [User Authenticator #0/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
-[18:49:05] [User Authenticator #2/INFO]: UUID of player sepsepony is 6f466547-39cf-4301-948f-093b8befb2f3
-[18:49:05] [User Authenticator #4/INFO]: UUID of player Imashcha1 is e8501483-79fa-4724-9461-f461b5f621f7
-[18:49:05] [User Authenticator #5/INFO]: UUID of player GoldeNightmar is 47e2df9f-3ab2-4891-91e3-66c6f1f98fda
-[18:49:05] [User Authenticator #1/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
-[18:49:05] [User Authenticator #3/INFO]: UUID of player pixellorde is 7edbf9e4-1ee7-4544-9a99-cb830796f18c
-[18:49:12] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
-[18:49:12] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
-[18:49:12] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
-[18:49:12] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[18:49:12] [Server thread/INFO]: [Skript] Loaded 29 scripts with a total of 264 structures in 11.58 seconds
-[18:49:12] [Server thread/INFO]: [Skript] Finished loading.
-[18:49:12] [Server thread/INFO]: Done (37.116s)! For help, type "help"
-[18:49:12] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[18:49:12] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
-[18:49:12] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[18:49:18] [Server thread/INFO]: [Join] Imashcha1 (Friends) joined
-[18:49:18] [Server thread/INFO]: Imashcha1[/93.173.36.93:54197] logged in with entity id 2 at ([world]985.6999999880791, 77.0, -1211.3265986670285)
-[18:49:18] [Server thread/INFO]: [Join] sepsepony (Uni) joined
-[18:49:18] [Server thread/INFO]: sepsepony[/5.29.21.131:35079] logged in with entity id 4 at ([world]-464.51836157547723, 52.0, 479.9640481278057)
-[18:49:18] [Server thread/INFO]: [Join] pixellorde (Uni) joined
-[18:49:18] [Server thread/INFO]: pixellorde[/87.70.157.181:63819] logged in with entity id 1 at ([world]-465.69999998807907, 52.0, 479.30000001192093)
-[18:49:18] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
-[18:49:18] [Server thread/INFO]: DonalDucker[/176.229.5.32:59108] logged in with entity id 6 at ([world]-385.8859564113649, 34.33226489655115, 415.9370866223214)
-[18:49:19] [Server thread/INFO]: [Join] Mefanek (Friends) joined
-[18:49:19] [Server thread/INFO]: Mefanek[/79.177.152.231:5738] logged in with entity id 3 at ([world]853.0445812671488, 98.0, -1301.1762054058843)
-[18:49:20] [Server thread/INFO]: [Join] GoldeNightmar (Uni) joined
-[18:49:20] [Server thread/INFO]: GoldeNightmar[/5.29.18.115:37637] logged in with entity id 5 at ([world]-434.8462909611341, 0.0, 652.4068934055275)
-[18:49:21] [Server thread/INFO]: Added Imashcha1 to team [friendsChat]
-[18:49:21] [Server thread/INFO]: [Sync] Imashcha1 -> Team friendsChat
-[18:49:21] [Server thread/INFO]: Added sepsepony to team [uniChat]
-[18:49:21] [Server thread/INFO]: [Sync] sepsepony -> Team uniChat
-[18:49:21] [Server thread/INFO]: Added pixellorde to team [uniChat]
-[18:49:21] [Server thread/INFO]: [Sync] pixellorde -> Team uniChat
-[18:49:21] [Server thread/INFO]: Added DonalDucker to team [uniChat]
-[18:49:21] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
-[18:49:21] [Server thread/INFO]: Added Mefanek to team [friendsChat]
-[18:49:21] [Server thread/INFO]: [Sync] Mefanek -> Team friendsChat
-[18:49:22] [User Authenticator #3/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[18:49:23] [Server thread/INFO]: Added GoldeNightmar to team [uniChat]
-[18:49:23] [Server thread/INFO]: [Sync] GoldeNightmar -> Team uniChat
-[18:49:23] [User Authenticator #3/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
-[18:49:26] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[18:49:26] [Server thread/INFO]: trololol72[/176.228.190.209:51852] logged in with entity id 398 at ([world]1327.9432460767296, 70.3566172342667, -958.6264114240801)
-[18:49:26] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
-[18:49:26] [Server thread/INFO]: LickMyLeg[/85.64.122.119:53714] logged in with entity id 620 at ([world]-286.46068390654074, 32.0, 360.0098271933235)
-[18:49:29] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[18:49:29] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[18:49:29] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
-[18:49:29] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
-[18:49:55] [Server thread/INFO]: [Death] DonalDucker was shot by Skeleton (Uni)
-[18:49:56] [Server thread/INFO]: [Spawn Debug] DonalDucker respawning without a bed.
-[18:49:56] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading DonalDucker to Uni spawn (-512, 512).
-[18:49:56] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[18:50:00] [Server thread/INFO]: [Death] Imashcha1 starved to death (Friends)
-[18:50:02] [Server thread/INFO]: [Death] sepsepony was slain by Zombie (Uni)
-[18:50:03] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[18:50:03] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[18:50:03] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[18:50:46] [Server thread/INFO]: [Death] Mefanek was slain by Zombie (Friends)
-[18:50:48] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[18:50:48] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[18:51:03] [Server thread/INFO]: [Death] Imashcha1 was shot by Parched (Friends)
-[18:51:55] [Server thread/INFO]: [Death] sepsepony was blown up by Creeper (Uni)
-[18:51:56] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[18:51:56] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[18:51:56] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[18:53:06] [User Authenticator #6/INFO]: UUID of player BishBish is b7b5ddb9-6ce7-4bd6-b3c4-60f2f26af371
-[18:53:08] [Server thread/INFO]: [Join] BishBish (Friends) joined
-[18:53:08] [Server thread/INFO]: BishBish[/176.230.186.151:54501] logged in with entity id 4343 at ([world]1102.1727608841018, 67.0, -1396.3013197444413)
-[18:53:08] [Server thread/INFO]: Added BishBish to team [friendsChat]
-[18:53:08] [Server thread/INFO]: [Sync] BishBish -> Team friendsChat
-[18:53:17] [Server thread/WARN]: BishBish moved too quickly! 4.478707597646007,-1.15233518685055,9.139538178938665
-[18:53:35] [Server thread/INFO]: [Death] Mefanek was slain by Husk (Friends)
-[18:53:40] [Server thread/INFO]: [Death] Imashcha1 was slain by Husk (Friends)
-[18:53:49] [Server thread/WARN]: trololol72 moved too quickly! 3.554213881175997,-11.552100468709014,-3.8610824694451935
-[18:53:53] [Server thread/INFO]: trololol72 issued server command: /tp BishBish
-[18:53:53] [Server thread/INFO]: [trololol72: Teleported trololol72 to BishBish]
-[18:54:37] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
-[18:54:37] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
-[18:54:39] [Server thread/INFO]: Villager Villager['Villager'/84, uuid='2e08b53d-aedd-43f0-b785-4e947552cad9', l='ServerLevel[world]', x=1007.37, y=92.00, z=-1183.45, cpos=[62, -74], tl=5983, v=true] died, message: 'Villager was blown up by Ra'
-[18:54:39] [Server thread/INFO]: [Death] GoldeNightmar was blown up by Ra (Uni)
-[18:54:40] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[18:54:40] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[18:54:40] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[18:54:41] [Server thread/INFO]: The particle was not visible for anybody
-[18:54:41] [Server thread/INFO]: The particle was not visible for anybody
-[18:54:41] [Server thread/INFO]: Named entity WitherBoss['Ra'/5084, uuid='37e6b628-324c-4444-9458-1d0aaea28909', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=140, v=true] died: Ra was killed
-[18:54:47] [Server thread/INFO]: [Death] BishBish was shot by a skull from Ra (Friends)
-[18:54:56] [Server thread/INFO]: trololol72 issued server command: /wither_add_friends
-[18:55:25] [Server thread/INFO]: trololol72 issued server command: /wither_add_friends
-[18:55:28] [Server thread/INFO]: [Death] DonalDucker was slain by Spider (Uni)
-[18:55:29] [Server thread/INFO]: [Spawn Debug] DonalDucker respawning without a bed.
-[18:55:29] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading DonalDucker to Uni spawn (-512, 512).
-[18:55:29] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[18:55:30] [Server thread/INFO]: trololol72 issued server command: /tp @e[type=wither,sort=nearest,limit=1] 0 -500 0
-[18:55:30] [Server thread/INFO]: [trololol72: Teleported Ra to 0.500000, -500.000000, 0.500000]
-[18:55:36] [User Authenticator #7/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
-[18:55:37] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
-[18:55:37] [Server thread/INFO]: Baba_Tova[/87.71.13.196:56380] logged in with entity id 5663 at ([world]1292.0488998930982, 64.0, -985.4988245908913)
-[18:55:38] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
-[18:55:38] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
-[18:55:41] [Server thread/INFO]: [Death] LickMyLeg withered away (Uni)
-[18:55:43] [Server thread/INFO]: [Spawn Debug] LickMyLeg respawning without a bed.
-[18:55:43] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading LickMyLeg to Uni spawn (-512, 512).
-[18:55:44] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[18:55:56] [Server thread/INFO]: trololol72 issued server command: /summon wither ~ ~ ~
-[18:55:56] [Server thread/INFO]: [trololol72: Summoned new Wither]
-[18:56:06] [Server thread/INFO]: [Death] Imashcha1 withered away while fighting Wither (Friends)
-[18:56:24] [Server thread/INFO]: [Death] Mefanek was slain by Husk (Friends)
-[18:56:34] [Server thread/INFO]: trololol72 issued server command: /tp GoldeNightmar
-[18:56:34] [Server thread/INFO]: [trololol72: Teleported trololol72 to GoldeNightmar]
-[18:56:44] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[18:56:44] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[18:56:49] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
-[18:56:49] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
-[18:57:11] [Server thread/INFO]: Villager Villager['Cartographer'/57, uuid='50d3564a-5c08-49fa-af57-39b3150b8765', l='ServerLevel[world]', x=1003.81, y=73.00, z=-1169.58, cpos=[62, -74], tl=9040, v=true] died, message: 'Cartographer was slain by Zombie'
-[18:57:43] [Server thread/INFO]: [Death] Imashcha1 was slain by Husk (Friends)
-[18:57:57] [Server thread/INFO]: [Death] BishBish was slain by Husk (Friends)
-[18:58:00] [Server thread/INFO]: [Death] Imashcha1 was doomed to fall (Friends)
-[18:58:13] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[18:58:13] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[18:58:21] [Server thread/INFO]: trololol72 issued server command: /tp pixellorde
-[18:58:21] [Server thread/INFO]: [trololol72: Teleported trololol72 to pixellorde]
-[18:58:27] [Server thread/INFO]: [Death] Mefanek was slain by Husk (Friends)
-[18:58:31] [Server thread/INFO]: [Death] Imashcha1 was doomed to fall (Friends)
-[18:58:32] [Server thread/INFO]: [Death] BishBish was shot by Skeleton (Friends)
-[18:59:05] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[18:59:05] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[18:59:17] [Server thread/INFO]: [Death] Mefanek was killed by Witch using magic (Friends)
-[18:59:27] [Server thread/INFO]: trololol72 issued server command: /tp @e[type=wither,sort=nearest,limit=1] 0 -500 0
-[18:59:27] [Server thread/INFO]: [trololol72: Teleported Wither to 0.500000, -500.000000, 0.500000]
-[18:59:31] [Server thread/INFO]: trololol72 issued server command: /summon wither ~ ~ ~ {Invul:220,CustomName:'{"text":"Ra","color":"red"}'}
-[18:59:31] [Server thread/INFO]: [trololol72: Summoned new {"text":"Ra","color":"red"}]
-[18:59:46] [Server thread/INFO]: [Death] sepsepony fell from a high place (Uni)
-[18:59:47] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[18:59:47] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[18:59:47] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:00:20] [Server thread/INFO]: trololol72 issued server command: /tp @e[type=wither,sort=nearest,limit=1] 0 -500 0
-[19:00:20] [Server thread/INFO]: [trololol72: Teleported {"text":"Ra","color":"red"} to 0.500000, -500.000000, 0.500000]
-[19:00:26] [Server thread/INFO]: trololol72 issued server command: /summon wither ~ ~ ~ {Invul:220,CustomName:"&Ra"}
-[19:00:26] [Server thread/INFO]: [trololol72: Summoned new &Ra]
-[19:00:40] [Server thread/INFO]: [Death] Imashcha1 was shot by a skull from &Ra (Friends)
-[19:00:43] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[19:00:44] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:00:44] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:00:44] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:00:56] [Server thread/INFO]: trololol72 issued server command: /gamerule mob_griefing true
-[19:00:56] [Server thread/INFO]: [trololol72: Gamerule mob_griefing is now set to: true]
-[19:01:20] [Server thread/INFO]: [Death] Imashcha1 was slain by BishBish (Friends)
-[19:01:27] [Server thread/INFO]: Villager Villager['Farmer'/83, uuid='76693319-cf91-4c3e-bd4c-54679be3fc2b', l='ServerLevel[world]', x=1001.30, y=77.00, z=-1181.42, cpos=[62, -74], tl=14148, v=true] died, message: 'Farmer was slain by Husk'
-[19:01:31] [Server thread/INFO]: [Death] BishBish was slain by Zombie Villager (Friends)
-[19:01:35] [Server thread/INFO]: [Death] LickMyLeg was shot by Skeleton (Uni)
-[19:01:35] [Server thread/INFO]: [Death] Baba_Tova was slain by Zombie Villager (Friends)
-[19:01:36] [Server thread/INFO]: [Spawn Debug] LickMyLeg respawning without a bed.
-[19:01:36] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading LickMyLeg to Uni spawn (-512, 512).
-[19:01:36] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:01:37] [Server thread/INFO]: [Death] Imashcha1 withered away (Friends)
-[19:01:47] [Server thread/INFO]: [Death] Imashcha1 was slain by Zombie Villager (Friends)
-[19:02:04] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
-[19:02:58] [Server thread/INFO]: [Death] Baba_Tova withered away (Friends)
-[19:03:20] [Server thread/INFO]: [Death] Imashcha1 was shot by a skull from &Ra (Friends)
-[19:03:38] [Server thread/INFO]: [Death] Imashcha1 was killed by Witch using magic (Friends)
-[19:03:40] [Server thread/INFO]: [Death] Mefanek withered away while fighting &Ra (Friends)
-[19:03:45] [Server thread/INFO]: The particle was not visible for anybody
-[19:03:45] [Server thread/INFO]: The particle was not visible for anybody
-[19:03:45] [Server thread/INFO]: Named entity WitherBoss['Ra'/5082, uuid='bcb1c1dd-6895-40a9-9a2f-691c7e9ba4d4', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1125, v=true] died: Ra was killed
-[19:04:06] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[19:04:06] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[19:04:34] [Server thread/INFO]: trololol72 issued server command: /tp BishBish
-[19:04:34] [Server thread/INFO]: [trololol72: Teleported trololol72 to BishBish]
-[19:04:41] [Server thread/INFO]: [Death] Mefanek was shot by a skull from &Ra (Friends)
-[19:05:20] [Server thread/INFO]: trololol72 issued server command: /tp @e[type=wither,sort=nearest,limit=1] 0 -500 0
-[19:05:20] [Server thread/INFO]: [trololol72: Teleported &Ra to 0.500000, -500.000000, 0.500000]
-[19:05:33] [Server thread/INFO]: trololol72 issued server command: /sk reload wither_spawner.sk
-[19:05:50] [Server thread/INFO]: trololol72 issued server command: /tp GoldeNightmar
-[19:05:50] [Server thread/INFO]: [trololol72: Teleported trololol72 to GoldeNightmar]
-[19:06:44] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
-[19:06:44] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
-[19:06:54] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[19:06:54] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[19:07:16] [Server thread/INFO]: [Death] Imashcha1 was slain by Zombie (Friends)
-[19:07:52] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[19:07:52] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[19:08:15] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
-[19:08:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
-[19:08:22] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[19:08:38] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:08:39] [Server thread/INFO]: [Death] GoldeNightmar was slain by Enderman (Uni)
-[19:08:41] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:08:41] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:08:41] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:08:50] [Server thread/INFO]: [Death] Imashcha1 was shot by Skeleton (Friends)
-[19:09:03] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[19:09:03] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[19:09:21] [Server thread/INFO]: [Death] Imashcha1 was shot by Skeleton (Friends)
-[19:09:33] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
-[19:10:06] [Server thread/INFO]: [Death] pixellorde was slain by Zombie (Uni)
-[19:10:07] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
-[19:10:07] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
-[19:10:08] [Server thread/INFO]: [Spawn Debug] pixellorde respawning without a bed.
-[19:10:08] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading pixellorde to Uni spawn (-512, 512).
-[19:10:08] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:12:27] [Server thread/INFO]: trololol72 issued server command: /summon wither ~ ~ ~ {Invul:220,CustomName:"Ra"}
-[19:12:27] [Server thread/INFO]: [trololol72: Summoned new Ra]
-[19:12:58] [Server thread/INFO]: [Death] Imashcha1 was shot by Skeleton (Friends)
-[19:13:10] [Server thread/INFO]: [Death] Mefanek was doomed to fall by Ra (Friends)
-[19:13:22] [Server thread/INFO]: trololol72 issued server command: /summon wither ~ ~ ~ {Invul:220,CustomName:"Ra"}
-[19:13:22] [Server thread/INFO]: [trololol72: Summoned new Ra]
-[19:13:29] [Server thread/INFO]: trololol72 issued server command: /tp @e[type=wither,sort=nearest,limit=1] 0 -500 0
-[19:13:29] [Server thread/INFO]: [trololol72: Teleported Ra to 0.500000, -500.000000, 0.500000]
-[19:13:41] [Server thread/INFO]: trololol72 issued server command: /summon wither ~ ~ ~ {Invul:220,CustomName:"Ra"}
-[19:13:41] [Server thread/INFO]: [trololol72: Summoned new Ra]
-[19:14:05] [Server thread/INFO]: [Death] Mefanek tried to swim in lava (Friends)
-[19:14:08] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
-[19:14:08] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
-[19:14:40] [Server thread/INFO]: Villager Villager['Shepherd'/86, uuid='e43f3857-991b-41b8-9f5a-54888ef73715', l='ServerLevel[world]', x=1001.52, y=75.00, z=-1198.52, cpos=[62, -75], tl=29998, v=true] died, message: 'Shepherd was blown up by Ra'
-[19:14:55] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[19:14:55] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[19:15:01] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[19:15:02] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:15:02] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:15:02] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:15:03] [Server thread/INFO]: The particle was not visible for anybody
-[19:15:03] [Server thread/INFO]: The particle was not visible for anybody
-[19:15:03] [Server thread/INFO]: Named entity WitherBoss['Ra'/15330, uuid='53125b4f-e39e-46c5-bacb-4f65e6ceb885', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=560, v=true] died: Ra was killed
-[19:15:12] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[19:15:12] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[19:15:25] [Server thread/INFO]: [Death] LickMyLeg fell from a high place (Uni)
-[19:15:25] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[19:15:25] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[19:15:25] [Server thread/INFO]: Named entity WitherBoss['Ra'/15328, uuid='04eb0fb5-da12-4b78-b5b5-c308d77dfb36', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1000, v=true] died: Ra was killed
-[19:15:26] [Server thread/INFO]: [Spawn Debug] LickMyLeg respawning without a bed.
-[19:15:26] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading LickMyLeg to Uni spawn (-512, 512).
-[19:15:26] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:16:10] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[19:16:10] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[19:16:26] [Server thread/INFO]: LickMyLeg: o/
-[19:16:39] [Server thread/INFO]: LickMyLeg: ./gamemode 1
-[19:17:36] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[19:17:36] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[19:17:55] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[19:17:55] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[19:18:11] [Server thread/INFO]: trololol72 issued server command: /tpb pyramid
-[19:18:17] [Server thread/INFO]: [Death] Baba_Tova was blown up by Creeper (Friends)
-[19:18:26] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[19:18:26] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[19:18:32] [Server thread/INFO]: [Death] sepsepony was speared by LickMyLeg (Uni)
-[19:18:32] [Server thread/INFO]: [Death] LickMyLeg fell from a high place (Uni)
-[19:18:33] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[19:18:33] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[19:18:33] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:18:34] [Server thread/INFO]: [Spawn Debug] LickMyLeg respawning without a bed.
-[19:18:34] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading LickMyLeg to Uni spawn (-512, 512).
-[19:18:34] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:18:40] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:18:47] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:19:08] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:19:17] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:19:20] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
-[19:19:20] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
-[19:19:22] [Server thread/INFO]: [Death] Imashcha1 fell from a high place (Friends)
-[19:19:25] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:19:33] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
-[19:19:33] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
-[19:19:35] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:19:57] [Server thread/INFO]: trololol72 issued server command: /tp @e[type=wither,sort=nearest,limit=1] 0 -500 0
-[19:19:57] [Server thread/INFO]: [trololol72: Teleported Ra to 0.500000, -500.000000, 0.500000]
-[19:20:11] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
-[19:20:11] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
-[19:20:14] [Server thread/INFO]: trololol72 issued server command: /summon wither ~ ~ ~ {Invul:220,CustomName:"Ra"}
-[19:20:14] [Server thread/INFO]: [trololol72: Summoned new Ra]
-[19:20:24] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[19:20:27] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:20:27] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:20:27] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:20:47] [Server thread/INFO]: [Death] Imashcha1 fell from a high place (Friends)
-[19:21:02] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[19:21:02] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[19:21:24] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:22:08] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:22:25] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[19:22:25] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[19:22:33] [Server thread/INFO]: trololol72 issued server command: /tp BishBish
-[19:22:33] [Server thread/INFO]: [trololol72: Teleported trololol72 to BishBish]
-[19:23:08] [Server thread/INFO]: [Death] Imashcha1 discovered the floor was lava (Friends)
-[19:23:45] [Server thread/INFO]: The particle was not visible for anybody
-[19:23:45] [Server thread/INFO]: The particle was not visible for anybody
-[19:23:45] [Server thread/INFO]: Named entity WitherBoss['Ra'/15955, uuid='91a729e6-8229-4f51-a65e-44ba4e010e60', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=5408, v=true] died: Ra was killed
-[19:25:21] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[19:25:22] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:25:22] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:25:22] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:25:45] [Server thread/INFO]: trololol72 issued server command: /tp GoldeNightmar
-[19:25:45] [Server thread/INFO]: [trololol72: Teleported trololol72 to GoldeNightmar]
-[19:26:09] [Server thread/INFO]: trololol72 issued server command: /tp @p
-[19:26:09] [Server thread/INFO]: [trololol72: Teleported trololol72 to trololol72]
-[19:26:12] [Server thread/INFO]: trololol72 issued server command: /tp @r
-[19:26:12] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[19:26:15] [Server thread/INFO]: trololol72 issued server command: /
-[19:26:27] [Server thread/INFO]: trololol72 issued server command: /tp @r
-[19:26:27] [Server thread/INFO]: [trololol72: Teleported trololol72 to pixellorde]
-[19:27:04] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[19:27:04] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[19:27:11] [Server thread/INFO]: [Death] BishBish was shot by Parched (Friends)
-[19:27:11] [Server thread/INFO]: [Death] Baba_Tova was shot by Skeleton (Friends)
-[19:27:25] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
-[19:27:25] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
-[19:27:45] [Server thread/INFO]: trololol72 issued server command: /tp @e[type=wither,sort=nearest,limit=1] 0 -500 0
-[19:27:45] [Server thread/INFO]: [trololol72: Teleported Ra to 0.500000, -500.000000, 0.500000]
-[19:27:45] [Server thread/INFO]: Villager Villager['Armorer'/60, uuid='fe9b38e2-bfba-4a88-a5eb-41d5653a2241', l='ServerLevel[world]', x=1003.43, y=68.98, z=-1197.12, cpos=[62, -75], tl=45716, v=true] died, message: 'Armorer was slain by Husk'
-[19:27:48] [Server thread/INFO]: Villager Villager['Librarian'/59, uuid='e3ca1468-fd73-4191-94bb-ee8450d972ad', l='ServerLevel[world]', x=998.30, y=73.00, z=-1196.30, cpos=[62, -75], tl=43463, v=true] died, message: 'Librarian was slain by Husk'
-[19:27:54] [Server thread/INFO]: [Death] DonalDucker was shot by Skeleton (Uni)
-[19:27:56] [Server thread/INFO]: [Spawn Debug] DonalDucker respawning without a bed.
-[19:27:56] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading DonalDucker to Uni spawn (-512, 512).
-[19:27:56] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:28:01] [Server thread/INFO]: trololol72 issued server command: /tp @e[type=wither,sort=nearest,limit=1] 0 -500 0
-[19:28:01] [Server thread/INFO]: [trololol72: Teleported Ra to 0.500000, -500.000000, 0.500000]
-[19:28:43] [Server thread/INFO]: trololol72 issued server command: /tpb pyramid
-[19:28:56] [Server thread/INFO]: [Death] Imashcha1 was slain by Husk (Friends)
-[19:28:57] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[19:28:57] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[19:29:00] [Server thread/INFO]: Villager Villager['Villager'/450, uuid='74b4b4e3-3647-4028-a6af-bf5eb8a3c25d', l='ServerLevel[world]', x=1025.61, y=71.00, z=-1435.70, cpos=[64, -90], tl=28486, v=true] died, message: 'Villager was slain by Husk'
-[19:29:06] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[19:29:06] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[19:29:19] [Server thread/INFO]: [Death] DonalDucker was shot by Skeleton (Uni)
-[19:29:20] [Server thread/INFO]: [Spawn Debug] DonalDucker respawning without a bed.
-[19:29:20] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading DonalDucker to Uni spawn (-512, 512).
-[19:29:20] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:29:40] [Server thread/INFO]: [Death] BishBish was shot by Parched (Friends)
-[19:29:51] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
-[19:29:51] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
-[19:29:59] [Server thread/INFO]: [Death] Mefanek was slain by Husk (Friends)
-[19:30:10] [Server thread/INFO]: trololol72 issued server command: /tp GoldeNightmar
-[19:30:10] [Server thread/INFO]: [trololol72: Teleported trololol72 to GoldeNightmar]
-[19:30:53] [Server thread/INFO]: [Death] Imashcha1 was slain by Spider (Friends)
-[19:30:55] [Server thread/INFO]: [Death] DonalDucker was shot by Skeleton (Uni)
-[19:30:56] [Server thread/INFO]: [Spawn Debug] DonalDucker respawning without a bed.
-[19:30:56] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading DonalDucker to Uni spawn (-512, 512).
-[19:30:56] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:31:05] [Server thread/INFO]: [Death] sepsepony fell out of the world (Uni)
-[19:31:07] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[19:31:07] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[19:31:07] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:31:13] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
-[19:31:13] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
-[19:31:14] [Server thread/INFO]: [Death] BishBish was shot by Parched (Friends)
-[19:31:40] [Server thread/INFO]: trololol72 issued server command: /tp GoldeNightmar
-[19:31:40] [Server thread/INFO]: [trololol72: Teleported trololol72 to GoldeNightmar]
-[19:32:04] [Server thread/INFO]: trololol72 issued server command: /tp GoldeNightmar
-[19:32:04] [Server thread/INFO]: [trololol72: Teleported trololol72 to GoldeNightmar]
-[19:32:06] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[19:32:06] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[19:32:14] [Server thread/INFO]: [Death] Imashcha1 hit the ground too hard while trying to escape Skeleton (Friends)
-[19:33:04] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:33:07] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:33:13] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[19:33:13] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[19:33:23] [Server thread/INFO]: [Death] GoldeNightmar fell out of the world (Uni)
-[19:33:30] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:33:30] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:33:30] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:33:53] [Server thread/INFO]: [Death] Imashcha1 was blown up by Creeper (Friends)
-[19:34:41] [Server thread/INFO]: [Death] DonalDucker was blown up by Ra (Uni)
-[19:34:43] [Server thread/INFO]: [Spawn Debug] DonalDucker respawning without a bed.
-[19:34:43] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading DonalDucker to Uni spawn (-512, 512).
-[19:34:43] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:34:43] [Server thread/INFO]: The particle was not visible for anybody
-[19:34:43] [Server thread/INFO]: The particle was not visible for anybody
-[19:34:43] [Server thread/INFO]: Named entity WitherBoss['Ra'/33914, uuid='e2549d6f-b59a-4fd3-bf6a-2e302789b709', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=140, v=true] died: Ra was killed
-[19:34:59] [Server thread/INFO]: [Death] BishBish was shot by Arrow (Friends)
-[19:35:02] [Server thread/INFO]: trololol72 issued server command: /tp BishBish
-[19:35:02] [Server thread/INFO]: [trololol72: Teleported trololol72 to BishBish]
-[19:35:17] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:35:26] [Server thread/INFO]: The particle was not visible for anybody
-[19:35:26] [Server thread/INFO]: The particle was not visible for anybody
-[19:35:26] [Server thread/INFO]: Named entity WitherBoss['Ra'/33912, uuid='778ed356-2bd8-4034-b54d-a61b09b76c88', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1000, v=true] died: Ra was killed
-[19:35:28] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:35:42] [Server thread/INFO]: trololol72 issued server command: /tp BishBish
-[19:35:42] [Server thread/INFO]: [trololol72: Teleported trololol72 to BishBish]
-[19:35:47] [Server thread/INFO]: [Death] LickMyLeg was shot by a skull from Ra (Uni)
-[19:35:49] [Server thread/INFO]: The particle was not visible for anybody
-[19:35:49] [Server thread/INFO]: The particle was not visible for anybody
-[19:35:49] [Server thread/INFO]: Named entity WitherBoss['Ra'/33916, uuid='c09589d2-c186-45a7-8794-57da350f04ed', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1460, v=true] died: Ra was killed
-[19:35:56] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[19:35:58] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:35:58] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:35:58] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:36:48] [Server thread/INFO]: [Death] BishBish was blown up by Creeper (Friends)
-[19:36:56] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:37:03] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:37:27] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:37:28] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:37:37] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[19:37:37] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[19:37:37] [Server thread/INFO]: Named entity WitherBoss['Ra'/35287, uuid='ca98680a-0900-4177-9090-82d7757da549', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=2600, v=true] died: Ra was killed
-[19:37:40] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:37:59] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:38:06] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
-[19:38:06] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
-[19:38:15] [Server thread/INFO]: trololol72 issued server command: /tp BishBish
-[19:38:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to BishBish]
-[19:38:28] [Server thread/INFO]: The particle was not visible for anybody
-[19:38:28] [Server thread/INFO]: The particle was not visible for anybody
-[19:38:28] [Server thread/INFO]: Named entity WitherBoss['Ra'/37887, uuid='565317ac-73e6-429e-9441-aa550dc1ae57', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1000, v=true] died: Ra was killed
-[19:38:53] [Server thread/INFO]: [Death] Imashcha1 fell from a high place (Friends)
-[19:39:18] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[19:39:20] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:39:20] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:39:20] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:40:58] [Server thread/INFO]: [Death] sepsepony was doomed to fall by GoldeNightmar (Uni)
-[19:41:00] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[19:41:00] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[19:41:00] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:41:12] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[19:41:13] [Server thread/INFO]: [Death] BishBish was speared by Hathor (Friends)
-[19:41:14] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:41:14] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:41:14] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:41:26] [Server thread/INFO]: [Spawn Debug] BishBish respawning without a bed.
-[19:41:26] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading BishBish to Friends spawn (512, -512).
-[19:41:26] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[19:41:27] [Server thread/INFO]: The particle was not visible for anybody
-[19:41:27] [Server thread/INFO]: The particle was not visible for anybody
-[19:41:27] [Server thread/INFO]: Named entity WitherBoss['Ra'/42247, uuid='1da9df37-5d6a-4c44-aba7-384716a6791c', l='ServerLevel[world]', x=-31.50, y=32.00, z=-69.50, cpos=[-2, -5], tl=0, v=false] died: Ra was killed
-[19:41:33] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[19:41:33] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[19:42:00] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
-[19:42:00] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
-[19:42:01] [Server thread/INFO]: [Death] Imashcha1 fell from a high place (Friends)
-[19:42:02] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[19:42:02] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[19:42:02] [Server thread/INFO]: Named entity WitherBoss['Ra'/38882, uuid='bf91f191-c581-4abe-a17f-b0158e2a8b9e', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=4260, v=true] died: Ra was killed
-[19:42:08] [Server thread/WARN]: Baba_Tova moved wrongly!
-[19:42:17] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[19:42:17] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[19:42:38] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[19:42:38] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[19:43:05] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[19:43:05] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[19:43:37] [Server thread/INFO]: Named entity PiglinBrute['Hathor'/730, uuid='2bc7d211-55cb-4195-932b-62cfbb56fd5d', l='ServerLevel[world]', x=1292.82, y=52.79, z=-977.11, cpos=[80, -62], tl=21715, v=true] died: Hathor was slain by Baba_Tova
-[19:43:39] [Server thread/INFO]: [Death] Imashcha1 was shot by a skull from Ra (Friends)
-[19:43:46] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[19:43:46] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[19:43:46] [Server thread/INFO]: Named entity WitherBoss['Ra'/43302, uuid='39723863-f550-4646-b2f4-76392ed77e7c', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=2047, v=true] died: Ra was killed
-[19:44:02] [Server thread/INFO]: [Death] Mefanek was blown up by Ra (Friends)
-[19:44:22] [Server thread/INFO]: LickMyLeg: zzz
-[19:44:23] [Server thread/INFO]: [Death] Baba_Tova was slain by Heru (Friends)
-[19:44:25] [Server thread/INFO]: [Spawn Debug] Baba_Tova respawning without a bed.
-[19:44:25] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading Baba_Tova to Friends spawn (512, -512).
-[19:44:25] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[19:45:25] [Server thread/INFO]: trololol72 issued server command: /tp pixellorde
-[19:45:25] [Server thread/INFO]: [trololol72: Teleported trololol72 to pixellorde]
-[19:45:57] [Server thread/INFO]: [Death] Imashcha1 fell from a high place (Friends)
-[19:46:51] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:47:04] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[19:47:04] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[19:47:28] [Server thread/INFO]: Named entity PiglinBrute['Heru'/732, uuid='efc5fdbd-d548-4885-85e6-a0833747ac29', l='ServerLevel[world]', x=1295.30, y=51.79, z=-974.72, cpos=[80, -61], tl=23595, v=true] died: Heru was slain by Baba_Tova
-[19:48:06] [Server thread/INFO]: Named entity WitherBoss['Ra'/14556, uuid='bd88864c-f988-4a90-a45e-82dda764dbef', l='ServerLevel[world]', x=0.50, y=-500.00, z=0.50, cpos=[0, 0], tl=17199, v=true] died: Ra was killed
-[19:48:06] [Server thread/INFO]: Named entity WitherBoss['&Ra'/8161, uuid='22f61f85-48f1-4074-8c5b-dbc20779c9b1', l='ServerLevel[world]', x=0.50, y=-500.00, z=0.50, cpos=[0, 0], tl=5868, v=true] died: &Ra was killed
-[19:48:06] [Server thread/INFO]: Named entity WitherBoss['{"text":"Ra","color":"red"}'/7848, uuid='75fd4137-7e2e-4473-9406-39f7e523e0d6', l='ServerLevel[world]', x=0.50, y=-500.00, z=0.50, cpos=[0, 0], tl=971, v=true] died: {"text":"Ra","color":"red"} was killed
-[19:48:06] [Server thread/INFO]: Named entity WitherBoss['Ra'/19995, uuid='745673c9-6fc3-42e6-a626-0a9f02f45ee8', l='ServerLevel[world]', x=0.50, y=-500.00, z=0.50, cpos=[0, 0], tl=6767, v=true] died: Ra was killed
-[19:48:06] [Server thread/INFO]: Named entity WitherBoss['Ra'/14376, uuid='d14ca261-5e28-4f78-bae6-61a80d63fad1', l='ServerLevel[world]', x=0.50, y=-500.00, z=0.50, cpos=[0, 0], tl=147, v=true] died: Ra was killed
-[19:48:06] [Server thread/INFO]: Named entity WitherBoss['Ra'/13664, uuid='d2bc57cb-6ce1-484f-80fd-461879977c83', l='ServerLevel[world]', x=1018.98, y=70.00, z=-1294.02, cpos=[63, -81], tl=26532, v=true] died: Ra was killed
-[19:48:06] [Server thread/INFO]: Killed 7 entities
-[19:48:06] [Server thread/INFO]: [Death] BishBish tried to swim in lava (Friends)
-[19:48:09] [Server thread/INFO]: [Spawn Debug] BishBish respawning without a bed.
-[19:48:09] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading BishBish to Friends spawn (512, -512).
-[19:48:09] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[19:49:15] [Server thread/INFO]: [Death] Imashcha1 was shot by Parched (Friends)
-[19:49:16] [Server thread/INFO]: [Death] BishBish was slain by Enderman (Friends)
-[19:49:18] [Server thread/INFO]: [Spawn Debug] BishBish respawning without a bed.
-[19:49:18] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading BishBish to Friends spawn (512, -512).
-[19:49:18] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[19:49:30] [Server thread/INFO]: Villager Villager['Cartographer'/58, uuid='9ebd0005-0778-455c-aa54-2fb877a20b65', l='ServerLevel[world]', x=1004.19, y=76.06, z=-1214.75, cpos=[62, -76], tl=65368, v=true] died, message: 'Cartographer was slain by Zombie'
-[19:49:34] [Server thread/INFO]: [Death] GoldeNightmar was shot by Skeleton (Uni)
-[19:49:34] [Server thread/INFO]: [Death] Baba_Tova was speared by Husk (Friends)
-[19:49:36] [Server thread/INFO]: [Spawn Debug] Baba_Tova respawning without a bed.
-[19:49:36] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading Baba_Tova to Friends spawn (512, -512).
-[19:49:36] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[19:49:42] [Server thread/INFO]: [Death] Mefanek fell from a high place (Friends)
-[19:49:44] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:49:44] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:49:44] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:49:57] [Server thread/INFO]: [Death] BishBish was shot by Skeleton (Friends)
-[19:49:59] [Server thread/INFO]: [Spawn Debug] BishBish respawning without a bed.
-[19:49:59] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading BishBish to Friends spawn (512, -512).
-[19:49:59] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[19:50:04] [Server thread/INFO]: [Death] BishBish was blown up by Creeper (Friends)
-[19:50:05] [Server thread/INFO]: [Spawn Debug] BishBish respawning without a bed.
-[19:50:05] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading BishBish to Friends spawn (512, -512).
-[19:50:05] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[19:51:19] [Server thread/INFO]: [Death] sepsepony was shot by Skeleton (Uni)
-[19:51:21] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[19:51:21] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[19:51:21] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:51:34] [Server thread/INFO]: Killed 23 entities
-[19:51:48] [Server thread/INFO]: [Death] GoldeNightmar tried to swim in lava (Uni)
-[19:51:53] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:51:53] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:51:53] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:53:00] [User Authenticator #8/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[19:53:03] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[19:53:03] [Server thread/INFO]: trololol72[/176.228.190.209:62403] logged in with entity id 55680 at ([world]-491.62306688432074, 70.0, 492.00164607526636)
-[19:53:04] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[19:53:04] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[19:53:08] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:53:11] [Server thread/INFO]: trololol72 issued server command: /tp b
-[19:53:14] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[19:53:14] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[19:53:47] [Server thread/INFO]: [Death] Mefanek tried to swim in lava (Friends)
-[19:54:32] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[19:54:32] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[19:54:41] [Server thread/INFO]: [Death] DonalDucker was blown up by Ra (Uni)
-[19:54:43] [Server thread/INFO]: [Spawn Debug] DonalDucker respawning without a bed.
-[19:54:43] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading DonalDucker to Uni spawn (-512, 512).
-[19:54:43] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:54:43] [Server thread/INFO]: [Death] Imashcha1 tried to swim in lava (Friends)
-[19:54:43] [Server thread/INFO]: The particle was not visible for anybody
-[19:54:43] [Server thread/INFO]: The particle was not visible for anybody
-[19:54:43] [Server thread/INFO]: Named entity WitherBoss['Ra'/57007, uuid='9e2714a0-6141-40b7-946c-0e5f3e82f91a', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=140, v=true] died: Ra was killed
-[19:55:14] [Server thread/INFO]: [Death] GoldeNightmar was shot by a skull from Ra (Uni)
-[19:55:16] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:55:16] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:55:16] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:55:25] [Server thread/INFO]: [Death] LickMyLeg was shot by a skull from Ra (Uni)
-[19:55:27] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[19:55:27] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[19:55:27] [Server thread/INFO]: Named entity WitherBoss['Ra'/57009, uuid='e347e5ff-44f5-45c5-bdd5-79db7158a6fc', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1020, v=true] died: Ra was killed while fighting LickMyLeg
-[19:56:02] [Server thread/INFO]: The particle was not visible for anybody
-[19:56:02] [Server thread/INFO]: The particle was not visible for anybody
-[19:56:02] [Server thread/INFO]: Named entity WitherBoss['Ra'/57005, uuid='63c5117e-20be-4bdd-bbb2-f6c2bbbe04d4', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1720, v=true] died: Ra was killed
-[19:56:13] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[19:56:13] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[19:56:15] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:56:20] [Server thread/INFO]: [Death] Imashcha1 was shot by a skull from Ra (Friends)
-[19:56:23] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:56:32] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:56:34] [Server thread/INFO]: [Death] Mefanek was blown up by Creeper (Friends)
-[19:56:34] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:56:50] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:57:02] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:57:06] [Server thread/INFO]: trololol72 issued server command: /tp lab
-[19:57:09] [Server thread/INFO]: The particle was not visible for anybody
-[19:57:09] [Server thread/INFO]: The particle was not visible for anybody
-[19:57:09] [Server thread/INFO]: Named entity WitherBoss['Ra'/58474, uuid='52120895-5bbf-47e3-9931-4f5ee9afabf7', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=847, v=true] died: Ra was killed
-[19:57:10] [Server thread/INFO]: trololol72 issued server command: /tpb lab
-[19:57:15] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:57:26] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[19:57:27] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[19:57:27] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[19:57:27] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[19:57:45] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:57:55] [Server thread/INFO]: trololol72 issued server command: /tp 0 0 0
-[19:57:55] [Server thread/INFO]: [trololol72: Teleported trololol72 to 0.500000, 0.000000, 0.500000]
-[19:58:33] [Server thread/INFO]: [Death] Mefanek hit the ground too hard (Friends)
-[19:58:33] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
-[19:58:33] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
-[19:58:40] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
-[19:59:36] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:01:43] [Server thread/INFO]: [Death] BishBish was blown up by Ra (Friends)
-[20:01:45] [Server thread/INFO]: [Spawn Debug] BishBish respawning without a bed.
-[20:01:45] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading BishBish to Friends spawn (512, -512).
-[20:01:45] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[20:03:16] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[20:03:16] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[20:03:18] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:03:20] [Server thread/INFO]: [Death] Imashcha1 tried to swim in lava to escape Baba_Tova (Friends)
-[20:03:33] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[20:03:34] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[20:03:34] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[20:03:34] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:03:46] [Server thread/INFO]: [Death] DonalDucker fell from a high place (Uni)
-[20:03:47] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[20:03:47] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[20:03:47] [Server thread/INFO]: Named entity WitherBoss['Ra'/59569, uuid='59edda90-5c12-45b9-b464-a1081ed3c699', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=7920, v=true] died: Ra was killed
-[20:03:48] [Server thread/INFO]: [Spawn Debug] DonalDucker respawning without a bed.
-[20:03:48] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading DonalDucker to Uni spawn (-512, 512).
-[20:03:48] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:04:04] [Server thread/INFO]: [Death] Mefanek burned to death (Friends)
-[20:04:41] [Server thread/INFO]: [Death] LickMyLeg fell from a high place (Uni)
-[20:05:13] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
-[20:05:24] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:05:24] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:05:28] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[20:05:28] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[20:06:09] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[20:06:09] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[20:06:53] [Server thread/INFO]: [Death] pixellorde was shot by Skeleton (Uni)
-[20:06:55] [Server thread/INFO]: [Spawn Debug] pixellorde respawning without a bed.
-[20:06:55] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading pixellorde to Uni spawn (-512, 512).
-[20:06:55] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:07:35] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:07:35] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:07:42] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[20:07:42] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[20:07:47] [Server thread/INFO]: LickMyLeg has made the advancement [Hidden in the Depths]
-[20:07:58] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[20:07:58] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[20:07:59] [Server thread/INFO]: [Death] Mefanek was blown up by Creeper (Friends)
-[20:08:21] [Server thread/INFO]: [Death] BishBish tried to swim in lava (Friends)
-[20:08:36] [Server thread/INFO]: [Death] Imashcha1 tried to swim in lava to escape BishBish (Friends)
-[20:09:09] [Server thread/INFO]: [Death] sepsepony was slain by Zombie (Uni)
-[20:09:10] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[20:09:10] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[20:09:10] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:09:37] [Server thread/INFO]: [Death] Imashcha1 tried to swim in lava (Friends)
-[20:09:39] [Server thread/INFO]: [Death] Mefanek was slain by Spider (Friends)
-[20:09:49] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[20:09:49] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[20:09:55] [Server thread/INFO]: [Death] BishBish burned to death (Friends)
-[20:10:08] [Server thread/INFO]: [Death] Mefanek tried to swim in lava to escape BishBish (Friends)
-[20:10:19] [Server thread/INFO]: [Death] Mefanek tried to swim in lava (Friends)
-[20:10:21] [Server thread/INFO]: [Death] BishBish tried to swim in lava (Friends)
-[20:10:26] [Server thread/INFO]: [Death] BishBish tried to swim in lava (Friends)
-[20:10:30] [Server thread/INFO]: [Death] sepsepony fell from a high place (Uni)
-[20:10:31] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[20:10:31] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[20:10:31] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:10:32] [Server thread/INFO]: [Death] BishBish tried to swim in lava (Friends)
-[20:10:50] [Server thread/INFO]: [Death] BishBish tried to swim in lava (Friends)
-[20:10:55] [Server thread/INFO]: [Death] BishBish tried to swim in lava (Friends)
-[20:11:01] [Server thread/INFO]: [Death] BishBish tried to swim in lava (Friends)
-[20:11:05] [Server thread/INFO]: trololol72 issued server command: /tp GoldeNightmar
-[20:11:05] [Server thread/INFO]: [trololol72: Teleported trololol72 to GoldeNightmar]
-[20:11:17] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[20:11:17] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[20:11:20] [Server thread/INFO]: [Death] BishBish burned to death (Friends)
-[20:12:09] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[20:12:09] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[20:12:14] [Server thread/INFO]: [Death] BishBish went up in flames (Friends)
-[20:12:32] [Server thread/INFO]: [Death] sepsepony was shot by Skeleton (Uni)
-[20:12:33] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[20:12:33] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[20:12:33] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:12:35] [Server thread/INFO]: [Death] BishBish went up in flames (Friends)
-[20:12:59] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[20:12:59] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[20:13:29] [Server thread/INFO]: [Death] BishBish was slain by Enderman (Friends)
-[20:13:44] [Server thread/INFO]: [Death] sepsepony fell from a high place (Uni)
-[20:13:45] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[20:13:45] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[20:13:45] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:13:54] [Server thread/WARN]: pixellorde moved wrongly!
-[20:14:00] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
-[20:14:00] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
-[20:14:11] [Server thread/INFO]: [Death] BishBish was killed by Witch using magic (Friends)
-[20:14:13] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[20:14:13] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[20:14:21] [Server thread/INFO]: [Death] Mefanek fell from a high place (Friends)
-[20:14:50] [Server thread/INFO]: [Death] GoldeNightmar was doomed to fall by Ra (Uni)
-[20:14:57] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[20:14:57] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[20:14:57] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:14:58] [Server thread/INFO]: The particle was not visible for anybody
-[20:14:58] [Server thread/INFO]: The particle was not visible for anybody
-[20:14:58] [Server thread/INFO]: Named entity WitherBoss['Ra'/76966, uuid='6853617f-4b36-48a5-8a00-76ff21d01403', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=360, v=true] died: Ra was killed
-[20:14:59] [Server thread/INFO]: [Death] BishBish was killed by Witch using magic (Friends)
-[20:15:26] [Server thread/INFO]: [Death] BishBish was slain by Imashcha1 (Friends)
-[20:15:41] [Server thread/INFO]: [Death] Imashcha1 was killed by Witch using magic (Friends)
-[20:16:03] [Server thread/INFO]: The particle was not visible for anybody
-[20:16:03] [Server thread/INFO]: The particle was not visible for anybody
-[20:16:03] [Server thread/INFO]: Named entity WitherBoss['Ra'/76964, uuid='593b9c19-ff54-42df-8304-95b344ad542d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1660, v=true] died: Ra was killed
-[20:16:32] [Server thread/INFO]: [Death] Mefanek was shot by Skeleton (Friends)
-[20:17:14] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[20:17:14] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[20:17:28] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:17:37] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:17:40] [Server thread/INFO]: trololol72 issued server command: /tp BishBish
-[20:17:40] [Server thread/INFO]: [trololol72: Teleported trololol72 to BishBish]
-[20:19:27] [Server thread/INFO]: [Death] Imashcha1 was blown up by Ra (Friends)
-[20:19:29] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:19:29] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:19:36] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:19:54] [Server thread/INFO]: Imashcha1 lost connection: Disconnected
-[20:19:54] [Server thread/INFO]: [Quit] Imashcha1 (Friends) left
-[20:20:06] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:20:16] [Server thread/INFO]: The particle was not visible for anybody
-[20:20:16] [Server thread/INFO]: The particle was not visible for anybody
-[20:20:16] [Server thread/INFO]: Named entity WitherBoss['Ra'/77986, uuid='3b0e5a2c-f682-44fc-b5b6-f770f300a2f7', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=4252, v=true] died: Ra was killed
-[20:20:36] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
-[20:20:36] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
-[20:20:49] [Server thread/INFO]: trololol72 issued server command: /tp BishBish
-[20:20:49] [Server thread/INFO]: [trololol72: Teleported trololol72 to BishBish]
-[20:21:15] [Server thread/INFO]: [Death] Mefanek was shot by Skeleton (Friends)
-[20:21:29] [Server thread/INFO]: [Death] GoldeNightmar was slain by sepsepony (Uni)
-[20:21:30] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[20:21:30] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[20:21:30] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:21:46] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[20:21:46] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[20:22:04] [Server thread/INFO]: The particle was not visible for anybody
-[20:22:04] [Server thread/INFO]: The particle was not visible for anybody
-[20:22:04] [Server thread/INFO]: Named entity WitherBoss['Ra'/83510, uuid='d68d8d43-1078-4bf3-9d86-05dee1fb1b18', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1363, v=true] died: Ra was killed
-[20:22:45] [Server thread/INFO]: Villager Villager['Butcher'/906, uuid='fcd2e281-4862-4320-945b-e4b4630e81c0', l='ServerLevel[world]', x=1022.55, y=72.00, z=-1462.70, cpos=[63, -92], tl=54837, v=true] died, message: 'Butcher was shot by a skull from Ra'
-[20:22:55] [Server thread/INFO]: The particle was not visible for anybody
-[20:22:55] [Server thread/INFO]: The particle was not visible for anybody
-[20:22:55] [Server thread/INFO]: Named entity WitherBoss['Ra'/84789, uuid='7a6a8a76-b357-4d32-8bac-704926b5671c', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1000, v=true] died: Ra was killed
-[20:23:09] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:23:09] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:23:17] [Server thread/INFO]: trololol72 issued server command: /tp pixellorde
-[20:23:17] [Server thread/INFO]: [trololol72: Teleported trololol72 to pixellorde]
-[20:23:36] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:23:46] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[20:23:46] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[20:23:46] [Server thread/INFO]: Named entity WitherBoss['Ra'/85338, uuid='24ef6301-f2d0-4d1d-8ba2-01fccc0d83bb', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1000, v=true] died: Ra was killed
-[20:23:51] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[20:23:51] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[20:23:51] [Server thread/INFO]: Named entity WitherBoss['Ra'/85764, uuid='59744d91-dd99-4df1-b71e-dd1ac84ce506', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=80, v=true] died: Ra was killed
-[20:24:04] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:24:15] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
-[20:24:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
-[20:24:21] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[20:24:21] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[20:24:40] [Server thread/INFO]: trololol72 issued server command: /tp pixellorde
-[20:24:40] [Server thread/INFO]: [trololol72: Teleported trololol72 to pixellorde]
-[20:25:37] [Server thread/INFO]: sepsepony has made the advancement [We Need to Go Deeper]
-[20:25:38] [Server thread/INFO]: [Death] pixellorde was slain by Zombie (Uni)
-[20:26:07] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[20:26:07] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[20:26:20] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[20:26:20] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[20:27:12] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[20:27:12] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[20:27:17] [Server thread/INFO]: trololol72 issued server command: /tp BishBish
-[20:27:17] [Server thread/INFO]: [trololol72: Teleported trololol72 to BishBish]
-[20:28:01] [Server thread/INFO]: DonalDucker has made the advancement [We Need to Go Deeper]
-[20:28:02] [Server thread/INFO]: pixellorde has made the advancement [We Need to Go Deeper]
-[20:28:09] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[20:28:09] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[20:28:18] [Server thread/INFO]: [Death] Baba_Tova was doomed to fall by Creeper (Friends)
-[20:28:21] [Server thread/INFO]: trololol72 issued server command: /tp pixellorde
-[20:28:21] [Server thread/INFO]: [trololol72: Teleported trololol72 to pixellorde]
-[20:29:15] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:29:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:29:30] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
-[20:29:30] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
-[20:29:38] [Server thread/INFO]: trololol72 issued server command: /tp s
-[20:29:43] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:29:43] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:29:55] [Server thread/INFO]: [Death] GoldeNightmar was shot by Skeleton (Uni)
-[20:29:58] [Server thread/INFO]: [Spawn Debug] GoldeNightmar respawning without a bed.
-[20:29:58] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading GoldeNightmar to Uni spawn (-512, 512).
-[20:29:58] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:30:09] [Server thread/INFO]: Villager Villager['Shepherd'/905, uuid='56552a62-e538-4001-8de6-99e0ca48b1e4', l='ServerLevel[world]', x=1058.54, y=70.00, z=-1528.67, cpos=[66, -96], tl=63248, v=true] died, message: 'Shepherd was slain by Zombie'
-[20:30:38] [Server thread/INFO]: GoldeNightmar has made the advancement [We Need to Go Deeper]
-[20:30:39] [Server thread/INFO]: [Death] DonalDucker was shot by Skeleton (Uni)
-[20:30:40] [Server thread/INFO]: [Spawn Debug] DonalDucker respawning without a bed.
-[20:30:40] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading DonalDucker to Uni spawn (-512, 512).
-[20:30:40] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:30:53] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:30:53] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:31:24] [Server thread/INFO]: [Death] Baba_Tova was killed by Witch using magic (Friends)
-[20:31:46] [Server thread/INFO]: [Death] sepsepony fell from a high place (Uni)
-[20:31:48] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[20:31:48] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[20:31:48] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:32:27] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
-[20:32:27] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
-[20:32:54] [User Authenticator #9/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
-[20:32:55] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
-[20:32:55] [Server thread/INFO]: Baba_Tova[/87.71.13.196:39656] logged in with entity id 94008 at ([world]1289.5, 64.0, -979.5)
-[20:32:56] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
-[20:32:56] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
-[20:33:10] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[20:33:10] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[20:33:36] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:33:39] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:34:10] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
-[20:34:10] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
-[20:34:28] [Server thread/INFO]: trololol72 issued server command: /sk reload wither_spawner.sk
-[20:34:37] [Server thread/INFO]: trololol72 issued server command: /wither_toggle true
-[20:34:55] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[20:34:55] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[20:35:05] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:35:18] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:35:32] [Server thread/INFO]: The particle was not visible for anybody
-[20:35:32] [Server thread/INFO]: The particle was not visible for anybody
-[20:35:32] [Server thread/INFO]: Named entity WitherBoss['Ra'/94936, uuid='b5a5fb73-76b5-4cb9-a005-88b76a672e37', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1000, v=true] died: Ra was killed
-[20:35:33] [Server thread/INFO]: [Death] BishBish tried to swim in lava (Friends)
-[20:35:34] [Server thread/INFO]: [Spawn Debug] BishBish respawning without a bed.
-[20:35:34] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading BishBish to Friends spawn (512, -512).
-[20:35:34] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[20:36:04] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:36:11] [Server thread/INFO]: [Death] LickMyLeg went up in flames (Uni)
-[20:36:18] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:36:31] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:37:17] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:37:18] [Server thread/INFO]: [Death] Baba_Tova was slain by Spider (Friends)
-[20:37:46] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:38:17] [Server thread/INFO]: [Death] Mefanek was slain by Spider (Friends)
-[20:39:45] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[20:39:50] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[20:40:04] [Server thread/INFO]: [Death] trololol72 fell from a high place (Friends)
-[20:40:06] [Server thread/INFO]: [Spawn Debug] trololol72 respawning without a bed.
-[20:40:06] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading trololol72 to Friends spawn (512, -512).
-[20:40:06] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[20:40:09] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:40:13] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:40:27] [Server thread/INFO]: [Death] DonalDucker fell from a high place (Uni)
-[20:40:29] [Server thread/INFO]: [Spawn Debug] DonalDucker respawning without a bed.
-[20:40:29] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading DonalDucker to Uni spawn (-512, 512).
-[20:40:29] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:40:40] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
-[20:41:39] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
-[20:41:39] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
-[20:43:13] [Server thread/INFO]: Mefanek lost connection: Disconnected
-[20:43:13] [Server thread/INFO]: [Quit] Mefanek (Friends) left
-[20:43:27] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[20:43:52] [Server thread/INFO]: The particle was not visible for anybody
-[20:43:52] [Server thread/INFO]: The particle was not visible for anybody
-[20:43:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/95532, uuid='75069c62-24b2-4273-8f8f-3d7db0e6014d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=9576, v=true] died: Ra was killed
-[20:44:29] [Server thread/INFO]: [Death] Baba_Tova was shot by Skeleton (Friends)
-[20:45:34] [Server thread/INFO]: [Death] BishBish was slain by Zombie (Friends)
-[20:47:37] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[20:47:37] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[20:48:27] [Server thread/INFO]: trololol72 lost connection: Timed out
-[20:48:27] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[20:48:48] [User Authenticator #10/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[20:48:49] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[20:48:49] [Server thread/INFO]: trololol72[/176.228.190.209:62712] logged in with entity id 105339 at ([world]906.2954850529312, -36.35608582426483, -1108.051905842473)
-[20:48:50] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[20:48:50] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[20:48:56] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:48:56] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:48:58] [Server thread/INFO]: [Death] DonalDucker was shot by Skeleton (Uni)
-[20:48:59] [Server thread/INFO]: [Spawn Debug] DonalDucker respawning without a bed.
-[20:48:59] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading DonalDucker to Uni spawn (-512, 512).
-[20:48:59] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[20:49:27] [Server thread/INFO]: [Death] pixellorde was shot by Skeleton (Uni)
-[20:50:13] [Server thread/INFO]: trololol72 issued server command: /spectate LickMyLeg
-[20:51:43] [Server thread/INFO]: trololol72 issued server command: /spectate @n
-[20:51:47] [Server thread/INFO]: trololol72 issued server command: /spectate @r
-[20:51:56] [Server thread/INFO]: trololol72 issued server command: /spectate @p
-[20:52:02] [Server thread/INFO]: trololol72 issued server command: /spectate Baba_Tova
-[20:52:28] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[20:52:28] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[20:52:36] [Server thread/INFO]: trololol72 issued server command: /spectate GoldeNightmar
-[20:53:03] [Server thread/INFO]: trololol72 issued server command: /spectate pixellorde
-[20:53:19] [Server thread/INFO]: [Death] Baba_Tova starved to death (Friends)
-[20:53:38] [Server thread/INFO]: trololol72 issued server command: /spectate sepsepony
-[20:54:05] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:54:16] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[20:54:24] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:54:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:55:02] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:55:32] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[20:55:32] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[20:55:32] [Server thread/INFO]: Named entity WitherBoss['Ra'/107760, uuid='de9c8527-52b3-4de7-a43e-5e6e89d685b9', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1000, v=true] died: Ra was killed
-[20:55:46] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[20:55:46] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[20:56:23] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[20:56:23] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[20:56:23] [Server thread/INFO]: Named entity WitherBoss['Ra'/108161, uuid='9c956e44-207c-4c43-9b4a-bd0c6b668790', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1000, v=true] died: Ra was killed
-[20:56:38] [Server thread/INFO]: trololol72 issued server command: /tp GoldeNightmar
-[20:56:38] [Server thread/INFO]: [trololol72: Teleported trololol72 to GoldeNightmar]
-[20:56:46] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:56:46] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:57:14] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[20:57:14] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[20:57:14] [Server thread/INFO]: Named entity WitherBoss['Ra'/108433, uuid='bd52ce08-8160-4ebf-81dc-74bc394dcf8b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1000, v=true] died: Ra was killed
-[20:57:17] [Server thread/INFO]: LickMyLeg: Wrapped fangus
-[20:58:05] [Server thread/INFO]: The particle was not visible for anybody
-[20:58:05] [Server thread/INFO]: The particle was not visible for anybody
-[20:58:05] [Server thread/INFO]: Named entity WitherBoss['Ra'/109149, uuid='2b25763a-3972-45d3-bc52-b62bf4e31897', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1000, v=true] died: Ra was killed
-[20:58:58] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:58:58] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:59:02] [Server thread/INFO]: [Death] Baba_Tova was blown up by Ra (Friends)
-[20:59:26] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:59:40] [Server thread/INFO]: [Death] GoldeNightmar fell from a high place (Uni)
-[20:59:52] [Server thread/INFO]: The particle was not visible for anybody
-[20:59:52] [Server thread/INFO]: The particle was not visible for anybody
-[20:59:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/109652, uuid='e507f37d-4ae3-4609-a7b5-4f15686031b1', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=2120, v=true] died: Ra was killed
-[21:00:14] [Server thread/INFO]: DonalDucker lost connection: Disconnected
-[21:00:14] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
-[21:00:15] [Server thread/INFO]: [Spawn Debug] BishBish respawning without a bed.
-[21:00:15] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading BishBish to Friends spawn (512, -512).
-[21:00:15] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[21:00:15] [Server thread/INFO]: sepsepony lost connection: Disconnected
-[21:00:15] [Server thread/INFO]: [Quit] sepsepony (Uni) left
-[21:00:16] [Server thread/INFO]: pixellorde lost connection: Disconnected
-[21:00:16] [Server thread/INFO]: [Quit] pixellorde (Uni) left
-[21:00:16] [Server thread/INFO]: GoldeNightmar lost connection: Disconnected
-[21:00:16] [Server thread/INFO]: [Quit] GoldeNightmar (Uni) left
-[21:00:17] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
-[21:00:17] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
-[21:00:27] [Server thread/INFO]: trololol72 issued server command: /tp BishBish
-[21:00:27] [Server thread/INFO]: [trololol72: Teleported trololol72 to BishBish]
-[21:00:35] [Server thread/INFO]: [Death] Baba_Tova was shot by a skull from Ra (Friends)
-[21:00:39] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=ghast]
-[21:00:39] [Server thread/INFO]: [trololol72: Killed 24 entities]
-[21:01:25] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[21:01:25] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[21:01:25] [Server thread/INFO]: Named entity WitherBoss['Ra'/110778, uuid='7e46fbb9-455e-462b-a3d7-0634eb5bcde3', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1840, v=true] died: Ra was killed
-[21:01:43] [Server thread/INFO]: [Death] Baba_Tova was shot by a skull from Ra (Friends)
-[21:01:59] [Server thread/INFO]: [Death] Baba_Tova was shot by a skull from Ra (Friends)
-[21:02:10] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
-[21:02:10] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
-[21:02:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:02:10] [Server thread/INFO]: The particle was not visible for anybody
-[21:02:10] [Server thread/INFO]: Named entity WitherBoss['Ra'/112744, uuid='3d4e2953-0218-4440-b20b-080c85e1e872', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=880, v=true] died: Ra was killed
-[21:02:14] [User Authenticator #11/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
-[21:02:17] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
-[21:02:17] [Server thread/INFO]: Baba_Tova[/87.71.13.196:39980] logged in with entity id 113714 at ([world]810.3000000119209, 40.0, -1240.699999988079)
-[21:02:17] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
-[21:02:17] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
-[21:02:50] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:03:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:03:07] [Server thread/INFO]: The particle was not visible for anybody
-[21:03:07] [Server thread/INFO]: Named entity WitherBoss['Ra'/113758, uuid='449ce321-febd-4733-bfa4-cd3c8b2f87fe', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1000, v=true] died: Ra was killed
-[21:03:52] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[21:03:52] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[21:03:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/114375, uuid='d7cd62a7-08de-462f-98cd-74bd83ba36ba', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=880, v=true] died: Ra was killed
-[21:04:04] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[21:04:04] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[21:05:48] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
-[21:05:48] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
-[21:06:22] [Server thread/INFO]: trololol72 issued server command: /tp BishBish
-[21:06:22] [Server thread/INFO]: [trololol72: Teleported trololol72 to BishBish]
-[21:06:38] [User Authenticator #12/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
-[21:06:40] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
-[21:06:40] [Server thread/INFO]: Baba_Tova[/87.71.13.196:32890] logged in with entity id 116212 at ([world]899.8238035345574, 78.0, -1311.7447811690088)
-[21:06:41] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
-[21:06:41] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
-[21:07:18] [Server thread/INFO]: [Death] BishBish was slain by Spider (Friends)
-[21:07:19] [Server thread/INFO]: [Spawn Debug] BishBish respawning without a bed.
-[21:07:19] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading BishBish to Friends spawn (512, -512).
-[21:07:19] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[21:07:34] [Server thread/INFO]: [Death] BishBish fell from a high place (Friends)
-[21:07:35] [Server thread/INFO]: [Spawn Debug] BishBish respawning without a bed.
-[21:07:35] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading BishBish to Friends spawn (512, -512).
-[21:07:35] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[21:08:23] [Server thread/INFO]: [Death] BishBish drowned (Friends)
-[21:08:24] [Server thread/INFO]: [Spawn Debug] BishBish respawning without a bed.
-[21:08:24] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading BishBish to Friends spawn (512, -512).
-[21:08:24] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[21:08:34] [Server thread/INFO]: BishBish lost connection: Disconnected
-[21:08:34] [Server thread/INFO]: [Quit] BishBish (Friends) left
-[21:10:09] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
-[21:10:09] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
-[21:10:20] [Server thread/INFO]: [Death] Baba_Tova starved to death while fighting Parched (Friends)
-[21:13:33] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:16:33] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[21:22:22] [Server thread/INFO]: [Death] Baba_Tova fell from a high place (Friends)
-[21:35:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:36] [Server thread/INFO]: The particle was not visible for anybody
-[21:35:36] [Server thread/INFO]: Named entity WitherBoss['Ra'/127368, uuid='9b888c4e-8251-450a-b491-3448ba7de1de', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1080, v=true] died: Ra was killed
-[21:38:10] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[21:38:10] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[21:43:52] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
-[21:43:52] [Server thread/INFO]: Displaying particle minecraft:large_smoke
-[21:43:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/127814, uuid='d78d4c73-5ddd-42b6-8c5b-fd84d5c7439d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=9901, v=true] died: Ra was killed
-[22:11:02] [Server thread/INFO]: Villager Villager['Villager'/143538, uuid='ea4139d1-2e62-4b4b-9d67-d7c4cc6080b7', l='ServerLevel[world]', x=-438.69, y=63.01, z=-658.70, cpos=[-28, -42], tl=5733, v=true] died, message: 'Villager was slain by Drowned'
-[22:12:57] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
-[22:12:57] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
-[22:33:59] [Server thread/INFO]: Stopping the server
-[22:33:59] [Server thread/INFO]: Stopping server
-[22:33:59] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[22:33:59] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[22:33:59] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[22:33:59] [Server thread/INFO]: [TAB] Disabled in 1ms
-[22:33:59] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[22:33:59] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[22:33:59] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
-[22:33:59] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[22:33:59] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[22:33:59] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[22:33:59] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[22:33:59] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[22:34:00] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[22:34:00] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[22:34:00] [Server thread/INFO]: [LuckPerms] Closing storage...
-[22:34:00] [Server thread/INFO]: [LuckPerms] Goodbye!
-[22:34:00] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[22:34:00] [Server thread/INFO]: Saving players
-[22:34:00] [Server thread/INFO]: Saving worlds
-[22:34:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Saved 20 block chunks, 14 entity chunks, 0 poi chunks in world 'world' in 0.04s
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[22:34:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[22:34:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[22:34:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[22:34:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:34:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:34:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:34:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:34:00] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[22:34:00] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[22:34:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[22:34:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[13:27:41] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
+[13:27:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[13:27:44] [ServerMain/INFO]: Loaded 1470 recipes
+[13:27:44] [ServerMain/INFO]: Loaded 1584 advancements
+[13:27:44] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:27:44] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 475.0ms
+[13:27:44] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
+[13:27:44] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[13:27:44] [Server thread/WARN]: ****************************
+[13:27:44] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[13:27:44] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[13:27:44] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[13:27:44] [Server thread/WARN]: ****************************
+[13:27:44] [Server thread/INFO]: Loading properties
+[13:27:44] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[13:27:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:27:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:27:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:27:46] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[13:27:46] [Server thread/INFO]: Default game type: SURVIVAL
+[13:27:46] [Server thread/INFO]: Generating keypair
+[13:27:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:27:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:27:46] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[13:27:46] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[13:27:46] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[13:27:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:27:47] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[13:27:47] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[13:27:47] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[13:27:48] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2d565602]
+[13:27:48] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[13:27:48] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[13:27:48] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v1.0-1.21
+[13:27:48] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[13:27:48] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[13:27:48] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[13:27:48] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[13:27:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:27:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[13:27:50] [Server thread/INFO]:         __    
+[13:27:50] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[13:27:50] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[13:27:50] [Server thread/INFO]: 
+[13:27:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:27:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:27:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:27:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1435ms)
+[13:27:51] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[13:27:51] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[13:27:51] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[13:27:51] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[13:27:51] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:27:51] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:27:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[13:27:52] [Server thread/INFO]: Preparing level "world"
+[13:27:52] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[13:27:52] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 2 NUMA nodes.
+[13:27:53] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
+[13:27:53] [Server thread/INFO]: Preparing spawn area: 28%
+[13:27:54] [Server thread/INFO]: Prepared spawn area in 401 ms
+[13:27:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[13:27:54] [Server thread/INFO]: Preparing spawn area: 100%
+[13:27:54] [Server thread/INFO]: Prepared spawn area in 7 ms
+[13:27:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[13:27:54] [Server thread/INFO]: Prepared spawn area in 1 ms
+[13:27:54] [Server thread/INFO]: Done preparing level "world" (1.290s)
+[13:27:54] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[13:27:54] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[13:27:56] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[13:27:56] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[13:27:57] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[13:27:57] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v1.0-1.21
+[13:27:57] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[13:27:57] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[13:27:57] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[13:27:58] [Server thread/INFO]: [TAB] Enabled in 653ms
+[13:27:58] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[13:27:58] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[13:27:58] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[13:27:58] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[13:27:58] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[13:27:58] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[13:27:58] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[13:27:58] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[13:27:58] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[13:27:59] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[13:27:59] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[13:27:59] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[13:27:59] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[13:27:59] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[13:27:59] [Server thread/INFO]: [SkBee]  - 56 events
+[13:27:59] [Server thread/INFO]: [SkBee]  - 71 effects
+[13:27:59] [Server thread/INFO]: [SkBee]  - 240 expressions
+[13:27:59] [Server thread/INFO]: [SkBee]  - 27 conditions
+[13:27:59] [Server thread/INFO]: [SkBee]  - 32 sections
+[13:27:59] [Server thread/INFO]: [SkBee]  - 11 properties
+[13:27:59] [Server thread/INFO]: [SkBee] Update checker disabled!
+[13:27:59] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.50 seconds
+[13:27:59] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[13:27:59] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[13:28:00] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[13:28:00] [Server thread/INFO]: [spark] Starting background profiler...
+[13:28:00] [Thread-13/INFO]: [Skript] Loaded 5684 aliases in 3328ms
+[13:28:00] [Server thread/INFO]: Running delayed init tasks
+[13:28:00] [Server thread/INFO]: [Skript] Loading variables...
+[13:28:00] [Server thread/INFO]: [Skript] Loaded 496 variables in 0.0 seconds
+[13:28:05] [User Authenticator #0/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[13:28:10] [User Authenticator #0/INFO]: UUID of player pixellorde is 7edbf9e4-1ee7-4544-9a99-cb830796f18c
+[13:28:10] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
+[13:28:10] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[13:28:10] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[13:28:10] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[13:28:10] [Server thread/INFO]: [Skript] Loaded 30 scripts with a total of 276 structures in 10.09 seconds
+[13:28:10] [Server thread/INFO]: [Skript] Finished loading.
+[13:28:10] [Server thread/INFO]: Done (37.570s)! For help, type "help"
+[13:28:11] [Server thread/INFO]: DonalDucker (/176.229.5.32:55411) lost connection: Disconnected
+[13:28:11] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[13:28:11] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 28 build(s) behind ***
+[13:28:11] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[13:28:12] [User Authenticator #0/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[13:28:14] [Server thread/INFO]: [Join] pixellorde (Uni) joined
+[13:28:14] [Server thread/INFO]: pixellorde[/87.70.157.181:58400] logged in with entity id 2 at ([world]-494.81219726204023, 71.0, 494.65106099434917)
+[13:28:15] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[13:28:15] [Server thread/INFO]: DonalDucker[/176.229.5.32:57141] logged in with entity id 3 at ([world]-489.97814023619014, 70.0, 508.2241330336083)
+[13:28:15] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[13:28:15] [Server thread/INFO]: LickMyLeg[/85.64.122.119:56742] logged in with entity id 1 at ([world]-511.51075552951517, 110.0, 535.1662542482676)
+[13:28:16] [Server thread/INFO]: Added pixellorde to team [uniChat]
+[13:28:16] [Server thread/INFO]: [Sync] pixellorde -> Team uniChat
+[13:28:16] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[13:28:16] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[13:28:16] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[13:28:16] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[13:32:15] [Server thread/INFO]: [Death] DonalDucker was shot by Skeleton (Uni)
+[13:32:57] [User Authenticator #1/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[13:32:59] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[13:32:59] [Server thread/INFO]: trololol72[/176.228.190.209:62729] logged in with entity id 2304 at ([world]-691.5314532800953, 75.52630235642756, -1101.970466671945)
+[13:33:00] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[13:33:00] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[13:33:09] [Server thread/INFO]: trololol72 issued server command: /gatelist
+[13:33:46] [Server thread/INFO]: trololol72 issued server command: /gatelist
+[13:33:52] [Server thread/INFO]: [Death] DonalDucker was shot by Skeleton (Uni)
+[13:34:07] [Server thread/INFO]: [Death] pixellorde was shot by Skeleton (Uni)
+[13:34:23] [Server thread/INFO]: trololol72 issued server command: /tpb maze lib
+[13:34:25] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:35:01] [Server thread/INFO]: trololol72 issued server command: /gatel
+[13:35:04] [Server thread/INFO]: trololol72 issued server command: /gatelist
+[13:35:25] [Server thread/INFO]: trololol72 issued server command: /gatedelete "badlands lib"
+[13:35:29] [Server thread/INFO]: trololol72 issued server command: /gatedelete badlands lib
+[13:35:47] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:36:14] [Server thread/INFO]: trololol72 issued server command: /tpb_set maze lib
+[13:36:14] [Server thread/INFO]: tpb set: maze lib
+[13:36:14] [Server thread/INFO]: Set tpb location for 'maze lib' to: x: -726.71, y: 67, z: -1104.48, yaw: 176.92, pitch: 7.14 in 'world'
+[13:36:32] [Server thread/INFO]: trololol72 issued server command: /tpb maze badlands
+[13:36:35] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:36:42] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:37:37] [Server thread/INFO]: trololol72 issued server command: /gatelist
+[13:37:40] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[13:37:40] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[13:38:07] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:38:19] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:38:24] [Server thread/INFO]: trololol72 issued server command: /tpb lab
+[13:38:51] [Server thread/INFO]: trololol72 issued server command: //copy
+[13:38:51] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[13:38:56] [Server thread/INFO]: trololol72 issued server command: /tpb maze ocean
+[13:38:58] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:39:05] [Server thread/INFO]: trololol72 issued server command: /tpb lab
+[13:39:06] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:39:13] [Server thread/INFO]: trololol72 issued server command: //paste
+[13:39:40] [Server thread/INFO]: trololol72 issued server command: //copy
+[13:39:47] [Server thread/INFO]: trololol72 issued server command: /tpb maze ocean
+[13:39:51] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:40:03] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:40:34] [Server thread/INFO]: trololol72 issued server command: //paste
+[13:41:06] [Server thread/INFO]: trololol72 issued server command: /gatelist
+[13:41:18] [Server thread/INFO]: trololol72 issued server command: /gatedelete ocean_lib
+[13:41:25] [Server thread/INFO]: trololol72 issued server command: /gatedelete snow_lib
+[13:41:29] [Server thread/INFO]: trololol72 issued server command: /gatelist
+[13:41:36] [Server thread/INFO]: trololol72 issued server command: /gatedelete test1
+[13:41:38] [Server thread/INFO]: trololol72 issued server command: /gatelist
+[13:41:51] [Server thread/INFO]: trololol72 issued server command: /tpb maze lib
+[13:41:55] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:42:17] [Server thread/INFO]: trololol72 issued server command: /gamerule reduced_debug_info false
+[13:42:17] [Server thread/INFO]: [trololol72: Gamerule reduced_debug_info is now set to: false]
+[13:42:24] [Server thread/INFO]: trololol72 issued server command: /gamerule reduced_debug_info true
+[13:42:24] [Server thread/INFO]: [trololol72: Gamerule reduced_debug_info is now set to: true]
+[13:42:31] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:42:57] [Server thread/INFO]: trololol72 issued server command: /tpb maze ovean
+[13:42:57] [Server thread/INFO]: Set tpb location for 'maze ovean' to: x: -727.42, y: 67, z: -1191.58, yaw: -179.44, pitch: 90 in 'world'
+[13:43:05] [Server thread/INFO]: trololol72 issued server command: /tpb maze ocean
+[13:43:08] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:43:16] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:43:36] [Server thread/INFO]: trololol72 issued server command: /tpb maze lib
+[13:43:42] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:43:55] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:44:07] [Server thread/INFO]: trololol72 issued server command: /gate_confirm lib_ocean
+[13:44:30] [Server thread/INFO]: trololol72 issued server command: /tpb maze badlands
+[13:44:33] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:44:48] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:44:54] [Server thread/INFO]: trololol72 issued server command: //paste
+[13:45:18] [Server thread/INFO]: trololol72 issued server command: /tpb maze lib
+[13:45:26] [Server thread/INFO]: pixellorde lost connection: Disconnected
+[13:45:26] [Server thread/INFO]: [Quit] pixellorde (Uni) left
+[13:45:44] [Server thread/INFO]: trololol72 issued server command: /gate_confirm
+[13:45:52] [Server thread/INFO]: trololol72 issued server command: /gate_confirm lib_badlands
+[13:46:18] [Server thread/INFO]: trololol72 issued server command: /tpb maze pale
+[13:46:25] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:46:40] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:46:53] [Server thread/INFO]: trololol72 issued server command: //paste
+[13:47:55] [Server thread/INFO]: trololol72 issued server command: /tpb maze lib
+[13:48:06] [Server thread/INFO]: trololol72 issued server command: /gamerule reduced_debug_info false
+[13:48:06] [Server thread/INFO]: [trololol72: Gamerule reduced_debug_info is now set to: false]
+[13:48:16] [Server thread/INFO]: trololol72 issued server command: /gamerule reduced_debug_info true
+[13:48:16] [Server thread/INFO]: [trololol72: Gamerule reduced_debug_info is now set to: true]
+[13:48:32] [Server thread/INFO]: trololol72 issued server command: /gate_confirm lib_pale
+[13:48:51] [Server thread/INFO]: trololol72 issued server command: /tpb maze snow
+[13:48:56] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:49:06] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:49:10] [Server thread/INFO]: trololol72 issued server command: //paste
+[13:49:19] [Server thread/INFO]: trololol72 issued server command: //undo
+[13:49:27] [Server thread/INFO]: trololol72 issued server command: //rotate 90 0
+[13:49:29] [Server thread/INFO]: trololol72 issued server command: //paste
+[13:49:36] [Server thread/INFO]: trololol72 issued server command: //undo
+[13:49:38] [Server thread/INFO]: trololol72 issued server command: //rotate 90 0
+[13:49:41] [Server thread/INFO]: trololol72 issued server command: //paste
+[13:49:45] [Server thread/INFO]: trololol72 issued server command: //undo
+[13:49:46] [Server thread/INFO]: trololol72 issued server command: //rotate 90 0
+[13:49:47] [Server thread/INFO]: trololol72 issued server command: //paste
+[13:50:23] [Server thread/INFO]: trololol72 issued server command: /tpb maze lib
+[13:50:35] [Server thread/INFO]: trololol72 issued server command: /gate_confirm
+[13:50:42] [Server thread/INFO]: trololol72 issued server command: /gate_confirm lib_snow
+[13:50:54] [Server thread/INFO]: trololol72 issued server command: /tpb lab
+[13:51:09] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:51:15] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:51:48] [Server thread/INFO]: trololol72 issued server command: /tpb maze ocean
+[13:51:49] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:51:55] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:52:09] [Server thread/INFO]: trololol72 issued server command: /gate_confirm ocean_tp
+[13:52:51] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:52:58] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:53:06] [Server thread/INFO]: trololol72 issued server command: /tpb maze snow
+[13:53:08] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:53:15] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:53:42] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:53:49] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:54:04] [Server thread/INFO]: trololol72 issued server command: /tpb lab
+[13:54:06] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:54:09] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:54:57] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[13:55:25] [Server thread/INFO]: trololol72 issued server command: //cyl air 8 15
+[13:55:54] [Server thread/INFO]: trololol72 issued server command: /gate_confirm snow_large
+[13:55:59] [Server thread/INFO]: trololol72 issued server command: /tpb maze snow
+[13:56:01] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:56:06] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:57:31] [Server thread/INFO]: trololol72 issued server command: /tpb maze pale
+[13:57:35] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:57:42] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:58:11] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:58:13] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:58:29] [Server thread/INFO]: trololol72 issued server command: /tpb lab
+[13:58:40] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:58:49] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:59:12] [Server thread/INFO]: trololol72 issued server command: /gate_confirm pale_inf
+[13:59:17] [Server thread/INFO]: trololol72 issued server command: /tpb maze pale
+[13:59:18] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:59:24] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[13:59:39] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:00:27] [Server thread/INFO]: trololol72 issued server command: /tpb maze badlands
+[14:00:38] [Server thread/INFO]: trololol72 issued server command: /gatelist
+[14:01:06] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:01:29] [Server thread/INFO]: trololol72 issued server command: /tpb lab
+[14:01:45] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:02:07] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:02:14] [Server thread/INFO]: trololol72 issued server command: //cyl air 3 8
+[14:02:32] [Server thread/INFO]: trololol72 issued server command: //cyl air 3 10
+[14:02:57] [Server thread/INFO]: trololol72 issued server command: /gate_confirm badlands_arena
+[14:03:27] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:03:40] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:04:13] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:04:28] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:04:36] [Server thread/INFO]: trololol72 issued server command: //cyl 3 10
+[14:04:39] [Server thread/INFO]: trololol72 issued server command: //undo
+[14:04:43] [Server thread/INFO]: trololol72 issued server command: //cyl air 3 10
+[14:05:04] [Server thread/INFO]: trololol72 issued server command: /tpb maze lib
+[14:05:09] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:05:11] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:05:32] [Server thread/INFO]: trololol72 issued server command: /gate_confirm arema_lib
+[14:05:55] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:05:59] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:06:04] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:06:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:06:57] [Server thread/INFO]: trololol72 issued server command: /gate_confirm inf_lib
+[14:09:12] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:09:16] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:09:27] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:09:41] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:10:13] [Server thread/INFO]: trololol72 issued server command: /gate_confirm tp_lib
+[14:10:49] [Server thread/INFO]: trololol72 issued server command: /gatelist
+[14:11:24] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:11:29] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:11:59] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 14044980-7dba-42e5-88db-005c678b0b6f, mapped to Cow['Cow'/1776, uuid='14044980-7dba-42e5-88db-005c678b0b6f', l='ServerLevel[world]', x=55.86, y=36.00, z=-27.14, cpos=[3, -2], tl=0, v=false], can't add Cow['Cow'/35351, uuid='14044980-7dba-42e5-88db-005c678b0b6f', l='ServerLevel[world]', x=-1967.88, y=39.00, z=-1557.12, cpos=[-123, -98], tl=0, v=false]
+[14:11:59] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: e617b3de-87c7-4aca-8500-be58f757fd80, mapped to Cow['Cow'/2085, uuid='e617b3de-87c7-4aca-8500-be58f757fd80', l='ServerLevel[world]', x=68.83, y=36.00, z=3.23, cpos=[4, 0], tl=0, v=false], can't add Cow['Cow'/35368, uuid='e617b3de-87c7-4aca-8500-be58f757fd80', l='ServerLevel[world]', x=-1968.23, y=39.00, z=-1563.17, cpos=[-124, -98], tl=0, v=false]
+[14:12:00] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[14:12:03] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 72a2c771-e6af-46ed-b12f-a23e46dd0730, mapped to Cow['Cow'/1611, uuid='72a2c771-e6af-46ed-b12f-a23e46dd0730', l='ServerLevel[world]', x=36.74, y=36.00, z=-17.50, cpos=[2, -2], tl=0, v=false], can't add Cow['Cow'/35390, uuid='72a2c771-e6af-46ed-b12f-a23e46dd0730', l='ServerLevel[world]', x=-1985.72, y=36.00, z=-1557.28, cpos=[-125, -98], tl=0, v=false]
+[14:12:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: d6995361-0eee-44fa-a26b-f531ea71fd4e, mapped to Pig['Pig'/1675, uuid='d6995361-0eee-44fa-a26b-f531ea71fd4e', l='ServerLevel[world]', x=15.12, y=38.00, z=-75.32, cpos=[0, -5], tl=0, v=false], can't add Pig['Pig'/35428, uuid='d6995361-0eee-44fa-a26b-f531ea71fd4e', l='ServerLevel[world]', x=-2025.76, y=37.00, z=-1568.76, cpos=[-127, -99], tl=0, v=false]
+[14:12:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 20fc46cd-3e9c-4970-8432-57be53179d62, mapped to Pig['Pig'/1637, uuid='20fc46cd-3e9c-4970-8432-57be53179d62', l='ServerLevel[world]', x=6.75, y=33.00, z=-36.80, cpos=[0, -3], tl=0, v=false], can't add Pig['Pig'/35436, uuid='20fc46cd-3e9c-4970-8432-57be53179d62', l='ServerLevel[world]', x=-2038.88, y=34.00, z=-1565.41, cpos=[-128, -98], tl=0, v=false]
+[14:12:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 480eeb5d-8d84-4554-ba9a-038d41754cd3, mapped to Pig['Pig'/1609, uuid='480eeb5d-8d84-4554-ba9a-038d41754cd3', l='ServerLevel[world]', x=7.27, y=35.00, z=-22.24, cpos=[0, -2], tl=0, v=false], can't add Pig['Pig'/35442, uuid='480eeb5d-8d84-4554-ba9a-038d41754cd3', l='ServerLevel[world]', x=-2040.47, y=37.00, z=-1575.25, cpos=[-128, -99], tl=0, v=false]
+[14:12:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 50a4e91b-66cf-4317-8b65-b94d956f17b3, mapped to Chicken['Chicken'/1651, uuid='50a4e91b-66cf-4317-8b65-b94d956f17b3', l='ServerLevel[world]', x=27.50, y=34.00, z=-55.11, cpos=[1, -4], tl=0, v=false], can't add Chicken['Chicken'/35443, uuid='50a4e91b-66cf-4317-8b65-b94d956f17b3', l='ServerLevel[world]', x=-2037.75, y=36.00, z=-1572.20, cpos=[-128, -99], tl=0, v=false]
+[14:12:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: cb932c81-51f2-4eff-b2bc-c5028fda5c28, mapped to Chicken['Chicken'/1677, uuid='cb932c81-51f2-4eff-b2bc-c5028fda5c28', l='ServerLevel[world]', x=22.91, y=39.00, z=-67.70, cpos=[1, -5], tl=0, v=false], can't add Chicken['Chicken'/35444, uuid='cb932c81-51f2-4eff-b2bc-c5028fda5c28', l='ServerLevel[world]', x=-2038.86, y=36.00, z=-1571.11, cpos=[-128, -99], tl=0, v=false]
+[14:12:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 4a3e3667-2a33-4012-b744-19c1531786f5, mapped to Sheep['Sheep'/1610, uuid='4a3e3667-2a33-4012-b744-19c1531786f5', l='ServerLevel[world]', x=22.37, y=37.00, z=-19.03, cpos=[1, -2], tl=0, v=false], can't add Sheep['Sheep'/35445, uuid='4a3e3667-2a33-4012-b744-19c1531786f5', l='ServerLevel[world]', x=-2040.18, y=37.00, z=-1579.71, cpos=[-128, -99], tl=0, v=false]
+[14:12:04] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f3d9a195-2cf5-4471-a61c-d409f7b6b2c9, mapped to Sheep['Sheep'/1650, uuid='f3d9a195-2cf5-4471-a61c-d409f7b6b2c9', l='ServerLevel[world]', x=16.95, y=38.00, z=-61.24, cpos=[1, -4], tl=0, v=false], can't add Sheep['Sheep'/35446, uuid='f3d9a195-2cf5-4471-a61c-d409f7b6b2c9', l='ServerLevel[world]', x=-2026.27, y=38.00, z=-1594.79, cpos=[-127, -100], tl=0, v=false]
+[14:12:06] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:12:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 494fd499-99ba-4da8-b748-aea24dec1a21, mapped to Chicken['Chicken'/1444, uuid='494fd499-99ba-4da8-b748-aea24dec1a21', l='ServerLevel[world]', x=30.25, y=30.51, z=52.55, cpos=[1, 3], tl=0, v=true], can't add Chicken['Chicken'/35512, uuid='494fd499-99ba-4da8-b748-aea24dec1a21', l='ServerLevel[world]', x=-2028.00, y=91.00, z=-1478.00, cpos=[-127, -93], tl=0, v=false]
+[14:12:06] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f3e19a04-850d-48e8-bc6c-6baffd9de912, mapped to Chicken['Chicken'/1426, uuid='f3e19a04-850d-48e8-bc6c-6baffd9de912', l='ServerLevel[world]', x=9.15, y=31.00, z=88.89, cpos=[0, 5], tl=0, v=true], can't add Chicken['Chicken'/35513, uuid='f3e19a04-850d-48e8-bc6c-6baffd9de912', l='ServerLevel[world]', x=-2026.74, y=93.00, z=-1474.74, cpos=[-127, -93], tl=0, v=false]
+[14:12:37] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:12:52] [Server thread/INFO]: trololol72 issued server command: /tpb maze lib
+[14:13:22] [Server thread/INFO]: trololol72 issued server command: /gate_confirm large_lib
+[14:15:15] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
+[14:15:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
+[14:15:24] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:17:02] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:18:23] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[14:18:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:18:38] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[14:18:57] [Server thread/INFO]: trololol72 issued server command: /effect clear
+[14:18:57] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
+[14:19:16] [Server thread/INFO]: [Death] LickMyLeg fell from a high place (Uni)
+[14:20:21] [Server thread/INFO]: [Death] LickMyLeg fell from a high place (Uni)
+[14:21:04] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:25:24] [Server thread/INFO]: trololol72 issued server command: /tpb maze lib
+[14:25:33] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:25:42] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:26:15] [Server thread/INFO]: trololol72 issued server command: //copy
+[14:26:20] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:26:33] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:26:46] [Server thread/INFO]: trololol72 issued server command: //cyl air 9 15
+[14:26:52] [Server thread/INFO]: trololol72 issued server command: //paste
+[14:27:04] [Server thread/INFO]: trololol72 issued server command: //undo
+[14:27:11] [Server thread/INFO]: trololol72 issued server command: //cyl air 12 15
+[14:27:18] [Server thread/INFO]: trololol72 issued server command: //paste
+[14:27:40] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:27:55] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:28:16] [Server thread/INFO]: trololol72 issued server command: /give_loot_maze
+[14:28:20] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
+[14:28:24] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:29:00] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 209c4680-e22f-4ab7-bda3-c63384f695e6, mapped to Chicken['Chicken'/40825, uuid='209c4680-e22f-4ab7-bda3-c63384f695e6', l='ServerLevel[world]', x=88.87, y=34.00, z=277.87, cpos=[5, 17], tl=0, v=false], can't add Chicken['Chicken'/42729, uuid='209c4680-e22f-4ab7-bda3-c63384f695e6', l='ServerLevel[world]', x=-1967.00, y=89.00, z=-1247.60, cpos=[-123, -78], tl=0, v=false]
+[14:29:00] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 0e326244-496e-48d3-a659-288e9a1174a7, mapped to Chicken['Chicken'/40823, uuid='0e326244-496e-48d3-a659-288e9a1174a7', l='ServerLevel[world]', x=87.55, y=30.52, z=297.36, cpos=[5, 18], tl=0, v=false], can't add Chicken['Chicken'/42730, uuid='0e326244-496e-48d3-a659-288e9a1174a7', l='ServerLevel[world]', x=-1961.00, y=90.00, z=-1244.00, cpos=[-123, -78], tl=0, v=false]
+[14:29:07] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:29:32] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:29:45] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:29:56] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:30:08] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:30:31] [Server thread/INFO]: trololol72 issued server command: /give_loot_maze
+[14:30:32] [Server thread/INFO]: trololol72 issued server command: /give_loot_maze
+[14:30:36] [Server thread/INFO]: trololol72 issued server command: /give_loot_maze
+[14:30:44] [Server thread/INFO]: trololol72 issued server command: /give_loot_maze
+[14:30:45] [Server thread/INFO]: trololol72 issued server command: /give_loot_maze
+[14:30:51] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
+[14:33:13] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[14:33:13] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[14:33:14] [Server thread/INFO]: Stopping the server
+[14:33:14] [Server thread/INFO]: Stopping server
+[14:33:14] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[14:33:14] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[14:33:14] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[14:33:14] [Server thread/INFO]: [TAB] Disabled in 1ms
+[14:33:14] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[14:33:14] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[14:33:14] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
+[14:33:14] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[14:33:14] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[14:33:14] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[14:33:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:33:14] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[14:33:14] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[14:33:14] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:33:14] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:33:14] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:33:14] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[14:33:14] [Server thread/INFO]: Saving players
+[14:33:14] [Server thread/INFO]: trololol72 lost connection: Server closed
+[14:33:14] [Server thread/INFO]: trololol72 left the game
+[14:33:14] [Server thread/INFO]: Saving worlds
+[14:33:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:33:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:33:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:33:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Saved 1891 block chunks, 2885 entity chunks, 0 poi chunks in world 'world' in 3.13s
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[14:33:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[14:33:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[14:33:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[14:33:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:33:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:33:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:33:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:33:17] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[14:33:17] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[14:33:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[14:33:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
