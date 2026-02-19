@@ -3,7 +3,7 @@ options:
     safe_radius_2: 25.6
     wither_start: 07:00
     wither_end: 18:00
-    bored_timeout: 50
+    bored_timeout: 5
 
 # --- 1. Setup Data ---
 on load:
