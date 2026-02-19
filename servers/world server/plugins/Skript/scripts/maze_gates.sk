@@ -43,13 +43,13 @@ on right click:
     if name of player's tool is "&dgate tool":
         cancel event
         set {gate_temp::A} to location of event-block
-        send "{@prefix} Point A set." to player
+        send "{@prefix} Point A set: enter" to player
 
 on left click:
     if name of player's tool is "&dgate tool":
         cancel event
         set {gate_temp::B} to location of event-block
-        send "{@prefix} Point B set." to player
+        send "{@prefix} Point B set: exit" to player
 
 command /gate_confirm <text>:
     permission: op
@@ -90,9 +90,9 @@ every 3 ticks:
             set {_part_locA} to {_locA}
             add 1.5 to y-coord of {_part_locA}
             draw 4 dust particle using dustOption(purple, 1.5) at {_part_locA} with offset vector(0.4, 0.6, 0.4)
-            set {_part_locB} to {_locB}
-            add 1.5 to y-coord of {_part_locB}
-            draw 4 dust particle using dustOption(purple, 1.5) at {_part_locB} with offset vector(0.4, 0.6, 0.4)
+            # set {_part_locB} to {_locB}
+            # add 1.5 to y-coord of {_part_locB}
+            # draw 4 dust particle using dustOption(purple, 1.5) at {_part_locB} with offset vector(0.4, 0.6, 0.4)
 
             # Pearl Teleport Logic
             loop all ender pearls:
@@ -104,9 +104,28 @@ every 3 ticks:
                         set metadata "gated" of loop-ender pearl to true
                         gateDebug("Pearl entered %loop-value-1% at A, teleported to B.")
                         
-                    else if distance between {_pLoc} and {_locB_bottom} <= 1.5:
-                        teleport loop-ender pearl to {_locA_bottom}
-                        set metadata "gated" of loop-ender pearl to true
-                        gateDebug("Pearl entered %loop-value-1% at B, teleported to A.")
+                    # else if distance between {_pLoc} and {_locB_bottom} <= 1.5:
+                    #     teleport loop-ender pearl to {_locA_bottom}
+                    #     set metadata "gated" of loop-ender pearl to true
+                    #     gateDebug("Pearl entered %loop-value-1% at B, teleported to A.")
 
 
+command /gatedelete <text>:
+    permission: op
+    trigger:
+        if {gates_list::*} contains arg-1:
+            remove arg-1 from {gates_list::*}
+            clear {gates::%arg-1%::A}
+            clear {gates::%arg-1%::B}
+            send "{@prefix} Gate '%arg-1%' deleted." to player
+            gateDebug("Gate deleted: %arg-1%")
+        else:
+            send "{@prefix} Gate '%arg-1%' does not exist." to player
+
+command /gatelist:
+    permission: op
+    trigger:
+        if size of {gates_list::*} > 0:
+            send "{@prefix} Active Gates: &e%join {gates_list::*} with "", ""%" to player
+        else:
+            send "{@prefix} There are currently no active gates." to player
