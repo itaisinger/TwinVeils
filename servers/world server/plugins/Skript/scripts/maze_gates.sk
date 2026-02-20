@@ -1,0 +1,131 @@
+options:
+    prefix: &8[&dGate&8] &7
+
+on load:
+    if {gates::active} is not set:
+        set {gates::active} to false
+    if {gates::debug} is not set:
+        set {gates::debug} to false
+
+function gateDebug(msg: text):
+    if {gates::debug} is true:
+        broadcast "&8[&eGate-Debug&8] &7%{_msg}%"
+
+command /gatetoggle:
+    permission: op
+    trigger:
+        if {gates::active} is true:
+            set {gates::active} to false
+            send "{@prefix} Gates disabled." to player
+            gateDebug("Gate system turned OFF")
+        else:
+            set {gates::active} to true
+            send "{@prefix} Gates enabled." to player
+            gateDebug("Gate system turned ON")
+
+command /gatedebug:
+    permission: op
+    trigger:
+        if {gates::debug} is true:
+            set {gates::debug} to false
+            send "{@prefix} Debug mode disabled." to player
+        else:
+            set {gates::debug} to true
+            send "{@prefix} Debug mode enabled." to player
+
+command /gatetool:
+    permission: op
+    trigger:
+        give player a stick named "&dgate tool"
+        send "{@prefix} Right-click Point A, Left-click Point B." to player
+
+on right click:
+    if name of player's tool is "&dgate tool":
+        cancel event
+        set {gate_temp::A} to location of event-block
+        send "{@prefix} Point A set: enter" to player
+
+on left click:
+    if name of player's tool is "&dgate tool":
+        cancel event
+        set {gate_temp::B} to location of event-block
+        send "{@prefix} Point B set: exit" to player
+
+command /gate_confirm <text>:
+    permission: op
+    trigger:
+        if {gate_temp::A} is set:
+            if {gate_temp::B} is set:
+                set {gates::%arg-1%::A} to {gate_temp::A}
+                set {gates::%arg-1%::B} to {gate_temp::B}
+                if {gates_list::*} does not contain arg-1:
+                    add arg-1 to {gates_list::*}
+                send "{@prefix} Gate '%arg-1%' connected!" to player
+                gateDebug("New gate created: %arg-1%")
+            else:
+                send "{@prefix} You must set Point B first." to player
+        else:
+            send "{@prefix} You must set Point A first." to player
+
+every 3 ticks:
+    if {gates::active} is true:
+        loop {gates_list::*}:
+            # Load base locations
+            set {_locA} to {gates::%loop-value%::A}
+            set {_locB} to {gates::%loop-value%::B}
+            
+            # Setup offset locations for Math (A)
+            set {_locA_bottom} to {_locA}
+            add 1.5 to y-coordinate of {_locA_bottom}
+            set {_locA_top} to {_locA}
+            add 2.5 to y-coordinate of {_locA_top}
+            
+            # Setup offset locations for Math (B)
+            set {_locB_bottom} to {_locB}
+            add 1.5 to y-coordinate of {_locB_bottom}
+            set {_locB_top} to {_locB}
+            add 2.5 to y-coordinate of {_locB_top}
+        
+            # Particles
+            set {_part_locA} to {_locA}
+            add 1.5 to y-coord of {_part_locA}
+            draw 4 dust particle using dustOption(purple, 1.5) at {_part_locA} with offset vector(0.4, 0.6, 0.4)
+            # set {_part_locB} to {_locB}
+            # add 1.5 to y-coord of {_part_locB}
+            # draw 4 dust particle using dustOption(purple, 1.5) at {_part_locB} with offset vector(0.4, 0.6, 0.4)
+
+            # Pearl Teleport Logic
+            loop all ender pearls:
+                if metadata "gated" of loop-ender pearl is not set:
+                    set {_pLoc} to location of loop-ender pearl
+                    
+                    if distance between {_pLoc} and {_locA_bottom} <= 1.5:
+                        teleport loop-ender pearl to {_locB_bottom}
+                        set metadata "gated" of loop-ender pearl to true
+                        gateDebug("Pearl entered %loop-value-1% at A, teleported to B.")
+                        
+                    # else if distance between {_pLoc} and {_locB_bottom} <= 1.5:
+                    #     teleport loop-ender pearl to {_locA_bottom}
+                    #     set metadata "gated" of loop-ender pearl to true
+                    #     gateDebug("Pearl entered %loop-value-1% at B, teleported to A.")
+
+
+command /gatedelete <text>:
+    permission: op
+    trigger:
+        if {gates_list::*} contains arg-1:
+            remove arg-1 from {gates_list::*}
+            clear {gates::%arg-1%::A}
+            clear {gates::%arg-1%::B}
+            send "{@prefix} Gate '%arg-1%' deleted." to player
+            gateDebug("Gate deleted: %arg-1%")
+        else:
+            send "{@prefix} Gate '%arg-1%' does not exist." to player
+
+command /gatelist:
+    permission: op
+    trigger:
+        if size of {gates_list::*} > 0:
+            send "{@prefix} Active Gates: &e%join {gates_list::*} with "", ""%" to player
+        else:
+            send "{@prefix} There are currently no active gates." to player
