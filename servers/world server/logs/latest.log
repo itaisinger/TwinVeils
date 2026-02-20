@@ -1,219 +1,410 @@
-[03:11:12] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-100-generic (amd64)
-[03:11:12] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[03:11:13] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:11:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
-[03:11:14] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[15:51:08] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-100-generic (amd64)
+[15:51:08] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[15:51:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:51:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[15:51:11] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - HidePlugins (1.0-1.21), SkBee (3.15.0)
-[03:11:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[15:51:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[03:11:18] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
-[03:11:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[03:11:20] [ServerMain/INFO]: Loaded 1470 recipes
-[03:11:21] [ServerMain/INFO]: Loaded 1584 advancements
-[03:11:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[03:11:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 418.8ms
-[03:11:21] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
-[03:11:21] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[03:11:21] [Server thread/WARN]: ****************************
-[03:11:21] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[03:11:21] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[03:11:21] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[03:11:21] [Server thread/WARN]: ****************************
-[03:11:21] [Server thread/INFO]: Loading properties
-[03:11:21] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[03:11:21] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:11:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:11:21] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:11:22] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[03:11:23] [Server thread/INFO]: Default game type: SURVIVAL
-[03:11:23] [Server thread/INFO]: Generating keypair
-[03:11:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:11:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:11:23] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[03:11:23] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[03:11:23] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[03:11:23] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[03:11:23] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[03:11:23] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[03:11:24] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[03:11:25] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@558745ce]
-[03:11:25] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[03:11:25] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[03:11:25] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v1.0-1.21
-[03:11:25] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[03:11:25] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[03:11:25] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[03:11:25] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[03:11:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:11:25] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[03:11:26] [Server thread/INFO]:         __    
-[03:11:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[03:11:26] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[03:11:26] [Server thread/INFO]: 
-[03:11:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[03:11:26] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[03:11:26] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[03:11:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1238ms)
-[03:11:27] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[03:11:27] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[03:11:27] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[03:11:27] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[03:11:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[03:11:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[03:11:28] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[03:11:29] [Server thread/INFO]: Preparing level "world"
-[03:11:29] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[03:11:29] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 2 NUMA nodes.
-[03:11:29] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
-[03:11:29] [Server thread/INFO]: Preparing spawn area: 28%
-[03:11:30] [Server thread/INFO]: Prepared spawn area in 381 ms
-[03:11:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[03:11:30] [Server thread/INFO]: Prepared spawn area in 2 ms
-[03:11:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[03:11:30] [Server thread/INFO]: Prepared spawn area in 0 ms
-[03:11:30] [Server thread/INFO]: Done preparing level "world" (1.074s)
-[03:11:30] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[03:11:30] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[03:11:32] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[03:11:32] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[03:11:33] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[03:11:33] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v1.0-1.21
-[03:11:33] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[03:11:33] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[03:11:33] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[03:11:34] [Server thread/INFO]: [TAB] Enabled in 903ms
-[03:11:34] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[03:11:34] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[03:11:35] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[03:11:35] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[03:11:35] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[03:11:35] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[03:11:35] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[03:11:35] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[03:11:35] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[03:11:35] [Thread-13/INFO]: [Skript] Loaded 5684 aliases in 2915ms
-[03:11:35] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[03:11:35] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[03:11:35] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[03:11:35] [Server thread/INFO]: [SkBee]  - 56 events
-[03:11:35] [Server thread/INFO]: [SkBee]  - 71 effects
-[03:11:35] [Server thread/INFO]: [SkBee]  - 240 expressions
-[03:11:35] [Server thread/INFO]: [SkBee]  - 27 conditions
-[03:11:35] [Server thread/INFO]: [SkBee]  - 32 sections
-[03:11:35] [Server thread/INFO]: [SkBee]  - 11 properties
-[03:11:35] [Server thread/INFO]: [SkBee] Update checker disabled!
-[03:11:35] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.51 seconds
-[03:11:35] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[03:11:35] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[03:11:36] [Server thread/INFO]: [spark] Starting background profiler...
-[03:11:36] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[03:11:36] [Server thread/INFO]: Running delayed init tasks
-[03:11:36] [Server thread/INFO]: [Skript] Loading variables...
-[03:11:36] [Server thread/INFO]: [Skript] Loaded 524 variables in 0.1 seconds
-[03:11:48] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
-[03:11:48] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
-[03:11:48] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
-[03:11:48] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[03:11:48] [Server thread/INFO]: [Skript] Loaded 31 scripts with a total of 285 structures in 11.81 seconds
-[03:11:48] [Server thread/INFO]: [Skript] Finished loading.
-[03:11:48] [Server thread/INFO]: Done (37.324s)! For help, type "help"
-[03:11:48] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 29 build(s) behind ***
-[03:11:48] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[03:13:52] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[03:13:52] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[03:13:55] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[03:13:55] [Server thread/INFO]: trololol72[/93.173.35.208:51400] logged in with entity id 19 at ([world]511.69999998807907, 74.0, -510.2848724190655)
-[03:13:56] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[03:13:56] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[03:14:01] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[03:14:16] [Server thread/INFO]: trololol72 issued server command: /sk reload day.sk
-[03:14:22] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[03:14:29] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc u
-[03:14:32] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[03:14:43] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc f
-[03:15:08] [Server thread/INFO]: trololol72 issued server command: /day_set_egg_spot
-[03:15:19] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc u
-[03:15:27] [Server thread/INFO]: trololol72 issued server command: /day_set_wither_spot
-[03:17:11] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[03:17:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[03:17:38] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[03:18:08] [Server thread/INFO]: trololol72 issued server command: //fixlava 30
-[03:18:08] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
-[03:18:16] [Server thread/INFO]: trololol72 issued server command: //fixlava 30
-[03:18:42] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc u
-[03:18:49] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc f
-[03:19:01] [Server thread/INFO]: trololol72 issued server command: /tp 0 0 0
-[03:19:01] [Server thread/INFO]: [trololol72: Teleported trololol72 to 0.500000, 0.000000, 0.500000]
-[03:19:25] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[03:19:25] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[04:16:06] [Server thread/INFO]: Stopping the server
-[04:16:07] [Server thread/INFO]: Stopping server
-[04:16:07] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[04:16:07] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[04:16:07] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[04:16:07] [Server thread/INFO]: [TAB] Disabled in 1ms
-[04:16:07] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[04:16:07] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[04:16:07] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
-[04:16:07] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[04:16:07] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[04:16:07] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[04:16:07] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[04:16:07] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[04:16:07] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[04:16:07] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[04:16:07] [Server thread/INFO]: [LuckPerms] Closing storage...
-[04:16:07] [Server thread/INFO]: [LuckPerms] Goodbye!
-[04:16:07] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[04:16:07] [Server thread/INFO]: Saving players
-[04:16:07] [Server thread/INFO]: Saving worlds
-[04:16:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[04:16:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[04:16:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[04:16:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04:16:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:16:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:16:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04:16:07] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[04:16:07] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[04:16:07] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[04:16:07] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[15:51:15] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
+[15:51:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:51:17] [ServerMain/INFO]: Loaded 1470 recipes
+[15:51:17] [ServerMain/INFO]: Loaded 1584 advancements
+[15:51:17] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:51:18] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 486.2ms
+[15:51:18] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
+[15:51:18] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[15:51:18] [Server thread/WARN]: ****************************
+[15:51:18] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[15:51:18] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[15:51:18] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[15:51:18] [Server thread/WARN]: ****************************
+[15:51:18] [Server thread/INFO]: Loading properties
+[15:51:18] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[15:51:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:51:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:51:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:51:19] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:51:19] [Server thread/INFO]: Default game type: SURVIVAL
+[15:51:19] [Server thread/INFO]: Generating keypair
+[15:51:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:51:19] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:51:19] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[15:51:20] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[15:51:20] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[15:51:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:51:20] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[15:51:20] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[15:51:20] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[15:51:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@53c0e8b2]
+[15:51:21] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[15:51:21] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[15:51:21] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v1.0-1.21
+[15:51:21] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[15:51:21] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[15:51:21] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[15:51:21] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[15:51:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:51:22] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[15:51:22] [Server thread/INFO]:         __    
+[15:51:22] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[15:51:22] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:51:22] [Server thread/INFO]: 
+[15:51:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:51:23] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:51:23] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:51:23] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1054ms)
+[15:51:23] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[15:51:23] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[15:51:23] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[15:51:23] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[15:51:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:51:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:51:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[15:51:25] [Server thread/INFO]: Preparing level "world"
+[15:51:25] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[15:51:25] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 2 NUMA nodes.
+[15:51:26] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
+[15:51:26] [Server thread/INFO]: Preparing spawn area: 28%
+[15:51:26] [Server thread/INFO]: Prepared spawn area in 626 ms
+[15:51:26] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[15:51:26] [Server thread/INFO]: Prepared spawn area in 1 ms
+[15:51:26] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[15:51:26] [Server thread/INFO]: Prepared spawn area in 0 ms
+[15:51:26] [Server thread/INFO]: Done preparing level "world" (1.545s)
+[15:51:26] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[15:51:27] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[15:51:29] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[15:51:29] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[15:51:29] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[15:51:29] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v1.0-1.21
+[15:51:29] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[15:51:29] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[15:51:29] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[15:51:30] [Server thread/INFO]: [TAB] Enabled in 687ms
+[15:51:30] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[15:51:30] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[15:51:31] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[15:51:31] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[15:51:31] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[15:51:31] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[15:51:31] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[15:51:31] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[15:51:31] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[15:51:31] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[15:51:31] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[15:51:31] [Server thread/INFO]: [SkBee]  - 56 events
+[15:51:31] [Server thread/INFO]: [SkBee]  - 71 effects
+[15:51:31] [Server thread/INFO]: [SkBee]  - 240 expressions
+[15:51:31] [Server thread/INFO]: [SkBee]  - 27 conditions
+[15:51:31] [Server thread/INFO]: [SkBee]  - 32 sections
+[15:51:31] [Server thread/INFO]: [SkBee]  - 11 properties
+[15:51:31] [Server thread/INFO]: [SkBee] Update checker disabled!
+[15:51:31] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.43 seconds
+[15:51:31] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[15:51:31] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[15:51:32] [Thread-13/INFO]: [Skript] Loaded 5684 aliases in 3046ms
+[15:51:32] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[15:51:32] [Server thread/INFO]: [spark] Starting background profiler...
+[15:51:32] [Server thread/INFO]: Running delayed init tasks
+[15:51:32] [Server thread/INFO]: [Skript] Loading variables...
+[15:51:33] [Server thread/INFO]: [Skript] Loaded 533 variables in 0.1 seconds
+[15:51:44] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
+[15:51:44] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[15:51:44] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[15:51:44] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[15:51:44] [Server thread/INFO]: [Skript] Loaded 31 scripts with a total of 287 structures in 11.3 seconds
+[15:51:44] [Server thread/INFO]: [Skript] Finished loading.
+[15:51:44] [Server thread/INFO]: Done (36.504s)! For help, type "help"
+[15:51:44] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 29 build(s) behind ***
+[15:51:44] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[15:51:53] [User Authenticator #0/INFO]: UUID of player accuret is edb8e0ed-acfb-42da-ab2d-8d6fd991e092
+[15:51:53] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[15:51:56] [Server thread/INFO]: [Join] accuret (Friends) joined
+[15:51:56] [Server thread/INFO]: accuret[/93.173.35.208:59613] logged in with entity id 1 at ([world]483.7002150809148, 15.839999973773956, -492.6266035424118)
+[15:51:57] [Server thread/INFO]: Added accuret to team [friendsChat]
+[15:51:57] [Server thread/INFO]: [Sync] accuret -> Team friendsChat
+[15:51:58] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[15:52:00] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[15:52:00] [Server thread/INFO]: trololol72[/93.173.35.208:51304] logged in with entity id 210 at ([world]504.12561031550626, 72.0, -485.56559271695687)
+[15:52:01] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[15:52:01] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[15:52:24] [User Authenticator #0/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[15:52:25] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[15:52:26] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[15:52:26] [Server thread/INFO]: LickMyLeg[/147.235.194.77:1776] logged in with entity id 750 at ([world]-513.0035401365441, 73.0, 528.0850812704347)
+[15:52:27] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[15:52:27] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[15:54:02] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:54:12] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.11-88-8556cb4 (MC: 1.21.11) ---
+[15:54:12] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[15:54:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:54:12] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[15:54:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:54:12] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[15:54:12] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
+[15:54:12] [Paper Watchdog Thread/ERROR]: 	Stack:
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply.lambda$eval$0(Apply.java:30)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply$$Lambda/0x000077eab25d15a8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply.lambda$eval$0(Apply.java:30)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply$$Lambda/0x000077eab25d15a8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply.lambda$eval$0(Apply.java:30)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply$$Lambda/0x000077eab25d15a8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply.lambda$eval$0(Apply.java:30)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply$$Lambda/0x000077eab25d15a8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply.lambda$eval$0(Apply.java:30)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply$$Lambda/0x000077eab25d15a8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x000077eab1858248.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x000077eab25d57b8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x000077eab25d47c0.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x000077eab1858248.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x000077eab25d57b8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x000077eab25d47c0.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x000077eab1858248.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x000077eab25d57b8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x000077eab25d47c0.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x000077eab1858248.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x000077eab25d57b8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x000077eab25d47c0.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x000077eab25d57b8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x000077eab25d47c0.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x000077eab1858248.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.lambda$mapRight$1(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$$Lambda/0x000077eab25d57b8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either$Right.map(Either.java:99)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.util.Either.mapRight(Either.java:166)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$right$6(FunctionType.java:104)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x000077eab25d47c0.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function.lambda$compose$0(Function.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.function.Function$$Lambda/0x000077eab1d5d490.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$$Lambda/0x000077eab25d4560.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x000077eab1858248.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Fold.lambda$eval$2(Fold.java:91)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Fold$$Lambda/0x000077eab25cf530.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x000077eab1858248.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.capWrite(Type.java:167)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.lambda$readAndWrite$10(Type.java:159)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type$$Lambda/0x000077eab1857bc8.apply(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.readAndWrite(Type.java:158)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.DataFixerUpper.update(DataFixerUpper.java:78)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.legacy.CraftLegacy.<clinit>(CraftLegacy.java:406)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.util.CraftMagicNumbers.getBlock(CraftMagicNumbers.java:147)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.block.CraftBlockState.setRawData(CraftBlockState.java:293)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.BukkitEventValues.lambda$static$31(BukkitEventValues.java:290)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.BukkitEventValues$$Lambda/0x000077eab19a3310.convert(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.EventValueExpression.getValue(EventValueExpression.java:283)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.EventValueExpression.get(EventValueExpression.java:264)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.WrapperExpression.get(WrapperExpression.java:49)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.ConvertedExpression.getArray(ConvertedExpression.java:213)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.WrapperExpression.get(WrapperExpression.java:49)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:144)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.check(CondCompare.java:327)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Condition.evaluate(Condition.java:88)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Condition.evaluate(Condition.java:25)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.Conditional.evaluate(Conditional.java:45)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.Conditional.evaluateAnd(Conditional.java:105)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.CompoundConditional.evaluate(CompoundConditional.java:85)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.CompoundConditional.evaluate(CompoundConditional.java:68)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.sections.SecConditional.checkConditions(SecConditional.java:417)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.sections.SecConditional.walk(SecConditional.java:306)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.lambda$execute$2(SkriptEventHandler.java:165)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$$Lambda/0x000077eab1f26d70.run(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.lambda$execute$3(SkriptEventHandler.java:176)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$$Lambda/0x000077eab1f26f98.call(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.util.Task.callSync(Task.java:147)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.util.Task.callSync(Task.java:131)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.execute(SkriptEventHandler.java:174)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.check(SkriptEventHandler.java:120)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$PriorityListener.lambda$new$0(SkriptEventHandler.java:46)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$PriorityListener$$Lambda/0x000077eab1f24ec8.execute(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		org.bukkit.event.Event.callEvent(Event.java:46)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.event.CraftEventFactory.getPlayerBucketEvent(CraftEventFactory.java:598)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerBucketEmptyEvent(CraftEventFactory.java:572)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.BucketItem.emptyContents(BucketItem.java:141)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.BucketItem.use(BucketItem.java:89)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.ItemStack.use(ItemStack.java:554)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItem(ServerPlayerGameMode.java:449)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItem(ServerGamePacketListenerImpl.java:2200)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:48)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:9)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000077eab0ff9ac8.run(Unknown Source)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.runWith(Thread.java:1596)
+[15:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.run(Thread.java:1583)
+[15:54:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[15:54:12] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[15:54:12] [Paper Watchdog Thread/ERROR]: ------------------------------
+[16:01:06] [Server thread/INFO]: [Death] trololol72 was blown up by Creeper (Friends)
+[16:11:49] [Server thread/INFO]: accuret has made the advancement [We Need to Go Deeper]
+[16:11:53] [Server thread/INFO]: LickMyLeg: uh
+[16:13:31] [Server thread/INFO]: accuret: shown
+[16:15:39] [Server thread/INFO]: [Death] accuret was slain by Zombified Piglin (Friends)
+[16:15:40] [Server thread/INFO]: [Spawn Debug] accuret respawning without a bed.
+[16:15:40] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading accuret to Friends spawn (512, -512).
+[16:15:40] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
+[16:17:42] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[16:17:42] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[16:22:22] [Server thread/INFO]: Gamerule show_advancement_messages is now set to: false
+[16:42:12] [Server thread/INFO]: accuret lost connection: Disconnected
+[16:42:12] [Server thread/INFO]: [Quit] accuret (Friends) left
+[16:47:58] [Server thread/INFO]: Stopping the server
+[16:47:58] [Server thread/INFO]: Stopping server
+[16:47:58] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[16:47:58] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[16:47:58] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[16:47:58] [Server thread/INFO]: [TAB] Disabled in 0ms
+[16:47:58] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[16:47:58] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[16:47:58] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
+[16:47:58] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[16:47:58] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[16:47:58] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[16:47:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:47:58] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[16:47:58] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[16:47:58] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:47:58] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:47:58] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:47:58] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[16:47:58] [Server thread/INFO]: Saving players
+[16:47:58] [Server thread/INFO]: LickMyLeg lost connection: Server closed
+[16:47:59] [Server thread/INFO]: LickMyLeg left the game
+[16:47:59] [Server thread/INFO]: Saving worlds
+[16:47:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:47:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:47:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:47:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Saved 3423 block chunks, 4016 entity chunks, 0 poi chunks in world 'world' in 6.05s
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:48:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:48:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:48:05] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:48:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:48:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:48:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:48:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:48:05] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:48:05] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[16:48:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:48:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
