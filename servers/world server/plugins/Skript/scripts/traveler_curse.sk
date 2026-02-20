@@ -67,7 +67,6 @@ command /curse_debug <text>:
 function traveler_debug(msg: text):
     if {traveler_debug_active} is true:
         broadcast "&5[CURSE] &r%{_msg}%"
-
 # --- 4. Main Loop ---
 every 6 second:
     
@@ -76,27 +75,14 @@ every 6 second:
 
     set {_time} to time of world "world"
 
-    
-
     # Check Players
     loop all players:
         set {_px} to x-coord of loop-player
         set {_pz} to z-coord of loop-player
         set {_p} to loop-player
 
-
-        # loop active potion effects of {_p}:
-        #     send "%loop-value-2%" to console
-
-        # loop active potion effects of {_p}:
-        #     if loop-value is hunger:
-        #         if potion amplifier of loop-value is 2:
-        #             set {_curseLevel} to 0
-
-        broadcast "%potion amplifier of hunger of {_p}%"
         #check super effect given by warden
         if potion amplifier of hunger of {_p} is 3:
-            broadcast "cancelling"
             continue
 
         #check maze region

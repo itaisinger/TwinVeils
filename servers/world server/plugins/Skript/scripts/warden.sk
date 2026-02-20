@@ -1,22 +1,93 @@
 # --- Setup ---
 on load:
-    if {warden_flee_active} is not set:
-        set {warden_flee_active} to true
+    if {warden_active} is not set:
+        set {warden_active} to true
     if {warden_debug_active} is not set:
         set {warden_debug_active} to false
 
-# --- Toggles ---
-command /warden_flee_system <text>:
+# --- Functions ---
+function warden_debug(msg: text):
+    if {warden_debug_active} is true:
+        broadcast "&e[Debug] %{_msg}%"
+
+function spawn_warden(loc: location):
+    spawn 1 warden at {_loc}
+    set {boss_warden} to last spawned entity
+    add "boss" to scoreboard tags of {boss_warden}
+    set name of {boss_warden} to "Ma'at"
+    warden_debug("Spawned Boss Warden 'Ma'at' at %{_loc}%")
+# lightning strike
+every 4 seconds:
+    set {_w} to {boss_warden}
+
+    if {_w} is not set:
+        stop
+    if {_w} is dead:
+        stop
+        
+    # Note: This means a 20% chance to CANCEL the attack. 
+    # If you meant a 20% chance to trigger it, change this to 80%.
+    if chance of 80%:
+        stop
+    
+    # Get all nearby players and pick one randomly
+    set {_players::*} to all players in radius 50 of {_w}
+    if size of {_players::*} is 0:
+        stop
+    set {_p} to a random element out of {_players::*}
+    
+    # Freeze and Look
+    apply potion of slowness of tier 10 without particles to {_w} for 2 seconds
+    make {_w} look at location of eyes of {_p}
+    
+    set {_loc} to location of {_p}
+    
+    # Use vanilla sound unless "warden_shout" is a custom resource pack sound
+    play sound "minecraft:entity.warden.roar" with volume 2 at {_w} 
+    play sound "minecraft:ambient.cave" with volume 4 at {_loc} 
+    
+    wait 1 seconds
+    strike lightning at {_loc}
+ 
+
+# --- Events ---
+on spawn of warden:
+    wait 1 tick
+    if scoreboard tags of event-entity does not contain "boss":
+        set name of event-entity to "Unborn Ma'at"
+
+# --- Main Loop ---
+every 1 second:
+    if {warden_active} is true:
+        loop all entities where [input is a warden]:
+            if scoreboard tags of loop-entity does not contain "boss":
+                
+                # Check if HP is at or below 50%
+                set {_hp} to health of loop-entity
+                set {_maxHp} to max health of loop-entity
+                
+                if {_hp} <= ({_maxHp} / 2):
+                    warden_debug("Warden at %location of loop-entity% hit 50%% HP and fled!")
+                    
+                    # Apply Hunger 3 for 50 seconds to nearby players
+                    loop all players in radius 50 of loop-entity:
+                        apply potion of hunger of tier 3 to loop-player for 50 seconds
+                    
+                    strike lightning at loop-entity
+                    delete loop-entity
+
+# --- Commands ---
+command /warden_system <text>:
     permission: op
     trigger:
         if arg-1 is "true":
-            set {warden_flee_active} to true
+            set {warden_active} to true
             send "&aWarden Flee System ENABLED."
         else if arg-1 is "false":
-            set {warden_flee_active} to false
+            set {warden_active} to false
             send "&cWarden Flee System DISABLED."
 
-command /warden_flee_debug <text>:
+command /warden_debug <text>:
     permission: op
     trigger:
         if arg-1 is "true":
@@ -26,29 +97,40 @@ command /warden_flee_debug <text>:
             set {warden_debug_active} to false
             send "&cWarden Debug DISABLED."
 
-# --- Testing ---
 command /warden_hurt <number>:
     permission: op
     trigger:
         execute console command "damage @e[type=warden,limit=1,sort=nearest] %arg-1%"
 
-# --- Main Loop ---
-every 1 second:
-    if {warden_flee_active} is true:
-        loop all entities where [input is a warden]:
-            if scoreboard tags of loop-entity does not contain "boss":
-                
-                # Check if HP is at or below 50%
-                set {_hp} to health of loop-entity
-                set {_maxHp} to max health of loop-entity
-                
-                if {_hp} <= ({_maxHp} / 2):
-                    if {warden_debug_active} is true:
-                        broadcast "&e[Debug] Warden at %location of loop-entity% hit 50%% HP and fled!"
-                    
-                    # Apply Hunger 3 for 50 seconds to nearby players
-                    loop all players in radius 50 of loop-entity:
-                        apply potion of hunger of tier 3 to loop-player for 50 seconds
-                    
-                    strike lightning at loop-entity
-                    delete loop-entity
+command /warden_spawn_boss:
+    permission: op
+    trigger:
+        set {_loc} to location of player
+        spawn_warden({_loc})
+        send "&a[Boss] Triggered spawn at %{_loc}%."
+
+command /warden_tp_boss:
+    permission: op
+    trigger:
+        if {boss_warden} is set:
+            if {boss_warden} is alive:
+                teleport player to {boss_warden}
+                send "&a[Boss] Teleported to Ma'at."
+                warden_debug("%player% teleported to Ma'at.")
+            else:
+                send "&c[Boss] Ma'at is dead."
+        else:
+            send "&c[Boss] Ma'at is not spawned."
+
+command /warden_kill_boss:
+    permission: op
+    trigger:
+        if {boss_warden} is set:
+            if {boss_warden} is alive:
+                kill {boss_warden}
+                send "&a[Boss] Ma'at killed."
+                warden_debug("%player% killed Ma'at.")
+            else:
+                send "&c[Boss] Ma'at is dead."
+        else:
+            send "&c[Boss] Ma'at is not spawned."
