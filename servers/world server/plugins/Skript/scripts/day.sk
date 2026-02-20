@@ -1,0 +1,50 @@
+on load:
+    if {pos_egg} is not set:
+        set {pos_egg} to location(0, -1, 0, world("world"))
+    if {pos_beacon} is not set:
+        set {pos_beacon} to location(0, -1, 0, world("world"))
+    if {wither_defeated} is not set:
+        set {wither_defeated} to false
+    if {dragon_defeated} is not set:
+        set {dragon_defeated} to false
+
+every 1 tick:
+    # broadcast "time: %time of "world"%"
+    if {wither_defeated} is false:
+        add 1 tick to time of world "world"
+    else:
+        if time of world "world" is less than 23:59:
+            add 1 tick to time of world "world"
+
+on place:
+    if location of event-block is {pos_egg}:
+        if event-block is dragon egg:
+            set {dragon_defeated} to true
+            end_check()
+        else:
+            set {dragon_defeated} to false
+    
+    if location of event-block is {pos_beacon}:
+        if event-block is beacon:
+            set {wither_defeated} to true
+            end_check()
+        else:
+            set {wither_defeated} to false
+
+function end_check():
+    if {dragon_defeated} is true:
+        if {wither_defeated} is true:
+            broadcast "&aBoth bosses are defeated! Map Complete!"
+            # run_something() here
+
+command /day_set_wither_spot:
+    permission: op
+    trigger:
+        set {pos_beacon} to location of target block
+        send "&aWither (beacon) spot set to %{pos_beacon}%"
+
+command /day_set_egg_spot:
+    permission: op
+    trigger:
+        set {pos_egg} to location of target block
+        send "&aDragon egg spot set to %{pos_egg}%"
