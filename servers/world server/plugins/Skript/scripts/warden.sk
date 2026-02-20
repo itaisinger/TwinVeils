@@ -11,9 +11,10 @@ function spawn_warden(loc: location):
     set {boss_warden} to last spawned entity
     add "boss" to scoreboard tags of {boss_warden}
     set name of {boss_warden} to "Ma'at"
+    add {boss_warden} to team named "warden"
     warden_debug("Spawned Boss Warden 'Ma'at' at %{_loc}%")
 # lightning strike
-every 4 seconds:
+every 6 seconds:
     set {_w} to {boss_warden}
 
     if {_w} is not set:
@@ -21,7 +22,8 @@ every 4 seconds:
     if {_w} is dead:
         stop
 
-    bhvr_chase()  
+    # bhvr_spawn()  
+    stop
     # Note: This means a 20% chance to CANCEL the attack. 
     # If you meant a 20% chance to trigger it, change this to 80%.
     if chance of 80%:
@@ -87,14 +89,46 @@ function bhvr_heal():
 
 #
 function bhvr_spawn():
-    set {_num} to random integer between 3 and 7
+    set {_w} to {boss_warden}
+    
+    if {_w} is not set:
+        stop
+    if {_w} is dead:
+        stop
+        
+    draw 120 dust particle using dustOption(blue, 2) at head of {_w} with offset vector(2.5, 0.5, 2.5)
+    play sound "minecraft:entity.warden.roar" at {_w}
+    apply slowness 10 without particles to {_w} for 3 second
+    set velocity of {_w} to vector(0, 0.8, 0)
+
+    wait 2 seconds
+
+    set {_num} to a random integer between 3 and 7
+    set {_options::*} to zombie, skeleton, creeper and witch
+    
     loop {_num} times:
-        set {_loc} to a random spawnable block within 15 blocks
-        set {_options::*} to zombie, skeleton, creeper, witch
+        # 1. Get the Warden's location
+        set {_loc} to location of {_w}
+        
+        # 2. Add a random distance between -15 and 15 to the X and Z coordinates
+        set {_offsetX} to a random number between -15 and 15
+        set {_offsetZ} to a random number between -15 and 15
+        add {_offsetX} to x-coord of {_loc}
+        add {_offsetZ} to z-coord of {_loc}
+        
+        # 3. Find the highest block at that new spot so they spawn on the surface
+        set {_loc} to location of highest solid block at {_loc}
+        add 1 to y-coord of {_loc}
+        
+        # 4. Pick mob and spawn
         set {_mob} to a random element out of {_options::*}    
+        
         strike lightning at {_loc}
-        wait 1 tick
-        spawn {_mob} at {_loc}
+        spawn 1 of {_mob} at {_loc}
+        set {_e} to last spawned entity
+        add {_e} to team named "warden"
+        
+        wait 5 ticks
 
 #
 function warden_debug(msg: text):
