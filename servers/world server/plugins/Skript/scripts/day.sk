@@ -37,6 +37,7 @@ every 5 ticks:
 on break:
     if location of event-block is {pos_egg}:
         set {dragon_defeated} to false
+        set {curse_active} to true
         day_debug("dragon unplaced")
     
     if location of event-block is {pos_beacon}:
@@ -57,8 +58,10 @@ on place:
             play sound "entity.ender_eye.death" with volume 2.5 and pitch 1.3 at {pos_egg}
             play sound "minecraft:block.end_portal_frame.fill" with volume 2 and pitch 1.2 at {pos_egg}
             day_debug("dragon placed")
+            set {curse_active} to false
             end_check()
         else:
+            set {curse_active} to true
             set {dragon_defeated} to false
     
     if location of event-block is {pos_beacon}:

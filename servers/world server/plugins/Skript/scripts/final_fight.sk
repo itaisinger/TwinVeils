@@ -3,4 +3,9 @@ command /play_final_fight_ost:
     trigger:
         stop all sounds for all players
         broadcast "playing final fight ost"
-        play sound "minecraft:broken_memory" in record category with volume 1000 to all players
+        play sound "minecraft:broken_memory" in record category with volume 2 to all players
+
+function start_final_fight():
+    stop all sounds for all players
+    broadcast "playing final fight ost"
+    play sound "minecraft:broken_memory" in record category with volume 2 to all players

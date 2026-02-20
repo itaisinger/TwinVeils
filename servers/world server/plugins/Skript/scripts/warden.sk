@@ -4,16 +4,63 @@ on load:
     if {warden_active} is not set:
         set {warden_active} to true
     set {warden_debug_active} to false
-
+    set {warden_hp_prec} to -1
 # --- Functions ---
+
+function setup_maat_bar():
+    execute console command "/bossbar remove maat"
+    execute console command "/bossbar add maat ""&9Ma'at"" "
+    execute console command "/bossbar set minecraft:maat players @a"
+    execute console command "/bossbar set minecraft:maat color blue"
+#
 function spawn_warden(loc: location):
-    spawn 1 warden at {_loc}
-    set {boss_warden} to last spawned entity
-    add "boss" to scoreboard tags of {boss_warden}
-    set name of {boss_warden} to "Ma'at"
-    add {boss_warden} to team named "warden"
-    warden_debug("Spawned Boss Warden 'Ma'at' at %{_loc}%")
-# lightning strike
+    set {_x} to x-coord of {_loc}
+    set {_y} to y-coord of {_loc}
+    set {_z} to z-coord of {_loc}
+    
+    # 1. Summon it via command with emerging animation, dig cooldown (to prevent fleeing), and a tracker tag
+    execute console command "summon warden %{_x}% %{_y}% %{_z}% {Tags:[""maat_tracker""],Brain:{memories:{""minecraft:is_emerging"":{value:{},ttl:133L},""minecraft:dig_cooldown"":{value:{},ttl:1200000L}}}}"
+    
+    # 2. Wait 2 ticks for the server to actually load the entity into the world
+    wait 2 ticks
+    
+    # 3. Find that exact Warden and apply your settings
+    loop all entities where [input is a warden]:
+        if scoreboard tags of loop-entity contains "maat_tracker":
+            set {boss_warden} to loop-entity
+            
+            # Clean up the tracker tag
+            remove "maat_tracker" from scoreboard tags of {boss_warden}
+            
+            # Apply your boss data
+            add "boss" to scoreboard tags of {boss_warden}
+            set name of {boss_warden} to "Ma'at"
+            add {boss_warden} to team named "warden"
+            
+            # 1. Create the base ID first
+            setup_maat_bar()
+
+            warden_debug("Spawned Boss Warden 'Ma'at' at %{_loc}%")
+            
+            stop loop
+# bar update
+every 3 ticks:
+    if {boss_warden} is not set:
+        stop
+    if {boss_warden} is not alive:
+        stop
+    
+    # set {_prec_prev} to value of bossbar 
+    set {_prec} to health of {boss_warden} / max health of {boss_warden}
+    set {_prec} to floor({_prec} * 100)
+    # warden_debug("hp: %{_prec}%")
+    if {_prec} is not {warden_hp_prec}:
+        execute console command "/bossbar set minecraft:maat value %{_prec}%"
+    set {warden_hp_prec} to {_prec}
+    
+
+
+# bhvr loop
 every 7 seconds:
     set {_w} to {boss_warden}
 
@@ -91,6 +138,7 @@ function bhvr_chase():
 #
 function bhvr_heal():
     apply slowness 10 without particles to {boss_warden} for 3 second
+    apply regeneration 3 to {boss_warden} for 5 second
     play sound "minecraft:entity.splash_potion.break" with volume 3 and pitch 0.3 at {boss_warden}
 
     
@@ -196,6 +244,10 @@ command /warden_set_skip_bhvr_prec <number>:
     trigger:
         set {skip_bhvr_prec} to arg-1
 #
+command /warden_bar:
+    permission: op
+    trigger:
+        setup_maat_bar()
 command /warden_system <text>:
     permission: op
     trigger:
