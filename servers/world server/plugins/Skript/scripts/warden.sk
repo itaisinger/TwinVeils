@@ -1,9 +1,9 @@
 # --- Setup ---
 on load:
+    set {skip_bhvr_prec} to 70
     if {warden_active} is not set:
         set {warden_active} to true
-    if {warden_debug_active} is not set:
-        set {warden_debug_active} to false
+    set {warden_debug_active} to false
 
 # --- Functions ---
 function spawn_warden(loc: location):
@@ -14,7 +14,7 @@ function spawn_warden(loc: location):
     add {boss_warden} to team named "warden"
     warden_debug("Spawned Boss Warden 'Ma'at' at %{_loc}%")
 # lightning strike
-every 6 seconds:
+every 7 seconds:
     set {_w} to {boss_warden}
 
     if {_w} is not set:
@@ -22,23 +22,25 @@ every 6 seconds:
     if {_w} is dead:
         stop
 
-    # bhvr_spawn()  
-    stop
+
     # Note: This means a 20% chance to CANCEL the attack. 
     # If you meant a 20% chance to trigger it, change this to 80%.
-    if chance of 80%:
+    if chance of {skip_bhvr_prec}%:
+        warden_debug("skipped")
         stop
     
     set {_options::*} to "light", "chase", "spawn" and "heal"
     set {_bhvr} to a random element out of {_options::*}
 
-    if {_bhvrh} is "light":
+    warden_debug({_bhvr})
+
+    if {_bhvr} is "light":
         bhvr_light()
-    if {_bhvrh} is "chase":
+    if {_bhvr} is "chase":
         bhvr_chase()
-    if {_bhvrh} is "spawn":
+    if {_bhvr} is "spawn":
         bhvr_spawn()
-    if {_bhvrh} is "heal":
+    if {_bhvr} is "heal":
         bhvr_heal()
 
 
@@ -60,10 +62,13 @@ function bhvr_light():
     set {_loc} to location of {_p}
 
     # Use vanilla sound unless "warden_shout" is a custom resource pack sound
-    play sound "minecraft:entity.warden.roar" with volume 2 at {_w} 
-    play sound "minecraft:ambient.cave" with volume 4 at {_loc} 
+    play sound "minecraft:entity.warden.roar" with volume 3 and pitch 0.4 at {_loc} 
+    play sound "minecraft:block.sculk_shrieker.shriek" with volume 10 and pitch 2 at {_loc} 
+    # play sound "minecraft:ambient.cave" with volume 4 at {_loc} 
 
     wait 1 seconds
+    set {_loc} to location of {_p}
+    wait 0.5 seconds
     strike lightning at {_loc}
 #
 function bhvr_chase():
@@ -85,17 +90,17 @@ function bhvr_chase():
     warden_debug("chasing %name of {_p}%")
 #
 function bhvr_heal():
+    apply slowness 10 without particles to {boss_warden} for 3 second
+    play sound "minecraft:entity.splash_potion.break" with volume 3 and pitch 0.3 at {boss_warden}
 
-
+    
+    loop all monsters in radius 40 of {boss_warden}:
+        apply potion of regeneration of tier 1 without particles to loop-entity for 5 seconds
+        heal_particles(location of head of loop-entity)
 #
 function bhvr_spawn():
     set {_w} to {boss_warden}
     
-    if {_w} is not set:
-        stop
-    if {_w} is dead:
-        stop
-        
     draw 120 dust particle using dustOption(blue, 2) at head of {_w} with offset vector(2.5, 0.5, 2.5)
     play sound "minecraft:entity.warden.roar" at {_w}
     apply slowness 10 without particles to {_w} for 3 second
@@ -127,7 +132,8 @@ function bhvr_spawn():
         spawn 1 of {_mob} at {_loc}
         set {_e} to last spawned entity
         add {_e} to team named "warden"
-        
+        apply potion of fire resistance of tier 1 without particles to {_e} for 999 days
+
         wait 5 ticks
 
 #
@@ -135,6 +141,24 @@ function warden_debug(msg: text):
     if {wwarden_debug_activen} is false:
         stop
     broadcast "[WARDEN] %{_msg}%"
+## 
+function heal_particles(loc: location):
+    set {_px} to x-coord of {_loc}
+    set {_py} to y-coord of {_loc} + 1
+    set {_pz} to z-coord of {_loc}
+
+    set {_gx} to x-coord of {boss_warden}
+    set {_gy} to y-coord of {boss_warden} + 1.5
+    set {_gz} to z-coord of {boss_warden}
+
+    set {_amount} to random integer between 5 and 15
+    set {_dur} to random integer between 10 and 25
+    # The main line
+    execute console command "particle minecraft:trail{target:[%{_px}%,%{_py}%,%{_pz}%],color:[0.1,0.1,0.5],duration:%{_dur}%} %{_gx}% %{_gy}% %{_gz}% 0.1 0.1 0.1 0 %{_amount}%"
+    # The "Glow" core
+    execute console command "particle minecraft:glow %{_gx}% %{_gy}% %{_gz}% 0.3 0.3 0.3 0.2 10"
+
+
 # --- Events ---
 on spawn of warden:
     wait 1 tick
@@ -162,6 +186,16 @@ every 1 second:
                     delete loop-entity
 
 # --- Commands ---
+command /warden_bhvr_spawn:
+    permission: op
+    trigger:
+        bhvr_spawn()
+#
+command /warden_set_skip_bhvr_prec <number>:
+    permission: op
+    trigger:
+        set {skip_bhvr_prec} to arg-1
+#
 command /warden_system <text>:
     permission: op
     trigger:
