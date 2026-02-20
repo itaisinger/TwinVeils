@@ -1,174 +1,219 @@
-[00:53:14] [User Authenticator #11/INFO]: UUID of player matan_cyrus is 0a9ec220-5056-4b74-b848-5e66038e31c2
-[00:53:21] [Server thread/INFO]: [Join] matan_cyrus (Friends) joined
-[00:53:21] [Server thread/INFO]: [Spawn Debug] matan_cyrus joined for the first time.
-[00:53:21] [Server thread/INFO]: matan_cyrus[/186.97.105.146:50876] logged in with entity id 85344 at ([world]-31.5, 31.0, -79.5)
-[00:53:21] [Server thread/INFO]: [Spawn Debug] First join: Spreading matan_cyrus to Friends spawn (512, -512).
-[00:53:21] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[00:53:22] [Server thread/INFO]: Added matan_cyrus to team [friendsChat]
-[00:53:22] [Server thread/INFO]: [Sync] matan_cyrus -> Team friendsChat
-[00:54:10] [Server thread/INFO]: [Death] matan_cyrus was slain by Zombie (Friends)
-[00:54:12] [Server thread/INFO]: [Spawn Debug] matan_cyrus respawning without a bed.
-[00:54:12] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading matan_cyrus to Friends spawn (512, -512).
-[00:54:12] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[00:54:24] [User Authenticator #12/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[00:54:26] [Server thread/INFO]: [Death] matan_cyrus was slain by Spider (Friends)
-[00:54:28] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[00:54:28] [Server thread/INFO]: trololol72[/93.173.35.208:61464] logged in with entity id 86710 at ([world]-856.5018483140376, 72.24313996495438, -1434.7075574063033)
-[00:54:29] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[00:54:29] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[00:54:34] [Server thread/INFO]: trololol72 issued server command: /tp matan_cyrus
-[00:54:34] [Server thread/INFO]: [trololol72: Teleported trololol72 to matan_cyrus]
-[00:54:37] [Server thread/INFO]: [Spawn Debug] matan_cyrus respawning without a bed.
-[00:54:37] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading matan_cyrus to Friends spawn (512, -512).
-[00:54:37] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[00:54:38] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[00:54:39] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:54:58] [Server thread/INFO]: trololol72 issued server command: /gamerule mob_griefing false
-[00:54:58] [Server thread/INFO]: [trololol72: Gamerule mob_griefing is now set to: false]
-[00:55:10] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[00:56:22] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:56:25] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[00:56:34] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:56:42] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[01:00:37] [Server thread/INFO]: [Death] matan_cyrus was slain by Zombie (Friends)
-[01:00:40] [Server thread/INFO]: [Spawn Debug] matan_cyrus respawning without a bed.
-[01:00:40] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading matan_cyrus to Friends spawn (512, -512).
-[01:00:40] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:00:44] [Server thread/INFO]: [Death] trololol72 was slain by Zombie (Friends)
-[01:00:46] [Server thread/INFO]: [Spawn Debug] trololol72 respawning without a bed.
-[01:00:46] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading trololol72 to Friends spawn (512, -512).
-[01:00:46] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:02:32] [Server thread/INFO]: [Death] matan_cyrus was blown up by Ra (Friends)
-[01:02:32] [Server thread/INFO]: [Death] trololol72 was blown up by Ra (Friends)
-[01:02:35] [Server thread/INFO]: [Spawn Debug] trololol72 respawning without a bed.
-[01:02:35] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading trololol72 to Friends spawn (512, -512).
-[01:02:35] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:02:38] [Server thread/INFO]: [Spawn Debug] matan_cyrus respawning without a bed.
-[01:02:38] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading matan_cyrus to Friends spawn (512, -512).
-[01:02:38] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:02:39] [Server thread/INFO]: The particle was not visible for anybody
-[01:02:39] [Server thread/INFO]: The particle was not visible for anybody
-[01:02:39] [Server thread/INFO]: Named entity WitherBoss['Ra'/89692, uuid='d1890475-4804-4fd5-9119-5b5d545243f1', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=241, v=true] died: Ra was killed
-[01:10:48] [Server thread/INFO]: [Death] matan_cyrus tried to swim in lava (Friends)
-[01:11:07] [Server thread/INFO]: [Spawn Debug] matan_cyrus respawning without a bed.
-[01:11:07] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading matan_cyrus to Friends spawn (512, -512).
-[01:11:07] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:16:24] [Server thread/INFO]: [Death] matan_cyrus was speared by Zombie (Friends)
-[01:16:27] [Server thread/INFO]: [Death] trololol72 was speared by Zombie (Friends)
-[01:16:27] [Server thread/INFO]: [Spawn Debug] matan_cyrus respawning without a bed.
-[01:16:27] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading matan_cyrus to Friends spawn (512, -512).
-[01:16:27] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:16:30] [Server thread/INFO]: [Spawn Debug] trololol72 respawning without a bed.
-[01:16:30] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading trololol72 to Friends spawn (512, -512).
-[01:16:30] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:16:37] [Server thread/INFO]: [Death] trololol72 was speared by Zombie (Friends)
-[01:16:38] [Server thread/INFO]: [Death] matan_cyrus was speared by Zombie (Friends)
-[01:16:39] [Server thread/INFO]: [Spawn Debug] trololol72 respawning without a bed.
-[01:16:39] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading trololol72 to Friends spawn (512, -512).
-[01:16:39] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:16:40] [Server thread/INFO]: [Spawn Debug] matan_cyrus respawning without a bed.
-[01:16:40] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading matan_cyrus to Friends spawn (512, -512).
-[01:16:40] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:17:05] [Server thread/INFO]: [Death] matan_cyrus was speared by Zombie (Friends)
-[01:17:08] [Server thread/INFO]: [Death] trololol72 was speared by Zombie (Friends)
-[01:17:08] [Server thread/INFO]: [Spawn Debug] matan_cyrus respawning without a bed.
-[01:17:08] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading matan_cyrus to Friends spawn (512, -512).
-[01:17:08] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:17:09] [Server thread/INFO]: [Spawn Debug] trololol72 respawning without a bed.
-[01:17:09] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading trololol72 to Friends spawn (512, -512).
-[01:17:09] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:17:13] [Server thread/INFO]: [Death] matan_cyrus was speared by Zombie (Friends)
-[01:17:14] [Server thread/INFO]: [Spawn Debug] matan_cyrus respawning without a bed.
-[01:17:14] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading matan_cyrus to Friends spawn (512, -512).
-[01:17:14] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:17:24] [Server thread/INFO]: [Death] matan_cyrus was speared by Zombie (Friends)
-[01:17:26] [Server thread/INFO]: [Spawn Debug] matan_cyrus respawning without a bed.
-[01:17:26] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading matan_cyrus to Friends spawn (512, -512).
-[01:17:26] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:20:44] [Server thread/INFO]: Villager Villager['Farmer'/85449, uuid='465fdcc0-27bd-4304-b310-be0946a88ca8', l='ServerLevel[world]', x=523.20, y=65.00, z=-624.13, cpos=[32, -40], tl=28581, v=true] died, message: 'Farmer was slain by Zombie'
-[01:21:15] [Server thread/INFO]: trololol72 issued server command: /gamerule mob_griefing true
-[01:21:15] [Server thread/INFO]: [trololol72: Gamerule mob_griefing is now set to: true]
-[01:21:56] [Server thread/INFO]: [Death] trololol72 was shot by Skeleton (Friends)
-[01:21:57] [Server thread/INFO]: [Spawn Debug] trololol72 respawning without a bed.
-[01:21:57] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading trololol72 to Friends spawn (512, -512).
-[01:21:57] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:22:01] [Server thread/INFO]: [Death] matan_cyrus was slain by Spider (Friends)
-[01:33:39] [Server thread/INFO]: [Death] trololol72 was shot by Skeleton (Friends)
-[01:33:41] [Server thread/INFO]: [Spawn Debug] trololol72 respawning without a bed.
-[01:33:41] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading trololol72 to Friends spawn (512, -512).
-[01:33:41] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:35:41] [Server thread/INFO]: [Death] matan_cyrus was slain by Zombie (Friends)
-[01:36:34] [Server thread/INFO]: matan_cyrus was kicked due to keepalive timeout!
-[01:36:34] [Server thread/INFO]: matan_cyrus lost connection: Timed out
-[01:36:34] [Server thread/INFO]: [Quit] matan_cyrus (Friends) left
-[01:36:43] [Server thread/INFO]: [Death] trololol72 was slain by Zombie (Friends)
-[01:36:45] [Server thread/INFO]: [Spawn Debug] trololol72 respawning without a bed.
-[01:36:45] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading trololol72 to Friends spawn (512, -512).
-[01:36:45] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:37:28] [User Authenticator #13/INFO]: UUID of player matan_cyrus is 0a9ec220-5056-4b74-b848-5e66038e31c2
-[01:37:30] [Server thread/INFO]: [Join] matan_cyrus (Friends) joined
-[01:37:30] [Server thread/INFO]: matan_cyrus[/186.97.105.146:51090] logged in with entity id 97717 at ([world]506.2355578265561, 69.0, -509.1561249675264)
-[01:37:31] [Server thread/INFO]: Added matan_cyrus to team [friendsChat]
-[01:37:31] [Server thread/INFO]: [Sync] matan_cyrus -> Team friendsChat
-[01:37:40] [Server thread/INFO]: [Death] matan_cyrus was slain by Zombie (Friends)
-[01:41:25] [Server thread/INFO]: [Death] trololol72 was slain by Zombie (Friends)
-[01:41:27] [Server thread/INFO]: [Spawn Debug] trololol72 respawning without a bed.
-[01:41:27] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading trololol72 to Friends spawn (512, -512).
-[01:41:27] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
-[01:42:27] [Server thread/INFO]: trololol72 issued server command: /tick rate 20
-[01:42:27] [Server thread/INFO]: [trololol72: Set the target tick rate to 20.0 per second]
-[01:48:22] [Server thread/INFO]: [Death] matan_cyrus was slain by Enderman (Friends)
-[01:49:07] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[01:49:07] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[01:51:42] [Server thread/INFO]: matan_cyrus lost connection: Disconnected
-[01:51:42] [Server thread/INFO]: [Quit] matan_cyrus (Friends) left
-[03:00:34] [Server thread/INFO]: Stopping the server
-[03:00:34] [Server thread/INFO]: Stopping server
-[03:00:34] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[03:00:34] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[03:00:34] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[03:00:34] [Server thread/INFO]: [TAB] Disabled in 1ms
-[03:00:34] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[03:00:34] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[03:00:34] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
-[03:00:34] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[03:00:34] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[03:00:34] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[03:00:34] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[03:00:34] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[03:00:34] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[03:00:34] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[03:00:34] [Server thread/INFO]: [LuckPerms] Closing storage...
-[03:00:34] [Server thread/INFO]: [LuckPerms] Goodbye!
-[03:00:34] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[03:00:34] [Server thread/INFO]: Saving players
-[03:00:34] [Server thread/INFO]: Saving worlds
-[03:00:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Saved 13 block chunks, 12 entity chunks, 0 poi chunks in world 'world' in 0.03s
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[03:00:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[03:00:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[03:00:34] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[03:00:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:00:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:00:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:00:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:00:34] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[03:00:34] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[03:00:34] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[03:00:34] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[03:11:12] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-100-generic (amd64)
+[03:11:12] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[03:11:13] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:11:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[03:11:14] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+ - HidePlugins (1.0-1.21), SkBee (3.15.0)
+[03:11:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
+[03:11:18] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
+[03:11:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[03:11:20] [ServerMain/INFO]: Loaded 1470 recipes
+[03:11:21] [ServerMain/INFO]: Loaded 1584 advancements
+[03:11:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[03:11:21] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 418.8ms
+[03:11:21] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
+[03:11:21] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[03:11:21] [Server thread/WARN]: ****************************
+[03:11:21] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[03:11:21] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[03:11:21] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[03:11:21] [Server thread/WARN]: ****************************
+[03:11:21] [Server thread/INFO]: Loading properties
+[03:11:21] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[03:11:21] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:11:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:11:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:11:22] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:11:23] [Server thread/INFO]: Default game type: SURVIVAL
+[03:11:23] [Server thread/INFO]: Generating keypair
+[03:11:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:11:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:11:23] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[03:11:23] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[03:11:23] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[03:11:23] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[03:11:23] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[03:11:23] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[03:11:24] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[03:11:25] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@558745ce]
+[03:11:25] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[03:11:25] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[03:11:25] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v1.0-1.21
+[03:11:25] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[03:11:25] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[03:11:25] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[03:11:25] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[03:11:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:11:25] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[03:11:26] [Server thread/INFO]:         __    
+[03:11:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[03:11:26] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[03:11:26] [Server thread/INFO]: 
+[03:11:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[03:11:26] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[03:11:26] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[03:11:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1238ms)
+[03:11:27] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[03:11:27] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[03:11:27] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[03:11:27] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[03:11:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:11:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:11:28] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[03:11:29] [Server thread/INFO]: Preparing level "world"
+[03:11:29] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[03:11:29] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 2 NUMA nodes.
+[03:11:29] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
+[03:11:29] [Server thread/INFO]: Preparing spawn area: 28%
+[03:11:30] [Server thread/INFO]: Prepared spawn area in 381 ms
+[03:11:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[03:11:30] [Server thread/INFO]: Prepared spawn area in 2 ms
+[03:11:30] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[03:11:30] [Server thread/INFO]: Prepared spawn area in 0 ms
+[03:11:30] [Server thread/INFO]: Done preparing level "world" (1.074s)
+[03:11:30] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[03:11:30] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[03:11:32] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[03:11:32] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[03:11:33] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[03:11:33] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v1.0-1.21
+[03:11:33] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[03:11:33] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[03:11:33] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[03:11:34] [Server thread/INFO]: [TAB] Enabled in 903ms
+[03:11:34] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[03:11:34] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[03:11:35] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[03:11:35] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[03:11:35] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[03:11:35] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[03:11:35] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[03:11:35] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[03:11:35] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[03:11:35] [Thread-13/INFO]: [Skript] Loaded 5684 aliases in 2915ms
+[03:11:35] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[03:11:35] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[03:11:35] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[03:11:35] [Server thread/INFO]: [SkBee]  - 56 events
+[03:11:35] [Server thread/INFO]: [SkBee]  - 71 effects
+[03:11:35] [Server thread/INFO]: [SkBee]  - 240 expressions
+[03:11:35] [Server thread/INFO]: [SkBee]  - 27 conditions
+[03:11:35] [Server thread/INFO]: [SkBee]  - 32 sections
+[03:11:35] [Server thread/INFO]: [SkBee]  - 11 properties
+[03:11:35] [Server thread/INFO]: [SkBee] Update checker disabled!
+[03:11:35] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.51 seconds
+[03:11:35] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[03:11:35] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[03:11:36] [Server thread/INFO]: [spark] Starting background profiler...
+[03:11:36] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[03:11:36] [Server thread/INFO]: Running delayed init tasks
+[03:11:36] [Server thread/INFO]: [Skript] Loading variables...
+[03:11:36] [Server thread/INFO]: [Skript] Loaded 524 variables in 0.1 seconds
+[03:11:48] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
+[03:11:48] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[03:11:48] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[03:11:48] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[03:11:48] [Server thread/INFO]: [Skript] Loaded 31 scripts with a total of 285 structures in 11.81 seconds
+[03:11:48] [Server thread/INFO]: [Skript] Finished loading.
+[03:11:48] [Server thread/INFO]: Done (37.324s)! For help, type "help"
+[03:11:48] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 29 build(s) behind ***
+[03:11:48] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[03:13:52] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[03:13:52] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[03:13:55] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[03:13:55] [Server thread/INFO]: trololol72[/93.173.35.208:51400] logged in with entity id 19 at ([world]511.69999998807907, 74.0, -510.2848724190655)
+[03:13:56] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[03:13:56] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[03:14:01] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:14:16] [Server thread/INFO]: trololol72 issued server command: /sk reload day.sk
+[03:14:22] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:14:29] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc u
+[03:14:32] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:14:43] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc f
+[03:15:08] [Server thread/INFO]: trololol72 issued server command: /day_set_egg_spot
+[03:15:19] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc u
+[03:15:27] [Server thread/INFO]: trololol72 issued server command: /day_set_wither_spot
+[03:17:11] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:17:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:17:38] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:18:08] [Server thread/INFO]: trololol72 issued server command: //fixlava 30
+[03:18:08] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[03:18:16] [Server thread/INFO]: trololol72 issued server command: //fixlava 30
+[03:18:42] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc u
+[03:18:49] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc f
+[03:19:01] [Server thread/INFO]: trololol72 issued server command: /tp 0 0 0
+[03:19:01] [Server thread/INFO]: [trololol72: Teleported trololol72 to 0.500000, 0.000000, 0.500000]
+[03:19:25] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[03:19:25] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[04:16:06] [Server thread/INFO]: Stopping the server
+[04:16:07] [Server thread/INFO]: Stopping server
+[04:16:07] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[04:16:07] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[04:16:07] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[04:16:07] [Server thread/INFO]: [TAB] Disabled in 1ms
+[04:16:07] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[04:16:07] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[04:16:07] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
+[04:16:07] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[04:16:07] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[04:16:07] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[04:16:07] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[04:16:07] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[04:16:07] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[04:16:07] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[04:16:07] [Server thread/INFO]: [LuckPerms] Closing storage...
+[04:16:07] [Server thread/INFO]: [LuckPerms] Goodbye!
+[04:16:07] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[04:16:07] [Server thread/INFO]: Saving players
+[04:16:07] [Server thread/INFO]: Saving worlds
+[04:16:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[04:16:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[04:16:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[04:16:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[04:16:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:16:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:16:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:16:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:16:07] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[04:16:07] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[04:16:07] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[04:16:07] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
