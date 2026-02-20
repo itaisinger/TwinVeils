@@ -6,10 +6,6 @@ on load:
         set {warden_debug_active} to false
 
 # --- Functions ---
-function warden_debug(msg: text):
-    if {warden_debug_active} is true:
-        broadcast "&e[Debug] %{_msg}%"
-
 function spawn_warden(loc: location):
     spawn 1 warden at {_loc}
     set {boss_warden} to last spawned entity
@@ -24,32 +20,87 @@ every 4 seconds:
         stop
     if {_w} is dead:
         stop
-        
+
+    bhvr_chase()  
     # Note: This means a 20% chance to CANCEL the attack. 
     # If you meant a 20% chance to trigger it, change this to 80%.
     if chance of 80%:
         stop
     
+    set {_options::*} to "light", "chase", "spawn" and "heal"
+    set {_bhvr} to a random element out of {_options::*}
+
+    if {_bhvrh} is "light":
+        bhvr_light()
+    if {_bhvrh} is "chase":
+        bhvr_chase()
+    if {_bhvrh} is "spawn":
+        bhvr_spawn()
+    if {_bhvrh} is "heal":
+        bhvr_heal()
+
+
+ 
+## bhvrs functions
+function bhvr_light():
+    set {_w} to {boss_warden}
+
     # Get all nearby players and pick one randomly
     set {_players::*} to all players in radius 50 of {_w}
     if size of {_players::*} is 0:
         stop
     set {_p} to a random element out of {_players::*}
-    
+
     # Freeze and Look
     apply potion of slowness of tier 10 without particles to {_w} for 2 seconds
     make {_w} look at location of eyes of {_p}
-    
+
     set {_loc} to location of {_p}
-    
+
     # Use vanilla sound unless "warden_shout" is a custom resource pack sound
     play sound "minecraft:entity.warden.roar" with volume 2 at {_w} 
     play sound "minecraft:ambient.cave" with volume 4 at {_loc} 
-    
+
     wait 1 seconds
     strike lightning at {_loc}
- 
+#
+function bhvr_chase():
+    set {_w} to {boss_warden}
+        
+    # Check if it already is chasing someone
+    if target of {_w} is set:
+        stop
+        
+    # Pick a random player if it has no target
+    set {_players::*} to all players in radius 50 of {_w}
+    if size of {_players::*} is 0:
+        stop
+        
+    set {_p} to a random element out of {_players::*}
+    
+    # Force the Warden to aggro onto the chosen player
+    make {_w} pathfind to {_p} at speed 1.3
+    warden_debug("chasing %name of {_p}%")
+#
+function bhvr_heal():
 
+
+#
+function bhvr_spawn():
+    set {_num} to random integer between 3 and 7
+    loop {_num} times:
+        set {_loc} to a random spawnable block within 15 blocks
+        set {_options::*} to zombie, skeleton, creeper, witch
+        set {_mob} to a random element out of {_options::*}    
+        strike lightning at {_loc}
+        wait 1 tick
+        spawn {_mob} at {_loc}
+
+#
+function warden_debug(msg: text):
+    if {wwarden_debug_activen} is false:
+        stop
+    broadcast "[WARDEN] %{_msg}%"
 # --- Events ---
 on spawn of warden:
     wait 1 tick
