@@ -69,7 +69,7 @@ every 3.5 seconds:
 
     if {boss_golem} is not set:
         stop
-        
+    
     if health of {boss_golem} >= max health of {boss_golem}:
         set {golem::state} to "none"
         stop

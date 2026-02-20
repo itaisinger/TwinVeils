@@ -30,7 +30,6 @@ function set_strip(blck: item type, index: text):
     # Explicitly loop the four directions
     loop "nw", "ne", "sw" and "se":
         set {_dir} to loop-value
-        # enc_debug("- looping direction: %{_dir}%")
         
         # Get movement modifiers for this direction
         set {_xadd} to {enc::dirs::%{_dir}%::xadd}
@@ -46,7 +45,7 @@ function set_strip(blck: item type, index: text):
                 # play sound "minecraft:entity.ender_dragon.hurt" with volume 0.1 with pitch 0.9 at {_current_loc}
             else:
                 play sound "minecraft:entity.ender_eye.death" with volume 0.15 with pitch 0.1 at {_current_loc}
-                
+            
             # enc_debug("- - looping strip for location: %{_current_loc}%")
             
             # Loop for width
@@ -59,8 +58,6 @@ function set_strip(blck: item type, index: text):
 
                 add -1*{enc::height} to y-coord of {_current_loc}
 
-                # enc_debug("- - - setting %{_current_loc}% to %{_blck}%")
-                
                 # Move location by adding coordinates
                 add {_xadd} to x-coord of {_current_loc}
                 add {_zadd} to z-coord of {_current_loc}
