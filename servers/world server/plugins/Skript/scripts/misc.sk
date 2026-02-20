@@ -269,7 +269,7 @@ command /countnear <entity type> <number>:
         # Count entities
         set {_count} to size of (entities of type {_type} in radius {_radius} around player)
         
-        broadcast "&aFound &e%{_count}% &a%{_type}%s within &e%{_radius}% &ablocks."
+        send "&aFound &e%{_count}% &a%{_type}%s within &e%{_radius}% &ablocks."
 
 command /breaktool <integer>:
     permission: op
@@ -280,32 +280,32 @@ command /tpb <text>:
     permission: op
     trigger:
         if arg-1 is "list":
-            broadcast "tpb list:"
+            send "tpb list:"
             loop {tpback::*}:
-                broadcast "- %loop-index%"
+                send "- %loop-index%"
             stop
         if {tpback::%arg-1%} is set:
             teleport player to {tpback::%arg-1%}
-            broadcast "teleporting to " + {tpback::%arg-1%}
+            send "teleporting to " + {tpback::%arg-1%}
         else:
             set {tpback::%arg-1%} to location of player
-            broadcast "Set tpb location for '%arg-1%' to: %{tpback::%arg-1%}%"
+            send "Set tpb location for '%arg-1%' to: %{tpback::%arg-1%}%"
             
 command /tpb_del <text>:
     permission: op
     trigger:
         if {tpback::%arg-1%} is set:
             delete {tpback::%arg-1%}
-            broadcast "tpb deleted: " + arg-1
+            send "tpb deleted: " + arg-1
         else:
-            broadcast "tpb " + arg-1 + " not found."
+            send "tpb " + arg-1 + " not found."
     
 command /tpb_set <text>:
     permission: op
     trigger:
-        broadcast "tpb set: " + arg-1
+        send "tpb set: " + arg-1
         set {tpback::%arg-1%} to location of player
-        broadcast "Set tpb location for '%arg-1%' to: %{tpback::%arg-1%}%"
+        send "Set tpb location for '%arg-1%' to: %{tpback::%arg-1%}%"
 
 command /tptool:
     permission: op
@@ -343,7 +343,7 @@ command /tp_smooth <number> <number> <number>:
         set {_yadd} to {_ydest} - {_ystart}
         set {_zadd} to {_zdest} - {_zstart}
 
-        # broadcast "%{_xadd}%"
+        # send "%{_xadd}%"
 
         add {_xadd} to x-coord of {_from}
         add {_yadd} to y-coord of {_from}
