@@ -171,6 +171,7 @@ every 1 second:
                 wither_debug("Swept a ghost wither from an old session!")
                 
     if {wither_system_active} is false:
+        wither_debug("inactive.")
         stop
 
 
