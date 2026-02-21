@@ -1,11 +1,83 @@
+on load:
+    if {fight::load} is not set:
+        set {fight::load} to true
+        set {fight::loc_u} to location(-512,70,512,"world")
+        set {fight::loc_f} to location(512,75,-512,"world")
+        set {fight::state} to "none"
+#
+every 5 ticks:
+    # broadcast {fight::state}
+    if {fight::state} is "setup":
+        # Safety check first!
+        if {fight::loc} is not set:
+            broadcast "Error: fight::loc is not set!"
+            stop
+        
+        draw 200 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
+        execute console command "particle minecraft:enchant %x-coord of {fight::loc}% %y-coord of {fight::loc}% %z-coord of {fight::loc}% 0 0 0 10 200"
+
+function start_final_fight():
+    stop all sounds for all players
+    broadcast "playing final fight ost"
+    play sound "minecraft:broken_memory" in record category with volume 1000 to all players
+    set {fight::state} to "setup"
+    set {_v} to 5
+    loop 5 times:
+        fight_title({_v})
+        remove 1 from {_v}
+        wait 5 seconds
+#
+function fight_title(index: integer):
+    # send title "%{_index}%" with subtitle "&7Prepare yourself..." to all players for 5 seconds
+    send title "%{_index}%" to all players for 5 seconds
+
+## commands
+command /fight_set_loc <text>:
+    permission: op
+    trigger:
+        if arg-1 is "u":
+            set {fight::loc} to {fight::loc_u}
+            send "set fight loc to U"
+        else if arg-1 is "f":
+            set {fight::loc} to {fight::loc_f}
+            send "set fight loc to F"
+        else:
+            send "&cusage: <u/f>"
+#
+command /fight_title <integer>:
+    permission: op
+    trigger:
+        fight_title(arg-1)
+#
 command /play_final_fight_ost:
     permission: op
     trigger:
         stop all sounds for all players
         broadcast "playing final fight ost"
-        play sound "minecraft:broken_memory" in record category with volume 2 to all players
-
-function start_final_fight():
-    stop all sounds for all players
-    broadcast "playing final fight ost"
-    play sound "minecraft:broken_memory" in record category with volume 2 to all players
+        play sound "minecraft:broken_memory" in record category with volume 1000 to all players
+#
+command /fight_tp:
+    permission: op
+    trigger:
+        teleport player to {fight::loc}
+#
+command /fight_set_world_pos <text>:
+    permission: op
+    trigger:
+        if arg-1 is "u":
+            set {fight::loc_u} to target block of player
+            send "set loc u to %{fight::loc_u}%"
+        else if arg-1 is "f":
+            set {fight::loc_f} to target block of player
+            send "set loc u to %{fight::loc_f}%"
+        else:
+            send "&cusage: <u/f>"
+#
+command /fight_reset_vars:
+    permission: op
+    trigger:
+        delete {fight::load}
+command /fight_start:
+    permission: op
+    trigger:
+        start_final_fight()
