@@ -1,0 +1,124 @@
+# --- CONFIGURATION ---
+options:
+    spawn_radius: 55
+    respawn_timer: 5 seconds # How often it checks/spawns
+    spot_radius: 100
+
+# --- LOCAL DEBUG FUNCTION ---
+function _ghastspotDebug(msg: text):
+    if {ghastspot_debug} is true:
+        broadcast "&6[ghast spot] &f%{_msg}%"
+
+# 1. SETUP & RECOVERY ON RESTART
+on load:
+    delete {ghastspot_ghasts::*} 
+    loop all ghasts: 
+        if scoreboard tags of loop-entity contains "ghastspot_ghast":
+            add loop-entity to {ghastspot_ghasts::*}
+    _ghastspotDebug("Script loaded. Tracking %size of {ghastspot_ghasts::*}% existing ghasts.")
+    if {ghastspot::cancel_prec} is not set:
+        set {ghastspot::cancel_prec} to 70
+    if {ghastspot::max_ghasts} is not set:
+        set {ghastspot::max_ghasts} to 8
+
+# 2. THE SPAWNER
+every {@respawn_timer}:
+    chance of {ghastspot::cancel_prec}%:
+        _ghastspotDebug("cancelled.")
+        stop
+
+    loop {ghastspot_centers::*}:
+        set {_spotCenter} to loop-value
+        set {_localCount} to 0
+        set {_playersNearby} to false
+        
+        # 1. Check if players are actually near this specific spot to allow spawning
+        loop all players:
+            if distance between loop-player and {_spotCenter} <= {@spot_radius}:
+                set {_playersNearby} to true
+                stop loop # Found a player, no need to check others
+                
+        if {_playersNearby} is true:
+            
+            # 2. Count alive ghasts near this specific spot
+            loop {ghastspot_ghasts::*}:
+                if loop-value-2 is alive:
+                    if distance between loop-value-2 and {_spotCenter} <= {@spot_radius}:
+                        add 1 to {_localCount}
+                else:
+                    remove loop-value-2 from {ghastspot_ghasts::*} # Cleanup dead ghasts
+            
+            # 3. Attempt spawn if under max
+            if {_localCount} < {ghastspot::max_ghasts}:
+                set {_spawnLoc} to {_spotCenter}
+                
+                # Randomize X, Y (within 10), and Z
+                add random integer between -{@spawn_radius} and {@spawn_radius} to x-coord of {_spawnLoc}
+                add random integer between -10 and 10 to y-coord of {_spawnLoc}
+                add random integer between -{@spawn_radius} and {@spawn_radius} to z-coord of {_spawnLoc}
+
+                # 4. Air Check: If it spawned inside a wall/floor, bump it up 30 blocks
+                if block at {_spawnLoc} is not air:
+                    add 30 to y-coord of {_spawnLoc}
+                    
+                # 5. Spawn the ghast
+                spawn ghast at {_spawnLoc}
+                set {_ghast} to last spawned ghast
+                
+                add "ghastspot_ghast" to scoreboard tags of {_ghast} 
+                add {_ghast} to {ghastspot_ghasts::*}
+                
+                _ghastspotDebug("Spawned new ghast at %{_spawnLoc}%")
+
+
+# --- COMMANDS ---
+command /ghastspotdebug:
+    permission: op
+    description: Toggles the ghast spot spawn debugging logs.
+    trigger:
+        if {ghastspot_debug} is true:
+            set {ghastspot_debug} to false
+            send "&5[ghast spot] &cDebug mode disabled."
+        else:
+            set {ghastspot_debug} to true
+            send "&5[ghast spot] &aDebug mode enabled."
+
+command /ghastspot_add <text>:
+    permission: op
+    description: Adds a ghast spot spawn point at your current location.
+    usage: &c/ghastspot_add <name>
+    trigger:
+        set {ghastspot_centers::%arg-1%} to location of player
+        send "&5[ghast spot] &aAdded spot spawn '&f%arg-1%&a' at your current location."
+#
+command /ghastspot_del <text>:
+    permission: op
+    trigger:
+        if {ghastspot_centers::%arg-1%} is not set:
+            send "&c%arg-1% spot doesnt exists."
+            stop
+        delete {ghastspot_centers::%arg-1%}
+        send "deleted spot %arg-1%"
+#
+command /ghastspot_set_cancel_chance <number>:
+    permission: op
+    trigger:
+        set {ghastspot::cancel_prec} to arg-1
+        send "set ghastspot cancel chance to %arg-1%"
+#
+command /ghastspot_list:
+    permission: op
+    description: Lists all saved ghastspots.
+    trigger:
+        send "&5--- Active ghastspots ---"
+        if size of {grove_centers::*} is 0:
+            send "&7No ghastspots currently set."
+        else:
+            loop {ghastspot_centers::*}:
+                send "&5%loop-index%: &f%loop-value%"
+#
+command /ghastspot_set_num <integer>:
+    permission: op
+    trigger:
+        set {ghastspot::max_ghasts} to arg-1
+        send "set ghastspot max ghasts to %arg-1%"

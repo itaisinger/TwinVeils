@@ -1,6 +1,6 @@
-
-
 on load:
+    execute console command "/gamerule advance_time false"
+    execute console command "/gamerule random_tick_speed 2"
     if {pos_egg} is not set:
         set {pos_egg} to location(0, -1, 0, world("world"))
     if {pos_beacon} is not set:
