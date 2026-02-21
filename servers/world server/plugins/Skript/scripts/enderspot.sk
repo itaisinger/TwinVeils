@@ -1,7 +1,6 @@
 # --- CONFIGURATION ---
 options:
-    max_endermans: 8
-    spawn_radius: 5
+    spawn_radius: 15
     respawn_timer: 5 seconds # How often it checks/spawns
     spot_radius: 55
 
@@ -19,6 +18,8 @@ on load:
     _enderspotDebug("Script loaded. Tracking %size of {enderspot_endermans::*}% existing endermans.")
     if {enderspot::cancel_prec} is not set:
         set {enderspot::cancel_prec} to 70
+    if {enderspot::max_endermans} is not set:
+        set {enderspot::max_endermans} to 8
 
 # 2. THE SPAWNER
 every {@respawn_timer}:
@@ -48,15 +49,32 @@ every {@respawn_timer}:
                     remove loop-value-2 from {enderspot_endermans::*} # Cleanup dead endermans
             
             # 3. Attempt spawn if under max
-            if {_localCount} < {@max_endermans}:
+            if {_localCount} < {enderspot::max_endermans}:
                 set {_loc} to {_spotCenter}
                 add random integer between -{@spawn_radius} and {@spawn_radius} to x-coord of {_loc}
                 add random integer between -{@spawn_radius} and {@spawn_radius} to z-coord of {_loc}
+
+                # 1. Start exactly at the randomized X/Z, but keep the center's original Y level
+                set {_spawnLoc} to {_loc}
                 
-                set {_spawnLoc} to location of highest solid block at {_loc}
+                # 2. Move up slightly just in case the ground is uneven (e.g., a small hill)
+                add 4 to y-coord of {_spawnLoc}
                 
-                # Basic safety check so they don't spawn in the air or lava
-                if block at {_spawnLoc} is not air or lava or water:
+                set {_foundFloor} to false
+                
+                # 3. Scan downwards for up to 10 blocks to find the true floor
+                loop 10 times:
+                    if block at {_spawnLoc} is solid:
+                        if block at {_spawnLoc} is not lava or water:
+                            # Check if there is enough room for the tall Golem to fit
+                            if block above {_spawnLoc} is not solid:
+                                if block 2 above {_spawnLoc} is not solid:
+                                    set {_foundFloor} to true
+                                    stop loop
+                    remove 1 from y-coord of {_spawnLoc}
+                
+                # 4. If we found a valid floor, move into the empty space and spawn
+                if {_foundFloor} is true:
                     add 1 to y-coord of {_spawnLoc}
                     
                     spawn enderman at {_spawnLoc}
@@ -66,6 +84,7 @@ every {@respawn_timer}:
                     add {_enderman} to {enderspot_endermans::*}
                     
                     _enderspotDebug("Spawned new enderman at %{_spawnLoc}%")
+
 
 # --- COMMANDS ---
 command /enderspotdebug:
@@ -112,3 +131,9 @@ command /enderspot_list:
         else:
             loop {spot_centers::*}:
                 send "&5%loop-index%: &f%loop-value%"
+#
+command /enderspot_set_num <integer>:
+    permission: op
+    trigger:
+        set {enderspot::max_endermans} to arg-1
+        send "set enderspot max endermnas to %arg-1%"
