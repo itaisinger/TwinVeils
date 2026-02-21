@@ -1,214 +1,598 @@
-[01:45:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-100-generic (amd64)
-[01:45:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[01:45:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:45:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
-[01:45:35] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[02:08:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-100-generic (amd64)
+[02:08:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[02:08:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:08:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[02:08:49] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - HidePlugins (1.0-1.21), SkBee (3.15.0)
-[01:45:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+[02:08:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[01:45:39] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
-[01:45:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:45:41] [ServerMain/INFO]: Loaded 1470 recipes
-[01:45:41] [ServerMain/INFO]: Loaded 1584 advancements
-[01:45:41] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:45:42] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 314.7ms
-[01:45:42] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
-[01:45:42] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[01:45:42] [Server thread/WARN]: ****************************
-[01:45:42] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[01:45:42] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[01:45:42] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[01:45:42] [Server thread/WARN]: ****************************
-[01:45:42] [Server thread/INFO]: Loading properties
-[01:45:42] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[01:45:42] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:45:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:45:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:45:43] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[01:45:44] [Server thread/INFO]: Default game type: SURVIVAL
-[01:45:44] [Server thread/INFO]: Generating keypair
-[01:45:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:45:44] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:45:44] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[01:45:44] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[01:45:44] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[01:45:44] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:45:44] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[01:45:44] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[01:45:44] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:45:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1041a7bf]
-[01:45:45] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[01:45:45] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[01:45:45] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v1.0-1.21
-[01:45:45] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[01:45:45] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[01:45:45] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[01:45:45] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[01:45:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:45:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[01:45:47] [Server thread/INFO]:         __    
-[01:45:47] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[01:45:47] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:45:47] [Server thread/INFO]: 
-[01:45:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:45:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:45:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:45:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1237ms)
-[01:45:48] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[01:45:48] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:45:48] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[01:45:48] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[01:45:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:45:48] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[01:45:49] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[01:45:50] [Server thread/INFO]: Preparing level "world"
-[01:45:50] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[01:45:50] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 2 NUMA nodes.
-[01:45:51] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
-[01:45:51] [Server thread/INFO]: Preparing spawn area: 28%
-[01:45:51] [Server thread/INFO]: Prepared spawn area in 411 ms
-[01:45:51] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[01:45:51] [Server thread/INFO]: Prepared spawn area in 0 ms
-[01:45:51] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[01:45:51] [Server thread/INFO]: Prepared spawn area in 0 ms
-[01:45:51] [Server thread/INFO]: Done preparing level "world" (1.143s)
-[01:45:51] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[01:45:52] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[01:45:53] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[01:45:53] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[01:45:53] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[01:45:53] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v1.0-1.21
-[01:45:53] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[01:45:53] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[01:45:53] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[01:45:54] [Server thread/INFO]: [TAB] Enabled in 500ms
-[01:45:54] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[01:45:54] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[01:45:55] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[01:45:55] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[01:45:55] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[01:45:55] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[01:45:55] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[01:45:55] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[01:45:55] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[01:45:55] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[01:45:56] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[01:45:56] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[01:45:56] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[01:45:56] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[01:45:56] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[01:45:56] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[01:45:56] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[01:45:56] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[01:45:56] [Server thread/INFO]: [SkBee]  - 56 events
-[01:45:56] [Server thread/INFO]: [SkBee]  - 71 effects
-[01:45:56] [Server thread/INFO]: [SkBee]  - 240 expressions
-[01:45:56] [Server thread/INFO]: [SkBee]  - 27 conditions
-[01:45:56] [Server thread/INFO]: [SkBee]  - 32 sections
-[01:45:56] [Server thread/INFO]: [SkBee]  - 11 properties
-[01:45:56] [Server thread/INFO]: [SkBee] Update checker disabled!
-[01:45:56] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.60 seconds
-[01:45:56] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[01:45:56] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[01:45:56] [Thread-13/INFO]: [Skript] Loaded 5684 aliases in 2630ms
-[01:45:56] [Server thread/INFO]: [spark] Starting background profiler...
-[01:45:56] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[01:45:56] [Server thread/INFO]: Running delayed init tasks
-[01:45:57] [Server thread/INFO]: [Skript] Loading variables...
-[01:45:57] [Server thread/INFO]: [Skript] Loaded 543 variables in 0.0 seconds
-[01:46:07] [Server thread/INFO]: [ender spot] Script loaded. Tracking 0 existing endermans.
-[01:46:07] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
-[01:46:07] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
-[01:46:07] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
-[01:46:07] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[01:46:07] [Server thread/INFO]: [Skript] Loaded 33 scripts with a total of 329 structures in 10.9 seconds
-[01:46:07] [Server thread/INFO]: [Skript] Finished loading.
-[01:46:07] [Server thread/INFO]: Done (35.885s)! For help, type "help"
-[01:46:08] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 29 build(s) behind ***
-[01:46:08] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[01:46:14] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[01:46:14] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[01:46:17] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[01:46:17] [Server thread/INFO]: trololol72[/93.173.35.208:57323] logged in with entity id 1 at ([world]-958.3029300806289, 47.21934374798659, -141.1399952138653)
-[01:46:18] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -944.5, y: 186.5, z: -144.5, yaw: 0, pitch: 0 in 'world'
-[01:46:18] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[01:46:18] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[01:46:23] [Server thread/INFO]: [ender spot] cancelled.
-[01:46:28] [Server thread/INFO]: [ender spot] cancelled.
-[01:46:33] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -950.5, y: 185.5, z: -146.5, yaw: 0, pitch: 0 in 'world'
-[01:46:38] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -952.5, y: 185.5, z: -148.5, yaw: 0, pitch: 0 in 'world'
-[01:46:39] [Server thread/INFO]: trololol72 issued server command: /enderspot_set_cancel_chance 0
-[01:46:43] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -946.5, y: 186.5, z: -148.5, yaw: 0, pitch: 0 in 'world'
-[01:46:48] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -945.5, y: 185.5, z: -140.5, yaw: 0, pitch: 0 in 'world'
-[01:46:53] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -946.5, y: 185.5, z: -140.5, yaw: 0, pitch: 0 in 'world'
-[01:46:55] [Server thread/INFO]: trololol72 issued server command: /tp -945 185 -140
-[01:46:55] [Server thread/INFO]: [trololol72: Teleported trololol72 to -944.500000, 185.000000, -139.500000]
-[01:47:24] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=minecraft:enderman]
-[01:47:24] [Server thread/INFO]: [trololol72: Killed 18 entities]
-[01:51:22] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[01:51:22] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[02:03:53] [Server thread/INFO]: Stopping the server
-[02:03:53] [Server thread/INFO]: Stopping server
-[02:03:53] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[02:03:53] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[02:03:53] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[02:03:53] [Server thread/INFO]: [TAB] Disabled in 2ms
-[02:03:53] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[02:03:53] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[02:03:53] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
-[02:03:53] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[02:03:53] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[02:03:53] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[02:03:53] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[02:03:53] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[02:03:53] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[02:03:53] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[02:03:53] [Server thread/INFO]: [LuckPerms] Closing storage...
-[02:03:53] [Server thread/INFO]: [LuckPerms] Goodbye!
-[02:03:53] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[02:03:53] [Server thread/INFO]: Saving players
-[02:03:53] [Server thread/INFO]: Saving worlds
-[02:03:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[02:03:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[02:03:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[02:03:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[02:03:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:03:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:03:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:03:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[02:03:53] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[02:03:53] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[02:03:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[02:03:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[02:08:54] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
+[02:08:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[02:08:56] [ServerMain/INFO]: Loaded 1470 recipes
+[02:08:56] [ServerMain/INFO]: Loaded 1584 advancements
+[02:08:56] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[02:08:56] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 371.1ms
+[02:08:56] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
+[02:08:56] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[02:08:56] [Server thread/WARN]: ****************************
+[02:08:56] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[02:08:56] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[02:08:56] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[02:08:56] [Server thread/WARN]: ****************************
+[02:08:56] [Server thread/INFO]: Loading properties
+[02:08:56] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[02:08:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:08:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:08:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:08:57] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[02:08:58] [Server thread/INFO]: Default game type: SURVIVAL
+[02:08:58] [Server thread/INFO]: Generating keypair
+[02:08:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:08:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:08:58] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[02:08:58] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[02:08:58] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[02:08:58] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:08:58] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[02:08:58] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[02:08:58] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[02:08:59] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@51ea5b0b]
+[02:08:59] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[02:08:59] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[02:08:59] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v1.0-1.21
+[02:08:59] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[02:08:59] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[02:08:59] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[02:08:59] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[02:09:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:09:00] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[02:09:00] [Server thread/INFO]:         __    
+[02:09:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[02:09:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:09:00] [Server thread/INFO]: 
+[02:09:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:09:01] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:09:01] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:09:01] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1022ms)
+[02:09:01] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[02:09:01] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[02:09:01] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[02:09:01] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[02:09:01] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:09:02] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:09:02] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[02:09:03] [Server thread/INFO]: Preparing level "world"
+[02:09:03] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[02:09:03] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 2 NUMA nodes.
+[02:09:04] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
+[02:09:04] [Server thread/INFO]: Preparing spawn area: 28%
+[02:09:04] [Server thread/INFO]: Prepared spawn area in 436 ms
+[02:09:04] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[02:09:04] [Server thread/INFO]: Prepared spawn area in 2 ms
+[02:09:04] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[02:09:04] [Server thread/INFO]: Prepared spawn area in 0 ms
+[02:09:04] [Server thread/INFO]: Done preparing level "world" (1.203s)
+[02:09:04] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[02:09:05] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[02:09:07] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[02:09:07] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[02:09:07] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[02:09:07] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v1.0-1.21
+[02:09:07] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[02:09:07] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[02:09:07] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[02:09:08] [Server thread/INFO]: [TAB] Enabled in 525ms
+[02:09:08] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[02:09:08] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[02:09:08] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[02:09:08] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[02:09:08] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[02:09:08] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[02:09:09] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[02:09:09] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[02:09:09] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[02:09:09] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[02:09:09] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[02:09:09] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[02:09:09] [Server thread/INFO]: [SkBee]  - 56 events
+[02:09:09] [Server thread/INFO]: [SkBee]  - 71 effects
+[02:09:09] [Server thread/INFO]: [SkBee]  - 240 expressions
+[02:09:09] [Server thread/INFO]: [SkBee]  - 27 conditions
+[02:09:09] [Server thread/INFO]: [SkBee]  - 32 sections
+[02:09:09] [Server thread/INFO]: [SkBee]  - 11 properties
+[02:09:09] [Server thread/INFO]: [SkBee] Update checker disabled!
+[02:09:09] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.57 seconds
+[02:09:09] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[02:09:09] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[02:09:10] [Server thread/INFO]: [spark] Starting background profiler...
+[02:09:10] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[02:09:10] [Thread-13/INFO]: [Skript] Loaded 5684 aliases in 3291ms
+[02:09:10] [Server thread/INFO]: Running delayed init tasks
+[02:09:10] [Server thread/INFO]: [Skript] Loading variables...
+[02:09:10] [Server thread/INFO]: [Skript] Loaded 544 variables in 0.0 seconds
+[02:09:21] [Server thread/INFO]: [ender spot] Script loaded. Tracking 0 existing endermans.
+[02:09:21] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
+[02:09:21] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[02:09:21] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[02:09:21] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[02:09:21] [Server thread/INFO]: [Skript] Loaded 33 scripts with a total of 330 structures in 10.81 seconds
+[02:09:21] [Server thread/INFO]: [Skript] Finished loading.
+[02:09:21] [Server thread/INFO]: Done (34.972s)! For help, type "help"
+[02:09:21] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 29 build(s) behind ***
+[02:09:21] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[02:10:32] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[02:10:32] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[02:10:35] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[02:10:35] [Server thread/INFO]: trololol72[/93.173.35.208:57718] logged in with entity id 1 at ([world]-924.9628504023503, 190.22887478086514, -144.41175719682448)
+[02:10:36] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[02:10:36] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[02:10:46] [Server thread/INFO]: trololol72 issued server command: /tp ~ ~-200 ~
+[02:10:46] [Server thread/INFO]: [trololol72: Teleported trololol72 to -922.830740, -9.771125, -138.233299]
+[02:10:53] [Server thread/INFO]: trololol72 issued server command: /enderspot_list
+[02:11:00] [Server thread/INFO]: trololol72 issued server command: /tick rate 200
+[02:11:00] [Server thread/INFO]: [trololol72: Set the target tick rate to 200.0 per second]
+[02:11:03] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -953.3, y: 35, z: -141.7, yaw: 89.99, pitch: 38.74 in 'world'
+[02:11:04] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -955.3, y: 34, z: -139.7, yaw: 89.99, pitch: 38.74 in 'world'
+[02:11:06] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -942.3, y: 33, z: -148.7, yaw: 89.99, pitch: 38.74 in 'world'
+[02:11:06] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -942.3, y: 35, z: -141.7, yaw: 89.99, pitch: 38.74 in 'world'
+[02:11:07] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -954.3, y: 32, z: -135.7, yaw: 89.99, pitch: 38.74 in 'world'
+[02:11:09] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -949.3, y: 35, z: -151.7, yaw: 89.99, pitch: 38.74 in 'world'
+[02:11:09] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -955.3, y: 35, z: -143.7, yaw: 89.99, pitch: 38.74 in 'world'
+[02:11:10] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -953.3, y: 35, z: -148.7, yaw: 89.99, pitch: 38.74 in 'world'
+[02:11:18] [Server thread/INFO]: trololol72 issued server command: /enderspot_set_num 8
+[02:11:32] [Server thread/INFO]: trololol72 issued server command: /enderspot_set_cancel_chance 70
+[02:11:32] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:33] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:34] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:35] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:35] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:36] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:36] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:37] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:38] [Server thread/INFO]: trololol72 issued server command: /enderspot_set_cancel_chance 80
+[02:11:38] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:39] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:40] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:41] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:41] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:42] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:42] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:43] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:44] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:44] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:45] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:46] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:47] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:48] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:48] [Server thread/INFO]: trololol72 issued server command: /tpb enderspot badlands
+[02:11:48] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:49] [Server thread/INFO]: [ender spot] Spawned new enderman at x: -944.3, y: 35, z: -150.7, yaw: 89.99, pitch: 38.74 in 'world'
+[02:11:49] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:50] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:50] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:51] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:51] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:52] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:52] [Server thread/INFO]: trololol72 issued server command: /tpb maze snow
+[02:11:54] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:54] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:55] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:55] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:56] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:56] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:57] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:57] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:58] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:59] [Server thread/INFO]: [ender spot] cancelled.
+[02:11:59] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:00] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:00] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:02] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:03] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:03] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:04] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:05] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:05] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:06] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:06] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:07] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:07] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:08] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:08] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:09] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:10] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:11] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:11] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:12] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:12] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:13] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:13] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:14] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:15] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:15] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:16] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:17] [Server thread/INFO]: trololol72 issued server command: /tptool
+[02:12:17] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:18] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:19] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:20] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:21] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:21] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:23] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:23] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:24] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:24] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:25] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:25] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:26] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:27] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:28] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:28] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:29] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:30] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:30] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:31] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:32] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:32] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:33] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:33] [Server thread/INFO]: trololol72 issued server command: /enderspot_add snow
+[02:12:33] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:34] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:34] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:35] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:35] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:36] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:36] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:37] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:37] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:38] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:38] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:39] [Server thread/INFO]: [ender spot] Spawned new enderman at x: 1431.61, y: 63, z: 55.35, yaw: -177.1, pitch: 72.21 in 'world'
+[02:12:39] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:40] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:40] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:41] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:41] [Server thread/INFO]: [ender spot] Spawned new enderman at x: 1428.61, y: 63, z: 70.35, yaw: -177.1, pitch: 72.21 in 'world'
+[02:12:42] [Server thread/INFO]: trololol72 issued server command: /tpb enderspot snow
+[02:12:42] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:42] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:43] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:43] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:44] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:44] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:45] [Server thread/INFO]: [ender spot] Spawned new enderman at x: 1423.61, y: 63, z: 64.35, yaw: -177.1, pitch: 72.21 in 'world'
+[02:12:45] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:46] [Server thread/INFO]: [ender spot] Spawned new enderman at x: 1433.61, y: 63, z: 42.35, yaw: -177.1, pitch: 72.21 in 'world'
+[02:12:46] [Server thread/INFO]: [ender spot] Spawned new enderman at x: 1421.61, y: 63, z: 54.35, yaw: -177.1, pitch: 72.21 in 'world'
+[02:12:47] [Server thread/INFO]: [ender spot] Spawned new enderman at x: 1408.61, y: 63, z: 50.35, yaw: -177.1, pitch: 72.21 in 'world'
+[02:12:47] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:48] [Server thread/INFO]: [ender spot] Spawned new enderman at x: 1414.61, y: 63, z: 66.35, yaw: -177.1, pitch: 72.21 in 'world'
+[02:12:48] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:49] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:49] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:50] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:50] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:51] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:51] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:52] [Server thread/INFO]: [ender spot] Spawned new enderman at x: 1409.61, y: 63, z: 63.35, yaw: -177.1, pitch: 72.21 in 'world'
+[02:12:52] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:53] [Server thread/INFO]: [ender spot] Spawned new enderman at x: 1429.61, y: 63, z: 48.35, yaw: -177.1, pitch: 72.21 in 'world'
+[02:12:53] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:54] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:54] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:55] [Server thread/INFO]: [ender spot] cancelled.
+[02:12:55] [Server thread/INFO]: trololol72 issued server command: /tick rate 20
+[02:12:55] [Server thread/INFO]: [trololol72: Set the target tick rate to 20.0 per second]
+[02:13:00] [Server thread/INFO]: [ender spot] cancelled.
+[02:13:05] [Server thread/INFO]: [ender spot] Spawned new enderman at x: 1407.61, y: 63, z: 42.35, yaw: -177.1, pitch: 72.21 in 'world'
+[02:13:10] [Server thread/INFO]: [ender spot] cancelled.
+[02:13:15] [Server thread/INFO]: [ender spot] cancelled.
+[02:13:20] [Server thread/INFO]: [ender spot] cancelled.
+[02:13:25] [Server thread/INFO]: [ender spot] cancelled.
+[02:13:30] [Server thread/INFO]: [ender spot] cancelled.
+[02:13:34] [Server thread/INFO]: trololol72 issued server command: /enderspot_set_cancel_chance 80
+[02:13:35] [Server thread/INFO]: [ender spot] cancelled.
+[02:13:40] [Server thread/INFO]: [ender spot] Spawned new enderman at x: 1433.61, y: 63, z: 43.35, yaw: -177.1, pitch: 72.21 in 'world'
+[02:13:41] [Server thread/INFO]: trololol72 issued server command: /enderspotdebug
+[02:13:57] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[02:14:06] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:16:49] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[02:16:49] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[08:05:06] [User Authenticator #1/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
+[08:05:08] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
+[08:05:08] [Server thread/INFO]: Baba_Tova[/103.124.165.224:55244] logged in with entity id 7302 at ([world]216.66868034187598, -16.0, -177.55738087526265)
+[08:05:09] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
+[08:05:09] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
+[08:28:35] [Server thread/INFO]: [Death] Baba_Tova was slain by Husk (Friends)
+[08:28:37] [Server thread/INFO]: [Spawn Debug] Baba_Tova respawning without a bed.
+[08:28:37] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading Baba_Tova to Friends spawn (512, -512).
+[08:28:37] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
+[08:38:53] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[08:39:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.11-88-8556cb4 (MC: 1.21.11) ---
+[08:39:03] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[08:39:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[08:39:03] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[08:39:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[08:39:03] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[08:39:03] [Paper Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: RUNNABLE
+[08:39:03] [Paper Watchdog Thread/ERROR]: 	Stack:
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance.lambda$dimap$0(FunctionType.java:76)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.FunctionType$Instance$$Lambda/0x00007cf3325c1808.apply(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.profunctors.Profunctor.dimap(Profunctor.java:29)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Lens.lambda$eval$2(Lens.java:46)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Lens$$Lambda/0x00007cf33186d368.apply(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Optic$CompositionOptic.applyUnchecked(Optic.java:41)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Optic$CompositionOptic.lambda$eval$0(Optic.java:33)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.optics.Optic$CompositionOptic$$Lambda/0x00007cf33186d5c8.apply(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.ProfunctorTransformer.lambda$eval$0(ProfunctorTransformer.java:39)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.ProfunctorTransformer$$Lambda/0x00007cf3325c0a40.apply(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply.lambda$eval$0(Apply.java:30)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply$$Lambda/0x00007cf3325be000.apply(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x00007cf331868920.apply(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Fold.lambda$eval$2(Fold.java:91)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Fold$$Lambda/0x00007cf3325ba060.apply(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x00007cf331868920.apply(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.capWrite(Type.java:167)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.lambda$readAndWrite$10(Type.java:159)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type$$Lambda/0x00007cf331868490.apply(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.readAndWrite(Type.java:158)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.DataFixerUpper.update(DataFixerUpper.java:78)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.legacy.CraftLegacy.<clinit>(CraftLegacy.java:406)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.util.CraftMagicNumbers.getBlock(CraftMagicNumbers.java:147)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.block.CraftBlockState.setRawData(CraftBlockState.java:293)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.BukkitEventValues.lambda$static$31(BukkitEventValues.java:290)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.BukkitEventValues$$Lambda/0x00007cf3319b7310.convert(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.EventValueExpression.getValue(EventValueExpression.java:283)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.EventValueExpression.get(EventValueExpression.java:264)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.WrapperExpression.get(WrapperExpression.java:49)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.ConvertedExpression.getArray(ConvertedExpression.java:213)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.WrapperExpression.get(WrapperExpression.java:49)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:144)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.check(CondCompare.java:327)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Condition.evaluate(Condition.java:88)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Condition.evaluate(Condition.java:25)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.Conditional.evaluate(Conditional.java:45)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.Conditional.evaluateAnd(Conditional.java:105)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.CompoundConditional.evaluate(CompoundConditional.java:85)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.CompoundConditional.evaluate(CompoundConditional.java:68)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.sections.SecConditional.checkConditions(SecConditional.java:417)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.sections.SecConditional.walk(SecConditional.java:306)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.lambda$execute$2(SkriptEventHandler.java:165)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$$Lambda/0x00007cf331d8eb70.run(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.lambda$execute$3(SkriptEventHandler.java:176)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$$Lambda/0x00007cf331d8ed98.call(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.util.Task.callSync(Task.java:147)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.util.Task.callSync(Task.java:131)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.execute(SkriptEventHandler.java:174)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.check(SkriptEventHandler.java:120)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$PriorityListener.lambda$new$0(SkriptEventHandler.java:46)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$PriorityListener$$Lambda/0x00007cf331d8c888.execute(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.event.Event.callEvent(Event.java:46)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.event.CraftEventFactory.getPlayerBucketEvent(CraftEventFactory.java:598)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerBucketEmptyEvent(CraftEventFactory.java:572)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.BucketItem.emptyContents(BucketItem.java:141)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.BucketItem.use(BucketItem.java:89)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.ItemStack.use(ItemStack.java:554)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItem(ServerPlayerGameMode.java:449)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItem(ServerGamePacketListenerImpl.java:2200)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:48)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:9)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007cf3310014a0.run(Unknown Source)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.runWith(Thread.java:1596)
+[08:39:03] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.run(Thread.java:1583)
+[08:39:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[08:39:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[08:39:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[08:39:04] [Server thread/WARN]: Baba_Tova moved too quickly! 0.0,-208.0,1.3963273826518616
+[08:39:28] [User Authenticator #2/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
+[08:39:28] [Server thread/INFO]: Baba_Tova lost connection: You logged in from another location
+[08:39:28] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
+[08:39:29] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
+[08:39:29] [Server thread/INFO]: Baba_Tova[/87.71.13.196:48528] logged in with entity id 21382 at ([world]465.30000001192093, 73.0, -496.33432957528765)
+[08:39:30] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
+[08:39:30] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
+[08:39:36] [Netty Epoll IO #0/WARN]: Failed to update secure chat state for Baba_Tova: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[08:39:36] [Server thread/INFO]: Baba_Tova: t
+[08:55:54] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[08:55:54] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[08:55:54] [Server thread/INFO]: Named entity WitherBoss['Ra'/25544, uuid='3d5ae4a6-4360-4c14-a4cc-6bb2964bffbe', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1320, v=true] died: Ra was killed
+[08:55:55] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[08:55:55] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[08:55:55] [Server thread/INFO]: Named entity WitherBoss['Ra'/25881, uuid='13806b2c-64d0-4dc9-b206-e377d1252b57', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[08:56:14] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[08:56:14] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[08:56:14] [Server thread/INFO]: Named entity WitherBoss['Ra'/25916, uuid='7cafb1e6-2200-4f19-9955-f8b9161d13c3', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[08:56:19] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[08:56:19] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[08:56:19] [Server thread/INFO]: Named entity WitherBoss['Ra'/25919, uuid='503eb9fd-d56b-4e0f-b727-f22a0bd40495', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[08:56:25] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[08:56:25] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[08:56:25] [Server thread/INFO]: Named entity WitherBoss['Ra'/25923, uuid='d413be89-3ffd-42fb-bd90-139d0afe67c2', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[08:56:32] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[08:56:32] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[08:56:32] [Server thread/INFO]: Named entity WitherBoss['Ra'/25926, uuid='795ab2fd-95fb-4063-b778-6e92a675cdd6', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[08:56:51] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[08:56:51] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[08:56:51] [Server thread/INFO]: Named entity WitherBoss['Ra'/25930, uuid='8211811b-b98c-46fe-976f-15e44c41e27d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[09:00:24] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
+[09:00:24] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
+[09:05:14] [User Authenticator #3/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
+[09:05:16] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
+[09:05:16] [Server thread/INFO]: Baba_Tova[/87.71.13.196:51432] logged in with entity id 26354 at ([world]465.30000001192093, 72.0, -497.86250001192093)
+[09:05:17] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
+[09:05:17] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
+[09:08:40] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
+[09:08:40] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
+[09:11:34] [User Authenticator #4/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
+[09:11:36] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
+[09:11:36] [Server thread/INFO]: Baba_Tova[/87.71.13.196:49780] logged in with entity id 28554 at ([world]514.5041435161216, 70.0, -490.7286555306524)
+[09:11:37] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
+[09:11:37] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
+[09:29:48] [Server thread/INFO]: [Death] Baba_Tova was blown up by Creeper (Friends)
+[09:29:50] [Server thread/INFO]: [Spawn Debug] Baba_Tova respawning without a bed.
+[09:29:50] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading Baba_Tova to Friends spawn (512, -512).
+[09:29:50] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
+[09:34:36] [Server thread/INFO]: [Death] Baba_Tova was slain by Enderman (Friends)
+[09:34:39] [Server thread/INFO]: [Spawn Debug] Baba_Tova respawning without a bed.
+[09:34:39] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading Baba_Tova to Friends spawn (512, -512).
+[09:34:39] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
+[09:38:36] [Server thread/INFO]: The particle was not visible for anybody
+[09:38:36] [Server thread/INFO]: The particle was not visible for anybody
+[09:38:36] [Server thread/INFO]: Named entity WitherBoss['Ra'/41103, uuid='732e61c4-0e9b-40f1-a2d7-c958bbca2c4e', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=200, v=true] died: Ra was killed
+[09:38:52] [Server thread/INFO]: The particle was not visible for anybody
+[09:38:52] [Server thread/INFO]: The particle was not visible for anybody
+[09:38:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/41303, uuid='60a8a707-97f1-43f0-aadd-ecdf5a8cfeaf', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=300, v=true] died: Ra was killed
+[09:40:32] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
+[09:40:32] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
+[09:40:32] [Server thread/INFO]: The particle was not visible for anybody
+[09:40:32] [Server thread/INFO]: The particle was not visible for anybody
+[09:40:32] [Server thread/INFO]: Named entity WitherBoss['Ra'/41502, uuid='e793c32e-d8ad-4ec4-9878-567c550314aa', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1980, v=true] died: Ra was killed
+[09:50:48] [User Authenticator #5/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
+[09:50:50] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
+[09:50:50] [Server thread/INFO]: Baba_Tova[/87.71.13.196:52154] logged in with entity id 43728 at ([world]264.8918616379589, -20.747796659746278, 173.99722695562897)
+[09:50:50] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
+[09:50:50] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
+[09:54:35] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
+[09:54:35] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
+[10:23:06] [User Authenticator #6/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[10:23:07] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[10:23:07] [Server thread/INFO]: DonalDucker[/176.229.5.32:52982] logged in with entity id 47913 at ([world]547.4482153643922, 69.0, -477.69999998807907)
+[10:23:08] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[10:23:08] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[10:25:57] [User Authenticator #7/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[10:25:59] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[10:25:59] [Server thread/INFO]: trololol72[/93.173.35.208:55156] logged in with entity id 51014 at ([world]-1029.4953406422744, 66.0, -1487.6477568851524)
+[10:26:00] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[10:26:00] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[10:26:10] [Server thread/INFO]: trololol72 issued server command: /gamerule advance_time false
+[10:26:10] [Server thread/INFO]: [trololol72: Gamerule advance_time is now set to: false]
+[10:26:24] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 157ea700-8837-49fa-befb-cd1dc05b8a3e, mapped to Horse['Horse'/50426, uuid='157ea700-8837-49fa-befb-cd1dc05b8a3e', l='ServerLevel[world]', x=420.12, y=51.00, z=91.25, cpos=[26, 5], tl=0, v=true], can't add Horse['Horse'/51993, uuid='157ea700-8837-49fa-befb-cd1dc05b8a3e', l='ServerLevel[world]', x=-1623.91, y=44.00, z=-1477.98, cpos=[-102, -93], tl=0, v=false]
+[10:26:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: bcf004ae-707b-44c8-8939-9fba3978a88f, mapped to Horse['Horse'/50268, uuid='bcf004ae-707b-44c8-8939-9fba3978a88f', l='ServerLevel[world]', x=396.17, y=67.00, z=74.86, cpos=[24, 4], tl=0, v=true], can't add Horse['Horse'/52022, uuid='bcf004ae-707b-44c8-8939-9fba3978a88f', l='ServerLevel[world]', x=-1645.91, y=39.00, z=-1470.98, cpos=[-103, -92], tl=0, v=false]
+[10:26:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 32968902-deb2-4422-9e03-9409f9d6022c, mapped to Chicken['Chicken'/50269, uuid='32968902-deb2-4422-9e03-9409f9d6022c', l='ServerLevel[world]', x=396.19, y=67.00, z=75.80, cpos=[24, 4], tl=0, v=true], can't add Chicken['Chicken'/52027, uuid='32968902-deb2-4422-9e03-9409f9d6022c', l='ServerLevel[world]', x=-1636.27, y=39.00, z=-1464.27, cpos=[-103, -92], tl=0, v=false]
+[10:26:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 1ef836f1-e61c-402a-a7d2-96663ae5dede, mapped to Horse['Horse'/50267, uuid='1ef836f1-e61c-402a-a7d2-96663ae5dede', l='ServerLevel[world]', x=392.35, y=67.00, z=74.95, cpos=[24, 4], tl=0, v=true], can't add Horse['Horse'/52029, uuid='1ef836f1-e61c-402a-a7d2-96663ae5dede', l='ServerLevel[world]', x=-1644.22, y=48.00, z=-1460.14, cpos=[-103, -92], tl=0, v=false]
+[10:26:25] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: c7fe8f17-a36f-4f6b-a139-b33aaf20ba99, mapped to Chicken['Chicken'/50425, uuid='c7fe8f17-a36f-4f6b-a139-b33aaf20ba99', l='ServerLevel[world]', x=419.89, y=51.00, z=90.20, cpos=[26, 5], tl=0, v=true], can't add Chicken['Chicken'/52030, uuid='c7fe8f17-a36f-4f6b-a139-b33aaf20ba99', l='ServerLevel[world]', x=-1641.62, y=47.00, z=-1460.52, cpos=[-103, -92], tl=0, v=false]
+[10:26:27] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[10:26:27] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[10:26:57] [User Authenticator #8/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[10:26:59] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[10:26:59] [Server thread/INFO]: trololol72[/93.173.35.208:55299] logged in with entity id 52726 at ([world]-1092.9045938886443, 69.61255197337393, -1489.3330546822192)
+[10:27:00] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[10:27:00] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[10:27:22] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[10:27:25] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
+[10:27:25] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
+[10:28:23] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[10:28:23] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[10:36:51] [User Authenticator #9/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[10:36:53] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[10:36:53] [Server thread/INFO]: trololol72[/93.173.35.208:55402] logged in with entity id 56026 at ([world]-22.496921495427973, -17.617411798004003, 51.398686411839414)
+[10:36:54] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[10:36:54] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[10:37:01] [Server thread/INFO]: trololol72 issued server command: /gamerule random_tick_speed 3
+[10:37:01] [Server thread/INFO]: [trololol72: Gamerule random_tick_speed is now set to: 3]
+[10:37:11] [Server thread/INFO]: trololol72 issued server command: /gamerule random_tick_speed 2
+[10:37:11] [Server thread/INFO]: [trololol72: Gamerule random_tick_speed is now set to: 2]
+[10:40:37] [Server thread/INFO]: trololol72 issued server command: /tpw 1
+[10:40:37] [Server thread/INFO]: tp player to hut 1
+[10:41:03] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[10:41:03] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[11:03:47] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[11:03:47] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[11:10:55] [User Authenticator #10/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[11:10:56] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[11:10:56] [Server thread/INFO]: trololol72[/93.173.35.208:55663] logged in with entity id 62135 at ([world]222.29266742312353, 154.74800728660264, 808.8545117530159)
+[11:10:57] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[11:10:57] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[11:11:12] [Server thread/INFO]: trololol72 issued server command: /stop
+[11:11:12] [Server thread/INFO]: [trololol72: Stopping the server]
+[11:11:12] [Server thread/INFO]: Stopping server
+[11:11:12] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[11:11:12] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[11:11:12] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[11:11:12] [Server thread/INFO]: [TAB] Disabled in 0ms
+[11:11:12] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[11:11:12] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[11:11:12] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
+[11:11:12] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[11:11:12] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[11:11:12] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[11:11:12] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:11:12] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[11:11:12] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[11:11:12] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:11:12] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:11:12] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:11:12] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[11:11:12] [Server thread/INFO]: Saving players
+[11:11:12] [Server thread/INFO]: trololol72 lost connection: Server closed
+[11:11:12] [Server thread/INFO]: trololol72 left the game
+[11:11:12] [Server thread/INFO]: Saving worlds
+[11:11:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:11:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:11:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:11:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Saved 1522 block chunks, 1530 entity chunks, 0 poi chunks in world 'world' in 3.34s
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[11:11:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[11:11:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[11:11:15] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[11:11:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:11:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:11:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:11:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:11:16] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[11:11:16] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[11:11:16] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[11:11:16] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
