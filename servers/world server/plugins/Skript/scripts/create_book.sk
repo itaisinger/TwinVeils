@@ -37,6 +37,8 @@ command /give_book <text>:
             enclosure_note(player)
         if arg-1 is "farmer":
             farmer_journal(player)
+        if arg-1 is "library":
+            compass_library_rite(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -709,6 +711,93 @@ function farmer_journal(p: player):
     # Page 12: The Plan
     set {_p12} to ""
     add "Today I'll try going there again, as my supplies runnin dry. We'll see if they have some food." to {_p12}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p5}
+    set page 6 of {_book} to {_p6}
+    set page 7 of {_book} to {_p7}
+    set page 8 of {_book} to {_p8}
+    set page 9 of {_book} to {_p9}
+    set page 10 of {_book} to {_p10}
+    set page 11 of {_book} to {_p11}
+    set page 12 of {_book} to {_p12}
+
+    give {_book} to {_p}
+#
+function compass_library_rite(p: player):
+    set {_book} to a written book named "Rite of the compass library"
+    set author of {_book} to "The Traveler"
+    set {_c} to "<#012a39>"
+
+    # Page 1: The Location
+    set {_p1} to ""
+    add "After the desert, before the sunrise;" to {_p1}
+    add "%nl%%nl%North of morning, three moons before the valley;" to {_p1}
+ 
+    # Page 2: The Will
+    set {_p2} to ""
+    add "I willed the compass library." to {_p2}
+
+    # Page 3: The Wind
+    set {_p3} to ""
+    add "The whistling wind won't reach this room," to {_p3}
+    add "%nl%%nl%For it died yesteryear." to {_p3}
+
+    # Page 4: The Void
+    set {_p4} to ""
+    add "%nl%%nl%The children of darkness won't trouble you here," to {_p3}
+    add "%nl%%nl%For they occupy the night;" to {_p3}
+    add "And the night is not here." to {_p4}
+
+    # Page 5: The Isolation
+    set {_p5} to ""
+    add "A lone moment." to {_p5}
+    add "%nl%%nl%A far hour." to {_p5}
+    add "%nl%%nl%Like before." to {_p5}
+
+    # Page 6: The Contempt
+    set {_p6} to ""
+    add "Before there was life, and sun." to {_p6}
+    add "%nl%%nl%Here I’m condemned to contempt." to {_p6}
+    add "%nl%%nl%To a lack of others." to {_p6}
+
+    # Page 7: The Sinner
+    set {_p7} to ""
+    add "In a time long after home." to {_p7}
+    add "%nl%%nl%An eternal night. Solitary and solaced." to {_p7}
+    add "%nl%%nl%A time befitting a biblical sinner." to {_p7}
+
+    # Page 8: The Question
+    set {_p8} to ""
+    add "Hubris and vengeance;" to {_p8}
+    add "%nl%%nl%Cain and Abel, Day and Night;" to {_p8}
+    add "%nl%%nl%Who's just?" to {_p8}
+
+    # Page 9: The Wait
+    set {_p9} to ""
+    add "I've waited for long miles." to {_p9}
+    add "%nl%%nl%Will thou be a judge," to {_p9}
+    add "%nl%%nl%Will thou verdict thy creator?" to {_p9}
+
+    # Page 10: The Judge
+    set {_p10} to ""
+    add "No ordinary judge will suffice;" to {_p10}
+    add "%nl%%nl%A grandiose amalgamation of morality," to {_p10}
+    add "%nl%%nl%A celestial offspring must rise;" to {_p10}
+
+    # Page 11: The Plea
+    set {_p11} to ""
+    add "%{_c}%&lO truth,&r strike the heavens with judgement’s hammer;" to {_p11}
+    add "%nl%%nl%%{_c}%&lO son,&r bear no mercy to thy creator;" to {_p11}
+    add "%nl%%nl%%{_c}%&lO death,&r bring my demise if thou see fit;" to {_p11}
+
+    # Page 12: The Regret
+    set {_p12} to ""
+    add "For I've lived with regret and solitude from before the first embers of life were lit," to {_p12}
+    add "%nl%%nl%And the world years of passion this god can no longer grit." to {_p12}
 
     set page 1 of {_book} to {_p1}
     set page 2 of {_book} to {_p2}
