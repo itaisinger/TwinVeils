@@ -1,0 +1,106 @@
+# --- CONFIGURATION ---
+options:
+    max_endermans: 8
+    spawn_radius: 7
+    respawn_timer: 5 seconds # How often it checks/spawns
+    spot_radius: 55
+
+# --- LOCAL DEBUG FUNCTION ---
+function _enderspotDebug(msg: text):
+    if {enderspot_debug} is true:
+        broadcast "&5[ender spot] &f%{_msg}%"
+
+# 1. SETUP & RECOVERY ON RESTART
+on load:
+    delete {enderspot_endermans::*} 
+    loop all endermen: 
+        if scoreboard tags of loop-entity contains "enderspot_enderman":
+            add loop-entity to {enderspot_endermans::*}
+    _enderspotDebug("Script loaded. Tracking %size of {enderspot_endermans::*}% existing endermans.")
+
+# 2. THE SPAWNER
+every {@respawn_timer}:
+    chance of 80%:
+        _enderspotDebug("cancelled.")
+        stop
+
+    loop {spot_centers::*}:
+        set {_spotCenter} to loop-value
+        set {_localCount} to 0
+        set {_playersNearby} to false
+        
+        # 1. Check if players are actually near this specific spot to allow spawning
+        loop all players:
+            if distance between loop-player and {_spotCenter} <= {@spot_radius}:
+                set {_playersNearby} to true
+                stop loop # Found a player, no need to check others
+                
+        if {_playersNearby} is true:
+            
+            # 2. Count alive endermans near this specific spot
+            loop {enderspot_endermans::*}:
+                if loop-value-2 is alive:
+                    if distance between loop-value-2 and {_spotCenter} <= {@spot_radius}:
+                        add 1 to {_localCount}
+                else:
+                    remove loop-value-2 from {enderspot_endermans::*} # Cleanup dead endermans
+            
+            # 3. Attempt spawn if under max
+            if {_localCount} < {@max_endermans}:
+                set {_loc} to {_spotCenter}
+                add random integer between -{@spawn_radius} and {@spawn_radius} to x-coord of {_loc}
+                add random integer between -{@spawn_radius} and {@spawn_radius} to z-coord of {_loc}
+                
+                set {_spawnLoc} to location of highest solid block at {_loc}
+                
+                # Basic safety check so they don't spawn in the air or lava
+                if block at {_spawnLoc} is not air or lava or water:
+                    add 1 to y-coord of {_spawnLoc}
+                    
+                    spawn enderman at {_spawnLoc}
+                    set {_enderman} to last spawned enderman
+                    
+                    add "enderspot_enderman" to scoreboard tags of {_enderman} 
+                    add {_enderman} to {enderspot_endermans::*}
+                    
+                    _enderspotDebug("Spawned new enderman at %{_spawnLoc}%")
+
+# --- COMMANDS ---
+command /enderspotdebug:
+    permission: op
+    description: Toggles the ender spot spawn debugging logs.
+    trigger:
+        if {enderspot_debug} is true:
+            set {enderspot_debug} to false
+            send "&5[ender spot] &cDebug mode disabled."
+        else:
+            set {enderspot_debug} to true
+            send "&5[ender spot] &aDebug mode enabled."
+
+command /enderspot_add <text>:
+    permission: op
+    description: Adds a ender spot spawn point at your current location.
+    usage: &c/enderspot_add <name>
+    trigger:
+        set {spot_centers::%arg-1%} to location of player
+        send "&5[ender spot] &aAdded spot spawn '&f%arg-1%&a' at your current location."
+#
+command /enderspot_del <text>:
+    permission: op
+    trigger:
+        if {spot_centers::%arg-1%} is not set:
+            send "&c%arg-1% spot doesnt exists."
+            stop
+        delete {spot_centers::%arg-1%}
+        send "deleted spot %arg-1%"
+#
+command /enderspot_list:
+    permission: op
+    description: Lists all saved enderspots.
+    trigger:
+        send "&5--- Active enderspots ---"
+        if size of {grove_centers::*} is 0:
+            send "&7No enderspots currently set."
+        else:
+            loop {spot_centers::*}:
+                send "&5%loop-index%: &f%loop-value%"
