@@ -1,7 +1,7 @@
 # --- CONFIGURATION ---
 options:
     max_endermans: 8
-    spawn_radius: 7
+    spawn_radius: 5
     respawn_timer: 5 seconds # How often it checks/spawns
     spot_radius: 55
 
@@ -17,10 +17,12 @@ on load:
         if scoreboard tags of loop-entity contains "enderspot_enderman":
             add loop-entity to {enderspot_endermans::*}
     _enderspotDebug("Script loaded. Tracking %size of {enderspot_endermans::*}% existing endermans.")
+    if {enderspot::cancel_prec} is not set:
+        set {enderspot::cancel_prec} to 70
 
 # 2. THE SPAWNER
 every {@respawn_timer}:
-    chance of 80%:
+    chance of {enderspot::cancel_prec}%:
         _enderspotDebug("cancelled.")
         stop
 
@@ -93,6 +95,12 @@ command /enderspot_del <text>:
             stop
         delete {spot_centers::%arg-1%}
         send "deleted spot %arg-1%"
+#
+command /enderspot_set_cancel_chance <number>:
+    permission: op
+    trigger:
+        set {enderspot::cancel_prec} to arg-1
+        send "set enderspot cancel chance to %arg-1%"
 #
 command /enderspot_list:
     permission: op
