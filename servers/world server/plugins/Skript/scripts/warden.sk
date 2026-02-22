@@ -57,6 +57,7 @@ on death of warden:
     play sound "minecraft:block.sculk_shrieker.shriek" with volume 12 and pitch 0.3 at {_loc}
     wait 3 seconds
     execute console command "/bossbar remove maat"
+    pasteArea({fight::loc})
 
 # bar update
 every 3 ticks:

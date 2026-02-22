@@ -24,35 +24,43 @@ every 5 ticks:
         draw 130 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
         execute console command "particle minecraft:enchant %x-coord of {fight::loc}% %y-coord of {fight::loc} + 3% %z-coord of {fight::loc}% 0.1 0.1 0.1 10 150"
 #
-function copyArea(p: player, loc: location):
+function copyArea(loc: location):
+    set {_p} to a random player out of all players
     set {_pos1} to {_loc}
     set {_pos2} to {_loc}
     
     remove 50 from x-coordinate of {_pos1}
-    remove 50 from y-coordinate of {_pos1}
+    remove 15 from y-coordinate of {_pos1}
     remove 50 from z-coordinate of {_pos1}
     
     add 50 to x-coordinate of {_pos2}
-    add 30 to y-coordinate of {_pos2}
+    add 20 to y-coordinate of {_pos2}
     add 50 to z-coordinate of {_pos2}
     
     make {_p} execute command "//pos1 %x-coord of {_pos1}%,%y-coord of {_pos1}%,%z-coord of {_pos1}%"
     make {_p} execute command "//pos2 %x-coord of {_pos2}%,%y-coord of {_pos2}%,%z-coord of {_pos2}%"
     make {_p} execute command "//copy"
 #
-function pasteArea(p: player, loc: location):
+function pasteArea(loc: location):
+    set {_p} to a random player out of all players
     make {_p} execute command "//paste -o"
 #
 function start_final_fight():
+    if {fight::loc} is not set:
+        broadcast "trololol72: oops"
+        stop
+
     stop all sounds for all players
     # broadcast "playing final fight ost"
     play sound "minecraft:broken_memory" with volume 1000 to all players
+    copyArea({fight::loc})
     set {_v} to 5
     loop 5 times:
         set {fight::state} to "setup%{_v}%"
         fight_title({_v})
         remove 1 from {_v}
-        wait 80 seconds
+        # wait 85 seconds
+        wait 5 seconds
     set {fight::state} to "started"
     spawn_warden({fight::loc})
 #
@@ -106,6 +114,17 @@ command /fight_reset_vars:
     permission: op
     trigger:
         delete {fight::load}
+#
+command /fight_copy:
+    permission: op
+    trigger:
+        copyArea({fight::loc})
+#
+command /fight_paste:
+    permission: op
+    trigger:
+        pasteArea({fight::loc})
+#
 command /fight_start:
     permission: op
     trigger:
