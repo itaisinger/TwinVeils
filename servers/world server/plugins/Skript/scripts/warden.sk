@@ -62,7 +62,6 @@ on death of warden:
     wait 5 seconds
     play sound "minecraft:block.bell.use" with volume 2 and pitch 1 to all players 
 
-
     set {_c} to "<#012a39>"
 
     send title "" with subtitle "%{_c}%&o&lMa'at&r&7&o has judged you to mercy." to all players for 8 seconds
