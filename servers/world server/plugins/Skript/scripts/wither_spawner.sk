@@ -16,20 +16,6 @@ on load:
         set {wither_session_id} to 0
     add 1 to {wither_session_id}
     
-    # Format: "MinX, MaxX, MinZ, MaxZ"
-    # set {regions::0} to "512,1536,-1536,-512"   #desert
-    # set {regions::1} to "-512,512,-1536,-512"   #ocean
-    # set {regions::2} to "512,1536,-512,512"     #snow
-    # set {regions::3} to "-512,512,-512,512"     #plains
-    # set {regions::4} to "-1536,-512,512,1536"   #underground
-    # set {regions::5} to "-512,512,512,1536"     #pale garden
-    # set {regions::6} to "-1536,-512,-512,512"   #badlands
-
-    # Safe Spots
-    # set {safe_spots::0} to location(5050, 100, 5050, world "world") 
-    # set {safe_spots::1} to location(100, 100, 100, world "world")
-    # set {safe_spots_2::0} to location(5085, 100, 5086, world "world") 
-    
     # --- NON-DESTRUCTIVE TOGGLES ---
     if {wither_system_active} is not set:
         set {wither_system_active} to true
@@ -151,8 +137,6 @@ on spawn:
         stop
 
     add event-entity to team named "wither"
-    
-
 ##
 every 5 seconds:
   #add friends
