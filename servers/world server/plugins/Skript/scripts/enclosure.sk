@@ -1,4 +1,8 @@
 on load:
+
+    if {enc::state} is not set:
+        set {enc::state} to "closed"
+
     set {enc::width} to 4
     set {enc::height} to 3
     
@@ -77,6 +81,13 @@ function ring_warn():
     play sound "minecraft:entity.ender_eye.death" with volume 0.4 and pitch 0.2 to all players
     
 function _enc_open():
+
+    # #abort if map is finished
+    # if {warden_defeated} is true:
+    #     if {enc::state} is "open":
+    #         stop
+
+    set {enc::state} to "open"
     enc_debug("ITS 6:30 PM")
     ring_bell()
     
@@ -90,7 +101,14 @@ function _enc_open():
     ring_bell()
     set_strip(air,"out")
 
+
 function _enc_close():
+
+    # #abort if map is finished
+    # if {warden_defeated} is true:
+    #     stop
+
+    set {enc::state} to "closed"
     enc_debug("ITS 6:00 AM")
     ring_bell()
     

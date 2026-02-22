@@ -39,6 +39,8 @@ command /give_book <text>:
             farmer_journal(player)
         if arg-1 is "library":
             compass_library_rite(player)
+        if arg-1 is "maze":
+            travelers_eye_book(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -811,6 +813,38 @@ function compass_library_rite(p: player):
     set page 10 of {_book} to {_p10}
     set page 11 of {_book} to {_p11}
     set page 12 of {_book} to {_p12}
+
+    give {_book} to {_p}
+#
+function travelers_eye_book(p: player):
+    set {_book} to a written book named "Leap of faith"
+    set author of {_book} to "The Traveler"
+
+    # Page 1: The Requirement
+    set {_p1} to ""
+    add "one needs the traveler's eye in order to peek past the present;" to {_p1}
+
+    # Page 2: The Visions
+    set {_p2} to ""
+    add "onto the night;" to {_p2}
+    add "%nl%%nl%onto yesteryear;" to {_p2}
+    add "%nl%%nl%onto the place beyond." to {_p2}
+
+    # Page 3: The Titles
+    set {_p3} to ""
+    add "The eye of the traveler;" to {_p3}
+    add "%nl%%nl%the pearl of the sea;" to {_p3}
+    add "%nl%%nl%the globe darkness;" to {_p3}
+
+    # Page 4: The Dive
+    set {_p4} to ""
+    add "One must possess the orb that defies space in order to dive thyself;" to {_p4}
+    add "%nl%%nl%Onto the endless void." to {_p4}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
 
     give {_book} to {_p}
 #

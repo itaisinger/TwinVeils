@@ -19,11 +19,28 @@ on load:
 
 every 1 tick:
     # broadcast "time: %time of "world"%"
-    if {wither_defeated} is false:
+
+    if {warden_defeated} is true:
         add 1 tick to time of world "world"
-    else:
-        if time of world "world" is less than 23:59:
+        stop
+
+    if {wither_defeated} is false:
+        if {dragon_defeated} is false:
             add 1 tick to time of world "world"
+
+        if {dragon_defeated} is true:
+            #skip to day
+            if time of world "world" is less than 14:00:
+                add 10 tick to time of world "world"
+            else if {enc::state} is "closed":
+                _enc_open()
+
+    if {wither_defeated} is true:
+        #skip to night
+        if time of world "world" is less than 23:59:
+            add 10 tick to time of world "world"
+        else if {enc::state} is "closed":
+            _enc_open()
 
 every 5 ticks:
     set {_r} to 0.35
@@ -99,8 +116,9 @@ on place:
 function end_check():
     if {dragon_defeated} is true:
         if {wither_defeated} is true:
-            if {warden_defeated} is true:
-                broadcast "&aAll three bosses are defeated! Map Complete!"
+            if {warden_defeated} is false:
+                start_final_fight()
+                # broadcast "&aAll three bosses are defeated! Map Complete!"
 
 function day_debug(msg: text):
     if {day_debug} is true:
@@ -118,6 +136,15 @@ command /day_set_egg_spot:
         set {pos_egg} to location of target block
         send "&aDragon egg spot set to %{pos_egg}%"
 
+#
+command /map_status:
+    permission: op
+    trigger:
+        send "Map status:"
+        send "- wither: %{wither_defeated}%"
+        send "- dragon: %{dragon_defeated}%"
+        send "- warden: %{warden_defeated}%"
+#
 command /day_set_warden_spot:
     permission: op
     trigger:

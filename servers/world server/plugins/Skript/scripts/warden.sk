@@ -57,6 +57,7 @@ on death of warden:
     play sound "minecraft:block.sculk_shrieker.shriek" with volume 12 and pitch 0.3 at {_loc}
     wait 3 seconds
     execute console command "/bossbar remove maat"
+    set time of world "world" to 6:00
     pasteArea({fight::loc})
 
 # bar update
@@ -82,8 +83,15 @@ every 3 second:
         stop
     if {boss_warden} is not alive:
         stop
-    loop blocks in radius 10 around {boss_warden}:
+    loop blocks in radius 15 around {boss_warden}:
         if loop-block is a torch or a wall torch:
+            set {_l} to location of loop-block
+            set loop-block to air
+            draw 3 of large smoke at {_l} with extra 0
+            play sound "minecraft:block.fire.extinguish" with volume 0.4 at {_l}
+            # broadcast "killed torch"
+            wait 1 tick
+        if loop-block is soul torch or soul wall torch:
             set {_l} to location of loop-block
             set loop-block to air
             draw 3 of large smoke at {_l} with extra 0
