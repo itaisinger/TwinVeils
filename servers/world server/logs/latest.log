@@ -1,79 +1,1044 @@
-[00:01:15] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[00:01:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[00:01:32] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:01:53] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[00:03:10] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:03:46] [Server thread/INFO]: Summoned new Player Head
-[00:04:33] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
-[00:04:43] [Server thread/INFO]: trololol72 issued server command: /gatetool
-[00:04:56] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[00:04:56] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[00:05:19] [Server thread/INFO]: trololol72 issued server command: /gate_confirm lick
-[00:05:40] [Server thread/INFO]: Imashcha1 lost connection: Disconnected
-[00:05:40] [Server thread/INFO]: [Quit] Imashcha1 (Friends) left
-[00:05:42] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[00:05:43] [Server thread/INFO]: Summoned new Player Head
-[00:06:12] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:06:42] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[00:06:48] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
-[00:07:29] [Server thread/INFO]: trololol72 issued server command: /effect give trololol72 minecraft:invisibility infinite 1 true
-[00:07:29] [Server thread/INFO]: [trololol72: Applied effect Invisibility to trololol72]
-[00:07:32] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:08:08] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[00:08:26] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:08:37] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[00:08:37] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[00:10:46] [Server thread/INFO]: [Death] LickMyLeg went up in flames (Uni)
-[00:14:59] [Server thread/INFO]: Villager Villager['Villager'/257315, uuid='045f87cd-5345-478b-98fb-1c29bab92841', l='ServerLevel[world]', x=-879.75, y=78.00, z=-2460.49, cpos=[-55, -154], tl=4999, v=true] died, message: 'Villager was slain by Zombie'
-[00:21:54] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
-[00:21:54] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
-[01:50:49] [Server thread/INFO]: Stopping the server
-[01:50:49] [Server thread/INFO]: Stopping server
-[01:50:49] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[01:50:49] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[01:50:49] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[01:50:49] [Server thread/INFO]: [TAB] Disabled in 1ms
-[01:50:49] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[01:50:49] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[01:50:49] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
-[01:50:49] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[01:50:49] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[01:50:49] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:50:49] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[01:50:49] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[01:50:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[01:50:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[01:50:49] [Server thread/INFO]: [LuckPerms] Closing storage...
-[01:50:49] [Server thread/INFO]: [LuckPerms] Goodbye!
-[01:50:49] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[01:50:49] [Server thread/INFO]: Saving players
-[01:50:49] [Server thread/INFO]: Saving worlds
-[01:50:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Saved 18 block chunks, 11 entity chunks, 0 poi chunks in world 'world' in 0.04s
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[01:50:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[01:50:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[01:50:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:50:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:50:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:50:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:50:50] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[01:50:50] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[01:50:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[01:50:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[02:03:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-100-generic (amd64)
+[02:03:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[02:03:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:03:38] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[02:03:38] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+ - HidePlugins (1.0-1.21), SkBee (3.15.0)
+[02:03:38] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
+[02:03:43] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
+[02:03:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[02:03:45] [ServerMain/INFO]: Loaded 1470 recipes
+[02:03:45] [ServerMain/INFO]: Loaded 1584 advancements
+[02:03:45] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[02:03:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 605.2ms
+[02:03:46] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
+[02:03:46] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[02:03:46] [Server thread/WARN]: ****************************
+[02:03:46] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[02:03:46] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[02:03:46] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[02:03:46] [Server thread/WARN]: ****************************
+[02:03:46] [Server thread/INFO]: Loading properties
+[02:03:46] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[02:03:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:03:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:03:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:03:47] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[02:03:47] [Server thread/INFO]: Default game type: SURVIVAL
+[02:03:47] [Server thread/INFO]: Generating keypair
+[02:03:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:03:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:03:47] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[02:03:48] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[02:03:48] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[02:03:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:03:48] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[02:03:48] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[02:03:48] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[02:03:49] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2f56b80d]
+[02:03:49] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[02:03:49] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[02:03:49] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v1.0-1.21
+[02:03:49] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[02:03:49] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[02:03:49] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[02:03:49] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[02:03:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:03:50] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[02:03:50] [Server thread/INFO]:         __    
+[02:03:50] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[02:03:50] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:03:50] [Server thread/INFO]: 
+[02:03:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:03:51] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:03:51] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:03:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1256ms)
+[02:03:51] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[02:03:51] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[02:03:51] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[02:03:51] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[02:03:51] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:03:52] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:03:52] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[02:03:53] [Server thread/INFO]: Preparing level "world"
+[02:03:53] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[02:03:53] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 2 NUMA nodes.
+[02:03:54] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
+[02:03:54] [Server thread/INFO]: Preparing spawn area: 28%
+[02:03:54] [Server thread/INFO]: Prepared spawn area in 397 ms
+[02:03:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[02:03:54] [Server thread/INFO]: Prepared spawn area in 0 ms
+[02:03:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[02:03:54] [Server thread/INFO]: Prepared spawn area in 0 ms
+[02:03:54] [Server thread/INFO]: Done preparing level "world" (1.273s)
+[02:03:54] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[02:03:55] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[02:03:57] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[02:03:57] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[02:03:57] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[02:03:57] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v1.0-1.21
+[02:03:57] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[02:03:57] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[02:03:57] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[02:03:58] [Server thread/INFO]: [TAB] Enabled in 800ms
+[02:03:58] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[02:03:58] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[02:03:59] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[02:03:59] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[02:03:59] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[02:03:59] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[02:03:59] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[02:03:59] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[02:03:59] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[02:03:59] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[02:04:00] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[02:04:00] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[02:04:00] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[02:04:00] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[02:04:00] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[02:04:00] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[02:04:00] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[02:04:00] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[02:04:00] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[02:04:00] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[02:04:00] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[02:04:00] [Server thread/INFO]: [SkBee]  - 56 events
+[02:04:00] [Server thread/INFO]: [SkBee]  - 71 effects
+[02:04:00] [Server thread/INFO]: [SkBee]  - 240 expressions
+[02:04:00] [Server thread/INFO]: [SkBee]  - 27 conditions
+[02:04:00] [Server thread/INFO]: [SkBee]  - 32 sections
+[02:04:00] [Server thread/INFO]: [SkBee]  - 11 properties
+[02:04:00] [Server thread/INFO]: [SkBee] Update checker disabled!
+[02:04:00] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.58 seconds
+[02:04:00] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[02:04:00] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[02:04:00] [Thread-12/INFO]: [Skript] Loaded 5684 aliases in 3162ms
+[02:04:00] [Server thread/INFO]: [spark] Starting background profiler...
+[02:04:00] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[02:04:01] [Server thread/INFO]: Running delayed init tasks
+[02:04:01] [Server thread/INFO]: [Skript] Loading variables...
+[02:04:01] [Server thread/INFO]: [Skript] Loaded 562 variables in 0.1 seconds
+[02:04:05] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[02:04:12] [Server thread/INFO]: Gamerule advance_time is now set to: false
+[02:04:12] [Server thread/INFO]: Gamerule random_tick_speed is now set to: 2
+[02:04:12] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
+[02:04:12] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[02:04:12] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[02:04:12] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[02:04:12] [Server thread/INFO]: [Skript] Loaded 35 scripts with a total of 351 structures in 11.6 seconds
+[02:04:12] [Server thread/INFO]: [Skript] Finished loading.
+[02:04:12] [Server thread/INFO]: Done (37.554s)! For help, type "help"
+[02:04:12] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[02:04:13] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 29 build(s) behind ***
+[02:04:13] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[02:04:15] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[02:04:16] [Server thread/INFO]: trololol72[/93.173.35.208:63314] logged in with entity id 1 at ([world]-726.5953181194335, 67.0, -1110.3159138427868)
+[02:04:17] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[02:04:17] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[02:05:19] [Server thread/INFO]: trololol72 issued server command: /give_book library
+[02:07:02] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[02:07:02] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[07:49:54] [User Authenticator #1/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[07:49:56] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[07:49:56] [Server thread/INFO]: LickMyLeg[/85.64.122.119:50173] logged in with entity id 2548 at ([world]-863.5522834109852, 90.0, -2465.654202169091)
+[07:49:57] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[07:49:57] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[08:02:42] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[08:02:52] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.11-88-8556cb4 (MC: 1.21.11) ---
+[08:02:52] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[08:02:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[08:02:52] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[08:02:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[08:02:52] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[08:02:52] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
+[08:02:52] [Paper Watchdog Thread/ERROR]: 	Stack:
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply.lambda$eval$0(Apply.java:30)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Apply$$Lambda/0x000078fa2e5c0678.apply(Unknown Source)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x000078fa2d821380.apply(Unknown Source)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Fold.lambda$eval$2(Fold.java:91)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Fold$$Lambda/0x000078fa2e5be780.apply(Unknown Source)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x000078fa2d821380.apply(Unknown Source)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.capWrite(Type.java:167)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.lambda$readAndWrite$10(Type.java:159)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type$$Lambda/0x000078fa2d820ef0.apply(Unknown Source)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.readAndWrite(Type.java:158)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.DataFixerUpper.update(DataFixerUpper.java:78)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.legacy.CraftLegacy.<clinit>(CraftLegacy.java:406)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.util.CraftMagicNumbers.getBlock(CraftMagicNumbers.java:147)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.block.CraftBlockState.setRawData(CraftBlockState.java:293)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.BukkitEventValues.lambda$static$31(BukkitEventValues.java:290)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.BukkitEventValues$$Lambda/0x000078fa2d9b7a40.convert(Unknown Source)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.EventValueExpression.getValue(EventValueExpression.java:283)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.EventValueExpression.get(EventValueExpression.java:264)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.WrapperExpression.get(WrapperExpression.java:49)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.ConvertedExpression.getArray(ConvertedExpression.java:213)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.WrapperExpression.get(WrapperExpression.java:49)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:144)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.check(CondCompare.java:327)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Condition.evaluate(Condition.java:88)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Condition.evaluate(Condition.java:25)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.Conditional.evaluate(Conditional.java:45)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.Conditional.evaluateAnd(Conditional.java:105)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.CompoundConditional.evaluate(CompoundConditional.java:85)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.CompoundConditional.evaluate(CompoundConditional.java:68)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.sections.SecConditional.checkConditions(SecConditional.java:417)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.sections.SecConditional.walk(SecConditional.java:306)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.lambda$execute$2(SkriptEventHandler.java:165)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$$Lambda/0x000078fa2defb7e8.run(Unknown Source)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.lambda$execute$3(SkriptEventHandler.java:176)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$$Lambda/0x000078fa2defba10.call(Unknown Source)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.util.Task.callSync(Task.java:147)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.util.Task.callSync(Task.java:131)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.execute(SkriptEventHandler.java:174)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.check(SkriptEventHandler.java:120)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$PriorityListener.lambda$new$0(SkriptEventHandler.java:46)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$PriorityListener$$Lambda/0x000078fa2def3740.execute(Unknown Source)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		org.bukkit.event.Event.callEvent(Event.java:46)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.event.CraftEventFactory.getPlayerBucketEvent(CraftEventFactory.java:598)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerBucketEmptyEvent(CraftEventFactory.java:572)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.BucketItem.emptyContents(BucketItem.java:141)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.BucketItem.emptyContents(BucketItem.java:150)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.BucketItem.use(BucketItem.java:89)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.ItemStack.use(ItemStack.java:554)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItem(ServerPlayerGameMode.java:449)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItem(ServerGamePacketListenerImpl.java:2200)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:48)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:9)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000078fa2cff2638.run(Unknown Source)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.runWith(Thread.java:1596)
+[08:02:52] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.run(Thread.java:1583)
+[08:02:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[08:02:52] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[08:02:52] [Paper Watchdog Thread/ERROR]: ------------------------------
+[08:17:09] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[08:17:09] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[08:17:10] [User Authenticator #2/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[08:17:12] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[08:17:12] [Server thread/INFO]: DonalDucker[/176.229.5.32:62343] logged in with entity id 15584 at ([world]-526.4077246927005, 68.0, 477.4063449022565)
+[08:17:12] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[08:17:12] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[08:24:07] [Server thread/INFO]: [Death] DonalDucker fell from a high place (Uni)
+[08:37:21] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[08:37:21] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[08:37:21] [Server thread/INFO]: Named entity WitherBoss['Ra'/20046, uuid='5e142115-3d39-4668-89ac-546cbb51ee7a', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=11001, v=true] died: Ra was killed
+[08:43:43] [Server thread/INFO]: [Death] DonalDucker was shot by Skeleton (Uni)
+[10:35:25] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[10:35:25] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[10:54:46] [User Authenticator #3/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[10:54:48] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[10:54:48] [Server thread/INFO]: LickMyLeg[/85.64.122.119:50534] logged in with entity id 35805 at ([world]-906.5669653419912, 80.0, -2463.8909516775466)
+[10:54:49] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[10:54:49] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[11:01:09] [User Authenticator #4/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[11:01:11] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[11:01:11] [Server thread/INFO]: trololol72[/93.173.35.208:64023] logged in with entity id 37700 at ([world]-722.3948674445461, 81.86213444993014, -1092.3641995948053)
+[11:01:12] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[11:01:12] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[11:01:25] [Server thread/INFO]: trololol72 issued server command: /tpb maze ocean
+[11:01:28] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[11:01:37] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[11:02:53] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
+[11:02:53] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
+[11:03:22] [Server thread/INFO]: trololol72: its supposed to be by "the traveler" not by "trololol72"
+[11:03:27] [Server thread/INFO]: LickMyLeg: ok kewl
+[11:03:31] [Server thread/INFO]: trololol72: that ill fix after a server restart later
+[11:03:32] [Server thread/INFO]: Villager Villager['Villager'/35827, uuid='ab5c6300-90ed-4650-bcdc-3baf2ed34b56', l='ServerLevel[world]', x=-927.50, y=69.00, z=-2443.81, cpos=[-58, -153], tl=10449, v=true] died, message: 'Villager was slain by Zombie'
+[11:03:37] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[11:04:00] [Server thread/INFO]: trololol72 issued server command: /tpb maze ocean
+[11:04:05] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[11:05:10] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[11:05:10] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[11:10:59] [Server thread/INFO]: [Death] LickMyLeg was blown up by Creeper (Uni)
+[11:11:03] [Server thread/INFO]: LickMyLeg: wow
+[11:13:24] [User Authenticator #5/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[11:13:25] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[11:13:25] [Server thread/INFO]: trololol72[/93.173.35.208:52861] logged in with entity id 43870 at ([world]203.873735043869, 54.0, -1467.4228232164812)
+[11:13:26] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[11:13:26] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[11:13:37] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
+[11:13:37] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
+[11:13:47] [Server thread/INFO]: trololol72: may i restart for a sec?
+[11:13:53] [Server thread/INFO]: trololol72: i wanna update the book
+[11:14:51] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[11:14:51] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[11:15:30] [Server thread/INFO]: [Death] LickMyLeg was doomed to fall by Skeleton (Uni)
+[11:51:29] [Server thread/INFO]: [Death] LickMyLeg was slain by Vex (Uni)
+[12:05:33] [Server thread/INFO]: [Death] LickMyLeg was slain by Vindicator (Uni)
+[12:06:41] [Server thread/INFO]: [Death] LickMyLeg was slain by Vindicator (Uni)
+[12:30:25] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[12:30:25] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[12:49:22] [User Authenticator #6/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[12:49:24] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[12:49:24] [Server thread/INFO]: trololol72[/93.173.35.208:53579] logged in with entity id 64222 at ([world]-1256.476314496384, 117.49313657644413, -2495.8223128905593)
+[12:49:25] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[12:49:25] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[12:50:16] [Server thread/INFO]: trololol72 issued server command: /tpb enc f
+[12:50:37] [User Authenticator #7/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
+[12:50:41] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[12:50:43] [Netty Epoll IO #3/INFO]: Disconnecting Mefanek for sending keepalive response (361416953) out-of-order!
+[12:50:43] [Server thread/INFO]: Mefanek (935626fa-b14f-4866-96a1-16b238f3f587) lost connection: Timed out
+[12:50:43] [Server thread/INFO]: Mefanek (935626fa-b14f-4866-96a1-16b238f3f587) lost connection: Timed out
+[12:50:59] [User Authenticator #7/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
+[12:51:00] [Server thread/INFO]: [Join] Mefanek (Friends) joined
+[12:51:00] [Server thread/INFO]: Mefanek[/79.177.152.231:5637] logged in with entity id 67069 at ([world]1297.8854606692475, 64.0, -991.3108139364036)
+[12:51:01] [Server thread/INFO]: Added Mefanek to team [friendsChat]
+[12:51:01] [Server thread/INFO]: [Sync] Mefanek -> Team friendsChat
+[12:51:06] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[12:51:06] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[12:51:06] [Server thread/INFO]: Named entity WitherBoss['Ra'/67149, uuid='4281016f-3245-4bfe-b10c-c8659e21692f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=100, v=true] died: Ra was killed
+[12:51:12] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[12:51:12] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[12:51:12] [Server thread/INFO]: Named entity WitherBoss['Ra'/67854, uuid='6d314fda-aa6e-4721-b176-72c5d3f1037a', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=100, v=true] died: Ra was killed
+[12:51:22] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:51:24] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
+[12:51:24] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
+[12:51:26] [Server thread/INFO]: [Death] Mefanek tried to swim in lava (Friends)
+[12:51:31] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[12:51:31] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[12:51:31] [Server thread/INFO]: Named entity WitherBoss['Ra'/67961, uuid='fc65e3d5-946a-4743-a9a6-ab97c5d317c9', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=360, v=true] died: Ra was killed
+[12:51:34] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
+[12:51:34] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
+[12:51:42] [Server thread/INFO]: [Death] Mefanek was shot by a skull from Ra (Friends)
+[12:51:43] [Server thread/INFO]: trololol72 issued server command: /time set night
+[12:51:43] [Server thread/INFO]: [trololol72: Set the time to 13000]
+[12:51:43] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[12:51:43] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[12:51:43] [Server thread/INFO]: Named entity WitherBoss['Ra'/68322, uuid='99faf5f7-6a7e-4aa0-ab99-a3812dfcc61a', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=221, v=true] died: Ra was killed
+[12:51:44] [Server thread/INFO]: [Spawn Debug] Mefanek respawning without a bed.
+[12:51:44] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading Mefanek to Friends spawn (512, -512).
+[12:51:44] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
+[12:51:59] [Server thread/INFO]: trololol72 issued server command: /c
+[12:51:59] [Server thread/INFO]: Set the weather to clear
+[12:51:59] [Server thread/INFO]: Set the time to 1000
+[12:52:02] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
+[12:52:02] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
+[12:52:07] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:52:23] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[12:52:32] [Server thread/INFO]: trololol72 issued server command: /effect clear
+[12:52:32] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
+[12:53:55] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[12:53:55] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[12:53:55] [Server thread/INFO]: Named entity WitherBoss['Ra'/71227, uuid='92c35e09-f70c-4e6a-b7d2-ea4f2519279d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[12:58:58] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[12:59:01] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[12:59:08] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
+[12:59:08] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
+[12:59:16] [Server thread/INFO]: [Death] Mefanek was shot by a skull from Ra (Friends)
+[12:59:18] [Server thread/INFO]: [Spawn Debug] Mefanek respawning without a bed.
+[12:59:18] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading Mefanek to Friends spawn (512, -512).
+[12:59:18] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
+[12:59:19] [Server thread/INFO]: The particle was not visible for anybody
+[12:59:19] [Server thread/INFO]: The particle was not visible for anybody
+[12:59:19] [Server thread/INFO]: Named entity WitherBoss['Ra'/72928, uuid='56cabc2c-bbff-4b47-b2a4-fb129590ee3f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=180, v=true] died: Ra was killed
+[12:59:30] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
+[12:59:30] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
+[13:00:08] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[13:05:16] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[13:05:18] [Server thread/INFO]: trololol72 issued server command: /tp Mefanek
+[13:05:18] [Server thread/INFO]: [trololol72: Teleported trololol72 to Mefanek]
+[13:07:05] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
+[13:11:30] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[13:11:30] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[13:11:53] [Server thread/INFO]: Mefanek lost connection: Disconnected
+[13:11:53] [Server thread/INFO]: [Quit] Mefanek (Friends) left
+[13:17:29] [User Authenticator #8/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[13:17:30] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[13:17:30] [Server thread/INFO]: DonalDucker[/176.229.5.32:59706] logged in with entity id 78566 at ([world]-527.7387459567441, 93.875, 500.7804521466171)
+[13:17:31] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[13:17:31] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[13:27:36] [Server thread/INFO]: MCScans (/45.148.10.134:45814) lost connection: Disconnected
+[13:31:27] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[13:31:27] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[13:38:17] [User Authenticator #9/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
+[13:38:18] [Server thread/INFO]: [Join] Mefanek (Friends) joined
+[13:38:18] [Server thread/INFO]: Mefanek[/79.177.152.231:5730] logged in with entity id 81770 at ([world]-529.432006925148, 71.0, 522.4209129424676)
+[13:38:19] [Server thread/INFO]: Added Mefanek to team [friendsChat]
+[13:38:19] [Server thread/INFO]: [Sync] Mefanek -> Team friendsChat
+[13:43:47] [User Authenticator #10/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[13:43:48] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[13:43:48] [Server thread/INFO]: trololol72[/93.173.35.208:53964] logged in with entity id 85891 at ([world]-534.3241736377853, 70.99225669657491, 503.53170466803)
+[13:43:49] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[13:43:49] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[13:47:43] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[13:47:43] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[14:19:44] [User Authenticator #11/INFO]: UUID of player sepsepony is 6f466547-39cf-4301-948f-093b8befb2f3
+[14:19:46] [Server thread/INFO]: [Join] sepsepony (Uni) joined
+[14:19:46] [Server thread/INFO]: sepsepony[/5.29.21.75:35358] logged in with entity id 93705 at ([world]-493.5951092581072, 70.0, 506.28777297524005)
+[14:19:47] [Server thread/INFO]: Added sepsepony to team [uniChat]
+[14:19:47] [Server thread/INFO]: [Sync] sepsepony -> Team uniChat
+[14:21:17] [User Authenticator #12/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[14:21:18] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[14:21:18] [Server thread/INFO]: LickMyLeg[/85.64.122.119:50320] logged in with entity id 95166 at ([world]-505.82755552183113, 148.0, 520.5497524179196)
+[14:21:19] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[14:21:19] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[14:32:00] [Server thread/INFO]: [Death] sepsepony was slain by LickMyLeg (Uni)
+[14:33:40] [Server thread/INFO]: [Death] sepsepony fell from a high place (Uni)
+[14:39:44] [Server thread/INFO]: [Death] sepsepony was speared by LickMyLeg (Uni)
+[14:40:26] [Server thread/INFO]: [Death] sepsepony was speared by LickMyLeg (Uni)
+[14:41:07] [User Authenticator #13/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[14:41:08] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[14:41:08] [Server thread/INFO]: trololol72[/93.173.35.208:54566] logged in with entity id 101682 at ([world]-508.4691039755002, 96.35239712753317, 544.1003478729532)
+[14:41:09] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[14:41:09] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[14:41:17] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:41:20] [Server thread/INFO]: trololol72 issued server command: //wand
+[14:41:36] [Server thread/INFO]: trololol72 issued server command: //set air
+[14:41:36] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[14:41:47] [Server thread/INFO]: trololol72 issued server command: //copy
+[14:41:53] [Server thread/INFO]: trololol72 issued server command: //paste
+[14:42:06] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[14:42:09] [User Authenticator #14/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[14:42:11] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[14:42:11] [Server thread/INFO]: DonalDucker[/176.229.5.32:53734] logged in with entity id 102000 at ([world]-495.4733645460295, 71.0, 495.4303558870625)
+[14:42:12] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[14:42:12] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[14:42:16] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:42:18] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[14:42:22] [Server thread/INFO]: [Death] trololol72 was speared by LickMyLeg (Friends)
+[14:42:42] [Server thread/INFO]: [Death] sepsepony fell from a high place (Uni)
+[14:44:46] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[14:46:01] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[14:46:18] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
+[14:47:11] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
+[14:47:11] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
+[14:47:24] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[14:47:24] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[14:49:38] [Server thread/INFO]: [Death] sepsepony fell out of the world (Uni)
+[14:49:58] [User Authenticator #15/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[14:49:59] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[14:49:59] [Server thread/INFO]: trololol72[/93.173.35.208:54662] logged in with entity id 106278 at ([world]-912.1863771322069, 65.24561888706194, 373.1397237379471)
+[14:50:00] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[14:50:00] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[14:50:04] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
+[14:50:04] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
+[14:50:19] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[14:50:19] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[14:51:08] [Server thread/INFO]: [Death] sepsepony was slain by LickMyLeg (Uni)
+[14:52:36] [Server thread/INFO]: [Death] sepsepony fell from a high place (Uni)
+[14:53:21] [Server thread/INFO]: sepsepony lost connection: Disconnected
+[14:53:21] [Server thread/INFO]: [Quit] sepsepony (Uni) left
+[15:03:52] [Server thread/INFO]: Mefanek lost connection: Disconnected
+[15:03:52] [Server thread/INFO]: [Quit] Mefanek (Friends) left
+[15:29:34] [Server thread/INFO]: [Death] DonalDucker was doomed to fall by Phantom (Uni)
+[15:50:59] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[15:50:59] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[15:52:24] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[15:52:24] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[16:17:33] [User Authenticator #16/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[16:17:40] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[16:17:40] [Server thread/INFO]: trololol72[/87.71.247.123:64425] logged in with entity id 124107 at ([world]-505.63603270372045, 76.24433594662368, 502.9170562915675)
+[16:17:41] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[16:17:41] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[16:17:47] [Server thread/INFO]: trololol72 issued server command: /tpb list
+[16:17:57] [Server thread/INFO]: trololol72 issued server command: /tpb cherry golem
+[16:18:05] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[16:18:08] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:18:09] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[16:18:09] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[16:18:10] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[16:18:10] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[16:18:10] [Server thread/INFO]: Named entity WitherBoss['Ra'/124778, uuid='c35e7d59-ddc8-4ef0-8396-8a1cc28e00c4', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=91, v=true] died: Ra was killed
+[16:18:23] [Server thread/INFO]: trololol72 issued server command: /time set midnight
+[16:18:23] [Server thread/INFO]: [trololol72: Set the time to 18000]
+[16:18:28] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[16:18:35] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:18:46] [Server thread/INFO]: trololol72 issued server command: /cherry_tp
+[16:18:57] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[16:18:57] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[16:22:04] [Server thread/INFO]: popiiumaa (/4.210.177.135:20033) lost connection: Disconnected
+[16:28:22] [User Authenticator #17/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
+[16:28:25] [Server thread/INFO]: [Join] Mefanek (Friends) joined
+[16:28:25] [Server thread/INFO]: Mefanek[/79.177.152.231:5647] logged in with entity id 125122 at ([world]501.467978089739, 72.0, -485.1430149247795)
+[16:28:26] [Server thread/INFO]: Added Mefanek to team [friendsChat]
+[16:28:26] [Server thread/INFO]: [Sync] Mefanek -> Team friendsChat
+[17:16:10] [Server thread/INFO]: [Death] Mefanek was shot by Skeleton (Friends)
+[17:16:32] [Server thread/INFO]: Mefanek lost connection: Disconnected
+[17:16:32] [Server thread/INFO]: [Quit] Mefanek (Friends) left
+[17:16:48] [User Authenticator #18/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
+[17:16:49] [Server thread/INFO]: [Join] Mefanek (Friends) joined
+[17:16:49] [Server thread/INFO]: Mefanek[/79.177.152.231:5660] logged in with entity id 135677 at ([world]503.5, 76.0, -473.5)
+[17:16:50] [Server thread/INFO]: Added Mefanek to team [friendsChat]
+[17:16:50] [Server thread/INFO]: [Sync] Mefanek -> Team friendsChat
+[17:17:46] [User Authenticator #18/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[17:17:48] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[17:17:48] [Server thread/INFO]: LickMyLeg[/85.64.122.119:52280] logged in with entity id 137275 at ([world]-497.6819318692086, 71.0, 504.56249121271196)
+[17:17:49] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[17:17:49] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[17:42:43] [Server thread/INFO]: [Death] Mefanek was shot by Skeleton (Friends)
+[17:44:18] [Server thread/INFO]: [Death] Mefanek was blown up by Ra (Friends)
+[17:44:20] [Server thread/INFO]: The particle was not visible for anybody
+[17:44:20] [Server thread/INFO]: The particle was not visible for anybody
+[17:44:20] [Server thread/INFO]: Named entity WitherBoss['Ra'/151307, uuid='9b26f14a-10a5-40a1-85a2-957e1980fd50', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=140, v=true] died: Ra was killed
+[17:55:14] [Server thread/INFO]: Mefanek lost connection: Disconnected
+[17:55:14] [Server thread/INFO]: [Quit] Mefanek (Friends) left
+[18:12:47] [User Authenticator #19/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
+[18:12:53] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
+[18:12:53] [Server thread/INFO]: Baba_Tova[/103.124.165.162:56676] logged in with entity id 159506 at ([world]-1326.1776197133581, 320.0, 1540.4841073191978)
+[18:12:54] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
+[18:12:54] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
+[18:13:23] [Server thread/INFO]: Baba_Tova was kicked due to keepalive timeout!
+[18:13:23] [Server thread/INFO]: Baba_Tova lost connection: Timed out
+[18:13:23] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
+[18:14:01] [User Authenticator #20/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
+[18:14:02] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
+[18:14:02] [Server thread/INFO]: Baba_Tova[/87.71.13.196:34918] logged in with entity id 160182 at ([world]-1326.1776197133581, 320.0, 1540.4841073191978)
+[18:14:03] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
+[18:14:03] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
+[18:22:53] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[18:22:53] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[18:24:17] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:17] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:17] [Server thread/INFO]: Named entity WitherBoss['Ra'/163426, uuid='ad28f1d6-76c4-4c3e-827d-b0a266aca217', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:18] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:18] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:18] [Server thread/INFO]: Named entity WitherBoss['Ra'/163428, uuid='1c01d1a9-315b-482c-b18b-9474a0edfedf', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:24:20] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:20] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:20] [Server thread/INFO]: Named entity WitherBoss['Ra'/163436, uuid='0a105609-7a2a-4e3d-86c2-42336b1e1a0e', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:21] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:21] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:21] [Server thread/INFO]: Named entity WitherBoss['Ra'/163446, uuid='71719ec6-af29-4d00-83d4-cd470699536b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:24:23] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:23] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:23] [Server thread/INFO]: Named entity WitherBoss['Ra'/163458, uuid='a2347e33-b7e9-495e-92f1-4c1273dd046f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:24] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:24] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:24] [Server thread/INFO]: Named entity WitherBoss['Ra'/163471, uuid='4351c11c-9554-4bd3-82e9-1e69b2e43096', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:24:27] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:27] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:27] [Server thread/INFO]: Named entity WitherBoss['Ra'/163487, uuid='69878a21-f3fc-4c15-acfa-93cfdaa4ffcf', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=61, v=true] died: Ra was killed
+[18:24:28] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:28] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:28] [Server thread/INFO]: Named entity WitherBoss['Ra'/163505, uuid='de3708e0-4d37-490c-9d26-cf62b4ebeb80', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:24:30] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:30] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:30] [Server thread/INFO]: Named entity WitherBoss['Ra'/163524, uuid='253417df-6e58-49eb-9c62-036566598372', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:31] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:31] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:31] [Server thread/INFO]: Named entity WitherBoss['Ra'/163547, uuid='153f75fd-c116-44b4-b151-475b5804b346', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:24:33] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:33] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:33] [Server thread/INFO]: Named entity WitherBoss['Ra'/163570, uuid='507e604a-848f-46ba-b551-34ad78462c1d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:34] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:34] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:34] [Server thread/INFO]: Named entity WitherBoss['Ra'/163603, uuid='03130045-5b53-49c4-b583-6e61599254b0', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:24:36] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:36] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:36] [Server thread/INFO]: Named entity WitherBoss['Ra'/163630, uuid='657bfd9f-21c1-4193-9689-a116e4e71e9f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:37] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:37] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:37] [Server thread/INFO]: Named entity WitherBoss['Ra'/163659, uuid='1e5943ba-2573-45ea-8ee0-3462c1b2092d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:24:39] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:39] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:39] [Server thread/INFO]: Named entity WitherBoss['Ra'/163690, uuid='0bbc4677-cdb8-4eac-b61a-76e7b8795e53', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:40] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:40] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:40] [Server thread/INFO]: Named entity WitherBoss['Ra'/163725, uuid='c5d3abdf-4bb2-4749-bbf8-e3ae7e720381', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:24:42] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:42] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:42] [Server thread/INFO]: Named entity WitherBoss['Ra'/163760, uuid='14861218-2255-41a4-86f5-9316c103a388', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:43] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:43] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:43] [Server thread/INFO]: Named entity WitherBoss['Ra'/163801, uuid='97f43179-f367-448f-b6e0-b09592e6121f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:24:45] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:45] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:45] [Server thread/INFO]: Named entity WitherBoss['Ra'/163840, uuid='b42f4a86-26fb-4e07-880c-9232bb38badd', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:46] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:46] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:46] [Server thread/INFO]: Named entity WitherBoss['Ra'/163881, uuid='b72dc6c0-01f9-4ba5-bf85-4683f0cd4411', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=22, v=true] died: Ra was killed
+[18:24:48] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:48] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:48] [Server thread/INFO]: Named entity WitherBoss['Ra'/163925, uuid='b82e248e-a369-49fc-b3ac-3288a9b1a73b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:49] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:49] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:49] [Server thread/INFO]: Named entity WitherBoss['Ra'/163970, uuid='3432940a-b5ad-4b35-ab11-50e89da12f08', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:24:51] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:51] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:51] [Server thread/INFO]: Named entity WitherBoss['Ra'/164017, uuid='87226e0d-0d1d-465c-8448-6185bee2f473', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:52] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:52] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/164066, uuid='933ad340-538f-4df0-8767-cac31a878c00', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:24:54] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:54] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:54] [Server thread/INFO]: Named entity WitherBoss['Ra'/164117, uuid='20106551-5dae-411f-bf7f-3b3da6c5faf8', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:55] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:55] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:55] [Server thread/INFO]: Named entity WitherBoss['Ra'/164170, uuid='ff705b6f-23a9-4e02-b08c-116c2973af84', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=22, v=true] died: Ra was killed
+[18:24:57] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:57] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:57] [Server thread/INFO]: Named entity WitherBoss['Ra'/164226, uuid='0852ef10-d586-4562-92ac-1b7df929a90b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:24:58] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:24:58] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:24:58] [Server thread/INFO]: Named entity WitherBoss['Ra'/164283, uuid='2f0402a6-798e-49bf-bb91-b35a269a24a4', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:25:00] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:00] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:00] [Server thread/INFO]: Named entity WitherBoss['Ra'/164342, uuid='eeb555b3-2e8e-4313-8f08-ae046fed3afc', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:01] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:01] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:01] [Server thread/INFO]: Named entity WitherBoss['Ra'/164404, uuid='4eeeec3e-5c0f-44b2-aed8-fe1e6dc0de16', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:25:03] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:03] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:03] [Server thread/INFO]: Named entity WitherBoss['Ra'/164467, uuid='fcba69d8-b2c3-4c9e-ab3c-be5cfd9ba12d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:04] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:04] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:04] [Server thread/INFO]: Named entity WitherBoss['Ra'/164532, uuid='9aade358-f38b-45e6-a73a-a5facbd7c375', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=22, v=true] died: Ra was killed
+[18:25:06] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:06] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:06] [Server thread/INFO]: Named entity WitherBoss['Ra'/164630, uuid='50701849-44aa-41e7-a9f1-11c186dbe886', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:07] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:07] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:07] [Server thread/INFO]: Named entity WitherBoss['Ra'/164699, uuid='71280c3b-93bb-4f29-beaf-f037ed38f5c1', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:25:09] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:09] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:09] [Server thread/INFO]: Named entity WitherBoss['Ra'/164770, uuid='0f1ae8c1-44be-4b9f-88d6-9bc4b345171d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:10] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:10] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:10] [Server thread/INFO]: Named entity WitherBoss['Ra'/164854, uuid='99619c7e-429c-4ace-b8e3-c72470371544', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:25:12] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:12] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:12] [Server thread/INFO]: Named entity WitherBoss['Ra'/164929, uuid='49479a13-671d-43cd-a684-77dae1551de9', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:13] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:13] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:13] [Server thread/INFO]: Named entity WitherBoss['Ra'/165017, uuid='46530a14-88d4-4ade-984c-0db036e991fd', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:25:15] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:15] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:15] [Server thread/INFO]: Named entity WitherBoss['Ra'/165096, uuid='0b98cacd-c136-46c6-a918-71c2e6b1c635', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:16] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:16] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:16] [Server thread/INFO]: Named entity WitherBoss['Ra'/165177, uuid='fcb484d7-4c37-44a6-a20e-7330f4eddc19', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:25:18] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:18] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:18] [Server thread/INFO]: Named entity WitherBoss['Ra'/165262, uuid='001ad312-58cf-42c9-a72d-1e06eaf50d84', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:20] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:20] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:20] [Server thread/INFO]: Named entity WitherBoss['Ra'/165363, uuid='e4825cb5-794f-4025-b0be-54e88b8dc1c9', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:22] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:22] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:22] [Server thread/INFO]: Named entity WitherBoss['Ra'/165458, uuid='0d71d50d-5dbe-4837-be97-52024cd6d07f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:23] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:23] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:23] [Server thread/INFO]: Named entity WitherBoss['Ra'/165549, uuid='6598ee36-c36b-4757-b4b3-622a9dccc81a', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:25:25] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:25] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:25] [Server thread/INFO]: Named entity WitherBoss['Ra'/165640, uuid='728845d8-5501-467c-a7d5-676a1b9cdad3', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:27] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:27] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:27] [Server thread/INFO]: Named entity WitherBoss['Ra'/165739, uuid='bfc8c7c2-82ee-4713-aa04-1f6d29995353', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:29] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:29] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:29] [Server thread/INFO]: Named entity WitherBoss['Ra'/165834, uuid='804dccc2-6074-4f5a-b6c1-e620d67f9e19', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:31] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:31] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:31] [Server thread/INFO]: Named entity WitherBoss['Ra'/165935, uuid='b8682c42-33ba-4431-bed4-68bfd33cfa9e', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:33] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:33] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:33] [Server thread/INFO]: Named entity WitherBoss['Ra'/166034, uuid='4b19d026-daab-4d77-a2e3-73136903d409', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:35] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:35] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:35] [Server thread/INFO]: Named entity WitherBoss['Ra'/166147, uuid='985de73b-87d6-48aa-bb7b-d07e37f34ea9', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:37] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:37] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:37] [Server thread/INFO]: Named entity WitherBoss['Ra'/166250, uuid='4d7f43a9-95cb-4a7a-906d-af6afb84a7dc', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:40] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:40] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:40] [Server thread/INFO]: Named entity WitherBoss['Ra'/166364, uuid='95cc6087-aa8d-4ffc-9a8b-c5bb588e711f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=61, v=true] died: Ra was killed
+[18:25:44] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:44] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:44] [Server thread/INFO]: Named entity WitherBoss['Ra'/166478, uuid='4efa4c44-480a-4315-8435-520690583e54', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=81, v=true] died: Ra was killed
+[18:25:46] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:46] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:46] [Server thread/INFO]: Named entity WitherBoss['Ra'/166591, uuid='abd7d359-3cc5-451d-b754-8e0f07215da6', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:48] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:48] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:48] [Server thread/INFO]: Named entity WitherBoss['Ra'/166702, uuid='89ed468b-8cf0-4f2f-8652-c5c22c767ea7', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:25:51] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:51] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:51] [Server thread/INFO]: Named entity WitherBoss['Ra'/166822, uuid='bfae4c32-0c5f-4d60-b150-b4068c8cbaf4', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=61, v=true] died: Ra was killed
+[18:25:52] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:52] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/166937, uuid='6146e379-db92-4958-8f10-68ad9e3611af', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:25:57] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:57] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:57] [Server thread/INFO]: Named entity WitherBoss['Ra'/167065, uuid='684e71ed-e6f9-411f-a357-b5d58185f2d8', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=101, v=true] died: Ra was killed
+[18:25:58] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:25:58] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:25:58] [Server thread/INFO]: Named entity WitherBoss['Ra'/167190, uuid='3a6ff370-c8b9-41e9-b284-7587ea2b419d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:00] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:00] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:00] [Server thread/INFO]: Named entity WitherBoss['Ra'/167311, uuid='86d6fd9d-61c6-4be4-8c09-f16086ac306b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:02] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:02] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:02] [Server thread/INFO]: Named entity WitherBoss['Ra'/167440, uuid='df7b9ffe-0700-4643-b2a1-72a1d47df19b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:05] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:05] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:05] [Server thread/INFO]: Named entity WitherBoss['Ra'/167565, uuid='9cd317f6-f127-4ac0-b008-67b4d7ae3116', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=61, v=true] died: Ra was killed
+[18:26:07] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:07] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:07] [Server thread/INFO]: Named entity WitherBoss['Ra'/167701, uuid='c8471eef-71b3-489b-ac68-c8b59ce14bc8', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:08] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:08] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:08] [Server thread/INFO]: Named entity WitherBoss['Ra'/167830, uuid='60d446b9-7721-4867-82ab-a85c591615c4', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:11] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:11] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:11] [Server thread/INFO]: Named entity WitherBoss['Ra'/167970, uuid='6d8ce607-2823-42be-b6a9-506d97d958bd', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=61, v=true] died: Ra was killed
+[18:26:12] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:12] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:12] [Server thread/INFO]: Named entity WitherBoss['Ra'/168103, uuid='a0e94a24-ee10-4f6f-831e-3a5f81c1447d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:14] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:14] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:14] [Server thread/INFO]: Named entity WitherBoss['Ra'/168243, uuid='9a57a266-70d8-42b6-b40e-2518673e3859', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:16] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:16] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:16] [Server thread/INFO]: Named entity WitherBoss['Ra'/168380, uuid='82549d49-39fd-4554-a35e-d4991fb1d829', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:19] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:19] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:19] [Server thread/INFO]: Named entity WitherBoss['Ra'/168530, uuid='2f8f44bf-5785-4a1b-9b96-dca1f839ca6c', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=61, v=true] died: Ra was killed
+[18:26:23] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:23] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:23] [Server thread/INFO]: Named entity WitherBoss['Ra'/168671, uuid='67038771-2228-47b0-badf-0f1cff553ac8', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=81, v=true] died: Ra was killed
+[18:26:25] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:25] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:25] [Server thread/INFO]: Named entity WitherBoss['Ra'/168814, uuid='96cb382e-6ebc-4659-9127-74d3fe8c352b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:26] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:26] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:26] [Server thread/INFO]: Named entity WitherBoss['Ra'/168990, uuid='fd3ad293-c9b5-4cd8-a607-f7081be2df7d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:28] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:28] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:28] [Server thread/INFO]: Named entity WitherBoss['Ra'/169138, uuid='08302747-6b8f-44d7-895c-6512cb5639f9', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:29] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:29] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:29] [Server thread/INFO]: Named entity WitherBoss['Ra'/169287, uuid='1c20ac44-4993-4809-8199-abb55f37f5d3', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:31] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:31] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:31] [Server thread/INFO]: Named entity WitherBoss['Ra'/169545, uuid='b1194d62-584f-414a-b01b-517139c1de5b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:32] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:32] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:32] [Server thread/INFO]: Named entity WitherBoss['Ra'/169699, uuid='663f2534-cfef-4464-a83b-f2e2cce85f7d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:34] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:34] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:34] [Server thread/INFO]: Named entity WitherBoss['Ra'/169854, uuid='d37addc0-3c2b-4118-91bd-d681bc1274a2', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:35] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:35] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:35] [Server thread/INFO]: Named entity WitherBoss['Ra'/170102, uuid='fb8189b4-3d3c-4747-bfad-bcdfc0b19f0a', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:37] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:37] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:37] [Server thread/INFO]: Named entity WitherBoss['Ra'/170261, uuid='3e9ebf26-cc9e-4021-a097-2deecf06fd8f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:38] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:38] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:38] [Server thread/INFO]: Named entity WitherBoss['Ra'/170432, uuid='9f0991a0-0061-48c9-b906-e99961172db8', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:40] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:40] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:40] [Server thread/INFO]: Named entity WitherBoss['Ra'/170598, uuid='d4411b1c-35ba-4b4b-8733-fe3ae96a3f82', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:41] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:41] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:41] [Server thread/INFO]: Named entity WitherBoss['Ra'/170764, uuid='1b69e28f-10f5-4d3a-92fb-fae004326dd4', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:43] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:43] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:43] [Server thread/INFO]: Named entity WitherBoss['Ra'/170940, uuid='abf07f5c-a0fd-4842-8d33-ec2bff3127fd', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:44] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:44] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:44] [Server thread/INFO]: Named entity WitherBoss['Ra'/171111, uuid='99e75631-dd9f-400f-bdea-51ed03e6a15a', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:46] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:46] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:46] [Server thread/INFO]: Named entity WitherBoss['Ra'/171283, uuid='1ed81698-d064-47a8-aea8-29cd3593f413', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:47] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:47] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:47] [Server thread/INFO]: Named entity WitherBoss['Ra'/171467, uuid='9872fe4a-adf3-4723-8068-33a961b9b357', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:49] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:49] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:49] [Server thread/INFO]: Named entity WitherBoss['Ra'/171642, uuid='bb0337a0-bf75-4170-bd34-c45dc3e0cf29', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:50] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:50] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:50] [Server thread/INFO]: Named entity WitherBoss['Ra'/171819, uuid='a048ee5b-5d24-40ce-bf6c-38e4a9abe3df', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:52] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:52] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:52] [Server thread/INFO]: Named entity WitherBoss['Ra'/172005, uuid='8daa7f50-8f9c-452c-8572-ca9077ee873e', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:54] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:54] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:54] [Server thread/INFO]: Named entity WitherBoss['Ra'/172186, uuid='9d5a3de8-595d-4f72-8191-110291e6400e', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:55] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:55] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:55] [Server thread/INFO]: Named entity WitherBoss['Ra'/172372, uuid='7ff157e1-ab4a-45b5-a4a3-b05b28ff9884', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:26:57] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:57] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:57] [Server thread/INFO]: Named entity WitherBoss['Ra'/172557, uuid='ebef3c88-0021-4a42-9bb3-5b9e295ae5c2', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:26:59] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:26:59] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:26:59] [Server thread/INFO]: Named entity WitherBoss['Ra'/172749, uuid='678d392f-4b0c-40e0-a180-1f8ce45f5f35', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=42, v=true] died: Ra was killed
+[18:27:00] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:27:00] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:27:00] [Server thread/INFO]: Named entity WitherBoss['Ra'/172946, uuid='cc70f7ac-6509-4482-91dd-69c96b09194d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=22, v=true] died: Ra was killed
+[18:27:01] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:27:01] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:27:01] [Server thread/INFO]: Named entity WitherBoss['Ra'/173137, uuid='0cf3b7ca-654e-433d-85fe-25db963d8ac8', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:27:03] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:27:03] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:27:03] [Server thread/INFO]: Named entity WitherBoss['Ra'/173331, uuid='df45b24b-2e5a-4742-9aff-48f30bec1c3f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=42, v=true] died: Ra was killed
+[18:27:05] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:27:05] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:27:05] [Server thread/INFO]: Named entity WitherBoss['Ra'/173535, uuid='00dfe852-dc02-4a97-b6a5-fa5cd408d2e6', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:27:07] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:27:07] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:27:07] [Server thread/INFO]: Named entity WitherBoss['Ra'/173733, uuid='c9f15989-8a48-49ab-b76e-21b1b0f6e2cb', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:27:08] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:27:08] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:27:08] [Server thread/INFO]: Named entity WitherBoss['Ra'/173942, uuid='1e6440e6-e60b-46b1-a08d-f5c5835057c2', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=25, v=true] died: Ra was killed
+[18:27:10] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:27:10] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:27:10] [Server thread/INFO]: Named entity WitherBoss['Ra'/174143, uuid='f1bc531c-fa88-4d81-8645-77b10c7b0f4e', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:27:11] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:27:11] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:27:11] [Server thread/INFO]: Named entity WitherBoss['Ra'/174347, uuid='5b56d30f-3218-45fa-a9d1-d42e339d8b55', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:27:12] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:27:12] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:27:12] [Server thread/INFO]: Named entity WitherBoss['Ra'/174564, uuid='26a53842-3666-414d-b409-a5dc58556827', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=21, v=true] died: Ra was killed
+[18:27:17] [Server thread/INFO]: [Death] Baba_Tova was blown up by Ra (Friends)
+[18:27:17] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:27:17] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:27:17] [Server thread/INFO]: Named entity WitherBoss['Ra'/174775, uuid='e4acb15a-e214-4c25-9996-94f02f644df1', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=101, v=true] died: Ra was killed
+[18:27:19] [Server thread/INFO]: [Spawn Debug] Baba_Tova respawning without a bed.
+[18:27:19] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading Baba_Tova to Friends spawn (512, -512).
+[18:27:19] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
+[18:27:19] [Server thread/INFO]: The particle was not visible for anybody
+[18:27:19] [Server thread/INFO]: The particle was not visible for anybody
+[18:27:19] [Server thread/INFO]: Named entity WitherBoss['Ra'/175028, uuid='9b828ac2-a577-4a98-a435-72e7cb47e742', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=41, v=true] died: Ra was killed
+[18:37:11] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
+[18:37:11] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
+[18:38:02] [User Authenticator #21/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
+[18:38:03] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
+[18:38:03] [Server thread/INFO]: Baba_Tova[/87.71.13.196:36076] logged in with entity id 180955 at ([world]-511.39323664751663, 320.0, 855.1462212011127)
+[18:38:04] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
+[18:38:04] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
+[18:39:34] [User Authenticator #22/INFO]: UUID of player sepsepony is 6f466547-39cf-4301-948f-093b8befb2f3
+[18:39:37] [Server thread/INFO]: [Join] sepsepony (Uni) joined
+[18:39:37] [Server thread/INFO]: sepsepony[/5.29.21.75:35378] logged in with entity id 181974 at ([world]-510.5039181079148, 74.0, 517.1969654839326)
+[18:39:38] [Server thread/INFO]: Added sepsepony to team [uniChat]
+[18:39:38] [Server thread/INFO]: [Sync] sepsepony -> Team uniChat
+[18:39:46] [User Authenticator #22/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[18:39:48] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[18:39:48] [Server thread/INFO]: LickMyLeg[/85.64.122.119:62617] logged in with entity id 182246 at ([world]-462.30000001192093, 76.5625, 507.65464505139033)
+[18:39:49] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[18:39:49] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[18:40:41] [Server thread/INFO]: [Death] sepsepony was skewered by a falling stalactite (Uni)
+[18:45:42] [Server thread/INFO]: [Death] sepsepony was slain by LickMyLeg (Uni)
+[18:49:53] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:49:53] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:49:53] [Server thread/INFO]: Named entity WitherBoss['Ra'/190946, uuid='73679879-1cb7-4a5c-a5ed-fe46444dab65', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[18:49:56] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:49:56] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:49:56] [Server thread/INFO]: Named entity WitherBoss['Ra'/190973, uuid='98e39ddf-cf09-4269-91b5-5fc9f88d7c2f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[18:50:02] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:02] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:02] [Server thread/INFO]: Named entity WitherBoss['Ra'/191007, uuid='636fed9b-0b88-4602-9713-0224868658c8', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=60, v=true] died: Ra was killed
+[18:50:07] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:07] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:07] [Server thread/INFO]: Named entity WitherBoss['Ra'/191142, uuid='c32d93fe-874e-4646-b6bf-56ed2cd7e9d6', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[18:50:12] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:12] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:12] [Server thread/INFO]: Named entity WitherBoss['Ra'/191233, uuid='a290f032-3f4f-4a69-8c23-3596e8b4a5ef', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[18:50:25] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:25] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:25] [Server thread/INFO]: Named entity WitherBoss['Ra'/191686, uuid='980cfe9f-ccd2-4083-a081-4f269389f52f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[18:50:29] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:29] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:29] [Server thread/INFO]: Named entity WitherBoss['Ra'/191789, uuid='d138d5f1-4e60-46a3-81fd-f8e2ad69970d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[18:50:33] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:33] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:33] [Server thread/INFO]: Named entity WitherBoss['Ra'/191882, uuid='5297dd3d-b23e-4af9-ba5e-fa8d74f5920d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[18:50:37] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:37] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:37] [Server thread/INFO]: Named entity WitherBoss['Ra'/191944, uuid='802546b1-d416-401b-b9d1-0f5d80e78cfe', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[18:50:39] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:39] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:39] [Server thread/INFO]: Named entity WitherBoss['Ra'/191994, uuid='d64521b4-9546-4ae5-9792-4f538cf13910', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[18:50:43] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:43] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:43] [Server thread/INFO]: Named entity WitherBoss['Ra'/192069, uuid='b987c741-f241-469d-8a5f-1e8db157c05b', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[18:50:44] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:44] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:44] [Server thread/INFO]: Named entity WitherBoss['Ra'/192094, uuid='5913edef-f21b-41a0-bb99-cf7d1cd7b7e1', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[18:50:47] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:47] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:47] [Server thread/INFO]: Named entity WitherBoss['Ra'/192157, uuid='c86f4745-ac00-4272-a973-d7974058e058', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[18:50:50] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:50] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:50] [Server thread/INFO]: Named entity WitherBoss['Ra'/192251, uuid='c3bd69ae-f200-4d1a-83ea-761a54581425', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[18:50:55] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:55] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:55] [Server thread/INFO]: Named entity WitherBoss['Ra'/192396, uuid='ab429581-7b33-4397-9c89-2de9d08b4873', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[18:50:58] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:58] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:58] [Server thread/INFO]: Named entity WitherBoss['Ra'/192554, uuid='a55a8cf2-e6d2-4ff3-b069-5b83c2fc4db6', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[18:50:59] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:50:59] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:50:59] [Server thread/INFO]: Named entity WitherBoss['Ra'/192329, uuid='57e260f3-4430-4d99-a510-d16cfa7907f7', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=180, v=true] died: Ra was killed
+[18:51:06] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:51:06] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:51:06] [Server thread/INFO]: Named entity WitherBoss['Ra'/192643, uuid='3ffd4d4e-d46a-430d-913a-6d290ac9e404', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=60, v=true] died: Ra was killed
+[18:51:13] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:51:13] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:51:13] [Server thread/INFO]: Named entity WitherBoss['Ra'/192717, uuid='02bf6344-3422-476a-b154-3b0457515846', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[18:51:25] [Server thread/INFO]: [Death] sepsepony was blown up by Ra (Uni)
+[18:51:28] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:51:28] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:51:28] [Server thread/INFO]: Named entity WitherBoss['Ra'/192722, uuid='e4b1423b-5c9c-4b8d-8117-731b6b3b416f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=200, v=true] died: Ra was killed while fighting LickMyLeg
+[18:51:42] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:51:42] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:51:42] [Server thread/INFO]: Named entity WitherBoss['Ra'/192892, uuid='c9522881-18a8-4baf-99df-51b7a3c9b318', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[18:52:05] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:52:05] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:52:05] [Server thread/INFO]: Named entity WitherBoss['Ra'/192957, uuid='aa299f20-ce16-4450-a0f6-f59b18657b3f', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=60, v=true] died: Ra was killed
+[18:52:14] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[18:52:14] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[18:52:14] [Server thread/INFO]: Named entity WitherBoss['Ra'/193005, uuid='71094407-2a9a-48cf-b1f4-d7a3cc8521a5', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=60, v=true] died: Ra was killed
+[18:57:51] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
+[18:57:51] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
+[18:58:19] [User Authenticator #23/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
+[18:58:21] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
+[18:58:21] [Server thread/INFO]: Baba_Tova[/87.71.13.196:58760] logged in with entity id 195462 at ([world]-1076.737844064595, 315.0, 1106.6500616551625)
+[18:58:22] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
+[18:58:22] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
+[19:02:30] [User Authenticator #24/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[19:02:34] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[19:02:34] [Server thread/INFO]: trololol72[/93.173.35.208:56162] logged in with entity id 197169 at ([world]-1104.7123110141408, 189.1244240680745, -436.9674466673538)
+[19:02:35] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[19:02:35] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[19:02:41] [Server thread/INFO]: trololol72 issued server command: /tp Baba_Tova
+[19:02:41] [Server thread/INFO]: [trololol72: Teleported trololol72 to Baba_Tova]
+[19:02:46] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[19:02:46] [User Authenticator #24/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[19:02:48] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[19:02:48] [Server thread/INFO]: DonalDucker[/176.229.5.32:53250] logged in with entity id 197386 at ([world]-1141.4578735382406, 188.0, -406.74586476132924)
+[19:02:49] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[19:02:49] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[19:02:55] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[19:02:57] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[19:02:57] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[19:02:59] [User Authenticator #24/INFO]: UUID of player pixellorde is 7edbf9e4-1ee7-4544-9a99-cb830796f18c
+[19:03:01] [Server thread/INFO]: [Join] pixellorde (Uni) joined
+[19:03:01] [Server thread/INFO]: pixellorde[/109.186.155.155:50078] logged in with entity id 197548 at ([world]-495.90053393033963, 75.0, 493.17614145589766)
+[19:03:02] [Server thread/INFO]: Added pixellorde to team [uniChat]
+[19:03:02] [Server thread/INFO]: [Sync] pixellorde -> Team uniChat
+[19:03:52] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[19:03:52] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[19:04:58] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[19:04:58] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[19:04:58] [Server thread/INFO]: Named entity WitherBoss['Ra'/198332, uuid='9727d653-6d11-4be1-a37f-c0ab389cf8ac', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[19:08:40] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[19:08:40] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[19:08:40] [Server thread/INFO]: Named entity WitherBoss['Ra'/198912, uuid='389890f6-4811-403c-853b-ffe8a8d386c9', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[19:09:29] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[19:09:29] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[19:09:29] [Server thread/INFO]: Named entity WitherBoss['Ra'/199096, uuid='e7465809-fb6e-4bd0-84d4-6ec01375ee73', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[19:09:38] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[19:09:38] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[19:09:38] [Server thread/INFO]: Named entity WitherBoss['Ra'/199156, uuid='09b64967-ce4c-43c2-bf37-18beb848752a', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[19:09:41] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[19:09:41] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[19:09:41] [Server thread/INFO]: Named entity WitherBoss['Ra'/199168, uuid='97bd4394-b11f-4949-bd6c-81f1e148425e', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[19:09:42] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[19:09:42] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[19:09:42] [Server thread/INFO]: Named entity WitherBoss['Ra'/199170, uuid='b8b3fc24-9205-4c29-8eae-c0660c5cef55', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[19:09:43] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[19:09:43] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[19:09:43] [Server thread/INFO]: Named entity WitherBoss['Ra'/199179, uuid='d4c7b644-82b9-4ab2-ac75-8e450af70f2e', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[19:09:44] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[19:09:44] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[19:09:44] [Server thread/INFO]: Named entity WitherBoss['Ra'/199186, uuid='cebdaa43-d296-4dc5-a1b3-830f5eb18542', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[19:09:45] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[19:09:45] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[19:09:45] [Server thread/INFO]: Named entity WitherBoss['Ra'/199191, uuid='770d4c45-009c-4fc7-a482-879ca55b7579', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[19:10:12] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[19:10:12] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[19:10:12] [Server thread/INFO]: Named entity WitherBoss['Ra'/199296, uuid='540042f1-aba2-434e-a836-56861dd97e13', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[19:10:16] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[19:10:16] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[19:10:19] [Server thread/INFO]: [Not Secure] [Server] 2
+[19:10:22] [Server thread/INFO]: Stopping the server
+[19:10:22] [Server thread/INFO]: Stopping server
+[19:10:22] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[19:10:22] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[19:10:22] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[19:10:22] [Server thread/INFO]: [TAB] Disabled in 2ms
+[19:10:22] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[19:10:22] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[19:10:22] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
+[19:10:22] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[19:10:22] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[19:10:22] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[19:10:22] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[19:10:22] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[19:10:22] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[19:10:22] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[19:10:22] [Server thread/INFO]: [LuckPerms] Closing storage...
+[19:10:22] [Server thread/INFO]: [LuckPerms] Goodbye!
+[19:10:22] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[19:10:22] [Server thread/INFO]: Saving players
+[19:10:22] [Server thread/INFO]: sepsepony lost connection: Server closed
+[19:10:22] [Server thread/INFO]: sepsepony left the game
+[19:10:22] [Server thread/INFO]: Baba_Tova lost connection: Server closed
+[19:10:22] [Server thread/INFO]: Baba_Tova left the game
+[19:10:22] [Server thread/INFO]: pixellorde lost connection: Server closed
+[19:10:22] [Server thread/INFO]: pixellorde left the game
+[19:10:22] [Server thread/INFO]: Saving worlds
+[19:10:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Saved 42 block chunks, 949 entity chunks, 0 poi chunks in world 'world' in 0.22s
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[19:10:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[19:10:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[19:10:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[19:10:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:10:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:10:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:10:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:10:23] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[19:10:23] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[19:10:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[19:10:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
