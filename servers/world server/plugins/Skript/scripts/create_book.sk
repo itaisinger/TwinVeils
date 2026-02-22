@@ -780,7 +780,7 @@ function compass_library_rite(p: player):
     set {_p9} to ""
     add "I've waited for long miles." to {_p9}
     add "%nl%%nl%Will thou be a judge," to {_p9}
-    add "%nl%%nl%Will thou verdict thy creator?" to {_p9}
+    add "%nl%%nl%Will thou verdict thy maker?" to {_p9}
 
     # Page 10: The Judge
     set {_p10} to ""
@@ -797,7 +797,7 @@ function compass_library_rite(p: player):
     # Page 12: The Regret
     set {_p12} to ""
     add "For I've lived with regret and solitude from before the first embers of life were lit," to {_p12}
-    add "%nl%%nl%And the world years of passion this god can no longer grit." to {_p12}
+    add "%nl%%nl%And the world yearns for passion this god can no longer grit." to {_p12}
 
     set page 1 of {_book} to {_p1}
     set page 2 of {_book} to {_p2}
