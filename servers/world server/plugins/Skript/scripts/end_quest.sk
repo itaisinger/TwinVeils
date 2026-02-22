@@ -25,10 +25,7 @@ on entity removed from world:
             stop
         set {_loc} to location of event-entity
         set {killing} to true
-        loop all dropped items:
-            if item of loop-value is eye of ender:
-                delete loop-value
-                broadcast "killed"
+        
         broadcast "drop"
         drop 1 ender eye at {_loc}
         set {killing} to false
