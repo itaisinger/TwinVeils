@@ -46,6 +46,9 @@ function spawn_warden(loc: location):
             stop loop
 #
 on death of warden:
+    if {boss_warden} is not set:
+        stop
+    
     set {_loc} to location of {boss_warden}
     play sound "minecraft:entity.warden.roar" with volume 4 and pitch 0.4 at {_loc} 
     play sound "minecraft:block.sculk_shrieker.shriek" with volume 12 and pitch 2.3 at {_loc}
@@ -56,7 +59,16 @@ on death of warden:
     play sound "minecraft:block.sculk_shrieker.shriek" with volume 12 and pitch 0.3 at {_loc}
     wait 3 seconds
     execute console command "/bossbar remove maat"
+    wait 5 seconds
+    play sound "minecraft:block.bell.use" with volume 2 and pitch 1 to all players 
+
+
+    set {_c} to "<#012a39>"
+
+    send title "" with subtitle "%{_c}%&o&lMa'at&r&7&o has judged you to mercy." to all players for 8 seconds
+    wait 10 seconds
     set time of world "world" to 6:00
+    set weather of world "world" to clear
     pasteArea({fight::loc})
 
 # bar update
@@ -88,14 +100,12 @@ every 3 second:
             set loop-block to air
             draw 3 of large smoke at {_l} with extra 0
             play sound "minecraft:block.fire.extinguish" with volume 0.4 at {_l}
-            # broadcast "killed torch"
             wait 1 tick
         if loop-block is soul torch or soul wall torch:
             set {_l} to location of loop-block
             set loop-block to air
             draw 3 of large smoke at {_l} with extra 0
             play sound "minecraft:block.fire.extinguish" with volume 0.4 at {_l}
-            # broadcast "killed torch"
             wait 1 tick
 
 # bhvr loop
