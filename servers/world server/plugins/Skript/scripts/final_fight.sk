@@ -34,7 +34,7 @@ function copyArea(loc: location):
     remove 50 from z-coordinate of {_pos1}
     
     add 50 to x-coordinate of {_pos2}
-    add 20 to y-coordinate of {_pos2}
+    add 80 to y-coordinate of {_pos2}
     add 50 to z-coordinate of {_pos2}
     
     make {_p} execute command "//pos1 %x-coord of {_pos1}%,%y-coord of {_pos1}%,%z-coord of {_pos1}%"

@@ -23,7 +23,7 @@ function spawn_warden(loc: location):
     
     # 2. Wait 2 ticks for the server to actually load the entity into the world
     wait 2 ticks
-    broadcast "2"
+    # broadcast "2"
     # 3. Find that exact Warden and apply your settings
     loop all entities where [input is a warden]:
         if scoreboard tags of loop-entity contains "maat_tracker":
