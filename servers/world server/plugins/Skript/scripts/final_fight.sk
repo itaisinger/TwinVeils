@@ -7,25 +7,54 @@ on load:
 #
 every 5 ticks:
     # broadcast {fight::state}
-    if {fight::state} is "setup":
-        # Safety check first!
-        if {fight::loc} is not set:
-            broadcast "Error: fight::loc is not set!"
-            stop
-        
-        draw 200 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
-        execute console command "particle minecraft:enchant %x-coord of {fight::loc}% %y-coord of {fight::loc}% %z-coord of {fight::loc}% 0 0 0 10 200"
+    if {fight::loc} is not set:
+        stop
 
+    if {fight::state} is "setup5":
+        draw 25 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
+    else if {fight::state} is "setup4":
+        draw 50 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
+    else if {fight::state} is "setup3":
+        draw 75 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
+        # execute console command "particle minecraft:enchant %x-coord of {fight::loc}% %y-coord of {fight::loc}% %z-coord of {fight::loc}% 0 0 0 10 100"
+    else if {fight::state} is "setup2":
+        draw 100 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
+        execute console command "particle minecraft:enchant %x-coord of {fight::loc}% %y-coord of {fight::loc} + 3% %z-coord of {fight::loc}% 0 0 0 30 20"
+    else if {fight::state} is "setup1":
+        draw 130 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
+        execute console command "particle minecraft:enchant %x-coord of {fight::loc}% %y-coord of {fight::loc} + 3% %z-coord of {fight::loc}% 0.1 0.1 0.1 10 150"
+#
+function copyArea(p: player, loc: location):
+    set {_pos1} to {_loc}
+    set {_pos2} to {_loc}
+    
+    remove 50 from x-coordinate of {_pos1}
+    remove 50 from y-coordinate of {_pos1}
+    remove 50 from z-coordinate of {_pos1}
+    
+    add 50 to x-coordinate of {_pos2}
+    add 30 to y-coordinate of {_pos2}
+    add 50 to z-coordinate of {_pos2}
+    
+    make {_p} execute command "//pos1 %x-coord of {_pos1}%,%y-coord of {_pos1}%,%z-coord of {_pos1}%"
+    make {_p} execute command "//pos2 %x-coord of {_pos2}%,%y-coord of {_pos2}%,%z-coord of {_pos2}%"
+    make {_p} execute command "//copy"
+#
+function pasteArea(p: player, loc: location):
+    make {_p} execute command "//paste -o"
+#
 function start_final_fight():
     stop all sounds for all players
-    broadcast "playing final fight ost"
-    play sound "minecraft:broken_memory" in record category with volume 1000 to all players
-    set {fight::state} to "setup"
+    # broadcast "playing final fight ost"
+    play sound "minecraft:broken_memory" with volume 1000 to all players
     set {_v} to 5
     loop 5 times:
+        set {fight::state} to "setup%{_v}%"
         fight_title({_v})
         remove 1 from {_v}
-        wait 5 seconds
+        wait 80 seconds
+    set {fight::state} to "started"
+    spawn_warden({fight::loc})
 #
 function fight_title(index: integer):
     # send title "%{_index}%" with subtitle "&7Prepare yourself..." to all players for 5 seconds

@@ -19,16 +19,18 @@ function spawn_warden(loc: location):
     set {_z} to z-coord of {_loc}
     
     # 1. Summon it via command with emerging animation, dig cooldown (to prevent fleeing), and a tracker tag
-    execute console command "summon warden %{_x}% %{_y}% %{_z}% {Tags:[""maat_tracker""],Brain:{memories:{""minecraft:is_emerging"":{value:{},ttl:133L},""minecraft:dig_cooldown"":{value:{},ttl:1200000L}}}}"
+    execute console command "summon warden %{_x}% %{_y}-5% %{_z}% {Tags:[""maat_tracker""],Brain:{memories:{""minecraft:is_emerging"":{value:{},ttl:133L},""minecraft:dig_cooldown"":{value:{},ttl:1200000L}}}}"
     
     # 2. Wait 2 ticks for the server to actually load the entity into the world
     wait 2 ticks
-    
+    broadcast "2"
     # 3. Find that exact Warden and apply your settings
     loop all entities where [input is a warden]:
         if scoreboard tags of loop-entity contains "maat_tracker":
             set {boss_warden} to loop-entity
             
+            teleport {boss_warden} to {_loc}
+
             # Clean up the tracker tag
             remove "maat_tracker" from scoreboard tags of {boss_warden}
             
@@ -43,6 +45,19 @@ function spawn_warden(loc: location):
             warden_debug("Spawned Boss Warden 'Ma'at' at %{_loc}%")
             
             stop loop
+#
+on death of warden:
+    set {_loc} to location of {boss_warden}
+    play sound "minecraft:entity.warden.roar" with volume 4 and pitch 0.4 at {_loc} 
+    play sound "minecraft:block.sculk_shrieker.shriek" with volume 12 and pitch 2.3 at {_loc}
+    execute console command "/bossbar set minecraft:maat value 0"
+    wait 1 second
+    play sound "minecraft:block.sculk_shrieker.shriek" with volume 12 and pitch 0.5 at {_loc}
+    wait 1 second
+    play sound "minecraft:block.sculk_shrieker.shriek" with volume 12 and pitch 0.3 at {_loc}
+    wait 3 seconds
+    execute console command "/bossbar remove maat"
+
 # bar update
 every 3 ticks:
     if {boss_warden} is not set:
@@ -59,6 +74,21 @@ every 3 ticks:
     set {warden_hp_prec} to {_prec}
     
 
+
+#extiguish torches
+every 3 second:
+    if {boss_warden} is not set:
+        stop
+    if {boss_warden} is not alive:
+        stop
+    loop blocks in radius 10 around {boss_warden}:
+        if loop-block is a torch or a wall torch:
+            set {_l} to location of loop-block
+            set loop-block to air
+            draw 3 of large smoke at {_l} with extra 0
+            play sound "minecraft:block.fire.extinguish" with volume 0.4 at {_l}
+            # broadcast "killed torch"
+            wait 1 tick
 
 # bhvr loop
 every 7 seconds:
@@ -102,6 +132,11 @@ function bhvr_light():
         stop
     set {_p} to a random element out of {_players::*}
 
+    #abort if chose bad target
+    if gamemode of {_p} is creative or spectator:
+        bhvr_spawn()
+        stop
+
     # Freeze and Look
     apply potion of slowness of tier 10 without particles to {_w} for 2 seconds
     make {_w} look at location of eyes of {_p}
@@ -131,7 +166,12 @@ function bhvr_chase():
         stop
         
     set {_p} to a random element out of {_players::*}
-    
+
+    #abort if chose bad target
+    if gamemode of {_p} is creative or spectator:
+        bhvr_spawn()
+        stop
+
     # Force the Warden to aggro onto the chosen player
     make {_w} pathfind to {_p} at speed 1.3
     warden_debug("chasing %name of {_p}%")
