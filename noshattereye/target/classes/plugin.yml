@@ -1,0 +1,4 @@
+name: NoShatterEye
+version: 1.0
+main: com.yourname.noshattereye.NoShatterEye
+api-version: 1.21
