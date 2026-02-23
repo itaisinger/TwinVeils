@@ -3,32 +3,32 @@ on load:
 
 # Prevent Despawning
 on item despawn:
-    if event-entity is blaze powder or player head:
+    if item of event-entity is blaze powder or player head or nether star or dragon egg or sculk catalyst or ender eye:
         cancel event
 
-# Prevent Explosion/Cactus Damage
+# Prevent Explosion/Fire/Cactus Damage
 on damage of dropped item:
-    if item of victim is blaze powder or player head: 
+    if item of victim is blaze powder or player head or nether star or dragon egg or sculk catalyst or ender eye: 
         cancel event
 
 on item despawn:
-    if item of event-entity is blaze powder or player head:
+    if event-item is blaze powder or player head or nether star or dragon egg or sculk catalyst or ender eye:
         cancel event
 
 on spawn of blaze:
     cancel event
 
-on entity removed from world:
-    if event-entity is eye of ender:
-        broadcast "kill %random number between 1 and 100%"
-        if {killing} is true:
-            stop
-        set {_loc} to location of event-entity
-        set {killing} to true
+# on entity removed from world:
+#     if event-entity is eye of ender:
+#         broadcast "kill %random number between 1 and 100%"
+#         if {killing} is true:
+#             stop
+#         set {_loc} to location of event-entity
+#         set {killing} to true
         
-        broadcast "drop"
-        drop 1 ender eye at {_loc}
-        set {killing} to false
+#         broadcast "drop"
+#         drop 1 ender eye at {_loc}
+#         set {killing} to false
         
 
 command /setstronghold:
