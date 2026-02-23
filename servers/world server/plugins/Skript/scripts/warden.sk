@@ -271,24 +271,25 @@ on spawn of warden:
         set name of event-entity to "Unborn Ma'at"
 
 # --- Main Loop ---
-every 1 second:
+on damage of warden:
     if {warden_active} is true:
-        loop all entities where [input is a warden]:
-            if scoreboard tags of loop-entity does not contain "boss":
+        if scoreboard tags of victim does not contain "boss":
                 
-                # Check if HP is at or below 50%
-                set {_hp} to health of loop-entity
-                set {_maxHp} to max health of loop-entity
+            # Check if HP is at or below 50%
+            set {_hp} to health of victim
+            set {_hp} to {_hp} - damage
+            set {_maxHp} to max health of victim
+            
+
+            if {_hp} <= ({_maxHp} / 2):
+                warden_debug("Warden at %location of victim% hit 50%% HP and fled!")
                 
-                if {_hp} <= ({_maxHp} / 2):
-                    warden_debug("Warden at %location of loop-entity% hit 50%% HP and fled!")
-                    
-                    # Apply Hunger 3 for 50 seconds to nearby players
-                    loop all players in radius 50 of loop-entity:
-                        apply potion of hunger of tier 3 to loop-player for 50 seconds
-                    
-                    strike lightning at loop-entity
-                    delete loop-entity
+                # Apply Hunger 3 for 50 seconds to nearby players
+                loop all players in radius 50 of victim:
+                    apply potion of hunger of tier 3 to loop-player for 50 seconds
+                
+                strike lightning at victim
+                delete victim
 
 # --- Commands ---
 command /warden_bhvr_spawn:
