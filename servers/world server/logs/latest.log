@@ -1,79 +1,210 @@
-[00:01:15] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[00:01:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[00:01:32] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:01:53] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[00:03:10] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:03:46] [Server thread/INFO]: Summoned new Player Head
-[00:04:33] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
-[00:04:43] [Server thread/INFO]: trololol72 issued server command: /gatetool
-[00:04:56] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[00:04:56] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[00:05:19] [Server thread/INFO]: trololol72 issued server command: /gate_confirm lick
-[00:05:40] [Server thread/INFO]: Imashcha1 lost connection: Disconnected
-[00:05:40] [Server thread/INFO]: [Quit] Imashcha1 (Friends) left
-[00:05:42] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[00:05:43] [Server thread/INFO]: Summoned new Player Head
-[00:06:12] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:06:42] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[00:06:48] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
-[00:07:29] [Server thread/INFO]: trololol72 issued server command: /effect give trololol72 minecraft:invisibility infinite 1 true
-[00:07:29] [Server thread/INFO]: [trololol72: Applied effect Invisibility to trololol72]
-[00:07:32] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:08:08] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[00:08:26] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:08:37] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[00:08:37] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[00:10:46] [Server thread/INFO]: [Death] LickMyLeg went up in flames (Uni)
-[00:14:59] [Server thread/INFO]: Villager Villager['Villager'/257315, uuid='045f87cd-5345-478b-98fb-1c29bab92841', l='ServerLevel[world]', x=-879.75, y=78.00, z=-2460.49, cpos=[-55, -154], tl=4999, v=true] died, message: 'Villager was slain by Zombie'
-[00:21:54] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
-[00:21:54] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
-[01:50:49] [Server thread/INFO]: Stopping the server
-[01:50:49] [Server thread/INFO]: Stopping server
-[01:50:49] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[01:50:49] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[01:50:49] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[01:50:49] [Server thread/INFO]: [TAB] Disabled in 1ms
-[01:50:49] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[01:50:49] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[01:50:49] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
-[01:50:49] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[01:50:49] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[01:50:49] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:50:49] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[01:50:49] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[01:50:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[01:50:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[01:50:49] [Server thread/INFO]: [LuckPerms] Closing storage...
-[01:50:49] [Server thread/INFO]: [LuckPerms] Goodbye!
-[01:50:49] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[01:50:49] [Server thread/INFO]: Saving players
-[01:50:49] [Server thread/INFO]: Saving worlds
-[01:50:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Saved 18 block chunks, 11 entity chunks, 0 poi chunks in world 'world' in 0.04s
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[01:50:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[01:50:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[01:50:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[01:50:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[01:50:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:50:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:50:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:50:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:50:50] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[01:50:50] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[01:50:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[01:50:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[00:00:08] [Server thread/INFO]: [Death] trololol72 was shot by Skeleton (Friends)
+[00:03:43] [Server thread/INFO]: [Death] Mefanek was slain by Enderman (Friends)
+[00:16:21] [Server thread/INFO]: [Death] LickMyLeg tried to swim in lava (Uni)
+[00:16:29] [Server thread/INFO]: LickMyLeg: spear
+[00:21:17] [Server thread/INFO]: Villager Villager['Villager'/156666, uuid='d081239f-24a0-4736-b653-707e26b41b7a', l='ServerLevel[world]', x=785.02, y=63.19, z=-465.78, cpos=[49, -30], tl=12922, v=true] died, message: 'Villager was slain by Zombie'
+[00:21:28] [Server thread/INFO]: [Death] Mefanek was shot by Skeleton (Friends)
+[00:33:10] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[00:33:10] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[01:48:56] [Server thread/INFO]: Mefanek lost connection: Disconnected
+[01:48:56] [Server thread/INFO]: [Quit] Mefanek (Friends) left
+[01:48:56] [Server thread/INFO]: The particle was not visible for anybody
+[01:48:56] [Server thread/INFO]: The particle was not visible for anybody
+[01:48:56] [Server thread/INFO]: Named entity WitherBoss['Ra'/218048, uuid='af1c3af9-5f2d-4960-9176-b66160f13c2a', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=40, v=true] died: Ra was killed
+[01:58:44] [User Authenticator #18/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
+[01:58:46] [Server thread/INFO]: [Join] Mefanek (Friends) joined
+[01:58:46] [Server thread/INFO]: Mefanek[/79.177.152.231:5686] logged in with entity id 220413 at ([world]321.9060872891496, 61.71989673017907, -642.265647821232)
+[01:58:47] [Server thread/INFO]: Added Mefanek to team [friendsChat]
+[01:58:47] [Server thread/INFO]: [Sync] Mefanek -> Team friendsChat
+[02:04:52] [Server thread/INFO]: [Death] trololol72 was blown up by Creeper (Friends)
+[02:07:29] [Server thread/INFO]: [Death] trololol72 was slain by Enderman (Friends)
+[02:08:49] [Server thread/INFO]: Mefanek lost connection: Disconnected
+[02:08:49] [Server thread/INFO]: [Quit] Mefanek (Friends) left
+[02:18:41] [User Authenticator #19/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
+[02:18:42] [Server thread/INFO]: [Join] Mefanek (Friends) joined
+[02:18:42] [Server thread/INFO]: Mefanek[/79.177.152.231:5638] logged in with entity id 229240 at ([world]473.06843785455476, 71.0, -552.0317195293875)
+[02:18:43] [Server thread/INFO]: Added Mefanek to team [friendsChat]
+[02:18:43] [Server thread/INFO]: [Sync] Mefanek -> Team friendsChat
+[02:27:18] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:27:23] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[02:27:36] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:28:55] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[02:40:20] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[02:40:23] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
+[02:40:28] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[02:56:46] [Server thread/INFO]: Mefanek lost connection: Disconnected
+[02:56:46] [Server thread/INFO]: [Quit] Mefanek (Friends) left
+[03:26:03] [Server thread/INFO]: [Death] trololol72 was slain by Phantom (Friends)
+[06:58:02] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[06:58:06] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
+[06:58:21] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[06:58:30] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[06:58:30] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[07:08:13] [User Authenticator #20/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[07:08:15] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[07:08:15] [Server thread/INFO]: trololol72[/93.173.35.208:61096] logged in with entity id 245277 at ([world]-528.1414053691191, 93.0, 499.5579304324127)
+[07:08:16] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[07:08:16] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[07:08:29] [Server thread/INFO]: trololol72 issued server command: /tpb enc f
+[07:59:23] [User Authenticator #21/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[07:59:25] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[07:59:25] [Server thread/INFO]: LickMyLeg[/85.64.122.119:50245] logged in with entity id 254979 at ([world]-500.1694372570503, 71.0, 518.6750828279803)
+[07:59:26] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[07:59:26] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[07:59:31] [Server thread/INFO]: LickMyLeg: ZINGER
+[07:59:35] [Server thread/INFO]: LickMyLeg: GO TO SLEEP
+[08:02:38] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[08:02:38] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[08:12:07] [User Authenticator #22/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[08:12:09] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[08:12:09] [Server thread/INFO]: LickMyLeg[/85.64.122.119:50324] logged in with entity id 256570 at ([world]-506.02108652486476, 77.0, 523.3104467391122)
+[08:12:09] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[08:12:09] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[10:10:12] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[10:10:12] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[10:24:31] [User Authenticator #23/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[10:24:32] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[10:24:32] [Server thread/INFO]: DonalDucker[/176.229.5.32:65134] logged in with entity id 285965 at ([world]-504.56765140903303, 68.9375, 490.28800434846784)
+[10:24:33] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[10:24:33] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[10:27:01] [User Authenticator #24/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[10:27:03] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[10:27:03] [Server thread/INFO]: LickMyLeg[/85.64.122.119:50831] logged in with entity id 286315 at ([world]-500.3146924883572, 71.0, 513.2313336915081)
+[10:27:04] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[10:27:04] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[11:17:00] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[11:17:00] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[11:17:00] [Server thread/INFO]: Named entity WitherBoss['Ra'/306349, uuid='77af0d5b-850d-4e43-9fd0-9357856cbdf0', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[11:17:05] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[11:17:05] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[11:17:05] [Server thread/INFO]: Named entity WitherBoss['Ra'/306491, uuid='dcf4ca1e-6be9-42c9-8683-241c6957e956', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[11:17:12] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[11:17:12] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[11:17:12] [Server thread/INFO]: Named entity WitherBoss['Ra'/306563, uuid='d31207c0-6b53-4e0b-859c-11b3aaf44a09', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[11:17:56] [Server thread/INFO]: Displaying particle minecraft:explosion_emitter
+[11:17:56] [Server thread/INFO]: Displaying particle minecraft:large_smoke
+[11:17:56] [Server thread/INFO]: Named entity WitherBoss['Ra'/306802, uuid='ff456a65-d408-491e-bcdc-36dec017cbe4', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=20, v=true] died: Ra was killed
+[11:42:36] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[11:42:36] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[11:55:09] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[11:55:09] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[11:58:43] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[11:58:43] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[12:11:33] [User Authenticator #25/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[12:11:35] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[12:11:35] [Server thread/INFO]: trololol72[/93.173.35.208:62299] logged in with entity id 320338 at ([world]537.3153870338838, 70.0, -528.9824775119667)
+[12:11:36] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[12:11:36] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[12:12:30] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
+[14:04:17] [User Authenticator #26/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[14:04:19] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[14:04:19] [Server thread/INFO]: LickMyLeg[/147.235.194.77:1776] logged in with entity id 332544 at ([world]-510.3467299047514, 90.0, 518.8245445823093)
+[14:04:20] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[14:04:20] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[14:30:44] [Server thread/INFO]: The particle was not visible for anybody
+[14:30:44] [Server thread/INFO]: The particle was not visible for anybody
+[14:30:44] [Server thread/INFO]: Named entity WitherBoss['Ra'/340451, uuid='d3900ace-d045-48d7-9378-9d95def4eb6d', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=2200, v=true] died: Ra was killed
+[14:32:50] [User Authenticator #27/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[14:32:51] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[14:32:51] [Server thread/INFO]: DonalDucker[/176.229.5.32:55845] logged in with entity id 341924 at ([world]-515.3150367381738, 66.9375, 480.3408483044766)
+[14:32:52] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[14:32:52] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[14:33:53] [Server thread/INFO]: Named entity WitherBoss['Ra'/341023, uuid='caeb2a17-ef13-4675-b7cf-623e4de56882', l='ServerLevel[world]', x=55.90, y=64.80, z=-819.35, cpos=[3, -52], tl=3745, v=true] died: Ra was slain by LickMyLeg
+[14:34:58] [Server thread/INFO]: The particle was not visible for anybody
+[14:34:58] [Server thread/INFO]: The particle was not visible for anybody
+[14:34:58] [Server thread/INFO]: Named entity WitherBoss['Ra'/342549, uuid='76425115-dd9f-40a3-a5a4-2b3f96ca5cd3', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1300, v=true] died: Ra was killed
+[14:36:18] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[14:36:18] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[14:42:10] [User Authenticator #28/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
+[14:42:13] [Server thread/INFO]: [Join] Mefanek (Friends) joined
+[14:42:13] [Server thread/INFO]: Mefanek[/79.177.152.231:5716] logged in with entity id 345470 at ([world]513.6126368723585, 71.0, -484.6477012624092)
+[14:42:14] [Server thread/INFO]: Added Mefanek to team [friendsChat]
+[14:42:14] [Server thread/INFO]: [Sync] Mefanek -> Team friendsChat
+[14:46:51] [Server thread/INFO]: [Death] Mefanek was blown up by Creeper (Friends)
+[15:34:05] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[15:34:05] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[15:36:39] [Server thread/INFO]: Mefanek lost connection: Disconnected
+[15:36:39] [Server thread/INFO]: [Quit] Mefanek (Friends) left
+[15:58:09] [User Authenticator #29/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[15:58:10] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[15:58:10] [Server thread/INFO]: DonalDucker[/176.229.5.32:60843] logged in with entity id 369727 at ([world]512.0377618655798, 71.0, -496.74503547477775)
+[15:58:11] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[15:58:11] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[16:01:59] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[16:02:01] [Server thread/INFO]: trololol72 issued server command: /tpb enc f
+[16:02:10] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[16:02:23] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[16:02:23] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[16:06:02] [User Authenticator #30/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
+[16:06:04] [Server thread/INFO]: [Join] Mefanek (Friends) joined
+[16:06:04] [Server thread/INFO]: Mefanek[/79.177.152.231:5725] logged in with entity id 372817 at ([world]543.6999999880791, 63.0, -508.92240031062636)
+[16:06:05] [Server thread/INFO]: Added Mefanek to team [friendsChat]
+[16:06:05] [Server thread/INFO]: [Sync] Mefanek -> Team friendsChat
+[16:19:56] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[16:19:56] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[16:20:49] [User Authenticator #31/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[16:20:50] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[16:20:50] [Server thread/INFO]: DonalDucker[/176.229.5.32:58226] logged in with entity id 380033 at ([world_nether]-30.764840997931934, 58.0, 97.83454655449755)
+[16:20:51] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[16:20:51] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[16:38:18] [Server thread/INFO]: Mefanek lost connection: Disconnected
+[16:38:18] [Server thread/INFO]: [Quit] Mefanek (Friends) left
+[17:00:35] [User Authenticator #32/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[17:00:37] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[17:00:37] [Server thread/INFO]: LickMyLeg[/147.235.194.77:1766] logged in with entity id 397955 at ([world]-499.6190765569832, 71.0, 519.2326275123471)
+[17:00:37] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[17:00:37] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[17:03:00] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[17:03:00] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[17:05:48] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[17:05:48] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[17:07:27] [Server thread/INFO]: Stopping the server
+[17:07:27] [Server thread/INFO]: Stopping server
+[17:07:27] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[17:07:27] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[17:07:27] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[17:07:27] [Server thread/INFO]: [TAB] Disabled in 0ms
+[17:07:27] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[17:07:27] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[17:07:27] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
+[17:07:27] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[17:07:27] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[17:07:27] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[17:07:27] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:07:27] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[17:07:27] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[17:07:27] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[17:07:27] [Server thread/INFO]: [LuckPerms] Closing storage...
+[17:07:27] [Server thread/INFO]: [LuckPerms] Goodbye!
+[17:07:27] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[17:07:27] [Server thread/INFO]: Saving players
+[17:07:27] [Server thread/INFO]: Saving worlds
+[17:07:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 16 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[17:07:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[17:07:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[17:07:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[17:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:07:28] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[17:07:28] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[17:07:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[17:07:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
