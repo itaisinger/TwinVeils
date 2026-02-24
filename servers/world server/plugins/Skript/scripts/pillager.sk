@@ -248,7 +248,7 @@ function reinforce_camps():
         else if {_type} is "ravager":
             spawn_ravager({camp_main_base}, {_cid})
             
-    broadcast "&6[Camp] Reinforcements have arrived at the Main Base!"
+    # broadcast "&6[Camp] Reinforcements have arrived at the Main Base!"
 
 # 7. Spawning Functions (Now registers units)
 
