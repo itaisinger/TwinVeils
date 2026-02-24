@@ -67,23 +67,23 @@ command /curse_debug <text>:
 function traveler_debug(msg: text):
     if {traveler_debug_active} is true:
         broadcast "&5[CURSE] &r%{_msg}%"
-
 # --- 4. Main Loop ---
-every 29 second:
+every 6 second:
     
     if {curse_active} is false:
         stop
 
     set {_time} to time of world "world"
 
-    # Check Time Window
-    if {_time} is between {@curse_end} and {@curse_start}:
-        stop
-
     # Check Players
     loop all players:
         set {_px} to x-coord of loop-player
         set {_pz} to z-coord of loop-player
+        set {_p} to loop-player
+
+        #check super effect given by warden
+        if potion amplifier of hunger of {_p} is 3:
+            continue
 
         #check maze region
         if {_px} is between -1536 and -512:
@@ -91,6 +91,10 @@ every 29 second:
                 remove hunger from loop-player
                 apply hunger 2 to loop-player for {@effect_length} seconds
                 continue
+
+        # Check Time Window
+        if {_time} is between {@curse_end} and {@curse_start}:
+            continue
 
         loop {regions::*}:
             
@@ -132,6 +136,7 @@ every 29 second:
                         set {_curseLevel} to 0
                     if world of loop-player is "world_the_end":
                         set {_curseLevel} to 0
+                    
 
                     # --- Apply Curse Based on Level ---
                     if {_curseLevel} is 1:

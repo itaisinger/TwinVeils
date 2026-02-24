@@ -67,6 +67,7 @@ command /gate_confirm <text>:
         else:
             send "{@prefix} You must set Point A first." to player
 
+#particle
 every 3 ticks:
     if {gates::active} is true:
         loop {gates_list::*}:
@@ -90,24 +91,34 @@ every 3 ticks:
             set {_part_locA} to {_locA}
             add 1.5 to y-coord of {_part_locA}
             draw 4 dust particle using dustOption(purple, 1.5) at {_part_locA} with offset vector(0.4, 0.6, 0.4)
-            # set {_part_locB} to {_locB}
-            # add 1.5 to y-coord of {_part_locB}
-            # draw 4 dust particle using dustOption(purple, 1.5) at {_part_locB} with offset vector(0.4, 0.6, 0.4)
-
-            # Pearl Teleport Logic
-            loop all ender pearls:
-                if metadata "gated" of loop-ender pearl is not set:
-                    set {_pLoc} to location of loop-ender pearl
+# teleport
+every 1 ticks:
+    if {gates::active} is true:
+        # Pearl Teleport Logic
+        loop all ender pearls:
+            if metadata "gated" of loop-ender pearl is not set:
+                set {_pLoc} to location of loop-ender pearl
+                loop {gates_list::*}:
+                    # Load base locations
+                    set {_locA} to {gates::%loop-value-2%::A}
+                    set {_locB} to {gates::%loop-value-2%::B}
                     
-                    if distance between {_pLoc} and {_locA_bottom} <= 1.5:
+                    # Setup offset locations for Math (A)
+                    set {_locA_bottom} to {_locA}
+                    add 1.5 to y-coordinate of {_locA_bottom}
+                    set {_locA_top} to {_locA}
+                    add 2.5 to y-coordinate of {_locA_top}
+                    
+                    # Setup offset locations for Math (B)
+                    set {_locB_bottom} to {_locB}
+                    add 1.5 to y-coordinate of {_locB_bottom}
+                    
+                    if distance between {_pLoc} and {_locA_bottom} <= 2.5:
                         teleport loop-ender pearl to {_locB_bottom}
                         set metadata "gated" of loop-ender pearl to true
                         gateDebug("Pearl entered %loop-value-1% at A, teleported to B.")
                         
-                    # else if distance between {_pLoc} and {_locB_bottom} <= 1.5:
-                    #     teleport loop-ender pearl to {_locA_bottom}
-                    #     set metadata "gated" of loop-ender pearl to true
-                    #     gateDebug("Pearl entered %loop-value-1% at B, teleported to A.")
+
 
 
 command /gatedelete <text>:

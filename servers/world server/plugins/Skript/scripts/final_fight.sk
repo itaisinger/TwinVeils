@@ -1,6 +1,152 @@
+on load:
+    if {fight::load} is not set:
+        set {fight::load} to true
+        set {fight::loc_u} to location(-512,70,512,"world")
+        set {fight::loc_f} to location(512,75,-512,"world")
+        set {fight::state} to "none"
+#
+every 5 ticks:
+    # broadcast {fight::state}
+    if {fight::loc} is not set:
+        stop
+
+    if {fight::state} is "setup5":
+        draw 25 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
+    else if {fight::state} is "setup4":
+        draw 50 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
+    else if {fight::state} is "setup3":
+        draw 75 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
+        # execute console command "particle minecraft:enchant %x-coord of {fight::loc}% %y-coord of {fight::loc}% %z-coord of {fight::loc}% 0 0 0 10 100"
+    else if {fight::state} is "setup2":
+        draw 100 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
+        execute console command "particle minecraft:enchant %x-coord of {fight::loc}% %y-coord of {fight::loc} + 3% %z-coord of {fight::loc}% 0 0 0 30 20"
+    else if {fight::state} is "setup1":
+        draw 130 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
+        execute console command "particle minecraft:enchant %x-coord of {fight::loc}% %y-coord of {fight::loc} + 3% %z-coord of {fight::loc}% 0.1 0.1 0.1 10 150"
+#
+function copyArea(loc: location):
+    # 1. Try to select trololol72 first
+    set {_p} to ("trololol72" parsed as player)
+    
+    # 2. If they aren't online, fall back to a random player
+    if {_p} is not set:
+        set {_p} to a random player out of all players
+    
+    # 1. Save the player's original spot so we don't trap them
+    set {_originalLoc} to location of {_p}
+    
+    # 2. Ensure our target location is strictly in the Overworld
+    set world of {_loc} to world "world"
+    
+    set {_pos1} to {_loc}
+    set {_pos2} to {_loc}
+    
+    remove 50 from x-coordinate of {_pos1}
+    remove 15 from y-coordinate of {_pos1}
+    remove 50 from z-coordinate of {_pos1}
+    
+    add 50 to x-coordinate of {_pos2}
+    add 80 to y-coordinate of {_pos2}
+    add 50 to z-coordinate of {_pos2}
+    
+    # 3. Teleport the player to the exact center of the arena in the Overworld
+    teleport {_p} to {_loc}
+    
+    # 4. Make them select and copy (This now sets the paste offset perfectly to _loc!)
+    make {_p} execute command "//pos1 %x-coord of {_pos1}%,%y-coord of {_pos1}%,%z-coord of {_pos1}%"
+    make {_p} execute command "//pos2 %x-coord of {_pos2}%,%y-coord of {_pos2}%,%z-coord of {_pos2}%"
+    make {_p} execute command "//copy"
+    
+    # 5. Instantly snap them back to where they were
+    wait 10 ticks
+    teleport {_p} to {_originalLoc}
+#
+function pasteArea(loc: location):
+    set {_p} to a random player out of all players
+    make {_p} execute command "//paste -o"
+#
+function start_final_fight():
+    if {fight::loc} is not set:
+        broadcast "trololol72: oops"
+        stop
+
+    copyArea({fight::loc})
+    wait 5 ticks
+    stop all sounds for all players
+    # broadcast "playing final fight ost"
+    play sound "minecraft:broken_memory" with volume 1000 to all players
+    set {_v} to 5
+    loop 5 times:
+        set {fight::state} to "setup%{_v}%"
+        fight_title({_v})
+        remove 1 from {_v}
+        # wait 85 seconds
+        wait 10 seconds
+    set {fight::state} to "started"
+    spawn_warden({fight::loc})
+#
+function fight_title(index: integer):
+    # send title "%{_index}%" with subtitle "&7Prepare yourself..." to all players for 5 seconds
+    send title "%{_index}%" to all players for 5 seconds
+
+## commands
+command /fight_set_loc <text>:
+    permission: op
+    trigger:
+        if arg-1 is "u":
+            set {fight::loc} to {fight::loc_u}
+            send "set fight loc to U"
+        else if arg-1 is "f":
+            set {fight::loc} to {fight::loc_f}
+            send "set fight loc to F"
+        else:
+            send "&cusage: <u/f>"
+#
+command /fight_title <integer>:
+    permission: op
+    trigger:
+        fight_title(arg-1)
+#
 command /play_final_fight_ost:
     permission: op
     trigger:
         stop all sounds for all players
         broadcast "playing final fight ost"
         play sound "minecraft:broken_memory" in record category with volume 1000 to all players
+#
+command /fight_tp:
+    permission: op
+    trigger:
+        teleport player to {fight::loc}
+#
+command /fight_set_world_pos <text>:
+    permission: op
+    trigger:
+        if arg-1 is "u":
+            set {fight::loc_u} to target block of player
+            send "set loc u to %{fight::loc_u}%"
+        else if arg-1 is "f":
+            set {fight::loc_f} to target block of player
+            send "set loc u to %{fight::loc_f}%"
+        else:
+            send "&cusage: <u/f>"
+#
+command /fight_reset_vars:
+    permission: op
+    trigger:
+        delete {fight::load}
+#
+command /fight_copy:
+    permission: op
+    trigger:
+        copyArea({fight::loc})
+#
+command /fight_paste:
+    permission: op
+    trigger:
+        pasteArea({fight::loc})
+#
+command /fight_start:
+    permission: op
+    trigger:
+        start_final_fight()

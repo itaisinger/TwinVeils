@@ -194,7 +194,7 @@ command /witch_status:
             else:
                 send "&eHut %{_id}%: &7Missing/Unloaded"
 
-            broadcast "Entity: %{_w}%"
+            send "Entity: %{_w}%"
 
 # --- DEBUG COMMAND ---
 command /witchdebug <boolean>:

@@ -3,30 +3,27 @@ import:
     com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerChangeGameState
     com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerChangeGameState$Reason
 
+function roll_credits(p: player):
+    broadcast "&e[Debug] Cleaning Client State..."
+    
+    # 1. Force NBT Clean (Using SkBee, bypassing vanilla limit)
+    delete tag "seenCredits" of nbt of {_p}
+    
+    # 2. Dimension Switch
+    set {_old_loc} to location of {_p}
+    teleport {_p} to location(0, 100, 0, world("world_the_end"))
+    wait 2 ticks
+    teleport {_p} to {_old_loc}
+    wait 5 ticks
+    
+    # 3. Send the Packet
+    broadcast "&a[Debug] Sending Credits..."
+    
+    # Corrected line without "as float"
+    set {_packet} to new WrapperPlayServerChangeGameState(Reason.WIN_GAME, 1.0)
+    PacketEvents.getAPI().getPlayerManager().sendPacket({_p}, {_packet})
+
 command /rollcredits <player>:
     permission: op
     trigger:
-        set {_p} to arg-1
-        
-        broadcast "&e[Debug] Cleaning Client State..."
-        
-        # 1. Force NBT Clean (Using SkBee, bypassing vanilla limit)
-        delete tag "seenCredits" of nbt of {_p}
-        
-        # 2. THE FIX: Dimension Switch
-        # This forces the client to "Respawn/Reload" the world, resetting the Win State.
-        # We teleport them to the End (or Nether) for 1 tick, then back.
-        set {_old_loc} to location of {_p}
-        
-        # Teleport away (Forces 'Downloading Terrain')
-        teleport {_p} to location(0, 100, 0, world "world_the_end")
-        wait 2 ticks
-        
-        # Teleport back
-        teleport {_p} to {_old_loc}
-        wait 5 ticks
-        
-        # 3. Send the Packet
-        broadcast "&a[Debug] Sending Credits..."
-        set {_packet} to new WrapperPlayServerChangeGameState(Reason.WIN_GAME, 1.0)
-        PacketEvents.getAPI().getPlayerManager().sendPacket({_p}, {_packet})
+        roll_credits(arg-1)

@@ -3,7 +3,7 @@ options:
     safe_radius_2: 25.6
     wither_start: 07:00
     wither_end: 18:00
-    bored_timeout: 5
+    # wither::bored_timer: 5
 
 # --- 1. Setup Data ---
 on load:
@@ -11,24 +11,11 @@ on load:
     # delete {safe_spots::*}
     # delete {safe_spots_2::*}
     delete {wither_bored::*} 
+    set {wither::bored_timer} to 5
     
     if {wither_session_id} is not set:
         set {wither_session_id} to 0
     add 1 to {wither_session_id}
-    
-    # Format: "MinX, MaxX, MinZ, MaxZ"
-    # set {regions::0} to "512,1536,-1536,-512"   #desert
-    # set {regions::1} to "-512,512,-1536,-512"   #ocean
-    # set {regions::2} to "512,1536,-512,512"     #snow
-    # set {regions::3} to "-512,512,-512,512"     #plains
-    # set {regions::4} to "-1536,-512,512,1536"   #underground
-    # set {regions::5} to "-512,512,512,1536"     #pale garden
-    # set {regions::6} to "-1536,-512,-512,512"   #badlands
-
-    # Safe Spots
-    # set {safe_spots::0} to location(5050, 100, 5050, world "world") 
-    # set {safe_spots::1} to location(100, 100, 100, world "world")
-    # set {safe_spots_2::0} to location(5085, 100, 5086, world "world") 
     
     # --- NON-DESTRUCTIVE TOGGLES ---
     if {wither_system_active} is not set:
@@ -62,7 +49,7 @@ function wither_debug(msg: text):
         broadcast {_msg}
 
 function spawn_wither(p: player, id: text):
-    set {_spawnLoc} to location 10 meters in front of {_p}
+    set {_spawnLoc} to location 2 meters in front of {_p}
     strike lightning at {_spawnLoc}
     add 1 to y-coord of {_spawnLoc}
     
@@ -151,8 +138,6 @@ on spawn:
         stop
 
     add event-entity to team named "wither"
-    
-
 ##
 every 5 seconds:
   #add friends
@@ -169,8 +154,10 @@ every 1 second:
                 teleport loop-wither to location(0, -500, 0, world "world")
                 kill loop-wither
                 wither_debug("Swept a ghost wither from an old session!")
-                
+    
+    #
     if {wither_system_active} is false:
+        wither_debug("inactive.")
         stop
 
 
@@ -200,9 +187,9 @@ every 1 second:
                         set {wither_bored::%{_regID}%} to 0 
                     else:
                         add 1 to {wither_bored::%{_regID}%}
-                        wither_debug("Wither %{_regID}% bored: %{wither_bored::%{_regID}%}%/{@bored_timeout}s")
+                        wither_debug("Wither %{_regID}% bored: %{wither_bored::%{_regID}%}%/{wither::bored_timer}s")
                         
-                        if {wither_bored::%{_regID}%} >= {@bored_timeout}:
+                        if {wither_bored::%{_regID}%} >= {wither::bored_timer}:
                             despawn_wither({_regID})
                             set {_witherExists} to true 
                 else:
@@ -292,6 +279,11 @@ command /wither_toggle <text>:
                 delete loop-wither
                 
             wither_debug("&c&l[Wither Storm] System DISABLED and cleared.")
+#
+command /wither_set_bored <integer>:
+    permission: op
+    trigger:
+        set {wither::bored_timer} to arg-1 
 #
 command wither_add_friends:
     permission: op

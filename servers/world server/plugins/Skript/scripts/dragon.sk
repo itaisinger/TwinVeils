@@ -1,0 +1,2 @@
+on spawn of ender dragon:
+    set name of event-entity to "&5&lKhonsu, The Traveler"

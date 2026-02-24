@@ -1,78 +1,38 @@
+on load:
+    set {killing} to false
+
 # Prevent Despawning
 on item despawn:
-    if event-entity is blaze powder or player head:
+    if item of event-entity is blaze powder or player head or nether star or dragon egg or sculk catalyst or ender eye:
         cancel event
 
-# Prevent Explosion/Cactus Damage
+# Prevent Explosion/Fire/Cactus Damage
 on damage of dropped item:
-    if item of victim is blaze powder or player head: 
+    if item of victim is blaze powder or player head or nether star or dragon egg or sculk catalyst or ender eye: 
         cancel event
 
 on item despawn:
-    if item of event-entity is blaze powder or player head:
+    if event-item is blaze powder or player head or nether star or dragon egg or sculk catalyst or ender eye:
         cancel event
 
 on spawn of blaze:
     cancel event
 
+# on entity removed from world:
+#     if event-entity is eye of ender:
+#         broadcast "kill %random number between 1 and 100%"
+#         if {killing} is true:
+#             stop
+#         set {_loc} to location of event-entity
+#         set {killing} to true
+        
+#         broadcast "drop"
+#         drop 1 ender eye at {_loc}
+#         set {killing} to false
+        
 
 command /setstronghold:
     permission: op
     trigger:
         set {custom_stronghold} to location of player
         send "&aStronghold target set to your location!"
-
-# on right click with ender eye:
-#     if event-block is end portal frame:
-#         stop
-
-#     {custom_stronghold} is set
-#     cancel event
-    
-#     if player's gamemode is not creative:
-#         remove 1 ender eye from player
-    
-#     make player swing hand
-#     play sound "entity.ender_eye.launch" at player
-    
-#     # 1. Spawn at head height
-#     spawn an eye of ender at player's head location
-#     set {_sig} to last spawned eye of ender
-    
-#     # 2. Apply Custom Trajectory Formula
-#     set {_dist} to distance between {_sig} and {custom_stronghold}
-    
-#     # Part A: Vector to Stronghold * 5
-#     set {_v_target} to vector from {_sig} to {custom_stronghold}
-#     set {_v_target} to normalized {_v_target}
-#     set {_v_target} to 5 * {_v_target}
-    
-#     # Part B: Up Vector * min(100, distance)
-#     set {_v_up} to vector(0, 1, 0)
-#     set {_up_factor} to min(5, {_dist})
-#     set {_v_up} to {_v_up} * {_up_factor}
-    
-#     # Part C: Combine (V = Up + Target)
-#     set {_final_vector} to {_v_up}
-#     add {_v_target} to {_final_vector}
-    
-#     # Normalize and apply speed
-#     set {_final_vector} to normalized {_final_vector}
-#     set {_final_vector} to {_final_vector} * 0.1
-#     set velocity of {_sig} to {_final_vector}
-    
-#     # 3. Fix Target: Use NBT to set destination manually
-#     set {_x} to x-coordinate of {custom_stronghold}
-#     set {_y} to y-coordinate of {custom_stronghold}
-#     set {_z} to z-coordinate of {custom_stronghold}
-#     add nbt from "{Tx:%{_x}%,Ty:%{_y}%,Tz:%{_z}%}" to nbt of {_sig}
-    
-#     # 4. Disable natural drops (SkBee)
-#     add nbt from "{Item:{id:""minecraft:air"",Count:1b}}" to nbt of {_sig}
-    
-#     # 5. Track and return item
-#     while {_sig} is alive:
-#         set {_loc} to location of {_sig}
-#         wait 5 ticks
-    
-#     drop 1 ender eye at {_loc}

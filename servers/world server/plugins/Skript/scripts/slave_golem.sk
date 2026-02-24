@@ -62,7 +62,6 @@ function slave_heal():
     draw {_amount} happy_villager particle at location({_gx},{_gy},{_gz}, "world") with offset vector(0.4, 0.7, 0.4) with extra 0.8
 
     # play sound ""
-
 #
 command /slave_tp:
     permission: op

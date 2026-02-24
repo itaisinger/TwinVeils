@@ -1,0 +1,197 @@
+on load:
+    execute console command "/gamerule advance_time false"
+    execute console command "/gamerule random_tick_speed 2"
+    if {pos_egg} is not set:
+        set {pos_egg} to location(0, -1, 0, world("world"))
+    if {pos_beacon} is not set:
+        set {pos_beacon} to location(0, -1, 0, world("world"))
+    if {warden_spot} is not set:
+        set {warden_spot} to location(0, -1, 0, world("world"))
+        
+    if {wither_defeated} is not set:
+        set {wither_defeated} to false
+    if {dragon_defeated} is not set:
+        set {dragon_defeated} to false
+    if {warden_defeated} is not set:
+        set {warden_defeated} to false
+        
+    set {day_debug} to false
+
+every 1 tick:
+    # broadcast "time: %time of "world"%"
+
+    if {warden_defeated} is true:
+        add 1 tick to time of world "world"
+        stop
+
+    if {wither_defeated} is false:
+        if {dragon_defeated} is false:
+            add 1 tick to time of world "world"
+
+        if {dragon_defeated} is true:
+            #skip to day
+            if time of world "world" is less than 14:00:
+                add 10 tick to time of world "world"
+            else if {enc::state} is "closed":
+                _enc_open()
+
+    if {wither_defeated} is true:
+        #skip to night
+        if time of world "world" is less than 23:59:
+            add 10 tick to time of world "world"
+        else if {enc::state} is "closed":
+            _enc_open()
+
+every 5 ticks:
+    set {_r} to 0.35
+    if {wither_defeated} is false:
+        draw 4 dust particle using dustOption(red, 1.5) at {pos_beacon} with offset vector({_r}, {_r}, {_r})
+    if {dragon_defeated} is false:
+        draw 4 dust particle using dustOption(purple, 1.5) at {pos_egg} with offset vector({_r}, {_r}, {_r})
+    if {warden_defeated} is false:
+        draw 4 dust particle using dustOption(blue, 1.5) at {warden_spot} with offset vector({_r}, {_r}, {_r})
+
+on break:
+    if location of event-block is {pos_egg}:
+        set {dragon_defeated} to false
+        set {curse_active} to true
+        day_debug("dragon unplaced")
+    
+    if location of event-block is {pos_beacon}:
+        set {wither_defeated} to false 
+        set {wither_system_active} to true
+        day_debug("wither unplaced")
+
+    if location of event-block is {warden_spot}:
+        set {warden_defeated} to false
+        day_debug("warden unplaced")
+
+on place:
+    if location of event-block is {pos_egg}:
+        if event-block is dragon egg:
+            set {dragon_defeated} to true
+            dragon_defeat_effect()
+            day_debug("dragon placed")
+            set {curse_active} to false
+            end_check()
+        else:
+            set {curse_active} to true
+            set {dragon_defeated} to false
+    
+    if location of event-block is {pos_beacon}:
+        if event-block is beacon:
+            set {wither_defeated} to true
+            wither_defeat_effect()
+            end_check()
+            set {wither_system_active} to false
+            day_debug("beacon placed")
+        else:
+            set {wither_defeated} to false
+            set {wither_system_active} to true
+
+    if location of event-block is {warden_spot}:
+        if event-block is sculk catalyst: # Change this if you want another block for the Warden!
+            set {warden_defeated} to true
+            draw 40 dust particle using dustOption(blue, 1.5) at {warden_spot} with offset vector(2, 1, 2)
+            play sound "minecraft:block.bell.use" with volume 0.5 and pitch 0.5 at {warden_spot}
+            play sound "entity.ender_eye.death" with volume 2.5 and pitch 1.3 at {warden_spot}
+            play sound "minecraft:block.end_portal_frame.fill" with volume 2 and pitch 1.2 at {warden_spot}
+            play sound "minecraft:block.sculk_shrieker.shriek" with volume 2 and pitch 1.5 at {warden_spot}
+            end_check()
+            day_debug("warden placed")
+            wait 3 seconds
+            loop all players:
+                roll_credits(loop-player)
+
+        else:
+            set {warden_defeated} to false
+
+
+function end_check():
+    if {dragon_defeated} is true:
+        if {wither_defeated} is true:
+            if {warden_defeated} is false:
+                start_final_fight()
+                # broadcast "&aAll three bosses are defeated! Map Complete!"
+
+function day_debug(msg: text):
+    if {day_debug} is true:
+        broadcast "[DAY] %{_msg}%"
+#
+function wither_defeat_effect():
+    draw 40 dust particle using dustOption(red, 1.5) at {pos_beacon} with offset vector(2, 1, 2)
+    play sound "minecraft:block.bell.use" with volume 2.5 and pitch 0.3 at {pos_beacon}
+    play sound "entity.ender_eye.death" with volume 2.5 and pitch 1.3 at {pos_beacon}
+    play sound "minecraft:block.end_portal_frame.fill" with volume 2 and pitch 1.2 at {pos_beacon} 
+    wait 2.5 seconds
+    send title "&4RA VANQUISHED" to all players for 7 seconds
+
+    play sound "minecraft:entity.wither.death" with volume 10 and pitch 1.8 at {pos_beacon} 
+    play sound "minecraft:block.bell.use" with volume 2 and pitch 1.5 at {pos_beacon}
+    wait 0.4 seconds
+    play sound "minecraft:entity.wither.death" with volume 10 and pitch 0.7 at {pos_beacon} 
+    play sound "minecraft:block.bell.use" with volume 2 and pitch 1 at {pos_beacon}
+    wait 0.4 seconds
+    play sound "minecraft:entity.wither.death" with volume 10 and pitch 0.4 at {pos_beacon} 
+    play sound "minecraft:block.bell.use" with volume 2 and pitch 0.5 at {pos_beacon}
+    wait 0.1 seconds
+    play sound "minecraft:entity.wither.death" with volume 10 and pitch 0.2 at {pos_beacon} 
+#
+function dragon_defeat_effect():
+    draw 40 dust particle using dustOption(purple, 1.5) at {pos_egg} with offset vector(2, 1, 2)
+    play sound "minecraft:block.bell.use" with volume 2.5 and pitch 0.3 at {pos_egg}
+    play sound "entity.ender_eye.death" with volume 2.5 and pitch 1.3 at {pos_egg}
+    play sound "minecraft:block.end_portal_frame.fill" with volume 2 and pitch 1.2 at {pos_egg} 
+    wait 2.5 seconds
+    send title "&5KHONSU VANQUISHED" to all players for 7 seconds
+
+    play sound "minecraft:entity.ender_dragon.death" with volume 0.4 and pitch 0.3 at {pos_egg} 
+    wait 2 seconds
+    play sound "minecraft:block.bell.use" with volume 5 and pitch 1.5 at {pos_egg}
+    wait 1 seconds
+    play sound "minecraft:block.bell.use" with volume 5 and pitch 1 at {pos_egg}
+    wait 2 ticks
+    play sound "minecraft:block.bell.use" with volume 5 and pitch 1 at {pos_egg}
+    wait 1 seconds
+    play sound "minecraft:block.bell.use" with volume 5 and pitch 0.5 at {pos_egg}
+    wait 2 ticks
+    play sound "minecraft:block.bell.use" with volume 5 and pitch 0.5 at {pos_egg}
+    wait 1 seconds
+    play sound "minecraft:block.bell.use" with volume 5 and pitch 0.4 at {pos_egg}
+    wait 2 ticks
+    play sound "minecraft:block.bell.use" with volume 5 and pitch 0.4 at {pos_egg}
+    wait 1 seconds
+    play sound "minecraft:block.bell.use" with volume 5 and pitch 0.3 at {pos_egg}
+    wait 2 ticks
+    play sound "minecraft:block.bell.use" with volume 5 and pitch 0.3 at {pos_egg}
+    wait 1 seconds
+    play sound "minecraft:block.bell.use" with volume 5 and pitch 2 at {pos_egg}
+#
+
+# commands
+command /day_set_wither_spot:
+    permission: op
+    trigger:
+        set {pos_beacon} to location of target block
+        send "&aWither (beacon) spot set to %{pos_beacon}%"
+
+command /day_set_egg_spot:
+    permission: op
+    trigger:
+        set {pos_egg} to location of target block
+        send "&aDragon egg spot set to %{pos_egg}%"
+
+#
+command /map_status:
+    permission: op
+    trigger:
+        send "Map status:"
+        send "- wither: %{wither_defeated}%"
+        send "- dragon: %{dragon_defeated}%"
+        send "- warden: %{warden_defeated}%"
+#
+command /day_set_warden_spot:
+    permission: op
+    trigger:
+        set {warden_spot} to location of target block
+        send "&aWarden spot set to %{warden_spot}%"

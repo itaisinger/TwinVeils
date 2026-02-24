@@ -35,6 +35,12 @@ command /give_book <text>:
             ruminations_ii_book(player)
         if arg-1 is "enclosure 1":
             enclosure_note(player)
+        if arg-1 is "farmer":
+            farmer_journal(player)
+        if arg-1 is "library":
+            compass_library_rite(player)
+        if arg-1 is "maze":
+            travelers_eye_book(player)
 
 function morning_passage(p: player):
     set {_book} to a written book named "Passage of Dawn"
@@ -646,6 +652,201 @@ command /update_eschatology <integer>:
                             
         # 6. Finish message
         send "&aScan complete! Replaced &e%{_books_replaced}% &aold books." to player
+#
+function farmer_journal(p: player):
+    set {_book} to a written book named "Crop Log"
+    set author of {_book} to "Unknown"
+
+    # Page 1: The First Log
+    set {_p1} to ""
+    add "Second day after the bell of Saint Mildred." to {_p1}
+    add "%nl%%nl%Barley in the east strip near to a hand higher than last reckoning. Two patches thin by the ridge. Beet leaves bitten in the night." to {_p1}
+
+    # Page 2: Third Day
+    set {_p2} to ""
+    add "Third day." to {_p2}
+    add "%nl%%nl%Soft rain from the river wind. Pulled three turnips of good size; six left to grow. Hens strayed once. Fence mended." to {_p2}
+
+    # Page 3: Fourth and Fifth Day
+    set {_p3} to ""
+    add "Fourth day." to {_p3}
+    add "%nl%Cloud cover. Peas show ill upon two rows. Marked them. Oats stand even." to {_p3}
+    add "%nl%%nl%Fifth day." to {_p3}
+    add "%nl%Clear and dry. Crows many at dawn. Rye holds strong. One furrow found wanting." to {_p3}
+
+    # Page 4: The Shift
+    set {_p4} to ""
+    add "Tenth day I estimate" to {_p4}
+    add "%nl%%nl%Bout a week has passed since then. Lord be dammed, couldn't even explain what traspired here." to {_p4}
+    add "%nl%%nl%Last week, I be waking at dawn as per mornins I do." to {_p4}
+
+    # Page 5: The Disturbance
+    set {_p5} to ""
+    add "As I be grabbin water from the well, I reckon oat patches started waving rapidly, not eastern wind as they do at morns, but rapid rattling, as a snake or other insect pest be moving." to {_p5}
+
+    # Page 6: The Earthquake
+    set {_p6} to ""
+    add "As waving got faster, earth started moving beneath my feet, heard terrible noises, thunderstorm in summer." to {_p6}
+
+    # Page 7: The Lava
+    set {_p7} to ""
+    add "Turned around to go tell ma, when i saw burning lava, just outside Pelo’s north field. It was flowing down the hill." to {_p7}
+
+    # Page 8: The Escape
+    set {_p8} to ""
+    add "I ran south, looked for a uphill. The noises didn't grow down." to {_p8}
+    add "%nl%%nl%Another terrible rumble, like a lightning strike." to {_p8}
+
+    # Page 9: The Blackness
+    set {_p9} to ""
+    add "I turned around. Huge blackness rose from the ground into the sky. Black walls, endless. I don't remember much more." to {_p9}
+
+    # Page 10: The Aftermath
+    set {_p10} to ""
+    add "A few days i be tryin get by in this torn world. No idea where ma or what happened to ma and siblings." to {_p10}
+    add "%nl%%nl%Mayhaps they be stayin round Mildred land, cuz that not where i am." to {_p10}
+
+    # Page 11: The Temple
+    set {_p11} to ""
+    add "Other than me tower, everything round here is unfamiliar land. Only manned place round here was a temple looking northwest from here, but place was crawling with pests, couldn't get anyone." to {_p11}
+    
+    # Page 12: The Plan
+    set {_p12} to ""
+    add "Today I'll try going there again, as my supplies runnin dry. We'll see if they have some food." to {_p12}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p5}
+    set page 6 of {_book} to {_p6}
+    set page 7 of {_book} to {_p7}
+    set page 8 of {_book} to {_p8}
+    set page 9 of {_book} to {_p9}
+    set page 10 of {_book} to {_p10}
+    set page 11 of {_book} to {_p11}
+    set page 12 of {_book} to {_p12}
+
+    give {_book} to {_p}
+#
+function compass_library_rite(p: player):
+    set {_book} to a written book named "Rite of the compass library"
+    set author of {_book} to "The Traveler"
+    set {_c} to "<#012a39>"
+
+    # Page 1: The Location
+    set {_p1} to ""
+    add "After the desert, before the sunrise;" to {_p1}
+    add "%nl%%nl%North of morning, three moons before the valley;" to {_p1}
+ 
+    # Page 2: The Will
+    set {_p2} to ""
+    add "I willed the compass library." to {_p2}
+
+    # Page 3: The Wind
+    set {_p3} to ""
+    add "The whistling wind won't reach this room," to {_p3}
+    add "%nl%%nl%For it died yesteryear." to {_p3}
+
+    # Page 4: The Void
+    set {_p4} to ""
+    add "%nl%%nl%The children of darkness won't trouble you here," to {_p3}
+    add "%nl%%nl%For they occupy the night;" to {_p3}
+    add "And the night is not here." to {_p4}
+
+    # Page 5: The Isolation
+    set {_p5} to ""
+    add "A lone moment." to {_p5}
+    add "%nl%%nl%A far hour." to {_p5}
+    add "%nl%%nl%Like before." to {_p5}
+
+    # Page 6: The Contempt
+    set {_p6} to ""
+    add "Before there was life, and sun." to {_p6}
+    add "%nl%%nl%Here I’m condemned to contempt." to {_p6}
+    add "%nl%%nl%To a lack of others." to {_p6}
+
+    # Page 7: The Sinner
+    set {_p7} to ""
+    add "In a time long after home." to {_p7}
+    add "%nl%%nl%An eternal night. Solitary and solaced." to {_p7}
+    add "%nl%%nl%A time befitting a biblical sinner." to {_p7}
+
+    # Page 8: The Question
+    set {_p8} to ""
+    add "Hubris and vengeance;" to {_p8}
+    add "%nl%%nl%Cain and Abel, Day and Night;" to {_p8}
+    add "%nl%%nl%Who's just?" to {_p8}
+
+    # Page 9: The Wait
+    set {_p9} to ""
+    add "I've waited for long miles." to {_p9}
+    add "%nl%%nl%Will thou be a judge," to {_p9}
+    add "%nl%%nl%Will thou verdict thy maker?" to {_p9}
+
+    # Page 10: The Judge
+    set {_p10} to ""
+    add "No ordinary judge will suffice;" to {_p10}
+    add "%nl%%nl%A grandiose amalgamation of morality," to {_p10}
+    add "%nl%%nl%A celestial offspring must rise;" to {_p10}
+
+    # Page 11: The Plea
+    set {_p11} to ""
+    add "%{_c}%&lO truth,&r strike the heavens with judgement’s hammer;" to {_p11}
+    add "%nl%%nl%%{_c}%&lO son,&r bear no mercy to thy creator;" to {_p11}
+    add "%nl%%nl%%{_c}%&lO death,&r bring my demise if thou see fit;" to {_p11}
+
+    # Page 12: The Regret
+    set {_p12} to ""
+    add "For I've lived with regret and solitude from before the first embers of life were lit," to {_p12}
+    add "%nl%%nl%And the world yearns for passion this god can no longer grit." to {_p12}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+    set page 5 of {_book} to {_p5}
+    set page 6 of {_book} to {_p6}
+    set page 7 of {_book} to {_p7}
+    set page 8 of {_book} to {_p8}
+    set page 9 of {_book} to {_p9}
+    set page 10 of {_book} to {_p10}
+    set page 11 of {_book} to {_p11}
+    set page 12 of {_book} to {_p12}
+
+    give {_book} to {_p}
+#
+function travelers_eye_book(p: player):
+    set {_book} to a written book named "Leap of faith"
+    set author of {_book} to "The Traveler"
+
+    # Page 1: The Requirement
+    set {_p1} to ""
+    add "one needs the traveler's eye in order to peek past the present;" to {_p1}
+
+    # Page 2: The Visions
+    set {_p2} to ""
+    add "onto the night;" to {_p2}
+    add "%nl%%nl%onto yesteryear;" to {_p2}
+    add "%nl%%nl%onto the place beyond." to {_p2}
+
+    # Page 3: The Titles
+    set {_p3} to ""
+    add "The eye of the traveler;" to {_p3}
+    add "%nl%%nl%the pearl of the sea;" to {_p3}
+    add "%nl%%nl%the globe darkness;" to {_p3}
+
+    # Page 4: The Dive
+    set {_p4} to ""
+    add "One must possess the orb that defies space in order to dive thyself;" to {_p4}
+    add "%nl%%nl%Onto the endless void." to {_p4}
+
+    set page 1 of {_book} to {_p1}
+    set page 2 of {_book} to {_p2}
+    set page 3 of {_book} to {_p3}
+    set page 4 of {_book} to {_p4}
+
+    give {_book} to {_p}
 #
 function enclosure_note(p: player):
     set {_book} to a written book named "a note"
