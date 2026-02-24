@@ -1,1024 +1,512 @@
-[17:13:28] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-100-generic (amd64)
-[17:13:28] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[17:13:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:13:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
-[17:13:31] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
- - HidePlugins (1.0-1.21), SkBee (3.15.0)
-[17:13:31] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[17:13:35] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
-[17:13:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[17:13:37] [ServerMain/INFO]: Loaded 1470 recipes
-[17:13:37] [ServerMain/INFO]: Loaded 1584 advancements
-[17:13:37] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[17:13:38] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 482.0ms
-[17:13:38] [ServerMain/WARN]: resource-pack-id missing, using default of d59d4f92-3980-39b9-bd73-f2312a0ba0df
-[17:13:38] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[17:13:38] [Server thread/WARN]: ****************************
-[17:13:38] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[17:13:38] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[17:13:38] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[17:13:38] [Server thread/WARN]: ****************************
-[17:13:38] [Server thread/INFO]: Loading properties
-[17:13:38] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[17:13:38] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:13:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:13:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:13:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[17:13:39] [Server thread/INFO]: Default game type: SURVIVAL
-[17:13:39] [Server thread/INFO]: Generating keypair
-[17:13:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:13:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:13:39] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[17:13:39] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[17:13:39] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[17:13:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:13:40] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[17:13:40] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[17:13:40] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[17:13:41] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@186ed24f]
-[17:13:41] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[17:13:41] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[17:13:41] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v1.0-1.21
-[17:13:41] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[17:13:41] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[17:13:41] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[17:13:41] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[17:13:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:13:42] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[17:13:42] [Server thread/INFO]:         __    
-[17:13:42] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[17:13:42] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:13:42] [Server thread/INFO]: 
-[17:13:42] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:13:43] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:13:43] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:13:43] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1151ms)
-[17:13:43] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[17:13:43] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[17:13:43] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[17:13:43] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[17:13:43] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:13:43] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:13:44] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[17:13:45] [Server thread/INFO]: Preparing level "world"
-[17:13:45] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
-[17:13:45] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 2 NUMA nodes.
-[17:13:46] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
-[17:13:46] [Server thread/INFO]: Preparing spawn area: 28%
-[17:13:47] [Server thread/INFO]: Prepared spawn area in 537 ms
-[17:13:47] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[17:13:47] [Server thread/INFO]: Prepared spawn area in 2 ms
-[17:13:47] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[17:13:47] [Server thread/INFO]: Prepared spawn area in 0 ms
-[17:13:47] [Server thread/INFO]: Done preparing level "world" (1.476s)
-[17:13:47] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[17:13:47] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[17:13:49] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[17:13:49] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[17:13:50] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[17:13:50] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v1.0-1.21
-[17:13:50] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[17:13:50] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[17:13:50] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[17:13:50] [Server thread/INFO]: [TAB] Enabled in 527ms
-[17:13:50] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[17:13:50] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[17:13:51] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[17:13:51] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[17:13:51] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[17:13:51] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[17:13:51] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[17:13:51] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[17:13:51] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[17:13:51] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[17:13:52] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[17:13:52] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[17:13:52] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[17:13:52] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[17:13:52] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[17:13:52] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[17:13:52] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[17:13:52] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[17:13:52] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[17:13:52] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[17:13:52] [Server thread/INFO]: [SkBee]  - 56 events
-[17:13:52] [Server thread/INFO]: [SkBee]  - 71 effects
-[17:13:52] [Server thread/INFO]: [SkBee]  - 240 expressions
-[17:13:52] [Server thread/INFO]: [SkBee]  - 27 conditions
-[17:13:52] [Server thread/INFO]: [SkBee]  - 32 sections
-[17:13:52] [Server thread/INFO]: [SkBee]  - 11 properties
-[17:13:52] [Server thread/INFO]: [SkBee] Update checker disabled!
-[17:13:52] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 1.39 seconds
-[17:13:52] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[17:13:52] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[17:13:52] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[17:13:52] [Server thread/INFO]: [spark] Starting background profiler...
-[17:13:53] [Server thread/INFO]: Running delayed init tasks
-[17:13:53] [Thread-13/INFO]: [Skript] Loaded 5684 aliases in 3783ms
-[17:13:53] [Server thread/INFO]: [Skript] Loading variables...
-[17:13:53] [Server thread/INFO]: [Skript] Loaded 567 variables in 0.0 seconds
-[17:14:02] [Server thread/INFO]: Gamerule advance_time is now set to: false
-[17:14:02] [Server thread/INFO]: Gamerule random_tick_speed is now set to: 2
-[17:14:02] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
-[17:14:02] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
-[17:14:02] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
-[17:14:02] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[17:14:02] [Server thread/INFO]: [Skript] Loaded 35 scripts with a total of 355 structures in 9.08 seconds
-[17:14:02] [Server thread/INFO]: [Skript] Finished loading.
-[17:14:02] [Server thread/INFO]: Done (34.912s)! For help, type "help"
-[17:14:02] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 29 build(s) behind ***
-[17:14:02] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[17:14:47] [User Authenticator #0/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
-[17:14:47] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[17:14:50] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
-[17:14:50] [Server thread/INFO]: DonalDucker[/176.229.5.32:57475] logged in with entity id 1 at ([world_nether]-1.3992592659397447, 161.0, 129.2884246695917)
-[17:14:51] [Server thread/INFO]: Added DonalDucker to team [uniChat]
-[17:14:51] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
-[17:18:02] [User Authenticator #1/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
-[17:18:07] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
-[17:18:07] [Server thread/INFO]: LickMyLeg[/147.235.194.77:1699] logged in with entity id 125 at ([world]-464.30000001192093, 71.0, 504.30000001192093)
-[17:18:08] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
-[17:18:08] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
-[17:29:44] [Server thread/INFO]: DonalDucker lost connection: Disconnected
-[17:29:44] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
-[17:36:58] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[17:37:08] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.11-88-8556cb4 (MC: 1.21.11) ---
-[17:37:08] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[17:37:08] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:37:08] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[17:37:08] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:37:08] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:37:08] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[17:37:08] [Paper Watchdog Thread/ERROR]: 	Stack:
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.Objects.hashCode(Objects.java:103)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.invoke.LambdaForm$MH/0x000074de30105c00.invoke(LambdaForm$MH)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.invoke.LambdaForm$MH/0x000074de30368c00.invoke(LambdaForm$MH)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.invoke.LambdaForm$MH/0x000074de30369000.linkToTargetMethod(LambdaForm$MH)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Fold$HmapCacheKey.hashCode(Fold.java:29)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1694)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Fold.lambda$eval$2(Fold.java:87)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Fold$$Lambda/0x000074de32617530.apply(Unknown Source)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.applyUnchecked(Comp.java:126)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp.lambda$eval$2(Comp.java:118)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.functions.Comp$$Lambda/0x000074de3186c788.apply(Unknown Source)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.capWrite(Type.java:167)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.lambda$readAndWrite$10(Type.java:159)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type$$Lambda/0x000074de3186c2f8.apply(Unknown Source)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.serialization.DataResult$Success.flatMap(DataResult.java:201)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.types.Type.readAndWrite(Type.java:158)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		com.mojang.datafixers.DataFixerUpper.update(DataFixerUpper.java:78)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.legacy.CraftLegacy.<clinit>(CraftLegacy.java:406)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.util.CraftMagicNumbers.getBlock(CraftMagicNumbers.java:147)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.block.CraftBlockState.setRawData(CraftBlockState.java:293)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.BukkitEventValues.lambda$static$31(BukkitEventValues.java:290)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.classes.data.BukkitEventValues$$Lambda/0x000074de319bb0f0.convert(Unknown Source)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.EventValueExpression.getValue(EventValueExpression.java:283)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.EventValueExpression.get(EventValueExpression.java:264)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.WrapperExpression.get(WrapperExpression.java:49)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.getArray(SimpleExpression.java:86)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.ConvertedExpression.getArray(ConvertedExpression.java:213)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.expressions.base.WrapperExpression.get(WrapperExpression.java:49)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.util.SimpleExpression.check(SimpleExpression.java:144)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.conditions.CondCompare.check(CondCompare.java:327)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Condition.evaluate(Condition.java:88)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Condition.evaluate(Condition.java:25)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.Conditional.evaluate(Conditional.java:45)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.Conditional.evaluateAnd(Conditional.java:105)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.CompoundConditional.evaluate(CompoundConditional.java:85)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//org.skriptlang.skript.lang.condition.CompoundConditional.evaluate(CompoundConditional.java:68)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.sections.SecConditional.checkConditions(SecConditional.java:417)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.sections.SecConditional.walk(SecConditional.java:306)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:67)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:33)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.lambda$execute$2(SkriptEventHandler.java:165)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$$Lambda/0x000074de31de68b0.run(Unknown Source)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.lambda$execute$3(SkriptEventHandler.java:176)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$$Lambda/0x000074de31de6ad8.call(Unknown Source)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.util.Task.callSync(Task.java:147)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.util.Task.callSync(Task.java:131)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.execute(SkriptEventHandler.java:174)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler.check(SkriptEventHandler.java:120)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$PriorityListener.lambda$new$0(SkriptEventHandler.java:46)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		Skript-2.12.2.jar//ch.njol.skript.SkriptEventHandler$PriorityListener$$Lambda/0x000074de31dc2838.execute(Unknown Source)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		org.bukkit.event.Event.callEvent(Event.java:46)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.event.CraftEventFactory.getPlayerBucketEvent(CraftEventFactory.java:598)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerBucketEmptyEvent(CraftEventFactory.java:572)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.BucketItem.emptyContents(BucketItem.java:141)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.BucketItem.use(BucketItem.java:89)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.item.ItemStack.use(ItemStack.java:554)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItem(ServerPlayerGameMode.java:449)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItem(ServerGamePacketListenerImpl.java:2200)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:48)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:9)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:99)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.PacketProcessor.executeSinglePacket(PacketProcessor.java:33)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1506)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1232)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x000074de30ff1ac8.run(Unknown Source)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.runWith(Thread.java:1596)
-[17:37:08] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.10/java.lang.Thread.run(Thread.java:1583)
-[17:37:08] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:37:08] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[17:37:08] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:37:37] [Server thread/INFO]: LickMyLeg: t
-[18:00:56] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
-[18:00:56] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
-[18:34:54] [User Authenticator #2/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
-[18:34:56] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
-[18:34:56] [Server thread/INFO]: LickMyLeg[/147.235.194.77:1777] logged in with entity id 21211 at ([world]-496.1045495069755, 71.0, 494.3809035371925)
-[18:34:57] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
-[18:34:57] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
-[19:28:36] [User Authenticator #3/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[19:28:39] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[19:28:39] [Server thread/INFO]: trololol72[/93.173.35.208:54383] logged in with entity id 42819 at ([world]503.95178189474706, 71.0, -480.80426223182826)
-[19:28:40] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[19:28:40] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[19:28:51] [Server thread/INFO]: trololol72 issued server command: /give_ocean_heads 1
-[19:28:51] [Server thread/INFO]: Gave 1 [Bastet] to trololol72
-[19:29:00] [Server thread/INFO]: trololol72 issued server command: /give_ocean_heads 2
-[19:29:00] [Server thread/INFO]: Gave 1 [Mandjet] to trololol72
-[19:29:01] [Server thread/INFO]: trololol72 issued server command: /give_ocean_heads 3
-[19:29:01] [Server thread/INFO]: Gave 1 [Sekhmet] to trololol72
-[19:29:07] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:30:10] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item,nbt={item:{id:"minecraft:player_head"}}]
-[19:30:29] [Server thread/INFO]: trololol72 issued server command: /kill @e[type=item]
-[19:30:29] [Server thread/INFO]: [trololol72: Killed 329 entities]
-[19:30:36] [Server thread/INFO]: Summoned new Player Head
-[19:30:51] [Server thread/INFO]: Summoned new Player Head
-[19:30:56] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[19:30:56] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[19:31:56] [Server thread/INFO]: Summoned new Player Head
-[19:32:12] [User Authenticator #4/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
-[19:32:13] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
-[19:32:13] [Server thread/INFO]: DonalDucker[/176.229.5.32:59122] logged in with entity id 46596 at ([world]-531.5015170033292, 73.0, 527.9119086083563)
-[19:32:14] [Server thread/INFO]: Added DonalDucker to team [uniChat]
-[19:32:14] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
-[19:32:30] [Server thread/INFO]: trololol72 issued server command: /tpb list
-[19:32:34] [Server thread/INFO]: trololol72 issued server command: /tpb ocean temple 1
-[19:32:38] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[19:32:48] [Server thread/INFO]: trololol72 issued server command: /effect give trololol72 minecraft:night_vision infinite 1 true
-[19:32:48] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
-[19:33:00] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[19:33:26] [Server thread/INFO]: Summoned new Player Head
-[19:34:50] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[19:34:50] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[19:35:24] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[19:35:24] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[19:45:59] [User Authenticator #5/INFO]: UUID of player sepsepony is 6f466547-39cf-4301-948f-093b8befb2f3
-[19:46:01] [Server thread/INFO]: [Join] sepsepony (Uni) joined
-[19:46:01] [Server thread/INFO]: sepsepony[/5.29.21.75:35350] logged in with entity id 54023 at ([world]581.5, 63.0, -557.5)
-[19:46:02] [Server thread/INFO]: Added sepsepony to team [uniChat]
-[19:46:02] [Server thread/INFO]: [Sync] sepsepony -> Team uniChat
-[19:53:20] [Server thread/INFO]: LickMyLeg: &
-[19:53:32] [Server thread/INFO]: sepsepony: &
-[20:16:31] [Server thread/INFO]: Named entity WitherBoss['Ra'/70254, uuid='48e58b94-56c7-4fbd-866f-2b77446b02fa', l='ServerLevel[world]', x=687.47, y=66.43, z=-817.65, cpos=[42, -52], tl=952, v=true] died: Ra was slain by LickMyLeg
-[20:17:05] [User Authenticator #6/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[20:17:07] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[20:17:07] [Server thread/INFO]: trololol72[/93.173.35.208:55842] logged in with entity id 70920 at ([world]-531.8284927953115, 70.0, 511.51281735843855)
-[20:17:08] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[20:17:08] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[20:17:22] [Server thread/INFO]: trololol72 issued server command: /spectate LickMyLeg
-[20:17:25] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:17:26] [Server thread/INFO]: trololol72 issued server command: /spectate LickMyLeg
-[20:17:28] [Server thread/WARN]: trololol72 moved too quickly! 1.2305217050598003,-2.2699999809265137,10.721123087089723
-[20:17:29] [Server thread/WARN]: trololol72 moved too quickly! -2.5992300880561743,5.929015030369143,7.640774875909983
-[20:17:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:17:33] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:17:35] [Server thread/INFO]: trololol72 issued server command: /spectate LickMyLeg
-[20:17:45] [Server thread/INFO]: The particle was not visible for anybody
-[20:17:45] [Server thread/INFO]: The particle was not visible for anybody
-[20:17:45] [Server thread/INFO]: Named entity WitherBoss['Ra'/70557, uuid='ccaa87b4-ba18-4a6d-931d-7ea87d8b0152', l='ServerLevel[world]', x=0.00, y=-500.00, z=0.00, cpos=[0, 0], tl=1461, v=true] died: Ra was killed
-[20:19:38] [Server thread/INFO]: trololol72 issued server command: /spectate LickMyLeg
-[20:20:50] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc u
-[20:24:13] [Server thread/INFO]: trololol72 issued server command: /tpb nether enc u
-[20:24:15] [Server thread/INFO]: trololol72 issued server command: /spectate LickMyLeg
-[20:24:18] [Server thread/WARN]: trololol72 moved too quickly! 10.44230925894226,0.0,-3.919337602240489
-[20:24:19] [Server thread/WARN]: trololol72 moved too quickly! 9.196181846283253,2.244595864246051,3.5393564362613006
-[20:24:21] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:24:24] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:24:27] [Server thread/INFO]: trololol72 issued server command: /spectate LickMyLeg
-[20:25:21] [Server thread/INFO]: trololol72 issued server command: /effect clear
-[20:25:21] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
-[20:26:36] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[20:26:36] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[20:27:39] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[20:27:39] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[20:28:53] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:29:01] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:29:11] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[20:29:11] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[20:30:26] [Server thread/INFO]: trololol72 issued server command: /tpb enc f
-[20:30:31] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[20:30:40] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[20:30:51] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
-[20:42:17] [Server thread/INFO]: [Death] sepsepony was blown up by Creeper (Uni)
-[20:46:43] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[20:46:49] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:46:49] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:48:44] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[20:48:44] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[20:53:16] [Server thread/INFO]: trololol72 issued server command: /spectate l
-[20:53:19] [Server thread/INFO]: trololol72 issued server command: /spectate LickMyLeg
-[20:53:21] [Server thread/WARN]: trololol72 moved too quickly! 1.9802309707001768,4.187911675319555,-9.247724381170656
-[20:53:24] [Server thread/WARN]: trololol72 moved too quickly! 8.65816869440414,2.089943944753486,4.9624678151407124
-[20:53:25] [Server thread/WARN]: trololol72 moved too quickly! 16.30613356972458,-0.14168517272455006,3.6173921536847615
-[20:53:27] [Server thread/WARN]: trololol72 moved too quickly! 9.386409515155265,4.166109260938214,3.649252830439764
-[20:53:57] [Server thread/WARN]: trololol72 moved too quickly! 15.264736712298372,0.0,-2.3763326127138384
-[20:54:00] [Server thread/WARN]: trololol72 moved too quickly! 10.52246879171139,0.0,1.85206776301834
-[20:54:02] [Server thread/WARN]: trololol72 moved too quickly! 13.139067272265265,0.2468000194787976,2.1544102050552283
-[20:54:03] [Server thread/WARN]: trololol72 moved too quickly! 12.04991720105636,0.2548114243101338,2.777499786015369
-[20:54:04] [Server thread/WARN]: trololol72 moved too quickly! 12.242421371626733,-0.6783707188531594,2.8513339604763246
-[20:54:06] [Server thread/WARN]: trololol72 moved too quickly! 25.21244333221466,1.055462434525026,2.1529388655052912
-[20:54:08] [Server thread/WARN]: trololol72 moved too quickly! 24.35500728450529,-0.880039138572954,-1.2262650855959691
-[20:54:11] [Server thread/WARN]: trololol72 moved too quickly! 15.372513402683126,-0.16477328182605788,-1.0173005468537895
-[20:54:17] [Server thread/WARN]: trololol72 moved too quickly! 15.084300396923254,0.41290928041701136,4.361602868654359
-[20:54:25] [Server thread/WARN]: trololol72 moved too quickly! 11.653375477753798,-1.0435356201474804,7.01253449634811
-[20:54:28] [Server thread/WARN]: trololol72 moved too quickly! 14.612109323628829,-0.20326439933131724,-2.8321950028361584
-[20:54:30] [Server thread/WARN]: trololol72 moved too quickly! 12.268832534919056,-0.16610926093821377,-7.078442224383309
-[20:54:32] [Server thread/WARN]: trololol72 moved too quickly! 19.36073419143281,-0.010650014126014185,8.498474055584325
-[20:54:34] [Server thread/WARN]: trololol72 moved too quickly! 13.14863940677219,1.176759275064228,-0.5696462685425558
-[20:54:38] [Server thread/WARN]: trololol72 moved too quickly! -4.058921719353066,-1.1661092609382138,13.81051150079037
-[20:54:40] [Server thread/WARN]: trololol72 moved too quickly! -0.8321619692308104,0.14168517272455006,13.345856319385462
-[20:54:42] [Server thread/WARN]: trololol72 moved too quickly! -4.915093081444638,1.0244240882136637,11.495676992137135
-[20:54:47] [Server thread/WARN]: trololol72 moved too quickly! -9.484406878702202,-1.0,-4.299492954318566
-[20:54:49] [Server thread/WARN]: trololol72 moved too quickly! -10.611026457235766,-1.0,-1.6515324477589957
-[20:55:00] [Server thread/WARN]: trololol72 moved too quickly! -0.7716894811317161,-8.0,8.908379418985646
-[20:55:30] [Server thread/WARN]: trololol72 moved too quickly! 1.6953270375911416,11.67840026378633,3.5304205195481586
-[20:55:35] [Server thread/WARN]: trololol72 moved too quickly! -9.00139799614226,5.072412657468988,-4.667789060224038
-[20:55:39] [Server thread/WARN]: trololol72 moved too quickly! 8.965588918214962,1.2491870787446828,-4.266214052536782
-[20:55:41] [Server thread/WARN]: trololol72 moved too quickly! -9.624789648152046,-0.12129684053920187,6.319770873487016
-[20:56:15] [Server thread/WARN]: trololol72 moved too quickly! 9.381459360763984,3.8549288465816858,2.848005726354245
-[20:56:24] [Server thread/WARN]: trololol72 moved too quickly! -0.7877805380569498,10.266367993957516,-2.2500266184043767
-[20:56:51] [Server thread/WARN]: trololol72 moved too quickly! -5.586228658120717,7.975575911786336,3.2872340374590294
-[20:56:58] [Server thread/WARN]: trololol72 moved too quickly! -10.691287881964627,0.02442408821366371,0.24575985814584556
-[20:57:27] [Server thread/WARN]: trololol72 moved too quickly! 11.10423359406036,0.0,-0.7985363954209106
-[20:58:05] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-1437, y=157, z=348}
-[20:58:05] [Server thread/ERROR]: POI data mismatch: never registered at BlockPos{x=-1437, y=156, z=348}
-[20:58:17] [Server thread/WARN]: trololol72 moved too quickly! 6.235499901626781,-10.5,-0.9376974257934307
-[20:58:52] [Server thread/WARN]: trololol72 moved too quickly! -2.0197918435274005,-10.0,-1.2361152677898986
-[20:59:29] [Server thread/WARN]: trololol72 moved too quickly! 2.1181495271828226,-11.262936130173642,1.5649960236804645
-[21:01:12] [Server thread/WARN]: trololol72 moved too quickly! 1.17753000698076,-7.737063869826358,7.6190177172901485
-[21:01:57] [Server thread/WARN]: trololol72 moved too quickly! -5.703818350803203,1.5,-8.900521654843885
-[21:02:28] [Server thread/WARN]: trololol72 moved too quickly! 4.310918689467144,11.081609662811616,1.2815039375537367
-[21:02:42] [Server thread/WARN]: trololol72 moved too quickly! -4.716616048873675,4.918390337188384,-8.306400056549535
-[21:02:44] [Server thread/WARN]: trololol72 moved too quickly! 12.181327248742264,-0.12129684053920187,3.0090380705893267
-[21:02:46] [Server thread/WARN]: trololol72 moved too quickly! 10.831297383489982,0.12129684053920187,6.771265840327146
-[21:02:49] [Server thread/WARN]: trololol72 moved too quickly! 8.50690378951117,-2.249187078744683,10.251835175767724
-[21:02:54] [Server thread/WARN]: trololol72 moved too quickly! 6.3407110408459175,-6.916922182193531,-6.946827288921213
-[21:02:56] [Server thread/WARN]: trololol72 moved too quickly! -9.545885614992812,0.369373660269531,-9.308929614275769
-[21:02:59] [Server thread/WARN]: trololol72 moved too quickly! -5.381043179702374,-0.369373660269531,-13.69553228024148
-[21:03:02] [Server thread/WARN]: trololol72 moved too quickly! -13.77129080293048,1.1661092609382138,-5.832734861628182
-[21:03:05] [Server thread/WARN]: trololol72 moved too quickly! -11.889920556024663,-2.249187078744683,5.331390652289656
-[21:03:46] [Server thread/WARN]: trololol72 moved too quickly! 8.7840956367927,1.2491870787446828,4.9143943626423265
-[21:03:49] [Server thread/WARN]: trololol72 moved too quickly! -14.940491918739326,0.0,-0.7906918522180604
-[21:03:56] [Server thread/WARN]: trololol72 moved too quickly! 13.884490827980699,0.0,-0.7284803877287231
-[21:03:59] [Server thread/WARN]: trololol72 moved too quickly! -12.534228361525948,-0.41999998688697815,-3.635982700602085
-[21:04:25] [Server thread/WARN]: trololol72 moved too quickly! -5.40456946720451,10.419999986886978,11.155154940548869
-[21:04:32] [Server thread/WARN]: trololol72 moved too quickly! -4.487637541524691,2.0,10.324057757040748
-[21:05:07] [Server thread/WARN]: trololol72 moved too quickly! 6.205829405719442,-4.822991429030395,-6.8268817054093915
-[21:05:09] [Server thread/WARN]: trololol72 moved too quickly! 8.313335810289118,0.1949946260228046,-9.674920991189367
-[21:05:11] [Server thread/WARN]: trololol72 moved too quickly! -5.279893021433963,-0.10158628142517045,-9.14739944104042
-[21:05:17] [Server thread/WARN]: trololol72 moved too quickly! -1.9492590496097364,-0.2704169155672389,-10.190495463318541
-[21:05:19] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[21:05:19] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:34] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:07:35] [Server thread/INFO]: The particle was not visible for anybody
-[21:14:28] [User Authenticator #7/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[21:14:30] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[21:14:30] [Server thread/INFO]: trololol72[/93.173.35.208:57933] logged in with entity id 103639 at ([world]-1424.7648067980974, 180.95119997062682, 385.9481535484404)
-[21:14:31] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[21:14:31] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[21:15:37] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:15:41] [Server thread/INFO]: trololol72 issued server command: //wand
-[21:16:09] [Server thread/INFO]: trololol72 issued server command: //brush biome cyl wooded_badlands
-[21:16:13] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
-[21:16:38] [Server thread/INFO]: trololol72 issued server command: //brush biome cyl wooded_badlands 20
-[21:16:44] [Server thread/INFO]: trololol72 issued server command: //brush biome cyl 20 wooded_badlands
-[21:17:54] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:17:58] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:18:11] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:18:14] [Server thread/INFO]: trololol72 issued server command: /effect clear
-[21:18:14] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
-[21:18:19] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
-[21:18:19] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
-[21:19:24] [Server thread/INFO]: trololol72 issued server command: /spectate LickMyLeg
-[21:24:18] [Server thread/INFO]: trololol72 issued server command: /spectate sepsepony
-[21:28:43] [Server thread/INFO]: trololol72 issued server command: /maze_loop
-[21:28:57] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:28:58] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:29:10] [Server thread/INFO]: trololol72 issued server command: /maze_loop
-[21:29:16] [Server thread/INFO]: trololol72 issued server command: /maze_status
-[21:29:22] [Server thread/INFO]: trololol72 issued server command: /maze_chest_debug
-[21:29:29] [Server thread/INFO]: trololol72 issued server command: /maze_loop
-[21:31:49] [Server thread/INFO]: trololol72 issued server command: /maze_chest_debug on
-[21:31:55] [Server thread/INFO]: trololol72 issued server command: /maze_loop
-[21:32:24] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:32:37] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:34:13] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:34:30] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg trololol72
-[21:34:30] [Server thread/INFO]: [trololol72: Teleported LickMyLeg to trololol72]
-[21:34:34] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony trololol72
-[21:34:34] [Server thread/INFO]: [trololol72: Teleported sepsepony to trololol72]
-[21:34:46] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:34:48] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:35:17] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:35:23] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker trololol72
-[21:35:23] [Server thread/INFO]: [trololol72: Teleported DonalDucker to trololol72]
-[21:35:56] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:36:01] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:36:12] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:36:23] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:36:30] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:36:38] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:36:59] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:37:11] [Server thread/INFO]: trololol72 issued server command: /effect give trololol72 minecraft:night_vision infinite 1 true
-[21:37:11] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
-[21:37:14] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:37:20] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:37:23] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:37:28] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:37:31] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:37:36] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:37:41] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:37:53] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:37:55] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:38:00] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:38:06] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:38:17] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:38:36] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:39:48] [Server thread/INFO]: trololol72 issued server command: /spectate sepsepony
-[21:40:00] [Server thread/WARN]: trololol72 moved too quickly! -98.35484534219165,-71.0,-364.319134141477
-[21:40:06] [Server thread/INFO]: trololol72 issued server command: /effect clear
-[21:40:06] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
-[21:40:19] [Server thread/WARN]: trololol72 moved too quickly! -9.891597972459294,1.4950660194469663,0.03271959687185699
-[21:40:23] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:40:24] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:47:19] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:48:10] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:53:34] [Server thread/INFO]: trololol72 issued server command: /tp sepsepony
-[21:53:34] [Server thread/INFO]: [trololol72: Teleported trololol72 to sepsepony]
-[21:53:36] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:53:56] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:54:50] [Server thread/INFO]: trololol72 issued server command: /spectate sepsepony
-[21:54:57] [Server thread/INFO]: trololol72 issued server command: /spectate LickMyLeg
-[21:55:06] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[21:55:09] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[21:56:12] [Server thread/INFO]: [Death] sepsepony was slain by Zombie (Uni)
-[22:00:27] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[22:00:27] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[22:01:04] [Server thread/INFO]: [Death] sepsepony was slain by Zombie (Uni)
-[22:01:06] [User Authenticator #8/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[22:01:08] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[22:01:08] [Server thread/INFO]: trololol72[/93.173.35.208:58298] logged in with entity id 135813 at ([world]-495.0475651591781, 100.59737687916264, 546.7006891502311)
-[22:01:09] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[22:01:09] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[22:01:19] [Server thread/INFO]: trololol72 issued server command: /tpb lab
-[22:01:20] [Server thread/INFO]: [Death] sepsepony was blown up by Creeper (Uni)
-[22:01:21] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[22:01:31] [Server thread/INFO]: trololol72 issued server command: /maze_chest_debug on
-[22:01:35] [Server thread/INFO]: [Death] sepsepony tried to swim in lava to escape Husk (Uni)
-[22:01:37] [Server thread/INFO]: trololol72 issued server command: /maze_loop
-[22:01:51] [Server thread/INFO]: [Death] sepsepony tried to swim in lava (Uni)
-[22:01:53] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[22:02:22] [Server thread/INFO]: [Death] sepsepony tried to swim in lava (Uni)
-[22:02:23] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
-[22:02:23] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
-[22:02:23] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
-[22:02:28] [Server thread/INFO]: trololol72 issued server command: /maze_loop
-[22:03:10] [Server thread/INFO]: DonalDucker lost connection: Disconnected
-[22:03:10] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
-[22:03:46] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[22:03:46] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[22:04:42] [User Authenticator #9/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[22:04:43] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[22:04:43] [Server thread/INFO]: trololol72[/93.173.35.208:58520] logged in with entity id 138369 at ([world]-856.4707790399422, 70.37499983720303, -1364.8468901104243)
-[22:04:44] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[22:04:44] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[22:04:54] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[22:05:02] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[22:05:02] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[22:18:53] [Server thread/INFO]: Stopping the server
-[22:18:53] [Server thread/INFO]: Stopping server
-[22:18:53] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[22:18:53] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[22:18:53] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[22:18:53] [Server thread/INFO]: [TAB] Disabled in 1ms
-[22:18:53] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[22:18:53] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[22:18:53] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
-[22:18:53] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[22:18:53] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[22:18:53] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[22:18:53] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[22:18:53] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[22:18:53] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[22:18:53] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[22:18:53] [Server thread/INFO]: [LuckPerms] Closing storage...
-[22:18:54] [Server thread/INFO]: [LuckPerms] Goodbye!
-[22:18:54] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[22:18:54] [Server thread/INFO]: Saving players
-[22:18:54] [Server thread/INFO]: LickMyLeg lost connection: Server closed
-[22:18:54] [Server thread/INFO]: LickMyLeg left the game
-[22:18:54] [Server thread/INFO]: sepsepony lost connection: Server closed
-[22:18:54] [Server thread/INFO]: sepsepony left the game
-[22:18:54] [Server thread/INFO]: Saving worlds
-[22:18:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:18:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[22:18:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[22:18:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Saved 4648 block chunks, 5454 entity chunks, 0 poi chunks in world 'world' in 8.72s
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[22:19:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[22:19:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[22:19:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[22:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:19:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:19:03] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[22:19:03] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[22:19:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[22:19:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[00:02:13] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:04:42] [Server thread/INFO]: [Death] Mefanek tried to swim in lava (Friends)
+[00:04:49] [Server thread/INFO]: [Spawn Debug] Mefanek respawning without a bed.
+[00:04:49] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading Mefanek to Friends spawn (512, -512).
+[00:04:49] [Server thread/INFO]: Spread 1 entity/entities around 512.5, -511.5 with an average distance of 0.00 block(s) apart
+[00:05:21] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[00:08:11] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:08:13] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[00:08:18] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
+[00:08:18] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
+[00:09:37] [Server thread/INFO]: trololol72 issued server command: /tp ~ -64 ~
+[00:09:37] [Server thread/INFO]: [trololol72: Teleported trololol72 to 242.183091, -64.000000, -483.181934]
+[00:09:40] [Server thread/INFO]: trololol72 issued server command: //pos1
+[00:09:49] [Server thread/INFO]: trololol72 issued server command: /tp -242 -64 484
+[00:09:49] [Server thread/INFO]: [trololol72: Teleported trololol72 to -241.500000, -64.000000, 484.500000]
+[00:09:52] [Server thread/INFO]: trololol72 issued server command: //pos2
+[00:09:59] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[00:09:59] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[00:14:55] [Server thread/WARN]: Mefanek was kicked for floating too long!
+[00:14:55] [Server thread/INFO]: Mefanek lost connection: Flying is not enabled on this server
+[00:14:55] [Server thread/INFO]: [Quit] Mefanek (Friends) left
+[00:15:33] [User Authenticator #5/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
+[00:16:08] [Server thread/INFO]: Mefanek was kicked due to keepalive timeout!
+[00:16:08] [Server thread/INFO]: Mefanek (935626fa-b14f-4866-96a1-16b238f3f587) lost connection: Timed out
+[00:16:08] [Server thread/INFO]: Mefanek (935626fa-b14f-4866-96a1-16b238f3f587) lost connection: Timed out
+[00:17:53] [Server thread/INFO]: Mefanek (/79.177.152.231:5687) lost connection: Disconnected
+[00:18:11] [Server thread/INFO]: Mefanek (/79.177.152.231:5692) lost connection: Disconnected
+[00:23:15] [User Authenticator #6/INFO]: UUID of player Mefanek is 935626fa-b14f-4866-96a1-16b238f3f587
+[00:23:18] [Server thread/INFO]: [Join] Mefanek (Friends) joined
+[00:23:18] [Server thread/INFO]: Mefanek[/46.210.223.151:36104] logged in with entity id 79059 at ([world]86.53194069808018, -21.96572372422337, 58.978029514082586)
+[00:23:19] [Server thread/INFO]: Added Mefanek to team [friendsChat]
+[00:23:19] [Server thread/INFO]: [Sync] Mefanek -> Team friendsChat
+[00:30:44] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[00:30:44] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[00:31:51] [Server thread/INFO]: trololol72 issued server command: /spectate Mefanek
+[00:31:56] [Server thread/WARN]: trololol72 moved too quickly! 6.478368878515994,0.0,8.393564196927002
+[00:32:00] [Server thread/WARN]: trololol72 moved too quickly! -11.025185330899205,0.0,-2.0245793354228567
+[00:32:20] [Server thread/WARN]: trololol72 moved too quickly! -12.517758104773861,0.0,3.250894770212483
+[00:32:29] [Server thread/WARN]: trololol72 moved too quickly! 0.6600118829013581,0.0625,11.595743691135112
+[00:32:31] [Server thread/WARN]: trololol72 moved too quickly! 1.3890098338288226,1.9375,10.612452014929374
+[00:32:33] [Server thread/WARN]: trololol72 moved too quickly! -1.836251088861502,0.0,11.821646135941762
+[00:32:44] [Server thread/WARN]: trololol72 moved too quickly! -4.781690818770983,0.0,9.880641492421432
+[00:35:38] [Server thread/WARN]: trololol72 moved too quickly! -10.385644515021909,1.0,-2.9942961562585424
+[00:35:41] [Server thread/WARN]: trololol72 moved too quickly! -2.142367533790093,-2.1216000461578375,-9.576076266887753
+[00:35:44] [Server thread/WARN]: trololol72 moved too quickly! -2.678221798155164,-0.8783999538421625,-10.268909297908863
+[00:43:10] [Server thread/WARN]: trololol72 moved too quickly! 10.634625652890065,-1.0244240882136921,-5.085086373456306
+[00:43:12] [Server thread/WARN]: trololol72 moved too quickly! 10.59321083361715,1.0244240882136921,0.4691756554711901
+[00:43:21] [Server thread/WARN]: trololol72 moved too quickly! 10.48011892626107,1.0,5.37355821295921
+[00:43:29] [Server thread/WARN]: trololol72 moved too quickly! -9.285099630794264,-1.1661092609382138,-4.527713675845746
+[00:43:34] [Server thread/WARN]: trololol72 moved too quickly! -2.392469215501933,0.22860926093821377,-9.977791719164259
+[00:43:39] [Server thread/WARN]: trololol72 moved too quickly! 2.6917335064151757,-0.3147033402537289,13.395257412237413
+[00:43:41] [Server thread/WARN]: trololol72 moved too quickly! -0.335515305819456,1.2277792520400368,13.53146786789074
+[00:43:45] [Server thread/WARN]: trololol72 moved too quickly! 0.8510394332527653,-0.03807591178630787,13.707022975984387
+[00:44:08] [Server thread/WARN]: trololol72 moved too quickly! -2.697830370471877,2.0625,9.409065308816935
+[00:44:42] [Server thread/WARN]: trololol72 moved too quickly! -0.27418462621614026,-1.0,-13.699016285931748
+[00:44:46] [Server thread/WARN]: trololol72 moved too quickly! -1.3036843268094458,0.0,-11.49139867477561
+[00:44:48] [Server thread/WARN]: trololol72 moved too quickly! 4.646919020354176,-1.0,-10.866484835954452
+[00:44:51] [Server thread/WARN]: trololol72 moved too quickly! -9.067621253222342,-1.1212968405392019,-4.921527287982883
+[00:44:54] [Server thread/WARN]: trololol72 moved too quickly! -6.609799288489569,0.12129684053920187,-8.701609632414431
+[00:44:56] [Server thread/WARN]: trololol72 moved too quickly! 7.696534230327131,0.0,-7.612345929126889
+[00:44:59] [Server thread/WARN]: trololol72 moved too quickly! 4.2183622833767345,-1.0,-12.120143576536861
+[00:45:05] [Server thread/WARN]: trololol72 moved too quickly! -4.175313268336254,5.5415812748604765,7.470178890020065
+[00:45:07] [Server thread/WARN]: trololol72 moved too quickly! 1.4467630470180666,-0.5415812748604765,12.313353769278535
+[00:45:09] [Server thread/WARN]: trololol72 moved too quickly! 0.5991278597082896,0.0,12.200405278622952
+[00:45:12] [Server thread/WARN]: trololol72 moved too quickly! 6.500429354604819,-4.024424088213692,7.110712783348674
+[00:45:17] [Server thread/WARN]: trololol72 moved too quickly! -2.5069916926391898,0.02442408821369213,-10.370502843785175
+[00:45:23] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[00:46:38] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[00:48:10] [Server thread/INFO]: Mefanek lost connection: Disconnected
+[00:48:10] [Server thread/INFO]: [Quit] Mefanek (Friends) left
+[00:48:30] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[00:48:30] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[06:48:10] [User Authenticator #7/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
+[06:48:13] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
+[06:48:13] [Server thread/INFO]: Baba_Tova[/103.124.165.162:35384] logged in with entity id 85069 at ([world]-1124.2100552857996, 13.0, 1162.4897868076948)
+[06:48:14] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
+[06:48:14] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
+[06:48:29] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
+[06:48:29] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
+[06:49:46] [User Authenticator #8/INFO]: UUID of player Baba_Tova is 0075232c-ac17-4188-89e2-ef2c5b5c6724
+[06:49:48] [Server thread/INFO]: [Join] Baba_Tova (Friends) joined
+[06:49:48] [Server thread/INFO]: Baba_Tova[/103.124.165.162:53054] logged in with entity id 85230 at ([world]-1118.3210903955196, 13.0, 1156.9847947848089)
+[06:49:49] [Server thread/INFO]: Added Baba_Tova to team [friendsChat]
+[06:49:49] [Server thread/INFO]: [Sync] Baba_Tova -> Team friendsChat
+[07:12:33] [Server thread/INFO]: [Death] Baba_Tova was slain by Unborn Ma'at (Friends)
+[07:14:01] [Server thread/WARN]: Baba_Tova moved too quickly! 17.35023906591939,-0.08609407931551516,-17.952010324092452
+[07:17:42] [Server thread/INFO]: [Death] Baba_Tova was doomed to fall (Friends)
+[07:28:55] [Server thread/INFO]: [Death] Baba_Tova tried to swim in lava (Friends)
+[07:30:08] [Server thread/INFO]: [Death] Baba_Tova tried to swim in lava to escape Ghast (Friends)
+[07:49:11] [User Authenticator #9/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[07:49:12] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[07:49:12] [Server thread/INFO]: LickMyLeg[/147.235.194.77:1686] logged in with entity id 117011 at ([world]-467.4638586498531, 70.0, 506.90711856042816)
+[07:49:13] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[07:49:13] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[07:57:04] [Server thread/INFO]: [Death] Baba_Tova was doomed to fall (Friends)
+[07:59:34] [Server thread/INFO]: [Death] Baba_Tova burned to death (Friends)
+[08:01:29] [Server thread/INFO]: [Death] Baba_Tova fell out of the world (Friends)
+[08:19:16] [Server thread/INFO]: [Death] Baba_Tova hit the ground too hard (Friends)
+[08:19:52] [Server thread/INFO]: [Death] LickMyLeg was slain by Vindicator (Uni)
+[08:20:50] [Server thread/INFO]: [Death] LickMyLeg drowned (Uni)
+[08:21:59] [Server thread/INFO]: [Death] LickMyLeg was slain by Zombie (Uni)
+[08:22:00] [Server thread/INFO]: [Spawn Debug] LickMyLeg respawning without a bed.
+[08:22:00] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading LickMyLeg to Uni spawn (-512, 512).
+[08:22:00] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
+[08:42:37] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[08:42:37] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[08:51:23] [Server thread/INFO]: [Death] Baba_Tova was shot by Skeleton (Friends)
+[08:54:36] [Server thread/INFO]: [Death] Baba_Tova fell from a high place (Friends)
+[09:00:57] [Server thread/INFO]: [Death] Baba_Tova was shot by Skeleton (Friends)
+[09:01:04] [Server thread/INFO]: Baba_Tova lost connection: Disconnected
+[09:01:04] [Server thread/INFO]: [Quit] Baba_Tova (Friends) left
+[10:45:42] [User Authenticator #10/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[10:45:44] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[10:45:44] [Server thread/INFO]: LickMyLeg[/85.64.122.119:50090] logged in with entity id 159135 at ([world]327.836118363741, 103.0, 1271.9087662053025)
+[10:45:45] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[10:45:45] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[11:35:02] [User Authenticator #11/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[11:35:04] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[11:35:04] [Server thread/INFO]: DonalDucker[/176.229.5.32:58822] logged in with entity id 178034 at ([world]-506.2555513526065, 71.0, 516.8071427992148)
+[11:35:04] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[11:35:04] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[13:14:03] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[13:14:03] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[13:20:03] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[13:20:03] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[16:20:23] [User Authenticator #12/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[16:20:25] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[16:20:25] [Server thread/INFO]: LickMyLeg[/85.64.122.119:51290] logged in with entity id 219235 at ([world]-541.8219356043957, 68.0, 482.0422771558561)
+[16:20:26] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[16:20:26] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[17:58:29] [Server thread/INFO]: [Camp] Reinforcements have arrived at the Main Base!
+[18:00:53] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[18:00:53] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[18:18:29] [Server thread/INFO]: [Camp] Reinforcements have arrived at the Main Base!
+[18:37:23] [User Authenticator #13/INFO]: UUID of player sepsepony is 6f466547-39cf-4301-948f-093b8befb2f3
+[18:37:26] [Server thread/INFO]: [Join] sepsepony (Uni) joined
+[18:37:26] [Server thread/INFO]: sepsepony[/5.29.21.75:35366] logged in with entity id 248370 at ([world]-515.5, 74.0, 503.5)
+[18:37:27] [Server thread/INFO]: Added sepsepony to team [uniChat]
+[18:37:27] [Server thread/INFO]: [Sync] sepsepony -> Team uniChat
+[18:38:29] [Server thread/INFO]: [Camp] Reinforcements have arrived at the Main Base!
+[18:39:29] [Server thread/INFO]: [Death] sepsepony tried to swim in lava (Uni)
+[18:39:31] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
+[18:39:31] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
+[18:39:31] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
+[18:39:41] [Server thread/INFO]: [Death] sepsepony fell from a high place (Uni)
+[18:39:42] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
+[18:39:42] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
+[18:39:42] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
+[18:43:37] [Server thread/INFO]: [Death] sepsepony was slain by Enderman (Uni)
+[18:43:38] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
+[18:43:38] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
+[18:43:38] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
+[18:44:27] [Server thread/INFO]: [Death] sepsepony was slain by Enderman (Uni)
+[18:44:28] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
+[18:44:28] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
+[18:44:28] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
+[18:44:53] [User Authenticator #14/INFO]: UUID of player LickMyLeg is ab7603c3-1a75-466d-b41c-2f9a63858b12
+[18:44:55] [Server thread/INFO]: [Join] LickMyLeg (Uni) joined
+[18:44:55] [Server thread/INFO]: LickMyLeg[/85.64.122.119:51765] logged in with entity id 252509 at ([world]553.6999999880791, 72.0, -537.4832779716871)
+[18:44:56] [Server thread/INFO]: Added LickMyLeg to team [uniChat]
+[18:44:56] [Server thread/INFO]: [Sync] LickMyLeg -> Team uniChat
+[18:57:39] [Server thread/WARN]: LickMyLeg moved too quickly! -14.653240761719161,-0.08307781780646906,14.935521872901333
+[18:58:34] [Server thread/INFO]: [Camp] Reinforcements have arrived at the Main Base!
+[19:07:52] [Server thread/INFO]: sepsepony: I BUILD AQUARIUM
+[19:07:56] [Server thread/INFO]: LickMyLeg: OK
+[19:18:34] [Server thread/INFO]: [Camp] Reinforcements have arrived at the Main Base!
+[19:25:14] [Server thread/WARN]: LickMyLeg moved wrongly!
+[19:28:02] [User Authenticator #15/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[19:28:04] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[19:28:04] [Server thread/INFO]: DonalDucker[/176.229.5.32:62460] logged in with entity id 281934 at ([world]-526.5, 68.875, 486.5)
+[19:28:05] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[19:28:05] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[19:28:16] [Server thread/INFO]: [Death] sepsepony was speared by Husk (Uni)
+[19:28:17] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
+[19:28:17] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
+[19:28:17] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
+[19:30:57] [Server thread/INFO]: [Death] sepsepony was shot by Parched (Uni)
+[19:30:58] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
+[19:30:58] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
+[19:30:58] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
+[19:38:34] [Server thread/INFO]: [Camp] Reinforcements have arrived at the Main Base!
+[20:14:01] [Server thread/INFO]: [Death] sepsepony was shot by Stray (Uni)
+[20:30:04] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[20:30:04] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[20:34:20] [User Authenticator #16/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[20:34:23] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[20:34:23] [Server thread/INFO]: trololol72[/176.228.171.82:63047] logged in with entity id 307276 at ([world]483.4863239646935, 71.0, -505.9500531479846)
+[20:34:24] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[20:34:24] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[20:35:24] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[20:36:02] [Server thread/INFO]: trololol72 issued server command: /tpb b
+[20:36:14] [Server thread/INFO]: trololol72 issued server command: /tptool
+[20:36:17] [Server thread/INFO]: trololol72 issued server command: //wand
+[20:37:39] [Server thread/INFO]: trololol72 issued server command: /tpb lab
+[20:37:47] [Server thread/INFO]: trololol72 issued server command: /tpb b
+[20:37:55] [Server thread/INFO]: trololol72 issued server command: /tpb lab
+[20:38:27] [Server thread/INFO]: trololol72 issued server command: //pos2
+[20:38:53] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[20:41:06] [Server thread/INFO]: trololol72 issued server command: //copy
+[20:41:28] [Server thread/INFO]: trololol72 issued server command: //copy
+[20:41:48] [Server thread/INFO]: trololol72 issued server command: //schem save mine
+[20:41:49] [WorldEdit Task Executor - 0/INFO]: trololol72 saved /root/rep/minecraft2weekPhase/servers/world server/plugins/FastAsyncWorldEdit/schematics/mine.schem
+[20:42:23] [Server thread/INFO]: trololol72 issued server command: //pos2
+[20:42:25] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[20:44:28] [Server thread/INFO]: trololol72 issued server command: //copy
+[20:44:40] [Server thread/INFO]: trololol72 issued server command: //schem save mine_up
+[20:44:40] [WorldEdit Task Executor - 1/INFO]: trololol72 saved /root/rep/minecraft2weekPhase/servers/world server/plugins/FastAsyncWorldEdit/schematics/mine_up.schem
+[20:44:57] [Server thread/INFO]: trololol72 issued server command: //copy
+[20:45:03] [Server thread/INFO]: trololol72 issued server command: //schem save mine
+[20:45:08] [Server thread/INFO]: trololol72 issued server command: //schem save mine -f
+[20:45:08] [WorldEdit Task Executor - 1/INFO]: trololol72 saved /root/rep/minecraft2weekPhase/servers/world server/plugins/FastAsyncWorldEdit/schematics/mine.schem
+[20:45:25] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[20:45:46] [Server thread/INFO]: trololol72 issued server command: /schem load mine
+[20:46:01] [Server thread/INFO]: trololol72 issued server command: //paste -m air,#rails,torch,wall_torch
+[20:46:42] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[20:46:50] [Server thread/INFO]: trololol72 issued server command: //undo
+[20:47:00] [Server thread/INFO]: trololol72 issued server command: //paste
+[20:47:03] [User Authenticator #17/INFO]: UUID of player Imashcha1 is e8501483-79fa-4724-9461-f461b5f621f7
+[20:47:04] [Server thread/INFO]: [Join] Imashcha1 (Friends) joined
+[20:47:04] [Server thread/INFO]: Imashcha1[/93.173.36.93:50976] logged in with entity id 313219 at ([world]499.23195830768316, 76.0, -473.68545158508687)
+[20:47:05] [Server thread/INFO]: Added Imashcha1 to team [friendsChat]
+[20:47:05] [Server thread/INFO]: [Sync] Imashcha1 -> Team friendsChat
+[20:47:13] [Server thread/INFO]: trololol72 issued server command: //replace 10%#rails,10%torch air
+[20:47:32] [Server thread/INFO]: [Death] sepsepony was speared by LickMyLeg (Uni)
+[20:47:54] [Server thread/INFO]: [Death] sepsepony was shot by Stray (Uni)
+[20:48:17] [Server thread/INFO]: [Death] sepsepony was shot by Stray (Uni)
+[20:48:18] [Server thread/INFO]: [Spawn Debug] sepsepony respawning without a bed.
+[20:48:18] [Server thread/INFO]: [Spawn Debug] Respawn: Spreading sepsepony to Uni spawn (-512, 512).
+[20:48:18] [Server thread/INFO]: Spread 1 entity/entities around -511.5, 512.5 with an average distance of 0.00 block(s) apart
+[20:49:03] [Server thread/INFO]: trololol72 issued server command: //replace 10%#rails,10%torch air
+[20:49:07] [Server thread/INFO]: trololol72 issued server command: //paste -m 90%rail,90%powered_rail,90%detector_rail,90%activator_rail,90%torch,90%wall_torch,air
+[20:49:24] [Server thread/INFO]: trololol72 issued server command: //paste -m 90%rail,90%torch,90%wall_torch,air
+[20:51:59] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[20:52:14] [Server thread/INFO]: trololol72 issued server command: //replace bedrock structure_void
+[20:53:20] [Server thread/INFO]: trololol72 issued server command: /give trololol72 minecraft:structure_block
+[20:53:20] [Server thread/INFO]: [trololol72: Gave 1 [Structure Block] to trololol72]
+[20:55:08] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[20:55:21] [Server thread/INFO]: trololol72 issued server command: /place template mine ~ ~ ~ none none 0.9
+[20:55:21] [Server thread/INFO]: [trololol72: Loaded template "minecraft:mine" at -577, 57, -1454]
+[20:55:38] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[20:55:45] [Server thread/INFO]: trololol72 issued server command: /place template mine ~ ~ ~ none none 0.9
+[20:55:45] [Server thread/INFO]: [trololol72: Loaded template "minecraft:mine" at -576, 58, -1450]
+[20:55:59] [Server thread/INFO]: trololol72 issued server command: /place template mine ~ ~ ~ none none 0.9
+[20:55:59] [Server thread/INFO]: [trololol72: Loaded template "minecraft:mine" at -575, 58, -1445]
+[20:56:07] [Server thread/INFO]: trololol72 issued server command: /place template mine ~ ~ ~ none none 0.9
+[20:56:07] [Server thread/INFO]: [trololol72: Loaded template "minecraft:mine" at -575, 58, -1440]
+[20:56:12] [Server thread/INFO]: trololol72 issued server command: /place template mine ~ ~ ~ none none 0.9
+[20:56:12] [Server thread/INFO]: [trololol72: Loaded template "minecraft:mine" at -575, 58, -1435]
+[20:56:27] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[20:56:27] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[20:56:39] [Server thread/INFO]: trololol72 issued server command: //replacenear 30 dirt bedrock
+[20:56:44] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[20:56:48] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[20:57:17] [Server thread/INFO]: trololol72 issued server command: //copy
+[20:57:25] [Server thread/INFO]: trololol72 issued server command: //paste
+[20:57:43] [User Authenticator #18/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[20:57:44] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[20:57:44] [Server thread/INFO]: DonalDucker[/176.229.5.32:54992] logged in with entity id 320593 at ([world]-514.3000000119209, 226.18409727196877, -413.0407113352538)
+[20:57:45] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[20:57:45] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[20:58:03] [Server thread/INFO]: trololol72 issued server command: //paste
+[20:58:08] [Server thread/INFO]: trololol72 issued server command: //undo
+[20:58:13] [Server thread/INFO]: trololol72 issued server command: //paste
+[20:58:20] [Server thread/INFO]: trololol72 issued server command: //undo
+[20:58:27] [Server thread/INFO]: trololol72 issued server command: //paste
+[20:59:21] [Server thread/INFO]: trololol72 issued server command: //copy
+[20:59:27] [Server thread/INFO]: trololol72 issued server command: //paste
+[20:59:32] [Server thread/INFO]: trololol72 issued server command: //paste
+[20:59:37] [Server thread/INFO]: trololol72 issued server command: //undo
+[20:59:40] [Server thread/INFO]: trololol72 issued server command: //paste
+[20:59:43] [Server thread/INFO]: trololol72 issued server command: //undo
+[21:00:12] [Server thread/INFO]: trololol72 issued server command: //undo
+[21:01:34] [Server thread/INFO]: trololol72 issued server command: /tpb enc u
+[21:01:35] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[21:01:56] [Server thread/INFO]: trololol72 issued server command: /tpb list
+[21:02:05] [Server thread/INFO]: trololol72 issued server command: /tpb trial chest
+[21:02:25] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[21:02:34] [Server thread/INFO]: trololol72 issued server command: //schem load mine
+[21:02:36] [Server thread/INFO]: trololol72 issued server command: //paste
+[21:02:42] [Server thread/INFO]: trololol72 issued server command: //undo
+[21:02:47] [Server thread/INFO]: trololol72 issued server command: //rotate 90 0
+[21:02:50] [Server thread/INFO]: trololol72 issued server command: //paste
+[21:02:56] [Server thread/INFO]: trololol72 issued server command: //undo
+[21:03:14] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:03:23] [Server thread/INFO]: trololol72 issued server command: //undo
+[21:03:32] [Server thread/INFO]: trololol72 issued server command: //paste
+[21:03:35] [Server thread/INFO]: trololol72 issued server command: //undo
+[21:03:42] [Server thread/INFO]: trololol72 issued server command: //undo
+[21:04:25] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:04:45] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:04:49] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:04:52] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:04:57] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:05:45] [Server thread/INFO]: trololol72 issued server command: //brush sphere 95%air,5%#existing 4
+[21:05:48] [Server thread/INFO]: trololol72 issued server command: //mask #solid
+[21:05:51] [Server thread/INFO]: trololol72 issued server command: //undo
+[21:05:55] [Server thread/INFO]: trololol72 issued server command: //mask air
+[21:06:56] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[21:06:56] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[21:07:01] [Server thread/INFO]: trololol72 issued server command: /tpb list
+[21:07:10] [Server thread/INFO]: trololol72 issued server command: /tpb mineshaft village
+[21:07:14] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[21:07:29] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[21:07:42] [Server thread/INFO]: trololol72 issued server command: /effect give trololol72 minecraft:night_vision infinite 1 true
+[21:07:42] [Server thread/INFO]: [trololol72: Applied effect Night Vision to trololol72]
+[21:07:45] [Server thread/INFO]: trololol72 issued server command: //paste
+[21:07:49] [Server thread/INFO]: trololol72 issued server command: //undo
+[21:07:54] [Server thread/INFO]: trololol72 issued server command: //rotate 90 0
+[21:08:01] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:08:04] [Server thread/INFO]: trololol72 issued server command: //undo
+[21:08:07] [Server thread/INFO]: trololol72 issued server command: //rotate 180 0
+[21:08:12] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:08:16] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:08:19] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:08:22] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:08:25] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:08:28] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:08:31] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:08:45] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:08:48] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:10:06] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:10:09] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:10:12] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:10:14] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:10:16] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:10:26] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:10:41] [Server thread/INFO]: trololol72 issued server command: //paste -m air,rail,torch,wall_torch
+[21:11:45] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[21:12:05] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
+[21:12:05] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
+[21:12:10] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[21:12:16] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[21:22:15] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[21:22:20] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[21:22:22] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
+[21:22:22] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
+[21:26:17] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
+[21:26:17] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
+[21:26:51] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[21:27:00] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[21:27:39] [Server thread/INFO]: trololol72 issued server command: /tp DonalDucker
+[21:27:39] [Server thread/INFO]: [trololol72: Teleported trololol72 to DonalDucker]
+[21:28:45] [Server thread/INFO]: Villager Villager['Villager'/335473, uuid='f6652235-dc76-45c6-b574-d0a6c4febeba', l='ServerLevel[world]', x=-444.76, y=73.00, z=-649.30, cpos=[-28, -41], tl=821, v=true] died, message: 'Villager was slain by Zombie'
+[21:29:49] [Server thread/INFO]: sepsepony lost connection: Disconnected
+[21:29:49] [Server thread/INFO]: [Quit] sepsepony (Uni) left
+[21:35:52] [Server thread/WARN]: LickMyLeg moved wrongly!
+[21:53:09] [Server thread/INFO]: trololol72 issued server command: /tp LickMyLeg
+[21:53:09] [Server thread/INFO]: [trololol72: Teleported trololol72 to LickMyLeg]
+[21:53:19] [Server thread/INFO]: trololol72 issued server command: /effect clear
+[21:53:19] [Server thread/INFO]: [trololol72: Removed every effect from trololol72]
+[21:57:43] [Server thread/INFO]: trololol72 issued server command: /tpb ancient 1
+[21:57:52] [Server thread/INFO]: trololol72 issued server command: /tpb ancient 2
+[21:58:09] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[21:59:16] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[21:59:16] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[22:00:06] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[22:00:06] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[22:00:34] [User Authenticator #19/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[22:00:36] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[22:00:36] [Server thread/INFO]: trololol72[/176.228.171.82:63935] logged in with entity id 357844 at ([world]-1324.4077777929642, 29.116004558581785, 1422.1728284954952)
+[22:00:36] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[22:00:36] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[22:02:15] [Server thread/INFO]: trololol72 issued server command: /tp Imashcha1
+[22:02:15] [Server thread/INFO]: [trololol72: Teleported trololol72 to Imashcha1]
+[22:02:18] [Server thread/INFO]: [trololol72: Set own game mode to Survival Mode]
+[22:02:34] [Server thread/WARN]: Imashcha1 moved too quickly! 7.37815444735196,-0.41999998688697815,9.490852886691641
+[22:02:34] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[22:02:34] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[22:02:36] [Server thread/INFO]: LickMyLeg: t
+[22:17:18] [Server thread/INFO]: trololol72 issued server command: /tpb mineshaft village
+[22:17:25] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -781, 66, 1004
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -779, 42, 1004
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -824, 21, 993
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -812, 21, 998
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -830, 21, 1003
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -803, 21, 1017
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -827, 21, 1018
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -819, 21, 1018
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -818, 26, 991
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -825, 26, 998
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -804, 26, 1003
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -830, 26, 1008
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -826, 26, 1013
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -808, 26, 1016
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -789, 37, 1005
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -774, 37, 1005
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -792, 37, 1011
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -779, 37, 1017
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -793, 37, 1021
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -794, 42, 1004
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -792, 42, 1016
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -774, 42, 1018
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -839, 47, 981
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -857, 52, 985
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -866, 54, 980
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -825, 54, 988
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -866, 54, 990
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -784, 70, 1036
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -784, 71, 1054
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -791, 78, 994
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Modified block data of -772, 83, 1009
+[22:23:58] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[22:23:58] [Server thread/INFO]: Vault Manager » Daily Reset! 36 Vaults (Normal & Ominous) replenished.
+[22:25:25] [Server thread/INFO]: trololol72 issued server command: /trial_debug false
+[22:50:27] [Server thread/INFO]: trololol72 issued server command: /camp_debug false
+[22:53:59] [Server thread/INFO]: trololol72 issued server command: /camp_debug false
+[22:54:02] [Server thread/INFO]: trololol72 issued server command: /camp_debug
+[22:54:03] [Server thread/INFO]: trololol72 issued server command: /camp_debug
+[22:56:05] [Server thread/INFO]: Imashcha1 lost connection: Disconnected
+[22:56:05] [Server thread/INFO]: [Quit] Imashcha1 (Friends) left
+[22:56:48] [Server thread/INFO]: [Death] LickMyLeg was slain by Vindicator (Uni)
+[23:01:41] [Server thread/INFO]: [Death] LickMyLeg was slain by Vindicator (Uni)
+[23:01:50] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
+[23:01:50] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
+[23:02:38] [Server thread/INFO]: trololol72 issued server command: /tpb pillager
+[23:03:14] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[23:03:25] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[23:03:52] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[23:05:07] [Server thread/INFO]: trololol72 issued server command: /tick rate 80
+[23:05:07] [Server thread/INFO]: [trololol72: Set the target tick rate to 80.0 per second]
+[23:05:28] [Server thread/INFO]: trololol72 issued server command: /tick rate 20
+[23:05:28] [Server thread/INFO]: [trololol72: Set the target tick rate to 20.0 per second]
+[23:10:50] [Server thread/INFO]: trololol72 issued server command: /tpb mineshaft village
+[23:11:02] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[23:11:39] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[23:11:39] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[23:12:40] [Server thread/INFO]: Stopping the server
+[23:12:40] [Server thread/INFO]: Stopping server
+[23:12:40] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[23:12:40] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[23:12:40] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[23:12:40] [Server thread/INFO]: [TAB] Disabled in 0ms
+[23:12:40] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[23:12:40] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[23:12:40] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
+[23:12:40] [Server thread/INFO]: [NoShatterEye] Disabling NoShatterEye v1.0
+[23:12:40] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[23:12:40] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[23:12:40] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[23:12:40] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[23:12:40] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[23:12:40] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[23:12:40] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[23:12:40] [Server thread/INFO]: [LuckPerms] Closing storage...
+[23:12:40] [Server thread/INFO]: [LuckPerms] Goodbye!
+[23:12:40] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[23:12:40] [Server thread/INFO]: Saving players
+[23:12:40] [Server thread/INFO]: Saving worlds
+[23:12:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Saved 17 block chunks, 13 entity chunks, 0 poi chunks in world 'world' in 0.03s
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[23:12:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[23:12:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[23:12:40] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[23:12:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:12:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:12:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:12:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:12:40] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[23:12:40] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[23:12:40] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[23:12:40] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
