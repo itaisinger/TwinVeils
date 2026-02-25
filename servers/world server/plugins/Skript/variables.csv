@@ -57,7 +57,7 @@ camps::4::amount_ravager, long, 0000000000000000
 camps::4::amount_spotter, long, 0000000000000002
 camps::4::amount_vindicator, long, 0000000000000003
 camps::4::is_populated, boolean, 01
-camps::4::live_pillager, long, 0000000000000009
+camps::4::live_pillager, long, 000000000000000A
 camps::4::live_ravager, long, 0000000000000000
 camps::4::live_spotter, long, 0000000000000002
 camps::4::live_vindicator, long, 0000000000000003
@@ -68,7 +68,7 @@ camps::6::amount_ravager, long, 0000000000000003
 camps::6::amount_spotter, long, 0000000000000002
 camps::6::amount_vindicator, long, 0000000000000005
 camps::6::is_populated, boolean, 01
-camps::6::live_pillager, long, 000000000000000B
+camps::6::live_pillager, long, 000000000000000C
 camps::6::live_ravager, long, 0000000000000003
 camps::6::live_spotter, long, 0000000000000002
 camps::6::live_vindicator, long, 0000000000000005
@@ -123,7 +123,7 @@ camps::11::amount_ravager, long, 0000000000000003
 camps::11::amount_spotter, long, 0000000000000002
 camps::11::amount_vindicator, long, 0000000000000003
 camps::11::is_populated, boolean, 01
-camps::11::live_pillager, long, 0000000000000007
+camps::11::live_pillager, long, 0000000000000008
 camps::11::live_ravager, long, 0000000000000003
 camps::11::live_spotter, long, 0000000000000002
 camps::11::live_vindicator, long, 0000000000000003
@@ -570,6 +570,6 @@ witch_status_cache::1, string, 8046C2A761416C69766520C2A73728783A203233302C20793
 wither_add_friends, boolean, 00
 wither_debug_active, boolean, 00
 wither_defeated, boolean, 01
-wither_session_id, long, 0000000000000080
+wither_session_id, long, 0000000000000081
 wither_system_active, boolean, 00
 
