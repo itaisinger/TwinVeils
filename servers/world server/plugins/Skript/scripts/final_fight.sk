@@ -81,7 +81,7 @@ function start_final_fight():
         fight_title({_v})
         remove 1 from {_v}
         # wait 85 seconds
-        wait 10 seconds
+        wait 90 seconds
     set {fight::state} to "started"
     spawn_warden({fight::loc})
 #
