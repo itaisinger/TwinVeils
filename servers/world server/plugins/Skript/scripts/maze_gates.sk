@@ -137,6 +137,6 @@ command /gatelist:
     permission: op
     trigger:
         if size of {gates_list::*} > 0:
-            send "{@prefix} Active Gates: &e%join {gates_list::*} with "", ""%" to player
+            send "{@prefix} Active Gates:%nl%&e%join {gates_list::*} with nl%" to player
         else:
             send "{@prefix} There are currently no active gates." to player
