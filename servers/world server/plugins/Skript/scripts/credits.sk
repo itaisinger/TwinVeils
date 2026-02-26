@@ -4,7 +4,7 @@ import:
     com.github.retrooper.packetevents.wrapper.play.server.WrapperPlayServerChangeGameState$Reason
 
 function roll_credits(p: player):
-    broadcast "&e[Debug] Cleaning Client State..."
+    # broadcast "&e[Debug] Cleaning Client State..."
     
     # 1. Force NBT Clean (Using SkBee, bypassing vanilla limit)
     delete tag "seenCredits" of nbt of {_p}
@@ -17,7 +17,7 @@ function roll_credits(p: player):
     wait 5 ticks
     
     # 3. Send the Packet
-    broadcast "&a[Debug] Sending Credits..."
+    # broadcast "&a[Debug] Sending Credits..."
     
     # Corrected line without "as float"
     set {_packet} to new WrapperPlayServerChangeGameState(Reason.WIN_GAME, 1.0)
