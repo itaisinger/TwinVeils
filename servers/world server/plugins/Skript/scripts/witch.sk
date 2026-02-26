@@ -61,7 +61,7 @@ on load:
         loop {huts::*}:
             set {huts::alive::%loop-index%} to true
 
-    set {fullhp} to 50
+    set {fullhp} to 30
     set {tp_heal} to {fullhp}/3
     
 #
