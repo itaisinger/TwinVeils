@@ -65,7 +65,7 @@ every 13 seconds:
 function maze_loop():
     debugMsg("Running 10-second container check...")
     # 1. Check if the system is turned on
-    if {maze_chest::chest_pos} is not loaded:
+    if amount of players in radius 100 around {maze_chest::chest_pos} is 0:
         debugMsg("unloaded")
         stop
 
