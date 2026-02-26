@@ -1,159 +1,281 @@
-[01:16:16] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
-[01:16:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
-[01:16:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:16:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[01:16:17] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[02:31:26] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Eclipse Adoptium Temurin-25.0.2+10) on Windows 10 10.0 (amd64)
+[02:31:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) for Minecraft 1.21.11
+[02:31:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:31:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[02:31:27] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - HidePlugins (1.0-1.21), SkBee (3.15.0)
-[01:16:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+[02:31:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
  - BuildPaste (1.11.1), EnderEyeControl (1.0), FastAsyncWorldEdit (2.15.0+e9aa28d), LuckPerms (5.5.22), NoShatterEye (1.0), ProtocolLib (5.4.0), Skript (2.12.2), TAB (5.4.0), packetevents (2.11.1), skript-reflect (2.6.1)
-[01:16:22] [ServerMain/WARN]: resource-pack-id missing, using default of ab723c56-b45e-316e-8052-50353cfeed3e
-[01:16:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[01:16:24] [ServerMain/INFO]: Loaded 1470 recipes
-[01:16:24] [ServerMain/INFO]: Loaded 1584 advancements
-[01:16:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:16:25] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 388.2ms
-[01:16:25] [ServerMain/WARN]: resource-pack-id missing, using default of ab723c56-b45e-316e-8052-50353cfeed3e
-[01:16:25] [Server thread/INFO]: Starting minecraft server version 1.21.11
-[01:16:25] [Server thread/INFO]: Loading properties
-[01:16:25] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
-[01:16:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:16:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:16:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:16:26] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
-[01:16:26] [Server thread/INFO]: Default game type: SURVIVAL
-[01:16:26] [Server thread/INFO]: Generating keypair
-[01:16:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:16:26] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[01:16:26] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[01:16:26] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
-[01:16:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:16:27] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
-[01:16:27] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[01:16:27] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
-[01:16:27] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:16:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4e882385]
-[01:16:28] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
-[01:16:28] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
-[01:16:28] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
-[01:16:28] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
-[01:16:29] [Server thread/INFO]: [NoShatterEye] Loading server plugin NoShatterEye v1.0
-[01:16:29] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v1.0-1.21
-[01:16:29] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
-[01:16:29] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[01:16:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:16:29] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
-[01:16:29] [Server thread/INFO]:         __    
-[01:16:29] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
-[01:16:29] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:16:29] [Server thread/INFO]: 
-[01:16:29] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:16:30] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:16:30] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:16:30] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1109ms)
-[01:16:30] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[01:16:30] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[01:16:30] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[01:16:30] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[01:16:30] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:16:30] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[01:16:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
-[01:16:31] [Server thread/INFO]: Preparing level "world"
-[01:16:32] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
-[01:16:32] [Server thread/INFO]: Preparing spawn area: 28%
-[01:16:32] [Server thread/INFO]: Prepared spawn area in 218 ms
-[01:16:32] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[01:16:32] [Server thread/INFO]: Prepared spawn area in 1 ms
-[01:16:32] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[01:16:32] [Server thread/INFO]: Prepared spawn area in 2 ms
-[01:16:32] [Server thread/INFO]: Done preparing level "world" (0.875s)
-[01:16:32] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
-[01:16:33] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
-[01:16:34] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[01:16:34] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
-[01:16:34] [Server thread/INFO]: [TAB] Enabled in 310ms
-[01:16:34] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
-[01:16:35] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
-[01:16:35] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Loading NBTApi...
-[01:16:35] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
-[01:16:35] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
-[01:16:35] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
-[01:16:35] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
-[01:16:35] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
-[01:16:35] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
-[01:16:35] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
-[01:16:35] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
-[01:16:35] [Server thread/INFO]: [SkBee] Loaded (426) elements:
-[01:16:35] [Server thread/INFO]: [SkBee]  - 56 events
-[01:16:35] [Server thread/INFO]: [SkBee]  - 71 effects
-[01:16:35] [Server thread/INFO]: [SkBee]  - 240 expressions
-[01:16:35] [Server thread/INFO]: [SkBee]  - 27 conditions
-[01:16:35] [Server thread/INFO]: [SkBee]  - 32 sections
-[01:16:35] [Server thread/INFO]: [SkBee]  - 11 properties
-[01:16:35] [Server thread/INFO]: [SkBee] Update checker disabled!
-[01:16:35] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.73 seconds
-[01:16:35] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
-[01:16:35] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
-[01:16:35] [Server thread/INFO]: [NoShatterEye] Enabling NoShatterEye v1.0
-[01:16:35] [Server thread/INFO]: [NoShatterEye] NoShatterEye enabled!
-[01:16:35] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v1.0-1.21
-[01:16:35] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
-[01:16:35] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
-[01:16:35] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[01:16:35] [Server thread/INFO]: [spark] Starting background profiler...
-[01:16:35] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[01:16:36] [Server thread/INFO]: Running delayed init tasks
-[01:16:36] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
-[01:16:36] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1880ms
-[01:16:36] [Server thread/INFO]: [Skript] Loading variables...
-[01:16:36] [Server thread/INFO]: [Skript] Loaded 568 variables in 0.0 seconds
-[01:16:38] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[01:16:45] [Server thread/INFO]: Gamerule advance_time is now set to: false
-[01:16:45] [Server thread/INFO]: Gamerule random_tick_speed is now set to: 2
-[01:16:45] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
-[01:16:45] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
-[01:16:45] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
-[01:16:45] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[01:16:45] [Server thread/INFO]: [Skript] Loaded 35 scripts with a total of 355 structures in 8.86 seconds
-[01:16:45] [Server thread/INFO]: [Skript] Finished loading.
-[01:16:45] [Server thread/INFO]: Done (30.191s)! For help, type "help"
-[01:16:45] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
-[01:16:45] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 29 build(s) behind ***
-[01:16:45] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[01:16:48] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[01:16:48] [Server thread/INFO]: trololol72[/127.0.0.1:60898] logged in with entity id 1 at ([world]-1349.572378304123, 29.126788866011964, 1481.2522808957692)
-[01:16:49] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[01:16:49] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[01:16:54] [Server thread/INFO]: trololol72 issued server command: /tpb lab
-[01:16:56] [Server thread/INFO]: trololol72 issued server command: /c
-[01:16:56] [Server thread/INFO]: Set the weather to clear
-[01:16:56] [Server thread/INFO]: Set the time to 1000
-[01:17:13] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[01:17:32] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[01:17:40] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[01:17:53] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[01:18:02] [Server thread/INFO]: [trololol72: Set own game mode to Adventure Mode]
-[01:18:04] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[01:18:11] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[01:18:11] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[02:31:31] [ServerMain/WARN]: resource-pack-id missing, using default of ab723c56-b45e-316e-8052-50353cfeed3e
+[02:31:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[02:31:33] [ServerMain/INFO]: Loaded 1470 recipes
+[02:31:33] [ServerMain/INFO]: Loaded 1584 advancements
+[02:31:34] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[02:31:34] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 383.7ms
+[02:31:34] [ServerMain/WARN]: resource-pack-id missing, using default of ab723c56-b45e-316e-8052-50353cfeed3e
+[02:31:34] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[02:31:34] [Server thread/INFO]: Loading properties
+[02:31:34] [Server thread/INFO]: This server is running Paper version 1.21.11-88-main@8556cb4 (2026-01-05T09:39:44Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[02:31:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:31:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:31:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:31:35] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[02:31:35] [Server thread/INFO]: Default game type: SURVIVAL
+[02:31:35] [Server thread/INFO]: Generating keypair
+[02:31:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:31:35] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[02:31:35] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[02:31:35] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.22
+[02:31:36] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:31:36] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.2
+[02:31:36] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[02:31:36] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[02:31:36] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+e9aa28d
+[02:31:37] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@c8e5c1b]
+[02:31:37] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.4.0
+[02:31:37] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.1
+[02:31:37] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.15.0
+[02:31:37] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[02:31:38] [Server thread/INFO]: [NoShatterEye] Loading server plugin NoShatterEye v1.0
+[02:31:38] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v1.0-1.21
+[02:31:38] [Server thread/INFO]: [EnderEyeControl] Loading server plugin EnderEyeControl v1.0
+[02:31:38] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[02:31:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:31:38] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.22
+[02:31:38] [Server thread/INFO]:         __    
+[02:31:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.22
+[02:31:38] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:31:38] [Server thread/INFO]: 
+[02:31:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:31:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:31:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:31:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1075ms)
+[02:31:39] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[02:31:39] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[02:31:39] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[02:31:39] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[02:31:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:31:39] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:31:40] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[02:31:40] [Server thread/INFO]: Preparing level "world"
+[02:31:41] [Server thread/INFO]: Loading 25 persistent chunks for world 'minecraft:overworld'...
+[02:31:41] [Server thread/INFO]: Preparing spawn area: 28%
+[02:31:41] [Server thread/INFO]: Prepared spawn area in 254 ms
+[02:31:41] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[02:31:41] [Server thread/INFO]: Prepared spawn area in 1 ms
+[02:31:41] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[02:31:41] [Server thread/INFO]: Prepared spawn area in 2 ms
+[02:31:41] [Server thread/INFO]: Done preparing level "world" (0.896s)
+[02:31:41] [Server thread/INFO]: [Skript] Enabling Skript v2.12.2
+[02:31:42] [Server thread/INFO]: [Skript] The updater is disabled, so a check for the latest version of Skript was not performed.
+[02:31:43] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[02:31:43] [Server thread/INFO]: [TAB] Enabling TAB v5.4.0
+[02:31:43] [Server thread/INFO]: [TAB] Enabled in 270ms
+[02:31:43] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.1
+[02:31:43] [Server thread/INFO]: [SkBee] Enabling SkBee v3.15.0
+[02:31:43] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[02:31:43] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[02:31:43] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[02:31:43] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[02:31:44] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[02:31:44] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee]  - Do note these elements are in Skript as 'Experimental'
+[02:31:44] [Server thread/INFO]: [SkBee]  - If issues arise, disable this feature and use Skript's elements instead
+[02:31:44] [Server thread/INFO]: [SkBee] Display Entity Elements disabled via config
+[02:31:44] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[02:31:44] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[02:31:44] [Server thread/INFO]: [SkBee] Loaded (426) elements:
+[02:31:44] [Server thread/INFO]: [SkBee]  - 56 events
+[02:31:44] [Server thread/INFO]: [SkBee]  - 71 effects
+[02:31:44] [Server thread/INFO]: [SkBee]  - 240 expressions
+[02:31:44] [Server thread/INFO]: [SkBee]  - 27 conditions
+[02:31:44] [Server thread/INFO]: [SkBee]  - 32 sections
+[02:31:44] [Server thread/INFO]: [SkBee]  - 11 properties
+[02:31:44] [Server thread/INFO]: [SkBee] Update checker disabled!
+[02:31:44] [Server thread/INFO]: [SkBee] Successfully enabled v3.15.0 in 0.77 seconds
+[02:31:44] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[02:31:44] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[02:31:44] [Server thread/INFO]: [NoShatterEye] Enabling NoShatterEye v1.0
+[02:31:44] [Server thread/INFO]: [NoShatterEye] NoShatterEye enabled!
+[02:31:44] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v1.0-1.21
+[02:31:44] [Server thread/INFO]: [EnderEyeControl] Enabling EnderEyeControl v1.0
+[02:31:44] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been enabled!
+[02:31:44] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[02:31:44] [Server thread/INFO]: [spark] Starting background profiler...
+[02:31:44] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[02:31:44] [packetevents-update-check-thread/INFO]: [packetevents] There is an update available for PacketEvents! Your build: (2.11.1) | Latest release: (2.11.2)
+[02:31:44] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 1637ms
+[02:31:44] [Server thread/INFO]: Running delayed init tasks
+[02:31:44] [Server thread/INFO]: [Skript] Loading variables...
+[02:31:45] [Server thread/INFO]: [Skript] Loaded 568 variables in 0.0 seconds
+[02:31:53] [Server thread/INFO]: Gamerule advance_time is now set to: false
+[02:31:53] [Server thread/INFO]: Gamerule random_tick_speed is now set to: 2
+[02:31:53] [Server thread/INFO]: [StructDebug] Loaded Chest Pos: 'oxidized copper chest' at -862.5, 68.5, -1371.5 in world 'world'
+[02:31:53] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[02:31:53] [Server thread/INFO]: [Spawn Debug] Variables loaded successfully.
+[02:31:53] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[02:31:53] [Server thread/INFO]: [Skript] Loaded 35 scripts with a total of 356 structures in 8.59 seconds
+[02:31:53] [Server thread/INFO]: [Skript] Finished loading.
+[02:31:53] [Server thread/INFO]: Done (28.568s)! For help, type "help"
+[02:31:53] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 29 build(s) behind ***
+[02:31:53] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[02:32:32] [User Authenticator #0/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[02:32:32] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, ProtocolLib]
+[02:32:35] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[02:32:36] [Server thread/INFO]: trololol72[/127.0.0.1:53343] logged in with entity id 1 at ([world]-640.6061643251938, 66.0, -1261.036908432573)
+[02:32:36] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[02:32:36] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[02:32:40] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[02:33:31] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:33:36] [Server thread/INFO]: trololol72 issued server command: /tptool
+[02:34:07] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[02:34:07] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[02:37:14] [User Authenticator #1/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[02:37:15] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[02:37:15] [Server thread/INFO]: trololol72[/127.0.0.1:53378] logged in with entity id 332 at ([world]-1029.1563491278666, 85.61933192432483, -1324.9419250900257)
+[02:37:16] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[02:37:16] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[02:37:17] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[02:37:17] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[02:54:01] [User Authenticator #2/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
+[02:54:02] [Server thread/INFO]: [Join] trololol72 (Friends) joined
+[02:54:02] [Server thread/INFO]: trololol72[/127.0.0.1:53529] logged in with entity id 354 at ([world]-1029.1563491278666, 85.61933192432483, -1324.9419250900257)
+[02:54:03] [Server thread/INFO]: Added trololol72 to team [friendsChat]
+[02:54:03] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
+[02:54:27] [Server thread/INFO]: trololol72 issued server command: //copy
+[02:54:27] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightStarlightRelighterFactory as relighter factory.
+[02:54:56] [Server thread/INFO]: trololol72 issued server command: //cyl 15 15
+[02:54:59] [Server thread/INFO]: trololol72 issued server command: //undo
+[02:55:06] [Server thread/INFO]: trololol72 issued server command: //cyl air 15 15
+[02:55:11] [Server thread/INFO]: trololol72 issued server command: //paste
+[02:56:14] [Server thread/INFO]: trololol72 issued server command: /tpb maze lib
+[02:57:48] [Server thread/INFO]: trololol72 issued server command: /gatetool
+[02:58:02] [Server thread/INFO]: trololol72 issued server command: /gatelist
+[02:58:13] [Server thread/INFO]: trololol72 issued server command: /gatedelete lick
+[02:58:18] [Server thread/INFO]: trololol72 issued server command: /gatedelete large_lib
+[02:58:23] [Server thread/INFO]: trololol72 issued server command: /gatedelete tp_lib
+[02:58:26] [Server thread/INFO]: trololol72 issued server command: /gatedelete inf_lib
+[02:58:31] [Server thread/INFO]: trololol72 issued server command: /gatedelete arema_lib
+[02:58:51] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[02:58:55] [Server thread/INFO]: trololol72 issued server command: /c
+[02:58:55] [Server thread/INFO]: Set the weather to clear
+[02:58:55] [Server thread/INFO]: Set the time to 1000
+[02:58:56] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[02:59:32] [Server thread/INFO]: trololol72 issued server command: /gate_confirm large_lib
+[03:00:23] [Server thread/INFO]: trololol72 issued server command: //set air
+[03:00:39] [Server thread/INFO]: trololol72 issued server command: //set air
+[03:00:51] [Server thread/INFO]: trololol72 issued server command: //set air
+[03:01:17] [Server thread/INFO]: trololol72 issued server command: /give_loot_maze
+[03:01:21] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
+[03:01:44] [Server thread/INFO]: trololol72 issued server command: /give_loot_maze
+[03:01:46] [Server thread/INFO]: trololol72 issued server command: /spreadinventory 2
+[03:03:09] [Server thread/INFO]: trololol72 issued server command: //set bedrock
+[03:03:27] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:03:31] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[03:03:34] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:03:44] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[03:03:46] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:03:57] [Server thread/INFO]: Loaded template "minecraft:maze_chest" at -880, 65, -1390
+[03:04:18] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:04:28] [Server thread/INFO]: trololol72 issued server command: //cyl air 5 8
+[03:04:31] [Server thread/INFO]: trololol72 issued server command: //cyl air 5 9
+[03:04:34] [Server thread/INFO]: trololol72 issued server command: //cyl air 5 10
+[03:05:05] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:05:18] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:05:22] [Server thread/INFO]: trololol72 issued server command: //cyl air 5 10
+[03:05:42] [Server thread/INFO]: trololol72 issued server command: /gatetool
+[03:05:47] [Server thread/INFO]: trololol72 issued server command: /tpb maze lib
+[03:06:00] [Server thread/INFO]: trololol72 issued server command: /gamerule reduced_debug_info false
+[03:06:00] [Server thread/INFO]: [trololol72: Gamerule reduced_debug_info is now set to: false]
+[03:06:35] [Server thread/INFO]: trololol72 issued server command: /gate_confirm tp_lib
+[03:06:38] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:06:40] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:06:48] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:06:52] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:07:28] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:07:31] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:07:41] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:07:49] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:08:02] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:08:24] [Server thread/INFO]: trololol72 issued server command: /c
+[03:08:24] [Server thread/INFO]: Set the weather to clear
+[03:08:24] [Server thread/INFO]: Set the time to 1000
+[03:08:53] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:09:05] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:09:11] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:09:14] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:09:18] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
+[03:09:22] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
+[03:09:30] [Server thread/INFO]: trololol72 lost connection: Disconnected
+[03:09:30] [Server thread/INFO]: [Quit] trololol72 (Friends) left
+[03:09:40] [Server thread/INFO]: Stopping the server
+[03:09:40] [Server thread/INFO]: Stopping server
+[03:09:40] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[03:09:40] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[03:09:40] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[03:09:40] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
+[03:09:40] [Server thread/INFO]: [NoShatterEye] Disabling NoShatterEye v1.0
+[03:09:40] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[03:09:40] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[03:09:40] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[03:09:40] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[03:09:40] [Server thread/INFO]: [TAB] Disabled in 2ms
+[03:09:40] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[03:09:40] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[03:09:40] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[03:09:40] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[03:09:40] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[03:09:40] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[03:09:40] [Server thread/INFO]: [LuckPerms] Closing storage...
+[03:09:41] [Server thread/INFO]: [LuckPerms] Goodbye!
+[03:09:41] [Server thread/INFO]: Saving players
+[03:09:41] [Server thread/INFO]: Saving worlds
+[03:09:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:09:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:09:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:09:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Saved 1377 block chunks, 1372 entity chunks, 0 poi chunks in world 'world' in 2.92s
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[03:09:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[03:09:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[03:09:44] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[03:09:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:09:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:09:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:09:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:09:44] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[03:09:44] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[03:09:44] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[03:09:44] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
