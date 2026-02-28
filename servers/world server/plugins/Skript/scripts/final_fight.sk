@@ -4,6 +4,8 @@ on load:
         set {fight::loc_u} to location(-512,70,512,"world")
         set {fight::loc_f} to location(512,75,-512,"world")
         set {fight::state} to "none"
+    set {fight::stop} to false
+    set {fight::debug} to false
 #
 every 5 ticks:
     # broadcast {fight::state}
@@ -65,10 +67,15 @@ function pasteArea(loc: location):
     set {_p} to a random player out of all players
     make {_p} execute command "//paste -o"
 #
+function fight_debug(msg: text):
+    if {fight::debug} is true:
+        broadcast "[FIGHT] %{_msg}%"
+#
 function start_final_fight():
     if {fight::loc} is not set:
         broadcast "trololol72: oops"
         stop
+    set {fight::stop} to false
 
     copyArea({fight::loc})
     wait 5 ticks
@@ -82,6 +89,11 @@ function start_final_fight():
         remove 1 from {_v}
         # wait 85 seconds
         wait 90 seconds
+        #cancel
+        if {fight::stop} is true:
+            fight_debug("fight cancelled")
+            set {fight::state} to "none"
+            stop
     set {fight::state} to "started"
     spawn_warden({fight::loc})
 #
@@ -110,8 +122,8 @@ command /fight_title <integer>:
 command /play_final_fight_ost:
     permission: op
     trigger:
+        fight_debug("playing ost")
         stop all sounds for all players
-        broadcast "playing final fight ost"
         play sound "minecraft:broken_memory" in record category with volume 1000 to all players
 #
 command /fight_tp:
@@ -141,10 +153,22 @@ command /fight_copy:
     trigger:
         copyArea({fight::loc})
 #
+command /fight_debug <boolean>:
+    permission: op
+    trigger:
+        set {fight::debug} to arg-1
+        fight_debug("fight debug set to %arg-1%")
+#
 command /fight_paste:
     permission: op
     trigger:
         pasteArea({fight::loc})
+#
+command /fight_stop:
+    permission: op
+    trigger:
+        set {fight::stop} to true
+        fight_debug("fight stopped")
 #
 command /fight_start:
     permission: op
