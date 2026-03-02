@@ -16,14 +16,36 @@ function roll_credits(p: player):
     teleport {_p} to {_old_loc}
     wait 5 ticks
     
-    # 3. Send the Packet
-    # broadcast "&a[Debug] Sending Credits..."
-    
-    # Corrected line without "as float"
     set {_packet} to new WrapperPlayServerChangeGameState(Reason.WIN_GAME, 1.0)
     PacketEvents.getAPI().getPlayerManager().sendPacket({_p}, {_packet})
-
+#
 command /rollcredits <player>:
     permission: op
     trigger:
         roll_credits(arg-1)
+#
+command /credits_disable:
+    permission: op
+    trigger:
+        loop all players:
+            add nbt from "{seenCredits:1b}" to nbt of loop-player
+            send "&aDisabled credits for %loop-player%"
+#
+# on teleport:
+#     broadcast "%world of event-entity%"
+#     if event-entity is not a player:
+#         stop
+
+#     if {teleporting::*} contains name of event-entity:
+#         delete {teleporting::%name of event-entity%}
+#         broadcast "skipping %name of event-entity%"
+#         stop
+
+#     if "%world of event-entity%" contains "end":
+#         broadcast "hi there"
+#         cancel event
+#         add name of event-entity to {teleporting::*}
+#         broadcast "added %name of event-entity% to tp list"
+#         teleport event-entity to location(0, -46, -7, world "world")
+
+        

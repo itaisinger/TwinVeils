@@ -38,8 +38,39 @@
     "sounds": [
       "custom/trial_exlosion"
     ]
-  }
-  
-  
-}
+  },
 
+  "music.sweden": {
+    "sounds": [{"name": "music/game/sweden", "stream": true}]
+  },
+  "music.minecraft": {
+    "sounds": [{"name": "music/game/minecraft", "stream": true}]
+  },
+  "music.wet_hands": {
+    "sounds": [{"name": "music/game/wet_hands", "stream": true}]
+  },
+  "music.dry_hands": {
+    "sounds": [{"name": "music/game/dry_hands", "stream": true}]
+  },
+  "music.subwoofer_lullaby": {
+    "sounds": [{"name": "music/game/subwoofer_lullaby", "stream": true}]
+  },
+  "music.clark": {
+    "sounds": [{"name": "music/game/clark", "stream": true}]
+  },
+  "music.danny": {
+    "sounds": [{"name": "music/game/danny", "stream": true}]
+  },
+  "music.haggstrom": {
+    "sounds": [{"name": "music/game/haggstrom", "stream": true}]
+  },
+  "music.living_mice": {
+    "sounds": [{"name": "music/game/living_mice", "stream": true}]
+  },
+  "music.mice_on_venus": {
+    "sounds": [{"name": "music/game/mice_on_venus", "stream": true}]
+  },
+  "music.oxygene": {
+    "sounds": [{"name": "music/game/oxygene", "stream": true}]
+  }
+}

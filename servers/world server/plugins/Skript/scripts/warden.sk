@@ -49,6 +49,8 @@ on death of warden:
     if {boss_warden} is not set:
         stop
     
+    set {warden_killed} to true
+    execute console command "/stopsound @a * minecraft:music_disc.13"
     set {_loc} to location of {boss_warden}
     play sound "minecraft:entity.warden.roar" with volume 4 and pitch 0.4 at {_loc} 
     play sound "minecraft:block.sculk_shrieker.shriek" with volume 12 and pitch 2.3 at {_loc}
@@ -95,13 +97,19 @@ every 3 second:
     if {boss_warden} is not alive:
         stop
     loop blocks in radius 15 around {boss_warden}:
-        if loop-block is a torch or a wall torch:
+        if loop-block is a torch or a wall torch or a candle:
             set {_l} to location of loop-block
             set loop-block to air
             draw 3 of large smoke at {_l} with extra 0
             play sound "minecraft:block.fire.extinguish" with volume 0.4 at {_l}
             wait 1 tick
         if loop-block is soul torch or soul wall torch:
+            set {_l} to location of loop-block
+            set loop-block to air
+            draw 3 of large smoke at {_l} with extra 0
+            play sound "minecraft:block.fire.extinguish" with volume 0.4 at {_l}
+            wait 1 tick
+        if loop-block is redstone torch or redstone wall torch:
             set {_l} to location of loop-block
             set loop-block to air
             draw 3 of large smoke at {_l} with extra 0

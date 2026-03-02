@@ -14,13 +14,19 @@ on load:
         set {dragon_defeated} to false
     if {warden_defeated} is not set:
         set {warden_defeated} to false
-        
+    if {warden_killed} is not set:
+        set {warden_killed} to false
+    
+
     set {day_debug} to false
 
 every 1 tick:
     # broadcast "time: %time of "world"%"
 
     if {warden_defeated} is true:
+        add 1 tick to time of world "world"
+        stop
+    if {warden_killed} is true:
         add 1 tick to time of world "world"
         stop
 
@@ -73,6 +79,7 @@ on place:
             dragon_defeat_effect()
             day_debug("dragon placed")
             set {curse_active} to false
+            wait 25 seconds
             end_check()
         else:
             set {curse_active} to true
@@ -82,22 +89,22 @@ on place:
         if event-block is beacon:
             set {wither_defeated} to true
             wither_defeat_effect()
-            end_check()
             set {wither_system_active} to false
             day_debug("beacon placed")
+            wait 10 seconds
+            end_check()
         else:
             set {wither_defeated} to false
             set {wither_system_active} to true
 
     if location of event-block is {warden_spot}:
-        if event-block is sculk catalyst: # Change this if you want another block for the Warden!
+        if event-block is sculk catalyst:
             set {warden_defeated} to true
             draw 40 dust particle using dustOption(blue, 1.5) at {warden_spot} with offset vector(2, 1, 2)
             play sound "minecraft:block.bell.use" with volume 0.5 and pitch 0.5 at {warden_spot}
             play sound "entity.ender_eye.death" with volume 2.5 and pitch 1.3 at {warden_spot}
             play sound "minecraft:block.end_portal_frame.fill" with volume 2 and pitch 1.2 at {warden_spot}
             play sound "minecraft:block.sculk_shrieker.shriek" with volume 2 and pitch 1.5 at {warden_spot}
-            end_check()
             day_debug("warden placed")
             wait 3 seconds
             loop all players:
