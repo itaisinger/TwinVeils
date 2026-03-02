@@ -145,7 +145,7 @@ function _enc_close_fast():
 
     set {enc::state} to "closed"
     enc_debug("ITS 6:00 AM")
-    ring_bell()
+    # ring_bell()
     
     set {_warn_time} to 40
     set {_off_time} to 60
@@ -155,12 +155,12 @@ function _enc_close_fast():
 
     # Multiply your variables by '1 tick' to create a valid timespan
     wait {_first_wait} * 1 tick
-    ring_warn()
+    # ring_warn()
     set_strip(bedrock,"out")
 
     wait {_warn_time} * 1 tick 
     enc_debug("closing out")
-    ring_bell()
+    # ring_bell()
     set_strip(bedrock,"out")
     
     wait {_first_wait} * 1 tick
@@ -169,7 +169,7 @@ function _enc_close_fast():
     wait {_warn_time} * 1 tick
     enc_debug("closing in")
     set_strip(bedrock,"out")
-    ring_bell()
+    # ring_bell()
     set_strip(bedrock,"in")
 
 ## commands ##
