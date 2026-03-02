@@ -136,6 +136,41 @@ function _enc_close():
     set_strip(bedrock,"out")
     ring_bell()
     set_strip(bedrock,"in")
+#
+function _enc_close_fast():
+
+    # #abort if map is finished
+    # if {warden_defeated} is true:
+    #     stop
+
+    set {enc::state} to "closed"
+    enc_debug("ITS 6:00 AM")
+    ring_bell()
+    
+    set {_warn_time} to 40
+    set {_off_time} to 60
+    
+    # Calculate the math beforehand
+    set {_first_wait} to {_off_time} - {_warn_time}
+
+    # Multiply your variables by '1 tick' to create a valid timespan
+    wait {_first_wait} * 1 tick
+    ring_warn()
+    set_strip(bedrock,"out")
+
+    wait {_warn_time} * 1 tick 
+    enc_debug("closing out")
+    ring_bell()
+    set_strip(bedrock,"out")
+    
+    wait {_first_wait} * 1 tick
+    ring_warn()
+
+    wait {_warn_time} * 1 tick
+    enc_debug("closing in")
+    set_strip(bedrock,"out")
+    ring_bell()
+    set_strip(bedrock,"in")
 
 ## commands ##
 command /enc_add <text> <text>:

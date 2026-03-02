@@ -105,6 +105,9 @@ function start_final_fight():
     play sound "minecraft:broken_memory" with volume 1000 to all players
     set weather in world "world" to clear
     
+    #close enclosures
+    _enc_close_fast()
+
     #start buildup loop
     set {_v} to 5
     loop 5 times:
