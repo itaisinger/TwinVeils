@@ -1,70 +1,133 @@
-[00:03:59] [User Authenticator #4/INFO]: UUID of player trololol72 is f946718e-31b0-439f-8eca-e4353741b2b6
-[00:04:00] [Server thread/INFO]: [Join] trololol72 (Friends) joined
-[00:04:00] [Server thread/INFO]: trololol72[/176.228.171.82:53086] logged in with entity id 79623 at ([world]481.3449851779528, 73.0, -496.26108090884344)
-[00:04:01] [Server thread/INFO]: Added trololol72 to team [friendsChat]
-[00:04:01] [Server thread/INFO]: [Sync] trololol72 -> Team friendsChat
-[00:04:10] [Server thread/INFO]: trololol72 issued server command: /tpb ancient 1
-[00:04:12] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:04:14] [Server thread/INFO]: [trololol72: Set own game mode to Spectator Mode]
-[00:06:20] [Server thread/INFO]: LickMyLeg: yo
-[00:06:28] [Server thread/INFO]: LickMyLeg issued server command: /me yo anyone online
-[00:06:28] [Async Chat Thread - #7/INFO]: * LickMyLeg yo anyone online
-[00:06:36] [Server thread/INFO]: [trololol72: Set own game mode to Creative Mode]
-[00:07:06] [Server thread/INFO]: LickMyLeg issued server command: /we
-[00:07:36] [Server thread/INFO]: LickMyLeg lost connection: Disconnected
-[00:07:36] [Server thread/INFO]: [Quit] LickMyLeg (Uni) left
-[00:08:01] [Server thread/INFO]: trololol72 issued server command: /give trololol72 minecraft:filled_map[minecraft:map_id=20]
-[00:08:01] [Server thread/INFO]: [trololol72: Gave 1 [Map] to trololol72]
-[00:09:06] [Server thread/INFO]: trololol72 lost connection: Disconnected
-[00:09:06] [Server thread/INFO]: [Quit] trololol72 (Friends) left
-[00:37:36] [Server thread/INFO]: Stopping the server
-[00:37:36] [Server thread/INFO]: Stopping server
-[00:37:36] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
-[00:37:36] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
-[00:37:36] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
-[00:37:36] [Server thread/INFO]: [TAB] Disabled in 0ms
-[00:37:36] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
-[00:37:36] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
-[00:37:36] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
-[00:37:36] [Server thread/INFO]: [NoShatterEye] Disabling NoShatterEye v1.0
-[00:37:36] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[00:37:36] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
-[00:37:36] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
-[00:37:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[00:37:36] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[00:37:36] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
-[00:37:36] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[00:37:36] [Server thread/INFO]: [LuckPerms] Closing storage...
-[00:37:36] [Server thread/INFO]: [LuckPerms] Goodbye!
-[00:37:36] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
-[00:37:36] [Server thread/INFO]: Saving players
-[00:37:36] [Server thread/INFO]: Saving worlds
-[00:37:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Saved 19 block chunks, 14 entity chunks, 0 poi chunks in world 'world' in 0.03s
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[00:37:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[00:37:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[00:37:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[00:37:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:37:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:37:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:37:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[00:37:36] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[00:37:36] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[00:37:36] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[00:37:36] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[02:06:45] [Server thread/INFO]: MCScanner (/52.159.245.161:8202) lost connection: Disconnected
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -781, 66, 1004
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -779, 42, 1004
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -824, 21, 993
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -812, 21, 998
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -830, 21, 1003
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -803, 21, 1017
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -827, 21, 1018
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -819, 21, 1018
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -818, 26, 991
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -825, 26, 998
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -804, 26, 1003
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -830, 26, 1008
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -826, 26, 1013
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -808, 26, 1016
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -789, 37, 1005
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -774, 37, 1005
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -792, 37, 1011
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -779, 37, 1017
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -793, 37, 1021
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -794, 42, 1004
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -792, 42, 1016
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -774, 42, 1018
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -839, 47, 981
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -857, 52, 985
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -866, 54, 980
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -825, 54, 988
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -866, 54, 990
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -784, 70, 1036
+[08:04:40] [Server thread/INFO]: Modified block data of -784, 71, 1054
+[08:04:40] [Server thread/INFO]: Modified block data of -784, 71, 1054
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -791, 78, 994
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Modified block data of -772, 83, 1009
+[08:04:40] [Server thread/INFO]: Nothing changed. The specified properties already have these values
+[08:04:40] [Server thread/INFO]: Vault Manager » Daily Reset! 36 Vaults (Normal & Ominous) replenished.
+[12:52:24] [User Authenticator #47/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[12:52:33] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[12:52:33] [Server thread/INFO]: DonalDucker[/77.125.119.103:56659] logged in with entity id 813603 at ([world_nether]-0.8888533874901743, 165.0, 126.69999998807907)
+[12:52:33] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[12:52:33] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[12:56:04] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[12:56:04] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[13:08:30] [User Authenticator #48/INFO]: UUID of player DonalDucker is e6198759-1705-413c-ad39-48a8c4e81fb4
+[13:08:34] [Server thread/INFO]: [Join] DonalDucker (Uni) joined
+[13:08:34] [Server thread/INFO]: DonalDucker[/77.125.119.103:56276] logged in with entity id 814225 at ([world_nether]-2.0166357004226674, 165.0, 126.3714961669278)
+[13:08:35] [Server thread/INFO]: Added DonalDucker to team [uniChat]
+[13:08:35] [Server thread/INFO]: [Sync] DonalDucker -> Team uniChat
+[13:34:27] [Server thread/INFO]: DonalDucker lost connection: Disconnected
+[13:34:27] [Server thread/INFO]: [Quit] DonalDucker (Uni) left
+[13:59:08] [Server thread/INFO]: Stopping the server
+[13:59:08] [Server thread/INFO]: Stopping server
+[13:59:08] [Server thread/INFO]: [packetevents] Disabling packetevents v2.11.1
+[13:59:08] [Server thread/INFO]: [SkBee] Disabling SkBee v3.15.0
+[13:59:08] [Server thread/INFO]: [TAB] Disabling TAB v5.4.0
+[13:59:08] [Server thread/INFO]: [TAB] Disabled in 1ms
+[13:59:08] [Server thread/INFO]: [EnderEyeControl] Disabling EnderEyeControl v1.0
+[13:59:08] [Server thread/INFO]: [EnderEyeControl] EnderEyeControl has been disabled!
+[13:59:08] [Server thread/INFO]: [HidePlugins] Disabling HidePlugins v1.0-1.21
+[13:59:08] [Server thread/INFO]: [NoShatterEye] Disabling NoShatterEye v1.0
+[13:59:08] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[13:59:08] [Server thread/INFO]: [skript-reflect] Disabling skript-reflect v2.6.1
+[13:59:08] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+e9aa28d
+[13:59:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:59:08] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[13:59:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.22
+[13:59:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:59:08] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:59:08] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:59:08] [Server thread/INFO]: [Skript] Disabling Skript v2.12.2
+[13:59:08] [Server thread/INFO]: Saving players
+[13:59:08] [Server thread/INFO]: Saving worlds
+[13:59:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Saved 27 block chunks, 14 entity chunks, 0 poi chunks in world 'world' in 0.05s
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[13:59:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[13:59:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[13:59:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[13:59:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:59:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:59:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:59:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:59:08] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[13:59:08] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[13:59:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[13:59:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
