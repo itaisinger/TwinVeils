@@ -43,7 +43,12 @@ command /respawn_riders:
         make player execute "kill @e[type=hoglin]"
         make player execute "spawnrider Heru"
         make player execute "spawnrider Hathor"
-
+#
+command /stopsound_all:
+    permission: op
+    trigger:    
+        stop all sounds for all players
+#
 command /spreadinventory <number>:
     permission: op
     trigger:

@@ -26,6 +26,19 @@ every 5 ticks:
         draw 130 dust_color_transition using dustTransition(blue, black, 2) at {fight::loc} with offset vector(25, 7, 25)
         execute console command "particle minecraft:enchant %x-coord of {fight::loc}% %y-coord of {fight::loc} + 3% %z-coord of {fight::loc}% 0.1 0.1 0.1 10 150"
 #
+on teleport:
+    if event-entity is not a player:
+        stop
+    if {fight::state} contains "setup":
+        cancel event
+        stop
+        # if {fight::lost_players::*} does not contain name of event-entity:
+        #     fight_debug("added %name of event-entity%")
+        #     add player to {fight::lost_players::*}
+
+        # set {_p} to a random number between 0.4 and 0.7
+        # play sound "minecraft:music.menu" in music category with pitch {_p} to loop-value
+#
 function copyArea(loc: location):
     # 1. Try to select trololol72 first
     set {_p} to ("trololol72" parsed as player)
@@ -76,12 +89,23 @@ function start_final_fight():
         broadcast "trololol72: oops"
         stop
     set {fight::stop} to false
+    delete {fight::lost_players::*}
+    
+    #tp players to arean
+    set {_x} to x-coordinate of {fight::loc}
+    set {_z} to z-coordinate of {fight::loc}
+    execute console command "spreadplayers %{_x}% %{_z}% 2 10 false @a"
 
+    #backup base
     copyArea({fight::loc})
     wait 25 ticks
+
+    #start ost
     stop all sounds for all players
-    # broadcast "playing final fight ost"
     play sound "minecraft:broken_memory" with volume 1000 to all players
+    set weather in world "world" to clear
+    
+    #start buildup loop
     set {_v} to 5
     loop 5 times:
         #cancel
@@ -92,10 +116,28 @@ function start_final_fight():
         #
         set {fight::state} to "setup%{_v}%"
         fight_title({_v})
+        play_bad_ost({_v}) #fix ost for players who moved dimensions
         remove 1 from {_v}
-        wait 90 seconds
+        wait 89 seconds
+
+    fight_title(0)
     set {fight::state} to "started"
+    stop all sounds for all players
+    play sound "minecraft:music_disc.creator_music_box" with volume 1000 to all players
+    set weather in world "world" to thunder
+    wait 72 seconds
+    play sound "minecraft:music_disc.13" with volume 1000 to all players
     spawn_warden({fight::loc})
+#
+function play_bad_ost(index: integer):
+    loop {fight::lost_players::*}:
+        fight_debug("playing bad ost for %name of loop-value%")
+        set {_p1} to a random number between 0.4 and 0.7
+        set {_p2} to a random number between 1.3 and 1.6
+        set {_p} to {_p1}
+        if {_index} is 2:
+            set {_p} to {_p2}
+        play sound "minecraft:music.menu" in music category with pitch {_p} to loop-value
 #
 function fight_title(index: integer):
     # send title "%{_index}%" with subtitle "&7Prepare yourself..." to all players for 5 seconds
@@ -124,8 +166,8 @@ command /play_final_fight_ost:
     trigger:
         fight_debug("playing ost")
         stop all sounds for all players
-        play sound "minecraft:broken_memory" in music category with volume 1000 at location(0,0,0,"world")
-        play sound "minecraft:broken_memory" in music category with volume 1000 at location(0,0,0,"world_nether")
+        play sound "minecraft:broken_memory" in record category with volume 1000 at location(0,0,0,"world")
+        play sound "minecraft:broken_memory" in record category with volume 1000 at location(0,0,0,"world_nether")
 #
 command /fight_tp:
     permission: op
