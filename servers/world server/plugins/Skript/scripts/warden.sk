@@ -49,6 +49,7 @@ on death of warden:
     if {boss_warden} is not set:
         stop
     
+    set {warden_killed} to true
     execute console command "/stopsound @a * minecraft:music_disc.13"
     set {_loc} to location of {boss_warden}
     play sound "minecraft:entity.warden.roar" with volume 4 and pitch 0.4 at {_loc} 

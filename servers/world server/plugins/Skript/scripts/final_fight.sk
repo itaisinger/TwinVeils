@@ -32,12 +32,6 @@ on teleport:
     if {fight::state} contains "setup":
         cancel event
         stop
-        # if {fight::lost_players::*} does not contain name of event-entity:
-        #     fight_debug("added %name of event-entity%")
-        #     add player to {fight::lost_players::*}
-
-        # set {_p} to a random number between 0.4 and 0.7
-        # play sound "minecraft:music.menu" in music category with pitch {_p} to loop-value
 #
 function copyArea(loc: location):
     # 1. Try to select trololol72 first
@@ -90,8 +84,9 @@ function start_final_fight():
         stop
     set {fight::stop} to false
     delete {fight::lost_players::*}
+    set {warden_killed} to false
     
-    #tp players to arean
+    #tp players to arena
     set {_x} to x-coordinate of {fight::loc}
     set {_z} to z-coordinate of {fight::loc}
     execute console command "spreadplayers %{_x}% %{_z}% 2 10 false @a"
@@ -121,14 +116,12 @@ function start_final_fight():
         fight_title({_v})
         play_bad_ost({_v}) #fix ost for players who moved dimensions
         remove 1 from {_v}
-        wait 89 seconds
+        
+        if {_v} is 0:
+            set weather in world "world" to thunder
+        wait 89.2 seconds
 
-    fight_title(0)
     set {fight::state} to "started"
-    stop all sounds for all players
-    play sound "minecraft:music_disc.creator_music_box" with volume 1000 to all players
-    set weather in world "world" to thunder
-    wait 72 seconds
     play sound "minecraft:music_disc.13" with volume 1000 to all players
     spawn_warden({fight::loc})
 #

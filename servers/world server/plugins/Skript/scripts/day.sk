@@ -14,13 +14,19 @@ on load:
         set {dragon_defeated} to false
     if {warden_defeated} is not set:
         set {warden_defeated} to false
-        
+    if {warden_killed} is not set:
+        set {warden_killed} to false
+    
+
     set {day_debug} to false
 
 every 1 tick:
     # broadcast "time: %time of "world"%"
 
     if {warden_defeated} is true:
+        add 1 tick to time of world "world"
+        stop
+    if {warden_killed} is true:
         add 1 tick to time of world "world"
         stop
 
