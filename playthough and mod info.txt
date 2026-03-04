@@ -1,0 +1,10 @@
+
+known problems:
+- you can get out of the bounds of the map by placing a nether portal on the north-west or south-east parts of the nether
+- you can cheat the mazes with nether portals. the chances that itll help you finish them is low, but the chance of just escaping and ruining the experience is high
+- you can just climb the walls and leave. you can use world border if you want to stop that but I didn't want to.
+- you need to manually choose which base will hold the final fight using /fight_set_loc <u/f>
+
+if you need any help contact me:
+- itai5000si2@gmail.com
+- discord: nerfzinger
