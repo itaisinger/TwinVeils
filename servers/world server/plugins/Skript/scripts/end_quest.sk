@@ -16,20 +16,7 @@ on item despawn:
         cancel event
 
 on spawn of blaze:
-    cancel event
-
-# on entity removed from world:
-#     if event-entity is eye of ender:
-#         broadcast "kill %random number between 1 and 100%"
-#         if {killing} is true:
-#             stop
-#         set {_loc} to location of event-entity
-#         set {killing} to true
-        
-#         broadcast "drop"
-#         drop 1 ender eye at {_loc}
-#         set {killing} to false
-        
+    cancel event  
 
 command /setstronghold:
     permission: op

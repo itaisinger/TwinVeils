@@ -37,7 +37,9 @@ function spawn_warden(loc: location):
             add "boss" to scoreboard tags of {boss_warden}
             set name of {boss_warden} to "Ma'at"
             add {boss_warden} to team named "warden"
-            
+            set max health of {boss_warden} to 2000
+            set health of {boss_warden} to 2000
+
             # 1. Create the base ID first
             setup_maat_bar()
 
