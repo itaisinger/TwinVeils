@@ -1,9 +1,181 @@
 
+the circles the players spawn in open at night and close at dawn.
+if you stay outside after closing a wither spawns in you, so at early game you'd rather return before that.
+
+overall walkthrough:
+
+your final goal is the view the credits.
+you view the credits after beating all three bosses.
+each boss defeated will reward you with a block. you need to place that block on a specific spot in the nether.
+the nether has three spots, each marked with bedrock, colored particles and a clue.
+red particles - wither boss, place beacon
+purple particles - ender dragon, place dragon egg
+dark blue particles - warden boss, place sculk catalyst (I know its not a unique item, refer to known problems for more)
+
+killing the wither is kind of the first big main quest.
+its pretty straight forward, you just stay outside in the day and wait for it.
+at any time a maximum of 1 wither spawns at each zone.
+it despawns if the zone is devoid of players. If the wither is damaged then despawns and respawns he keeps the damage. It also doesnt have regenerate health.
+after the wither is beaten and before the other bosses are beaten the game is stuck on night.
+
+killing the ender dragon is the second and largest main quest.
+ender pearl are earned normally*, but since the nether is empty there is no way to find blazes (they are also forced despawned at all times).
+throughout the map, every region has 1-3 blaze powders.
+the blaze powders are renamed to "ember of ra". they are all moderately hard to get and require you to tackle some puzzle or combat challenge or both.
+after you get all 12 embers you can use them to find the stronghold. I made it so they cannot break so dont stress using them a lot.
+
+after you beat the ender dragon and take its egg, place it in the spot in the nether.
+after the wither and the ender dragon are beaten and their blocks placed, all players will be teleported to on of the basees (use /fight_set_loc <u/f> to choose which one)
+and a countdown will begin, at the end of which the warden will spawn.
+
+the warden has a x4 health and a few special attacks. after getting its block and placing it in the nether credits play and the map is beaten.
+
+per area:
+
+ - Desert:
+The desert has only 1 ember of ra inside the pyramid at the bottom. The pyramid is roughly in the center of the region.
+Go through the paintings, avoiding a few traps and killing or skipping over two buffed mobs to get into Khazamir's grave, inside of which is a chest with the ember.
+Other than that the desert has two villages. The southern village, Diya al Sahra has a priest (librarian) that sells some totems of undying.
+both villages contain lore and resin clumps. Villagers in this map trade with resin clumps instead of emerald.
+there are two more places but they contain just lore/loot: altar on the mountain and the lava pool (originally i wanted lava to be rare and that be the only place to get it but i soon realized it wasn't realistic).
+
+ - Ocean:
+The ocean has two embers.
+First ember is inside the maze (more about the mazes later). the maze is on the north east. there is also warm ocean there.
+Second ember is achieved by completing the ocean heads quest:
+in the village is a lore book with clues, and also on the island in the middle.
+the quest is to raid 3 ocean temples.
+each ocean has a costum player head inside the middle treasure cube.
+each head has a subtitle: "left/middle/right head of the sun"
+Near the village is a wither statue looking thing made from prism shard or whatever those ocean blocks are called.
+Place the ocean heads at the correspoding spots to start the ritual and summon a chest with ember of ra.
+
+other than that there is also a witch hut which contain a brewing stand, which are rare due to blazes not being a thing.
+there is also a treasure map in the south that points to a treasure near.
+
+ - Snow:
+ The snow has 2 embers of ra. 
+ One inside a maze and one inside the pillager camp.
+ In the middle mountain is the pillager camp. 
+ There is the center tower and around it are small camps. each camp has its pillager mobs the circle around it. if you kill these mobs, at 6:00am 5 mobs refill mobs spawn at the center tower, 
+ then slowly walk back into their designated camp.
+ The ember of ra is inside a chest at the very top of the tower, after the ladder.
+ 
+ the other ember is in the maze which is to the east. other than that:
+ - near the maze there is an ender spot: a chunk of ender stone instead of ice. this place spawns endermen, similar to a spawner but slower.
+ - to the west is a witch hut with a brewing stand.
+ - there are 3 villages, but only one of them is active. The two southern villages are raided by pillagers and nothing is there.
+ on the north east mountain there is a netherite village, a village that sits on top of a mountain that contains a lot of netherite.
+ 
+ - Plains:
+the plains is supposed to be the most cursed region.
+other than being 32 blocks lower than normal, the surface is only a few blocks thick, and underneath is a lower layer. The lower layer has no resources, the entire ground is made from a stone mix.
+there is lava and tons of monsters and spawners. The spawners have some loot but nothing gamechaning, the creeper spawners have some netherite and diamonds.
+In the center there is a lava pool with an island with a tower containing an ember of ra.
+In the north west there is a jungle temple-ish looking structure that contains a netherite upgrade.
+
+ - Pale garden / woodlands:
+The southern region is a woodlands + pale gardens.
+It has two embers of ra, one in the maze (in the middle in the snow) and the other in a woodland mansion.
+The woodland mansion is in the opposite corner of the entrance, in the south east. It has more vendicators and envokers than usual and also some creakings.
+The ember is in a statue room in the top floor.
+
+other than that there is a witch hut in the east pale garden.
+in the pale gardens you can find and fight creakings who drop resin clump, that is essentially emerald, making it the best way to farm emerald.
+
+there is also a pillager camp close by to the entrance but there isnt anything too special there.
+
+ghasts spawn in the pale gardens.
+
+ - floating Badlands islands:
+The west region is a floating islands dimensions with mostly badlands variants save for two cherry groves.
+there are 3 embers of ra here. one in each cherry grove and one in the maze.
+The maze is roughlyin the middle.
+Iron golems spawn inside the cherry groves and are agressive towards players (this feature doesnt work 100%)
+The north cherry grove is home to a iron golem boss alongside the normal ones. It has more hp, is faster and has two special attacks:
+- consume: it stands in place and consumes iron-made items from your inventory (if ill get to it ill buff it to consume also diamond and netherite).
+when it consume an item it heals. if its a normal item it makes it dissapear, if its a tool it removes durability.
+when it dies it drops an ember of ra.
+
+In the other cherry grove is a witch hut with a brewing stand alongside some loot.
+At the basement is a caged iron golem. The lever makes it touch lava and hurt. When it is hurt it consumes energy and heals.
+kill it with or without lava to get an ember of ra.
+
+other than that there is an end spot where enderman spawn like in the snow. its in the lower y, north west of the maze sort of.
+there are also quite a few trial chambers around there but i didnt plan that.
+
+- Underground:
+The south east region is an underground region. It is 64 blocks higher than normal so at normal sea level there is already some deepslate.
+There are 2 embers of ra and quite a few things here.
+
+The first ember is in the trial chamber. it is located on the south east.
+the trial chamber has a room with a bunch of amethyst. in its center are 5 copper lamps. one of them has a "trial core" block on it, and is thus activated.
+you need to find another 4 cores and place them accordingly to spawn a chest with an ember in their place.
+The trial cores you get from the ominous trial chests. 
+the trial chests in this trial chamber reset every day, so you dont need to look around for more trial chambers if you run out of chests.
+
+For the second ember you need to visit the three ancient cities.
+Each city has 3-4 bedrocks inside different chests hidden around.
+in a different place in the region there is an underground mineshaft village. In the village is a knowledge book named "book of creation".
+use this book to gain a crafting recipe: 9 bedrocks -> 1 ember of ra.
+
+finding the key places in the underground is quite a challenge, so i made a map that highlights these places.
+The map can be found in one of 5 places.
+- in a hidden room deep in the southern enclosure
+- in each of the 3 ancient cities
+- in the mineshaft village
+
+The overground in this region is all filled with lava, there isnt too much to look for, other than:
+
+a huge glowstone orb contains a bunch of diamonds.
+a nether themed spot contains a dried ghast and a bunch of netherite.
+
+
+
+/////////////////////  
+
+thats it for the areas. next is the mazes.
+
+in 4 of the regions are mazes. each maze is a small maze leading to an ascending straicase, at the top of which is a costum teleporter.
+to use the teleporter use an ender pearl. dont aim at the block, best is to aim forward (the teleporter has sort of an hitbox that you need to hit with the pearl. if you aim straight into the block you have a chance to hit the block itself before it registers the hit on the hitbox).
+The teleporters are one way and each lead to a different place.
+Each of the teleports at the top of the staircases lead to the entrances of 1 of 4 challenge mazes.
+3 of the challenge mazes contain embers of ra.
+
+pale garden maze -> infiniate maze
+this is the easiest one. its quite a small maze, with the twist of it looping back like pacman.
+you can distinguish this one by being the only one with 1 block wide corridors.
+This is the only maze without an ember of ra. instead there is a netherite upgrade.
+
+badlands -> large maze
+this one doesnt have too much of trick, its just huge (500x500).
+There are quite a few spots with chests with loot around, and in the center there is an ember of ra and a teleporter.
+The middle center is a maze with narrower walls and corridors, so if you find it you're on the right track.
+to my xp it takes about 1.5 hours to finish with 3 ppl.
+
+snow -> reset room
+this is is a rather small maze with a prize room in the middle.
+You can see the room with the chest from a few block high windows.
+the twist is that when you enter the room it is switched for a similar room that is filled with obsidian, the chest is also sorrounded with obsidian.
+there is also a zombie spawner under the chest inside the obsidian. 
+the extra twist is that every 13 seconds the room reset. so you have to mine the obisidan and take the ember of ra fast.
+once you take the ember of ra the reset is disabled.
+
+ocean -> tp maze
+this is a mindfuck maze that changes along when you move through it.
+it works by teleporting you through 4 versions of the same small (50x50) maze.
+every teleport transfers you to the next one and only the next one, meaning 4 teleporters will bring you back to the first.
+the ember is in the 4th version. you can find item frames with rotated stew, the rotation signlas what version of the maze you are in.
+that all being said, the best way to solve the maze it to just mark where you've been and ignore the gimmicks.
+at some point you'll be stuck in a small two sided dead end room. press the button on the wall. this is close to the end.
+
 known problems:
 - you can get out of the bounds of the map by placing a nether portal on the north-west or south-east parts of the nether
 - you can cheat the mazes with nether portals. the chances that itll help you finish them is low, but the chance of just escaping and ruining the experience is high
 - you can just climb the walls and leave. you can use world border if you want to stop that but I didn't want to.
 - you need to manually choose which base will hold the final fight using /fight_set_loc <u/f>
+- to finish the game you must place a scult catalyst in the center of the nether. you get it from the warden but you can also find it in the ancient cities with silk touch.
+currently i didnt add anything like the boss dropping a catalyst with costum name and tag cuz its a bit lame, so currently you can cheat the whole game.
 
 if you need any help contact me:
 - itai5000si2@gmail.com
